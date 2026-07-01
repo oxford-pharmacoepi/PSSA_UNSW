@@ -1,50 +1,51 @@
-# ADD NECESSARY PACKAGES
-
 library(CDMConnector)
+library(CodelistGenerator)
 library(DBI)
-library(log4r)
 library(dplyr)
-library(here)
+library(omopgenerics)
+library(readr)
 
-# database metadata and connection details
-# The name/ acronym for the database
-dbName <- "..."
+studyPath <- normalizePath(
+  if (file.exists("RunStudy.R")) {
+    "."
+  } else if (file.exists(file.path("Study", "RunStudy.R"))) {
+    "Study"
+  } else {
+    stop("Run CodeToRun.R from the repository root or from the Study directory.")
+  },
+  mustWork = TRUE
+)
 
-# Database connection details
-# In this study we also use the DBI package to connect to the database
-# set up the dbConnect details below
-# https://darwin-eu.github.io/CDMConnector/articles/DBI_connection_examples.html 
-# for more details.
-# you may need to install another package for this 
-# eg for postgres 
-# db <- dbConnect(
-#   RPostgres::Postgres(), 
-#   dbname = server_dbi, 
-#   port = port, 
-#   host = host, 
-#   user = user,
-#   password = password
+dbName <- "UNSW"
+
+# Example only. Replace with the site's DBI connection call.
+# db <- DBI::dbConnect(
+#   RPostgres::Postgres(),
+#   dbname = Sys.getenv("CDM_DBNAME"),
+#   host = Sys.getenv("CDM_HOST"),
+#   port = as.integer(Sys.getenv("CDM_PORT")),
+#   user = Sys.getenv("CDM_USER"),
+#   password = Sys.getenv("CDM_PASSWORD")
 # )
-db <- dbConnect("...")
+db <- DBI::dbConnect("...")
 
-# The name of the schema that contains the OMOP CDM with patient-level data
 cdmSchema <- "..."
-
-# A prefix for all permanent tables in the database
-writePrefix <- "..."
-
-# The name of the schema where results tables will be created 
+writePrefix <- "pssa_unsw"
 writeSchema <- c(schema = "...", prefix = writePrefix)
+achillesSchema <- NULL
 
-# The name of the schema that contains the results from running Achilles package
-# it can be removed if Achilles stables are not needed.
-achillesSchema <- "..."
+minCellCount <- 6
 
-# minimum counts that can be displayed according to data governance
-minCellCount <- 5
+cohortTableName <- "pssa_study_cohorts"
+requiredObservation <- c(365, 365)
 
-# Run the study
-source(here("RunStudy.R"))
+pssaSettings <- list(
+  cohortTableName = cohortTableName,
+  codelistFile = file.path(studyPath, "inst", "mock_codelists.csv"),
+  analysisSettingsFile = file.path(studyPath, "inst", "analysis_settings.csv"),
+  minCellCount = minCellCount
+)
 
-# after the study is run you should have a zip folder in your output folder to share
+source(file.path(studyPath, "RunStudy.R"))
+
 cli::cli_alert_success("Study finished")

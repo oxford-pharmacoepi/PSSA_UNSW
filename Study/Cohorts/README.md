@@ -1,3 +1,4 @@
 # Cohorts
 
-Add here the code and json files to instantiate the cohorts for your study.
+This folder contains the code that instantiates the prespecified codelists as
+OMOP cohort tables.

@@ -37,3 +37,6 @@ vignettes/*.pdf
 
 # R Environment Variables
 .Renviron
+Study/Results/*
+!Study/Results/README.md
+.Rproj.user
