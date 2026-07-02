@@ -1,0 +1,2 @@
+pair_id,cohort_name,codelist_type,concept_id,include_descendants,concept_name
+metformin_type_2_diabetes,type_2_diabetes,diagnosis,201826,TRUE,Type 2 diabetes mellitus
