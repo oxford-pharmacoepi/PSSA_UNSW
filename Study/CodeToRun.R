@@ -36,15 +36,9 @@ achillesSchema <- NULL
 
 minCellCount <- 6
 
-cohortTableName <- "pssa_study_cohorts"
+indexTableName <- "pssa_drug_cohorts"
+markerTableName <- "pssa_diagnosis_cohorts"
 requiredObservation <- c(365, 365)
-
-pssaSettings <- list(
-  cohortTableName = cohortTableName,
-  codelistFile = file.path(studyPath, "inst", "mock_codelists.csv"),
-  analysisSettingsFile = file.path(studyPath, "inst", "analysis_settings.csv"),
-  minCellCount = minCellCount
-)
 
 source(file.path(studyPath, "RunStudy.R"))
 
