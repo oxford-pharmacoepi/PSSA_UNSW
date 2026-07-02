@@ -1,6 +1,6 @@
 source(file.path(studyPath, "Codelists.R"))
 
-codelistInputs <- readStudyCodelists(path = here::here("inst", "mock_codelists.csv"))
+codelistInputs <- readStudyCodelists(path = file.path(studyPath, "inst", "mock_codelists.csv"))
 
 if (!requireNamespace("CohortSymmetry", quietly = TRUE)) {
   stop(
@@ -10,7 +10,7 @@ if (!requireNamespace("CohortSymmetry", quietly = TRUE)) {
 }
 
 analysisSettings <- readr::read_csv(
-  here::here("inst", "analysis_settings.csv"),
+  file.path(studyPath, "inst", "analysis_settings.csv"),
   col_types = readr::cols(
     analysis_id = readr::col_character(),
     prior_window = readr::col_integer(),
@@ -22,13 +22,31 @@ analysisSettings <- readr::read_csv(
   )
 )
 
-cohortSettings <- omopgenerics::settings(cdm[["pssa_study_cohorts"]]) |>
-  dplyr::select(cohort_definition_id, cohort_name)
-
 analysisPairs <- codelistInputs$analysis_pairs
 
 sequenceRatioResults <- list()
 adjustedSequenceRatioResults <- list()
+
+indexCohortSettings <- omopgenerics::settings(cdm[[indexTableName]]) |>
+  dplyr::select("cohort_definition_id", "cohort_name")
+
+markerCohortSettings <- omopgenerics::settings(cdm[[markerTableName]]) |>
+  dplyr::select("cohort_definition_id", "cohort_name")
+
+getCohortId <- function(cohortSettings, cohortName) {
+  cohortId <- cohortSettings |>
+    dplyr::filter(.data$cohort_name == .env$cohortName) |>
+    dplyr::pull("cohort_definition_id")
+  if (length(cohortId) != 1) {
+    stop(
+      "Expected exactly one cohort_definition_id for cohort_name ",
+      cohortName,
+      ". Found: ",
+      paste(cohortId, collapse = ", ")
+    )
+  }
+  cohortId
+}
 
 for (pairIndex in seq_len(nrow(analysisPairs))) {
   for (settingIndex in seq_len(nrow(analysisSettings))) {
@@ -38,18 +56,10 @@ for (pairIndex in seq_len(nrow(analysisPairs))) {
     
     cdm$sequencecohort <- CohortSymmetry::generateSequenceCohortSet(
       cdm = cdm,
-      indexTable = cohortTableName,
-      indexId = cohortSettings |>
-        dplyr::filter(cohort_name == pair |>
-                        dplyr::pull(drug_cohort_name)
-        ) |>
-        dplyr::pull(cohort_definition_id),
-      markerTable = cohortTableName,
-      markerId = cohortSettings |>
-        dplyr::filter(cohort_name == pair |>
-                        dplyr::pull(diagnosis_cohort_name)
-        ) |>
-        dplyr::pull(cohort_definition_id),
+      indexTable = indexTableName,
+      indexId = getCohortId(indexCohortSettings, pair$drug_cohort_name),
+      markerTable = markerTableName,
+      markerId = getCohortId(markerCohortSettings, pair$diagnosis_cohort_name),
       name = "sequencecohort",
       washoutWindow = setting$washout_window,
       daysPriorObservation = setting$days_prior_observation,

@@ -22,7 +22,6 @@ omopgenerics::exportSummarisedResult(
   minCellCount = minCellCount
 )
 
-omopgenerics::logMessage("Instantiating study cohorts")
 source(file.path(studyPath, "Cohorts", "InstantiateCohorts.R"))
 
 omopgenerics::logMessage("Running CohortSymmetry analysis")
