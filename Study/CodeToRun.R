@@ -36,8 +36,6 @@ achillesSchema <- NULL
 
 minCellCount <- 6
 
-indexTableName <- "pssa_drug_cohorts"
-markerTableName <- "pssa_diagnosis_cohorts"
 requiredObservation <- c(365, 365)
 
 source(file.path(studyPath, "RunStudy.R"))

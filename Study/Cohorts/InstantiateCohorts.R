@@ -1,26 +1,17 @@
-source(file.path(studyPath, "Codelists.R"))
+instantiatePairCohorts <- function(cdm, codelists, pair, indexTableName, markerTableName) {
+  omopgenerics::logMessage(paste("Instantiating cohorts for", pair$pair_id))
 
-omopgenerics::logMessage("Instantiating study cohorts")
-codelistInputs <- readStudyCodelists(path = file.path(studyPath, "inst", "mock_codelists.csv"))
+  cdm[[indexTableName]] <- CohortConstructor::conceptCohort(
+    cdm = cdm,
+    conceptSet = codelists[pair$drug_cohort_name],
+    name = indexTableName
+  )
 
-drugCohorts <- codelistInputs$codelist_specification |>
-  dplyr::filter(.data$codelist_type == "drug") |>
-  dplyr::distinct(.data$cohort_name) |>
-  dplyr::pull("cohort_name")
+  cdm[[markerTableName]] <- CohortConstructor::conceptCohort(
+    cdm = cdm,
+    conceptSet = codelists[pair$diagnosis_cohort_name],
+    name = markerTableName
+  )
 
-diagnosisCohorts <- codelistInputs$codelist_specification |>
-  dplyr::filter(.data$codelist_type == "diagnosis") |>
-  dplyr::distinct(.data$cohort_name) |>
-  dplyr::pull("cohort_name")
-
-cdm[[indexTableName]] <- CohortConstructor::conceptCohort(
-  cdm = cdm,
-  conceptSet = codelistInputs$codelists[drugCohorts],
-  name = indexTableName
-)
-
-cdm[[markerTableName]] <- CohortConstructor::conceptCohort(
-  cdm = cdm,
-  conceptSet = codelistInputs$codelists[diagnosisCohorts],
-  name = markerTableName
-)
+  cdm
+}
