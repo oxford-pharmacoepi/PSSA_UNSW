@@ -1,4 +1,5 @@
 source(file.path(studyPath, "Codelists.R"))
+source(file.path(studyPath, "Cohorts", "InstantiateCohorts.R"))
 
 codelistInputs <- readStudyCodelists(path = file.path(studyPath, "inst", "mock_codelists.csv"))
 
@@ -27,20 +28,13 @@ analysisPairs <- codelistInputs$analysis_pairs
 sequenceRatioResults <- list()
 adjustedSequenceRatioResults <- list()
 
-indexCohortSettings <- omopgenerics::settings(cdm[[indexTableName]]) |>
-  dplyr::select("cohort_definition_id", "cohort_name")
-
-markerCohortSettings <- omopgenerics::settings(cdm[[markerTableName]]) |>
-  dplyr::select("cohort_definition_id", "cohort_name")
-
-getCohortId <- function(cohortSettings, cohortName) {
-  cohortId <- cohortSettings |>
-    dplyr::filter(.data$cohort_name == .env$cohortName) |>
+getCohortId <- function(cohortTable) {
+  cohortId <- omopgenerics::settings(cohortTable) |>
     dplyr::pull("cohort_definition_id")
   if (length(cohortId) != 1) {
     stop(
-      "Expected exactly one cohort_definition_id for cohort_name ",
-      cohortName,
+      "Expected exactly one cohort_definition_id in ",
+      omopgenerics::tableName(cohortTable),
       ". Found: ",
       paste(cohortId, collapse = ", ")
     )
@@ -49,17 +43,28 @@ getCohortId <- function(cohortSettings, cohortName) {
 }
 
 for (pairIndex in seq_len(nrow(analysisPairs))) {
+  pair <- analysisPairs[pairIndex, ]
+  indexTableName <- paste0("pssa_drug_cohort_", pairIndex)
+  markerTableName <- paste0("pssa_diagnosis_cohort_", pairIndex)
+
+  cdm <- instantiatePairCohorts(
+    cdm = cdm,
+    codelists = codelistInputs$codelists,
+    pair = pair,
+    indexTableName = indexTableName,
+    markerTableName = markerTableName
+  )
+
   for (settingIndex in seq_len(nrow(analysisSettings))) {
-    pair <- analysisPairs[pairIndex, ]
     setting <- analysisSettings[settingIndex, ]
     resultName <- paste(pair$pair_id, setting$analysis_id, sep = "_")
     
     cdm$sequencecohort <- CohortSymmetry::generateSequenceCohortSet(
       cdm = cdm,
       indexTable = indexTableName,
-      indexId = getCohortId(indexCohortSettings, pair$drug_cohort_name),
+      indexId = getCohortId(cdm[[indexTableName]]),
       markerTable = markerTableName,
-      markerId = getCohortId(markerCohortSettings, pair$diagnosis_cohort_name),
+      markerId = getCohortId(cdm[[markerTableName]]),
       name = "sequencecohort",
       washoutWindow = setting$washout_window,
       daysPriorObservation = setting$days_prior_observation,
