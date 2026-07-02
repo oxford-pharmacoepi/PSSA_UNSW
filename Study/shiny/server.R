@@ -306,4 +306,30 @@ server <- function(input, output, session) {
       gt::gtsave(getSequenceRatiosTable(), file)
     }
   )
+  getSequenceRatiosPlot <- shiny::reactive({
+    getSequenceRatiosData() |>
+      cohortSymmetryPlot(
+        x = input$sequence_ratios_plot_x,
+        facet = input$sequence_ratios_plot_facet,
+        colour = input$sequence_ratios_plot_colour
+      )
+  })
+  output$sequence_ratios_plot <- plotly::renderPlotly({
+    plot <- getSequenceRatiosPlot()
+    if (inherits(plot, "ggplot")) {
+      plotly::ggplotly(plot)
+    } else {
+      plot
+    }
+  })
+  output$sequence_ratios_plot_download <- shiny::downloadHandler(
+    filename = "plot_sequence_ratios.html",
+    content = function(file) {
+      plot <- getSequenceRatiosPlot()
+      if (inherits(plot, "ggplot")) {
+        plot <- plotly::ggplotly(plot)
+      }
+      htmlwidgets::saveWidget(plot, file = file, selfcontained = TRUE)
+    }
+  )
 }

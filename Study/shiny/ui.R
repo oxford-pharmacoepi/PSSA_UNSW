@@ -460,6 +460,55 @@ ui <- bslib::page_navbar(
                 shinycssloaders::withSpinner()
             )
           )
+        ),
+        bslib::nav_panel(
+          title = "Plot",
+          bslib::card(
+            full_screen = TRUE,
+            bslib::card_header(
+              bslib::popover(
+                shiny::icon("download"),
+                shiny::downloadButton(outputId = "sequence_ratios_plot_download", label = "Download plot")
+              ),
+              class = "text-end"
+            ),
+            bslib::layout_sidebar(
+              sidebar = bslib::sidebar(
+                shinyWidgets::materialSwitch(
+                  inputId = "sequence_ratios_plot_interactive",
+                  label = "Interactive",
+                  value = TRUE
+                ),
+                shinyWidgets::pickerInput(
+                  inputId = "sequence_ratios_plot_x",
+                  label = "x axis",
+                  choices = c("cdm_name", "index_cohort_name", "marker_cohort_name", "variable_name", "variable_level", "estimate_name"),
+                  selected = "variable_name",
+                  multiple = FALSE,
+                  options = list(`actions-box` = TRUE, size = 10, `selected-text-format` = "count > 3")
+                ),
+                shinyWidgets::pickerInput(
+                  inputId = "sequence_ratios_plot_facet",
+                  label = "Facet",
+                  choices = c("cdm_name", "index_cohort_name", "marker_cohort_name", "cohort_date_range", "combination_window", "washout_window"),
+                  selected = "cdm_name",
+                  multiple = TRUE,
+                  options = list(`actions-box` = TRUE, size = 10, `selected-text-format` = "count > 3")
+                ),
+                shinyWidgets::pickerInput(
+                  inputId = "sequence_ratios_plot_colour",
+                  label = "Colour",
+                  choices = c("estimate_name", "index_cohort_name", "marker_cohort_name", "cohort_date_range", "combination_window", "washout_window"),
+                  selected = "estimate_name",
+                  multiple = TRUE,
+                  options = list(`actions-box` = TRUE, size = 10, `selected-text-format` = "count > 3")
+                ),
+                position = "right"
+              ),
+              plotly::plotlyOutput("sequence_ratios_plot") |>
+                shinycssloaders::withSpinner()
+            )
+          )
         )
       )
     )

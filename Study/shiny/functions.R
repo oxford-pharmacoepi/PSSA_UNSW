@@ -389,3 +389,127 @@ renderInteractivePlot <- function(plt, interactive) {
     shiny::renderPlot(plt)
   }
 }
+
+# CohortSymmetry helpers
+cohortSymmetryExport <- function(functionNames) {
+  if (!requireNamespace("CohortSymmetry", quietly = TRUE)) {
+    return(NULL)
+  }
+
+  for (functionName in functionNames) {
+    fn <- tryCatch(
+      getExportedValue("CohortSymmetry", functionName),
+      error = function(e) NULL
+    )
+    if (!is.null(fn)) {
+      return(fn)
+    }
+  }
+  NULL
+}
+
+cohortSymmetryResultType <- function(result) {
+  resultTypes <- tryCatch(
+    unique(omopgenerics::settings(result)$result_type),
+    error = function(e) character()
+  )
+  if (any(grepl("adjusted", resultTypes, ignore.case = TRUE))) {
+    "adjusted"
+  } else {
+    "sequence"
+  }
+}
+
+cohortSymmetryCall <- function(functionNames, result, args = list()) {
+  fn <- cohortSymmetryExport(functionNames)
+  if (is.null(fn)) {
+    return(NULL)
+  }
+
+  calls <- list(
+    c(list(result), args),
+    c(list(result = result), args),
+    c(list(x = result), args),
+    list(result),
+    list(result = result),
+    list(x = result)
+  )
+
+  for (callArgs in calls) {
+    value <- tryCatch(
+      do.call(fn, callArgs),
+      error = function(e) NULL
+    )
+    if (!is.null(value)) {
+      return(value)
+    }
+  }
+  NULL
+}
+
+cohortSymmetryTable <- function(result, header = character(), group = character(), hide = character()) {
+  resultType <- cohortSymmetryResultType(result)
+  functionNames <- if (identical(resultType, "adjusted")) {
+    c("tableAdjustedSequenceRatios", "tableAdjustedSequenceRatio", "tableSequenceRatios")
+  } else {
+    c("tableSequenceRatios", "tableSequenceRatio")
+  }
+
+  table <- cohortSymmetryCall(
+    functionNames = functionNames,
+    result = result,
+    args = list(header = header, groupColumn = group, hide = hide, type = "gt")
+  )
+
+  if (!is.null(table)) {
+    return(table)
+  }
+
+  simpleTable(result, header = header, group = group, hide = hide)
+}
+
+cohortSymmetryPlot <- function(result, x = "variable_name", facet = "cdm_name", colour = "estimate_name") {
+  resultType <- cohortSymmetryResultType(result)
+  functionNames <- if (identical(resultType, "adjusted")) {
+    c("plotAdjustedSequenceRatios", "plotAdjustedSequenceRatio", "plotSequenceRatios")
+  } else {
+    c("plotSequenceRatios", "plotSequenceRatio")
+  }
+
+  plot <- cohortSymmetryCall(
+    functionNames = functionNames,
+    result = result,
+    args = list(x = x, facet = facet, colour = colour)
+  )
+
+  if (!is.null(plot)) {
+    return(plot)
+  }
+
+  tidyResult <- result |>
+    omopgenerics::tidy() |>
+    dplyr::mutate(estimate_value = suppressWarnings(as.numeric(.data$estimate_value))) |>
+    dplyr::filter(!is.na(.data$estimate_value))
+
+  if (nrow(tidyResult) == 0) {
+    return(ggplot2::ggplot() + ggplot2::theme_void())
+  }
+
+  ratioRows <- tidyResult |>
+    dplyr::filter(grepl("ratio", .data$estimate_name, ignore.case = TRUE))
+  if (nrow(ratioRows) > 0) {
+    tidyResult <- ratioRows
+  }
+
+  ggplot2::ggplot(
+    tidyResult,
+    ggplot2::aes(
+      x = .data$variable_name,
+      y = .data$estimate_value,
+      colour = .data$estimate_name
+    )
+  ) +
+    ggplot2::geom_point() +
+    ggplot2::coord_flip() +
+    ggplot2::labs(x = NULL, y = NULL, colour = NULL)
+}
