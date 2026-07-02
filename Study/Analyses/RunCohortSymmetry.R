@@ -1,8 +1,3 @@
-source(file.path(studyPath, "Codelists.R"))
-source(file.path(studyPath, "Cohorts", "InstantiateCohorts.R"))
-
-codelistInputs <- readStudyCodelists(path = file.path(studyPath, "inst", "mock_codelists.csv"))
-
 if (!requireNamespace("CohortSymmetry", quietly = TRUE)) {
   stop(
     "The CohortSymmetry package is required to run the PSSA. ",
@@ -23,49 +18,27 @@ analysisSettings <- readr::read_csv(
   )
 )
 
-analysisPairs <- codelistInputs$analysis_pairs
+if (!exists("pssaCohortPairs")) {
+  stop("Study cohorts must be instantiated before running CohortSymmetry.")
+}
 
 sequenceRatioResults <- list()
 adjustedSequenceRatioResults <- list()
 
-getCohortId <- function(cohortTable) {
-  cohortId <- omopgenerics::settings(cohortTable) |>
-    dplyr::pull("cohort_definition_id")
-  if (length(cohortId) != 1) {
-    stop(
-      "Expected exactly one cohort_definition_id in ",
-      omopgenerics::tableName(cohortTable),
-      ". Found: ",
-      paste(cohortId, collapse = ", ")
-    )
-  }
-  cohortId
-}
-
-for (pairIndex in seq_len(nrow(analysisPairs))) {
-  pair <- analysisPairs[pairIndex, ]
-  indexTableName <- paste0("pssa_drug_cohort_", pairIndex)
-  markerTableName <- paste0("pssa_diagnosis_cohort_", pairIndex)
-
-  cdm <- instantiatePairCohorts(
-    cdm = cdm,
-    codelists = codelistInputs$codelists,
-    pair = pair,
-    indexTableName = indexTableName,
-    markerTableName = markerTableName
-  )
-
+for (pairIndex in seq_len(nrow(pssaCohortPairs))) {
+  pair <- pssaCohortPairs[pairIndex, ]
   for (settingIndex in seq_len(nrow(analysisSettings))) {
     setting <- analysisSettings[settingIndex, ]
     resultName <- paste(pair$pair_id, setting$analysis_id, sep = "_")
+    sequenceCohortName <- paste0("sequencecohort_", pairIndex, "_", settingIndex)
     
-    cdm$sequencecohort <- CohortSymmetry::generateSequenceCohortSet(
+    cdm <- CohortSymmetry::generateSequenceCohortSet(
       cdm = cdm,
-      indexTable = indexTableName,
-      indexId = getCohortId(cdm[[indexTableName]]),
-      markerTable = markerTableName,
-      markerId = getCohortId(cdm[[markerTableName]]),
-      name = "sequencecohort",
+      indexTable = pair$index_table,
+      indexId = pair$index_id,
+      markerTable = pair$marker_table,
+      markerId = pair$marker_id,
+      name = sequenceCohortName,
       washoutWindow = setting$washout_window,
       daysPriorObservation = setting$days_prior_observation,
       indexMarkerGap = setting$interval,
@@ -78,7 +51,7 @@ for (pairIndex in seq_len(nrow(analysisPairs))) {
     )
     sequenceRatioResults[[resultName]] <- CohortSymmetry::summariseSequenceRatios(
       cdm = cdm,
-      name = "sequencecohort"
+      name = sequenceCohortName
     )
 
     # adjusted too?
