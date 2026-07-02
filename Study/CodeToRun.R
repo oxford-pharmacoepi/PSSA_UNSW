@@ -36,8 +36,6 @@ achillesSchema <- NULL
 
 minCellCount <- 6
 
-requiredObservation <- c(365, 365)
-
 source(file.path(studyPath, "RunStudy.R"))
 
 cli::cli_alert_success("Study finished")

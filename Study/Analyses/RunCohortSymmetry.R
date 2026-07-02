@@ -50,8 +50,7 @@ for (pairIndex in seq_len(nrow(pssaCohortPairs))) {
       paste("Running sequence ratio", resultName)
     )
     sequenceRatioResults[[resultName]] <- CohortSymmetry::summariseSequenceRatios(
-      cdm = cdm,
-      name = sequenceCohortName
+      cohort = cdm[[sequenceCohortName]]
     )
 
     # adjusted too?

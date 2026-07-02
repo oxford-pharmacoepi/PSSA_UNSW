@@ -1,4 +1,4 @@
 analysis_id,prior_window,post_window,washout_window,interval,days_prior_observation,moving_avg_restriction
-primary_365d,365,365,365,30,0,548
-sensitivity_180d,180,180,180,30,0,548
-sensitivity_730d,730,730,365,30,0,548
+primary_365d,0,365,0,30,0,548
+sensitivity_180d,0,180,0,30,0,548
+sensitivity_730d,0,730,0,30,0,548
