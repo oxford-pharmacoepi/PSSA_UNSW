@@ -20,7 +20,8 @@ server <- function(input, output, session) {
   updateButtons <- shiny::reactiveValues(
     summarise_omop_snapshot = FALSE,
     summarise_log_file = FALSE,
-    sequence_ratios = FALSE
+    sequence_ratios = FALSE,
+    temporal_symmetry = FALSE
   )
 
   # summarise_omop_snapshot -----
@@ -326,6 +327,136 @@ server <- function(input, output, session) {
     filename = "plot_sequence_ratios.html",
     content = function(file) {
       plot <- getSequenceRatiosPlot()
+      if (inherits(plot, "ggplot")) {
+        plot <- plotly::ggplotly(plot)
+      }
+      htmlwidgets::saveWidget(plot, file = file, selfcontained = TRUE)
+    }
+  )
+
+  # temporal_symmetry -----
+  ## update message if filter is changed
+  shiny::observeEvent(input$temporal_symmetry_cdm_name, {
+    updateButtons$temporal_symmetry <- TRUE
+  }, ignoreInit = TRUE)
+  shiny::observeEvent(input$temporal_symmetry_index_name, {
+    updateButtons$temporal_symmetry <- TRUE
+  }, ignoreInit = TRUE)
+  shiny::observeEvent(input$temporal_symmetry_marker_name, {
+    updateButtons$temporal_symmetry <- TRUE
+  }, ignoreInit = TRUE)
+  shiny::observeEvent(input$temporal_symmetry_variable_name, {
+    updateButtons$temporal_symmetry <- TRUE
+  }, ignoreInit = TRUE)
+  shiny::observeEvent(input$temporal_symmetry_estimate_name, {
+    updateButtons$temporal_symmetry <- TRUE
+  }, ignoreInit = TRUE)
+  shiny::observeEvent(input$temporal_symmetry_cohort_date_range, {
+    updateButtons$temporal_symmetry <- TRUE
+  }, ignoreInit = TRUE)
+  shiny::observeEvent(input$temporal_symmetry_combination_window, {
+    updateButtons$temporal_symmetry <- TRUE
+  }, ignoreInit = TRUE)
+  shiny::observeEvent(input$temporal_symmetry_days_prior_observation, {
+    updateButtons$temporal_symmetry <- TRUE
+  }, ignoreInit = TRUE)
+  shiny::observeEvent(input$temporal_symmetry_index_marker_gap, {
+    updateButtons$temporal_symmetry <- TRUE
+  }, ignoreInit = TRUE)
+  shiny::observeEvent(input$temporal_symmetry_moving_average_restriction, {
+    updateButtons$temporal_symmetry <- TRUE
+  }, ignoreInit = TRUE)
+  shiny::observeEvent(input$temporal_symmetry_timescale, {
+    updateButtons$temporal_symmetry <- TRUE
+  }, ignoreInit = TRUE)
+  shiny::observeEvent(input$temporal_symmetry_washout_window, {
+    updateButtons$temporal_symmetry <- TRUE
+  }, ignoreInit = TRUE)
+  shiny::observeEvent(updateButtons$temporal_symmetry, {
+    if (updateButtons$temporal_symmetry == TRUE) {
+      output$update_message_temporal_symmetry <- shiny::renderText("Filters have changed please consider to use the update content button!")
+    } else {
+      output$update_message_temporal_symmetry <- shiny::renderText("")
+    }
+  })
+  shiny::observeEvent(input$update_temporal_symmetry, {
+    updateButtons$temporal_symmetry <- FALSE
+  })
+
+  ## get temporal_symmetry data
+  getTemporalSymmetryData <- shiny::eventReactive(input$update_temporal_symmetry, {
+    data[["temporal_symmetry"]] |>
+      dplyr::filter(
+        .data$cdm_name %in% input$temporal_symmetry_cdm_name,
+        .data$variable_name %in% input$temporal_symmetry_variable_name,
+        .data$estimate_name %in% input$temporal_symmetry_estimate_name
+      ) |>
+      omopgenerics::filterGroup(
+        .data$index_name %in% input$temporal_symmetry_index_name,
+        .data$marker_name %in% input$temporal_symmetry_marker_name
+      ) |>
+      omopgenerics::filterSettings(
+        .data$cdm_name %in% input$temporal_symmetry_cdm_name,
+        .data$cohort_date_range %in% input$temporal_symmetry_cohort_date_range,
+        .data$combination_window %in% input$temporal_symmetry_combination_window,
+        .data$days_prior_observation %in% input$temporal_symmetry_days_prior_observation,
+        .data$index_marker_gap %in% input$temporal_symmetry_index_marker_gap,
+        .data$moving_average_restriction %in% input$temporal_symmetry_moving_average_restriction,
+        .data$timescale %in% input$temporal_symmetry_timescale,
+        .data$washout_window %in% input$temporal_symmetry_washout_window
+      )
+  })
+  getTemporalSymmetryTidy <- shiny::reactive({
+    tidyDT(getTemporalSymmetryData(), input$temporal_symmetry_tidy_columns, input$temporal_symmetry_tidy_pivot_estimates)
+  })
+  output$temporal_symmetry_tidy <- DT::renderDT({
+    getTemporalSymmetryTidy()
+  })
+  output$temporal_symmetry_tidy_download <- shiny::downloadHandler(
+    filename = "tidy_results.csv",
+    content = function(file) {
+      getTemporalSymmetryData() |>
+        omopgenerics::tidy() |>
+        readr::write_csv(file = file)
+    }
+  )
+  getTemporalSymmetryTable <- shiny::reactive({
+    getTemporalSymmetryData() |>
+      cohortSymmetryTable(
+        header = input$temporal_symmetry_table_header,
+        group = input$temporal_symmetry_table_group_column,
+        hide = input$temporal_symmetry_table_hide
+      )
+  })
+  output$temporal_symmetry_table <- gt::render_gt({
+    getTemporalSymmetryTable()
+  })
+  output$temporal_symmetry_table_download <- shiny::downloadHandler(
+    filename = paste0("table.", input$temporal_symmetry_table_format),
+    content = function(file) {
+      gt::gtsave(getTemporalSymmetryTable(), file)
+    }
+  )
+  getTemporalSymmetryPlot <- shiny::reactive({
+    getTemporalSymmetryData() |>
+      cohortSymmetryPlot(
+        x = input$temporal_symmetry_plot_x,
+        facet = input$temporal_symmetry_plot_facet,
+        colour = input$temporal_symmetry_plot_colour
+      )
+  })
+  output$temporal_symmetry_plot <- plotly::renderPlotly({
+    plot <- getTemporalSymmetryPlot()
+    if (inherits(plot, "ggplot")) {
+      plotly::ggplotly(plot)
+    } else {
+      plot
+    }
+  })
+  output$temporal_symmetry_plot_download <- shiny::downloadHandler(
+    filename = "plot_temporal_symmetry.html",
+    content = function(file) {
+      plot <- getTemporalSymmetryPlot()
       if (inherits(plot, "ggplot")) {
         plot <- plotly::ggplotly(plot)
       }

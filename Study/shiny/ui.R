@@ -513,6 +513,252 @@ ui <- bslib::page_navbar(
       )
     )
   ),
+  bslib::nav_panel(
+    title = "Temporal symmetry",
+    icon = shiny::icon("folder"),
+    bslib::layout_sidebar(
+      sidebar = bslib::sidebar(
+        shinyWidgets::pickerInput(
+          inputId = "temporal_symmetry_cdm_name",
+          label = "CDM name",
+          choices = choices$temporal_symmetry_cdm_name,
+          selected = selected$temporal_symmetry_cdm_name,
+          multiple = TRUE,
+          options = list(`actions-box` = TRUE, size = 10, `selected-text-format` = "count > 3")
+        ),
+        shinyWidgets::pickerInput(
+          inputId = "temporal_symmetry_index_name",
+          label = "Index name",
+          choices = choices$temporal_symmetry_index_name,
+          selected = selected$temporal_symmetry_index_name,
+          multiple = TRUE,
+          options = list(`actions-box` = TRUE, size = 10, `selected-text-format` = "count > 3")
+        ),
+        shinyWidgets::pickerInput(
+          inputId = "temporal_symmetry_marker_name",
+          label = "Marker name",
+          choices = choices$temporal_symmetry_marker_name,
+          selected = selected$temporal_symmetry_marker_name,
+          multiple = TRUE,
+          options = list(`actions-box` = TRUE, size = 10, `selected-text-format` = "count > 3")
+        ),
+        shinyWidgets::pickerInput(
+          inputId = "temporal_symmetry_variable_name",
+          label = "Variable name",
+          choices = choices$temporal_symmetry_variable_name,
+          selected = selected$temporal_symmetry_variable_name,
+          multiple = TRUE,
+          options = list(`actions-box` = TRUE, size = 10, `selected-text-format` = "count > 3")
+        ),
+        shinyWidgets::pickerInput(
+          inputId = "temporal_symmetry_estimate_name",
+          label = "Estimate name",
+          choices = choices$temporal_symmetry_estimate_name,
+          selected = selected$temporal_symmetry_estimate_name,
+          multiple = TRUE,
+          options = list(`actions-box` = TRUE, size = 10, `selected-text-format` = "count > 3")
+        ),
+        shinyWidgets::pickerInput(
+          inputId = "temporal_symmetry_cohort_date_range",
+          label = "Cohort date range",
+          choices = choices$temporal_symmetry_cohort_date_range,
+          selected = selected$temporal_symmetry_cohort_date_range,
+          multiple = TRUE,
+          options = list(`actions-box` = TRUE, size = 10, `selected-text-format` = "count > 3")
+        ),
+        shinyWidgets::pickerInput(
+          inputId = "temporal_symmetry_combination_window",
+          label = "Combination window",
+          choices = choices$temporal_symmetry_combination_window,
+          selected = selected$temporal_symmetry_combination_window,
+          multiple = TRUE,
+          options = list(`actions-box` = TRUE, size = 10, `selected-text-format` = "count > 3")
+        ),
+        shinyWidgets::pickerInput(
+          inputId = "temporal_symmetry_days_prior_observation",
+          label = "Days prior observation",
+          choices = choices$temporal_symmetry_days_prior_observation,
+          selected = selected$temporal_symmetry_days_prior_observation,
+          multiple = TRUE,
+          options = list(`actions-box` = TRUE, size = 10, `selected-text-format` = "count > 3")
+        ),
+        shinyWidgets::pickerInput(
+          inputId = "temporal_symmetry_index_marker_gap",
+          label = "Index marker gap",
+          choices = choices$temporal_symmetry_index_marker_gap,
+          selected = selected$temporal_symmetry_index_marker_gap,
+          multiple = TRUE,
+          options = list(`actions-box` = TRUE, size = 10, `selected-text-format` = "count > 3")
+        ),
+        shinyWidgets::pickerInput(
+          inputId = "temporal_symmetry_moving_average_restriction",
+          label = "Moving average restriction",
+          choices = choices$temporal_symmetry_moving_average_restriction,
+          selected = selected$temporal_symmetry_moving_average_restriction,
+          multiple = TRUE,
+          options = list(`actions-box` = TRUE, size = 10, `selected-text-format` = "count > 3")
+        ),
+        shinyWidgets::pickerInput(
+          inputId = "temporal_symmetry_timescale",
+          label = "Timescale",
+          choices = choices$temporal_symmetry_timescale,
+          selected = selected$temporal_symmetry_timescale,
+          multiple = TRUE,
+          options = list(`actions-box` = TRUE, size = 10, `selected-text-format` = "count > 3")
+        ),
+        shinyWidgets::pickerInput(
+          inputId = "temporal_symmetry_washout_window",
+          label = "Washout window",
+          choices = choices$temporal_symmetry_washout_window,
+          selected = selected$temporal_symmetry_washout_window,
+          multiple = TRUE,
+          options = list(`actions-box` = TRUE, size = 10, `selected-text-format` = "count > 3")
+        ),
+        position = "left"
+      ),
+      shiny::actionButton(
+        inputId = "update_temporal_symmetry",
+        label = "Update content",
+        width = "200px"
+      ),
+      shiny::div(shiny::textOutput(outputId = "update_message_temporal_symmetry"), class = "ov_update_button"),
+      bslib::navset_card_tab(
+        bslib::nav_panel(
+          title = "Tidy",
+          bslib::card(
+            full_screen = TRUE,
+            bslib::card_header(
+              bslib::popover(
+                shiny::icon("download"),
+                shiny::downloadButton(outputId = "temporal_symmetry_tidy_download", label = "Download csv")
+              ),
+              class = "text-end"
+            ),
+            bslib::layout_sidebar(
+              sidebar = bslib::sidebar(
+                shinyWidgets::pickerInput(
+                  inputId = "temporal_symmetry_tidy_columns",
+                  label = "Columns",
+                  choices = c("cdm_name", "index_name", "marker_name", "cohort_date_range", "combination_window", "days_prior_observation", "index_marker_gap", "moving_average_restriction", "timescale", "washout_window", "variable_name", "variable_level"),
+                  selected = c("cdm_name", "index_name", "marker_name", "variable_name", "variable_level"),
+                  multiple = TRUE,
+                  options = list(`actions-box` = TRUE, size = 10, `selected-text-format` = "count > 3")
+                ),
+                shiny::checkboxInput(
+                  inputId = "temporal_symmetry_tidy_pivot_estimates",
+                  label = "Pivot estimates",
+                  value = TRUE
+                ),
+                position = "right"
+              ),
+              DT::DTOutput("temporal_symmetry_tidy") |>
+                shinycssloaders::withSpinner()
+            )
+          )
+        ),
+        bslib::nav_panel(
+          title = "Table",
+          bslib::card(
+            full_screen = TRUE,
+            bslib::card_header(
+              bslib::popover(
+                shiny::icon("download"),
+                shinyWidgets::pickerInput(
+                  inputId = "temporal_symmetry_table_format",
+                  label = "Format",
+                  choices = c("docx", "png", "pdf", "html"),
+                  selected = "docx",
+                  multiple = FALSE,
+                  options = list(`actions-box` = TRUE, size = 10, `selected-text-format` = "count > 3")
+                ),
+                shiny::downloadButton(outputId = "temporal_symmetry_table_download", label = "Download table")
+              ),
+              class = "text-end"
+            ),
+            bslib::layout_sidebar(
+              sidebar = bslib::sidebar(
+                sortable::bucket_list(
+                  header = NULL,
+                  sortable::add_rank_list(
+                    text = "None",
+                    labels = c("cdm_name", "index_name", "marker_name", "cohort_date_range", "combination_window", "days_prior_observation", "index_marker_gap", "moving_average_restriction", "timescale", "washout_window", "variable_name", "variable_level", "estimate_name"),
+                    input_id = "temporal_symmetry_table_none"
+                  ),
+                  sortable::add_rank_list(
+                    text = "Header",
+                    labels = character(),
+                    input_id = "temporal_symmetry_table_header"
+                  ),
+                  sortable::add_rank_list(
+                    text = "Group columns",
+                    labels = character(),
+                    input_id = "temporal_symmetry_table_group_column"
+                  ),
+                  sortable::add_rank_list(
+                    text = "Hide",
+                    labels = character(),
+                    input_id = "temporal_symmetry_table_hide"
+                  )
+                ),
+                position = "right"
+              ),
+              gt::gt_output("temporal_symmetry_table") |>
+                shinycssloaders::withSpinner()
+            )
+          )
+        ),
+        bslib::nav_panel(
+          title = "Plot",
+          bslib::card(
+            full_screen = TRUE,
+            bslib::card_header(
+              bslib::popover(
+                shiny::icon("download"),
+                shiny::downloadButton(outputId = "temporal_symmetry_plot_download", label = "Download plot")
+              ),
+              class = "text-end"
+            ),
+            bslib::layout_sidebar(
+              sidebar = bslib::sidebar(
+                shinyWidgets::materialSwitch(
+                  inputId = "temporal_symmetry_plot_interactive",
+                  label = "Interactive",
+                  value = TRUE
+                ),
+                shinyWidgets::pickerInput(
+                  inputId = "temporal_symmetry_plot_x",
+                  label = "x axis",
+                  choices = c("cdm_name", "index_name", "marker_name", "variable_name", "variable_level"),
+                  selected = "variable_level",
+                  multiple = FALSE,
+                  options = list(`actions-box` = TRUE, size = 10, `selected-text-format` = "count > 3")
+                ),
+                shinyWidgets::pickerInput(
+                  inputId = "temporal_symmetry_plot_facet",
+                  label = "Facet",
+                  choices = c("cdm_name", "index_name", "marker_name", "cohort_date_range", "combination_window", "timescale", "washout_window"),
+                  selected = "cdm_name",
+                  multiple = TRUE,
+                  options = list(`actions-box` = TRUE, size = 10, `selected-text-format` = "count > 3")
+                ),
+                shinyWidgets::pickerInput(
+                  inputId = "temporal_symmetry_plot_colour",
+                  label = "Colour",
+                  choices = c("variable_name", "index_name", "marker_name", "cohort_date_range", "combination_window", "timescale", "washout_window"),
+                  selected = "variable_name",
+                  multiple = TRUE,
+                  options = list(`actions-box` = TRUE, size = 10, `selected-text-format` = "count > 3")
+                ),
+                position = "right"
+              ),
+              plotly::plotlyOutput("temporal_symmetry_plot") |>
+                shinycssloaders::withSpinner()
+            )
+          )
+        )
+      )
+    )
+  ),
   bslib::nav_spacer(),
   bslib::nav_item(
     bslib::popover(
