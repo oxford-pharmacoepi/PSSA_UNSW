@@ -52,7 +52,7 @@ for (pairIndex in seq_len(nrow(pssaCohortPairs))) {
     sequenceRatioResults[[resultName]] <- CohortSymmetry::summariseSequenceRatios(
       cohort = cdm[[sequenceCohortName]]
     )
-
+    
     # adjusted too?
   }
 }
