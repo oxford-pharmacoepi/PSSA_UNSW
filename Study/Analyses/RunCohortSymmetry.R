@@ -23,7 +23,7 @@ if (!exists("pssaCohortPairs")) {
 }
 
 sequenceRatioResults <- list()
-adjustedSequenceRatioResults <- list()
+temporalSymmetryResults <- list()
 
 for (pairIndex in seq_len(nrow(pssaCohortPairs))) {
   pair <- pssaCohortPairs[pairIndex, ]
@@ -53,7 +53,9 @@ for (pairIndex in seq_len(nrow(pssaCohortPairs))) {
       cohort = cdm[[sequenceCohortName]]
     )
 
-    # adjusted too?
+    temporalSymmetryResults[[resultName]] <- CohortSymmetry::summariseTemporalSymmetry(
+      cohort = cdm[[sequenceCohortName]]
+    )
   }
 }
 
@@ -62,6 +64,16 @@ sequenceRatioResult <- do.call(omopgenerics::bind, sequenceRatioResults)
 omopgenerics::exportSummarisedResult(
   sequenceRatioResult,
   fileName = "sequence_ratio_{cdm_name}_{date}.csv",
+  path = resultsFolder,
+  minCellCount = minCellCount,
+  logFile = NULL
+)
+
+temporalSymmetryResult <- do.call(omopgenerics::bind, temporalSymmetryResults)
+
+omopgenerics::exportSummarisedResult(
+  temporalSymmetryResult,
+  fileName = "temporal_symmetry_{cdm_name}_{date}.csv",
   path = resultsFolder,
   minCellCount = minCellCount,
   logFile = NULL

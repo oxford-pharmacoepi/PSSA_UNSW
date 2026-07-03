@@ -413,7 +413,9 @@ cohortSymmetryResultType <- function(result) {
     unique(omopgenerics::settings(result)$result_type),
     error = function(e) character()
   )
-  if (any(grepl("adjusted", resultTypes, ignore.case = TRUE))) {
+  if (any(grepl("temporal", resultTypes, ignore.case = TRUE))) {
+    "temporal"
+  } else if (any(grepl("adjusted", resultTypes, ignore.case = TRUE))) {
     "adjusted"
   } else {
     "sequence"
@@ -449,11 +451,12 @@ cohortSymmetryCall <- function(functionNames, result, args = list()) {
 
 cohortSymmetryTable <- function(result, header = character(), group = character(), hide = character()) {
   resultType <- cohortSymmetryResultType(result)
-  functionNames <- if (identical(resultType, "adjusted")) {
-    c("tableAdjustedSequenceRatios", "tableAdjustedSequenceRatio", "tableSequenceRatios")
-  } else {
+  functionNames <- switch(
+    resultType,
+    temporal = c("tableTemporalSymmetry"),
+    adjusted = c("tableAdjustedSequenceRatios", "tableAdjustedSequenceRatio", "tableSequenceRatios"),
     c("tableSequenceRatios", "tableSequenceRatio")
-  }
+  )
 
   table <- cohortSymmetryCall(
     functionNames = functionNames,
@@ -468,48 +471,140 @@ cohortSymmetryTable <- function(result, header = character(), group = character(
   simpleTable(result, header = header, group = group, hide = hide)
 }
 
-cohortSymmetryPlot <- function(result, x = "variable_name", facet = "cdm_name", colour = "estimate_name") {
+cohortSymmetryPlot <- function(result, x = "index_cohort_name", facet = "cdm_name", colour = "variable_name") {
   resultType <- cohortSymmetryResultType(result)
-  functionNames <- if (identical(resultType, "adjusted")) {
-    c("plotAdjustedSequenceRatios", "plotAdjustedSequenceRatio", "plotSequenceRatios")
-  } else {
+  functionNames <- switch(
+    resultType,
+    temporal = c("plotTemporalSymmetry"),
+    adjusted = c("plotAdjustedSequenceRatios", "plotAdjustedSequenceRatio", "plotSequenceRatios"),
     c("plotSequenceRatios", "plotSequenceRatio")
-  }
-
-  plot <- cohortSymmetryCall(
-    functionNames = functionNames,
-    result = result,
-    args = list(x = x, facet = facet, colour = colour)
   )
+
+  plotArgs <- if (identical(resultType, "temporal")) list() else list(x = x, facet = facet, colour = colour)
+  plot <- cohortSymmetryCall(functionNames = functionNames, result = result, args = plotArgs)
 
   if (!is.null(plot)) {
     return(plot)
   }
 
   tidyResult <- result |>
-    omopgenerics::tidy() |>
-    dplyr::mutate(estimate_value = suppressWarnings(as.numeric(.data$estimate_value))) |>
-    dplyr::filter(!is.na(.data$estimate_value))
+    omopgenerics::tidy()
+
+  if ("point_estimate" %in% names(tidyResult)) {
+    tidyResult <- tidyResult |>
+      dplyr::mutate(
+        plot_value = suppressWarnings(as.numeric(.data$point_estimate)),
+        lower_CI = if ("lower_CI" %in% names(tidyResult)) suppressWarnings(as.numeric(.data$lower_CI)) else NA_real_,
+        upper_CI = if ("upper_CI" %in% names(tidyResult)) suppressWarnings(as.numeric(.data$upper_CI)) else NA_real_
+      ) |>
+      dplyr::filter(!is.na(.data$plot_value))
+  } else if ("estimate_value" %in% names(tidyResult)) {
+    tidyResult <- tidyResult |>
+      dplyr::mutate(plot_value = suppressWarnings(as.numeric(.data$estimate_value))) |>
+      dplyr::filter(!is.na(.data$plot_value))
+  } else if ("count" %in% names(tidyResult)) {
+    tidyResult <- tidyResult |>
+      dplyr::mutate(plot_value = suppressWarnings(as.numeric(.data$count))) |>
+      dplyr::filter(!is.na(.data$plot_value))
+  } else {
+    tidyResult <- dplyr::tibble()
+  }
 
   if (nrow(tidyResult) == 0) {
     return(ggplot2::ggplot() + ggplot2::theme_void())
   }
 
-  ratioRows <- tidyResult |>
-    dplyr::filter(grepl("ratio", .data$estimate_name, ignore.case = TRUE))
-  if (nrow(ratioRows) > 0) {
-    tidyResult <- ratioRows
+  if (identical(resultType, "temporal")) {
+    if (!"count" %in% names(tidyResult)) {
+      return(ggplot2::ggplot() + ggplot2::theme_void())
+    }
+    tidyResult <- tidyResult |>
+      dplyr::mutate(
+        time = suppressWarnings(as.integer(.data$variable_level)),
+        count = suppressWarnings(as.integer(.data$count))
+      ) |>
+      dplyr::filter(!is.na(.data$time), !is.na(.data$count), .data$time != 0)
+
+    if (nrow(tidyResult) == 0) {
+      return(ggplot2::ggplot() + ggplot2::theme_void())
+    }
+
+    if ("index_name" %in% names(tidyResult) && "marker_name" %in% names(tidyResult)) {
+      tidyResult <- tidyResult |>
+        dplyr::mutate(cohort_pair = paste(.data$index_name, .data$marker_name, sep = " -> "))
+    } else if ("group_level" %in% names(tidyResult)) {
+      tidyResult <- tidyResult |>
+        dplyr::mutate(cohort_pair = .data$group_level)
+    } else {
+      tidyResult <- tidyResult |>
+        dplyr::mutate(cohort_pair = "Temporal symmetry")
+    }
+
+    return(
+      ggplot2::ggplot(
+        tidyResult,
+        ggplot2::aes(x = .data$time, y = .data$count, fill = .data$time > 0)
+      ) +
+        ggplot2::geom_col() +
+        ggplot2::geom_vline(xintercept = 0, linetype = "dashed") +
+        ggplot2::facet_wrap(ggplot2::vars(.data$cohort_pair), scales = "free_y") +
+        ggplot2::labs(x = "Time", y = "Individuals (N)", fill = NULL) +
+        ggplot2::theme(legend.position = "none")
+    )
   }
 
-  ggplot2::ggplot(
+  if ("variable_level" %in% names(tidyResult)) {
+    ratioRows <- tidyResult |>
+      dplyr::filter(grepl("sequence_ratio", .data$variable_level, ignore.case = TRUE))
+    if (nrow(ratioRows) > 0) {
+      tidyResult <- ratioRows
+    }
+  }
+
+  firstAvailable <- function(columns, fallback) {
+    columns <- columns[columns %in% names(tidyResult)]
+    if (length(columns) > 0) columns[[1]] else fallback
+  }
+
+  x <- firstAvailable(x, firstAvailable(c("index_cohort_name", "variable_name"), names(tidyResult)[[1]]))
+  colour <- firstAvailable(colour, firstAvailable(c("variable_name", "marker_cohort_name"), x))
+  facet <- facet[facet %in% names(tidyResult)]
+
+  if ("index_cohort_name" %in% names(tidyResult) && "marker_cohort_name" %in% names(tidyResult)) {
+    tidyResult <- tidyResult |>
+      dplyr::mutate(cohort_pair = paste(.data$index_cohort_name, .data$marker_cohort_name, sep = " -> "))
+    if (identical(x, "index_cohort_name")) {
+      x <- "cohort_pair"
+    }
+  }
+
+  if (length(facet) > 0) {
+    tidyResult$.facet <- apply(tidyResult[, facet, drop = FALSE], 1, paste, collapse = " | ")
+  }
+
+  plot <- ggplot2::ggplot(
     tidyResult,
     ggplot2::aes(
-      x = .data$variable_name,
-      y = .data$estimate_value,
-      colour = .data$estimate_name
+      x = .data[[x]],
+      y = .data$plot_value,
+      colour = .data[[colour]]
     )
   ) +
-    ggplot2::geom_point() +
-    ggplot2::coord_flip() +
+    ggplot2::geom_point(position = ggplot2::position_dodge(width = 0.4)) +
     ggplot2::labs(x = NULL, y = NULL, colour = NULL)
+
+  if (all(c("lower_CI", "upper_CI") %in% names(tidyResult)) && any(!is.na(tidyResult$lower_CI))) {
+    plot <- plot +
+      ggplot2::geom_errorbar(
+        ggplot2::aes(ymin = .data$lower_CI, ymax = .data$upper_CI),
+        width = 0.15,
+        position = ggplot2::position_dodge(width = 0.4)
+      )
+  }
+
+  if (length(facet) > 0) {
+    plot <- plot + ggplot2::facet_wrap(ggplot2::vars(.data$.facet))
+  }
+
+  plot + ggplot2::coord_flip()
 }

@@ -291,7 +291,7 @@ server <- function(input, output, session) {
   )
   getSequenceRatiosTable <- shiny::reactive({
     getSequenceRatiosData() |>
-      simpleTable(
+      cohortSymmetryTable(
         header = input$sequence_ratios_table_header,
         group = input$sequence_ratios_table_group_column,
         hide = input$sequence_ratios_table_hide
