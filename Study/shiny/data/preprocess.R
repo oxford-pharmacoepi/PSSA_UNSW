@@ -2,7 +2,8 @@
 resultList <- list(
   summarise_omop_snapshot = list(result_type = "summarise_omop_snapshot"),
   summarise_log_file = list(result_type = "summarise_log_file"),
-  sequence_ratios = list(result_type = "sequence_ratios")
+  sequence_ratios = list(result_type = "sequence_ratios"),
+  temporal_symmetry = list(result_type = "temporal_symmetry")
 )
 
 source(file.path(getwd(), "functions.R"))
