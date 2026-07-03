@@ -482,8 +482,8 @@ ui <- bslib::page_navbar(
                 shinyWidgets::pickerInput(
                   inputId = "sequence_ratios_plot_x",
                   label = "x axis",
-                  choices = c("cdm_name", "index_cohort_name", "marker_cohort_name", "variable_name", "variable_level", "estimate_name"),
-                  selected = "variable_name",
+                  choices = c("cdm_name", "index_cohort_name", "marker_cohort_name", "variable_name", "variable_level"),
+                  selected = "index_cohort_name",
                   multiple = FALSE,
                   options = list(`actions-box` = TRUE, size = 10, `selected-text-format` = "count > 3")
                 ),
@@ -498,8 +498,8 @@ ui <- bslib::page_navbar(
                 shinyWidgets::pickerInput(
                   inputId = "sequence_ratios_plot_colour",
                   label = "Colour",
-                  choices = c("estimate_name", "index_cohort_name", "marker_cohort_name", "cohort_date_range", "combination_window", "washout_window"),
-                  selected = "estimate_name",
+                  choices = c("variable_name", "index_cohort_name", "marker_cohort_name", "cohort_date_range", "combination_window", "washout_window"),
+                  selected = "variable_name",
                   multiple = TRUE,
                   options = list(`actions-box` = TRUE, size = 10, `selected-text-format` = "count > 3")
                 ),
