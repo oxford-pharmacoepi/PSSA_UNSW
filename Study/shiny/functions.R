@@ -1,12 +1,12 @@
 backgroundCard <- function(fileName) {
   # read file
   content <- readLines(fileName)
-
+  
   # extract yaml metadata
   # Find the positions of the YAML delimiters (----- or ---)
   yamlStart <- grep("^---|^-----", content)[1]
   yamlEnd <- grep("^---|^-----", content)[2]
-
+  
   if (any(is.na(c(yamlStart, yamlEnd)))) {
     metadata <- NULL
   } else {
@@ -17,10 +17,10 @@ backgroundCard <- function(fileName) {
     # eliminate yaml part from content
     content <- content[-(yamlStart:yamlEnd)]
   }
-
+  
   tmpFile <- tempfile(fileext = ".md")
   writeLines(text = content, con = tmpFile)
-
+  
   # metadata referring to keys
   backgroundKeywords <- list(
     header = "bslib::card_header",
@@ -38,7 +38,7 @@ backgroundCard <- function(fileName) {
       }
     }) |>
     purrr::compact()
-
+  
   arguments <- c(
     # metadata referring to arguments of card
     metadata[names(metadata) %in% names(formals(bslib::card))],
@@ -52,9 +52,9 @@ backgroundCard <- function(fileName) {
     ) |>
       purrr::compact()
   )
-
+  
   unlink(tmpFile)
-
+  
   do.call(bslib::card, arguments)
 }
 summaryCdmName <- function(data) {
@@ -224,16 +224,16 @@ simpleTable <- function(result,
   if (length(header) == 0) header <- character()
   if (length(group) == 0) group <- NULL
   if (length(hide) == 0) hide <- character()
-
+  
   if (nrow(result) == 0) {
     return(gt::gt(dplyr::tibble()))
   }
-
+  
   result <- result |>
     omopgenerics::addSettings() |>
     omopgenerics::splitAll() |>
     dplyr::select(-"result_id")
-
+  
   # format estimate column
   formatEstimates <- c(
     "N (%)" = "<count> (<percentage>%)",
@@ -269,16 +269,16 @@ tidyDT <- function(x,
   strataColumns <- omopgenerics::strataColumns(x)
   additionalColumns <- omopgenerics::additionalColumns(x)
   settingsColumns <- omopgenerics::settingsColumns(x)
-
+  
   # split and add settings
   x <- x |>
     omopgenerics::splitAll() |>
     omopgenerics::addSettings()
-
+  
   # remove density
   x <- x |>
     dplyr::filter(!.data$estimate_name %in% c("density_x", "density_y"))
-
+  
   # estimate columns
   if (pivotEstimates) {
     estCols <- unique(x$estimate_name)
@@ -287,7 +287,7 @@ tidyDT <- function(x,
   } else {
     estCols <- c("estimate_name", "estimate_type", "estimate_value")
   }
-
+  
   # order columns
   cols <- list(
     "CDM name" = "cdm_name", "Group" = groupColumns, "Strata" = strataColumns,
@@ -299,7 +299,7 @@ tidyDT <- function(x,
   cols[["Estimates"]] <- estCols
   x <- x |>
     dplyr::select(dplyr::all_of(unname(unlist(cols))))
-
+  
   # prepare the header
   container <- shiny::tags$table(
     class = "display",
@@ -309,7 +309,7 @@ tidyDT <- function(x,
       shiny::tags$tr(purrr::map(unlist(cols), shiny::tags$th))
     )
   )
-
+  
   # create DT table
   DT::datatable(
     data = x,
@@ -363,7 +363,7 @@ getSelected <- function(choices) {
       if ("Both" %in% vals) return("Both")
       return(vals[[1]])
     }
-
+    
     if (grepl("_denominator_age_group$", nm)) {
       bounds <- regmatches(vals, regexec("^(\\d+) to (\\d+)$", vals))
       valid <- vapply(bounds, length, integer(1)) == 3
@@ -374,11 +374,11 @@ getSelected <- function(choices) {
         return(vals[[1]])
       }
     }
-
+    
     if (grepl("_outcome_cohort_name$", nm)) {
       return(vals[[1]])
     }
-
+    
     vals
   })
 }
@@ -395,7 +395,7 @@ cohortSymmetryExport <- function(functionNames) {
   if (!requireNamespace("CohortSymmetry", quietly = TRUE)) {
     return(NULL)
   }
-
+  
   for (functionName in functionNames) {
     fn <- tryCatch(
       getExportedValue("CohortSymmetry", functionName),
@@ -427,7 +427,7 @@ cohortSymmetryCall <- function(functionNames, result, args = list()) {
   if (is.null(fn)) {
     return(NULL)
   }
-
+  
   calls <- list(
     c(list(result), args),
     c(list(result = result), args),
@@ -436,7 +436,7 @@ cohortSymmetryCall <- function(functionNames, result, args = list()) {
     list(result = result),
     list(x = result)
   )
-
+  
   for (callArgs in calls) {
     value <- tryCatch(
       do.call(fn, callArgs),
@@ -457,17 +457,17 @@ cohortSymmetryTable <- function(result, header = character(), group = character(
     adjusted = c("tableAdjustedSequenceRatios", "tableAdjustedSequenceRatio", "tableSequenceRatios"),
     c("tableSequenceRatios", "tableSequenceRatio")
   )
-
+  
   table <- cohortSymmetryCall(
     functionNames = functionNames,
     result = result,
     args = list(header = header, groupColumn = group, hide = hide, type = "gt")
   )
-
+  
   if (!is.null(table)) {
     return(table)
   }
-
+  
   simpleTable(result, header = header, group = group, hide = hide)
 }
 
@@ -479,17 +479,17 @@ cohortSymmetryPlot <- function(result, x = "index_cohort_name", facet = "cdm_nam
     adjusted = c("plotAdjustedSequenceRatios", "plotAdjustedSequenceRatio", "plotSequenceRatios"),
     c("plotSequenceRatios", "plotSequenceRatio")
   )
-
+  
   plotArgs <- if (identical(resultType, "temporal")) list() else list(x = x, facet = facet, colour = colour)
   plot <- cohortSymmetryCall(functionNames = functionNames, result = result, args = plotArgs)
-
+  
   if (!is.null(plot)) {
     return(plot)
   }
-
+  
   tidyResult <- result |>
     omopgenerics::tidy()
-
+  
   if ("point_estimate" %in% names(tidyResult)) {
     tidyResult <- tidyResult |>
       dplyr::mutate(
@@ -509,11 +509,11 @@ cohortSymmetryPlot <- function(result, x = "index_cohort_name", facet = "cdm_nam
   } else {
     tidyResult <- dplyr::tibble()
   }
-
+  
   if (nrow(tidyResult) == 0) {
     return(ggplot2::ggplot() + ggplot2::theme_void())
   }
-
+  
   if (identical(resultType, "temporal")) {
     if (!"count" %in% names(tidyResult)) {
       return(ggplot2::ggplot() + ggplot2::theme_void())
@@ -524,11 +524,11 @@ cohortSymmetryPlot <- function(result, x = "index_cohort_name", facet = "cdm_nam
         count = suppressWarnings(as.integer(.data$count))
       ) |>
       dplyr::filter(!is.na(.data$time), !is.na(.data$count), .data$time != 0)
-
+    
     if (nrow(tidyResult) == 0) {
       return(ggplot2::ggplot() + ggplot2::theme_void())
     }
-
+    
     if ("index_name" %in% names(tidyResult) && "marker_name" %in% names(tidyResult)) {
       tidyResult <- tidyResult |>
         dplyr::mutate(cohort_pair = paste(.data$index_name, .data$marker_name, sep = " -> "))
@@ -539,7 +539,7 @@ cohortSymmetryPlot <- function(result, x = "index_cohort_name", facet = "cdm_nam
       tidyResult <- tidyResult |>
         dplyr::mutate(cohort_pair = "Temporal symmetry")
     }
-
+    
     return(
       ggplot2::ggplot(
         tidyResult,
@@ -552,7 +552,7 @@ cohortSymmetryPlot <- function(result, x = "index_cohort_name", facet = "cdm_nam
         ggplot2::theme(legend.position = "none")
     )
   }
-
+  
   if ("variable_level" %in% names(tidyResult)) {
     ratioRows <- tidyResult |>
       dplyr::filter(grepl("sequence_ratio", .data$variable_level, ignore.case = TRUE))
@@ -560,16 +560,16 @@ cohortSymmetryPlot <- function(result, x = "index_cohort_name", facet = "cdm_nam
       tidyResult <- ratioRows
     }
   }
-
+  
   firstAvailable <- function(columns, fallback) {
     columns <- columns[columns %in% names(tidyResult)]
     if (length(columns) > 0) columns[[1]] else fallback
   }
-
+  
   x <- firstAvailable(x, firstAvailable(c("index_cohort_name", "variable_name"), names(tidyResult)[[1]]))
   colour <- firstAvailable(colour, firstAvailable(c("variable_name", "marker_cohort_name"), x))
   facet <- facet[facet %in% names(tidyResult)]
-
+  
   if ("index_cohort_name" %in% names(tidyResult) && "marker_cohort_name" %in% names(tidyResult)) {
     tidyResult <- tidyResult |>
       dplyr::mutate(cohort_pair = paste(.data$index_cohort_name, .data$marker_cohort_name, sep = " -> "))
@@ -577,11 +577,11 @@ cohortSymmetryPlot <- function(result, x = "index_cohort_name", facet = "cdm_nam
       x <- "cohort_pair"
     }
   }
-
+  
   if (length(facet) > 0) {
     tidyResult$.facet <- apply(tidyResult[, facet, drop = FALSE], 1, paste, collapse = " | ")
   }
-
+  
   plot <- ggplot2::ggplot(
     tidyResult,
     ggplot2::aes(
@@ -592,7 +592,7 @@ cohortSymmetryPlot <- function(result, x = "index_cohort_name", facet = "cdm_nam
   ) +
     ggplot2::geom_point(position = ggplot2::position_dodge(width = 0.4)) +
     ggplot2::labs(x = NULL, y = NULL, colour = NULL)
-
+  
   if (all(c("lower_CI", "upper_CI") %in% names(tidyResult)) && any(!is.na(tidyResult$lower_CI))) {
     plot <- plot +
       ggplot2::geom_errorbar(
@@ -601,10 +601,10 @@ cohortSymmetryPlot <- function(result, x = "index_cohort_name", facet = "cdm_nam
         position = ggplot2::position_dodge(width = 0.4)
       )
   }
-
+  
   if (length(facet) > 0) {
     plot <- plot + ggplot2::facet_wrap(ggplot2::vars(.data$.facet))
   }
-
+  
   plot + ggplot2::coord_flip()
 }

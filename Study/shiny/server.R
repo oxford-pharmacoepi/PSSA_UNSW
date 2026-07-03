@@ -23,20 +23,20 @@ server <- function(input, output, session) {
     sequence_ratios = FALSE,
     temporal_symmetry = FALSE
   )
-
+  
   # summarise_omop_snapshot -----
   ## update message if filter is changed
   shiny::observeEvent(input$summarise_omop_snapshot_cdm_name,
-    {
-      updateButtons$summarise_omop_snapshot <- TRUE
-    },
-    ignoreInit = TRUE
+                      {
+                        updateButtons$summarise_omop_snapshot <- TRUE
+                      },
+                      ignoreInit = TRUE
   )
   shiny::observeEvent(input$summarise_omop_snapshot_variable_name,
-    {
-      updateButtons$summarise_omop_snapshot <- TRUE
-    },
-    ignoreInit = TRUE
+                      {
+                        updateButtons$summarise_omop_snapshot <- TRUE
+                      },
+                      ignoreInit = TRUE
   )
   shiny::observeEvent(updateButtons$summarise_omop_snapshot, {
     if (updateButtons$summarise_omop_snapshot == TRUE) {
@@ -48,7 +48,7 @@ server <- function(input, output, session) {
   shiny::observeEvent(input$update_summarise_omop_snapshot, {
     updateButtons$summarise_omop_snapshot <- FALSE
   })
-
+  
   ## get summarise_omop_snapshot data
   getSummariseOmopSnapshotData <- shiny::eventReactive(input$update_summarise_omop_snapshot, {
     data[["summarise_omop_snapshot"]] |>
@@ -87,28 +87,28 @@ server <- function(input, output, session) {
   # summarise_log_file -----
   ## update message if filter is changed
   shiny::observeEvent(input$summarise_log_file_cdm_name,
-    {
-      updateButtons$summarise_log_file <- TRUE
-    },
-    ignoreInit = TRUE
+                      {
+                        updateButtons$summarise_log_file <- TRUE
+                      },
+                      ignoreInit = TRUE
   )
   shiny::observeEvent(input$summarise_log_file_log_id,
-    {
-      updateButtons$summarise_log_file <- TRUE
-    },
-    ignoreInit = TRUE
+                      {
+                        updateButtons$summarise_log_file <- TRUE
+                      },
+                      ignoreInit = TRUE
   )
   shiny::observeEvent(input$summarise_log_file_variable_name,
-    {
-      updateButtons$summarise_log_file <- TRUE
-    },
-    ignoreInit = TRUE
+                      {
+                        updateButtons$summarise_log_file <- TRUE
+                      },
+                      ignoreInit = TRUE
   )
   shiny::observeEvent(input$summarise_log_file_estimate_name,
-    {
-      updateButtons$summarise_log_file <- TRUE
-    },
-    ignoreInit = TRUE
+                      {
+                        updateButtons$summarise_log_file <- TRUE
+                      },
+                      ignoreInit = TRUE
   )
   shiny::observeEvent(updateButtons$summarise_log_file, {
     if (updateButtons$summarise_log_file == TRUE) {
@@ -120,7 +120,7 @@ server <- function(input, output, session) {
   shiny::observeEvent(input$update_summarise_log_file, {
     updateButtons$summarise_log_file <- FALSE
   })
-
+  
   ## get summarise_log_file data
   getSummariseLogFileData <- shiny::eventReactive(input$update_summarise_log_file, {
     data[["summarise_log_file"]] |>
@@ -165,82 +165,82 @@ server <- function(input, output, session) {
   # sequence_ratios -----
   ## update message if filter is changed
   shiny::observeEvent(input$sequence_ratios_cdm_name,
-    {
-      updateButtons$sequence_ratios <- TRUE
-    },
-    ignoreInit = TRUE
+                      {
+                        updateButtons$sequence_ratios <- TRUE
+                      },
+                      ignoreInit = TRUE
   )
   shiny::observeEvent(input$sequence_ratios_index_cohort_name,
-    {
-      updateButtons$sequence_ratios <- TRUE
-    },
-    ignoreInit = TRUE
+                      {
+                        updateButtons$sequence_ratios <- TRUE
+                      },
+                      ignoreInit = TRUE
   )
   shiny::observeEvent(input$sequence_ratios_marker_cohort_name,
-    {
-      updateButtons$sequence_ratios <- TRUE
-    },
-    ignoreInit = TRUE
+                      {
+                        updateButtons$sequence_ratios <- TRUE
+                      },
+                      ignoreInit = TRUE
   )
   shiny::observeEvent(input$sequence_ratios_variable_name,
-    {
-      updateButtons$sequence_ratios <- TRUE
-    },
-    ignoreInit = TRUE
+                      {
+                        updateButtons$sequence_ratios <- TRUE
+                      },
+                      ignoreInit = TRUE
   )
   shiny::observeEvent(input$sequence_ratios_estimate_name,
-    {
-      updateButtons$sequence_ratios <- TRUE
-    },
-    ignoreInit = TRUE
+                      {
+                        updateButtons$sequence_ratios <- TRUE
+                      },
+                      ignoreInit = TRUE
   )
   shiny::observeEvent(input$sequence_ratios_cdm_name,
-    {
-      updateButtons$sequence_ratios <- TRUE
-    },
-    ignoreInit = TRUE
+                      {
+                        updateButtons$sequence_ratios <- TRUE
+                      },
+                      ignoreInit = TRUE
   )
   shiny::observeEvent(input$sequence_ratios_cohort_date_range,
-    {
-      updateButtons$sequence_ratios <- TRUE
-    },
-    ignoreInit = TRUE
+                      {
+                        updateButtons$sequence_ratios <- TRUE
+                      },
+                      ignoreInit = TRUE
   )
   shiny::observeEvent(input$sequence_ratios_combination_window,
-    {
-      updateButtons$sequence_ratios <- TRUE
-    },
-    ignoreInit = TRUE
+                      {
+                        updateButtons$sequence_ratios <- TRUE
+                      },
+                      ignoreInit = TRUE
   )
   shiny::observeEvent(input$sequence_ratios_confidence_interval,
-    {
-      updateButtons$sequence_ratios <- TRUE
-    },
-    ignoreInit = TRUE
+                      {
+                        updateButtons$sequence_ratios <- TRUE
+                      },
+                      ignoreInit = TRUE
   )
   shiny::observeEvent(input$sequence_ratios_days_prior_observation,
-    {
-      updateButtons$sequence_ratios <- TRUE
-    },
-    ignoreInit = TRUE
+                      {
+                        updateButtons$sequence_ratios <- TRUE
+                      },
+                      ignoreInit = TRUE
   )
   shiny::observeEvent(input$sequence_ratios_index_marker_gap,
-    {
-      updateButtons$sequence_ratios <- TRUE
-    },
-    ignoreInit = TRUE
+                      {
+                        updateButtons$sequence_ratios <- TRUE
+                      },
+                      ignoreInit = TRUE
   )
   shiny::observeEvent(input$sequence_ratios_moving_average_restriction,
-    {
-      updateButtons$sequence_ratios <- TRUE
-    },
-    ignoreInit = TRUE
+                      {
+                        updateButtons$sequence_ratios <- TRUE
+                      },
+                      ignoreInit = TRUE
   )
   shiny::observeEvent(input$sequence_ratios_washout_window,
-    {
-      updateButtons$sequence_ratios <- TRUE
-    },
-    ignoreInit = TRUE
+                      {
+                        updateButtons$sequence_ratios <- TRUE
+                      },
+                      ignoreInit = TRUE
   )
   shiny::observeEvent(updateButtons$sequence_ratios, {
     if (updateButtons$sequence_ratios == TRUE) {
@@ -252,7 +252,7 @@ server <- function(input, output, session) {
   shiny::observeEvent(input$update_sequence_ratios, {
     updateButtons$sequence_ratios <- FALSE
   })
-
+  
   ## get sequence_ratios data
   getSequenceRatiosData <- shiny::eventReactive(input$update_sequence_ratios, {
     data[["sequence_ratios"]] |>
