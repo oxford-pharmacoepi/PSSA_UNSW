@@ -1,0 +1,3 @@
+"cohort_name","cohort_label","cohort_domain","concept_id","include_descendants","concept_name","vocabulary_id","concept_code","review_status","phenotype_note"
+"venous_thromboembolism","Venous thromboembolism","condition",4133004,TRUE,"Deep venous thrombosis","SNOMED","128053003","reviewed_seed","DVT component"
+"venous_thromboembolism","Venous thromboembolism","condition",440417,TRUE,"Pulmonary embolism","SNOMED","59282003","reviewed_seed","PE component"

@@ -1,0 +1,3 @@
+"cohort_name","cohort_label","cohort_domain","concept_id","include_descendants","concept_name","vocabulary_id","concept_code","review_status","phenotype_note"
+"upper_gi_bleeding_or_dyspepsia","Upper GI bleeding or dyspepsia","condition",4291649,TRUE,"Upper gastrointestinal bleeding","SNOMED","37372002","reviewed_seed","Upper GI bleeding component"
+"upper_gi_bleeding_or_dyspepsia","Upper GI bleeding or dyspepsia","condition",439418,TRUE,"Indigestion","SNOMED","162031009","provisional_broad","Dyspepsia component"

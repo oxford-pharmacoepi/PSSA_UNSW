@@ -1,0 +1,2 @@
+"cohort_name","cohort_label","cohort_domain","concept_id","include_descendants","concept_name","vocabulary_id","concept_code","review_status","phenotype_note"
+"organic_nitrates","Organic nitrates for angina","drug",21600316,TRUE,"Organic nitrates","ATC","C01DA","provisional_broad","Exploratory proxy for angina only"

@@ -1,0 +1,2 @@
+"cohort_name","cohort_label","cohort_domain","concept_id","include_descendants","concept_name","vocabulary_id","concept_code","review_status","phenotype_note"
+"acute_pancreatitis","Acute pancreatitis","condition",199074,TRUE,"Acute pancreatitis","SNOMED","197456007","reviewed_seed","Standard SNOMED condition"

@@ -1,0 +1,3 @@
+"cohort_name","cohort_label","cohort_domain","concept_id","include_descendants","concept_name","vocabulary_id","concept_code","review_status","phenotype_note"
+"myopathy","Myopathy","condition",81286,TRUE,"Toxic myopathy","SNOMED","66952001","provisional_broad","Drug-related myopathy seed"
+"myopathy","Myopathy","condition",442752,TRUE,"Muscle pain","SNOMED","68962001","provisional_broad","Adds myalgia; clinical review needed"

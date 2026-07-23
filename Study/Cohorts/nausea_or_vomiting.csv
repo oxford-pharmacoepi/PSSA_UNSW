@@ -1,0 +1,3 @@
+"cohort_name","cohort_label","cohort_domain","concept_id","include_descendants","concept_name","vocabulary_id","concept_code","review_status","phenotype_note"
+"nausea_or_vomiting","Nausea or vomiting","condition",31967,TRUE,"Nausea","SNOMED","422587007","reviewed_seed","Nausea component"
+"nausea_or_vomiting","Nausea or vomiting","condition",441408,TRUE,"Vomiting","SNOMED","422400008","reviewed_seed","Vomiting component"

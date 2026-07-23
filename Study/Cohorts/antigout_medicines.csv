@@ -1,0 +1,2 @@
+"cohort_name","cohort_label","cohort_domain","concept_id","include_descendants","concept_name","vocabulary_id","concept_code","review_status","phenotype_note"
+"antigout_medicines","Antigout medicines","drug",21604129,TRUE,"ANTIGOUT PREPARATIONS","ATC","M04A","reviewed_seed","Drug proxy"

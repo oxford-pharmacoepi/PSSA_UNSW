@@ -1,0 +1,2 @@
+"cohort_name","cohort_label","cohort_domain","concept_id","include_descendants","concept_name","vocabulary_id","concept_code","review_status","phenotype_note"
+"thyroid_hormones","Thyroid hormones","drug",21602753,TRUE,"Thyroid hormones","ATC","H03AA","reviewed_seed","Drug proxy"

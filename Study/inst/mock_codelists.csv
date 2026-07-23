@@ -1,5 +1,0 @@
-pair_id,cohort_name,codelist_type,concept_id,include_descendants,concept_name
-metformin_type_2_diabetes,metformin,drug,1503297,TRUE,Metformin
-metformin_type_2_diabetes,t2dm,diagnosis,201826,TRUE,Type 2 diabetes mellitus
-warfarin_bleeding,warfarin,drug,1310149,TRUE,Warfarin
-warfarin_bleeding,gib,diagnosis,192671,TRUE,Gastrointestinal hemorrhage

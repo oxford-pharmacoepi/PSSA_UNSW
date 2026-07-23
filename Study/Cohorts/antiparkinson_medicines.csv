@@ -1,0 +1,2 @@
+"cohort_name","cohort_label","cohort_domain","concept_id","include_descendants","concept_name","vocabulary_id","concept_code","review_status","phenotype_note"
+"antiparkinson_medicines","Antiparkinsonian medicines","drug",21604443,TRUE,"ANTI-PARKINSON DRUGS","ATC","N04","reviewed_seed","Drug proxy"

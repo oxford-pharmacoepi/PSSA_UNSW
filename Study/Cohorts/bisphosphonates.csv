@@ -1,0 +1,3 @@
+"cohort_name","cohort_label","cohort_domain","concept_id","include_descendants","concept_name","vocabulary_id","concept_code","review_status","phenotype_note"
+"bisphosphonates","Bisphosphonates","drug",21604148,TRUE,"Bisphosphonates","ATC","M05BA","reviewed_seed","ATC class"
+"bisphosphonates","Bisphosphonates","drug",21604157,TRUE,"Bisphosphonates, combinations","ATC","M05BB","reviewed_seed","Combination products included"

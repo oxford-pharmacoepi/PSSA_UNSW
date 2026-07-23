@@ -1,0 +1,2 @@
+"cohort_name","cohort_label","cohort_domain","concept_id","include_descendants","concept_name","vocabulary_id","concept_code","review_status","phenotype_note"
+"proton_pump_inhibitors","Proton-pump inhibitors","drug",21600095,TRUE,"Proton pump inhibitors","ATC","A02BC","reviewed_seed","ATC class"

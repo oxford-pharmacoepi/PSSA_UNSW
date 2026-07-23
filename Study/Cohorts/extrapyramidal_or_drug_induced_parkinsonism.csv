@@ -1,0 +1,5 @@
+"cohort_name","cohort_label","cohort_domain","concept_id","include_descendants","concept_name","vocabulary_id","concept_code","review_status","phenotype_note"
+"extrapyramidal_or_drug_induced_parkinsonism","Extrapyramidal symptoms or drug-induced parkinsonism","condition",373747,TRUE,"Extrapyramidal disease","SNOMED","76349003","provisional_broad","Extrapyramidal disorder umbrella"
+"extrapyramidal_or_drug_induced_parkinsonism","Extrapyramidal symptoms or drug-induced parkinsonism","condition",4183063,TRUE,"Extrapyramidal sign","SNOMED","43378000","provisional_broad","Symptom component"
+"extrapyramidal_or_drug_induced_parkinsonism","Extrapyramidal symptoms or drug-induced parkinsonism","condition",4171569,TRUE,"Parkinsonism caused by drug","SNOMED","4223005","reviewed_seed","Drug-induced parkinsonism"
+"extrapyramidal_or_drug_induced_parkinsonism","Extrapyramidal symptoms or drug-induced parkinsonism","condition",4248716,TRUE,"Neuroleptic-induced parkinsonism","SNOMED","72820004","reviewed_seed","Neuroleptic-induced parkinsonism"

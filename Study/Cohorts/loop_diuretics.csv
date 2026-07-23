@@ -1,0 +1,2 @@
+"cohort_name","cohort_label","cohort_domain","concept_id","include_descendants","concept_name","vocabulary_id","concept_code","review_status","phenotype_note"
+"loop_diuretics","Loop diuretics","drug",21601516,TRUE,"HIGH-CEILING DIURETICS","ATC","C03C","reviewed_seed","Drug proxy"

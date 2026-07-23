@@ -1,0 +1,2 @@
+"cohort_name","cohort_label","cohort_domain","concept_id","include_descendants","concept_name","vocabulary_id","concept_code","review_status","phenotype_note"
+"opioids","Opioids","drug",21604254,TRUE,"OPIOIDS","ATC","N02A","reviewed_seed","ATC class"

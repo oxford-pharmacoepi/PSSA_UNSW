@@ -1,0 +1,2 @@
+"cohort_name","cohort_label","cohort_domain","concept_id","include_descendants","concept_name","vocabulary_id","concept_code","review_status","phenotype_note"
+"glp1_receptor_agonists","GLP-1 receptor agonists","drug",1123618,TRUE,"Glucagon-like peptide-1 (GLP-1) analogues","ATC","A10BJ","reviewed_seed","ATC class"

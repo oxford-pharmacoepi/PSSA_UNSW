@@ -1,0 +1,2 @@
+"cohort_name","cohort_label","cohort_domain","concept_id","include_descendants","concept_name","vocabulary_id","concept_code","review_status","phenotype_note"
+"seizure","Seizure","condition",377091,TRUE,"Seizure","SNOMED","91175000","reviewed_seed","Standard SNOMED condition"

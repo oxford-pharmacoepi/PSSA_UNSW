@@ -1,0 +1,3 @@
+"cohort_name","cohort_label","cohort_domain","concept_id","include_descendants","concept_name","vocabulary_id","concept_code","review_status","phenotype_note"
+"acute_mi_or_angina","Acute myocardial infarction or angina","condition",312327,TRUE,"Acute myocardial infarction","SNOMED","57054005","reviewed_seed","Acute MI component"
+"acute_mi_or_angina","Acute myocardial infarction or angina","condition",321318,TRUE,"Angina pectoris","SNOMED","194828000","reviewed_seed","Angina component"

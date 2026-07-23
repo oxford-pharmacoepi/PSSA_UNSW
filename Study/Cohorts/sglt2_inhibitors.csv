@@ -1,0 +1,2 @@
+"cohort_name","cohort_label","cohort_domain","concept_id","include_descendants","concept_name","vocabulary_id","concept_code","review_status","phenotype_note"
+"sglt2_inhibitors","SGLT2 inhibitors","drug",1123627,TRUE,"Sodium-glucose co-transporter 2 (SGLT2) inhibitors","ATC","A10BK","reviewed_seed","ATC class"

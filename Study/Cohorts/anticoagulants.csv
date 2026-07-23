@@ -1,0 +1,5 @@
+"cohort_name","cohort_label","cohort_domain","concept_id","include_descendants","concept_name","vocabulary_id","concept_code","review_status","phenotype_note"
+"anticoagulants","Anticoagulants","drug",21600962,TRUE,"Vitamin K antagonists","ATC","B01AA","provisional_broad","Exploratory VTE proxy"
+"anticoagulants","Anticoagulants","drug",21600972,TRUE,"Heparin group","ATC","B01AB","provisional_broad","Exploratory VTE proxy"
+"anticoagulants","Anticoagulants","drug",21601019,TRUE,"Direct thrombin inhibitors","ATC","B01AE","provisional_broad","Exploratory VTE proxy"
+"anticoagulants","Anticoagulants","drug",43534760,TRUE,"Direct factor Xa inhibitors","ATC","B01AF","provisional_broad","Exploratory VTE proxy"

@@ -1,0 +1,2 @@
+"cohort_name","cohort_label","cohort_domain","concept_id","include_descendants","concept_name","vocabulary_id","concept_code","review_status","phenotype_note"
+"antiepileptics","Antiepileptic medicines","drug",21604390,TRUE,"ANTIEPILEPTICS","ATC","N03A","provisional_broad","Nonspecific drug proxy"

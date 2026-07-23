@@ -1,8 +1,14 @@
 library(CDMConnector)
 library(CodelistGenerator)
+library(CohortConstructor)
+library(CohortSymmetry)
 library(DBI)
 library(dplyr)
+library(DrugUtilisation)
 library(omopgenerics)
+library(OmopSketch)
+library(OmopViewer)
+library(purrr)
 library(readr)
 
 studyPath <- normalizePath(
@@ -18,7 +24,7 @@ studyPath <- normalizePath(
 
 dbName <- "UNSW"
 
-# Example only. Replace with the site's DBI connection call.
+# Replace this example with the site's DBI connection call.
 # db <- DBI::dbConnect(
 #   RPostgres::Postgres(),
 #   dbname = Sys.getenv("CDM_DBNAME"),
@@ -30,11 +36,14 @@ dbName <- "UNSW"
 db <- DBI::dbConnect("...")
 
 cdmSchema <- "..."
-writePrefix <- "pssa_unsw"
+writePrefix <- "pssa_safety"
 writeSchema <- c(schema = "...", prefix = writePrefix)
 achillesSchema <- NULL
 
 minCellCount <- 6
+runPhenotypeDiagnostics <- TRUE
+runLargeScaleCharacteristics <- FALSE
+phenotypeSample <- 20000
 
 source(file.path(studyPath, "RunStudy.R"))
 

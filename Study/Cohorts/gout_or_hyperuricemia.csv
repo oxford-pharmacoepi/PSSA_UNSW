@@ -1,0 +1,3 @@
+"cohort_name","cohort_label","cohort_domain","concept_id","include_descendants","concept_name","vocabulary_id","concept_code","review_status","phenotype_note"
+"gout_or_hyperuricemia","Gout or hyperuricaemia","condition",440674,TRUE,"Gout","SNOMED","90560007","reviewed_seed","Gout component"
+"gout_or_hyperuricemia","Gout or hyperuricaemia","condition",4147761,TRUE,"Hyperuricemia","SNOMED","35885006","reviewed_seed","Hyperuricaemia component"

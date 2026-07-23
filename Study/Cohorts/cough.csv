@@ -1,0 +1,2 @@
+"cohort_name","cohort_label","cohort_domain","concept_id","include_descendants","concept_name","vocabulary_id","concept_code","review_status","phenotype_note"
+"cough","Cough","condition",254761,TRUE,"Cough","SNOMED","49727002","reviewed_seed","Standard SNOMED condition"

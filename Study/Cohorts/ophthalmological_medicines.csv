@@ -1,0 +1,2 @@
+"cohort_name","cohort_label","cohort_domain","concept_id","include_descendants","concept_name","vocabulary_id","concept_code","review_status","phenotype_note"
+"ophthalmological_medicines","Ophthalmological medicines","drug",21603551,TRUE,"OPHTHALMOLOGICALS","ATC","S01","provisional_broad","Very broad negative-control proxy"

@@ -1,0 +1,3 @@
+"cohort_name","cohort_label","cohort_domain","concept_id","include_descendants","concept_name","vocabulary_id","concept_code","review_status","phenotype_note"
+"antifungals","Antifungals","drug",21603072,TRUE,"ANTIMYCOTICS FOR SYSTEMIC USE","ATC","J02A","provisional_broad","Includes systemic antifungals"
+"antifungals","Antifungals","drug",21602361,TRUE,"ANTIINFECTIVES AND ANTISEPTICS, EXCL. COMBINATIONS WITH CORTICOSTEROIDS","ATC","G01A","provisional_broad","Includes gynaecological antifungals"

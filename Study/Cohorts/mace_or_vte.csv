@@ -1,0 +1,5 @@
+"cohort_name","cohort_label","cohort_domain","concept_id","include_descendants","concept_name","vocabulary_id","concept_code","review_status","phenotype_note"
+"mace_or_vte","MACE or VTE","condition",312327,TRUE,"Acute myocardial infarction","SNOMED","57054005","provisional_broad","MACE component"
+"mace_or_vte","MACE or VTE","condition",4310996,TRUE,"Ischemic stroke","SNOMED","422504002","provisional_broad","MACE component"
+"mace_or_vte","MACE or VTE","condition",4133004,TRUE,"Deep venous thrombosis","SNOMED","128053003","provisional_broad","VTE component"
+"mace_or_vte","MACE or VTE","condition",440417,TRUE,"Pulmonary embolism","SNOMED","59282003","provisional_broad","VTE component"

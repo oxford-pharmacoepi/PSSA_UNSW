@@ -1,0 +1,2 @@
+"cohort_name","cohort_label","cohort_domain","concept_id","include_descendants","concept_name","vocabulary_id","concept_code","review_status","phenotype_note"
+"antitussives","Antitussives and cough preparations","drug",21603395,TRUE,"COUGH SUPPRESSANTS, EXCL. COMBINATIONS WITH EXPECTORANTS","ATC","R05D","provisional_broad","Nonspecific drug proxy"

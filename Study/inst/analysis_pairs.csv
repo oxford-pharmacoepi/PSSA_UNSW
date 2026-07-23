@@ -1,0 +1,41 @@
+pair_id,index_cohort_name,marker_cohort_name,marker_type,tier,expected_association,expected_direction,include_in_benchmark,protocol_note
+amiodarone_hypothyroidism,amiodarone,hypothyroidism,diagnosis,1,positive,above_1,TRUE,Tier 1 clinical outcome
+amiodarone_thyroid_hormones,amiodarone,thyroid_hormones,proxy,1,positive,above_1,TRUE,Tier 1 proxy core
+dhp_ccb_peripheral_edema,dhp_calcium_channel_blockers,peripheral_edema,diagnosis,1,positive,above_1,TRUE,Tier 1 clinical outcome
+dhp_ccb_loop_diuretics,dhp_calcium_channel_blockers,loop_diuretics,proxy,1,positive,above_1,TRUE,Tier 1 proxy core
+opioids_constipation,opioids,constipation,diagnosis,1,positive,above_1,TRUE,Tier 1 clinical outcome
+opioids_laxatives,opioids,laxatives,proxy,1,positive,above_1,TRUE,Tier 1 proxy core
+nsaids_upper_gi_bleeding_or_dyspepsia,nsaids,upper_gi_bleeding_or_dyspepsia,diagnosis,1,positive,above_1,TRUE,Tier 1 clinical outcome
+nsaids_proton_pump_inhibitors,nsaids,proton_pump_inhibitors,proxy,1,positive,above_1,TRUE,Tier 1 proxy core; prophylactic PPI exclusion requires local clinical refinement
+sglt2_genital_fungal_infection,sglt2_inhibitors,genital_fungal_infection,diagnosis,1,positive,above_1,TRUE,Tier 1 clinical outcome
+sglt2_antifungals,sglt2_inhibitors,antifungals,proxy,1,positive,above_1,TRUE,Tier 1 proxy core
+glp1_nausea_or_vomiting,glp1_receptor_agonists,nausea_or_vomiting,diagnosis,1,positive,above_1,TRUE,Tier 1 clinical outcome
+glp1_antiemetics,glp1_receptor_agonists,antiemetics,proxy,1,positive,above_1,TRUE,Tier 1 proxy core; nonspecific
+ace_inhibitors_cough,ace_inhibitors,cough,diagnosis,1,positive,above_1,TRUE,Tier 1 clinical outcome
+ace_inhibitors_antitussives,ace_inhibitors,antitussives,proxy,1,positive,above_1,TRUE,Tier 1 proxy core
+antipsychotics_extrapyramidal,antipsychotics,extrapyramidal_or_drug_induced_parkinsonism,diagnosis,1,positive,above_1,TRUE,Tier 1 clinical outcome
+antipsychotics_antiparkinson,antipsychotics,antiparkinson_medicines,proxy,1,positive,above_1,TRUE,Tier 1 proxy core
+ppi_migraine,proton_pump_inhibitors,migraine,diagnosis,1,negative,not_above_1,TRUE,Tier 1 negative clinical outcome
+ppi_antimigraine,proton_pump_inhibitors,antimigraine_medicines,proxy,1,negative,not_above_1,TRUE,Tier 1 negative proxy core
+nsaids_glaucoma,nsaids,glaucoma,diagnosis,1,negative,not_above_1,TRUE,Tier 1 negative clinical outcome
+nsaids_ophthalmologicals,nsaids,ophthalmological_medicines,proxy,1,negative,not_above_1,TRUE,Tier 1 negative proxy core; low specificity
+bisphosphonates_depression,bisphosphonates,depression,diagnosis,1,negative,not_above_1,TRUE,Tier 1 negative clinical outcome
+bisphosphonates_antidepressants,bisphosphonates,antidepressants,proxy,1,negative,not_above_1,TRUE,Tier 1 negative proxy core
+ace_inhibitors_seizure,ace_inhibitors,seizure,diagnosis,1,negative,not_above_1,TRUE,Tier 1 negative clinical outcome
+ace_inhibitors_antiepileptics,ace_inhibitors,antiepileptics,proxy,1,negative,not_above_1,TRUE,Tier 1 negative proxy core; marker nonspecific
+dhp_ccb_osteoporosis,dhp_calcium_channel_blockers,osteoporosis,diagnosis,1,negative,not_above_1,TRUE,Tier 1 negative clinical outcome
+dhp_ccb_osteoporosis_medicines,dhp_calcium_channel_blockers,osteoporosis_medicines,proxy,1,negative,not_above_1,TRUE,Tier 1 negative proxy core
+bisphosphonates_migraine,bisphosphonates,migraine,diagnosis,1,negative,not_above_1,TRUE,Tier 1 negative clinical outcome
+bisphosphonates_antimigraine,bisphosphonates,antimigraine_medicines,proxy,1,negative,not_above_1,TRUE,Tier 1 negative proxy core
+opioids_gout_or_hyperuricemia,opioids,gout_or_hyperuricemia,diagnosis,1,negative,not_above_1,TRUE,Tier 1 negative clinical outcome
+opioids_antigout,opioids,antigout_medicines,proxy,1,negative,not_above_1,TRUE,Tier 1 negative proxy core
+statins_myopathy,statins,myopathy,diagnosis,2,positive,above_1,TRUE,Tier 2 diagnosis extension
+nsaids_acute_mi_or_angina,nsaids,acute_mi_or_angina,diagnosis,2,positive,above_1,TRUE,Tier 2 diagnosis extension
+nsaids_organic_nitrates,nsaids,organic_nitrates,proxy,2,positive,above_1,FALSE,Exploratory proxy for angina only
+sglt2_diabetic_ketoacidosis,sglt2_inhibitors,diabetic_ketoacidosis,diagnosis,2,positive,above_1,TRUE,Tier 2 diagnosis extension
+contraceptives_vte,systemic_hormonal_contraceptives,venous_thromboembolism,diagnosis,2,positive,above_1,TRUE,Tier 2 diagnosis extension
+contraceptives_anticoagulants,systemic_hormonal_contraceptives,anticoagulants,proxy,2,positive,above_1,FALSE,Exploratory proxy only
+statins_appendicitis,statins,appendicitis,diagnosis,2,negative,not_above_1,TRUE,Tier 2 diagnosis extension
+jak_inhibitors_mace_or_vte,jak_inhibitors,mace_or_vte,diagnosis,2,emerging,unknown,FALSE,Tier 2 emerging signal
+jak_inhibitors_organic_nitrates,jak_inhibitors,organic_nitrates,proxy,2,emerging,unknown,FALSE,Exploratory angina-only proxy
+glp1_acute_pancreatitis,glp1_receptor_agonists,acute_pancreatitis,diagnosis,2,emerging,unknown,FALSE,Tier 2 emerging signal

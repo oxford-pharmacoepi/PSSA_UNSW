@@ -1,0 +1,2 @@
+"cohort_name","cohort_label","cohort_domain","concept_id","include_descendants","concept_name","vocabulary_id","concept_code","review_status","phenotype_note"
+"antidepressants","Antidepressants","drug",21604686,TRUE,"ANTIDEPRESSANTS","ATC","N06A","reviewed_seed","Drug proxy"

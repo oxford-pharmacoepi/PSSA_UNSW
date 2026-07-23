@@ -1,0 +1,2 @@
+"cohort_name","cohort_label","cohort_domain","concept_id","include_descendants","concept_name","vocabulary_id","concept_code","review_status","phenotype_note"
+"nsaids","NSAIDs","drug",21603933,TRUE,"ANTIINFLAMMATORY AND ANTIRHEUMATIC PRODUCTS, NON-STEROIDS","ATC","M01A","reviewed_seed","Systemic NSAID ATC class"

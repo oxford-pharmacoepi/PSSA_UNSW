@@ -1,4 +1,10 @@
-analysis_id,prior_window,post_window,washout_window,interval,days_prior_observation,moving_avg_restriction
-primary_365d,0,365,0,30,0,548
-sensitivity_180d,0,180,0,30,0,548
-sensitivity_730d,0,730,0,30,0,548
+analysis_id,analysis_label,changed_parameter,window_days,blackout_days,days_prior_observation,washout_window,index_marker_gap,moving_average_restriction,timescale,is_primary
+primary,Primary: 365d window / 7d blackout / 365d history,primary,365,7,365,365,Inf,548,month,TRUE
+window_30,Window: 30 days,window,30,7,365,365,Inf,548,month,FALSE
+window_60,Window: 60 days,window,60,7,365,365,Inf,548,month,FALSE
+window_90,Window: 90 days,window,90,7,365,365,Inf,548,month,FALSE
+window_180,Window: 180 days,window,180,7,365,365,Inf,548,month,FALSE
+blackout_0,Blackout: 0 days,blackout,365,0,365,365,Inf,548,month,FALSE
+blackout_1,Blackout: 1 day,blackout,365,1,365,365,Inf,548,month,FALSE
+blackout_14,Blackout: 14 days,blackout,365,14,365,365,Inf,548,month,FALSE
+history_180,Prior observation: 180 days,prior_observation,365,7,180,365,Inf,548,month,FALSE

@@ -1,0 +1,3 @@
+"cohort_name","cohort_label","cohort_domain","concept_id","include_descendants","concept_name","vocabulary_id","concept_code","review_status","phenotype_note"
+"ace_inhibitors","ACE inhibitors","drug",21601783,TRUE,"ACE INHIBITORS, PLAIN","ATC","C09A","reviewed_seed","Plain ACE inhibitors"
+"ace_inhibitors","ACE inhibitors","drug",21601801,TRUE,"ACE INHIBITORS, COMBINATIONS","ATC","C09B","reviewed_seed","ACE inhibitor combinations"
