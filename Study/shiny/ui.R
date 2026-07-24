@@ -224,36 +224,8 @@ ui <- bslib::page_navbar(
               ),
               class = "text-end"
             ),
-            bslib::layout_sidebar(
-              sidebar = bslib::sidebar(
-                sortable::bucket_list(
-                  header = NULL,
-                  sortable::add_rank_list(
-                    text = "None",
-                    labels = c("cdm_name", "log_id", "variable_name", "variable_level", "estimate_name"),
-                    input_id = "summarise_log_file_table_none"
-                  ),
-                  sortable::add_rank_list(
-                    text = "Header",
-                    labels = character(),
-                    input_id = "summarise_log_file_table_header"
-                  ),
-                  sortable::add_rank_list(
-                    text = "Group columns",
-                    labels = character(),
-                    input_id = "summarise_log_file_table_group_column"
-                  ),
-                  sortable::add_rank_list(
-                    text = "Hide",
-                    labels = character(),
-                    input_id = "summarise_log_file_table_hide"
-                  )
-                ),
-                position = "right"
-              ),
-              gt::gt_output("summarise_log_file_table") |>
-                shinycssloaders::withSpinner()
-            )
+            gt::gt_output("summarise_log_file_table") |>
+              shinycssloaders::withSpinner()
           )
         )
       )
@@ -289,82 +261,10 @@ ui <- bslib::page_navbar(
           options = list(`actions-box` = TRUE, size = 10, `selected-text-format` = "count > 3")
         ),
         shinyWidgets::pickerInput(
-          inputId = "sequence_ratios_variable_name",
-          label = "Variable name",
-          choices = choices$sequence_ratios_variable_name,
-          selected = selected$sequence_ratios_variable_name,
-          multiple = TRUE,
-          options = list(`actions-box` = TRUE, size = 10, `selected-text-format` = "count > 3")
-        ),
-        shinyWidgets::pickerInput(
-          inputId = "sequence_ratios_estimate_name",
-          label = "Estimate name",
-          choices = choices$sequence_ratios_estimate_name,
-          selected = selected$sequence_ratios_estimate_name,
-          multiple = TRUE,
-          options = list(`actions-box` = TRUE, size = 10, `selected-text-format` = "count > 3")
-        ),
-        shinyWidgets::pickerInput(
-          inputId = "sequence_ratios_cdm_name",
-          label = "Cdm name",
-          choices = choices$sequence_ratios_cdm_name,
-          selected = selected$sequence_ratios_cdm_name,
-          multiple = TRUE,
-          options = list(`actions-box` = TRUE, size = 10, `selected-text-format` = "count > 3")
-        ),
-        shinyWidgets::pickerInput(
-          inputId = "sequence_ratios_cohort_date_range",
-          label = "Cohort date range",
-          choices = choices$sequence_ratios_cohort_date_range,
-          selected = selected$sequence_ratios_cohort_date_range,
-          multiple = TRUE,
-          options = list(`actions-box` = TRUE, size = 10, `selected-text-format` = "count > 3")
-        ),
-        shinyWidgets::pickerInput(
-          inputId = "sequence_ratios_combination_window",
-          label = "Combination window",
-          choices = choices$sequence_ratios_combination_window,
-          selected = selected$sequence_ratios_combination_window,
-          multiple = TRUE,
-          options = list(`actions-box` = TRUE, size = 10, `selected-text-format` = "count > 3")
-        ),
-        shinyWidgets::pickerInput(
-          inputId = "sequence_ratios_confidence_interval",
-          label = "Confidence interval",
-          choices = choices$sequence_ratios_confidence_interval,
-          selected = selected$sequence_ratios_confidence_interval,
-          multiple = TRUE,
-          options = list(`actions-box` = TRUE, size = 10, `selected-text-format` = "count > 3")
-        ),
-        shinyWidgets::pickerInput(
-          inputId = "sequence_ratios_days_prior_observation",
-          label = "Days prior observation",
-          choices = choices$sequence_ratios_days_prior_observation,
-          selected = selected$sequence_ratios_days_prior_observation,
-          multiple = TRUE,
-          options = list(`actions-box` = TRUE, size = 10, `selected-text-format` = "count > 3")
-        ),
-        shinyWidgets::pickerInput(
-          inputId = "sequence_ratios_index_marker_gap",
-          label = "Index marker gap",
-          choices = choices$sequence_ratios_index_marker_gap,
-          selected = selected$sequence_ratios_index_marker_gap,
-          multiple = TRUE,
-          options = list(`actions-box` = TRUE, size = 10, `selected-text-format` = "count > 3")
-        ),
-        shinyWidgets::pickerInput(
-          inputId = "sequence_ratios_moving_average_restriction",
-          label = "Moving average restriction",
-          choices = choices$sequence_ratios_moving_average_restriction,
-          selected = selected$sequence_ratios_moving_average_restriction,
-          multiple = TRUE,
-          options = list(`actions-box` = TRUE, size = 10, `selected-text-format` = "count > 3")
-        ),
-        shinyWidgets::pickerInput(
-          inputId = "sequence_ratios_washout_window",
-          label = "Washout window",
-          choices = choices$sequence_ratios_washout_window,
-          selected = selected$sequence_ratios_washout_window,
+          inputId = "sequence_ratios_analysis_id",
+          label = "Analysis",
+          choices = choices$sequence_ratios_analysis_id,
+          selected = selected$sequence_ratios_analysis_id,
           multiple = TRUE,
           options = list(`actions-box` = TRUE, size = 10, `selected-text-format` = "count > 3")
         ),
@@ -393,8 +293,8 @@ ui <- bslib::page_navbar(
                 shinyWidgets::pickerInput(
                   inputId = "sequence_ratios_tidy_columns",
                   label = "Columns",
-                  choices = c("cdm_name", "index_cohort_name", "marker_cohort_name", "cdm_name", "cohort_date_range", "combination_window", "confidence_interval", "days_prior_observation", "index_marker_gap", "moving_average_restriction", "washout_window", "variable_name", "variable_level"),
-                  selected = c("cdm_name", "index_cohort_name", "marker_cohort_name", "variable_name", "variable_level"),
+                  choices = c("cdm_name", "index_cohort_name", "marker_cohort_name", "marker_type", "tier", "expected_association", "expected_direction", "include_in_benchmark", "cohort_date_range", "combination_window", "confidence_interval", "days_prior_observation", "index_marker_gap", "moving_average_restriction", "washout_window", "variable_name", "variable_level"),
+                  selected = c("cdm_name", "index_cohort_name", "marker_cohort_name", "marker_type", "tier", "expected_association", "expected_direction", "variable_name", "variable_level"),
                   multiple = TRUE,
                   options = list(`actions-box` = TRUE, size = 10, `selected-text-format` = "count > 3")
                 ),
@@ -429,36 +329,8 @@ ui <- bslib::page_navbar(
               ),
               class = "text-end"
             ),
-            bslib::layout_sidebar(
-              sidebar = bslib::sidebar(
-                sortable::bucket_list(
-                  header = NULL,
-                  sortable::add_rank_list(
-                    text = "None",
-                    labels = c("cdm_name", "index_cohort_name", "marker_cohort_name", "cdm_name", "cohort_date_range", "combination_window", "confidence_interval", "days_prior_observation", "index_marker_gap", "moving_average_restriction", "washout_window", "variable_name", "variable_level", "estimate_name"),
-                    input_id = "sequence_ratios_table_none"
-                  ),
-                  sortable::add_rank_list(
-                    text = "Header",
-                    labels = character(),
-                    input_id = "sequence_ratios_table_header"
-                  ),
-                  sortable::add_rank_list(
-                    text = "Group columns",
-                    labels = character(),
-                    input_id = "sequence_ratios_table_group_column"
-                  ),
-                  sortable::add_rank_list(
-                    text = "Hide",
-                    labels = character(),
-                    input_id = "sequence_ratios_table_hide"
-                  )
-                ),
-                position = "right"
-              ),
-              gt::gt_output("sequence_ratios_table") |>
-                shinycssloaders::withSpinner()
-            )
+            gt::gt_output("sequence_ratios_table") |>
+              shinycssloaders::withSpinner()
           )
         ),
         bslib::nav_panel(
@@ -474,11 +346,6 @@ ui <- bslib::page_navbar(
             ),
             bslib::layout_sidebar(
               sidebar = bslib::sidebar(
-                shinyWidgets::materialSwitch(
-                  inputId = "sequence_ratios_plot_interactive",
-                  label = "Interactive",
-                  value = TRUE
-                ),
                 shinyWidgets::pickerInput(
                   inputId = "sequence_ratios_plot_x",
                   label = "x axis",
@@ -543,74 +410,10 @@ ui <- bslib::page_navbar(
           options = list(`actions-box` = TRUE, size = 10, `selected-text-format` = "count > 3")
         ),
         shinyWidgets::pickerInput(
-          inputId = "temporal_symmetry_variable_name",
-          label = "Variable name",
-          choices = choices$temporal_symmetry_variable_name,
-          selected = selected$temporal_symmetry_variable_name,
-          multiple = TRUE,
-          options = list(`actions-box` = TRUE, size = 10, `selected-text-format` = "count > 3")
-        ),
-        shinyWidgets::pickerInput(
-          inputId = "temporal_symmetry_estimate_name",
-          label = "Estimate name",
-          choices = choices$temporal_symmetry_estimate_name,
-          selected = selected$temporal_symmetry_estimate_name,
-          multiple = TRUE,
-          options = list(`actions-box` = TRUE, size = 10, `selected-text-format` = "count > 3")
-        ),
-        shinyWidgets::pickerInput(
-          inputId = "temporal_symmetry_cohort_date_range",
-          label = "Cohort date range",
-          choices = choices$temporal_symmetry_cohort_date_range,
-          selected = selected$temporal_symmetry_cohort_date_range,
-          multiple = TRUE,
-          options = list(`actions-box` = TRUE, size = 10, `selected-text-format` = "count > 3")
-        ),
-        shinyWidgets::pickerInput(
-          inputId = "temporal_symmetry_combination_window",
-          label = "Combination window",
-          choices = choices$temporal_symmetry_combination_window,
-          selected = selected$temporal_symmetry_combination_window,
-          multiple = TRUE,
-          options = list(`actions-box` = TRUE, size = 10, `selected-text-format` = "count > 3")
-        ),
-        shinyWidgets::pickerInput(
-          inputId = "temporal_symmetry_days_prior_observation",
-          label = "Days prior observation",
-          choices = choices$temporal_symmetry_days_prior_observation,
-          selected = selected$temporal_symmetry_days_prior_observation,
-          multiple = TRUE,
-          options = list(`actions-box` = TRUE, size = 10, `selected-text-format` = "count > 3")
-        ),
-        shinyWidgets::pickerInput(
-          inputId = "temporal_symmetry_index_marker_gap",
-          label = "Index marker gap",
-          choices = choices$temporal_symmetry_index_marker_gap,
-          selected = selected$temporal_symmetry_index_marker_gap,
-          multiple = TRUE,
-          options = list(`actions-box` = TRUE, size = 10, `selected-text-format` = "count > 3")
-        ),
-        shinyWidgets::pickerInput(
-          inputId = "temporal_symmetry_moving_average_restriction",
-          label = "Moving average restriction",
-          choices = choices$temporal_symmetry_moving_average_restriction,
-          selected = selected$temporal_symmetry_moving_average_restriction,
-          multiple = TRUE,
-          options = list(`actions-box` = TRUE, size = 10, `selected-text-format` = "count > 3")
-        ),
-        shinyWidgets::pickerInput(
-          inputId = "temporal_symmetry_timescale",
-          label = "Timescale",
-          choices = choices$temporal_symmetry_timescale,
-          selected = selected$temporal_symmetry_timescale,
-          multiple = TRUE,
-          options = list(`actions-box` = TRUE, size = 10, `selected-text-format` = "count > 3")
-        ),
-        shinyWidgets::pickerInput(
-          inputId = "temporal_symmetry_washout_window",
-          label = "Washout window",
-          choices = choices$temporal_symmetry_washout_window,
-          selected = selected$temporal_symmetry_washout_window,
+          inputId = "temporal_symmetry_analysis_id",
+          label = "Analysis",
+          choices = choices$temporal_symmetry_analysis_id,
+          selected = selected$temporal_symmetry_analysis_id,
           multiple = TRUE,
           options = list(`actions-box` = TRUE, size = 10, `selected-text-format` = "count > 3")
         ),
@@ -639,8 +442,8 @@ ui <- bslib::page_navbar(
                 shinyWidgets::pickerInput(
                   inputId = "temporal_symmetry_tidy_columns",
                   label = "Columns",
-                  choices = c("cdm_name", "index_name", "marker_name", "cohort_date_range", "combination_window", "days_prior_observation", "index_marker_gap", "moving_average_restriction", "timescale", "washout_window", "variable_name", "variable_level"),
-                  selected = c("cdm_name", "index_name", "marker_name", "variable_name", "variable_level"),
+                  choices = c("cdm_name", "index_name", "marker_name", "marker_type", "tier", "expected_association", "expected_direction", "include_in_benchmark", "cohort_date_range", "combination_window", "days_prior_observation", "index_marker_gap", "moving_average_restriction", "timescale", "washout_window", "variable_name", "variable_level"),
+                  selected = c("cdm_name", "index_name", "marker_name", "marker_type", "tier", "expected_association", "expected_direction", "variable_name", "variable_level"),
                   multiple = TRUE,
                   options = list(`actions-box` = TRUE, size = 10, `selected-text-format` = "count > 3")
                 ),
@@ -675,36 +478,8 @@ ui <- bslib::page_navbar(
               ),
               class = "text-end"
             ),
-            bslib::layout_sidebar(
-              sidebar = bslib::sidebar(
-                sortable::bucket_list(
-                  header = NULL,
-                  sortable::add_rank_list(
-                    text = "None",
-                    labels = c("cdm_name", "index_name", "marker_name", "cohort_date_range", "combination_window", "days_prior_observation", "index_marker_gap", "moving_average_restriction", "timescale", "washout_window", "variable_name", "variable_level", "estimate_name"),
-                    input_id = "temporal_symmetry_table_none"
-                  ),
-                  sortable::add_rank_list(
-                    text = "Header",
-                    labels = character(),
-                    input_id = "temporal_symmetry_table_header"
-                  ),
-                  sortable::add_rank_list(
-                    text = "Group columns",
-                    labels = character(),
-                    input_id = "temporal_symmetry_table_group_column"
-                  ),
-                  sortable::add_rank_list(
-                    text = "Hide",
-                    labels = character(),
-                    input_id = "temporal_symmetry_table_hide"
-                  )
-                ),
-                position = "right"
-              ),
-              gt::gt_output("temporal_symmetry_table") |>
-                shinycssloaders::withSpinner()
-            )
+            gt::gt_output("temporal_symmetry_table") |>
+              shinycssloaders::withSpinner()
           )
         ),
         bslib::nav_panel(
@@ -720,11 +495,6 @@ ui <- bslib::page_navbar(
             ),
             bslib::layout_sidebar(
               sidebar = bslib::sidebar(
-                shinyWidgets::materialSwitch(
-                  inputId = "temporal_symmetry_plot_interactive",
-                  label = "Interactive",
-                  value = TRUE
-                ),
                 shinyWidgets::pickerInput(
                   inputId = "temporal_symmetry_plot_x",
                   label = "x axis",

@@ -232,6 +232,7 @@ simpleTable <- function(result,
   result <- result |>
     omopgenerics::addSettings() |>
     omopgenerics::splitAll() |>
+    addProtocolPairMetadata() |>
     dplyr::select(-"result_id")
   
   # format estimate column
@@ -269,11 +270,16 @@ tidyDT <- function(x,
   strataColumns <- omopgenerics::strataColumns(x)
   additionalColumns <- omopgenerics::additionalColumns(x)
   settingsColumns <- omopgenerics::settingsColumns(x)
+  settingsColumns <- setdiff(
+    settingsColumns,
+    c("cdm_name", groupColumns, strataColumns, additionalColumns)
+  )
   
   # split and add settings
   x <- x |>
     omopgenerics::splitAll() |>
-    omopgenerics::addSettings()
+    omopgenerics::addSettings() |>
+    addProtocolPairMetadata()
   
   # remove density
   x <- x |>
@@ -292,7 +298,11 @@ tidyDT <- function(x,
   cols <- list(
     "CDM name" = "cdm_name", "Group" = groupColumns, "Strata" = strataColumns,
     "Additional" = additionalColumns, "Settings" = settingsColumns,
-    "Variable" = c("variable_name", "variable_level")
+    "Variable" = c("variable_name", "variable_level"),
+    "Protocol" = c(
+      "pair_id", "marker_type", "tier", "expected_association",
+      "expected_direction", "include_in_benchmark", "protocol_note"
+    )
   ) |>
     purrr::map(\(x) x[x %in% columns]) |>
     purrr::compact()
@@ -318,6 +328,52 @@ tidyDT <- function(x,
     rownames = FALSE,
     options = list(searching = FALSE)
   )
+}
+
+addProtocolPairMetadata <- function(data) {
+  if (!exists("protocolPairs", inherits = TRUE)) return(data)
+
+  pairs <- get("protocolPairs", inherits = TRUE)
+  if (all(c("index_cohort_name", "marker_cohort_name") %in% names(data))) {
+    return(dplyr::left_join(
+      data, pairs,
+      by = c("index_cohort_name", "marker_cohort_name")
+    ))
+  }
+  if (all(c("index_name", "marker_name") %in% names(data))) {
+    return(dplyr::left_join(
+      data, pairs,
+      by = c(
+        "index_name" = "index_cohort_name",
+        "marker_name" = "marker_cohort_name"
+      )
+    ))
+  }
+  data
+}
+
+filterProtocolPairs <- function(result, indexColumn, markerColumn,
+                                selectedIndex, selectedMarker) {
+  if (!exists("protocolPairs", inherits = TRUE)) return(result)
+
+  pairs <- get("protocolPairs", inherits = TRUE) |>
+    dplyr::filter(
+      .data$index_cohort_name %in% selectedIndex,
+      .data$marker_cohort_name %in% selectedMarker
+    )
+  if (nrow(pairs) == 0) return(result[0, ])
+
+  results <- purrr::pmap(
+    pairs,
+    function(index_cohort_name, marker_cohort_name, ...) {
+      omopgenerics::filterGroup(
+        result,
+        !!rlang::sym(indexColumn) == !!index_cohort_name,
+        !!rlang::sym(markerColumn) == !!marker_cohort_name
+      )
+    }
+  )
+  do.call(omopgenerics::bind, results)
 }
 prepareResult <- function(result, resultList) {
   purrr::map(resultList, \(x) filterResult(result, x))

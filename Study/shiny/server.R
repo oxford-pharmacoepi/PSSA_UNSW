@@ -182,61 +182,7 @@ server <- function(input, output, session) {
                       },
                       ignoreInit = TRUE
   )
-  shiny::observeEvent(input$sequence_ratios_variable_name,
-                      {
-                        updateButtons$sequence_ratios <- TRUE
-                      },
-                      ignoreInit = TRUE
-  )
-  shiny::observeEvent(input$sequence_ratios_estimate_name,
-                      {
-                        updateButtons$sequence_ratios <- TRUE
-                      },
-                      ignoreInit = TRUE
-  )
-  shiny::observeEvent(input$sequence_ratios_cdm_name,
-                      {
-                        updateButtons$sequence_ratios <- TRUE
-                      },
-                      ignoreInit = TRUE
-  )
-  shiny::observeEvent(input$sequence_ratios_cohort_date_range,
-                      {
-                        updateButtons$sequence_ratios <- TRUE
-                      },
-                      ignoreInit = TRUE
-  )
-  shiny::observeEvent(input$sequence_ratios_combination_window,
-                      {
-                        updateButtons$sequence_ratios <- TRUE
-                      },
-                      ignoreInit = TRUE
-  )
-  shiny::observeEvent(input$sequence_ratios_confidence_interval,
-                      {
-                        updateButtons$sequence_ratios <- TRUE
-                      },
-                      ignoreInit = TRUE
-  )
-  shiny::observeEvent(input$sequence_ratios_days_prior_observation,
-                      {
-                        updateButtons$sequence_ratios <- TRUE
-                      },
-                      ignoreInit = TRUE
-  )
-  shiny::observeEvent(input$sequence_ratios_index_marker_gap,
-                      {
-                        updateButtons$sequence_ratios <- TRUE
-                      },
-                      ignoreInit = TRUE
-  )
-  shiny::observeEvent(input$sequence_ratios_moving_average_restriction,
-                      {
-                        updateButtons$sequence_ratios <- TRUE
-                      },
-                      ignoreInit = TRUE
-  )
-  shiny::observeEvent(input$sequence_ratios_washout_window,
+  shiny::observeEvent(input$sequence_ratios_analysis_id,
                       {
                         updateButtons$sequence_ratios <- TRUE
                       },
@@ -258,22 +204,21 @@ server <- function(input, output, session) {
     data[["sequence_ratios"]] |>
       dplyr::filter(
         .data$cdm_name %in% input$sequence_ratios_cdm_name,
-        .data$variable_name %in% input$sequence_ratios_variable_name,
-        .data$estimate_name %in% input$sequence_ratios_estimate_name
+        .data$variable_name %in% c("adjusted", "crude"),
+        .data$estimate_name %in% c("point_estimate", "lower_CI", "upper_CI")
       ) |>
       omopgenerics::filterGroup(
         .data$index_cohort_name %in% input$sequence_ratios_index_cohort_name,
         .data$marker_cohort_name %in% input$sequence_ratios_marker_cohort_name
       ) |>
       omopgenerics::filterSettings(
-        .data$cdm_name %in% input$sequence_ratios_cdm_name,
-        .data$cohort_date_range %in% input$sequence_ratios_cohort_date_range,
-        .data$combination_window %in% input$sequence_ratios_combination_window,
-        .data$confidence_interval %in% input$sequence_ratios_confidence_interval,
-        .data$days_prior_observation %in% input$sequence_ratios_days_prior_observation,
-        .data$index_marker_gap %in% input$sequence_ratios_index_marker_gap,
-        .data$moving_average_restriction %in% input$sequence_ratios_moving_average_restriction,
-        .data$washout_window %in% input$sequence_ratios_washout_window
+        .data$analysis_id %in% input$sequence_ratios_analysis_id
+      ) |>
+      filterProtocolPairs(
+        indexColumn = "index_cohort_name",
+        markerColumn = "marker_cohort_name",
+        selectedIndex = input$sequence_ratios_index_cohort_name,
+        selectedMarker = input$sequence_ratios_marker_cohort_name
       )
   })
   getSequenceRatiosTidy <- shiny::reactive({
@@ -287,6 +232,7 @@ server <- function(input, output, session) {
     content = function(file) {
       getSequenceRatiosData() |>
         omopgenerics::tidy() |>
+        addProtocolPairMetadata() |>
         readr::write_csv(file = file)
     }
   )
@@ -345,31 +291,7 @@ server <- function(input, output, session) {
   shiny::observeEvent(input$temporal_symmetry_marker_name, {
     updateButtons$temporal_symmetry <- TRUE
   }, ignoreInit = TRUE)
-  shiny::observeEvent(input$temporal_symmetry_variable_name, {
-    updateButtons$temporal_symmetry <- TRUE
-  }, ignoreInit = TRUE)
-  shiny::observeEvent(input$temporal_symmetry_estimate_name, {
-    updateButtons$temporal_symmetry <- TRUE
-  }, ignoreInit = TRUE)
-  shiny::observeEvent(input$temporal_symmetry_cohort_date_range, {
-    updateButtons$temporal_symmetry <- TRUE
-  }, ignoreInit = TRUE)
-  shiny::observeEvent(input$temporal_symmetry_combination_window, {
-    updateButtons$temporal_symmetry <- TRUE
-  }, ignoreInit = TRUE)
-  shiny::observeEvent(input$temporal_symmetry_days_prior_observation, {
-    updateButtons$temporal_symmetry <- TRUE
-  }, ignoreInit = TRUE)
-  shiny::observeEvent(input$temporal_symmetry_index_marker_gap, {
-    updateButtons$temporal_symmetry <- TRUE
-  }, ignoreInit = TRUE)
-  shiny::observeEvent(input$temporal_symmetry_moving_average_restriction, {
-    updateButtons$temporal_symmetry <- TRUE
-  }, ignoreInit = TRUE)
-  shiny::observeEvent(input$temporal_symmetry_timescale, {
-    updateButtons$temporal_symmetry <- TRUE
-  }, ignoreInit = TRUE)
-  shiny::observeEvent(input$temporal_symmetry_washout_window, {
+  shiny::observeEvent(input$temporal_symmetry_analysis_id, {
     updateButtons$temporal_symmetry <- TRUE
   }, ignoreInit = TRUE)
   shiny::observeEvent(updateButtons$temporal_symmetry, {
@@ -388,22 +310,21 @@ server <- function(input, output, session) {
     data[["temporal_symmetry"]] |>
       dplyr::filter(
         .data$cdm_name %in% input$temporal_symmetry_cdm_name,
-        .data$variable_name %in% input$temporal_symmetry_variable_name,
-        .data$estimate_name %in% input$temporal_symmetry_estimate_name
+        .data$variable_name == "temporal_symmetry",
+        .data$estimate_name == "count"
       ) |>
       omopgenerics::filterGroup(
         .data$index_name %in% input$temporal_symmetry_index_name,
         .data$marker_name %in% input$temporal_symmetry_marker_name
       ) |>
       omopgenerics::filterSettings(
-        .data$cdm_name %in% input$temporal_symmetry_cdm_name,
-        .data$cohort_date_range %in% input$temporal_symmetry_cohort_date_range,
-        .data$combination_window %in% input$temporal_symmetry_combination_window,
-        .data$days_prior_observation %in% input$temporal_symmetry_days_prior_observation,
-        .data$index_marker_gap %in% input$temporal_symmetry_index_marker_gap,
-        .data$moving_average_restriction %in% input$temporal_symmetry_moving_average_restriction,
-        .data$timescale %in% input$temporal_symmetry_timescale,
-        .data$washout_window %in% input$temporal_symmetry_washout_window
+        .data$analysis_id %in% input$temporal_symmetry_analysis_id
+      ) |>
+      filterProtocolPairs(
+        indexColumn = "index_name",
+        markerColumn = "marker_name",
+        selectedIndex = input$temporal_symmetry_index_name,
+        selectedMarker = input$temporal_symmetry_marker_name
       )
   })
   getTemporalSymmetryTidy <- shiny::reactive({
@@ -417,6 +338,7 @@ server <- function(input, output, session) {
     content = function(file) {
       getTemporalSymmetryData() |>
         omopgenerics::tidy() |>
+        addProtocolPairMetadata() |>
         readr::write_csv(file = file)
     }
   )

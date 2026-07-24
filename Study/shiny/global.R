@@ -16,14 +16,25 @@ library(shiny)
 library(shinycssloaders)
 library(shinyTree)
 library(shinyWidgets)
-library(sortable)
 library(tidyr)
 library(visOmopResults)
 library(yaml)
 
-# preprocess data if it has not been done
+# Preprocess data when needed. OmopViewer's generated check only tests whether
+# the cache exists, which can silently show results from an older results.csv.
 fileData <- file.path(getwd(), "data", "shinyData.RData")
-if (!file.exists(fileData)) {
+rawDataFiles <- list.files(
+  file.path(getwd(), "data"),
+  pattern = "\\.(csv|zip)$",
+  full.names = TRUE
+)
+protocolPairsFile <- file.path(getwd(), "data", "analysis_pairs.csv")
+if (file.exists(protocolPairsFile)) rawDataFiles <- c(rawDataFiles, protocolPairsFile)
+cacheIsStale <- !file.exists(fileData) ||
+  (length(rawDataFiles) > 0 &&
+    max(file.info(rawDataFiles)$mtime, na.rm = TRUE) >
+      file.info(fileData)$mtime)
+if (cacheIsStale) {
   source(file.path(getwd(), "data", "preprocess.R"))
 }
 

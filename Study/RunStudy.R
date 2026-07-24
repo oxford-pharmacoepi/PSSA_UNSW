@@ -98,6 +98,11 @@ file.copy(
   to = file.path(shinyDirectory, "background.md"),
   overwrite = TRUE
 )
+file.copy(
+  from = file.path(studyPath, "inst", "analysis_pairs.csv"),
+  to = file.path(shinyDirectory, "data", "analysis_pairs.csv"),
+  overwrite = TRUE
+)
 
 omopgenerics::logMessage(
   paste("Study results written to", resultsFolder)
