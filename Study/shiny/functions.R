@@ -233,6 +233,16 @@ simpleTable <- function(result,
     omopgenerics::addSettings() |>
     omopgenerics::splitAll() |>
     addProtocolPairMetadata() |>
+    dplyr::mutate(
+      dplyr::across(
+        tidyselect::where(is.logical),
+        ~dplyr::case_when(
+          is.na(.x) ~ NA_character_,
+          .x ~ "Yes",
+          TRUE ~ "No"
+        )
+      )
+    ) |>
     dplyr::select(-"result_id")
   
   # format estimate column
@@ -335,20 +345,32 @@ addProtocolPairMetadata <- function(data) {
 
   pairs <- get("protocolPairs", inherits = TRUE)
   if (all(c("index_cohort_name", "marker_cohort_name") %in% names(data))) {
-    return(dplyr::left_join(
+    data <- dplyr::left_join(
       data, pairs,
       by = c("index_cohort_name", "marker_cohort_name")
-    ))
-  }
-  if (all(c("index_name", "marker_name") %in% names(data))) {
-    return(dplyr::left_join(
+    )
+  } else if (all(c("index_name", "marker_name") %in% names(data))) {
+    data <- dplyr::left_join(
       data, pairs,
       by = c(
         "index_name" = "index_cohort_name",
         "marker_name" = "marker_cohort_name"
       )
-    ))
+    )
   }
+
+  if ("include_in_benchmark" %in% names(data) &&
+      !"validated_status" %in% names(data)) {
+    data <- data |>
+      dplyr::mutate(
+        validated_status = dplyr::case_when(
+          is.na(.data$include_in_benchmark) ~ NA_character_,
+          .data$include_in_benchmark ~ "Validated",
+          TRUE ~ "Not validated"
+        )
+      )
+  }
+
   data
 }
 
@@ -506,24 +528,6 @@ cohortSymmetryCall <- function(functionNames, result, args = list()) {
 }
 
 cohortSymmetryTable <- function(result, header = character(), group = character(), hide = character()) {
-  resultType <- cohortSymmetryResultType(result)
-  functionNames <- switch(
-    resultType,
-    temporal = c("tableTemporalSymmetry"),
-    adjusted = c("tableAdjustedSequenceRatios", "tableAdjustedSequenceRatio", "tableSequenceRatios"),
-    c("tableSequenceRatios", "tableSequenceRatio")
-  )
-  
-  table <- cohortSymmetryCall(
-    functionNames = functionNames,
-    result = result,
-    args = list(header = header, groupColumn = group, hide = hide, type = "gt")
-  )
-  
-  if (!is.null(table)) {
-    return(table)
-  }
-  
   simpleTable(result, header = header, group = group, hide = hide)
 }
 
