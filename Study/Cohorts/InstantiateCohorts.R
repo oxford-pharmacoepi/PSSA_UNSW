@@ -49,7 +49,7 @@ cdm$pssa_condition_cohorts <- CohortConstructor::conceptCohort(
   conceptSet = codelistInputs$concept_sets[conditionCohortNames],
   name = "pssa_condition_cohorts",
   exit = "event_start_date",
-  overlap = "keep"
+  overlap = "merge"
 )
 
 analysisPairs <- codelistInputs$analysis_pairs |>

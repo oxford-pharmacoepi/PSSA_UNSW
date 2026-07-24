@@ -79,14 +79,14 @@ for (settingIndex in which(!analysisSettings$is_primary)) {
 addProtocolSettings <- function(result, pair, setting) {
   resultSettings <- omopgenerics::settings(result) |>
     dplyr::mutate(
-      pair_id = pair$pair_id,
-      index_label = pair$index_label,
-      marker_label = pair$marker_label,
-      marker_type = pair$marker_type,
-      tier = as.character(pair$tier),
-      expected_association = pair$expected_association,
-      expected_direction = pair$expected_direction,
-      include_in_benchmark = as.character(pair$include_in_benchmark),
+      # pair_id = pair$pair_id,
+      # index_label = pair$index_label,
+      # marker_label = pair$marker_label,
+      # marker_type = pair$marker_type,
+      # tier = as.character(pair$tier),
+      # expected_association = pair$expected_association,
+      # expected_direction = pair$expected_direction,
+      # include_in_benchmark = as.character(pair$include_in_benchmark),
       analysis_id = setting$analysis_id,
       analysis_label = setting$analysis_label,
       changed_parameter = setting$changed_parameter,
@@ -94,8 +94,9 @@ addProtocolSettings <- function(result, pair, setting) {
       blackout_days = as.character(setting$blackout_days),
       protocol_prior_observation = as.character(setting$days_prior_observation),
       incident_washout_days = as.character(setting$washout_window),
-      is_primary = as.character(setting$is_primary),
-      protocol_note = pair$protocol_note
+      is_primary = as.character(setting$is_primary)
+      #,
+      #protocol_note = pair$protocol_note
     )
 
   omopgenerics::newSummarisedResult(
@@ -106,55 +107,48 @@ addProtocolSettings <- function(result, pair, setting) {
 
 sequenceRatioResults <- list()
 temporalSymmetryResults <- list()
-resultIndex <- 0L
 
-for (pairIndex in seq_len(nrow(pssaCohortPairs))) {
-  pair <- pssaCohortPairs[pairIndex, ]
-
-  for (settingIndex in seq_len(nrow(analysisSettings))) {
-    setting <- analysisSettings[settingIndex, ]
-    resultIndex <- resultIndex + 1L
-    resultName <- paste(pair$pair_id, setting$analysis_id, sep = "_")
-    sequenceCohortName <- paste0("pssa_sequence_", resultIndex)
-
-    omopgenerics::logMessage(
-      paste(
-        "Generating sequence cohort",
-        resultName,
-        paste0("(", resultIndex, "/", nrow(pssaCohortPairs) * nrow(analysisSettings), ")")
-      )
+for (settingIndex in seq_len(nrow(analysisSettings))) {
+  setting <- analysisSettings[settingIndex, ]
+  resultId <- setting$analysis_id
+  sequenceCohortName <- paste0("pssa_sequence_", reultId)
+  
+  omopgenerics::logMessage(
+    paste(
+      "Generating sequence cohort",
+      resultId
     )
-
-    cdm <- CohortSymmetry::generateSequenceCohortSet(
-      cdm = cdm,
-      indexTable = pair$index_table,
-      indexId = pair$index_id,
-      markerTable = pair$marker_table,
-      markerId = pair$marker_id,
-      name = sequenceCohortName,
-      washoutWindow = setting$washout_window,
-      daysPriorObservation = setting$days_prior_observation,
-      indexMarkerGap = setting$index_marker_gap,
-      combinationWindow = c(setting$blackout_days, setting$window_days),
-      movingAverageRestriction = setting$moving_average_restriction
-    )
-
-    sequenceRatioResults[[resultName]] <- CohortSymmetry::summariseSequenceRatios(
-      cohort = cdm[[sequenceCohortName]]
-    ) |>
-      addProtocolSettings(pair = pair, setting = setting)
-
-    temporalSymmetryResults[[resultName]] <- CohortSymmetry::summariseTemporalSymmetry(
-      cohort = cdm[[sequenceCohortName]],
-      timescale = setting$timescale
-    ) |>
-      addProtocolSettings(pair = pair, setting = setting)
-
-    cdm <- CDMConnector::dropTable(
-      cdm = cdm,
-      name = sequenceCohortName
-    )
-  }
+  )
+  
+  cdm <- CohortSymmetry::generateSequenceCohortSet(
+    cdm = cdm,
+    indexTable = "pssa_drug_cohorts",
+    indexId = NULL,
+    markerTable = "pssa_condition_cohorts",
+    markerId = NULL,
+    name = sequenceCohortName,
+    washoutWindow = setting$washout_window,
+    daysPriorObservation = setting$days_prior_observation,
+    indexMarkerGap = setting$index_marker_gap,
+    combinationWindow = c(setting$blackout_days, setting$window_days),
+    movingAverageRestriction = setting$moving_average_restriction
+  )
+  
+  sequenceRatioResults[[resultId]] <- CohortSymmetry::summariseSequenceRatios(
+    cohort = cdm[[sequenceCohortName]]
+  ) |>
+    addProtocolSettings(setting = setting)
+  
+  temporalSymmetryResults[[resultId]] <- CohortSymmetry::summariseTemporalSymmetry(
+    cohort = cdm[[sequenceCohortName]],
+    timescale = setting$timescale
+  ) |>
+    addProtocolSettings(setting = setting)
+  
+  cdm <- CDMConnector::dropTable(
+    cdm = cdm,
+    name = sequenceCohortName
+  )
 }
 
 sequenceRatioResult <- do.call(
