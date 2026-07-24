@@ -528,7 +528,80 @@ cohortSymmetryCall <- function(functionNames, result, args = list()) {
 }
 
 cohortSymmetryTable <- function(result, header = character(), group = character(), hide = character()) {
-  simpleTable(result, header = header, group = group, hide = hide)
+  resultType <- cohortSymmetryResultType(result)
+
+  tableData <- result |>
+    omopgenerics::addSettings() |>
+    omopgenerics::splitAll() |>
+    addProtocolPairMetadata() |>
+    omopgenerics::pivotEstimates()
+
+  if ("include_in_benchmark" %in% names(tableData)) {
+    tableData <- tableData |>
+      dplyr::mutate(
+        validated_status = dplyr::case_when(
+          is.na(.data$include_in_benchmark) ~ NA_character_,
+          .data$include_in_benchmark ~ "Validated",
+          TRUE ~ "Not validated"
+        )
+      )
+  }
+
+  if (identical(resultType, "temporal")) {
+    tableData <- tableData |>
+      dplyr::mutate(
+        pair = paste(.data$index_name, .data$marker_name, sep = " -> ")
+      ) |>
+      dplyr::select(
+        dplyr::any_of(c(
+          "cdm_name", "pair", "analysis_label", "analysis_id",
+          "variable_level", "count", "expected_direction", "validated_status"
+        ))
+      ) |>
+      dplyr::rename(
+        analysis = "analysis_label",
+        day = "variable_level",
+        temporal_count = "count",
+        expected = "expected_direction",
+        validated = "validated_status"
+      ) |>
+      dplyr::arrange(.data$pair, .data$analysis, suppressWarnings(as.numeric(.data$day)))
+  } else {
+    tableData <- tableData |>
+      dplyr::mutate(
+        pair = paste(.data$index_cohort_name, .data$marker_cohort_name, sep = " -> "),
+        estimate = dplyr::case_when(
+          !is.na(.data$point_estimate) & !is.na(.data$lower_CI) & !is.na(.data$upper_CI) ~
+            paste0(.data$point_estimate, " [", .data$lower_CI, ", ", .data$upper_CI, "]"),
+          !is.na(.data$point_estimate) ~ as.character(.data$point_estimate),
+          TRUE ~ NA_character_
+        )
+      ) |>
+      dplyr::select(
+        dplyr::any_of(c(
+          "cdm_name", "pair", "analysis_label", "analysis_id",
+          "variable_name", "estimate", "expected_direction", "validated_status"
+        ))
+      ) |>
+      dplyr::rename(
+        analysis = "analysis_label",
+        estimate_type = "variable_name",
+        expected = "expected_direction",
+        validated = "validated_status"
+      ) |>
+      dplyr::arrange(.data$pair, .data$analysis, .data$estimate_type)
+  }
+
+  if ("analysis" %in% names(tableData)) {
+    tableData <- tableData |>
+      dplyr::mutate(
+        analysis = dplyr::coalesce(.data$analysis, .data$analysis_id)
+      ) |>
+      dplyr::select(-dplyr::any_of("analysis_id"))
+  }
+
+  gt::gt(tableData) |>
+    gt::sub_missing(columns = dplyr::everything(), missing_text = "\u2014")
 }
 
 cohortSymmetryPlot <- function(result, x = "index_cohort_name", facet = "cdm_name", colour = "variable_name") {
