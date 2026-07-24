@@ -1,32 +1,32 @@
-concept_id,concept_name,domain_id,vocabulary_id,standard_concept,condition,cohort_name,cohort_label,cohort_domain
-75860,Constipation,Condition,SNOMED,standard,constipation,constipation,Constipation,condition
-79061,Slow transit constipation,Condition,SNOMED,standard,constipation,constipation,Constipation,condition
-201905,Constipation by outlet obstruction,Condition,SNOMED,standard,constipation,constipation,Constipation,condition
-1245075,Acute constipation in childhood,Condition,SNOMED,standard,constipation,constipation,Constipation,condition
-1245076,Acute constipation in infancy,Condition,SNOMED,standard,constipation,constipation,Constipation,condition
-1245356,"NRXN1-related severe neurodevelopmental disorder, motor stereotypies, chronic constipation, sleep-wake cycle disturbance",Condition,SNOMED,standard,constipation,constipation,Constipation,condition
-1340291,Exacerbation of constipation,Condition,OMOP Extension,standard,constipation,constipation,Constipation,condition
-4008552,Obstipation,Condition,SNOMED,standard,constipation,constipation,Constipation,condition
-4026011,Chronic constipation without overflow,Condition,SNOMED,standard,constipation,constipation,Constipation,condition
-4030428,Perceived constipation,Condition,SNOMED,standard,constipation,constipation,Constipation,condition
-4055110,Functional constipation,Condition,SNOMED,standard,constipation,constipation,Constipation,condition
-4057824,Acute constipation,Condition,SNOMED,standard,constipation,constipation,Constipation,condition
-4070750,Drug-induced constipation,Condition,SNOMED,standard,constipation,constipation,Constipation,condition
-4096857,Constipation alternates with diarrhea,Condition,SNOMED,standard,constipation,constipation,Constipation,condition
-4100533,Psychogenic constipation,Condition,SNOMED,standard,constipation,constipation,Constipation,condition
-4135220,Chronic constipation with overflow,Condition,SNOMED,standard,constipation,constipation,Constipation,condition
-4218933,Encopresis with constipation AND overflow incontinence,Condition,SNOMED,standard,constipation,constipation,Constipation,condition
-4235874,Encopresis without constipation AND without overflow incontinence,Condition,SNOMED,standard,constipation,constipation,Constipation,condition
-4238495,Alteration in bowel elimination: constipation,Condition,SNOMED,standard,constipation,constipation,Constipation,condition
-4261072,Irritable bowel syndrome characterized by constipation,Condition,SNOMED,standard,constipation,constipation,Constipation,condition
-4306923,Chronic idiopathic constipation,Condition,SNOMED,standard,constipation,constipation,Constipation,condition
-4328435,Constipation due to spasm of colon,Condition,SNOMED,standard,constipation,constipation,Constipation,condition
-4333213,Constipation due to neurogenic bowel,Condition,SNOMED,standard,constipation,constipation,Constipation,condition
-4333890,Atonic constipation,Condition,SNOMED,standard,constipation,constipation,Constipation,condition
-4340374,Irritable bowel syndrome variant of childhood with constipation,Condition,SNOMED,standard,constipation,constipation,Constipation,condition
-4340520,Chronic constipation,Condition,SNOMED,standard,constipation,constipation,Constipation,condition
-4341090,Simple constipation,Condition,SNOMED,standard,constipation,constipation,Constipation,condition
-37162878,Functional constipation of infant,Condition,SNOMED,standard,constipation,constipation,Constipation,condition
-37168942,Constipation during pregnancy,Condition,SNOMED,standard,constipation,constipation,Constipation,condition
-45757425,Therapeutic opioid induced constipation,Condition,SNOMED,standard,constipation,constipation,Constipation,condition
-45757556,Constipation due to pelvic floor outlet obstruction,Condition,SNOMED,standard,constipation,constipation,Constipation,condition
+cohort_name,cohort_label,cohort_domain,concept_id,include_descendants,concept_name,vocabulary_id,concept_code,review_status,phenotype_note,domain_id,standard_concept,condition
+constipation,Constipation,condition,75860,FALSE,Constipation,SNOMED,constipation,reviewed_seed,Imported from master codelists,Condition,standard,constipation
+constipation,Constipation,condition,79061,FALSE,Slow transit constipation,SNOMED,constipation,reviewed_seed,Imported from master codelists,Condition,standard,constipation
+constipation,Constipation,condition,201905,FALSE,Constipation by outlet obstruction,SNOMED,constipation,reviewed_seed,Imported from master codelists,Condition,standard,constipation
+constipation,Constipation,condition,1245075,FALSE,Acute constipation in childhood,SNOMED,constipation,reviewed_seed,Imported from master codelists,Condition,standard,constipation
+constipation,Constipation,condition,1245076,FALSE,Acute constipation in infancy,SNOMED,constipation,reviewed_seed,Imported from master codelists,Condition,standard,constipation
+constipation,Constipation,condition,1245356,FALSE,"NRXN1-related severe neurodevelopmental disorder, motor stereotypies, chronic constipation, sleep-wake cycle disturbance",SNOMED,constipation,reviewed_seed,Imported from master codelists,Condition,standard,constipation
+constipation,Constipation,condition,1340291,FALSE,Exacerbation of constipation,OMOP Extension,constipation,reviewed_seed,Imported from master codelists,Condition,standard,constipation
+constipation,Constipation,condition,4008552,FALSE,Obstipation,SNOMED,constipation,reviewed_seed,Imported from master codelists,Condition,standard,constipation
+constipation,Constipation,condition,4026011,FALSE,Chronic constipation without overflow,SNOMED,constipation,reviewed_seed,Imported from master codelists,Condition,standard,constipation
+constipation,Constipation,condition,4030428,FALSE,Perceived constipation,SNOMED,constipation,reviewed_seed,Imported from master codelists,Condition,standard,constipation
+constipation,Constipation,condition,4055110,FALSE,Functional constipation,SNOMED,constipation,reviewed_seed,Imported from master codelists,Condition,standard,constipation
+constipation,Constipation,condition,4057824,FALSE,Acute constipation,SNOMED,constipation,reviewed_seed,Imported from master codelists,Condition,standard,constipation
+constipation,Constipation,condition,4070750,FALSE,Drug-induced constipation,SNOMED,constipation,reviewed_seed,Imported from master codelists,Condition,standard,constipation
+constipation,Constipation,condition,4096857,FALSE,Constipation alternates with diarrhea,SNOMED,constipation,reviewed_seed,Imported from master codelists,Condition,standard,constipation
+constipation,Constipation,condition,4100533,FALSE,Psychogenic constipation,SNOMED,constipation,reviewed_seed,Imported from master codelists,Condition,standard,constipation
+constipation,Constipation,condition,4135220,FALSE,Chronic constipation with overflow,SNOMED,constipation,reviewed_seed,Imported from master codelists,Condition,standard,constipation
+constipation,Constipation,condition,4218933,FALSE,Encopresis with constipation AND overflow incontinence,SNOMED,constipation,reviewed_seed,Imported from master codelists,Condition,standard,constipation
+constipation,Constipation,condition,4235874,FALSE,Encopresis without constipation AND without overflow incontinence,SNOMED,constipation,reviewed_seed,Imported from master codelists,Condition,standard,constipation
+constipation,Constipation,condition,4238495,FALSE,Alteration in bowel elimination: constipation,SNOMED,constipation,reviewed_seed,Imported from master codelists,Condition,standard,constipation
+constipation,Constipation,condition,4261072,FALSE,Irritable bowel syndrome characterized by constipation,SNOMED,constipation,reviewed_seed,Imported from master codelists,Condition,standard,constipation
+constipation,Constipation,condition,4306923,FALSE,Chronic idiopathic constipation,SNOMED,constipation,reviewed_seed,Imported from master codelists,Condition,standard,constipation
+constipation,Constipation,condition,4328435,FALSE,Constipation due to spasm of colon,SNOMED,constipation,reviewed_seed,Imported from master codelists,Condition,standard,constipation
+constipation,Constipation,condition,4333213,FALSE,Constipation due to neurogenic bowel,SNOMED,constipation,reviewed_seed,Imported from master codelists,Condition,standard,constipation
+constipation,Constipation,condition,4333890,FALSE,Atonic constipation,SNOMED,constipation,reviewed_seed,Imported from master codelists,Condition,standard,constipation
+constipation,Constipation,condition,4340374,FALSE,Irritable bowel syndrome variant of childhood with constipation,SNOMED,constipation,reviewed_seed,Imported from master codelists,Condition,standard,constipation
+constipation,Constipation,condition,4340520,FALSE,Chronic constipation,SNOMED,constipation,reviewed_seed,Imported from master codelists,Condition,standard,constipation
+constipation,Constipation,condition,4341090,FALSE,Simple constipation,SNOMED,constipation,reviewed_seed,Imported from master codelists,Condition,standard,constipation
+constipation,Constipation,condition,37162878,FALSE,Functional constipation of infant,SNOMED,constipation,reviewed_seed,Imported from master codelists,Condition,standard,constipation
+constipation,Constipation,condition,37168942,FALSE,Constipation during pregnancy,SNOMED,constipation,reviewed_seed,Imported from master codelists,Condition,standard,constipation
+constipation,Constipation,condition,45757425,FALSE,Therapeutic opioid induced constipation,SNOMED,constipation,reviewed_seed,Imported from master codelists,Condition,standard,constipation
+constipation,Constipation,condition,45757556,FALSE,Constipation due to pelvic floor outlet obstruction,SNOMED,constipation,reviewed_seed,Imported from master codelists,Condition,standard,constipation

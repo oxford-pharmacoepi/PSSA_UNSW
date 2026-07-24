@@ -1,220 +1,220 @@
-concept_id,concept_name,domain_id,vocabulary_id,standard_concept,condition,cohort_name,cohort_label,cohort_domain
-22665,Chronic peptic ulcer with hemorrhage AND with perforation but without obstruction,Condition,SNOMED,standard,gi hemorrhage,upper_gi_bleeding_or_dyspepsia,Upper GI bleeding or dyspepsia,condition
-23237,Acute peptic ulcer with hemorrhage AND obstruction,Condition,SNOMED,standard,gi hemorrhage,upper_gi_bleeding_or_dyspepsia,Upper GI bleeding or dyspepsia,condition
-23245,Esophageal bleeding,Condition,SNOMED,standard,gi hemorrhage,upper_gi_bleeding_or_dyspepsia,Upper GI bleeding or dyspepsia,condition
-24076,Chronic peptic ulcer with hemorrhage AND obstruction,Condition,SNOMED,standard,gi hemorrhage,upper_gi_bleeding_or_dyspepsia,Upper GI bleeding or dyspepsia,condition
-24397,"Chronic peptic ulcer with hemorrhage, with perforation AND with obstruction",Condition,SNOMED,standard,gi hemorrhage,upper_gi_bleeding_or_dyspepsia,Upper GI bleeding or dyspepsia,condition
-26441,Bleeding ulcer of esophagus,Condition,SNOMED,standard,gi hemorrhage,upper_gi_bleeding_or_dyspepsia,Upper GI bleeding or dyspepsia,condition
-26727,Hematemesis,Condition,SNOMED,standard,gi hemorrhage,upper_gi_bleeding_or_dyspepsia,Upper GI bleeding or dyspepsia,condition
-27026,Acute peptic ulcer with hemorrhage AND with perforation but without obstruction,Condition,SNOMED,standard,gi hemorrhage,upper_gi_bleeding_or_dyspepsia,Upper GI bleeding or dyspepsia,condition
-30770,Chronic peptic ulcer with hemorrhage but without obstruction,Condition,SNOMED,standard,gi hemorrhage,upper_gi_bleeding_or_dyspepsia,Upper GI bleeding or dyspepsia,condition
-31335,Acute peptic ulcer with hemorrhage but without obstruction,Condition,SNOMED,standard,gi hemorrhage,upper_gi_bleeding_or_dyspepsia,Upper GI bleeding or dyspepsia,condition
-192671,Gastrointestinal hemorrhage,Condition,SNOMED,standard,gi hemorrhage,upper_gi_bleeding_or_dyspepsia,Upper GI bleeding or dyspepsia,condition
-193249,Acute hemorrhagic gastritis,Condition,SNOMED,standard,gi hemorrhage,upper_gi_bleeding_or_dyspepsia,Upper GI bleeding or dyspepsia,condition
-193250,Gastric hemorrhage,Condition,SNOMED,standard,gi hemorrhage,upper_gi_bleeding_or_dyspepsia,Upper GI bleeding or dyspepsia,condition
-193795,Acute gastric ulcer with hemorrhage but without obstruction,Condition,SNOMED,standard,gi hemorrhage,upper_gi_bleeding_or_dyspepsia,Upper GI bleeding or dyspepsia,condition
-194158,Perinatal gastrointestinal hemorrhage,Condition,SNOMED,standard,gi hemorrhage,upper_gi_bleeding_or_dyspepsia,Upper GI bleeding or dyspepsia,condition
-194395,Hemorrhage of large intestine with diverticular disease of large intestine,Condition,SNOMED,standard,gi hemorrhage,upper_gi_bleeding_or_dyspepsia,Upper GI bleeding or dyspepsia,condition
-194986,"Acute peptic ulcer with hemorrhage, with perforation AND with obstruction",Condition,SNOMED,standard,gi hemorrhage,upper_gi_bleeding_or_dyspepsia,Upper GI bleeding or dyspepsia,condition
-195845,"Acute gastric ulcer with hemorrhage, with perforation and with obstruction",Condition,SNOMED,standard,gi hemorrhage,upper_gi_bleeding_or_dyspepsia,Upper GI bleeding or dyspepsia,condition
-196442,Chronic gastric ulcer with hemorrhage AND with perforation but without obstruction,Condition,SNOMED,standard,gi hemorrhage,upper_gi_bleeding_or_dyspepsia,Upper GI bleeding or dyspepsia,condition
-197018,Chronic gastric ulcer with hemorrhage but without obstruction,Condition,SNOMED,standard,gi hemorrhage,upper_gi_bleeding_or_dyspepsia,Upper GI bleeding or dyspepsia,condition
-197024,Small intestinal hemorrhage,Condition,SNOMED,standard,gi hemorrhage,upper_gi_bleeding_or_dyspepsia,Upper GI bleeding or dyspepsia,condition
-197925,Hemorrhage of rectum and anus,Condition,SNOMED,standard,gi hemorrhage,upper_gi_bleeding_or_dyspepsia,Upper GI bleeding or dyspepsia,condition
-198467,Acute gastric ulcer with hemorrhage and obstruction,Condition,SNOMED,standard,gi hemorrhage,upper_gi_bleeding_or_dyspepsia,Upper GI bleeding or dyspepsia,condition
-198801,"Chronic gastric ulcer with hemorrhage, with perforation and with obstruction",Condition,SNOMED,standard,gi hemorrhage,upper_gi_bleeding_or_dyspepsia,Upper GI bleeding or dyspepsia,condition
-199855,Acute gastric ulcer with hemorrhage AND with perforation but without obstruction,Condition,SNOMED,standard,gi hemorrhage,upper_gi_bleeding_or_dyspepsia,Upper GI bleeding or dyspepsia,condition
-201885,Chronic gastric ulcer with hemorrhage and with obstruction,Condition,SNOMED,standard,gi hemorrhage,upper_gi_bleeding_or_dyspepsia,Upper GI bleeding or dyspepsia,condition
-316457,Mallory-Weiss syndrome,Condition,SNOMED,standard,gi hemorrhage,upper_gi_bleeding_or_dyspepsia,Upper GI bleeding or dyspepsia,condition
-433515,Chronic gastrojejunal ulcer with hemorrhage,Condition,SNOMED,standard,gi hemorrhage,upper_gi_bleeding_or_dyspepsia,Upper GI bleeding or dyspepsia,condition
-434402,Acute duodenal ulcer with hemorrhage but without obstruction,Condition,SNOMED,standard,gi hemorrhage,upper_gi_bleeding_or_dyspepsia,Upper GI bleeding or dyspepsia,condition
-435855,Acute duodenal ulcer with hemorrhage AND with perforation but without obstruction,Condition,SNOMED,standard,gi hemorrhage,upper_gi_bleeding_or_dyspepsia,Upper GI bleeding or dyspepsia,condition
-436148,Chronic duodenal ulcer with hemorrhage but without obstruction,Condition,SNOMED,standard,gi hemorrhage,upper_gi_bleeding_or_dyspepsia,Upper GI bleeding or dyspepsia,condition
-436729,Chronic gastrojejunal ulcer with hemorrhage and obstruction,Condition,SNOMED,standard,gi hemorrhage,upper_gi_bleeding_or_dyspepsia,Upper GI bleeding or dyspepsia,condition
-437021,"Acute duodenal ulcer with hemorrhage, with perforation AND with obstruction",Condition,SNOMED,standard,gi hemorrhage,upper_gi_bleeding_or_dyspepsia,Upper GI bleeding or dyspepsia,condition
-437027,Hemorrhagic duodenitis,Condition,SNOMED,standard,gi hemorrhage,upper_gi_bleeding_or_dyspepsia,Upper GI bleeding or dyspepsia,condition
-437323,Chronic duodenal ulcer with hemorrhage AND obstruction,Condition,SNOMED,standard,gi hemorrhage,upper_gi_bleeding_or_dyspepsia,Upper GI bleeding or dyspepsia,condition
-437326,Chronic gastrojejunal ulcer with hemorrhage and with perforation but without obstruction,Condition,SNOMED,standard,gi hemorrhage,upper_gi_bleeding_or_dyspepsia,Upper GI bleeding or dyspepsia,condition
-438468,Acute gastrojejunal ulcer with hemorrhage but without obstruction,Condition,SNOMED,standard,gi hemorrhage,upper_gi_bleeding_or_dyspepsia,Upper GI bleeding or dyspepsia,condition
-438796,Chronic duodenal ulcer with hemorrhage AND with perforation but without obstruction,Condition,SNOMED,standard,gi hemorrhage,upper_gi_bleeding_or_dyspepsia,Upper GI bleeding or dyspepsia,condition
-440756,"Chronic duodenal ulcer with hemorrhage, with perforation AND with obstruction",Condition,SNOMED,standard,gi hemorrhage,upper_gi_bleeding_or_dyspepsia,Upper GI bleeding or dyspepsia,condition
-441062,Acute duodenal ulcer with hemorrhage AND obstruction,Condition,SNOMED,standard,gi hemorrhage,upper_gi_bleeding_or_dyspepsia,Upper GI bleeding or dyspepsia,condition
-441063,Acute gastrojejunal ulcer with hemorrhage and obstruction,Condition,SNOMED,standard,gi hemorrhage,upper_gi_bleeding_or_dyspepsia,Upper GI bleeding or dyspepsia,condition
-441328,Acute gastrojejunal ulcer with hemorrhage and with perforation but without obstruction,Condition,SNOMED,standard,gi hemorrhage,upper_gi_bleeding_or_dyspepsia,Upper GI bleeding or dyspepsia,condition
-442190,Hemorrhage of colon,Condition,SNOMED,standard,gi hemorrhage,upper_gi_bleeding_or_dyspepsia,Upper GI bleeding or dyspepsia,condition
-442314,"Acute gastrojejunal ulcer with hemorrhage, with perforation and with obstruction",Condition,SNOMED,standard,gi hemorrhage,upper_gi_bleeding_or_dyspepsia,Upper GI bleeding or dyspepsia,condition
-443779,"Chronic gastrojejunal ulcer with hemorrhage, with perforation and with obstruction",Condition,SNOMED,standard,gi hemorrhage,upper_gi_bleeding_or_dyspepsia,Upper GI bleeding or dyspepsia,condition
-606751,Erosion of duodenum with hemorrhage,Condition,SNOMED,standard,gi hemorrhage,upper_gi_bleeding_or_dyspepsia,Upper GI bleeding or dyspepsia,condition
-607946,Wischnewski spots,Condition,SNOMED,standard,gi hemorrhage,upper_gi_bleeding_or_dyspepsia,Upper GI bleeding or dyspepsia,condition
-608968,Bleeding internal hemorrhoid grade III,Condition,SNOMED,standard,gi hemorrhage,upper_gi_bleeding_or_dyspepsia,Upper GI bleeding or dyspepsia,condition
-608969,Bleeding internal hemorrhoid grade I,Condition,SNOMED,standard,gi hemorrhage,upper_gi_bleeding_or_dyspepsia,Upper GI bleeding or dyspepsia,condition
-608970,Bleeding internal hemorrhoid grade II,Condition,SNOMED,standard,gi hemorrhage,upper_gi_bleeding_or_dyspepsia,Upper GI bleeding or dyspepsia,condition
-608971,Bleeding internal hemorrhoid grade IV,Condition,SNOMED,standard,gi hemorrhage,upper_gi_bleeding_or_dyspepsia,Upper GI bleeding or dyspepsia,condition
-1075402,Rectal hemorrhage caused by drug,Condition,SNOMED,standard,gi hemorrhage,upper_gi_bleeding_or_dyspepsia,Upper GI bleeding or dyspepsia,condition
-1075403,Rectal hemorrhage caused by apixaban,Condition,SNOMED,standard,gi hemorrhage,upper_gi_bleeding_or_dyspepsia,Upper GI bleeding or dyspepsia,condition
-1077328,Benign neoplasm of large intestine with hemorrhage,Condition,SNOMED,standard,gi hemorrhage,upper_gi_bleeding_or_dyspepsia,Upper GI bleeding or dyspepsia,condition
-1077329,Bleeding ulcer of large intestine,Condition,SNOMED,standard,gi hemorrhage,upper_gi_bleeding_or_dyspepsia,Upper GI bleeding or dyspepsia,condition
-1077330,Bleeding ulcer of mucosa of large intestine,Condition,SNOMED,standard,gi hemorrhage,upper_gi_bleeding_or_dyspepsia,Upper GI bleeding or dyspepsia,condition
-1077332,Malignant neoplasm of large intestine with hemorrhage,Condition,SNOMED,standard,gi hemorrhage,upper_gi_bleeding_or_dyspepsia,Upper GI bleeding or dyspepsia,condition
-1340239,Exacerbation of acute hemorrhagic gastritis,Condition,OMOP Extension,standard,gi hemorrhage,upper_gi_bleeding_or_dyspepsia,Upper GI bleeding or dyspepsia,condition
-1450600,Hemorrhagic mucosa of large intestine,Condition,SNOMED,standard,gi hemorrhage,upper_gi_bleeding_or_dyspepsia,Upper GI bleeding or dyspepsia,condition
-4006994,Acute peptic ulcer with hemorrhage and perforation,Condition,SNOMED,standard,gi hemorrhage,upper_gi_bleeding_or_dyspepsia,Upper GI bleeding or dyspepsia,condition
-4026112,Rectal hemorrhage,Condition,SNOMED,standard,gi hemorrhage,upper_gi_bleeding_or_dyspepsia,Upper GI bleeding or dyspepsia,condition
-4027729,Acute duodenal ulcer with hemorrhage,Condition,SNOMED,standard,gi hemorrhage,upper_gi_bleeding_or_dyspepsia,Upper GI bleeding or dyspepsia,condition
-4031954,Duodenal ulcer with hemorrhage AND perforation,Condition,SNOMED,standard,gi hemorrhage,upper_gi_bleeding_or_dyspepsia,Upper GI bleeding or dyspepsia,condition
-4035167,Duodenal ulcer with hemorrhage AND with perforation but without obstruction,Condition,SNOMED,standard,gi hemorrhage,upper_gi_bleeding_or_dyspepsia,Upper GI bleeding or dyspepsia,condition
-4041707,Gastric ulcer with hemorrhage but without obstruction,Condition,SNOMED,standard,gi hemorrhage,upper_gi_bleeding_or_dyspepsia,Upper GI bleeding or dyspepsia,condition
-4046500,Acute peptic ulcer with hemorrhage,Condition,SNOMED,standard,gi hemorrhage,upper_gi_bleeding_or_dyspepsia,Upper GI bleeding or dyspepsia,condition
-4048286,Neonatal rectal hemorrhage,Condition,SNOMED,standard,gi hemorrhage,upper_gi_bleeding_or_dyspepsia,Upper GI bleeding or dyspepsia,condition
-4048601,Perinatal hematemesis,Condition,SNOMED,standard,gi hemorrhage,upper_gi_bleeding_or_dyspepsia,Upper GI bleeding or dyspepsia,condition
-4048602,Perinatal rectal hemorrhage,Condition,SNOMED,standard,gi hemorrhage,upper_gi_bleeding_or_dyspepsia,Upper GI bleeding or dyspepsia,condition
-4048889,Hemorrhagic enteropathy of terminal ileum,Condition,SNOMED,standard,gi hemorrhage,upper_gi_bleeding_or_dyspepsia,Upper GI bleeding or dyspepsia,condition
-4049270,"Duodenal ulcer with hemorrhage, with perforation AND with obstruction",Condition,SNOMED,standard,gi hemorrhage,upper_gi_bleeding_or_dyspepsia,Upper GI bleeding or dyspepsia,condition
-4049466,Gastric ulcer with hemorrhage,Condition,SNOMED,standard,gi hemorrhage,upper_gi_bleeding_or_dyspepsia,Upper GI bleeding or dyspepsia,condition
-4050203,Intramural esophageal hematoma,Condition,SNOMED,standard,gi hemorrhage,upper_gi_bleeding_or_dyspepsia,Upper GI bleeding or dyspepsia,condition
-4069838,"Gastric ulcer with hemorrhage, with perforation and with obstruction",Condition,SNOMED,standard,gi hemorrhage,upper_gi_bleeding_or_dyspepsia,Upper GI bleeding or dyspepsia,condition
-4071070,Neonatal hematemesis,Condition,SNOMED,standard,gi hemorrhage,upper_gi_bleeding_or_dyspepsia,Upper GI bleeding or dyspepsia,condition
-4071203,Gastric ulcer with hemorrhage AND perforation but without obstruction,Condition,SNOMED,standard,gi hemorrhage,upper_gi_bleeding_or_dyspepsia,Upper GI bleeding or dyspepsia,condition
-4083969,Hematoma of jejunum,Condition,SNOMED,standard,gi hemorrhage,upper_gi_bleeding_or_dyspepsia,Upper GI bleeding or dyspepsia,condition
-4084844,Duodenal ulcer with hemorrhage AND obstruction,Condition,SNOMED,standard,gi hemorrhage,upper_gi_bleeding_or_dyspepsia,Upper GI bleeding or dyspepsia,condition
-4085415,Hematoma of anus,Condition,SNOMED,standard,gi hemorrhage,upper_gi_bleeding_or_dyspepsia,Upper GI bleeding or dyspepsia,condition
-4087310,Bleeding gastric varices,Condition,SNOMED,standard,gi hemorrhage,upper_gi_bleeding_or_dyspepsia,Upper GI bleeding or dyspepsia,condition
-4095094,Colonic hematoma,Condition,SNOMED,standard,gi hemorrhage,upper_gi_bleeding_or_dyspepsia,Upper GI bleeding or dyspepsia,condition
-4095410,"Peptic ulcer with hemorrhage, with perforation AND with obstruction",Condition,SNOMED,standard,gi hemorrhage,upper_gi_bleeding_or_dyspepsia,Upper GI bleeding or dyspepsia,condition
-4095555,Esophageal hematoma,Condition,SNOMED,standard,gi hemorrhage,upper_gi_bleeding_or_dyspepsia,Upper GI bleeding or dyspepsia,condition
-4095570,Small intestinal hematoma,Condition,SNOMED,standard,gi hemorrhage,upper_gi_bleeding_or_dyspepsia,Upper GI bleeding or dyspepsia,condition
-4095572,Appendix hematoma,Condition,SNOMED,standard,gi hemorrhage,upper_gi_bleeding_or_dyspepsia,Upper GI bleeding or dyspepsia,condition
-4096032,Duodenal hematoma,Condition,SNOMED,standard,gi hemorrhage,upper_gi_bleeding_or_dyspepsia,Upper GI bleeding or dyspepsia,condition
-4096773,Stomach hematoma,Condition,SNOMED,standard,gi hemorrhage,upper_gi_bleeding_or_dyspepsia,Upper GI bleeding or dyspepsia,condition
-4096781,Rectal hematoma,Condition,SNOMED,standard,gi hemorrhage,upper_gi_bleeding_or_dyspepsia,Upper GI bleeding or dyspepsia,condition
-4096916,Bleeding external hemorrhoids,Condition,SNOMED,standard,gi hemorrhage,upper_gi_bleeding_or_dyspepsia,Upper GI bleeding or dyspepsia,condition
-4099014,Duodenal ulcer with hemorrhage,Condition,SNOMED,standard,gi hemorrhage,upper_gi_bleeding_or_dyspepsia,Upper GI bleeding or dyspepsia,condition
-4100660,Acute gastrointestinal hemorrhage,Condition,SNOMED,standard,gi hemorrhage,upper_gi_bleeding_or_dyspepsia,Upper GI bleeding or dyspepsia,condition
-4103011,Chronic upper gastrointestinal hemorrhage,Condition,SNOMED,standard,gi hemorrhage,upper_gi_bleeding_or_dyspepsia,Upper GI bleeding or dyspepsia,condition
-4106997,Hematoma of ileum,Condition,SNOMED,standard,gi hemorrhage,upper_gi_bleeding_or_dyspepsia,Upper GI bleeding or dyspepsia,condition
-4119169,Cecal hematoma,Condition,SNOMED,standard,gi hemorrhage,upper_gi_bleeding_or_dyspepsia,Upper GI bleeding or dyspepsia,condition
-4128705,Hemorrhagic enteritis of intestine,Condition,SNOMED,standard,gi hemorrhage,upper_gi_bleeding_or_dyspepsia,Upper GI bleeding or dyspepsia,condition
-4131525,Hemorrhagic gastropathy,Condition,SNOMED,standard,gi hemorrhage,upper_gi_bleeding_or_dyspepsia,Upper GI bleeding or dyspepsia,condition
-4134808,Hemorrhagic duodenopathy,Condition,SNOMED,standard,gi hemorrhage,upper_gi_bleeding_or_dyspepsia,Upper GI bleeding or dyspepsia,condition
-4139411,Massive gastrointestinal bleed,Condition,SNOMED,standard,gi hemorrhage,upper_gi_bleeding_or_dyspepsia,Upper GI bleeding or dyspepsia,condition
-4143871,Erosion of stomach with hemorrhage,Condition,SNOMED,standard,gi hemorrhage,upper_gi_bleeding_or_dyspepsia,Upper GI bleeding or dyspepsia,condition
-4144926,Recurrent gastrointestinal bleeding,Condition,SNOMED,standard,gi hemorrhage,upper_gi_bleeding_or_dyspepsia,Upper GI bleeding or dyspepsia,condition
-4145805,Vomiting blood - fresh,Condition,SNOMED,standard,gi hemorrhage,upper_gi_bleeding_or_dyspepsia,Upper GI bleeding or dyspepsia,condition
-4149010,Duodenal ulcer with hemorrhage but without obstruction,Condition,SNOMED,standard,gi hemorrhage,upper_gi_bleeding_or_dyspepsia,Upper GI bleeding or dyspepsia,condition
-4164920,Chronic gastrojejunal ulcer with hemorrhage and perforation,Condition,SNOMED,standard,gi hemorrhage,upper_gi_bleeding_or_dyspepsia,Upper GI bleeding or dyspepsia,condition
-4169394,Peptic ulcer with hemorrhage but without obstruction,Condition,SNOMED,standard,gi hemorrhage,upper_gi_bleeding_or_dyspepsia,Upper GI bleeding or dyspepsia,condition
-4169592,Acute gastric ulcer with hemorrhage and perforation,Condition,SNOMED,standard,gi hemorrhage,upper_gi_bleeding_or_dyspepsia,Upper GI bleeding or dyspepsia,condition
-4173032,Anal margin hematoma,Condition,SNOMED,standard,gi hemorrhage,upper_gi_bleeding_or_dyspepsia,Upper GI bleeding or dyspepsia,condition
-4174044,Chronic peptic ulcer with hemorrhage,Condition,SNOMED,standard,gi hemorrhage,upper_gi_bleeding_or_dyspepsia,Upper GI bleeding or dyspepsia,condition
-4175673,Gastrojejunal ulcer with hemorrhage AND obstruction,Condition,SNOMED,standard,gi hemorrhage,upper_gi_bleeding_or_dyspepsia,Upper GI bleeding or dyspepsia,condition
-4179773,Gastrojejunal ulcer with hemorrhage but without obstruction,Condition,SNOMED,standard,gi hemorrhage,upper_gi_bleeding_or_dyspepsia,Upper GI bleeding or dyspepsia,condition
-4183005,"Gastrojejunal ulcer with hemorrhage, with perforation and with obstruction",Condition,SNOMED,standard,gi hemorrhage,upper_gi_bleeding_or_dyspepsia,Upper GI bleeding or dyspepsia,condition
-4185784,Hemorrhagic mucosa of stomach,Condition,SNOMED,standard,gi hemorrhage,upper_gi_bleeding_or_dyspepsia,Upper GI bleeding or dyspepsia,condition
-4188154,Hemorrhagic mucosa of duodenum,Condition,SNOMED,standard,gi hemorrhage,upper_gi_bleeding_or_dyspepsia,Upper GI bleeding or dyspepsia,condition
-4195068,Chronic lower gastrointestinal hemorrhage,Condition,SNOMED,standard,gi hemorrhage,upper_gi_bleeding_or_dyspepsia,Upper GI bleeding or dyspepsia,condition
-4198840,Bleeding hemorrhoids,Condition,SNOMED,standard,gi hemorrhage,upper_gi_bleeding_or_dyspepsia,Upper GI bleeding or dyspepsia,condition
-4204041,Hematemesis of unknown cause,Condition,SNOMED,standard,gi hemorrhage,upper_gi_bleeding_or_dyspepsia,Upper GI bleeding or dyspepsia,condition
-4205670,Bleeding stress ulcer of stomach,Condition,SNOMED,standard,gi hemorrhage,upper_gi_bleeding_or_dyspepsia,Upper GI bleeding or dyspepsia,condition
-4206466,Peptic ulcer with hemorrhage AND perforation,Condition,SNOMED,standard,gi hemorrhage,upper_gi_bleeding_or_dyspepsia,Upper GI bleeding or dyspepsia,condition
-4207217,Gastric ulcer with hemorrhage and obstruction,Condition,SNOMED,standard,gi hemorrhage,upper_gi_bleeding_or_dyspepsia,Upper GI bleeding or dyspepsia,condition
-4211001,Chronic gastric ulcer with hemorrhage,Condition,SNOMED,standard,gi hemorrhage,upper_gi_bleeding_or_dyspepsia,Upper GI bleeding or dyspepsia,condition
-4216673,Hemorrhagic colitis,Condition,SNOMED,standard,gi hemorrhage,upper_gi_bleeding_or_dyspepsia,Upper GI bleeding or dyspepsia,condition
-4217947,Acute gastrojejunal ulcer with hemorrhage and perforation,Condition,SNOMED,standard,gi hemorrhage,upper_gi_bleeding_or_dyspepsia,Upper GI bleeding or dyspepsia,condition
-4222477,Gastrojejunal ulcer with hemorrhage,Condition,SNOMED,standard,gi hemorrhage,upper_gi_bleeding_or_dyspepsia,Upper GI bleeding or dyspepsia,condition
-4231580,Acute gastric ulcer with hemorrhage,Condition,SNOMED,standard,gi hemorrhage,upper_gi_bleeding_or_dyspepsia,Upper GI bleeding or dyspepsia,condition
-4232181,Chronic duodenal ulcer with hemorrhage,Condition,SNOMED,standard,gi hemorrhage,upper_gi_bleeding_or_dyspepsia,Upper GI bleeding or dyspepsia,condition
-4232237,Esophageal bleeding due to ulcerative esophagitis,Condition,SNOMED,standard,gi hemorrhage,upper_gi_bleeding_or_dyspepsia,Upper GI bleeding or dyspepsia,condition
-4235740,Peptic ulcer with hemorrhage AND with perforation but without obstruction,Condition,SNOMED,standard,gi hemorrhage,upper_gi_bleeding_or_dyspepsia,Upper GI bleeding or dyspepsia,condition
-4244406,Chronic gastrojejunal ulcer with hemorrhage but without perforation,Condition,SNOMED,standard,gi hemorrhage,upper_gi_bleeding_or_dyspepsia,Upper GI bleeding or dyspepsia,condition
-4245614,Bleeding from anus,Condition,SNOMED,standard,gi hemorrhage,upper_gi_bleeding_or_dyspepsia,Upper GI bleeding or dyspepsia,condition
-4246979,Coffee ground vomiting,Condition,SNOMED,standard,gi hemorrhage,upper_gi_bleeding_or_dyspepsia,Upper GI bleeding or dyspepsia,condition
-4247008,Chronic peptic ulcer with hemorrhage AND perforation,Condition,SNOMED,standard,gi hemorrhage,upper_gi_bleeding_or_dyspepsia,Upper GI bleeding or dyspepsia,condition
-4260059,Hemorrhagic gastroenteritis,Condition,SNOMED,standard,gi hemorrhage,upper_gi_bleeding_or_dyspepsia,Upper GI bleeding or dyspepsia,condition
-4264487,Hemorrhagic esophagitis,Condition,SNOMED,standard,gi hemorrhage,upper_gi_bleeding_or_dyspepsia,Upper GI bleeding or dyspepsia,condition
-4266523,Gastric ulcer with hemorrhage and perforation,Condition,SNOMED,standard,gi hemorrhage,upper_gi_bleeding_or_dyspepsia,Upper GI bleeding or dyspepsia,condition
-4271696,Peptic ulcer with hemorrhage,Condition,SNOMED,standard,gi hemorrhage,upper_gi_bleeding_or_dyspepsia,Upper GI bleeding or dyspepsia,condition
-4273101,Peptic ulcer with hemorrhage AND obstruction,Condition,SNOMED,standard,gi hemorrhage,upper_gi_bleeding_or_dyspepsia,Upper GI bleeding or dyspepsia,condition
-4273874,Gastrojejunal ulcer with hemorrhage AND perforation,Condition,SNOMED,standard,gi hemorrhage,upper_gi_bleeding_or_dyspepsia,Upper GI bleeding or dyspepsia,condition
-4274491,Acute gastrojejunal ulcer with hemorrhage,Condition,SNOMED,standard,gi hemorrhage,upper_gi_bleeding_or_dyspepsia,Upper GI bleeding or dyspepsia,condition
-4289830,Chronic duodenal ulcer with hemorrhage AND perforation,Condition,SNOMED,standard,gi hemorrhage,upper_gi_bleeding_or_dyspepsia,Upper GI bleeding or dyspepsia,condition
-4291649,Upper gastrointestinal bleeding,Condition,SNOMED,standard,gi hemorrhage,upper_gi_bleeding_or_dyspepsia,Upper GI bleeding or dyspepsia,condition
-4294973,Chronic gastric ulcer with hemorrhage and with perforation,Condition,SNOMED,standard,gi hemorrhage,upper_gi_bleeding_or_dyspepsia,Upper GI bleeding or dyspepsia,condition
-4295428,Bleeding internal hemorrhoids,Condition,SNOMED,standard,gi hemorrhage,upper_gi_bleeding_or_dyspepsia,Upper GI bleeding or dyspepsia,condition
-4307661,Chronic gastrointestinal hemorrhage,Condition,SNOMED,standard,gi hemorrhage,upper_gi_bleeding_or_dyspepsia,Upper GI bleeding or dyspepsia,condition
-4308202,Acute upper gastrointestinal hemorrhage,Condition,SNOMED,standard,gi hemorrhage,upper_gi_bleeding_or_dyspepsia,Upper GI bleeding or dyspepsia,condition
-4310668,Acute lower gastrointestinal hemorrhage,Condition,SNOMED,standard,gi hemorrhage,upper_gi_bleeding_or_dyspepsia,Upper GI bleeding or dyspepsia,condition
-4318535,Duodenal hemorrhage,Condition,SNOMED,standard,gi hemorrhage,upper_gi_bleeding_or_dyspepsia,Upper GI bleeding or dyspepsia,condition
-4318829,Ileal hemorrhage,Condition,SNOMED,standard,gi hemorrhage,upper_gi_bleeding_or_dyspepsia,Upper GI bleeding or dyspepsia,condition
-4320492,Acute hemorrhagic colitis caused by Escherichia coli,Condition,SNOMED,standard,gi hemorrhage,upper_gi_bleeding_or_dyspepsia,Upper GI bleeding or dyspepsia,condition
-4322061,Hemorrhagic proctitis,Condition,SNOMED,standard,gi hemorrhage,upper_gi_bleeding_or_dyspepsia,Upper GI bleeding or dyspepsia,condition
-4332645,Upper gastrointestinal hemorrhage associated with hypercoagulability state,Condition,SNOMED,standard,gi hemorrhage,upper_gi_bleeding_or_dyspepsia,Upper GI bleeding or dyspepsia,condition
-4336230,Acute duodenal ulcer with hemorrhage AND perforation,Condition,SNOMED,standard,gi hemorrhage,upper_gi_bleeding_or_dyspepsia,Upper GI bleeding or dyspepsia,condition
-4336971,Gastrojejunal ulcer with hemorrhage and with perforation but without obstruction,Condition,SNOMED,standard,gi hemorrhage,upper_gi_bleeding_or_dyspepsia,Upper GI bleeding or dyspepsia,condition
-4338544,Lower gastrointestinal hemorrhage,Condition,SNOMED,standard,gi hemorrhage,upper_gi_bleeding_or_dyspepsia,Upper GI bleeding or dyspepsia,condition
-4340509,Acute hemorrhagic enterocolitis,Condition,SNOMED,standard,gi hemorrhage,upper_gi_bleeding_or_dyspepsia,Upper GI bleeding or dyspepsia,condition
-4341252,Esophageal anastomotic hemorrhage,Condition,SNOMED,standard,gi hemorrhage,upper_gi_bleeding_or_dyspepsia,Upper GI bleeding or dyspepsia,condition
-4341253,Small intestine anastomotic hemorrhage,Condition,SNOMED,standard,gi hemorrhage,upper_gi_bleeding_or_dyspepsia,Upper GI bleeding or dyspepsia,condition
-4341790,Large intestine anastomotic hemorrhage,Condition,SNOMED,standard,gi hemorrhage,upper_gi_bleeding_or_dyspepsia,Upper GI bleeding or dyspepsia,condition
-4342904,Gastrointestinal anastomotic hemorrhage,Condition,SNOMED,standard,gi hemorrhage,upper_gi_bleeding_or_dyspepsia,Upper GI bleeding or dyspepsia,condition
-4342905,Gastric anastomotic hemorrhage,Condition,SNOMED,standard,gi hemorrhage,upper_gi_bleeding_or_dyspepsia,Upper GI bleeding or dyspepsia,condition
-4342987,Duodenal anastomotic hemorrhage,Condition,SNOMED,standard,gi hemorrhage,upper_gi_bleeding_or_dyspepsia,Upper GI bleeding or dyspepsia,condition
-36684448,Gastritis with upper gastrointestinal hemorrhage,Condition,SNOMED,standard,gi hemorrhage,upper_gi_bleeding_or_dyspepsia,Upper GI bleeding or dyspepsia,condition
-36685122,Diverticulosis of sigmoid colon with hemorrhage,Condition,SNOMED,standard,gi hemorrhage,upper_gi_bleeding_or_dyspepsia,Upper GI bleeding or dyspepsia,condition
-36713507,Intramural hemorrhage of stomach,Condition,SNOMED,standard,gi hemorrhage,upper_gi_bleeding_or_dyspepsia,Upper GI bleeding or dyspepsia,condition
-36715487,Intramural hemorrhage of esophagus,Condition,SNOMED,standard,gi hemorrhage,upper_gi_bleeding_or_dyspepsia,Upper GI bleeding or dyspepsia,condition
-36717237,Obscure gastrointestinal hemorrhage,Condition,SNOMED,standard,gi hemorrhage,upper_gi_bleeding_or_dyspepsia,Upper GI bleeding or dyspepsia,condition
-36717494,Acute hemorrhagic ulcer of rectum,Condition,SNOMED,standard,gi hemorrhage,upper_gi_bleeding_or_dyspepsia,Upper GI bleeding or dyspepsia,condition
-36717644,Intramural hemorrhage of duodenum,Condition,SNOMED,standard,gi hemorrhage,upper_gi_bleeding_or_dyspepsia,Upper GI bleeding or dyspepsia,condition
-37017911,Jejunal anastomotic hemorrhage,Condition,SNOMED,standard,gi hemorrhage,upper_gi_bleeding_or_dyspepsia,Upper GI bleeding or dyspepsia,condition
-37109016,Neonatal gastrointestinal hemorrhage,Condition,SNOMED,standard,gi hemorrhage,upper_gi_bleeding_or_dyspepsia,Upper GI bleeding or dyspepsia,condition
-37160869,Prepyloric ulcer with hemorrhage,Condition,SNOMED,standard,gi hemorrhage,upper_gi_bleeding_or_dyspepsia,Upper GI bleeding or dyspepsia,condition
-37161060,Hemorrhage of colon due to angiodysplasia of colon,Condition,SNOMED,standard,gi hemorrhage,upper_gi_bleeding_or_dyspepsia,Upper GI bleeding or dyspepsia,condition
-37162897,Hemorrhage of large intestine due to diverticulitis,Condition,SNOMED,standard,gi hemorrhage,upper_gi_bleeding_or_dyspepsia,Upper GI bleeding or dyspepsia,condition
-37162899,Hemorrhage of lower esophagus due to erosive gastro-esophageal reflux disease,Condition,SNOMED,standard,gi hemorrhage,upper_gi_bleeding_or_dyspepsia,Upper GI bleeding or dyspepsia,condition
-37163132,Gastrointestinal hemorrhage with sepsis,Condition,SNOMED,standard,gi hemorrhage,upper_gi_bleeding_or_dyspepsia,Upper GI bleeding or dyspepsia,condition
-37174298,Hemorrhage of ileostomy stoma,Condition,SNOMED,standard,gi hemorrhage,upper_gi_bleeding_or_dyspepsia,Upper GI bleeding or dyspepsia,condition
-40482450,Bleeding Meckel's diverticulitis,Condition,SNOMED,standard,gi hemorrhage,upper_gi_bleeding_or_dyspepsia,Upper GI bleeding or dyspepsia,condition
-40482451,Bleeding Meckel's diverticulum,Condition,SNOMED,standard,gi hemorrhage,upper_gi_bleeding_or_dyspepsia,Upper GI bleeding or dyspepsia,condition
-42536736,Diverticulum and hemorrhage of small intestine,Condition,SNOMED,standard,gi hemorrhage,upper_gi_bleeding_or_dyspepsia,Upper GI bleeding or dyspepsia,condition
-42536738,Diverticulum and hemorrhage of large intestine,Condition,SNOMED,standard,gi hemorrhage,upper_gi_bleeding_or_dyspepsia,Upper GI bleeding or dyspepsia,condition
-44784282,Chronic antral gastritis with hemorrhage,Condition,SNOMED,standard,gi hemorrhage,upper_gi_bleeding_or_dyspepsia,Upper GI bleeding or dyspepsia,condition
-45757543,Hemorrhage of colon due to diverticulosis,Condition,SNOMED,standard,gi hemorrhage,upper_gi_bleeding_or_dyspepsia,Upper GI bleeding or dyspepsia,condition
-45757570,Gastric hemorrhage due to idiopathic erosive gastritis,Condition,SNOMED,standard,gi hemorrhage,upper_gi_bleeding_or_dyspepsia,Upper GI bleeding or dyspepsia,condition
-45757654,Intestinal hemorrhage due to angiodysplasia of intestine,Condition,SNOMED,standard,gi hemorrhage,upper_gi_bleeding_or_dyspepsia,Upper GI bleeding or dyspepsia,condition
-45757783,Gastric hemorrhage due to alcoholic gastritis,Condition,SNOMED,standard,gi hemorrhage,upper_gi_bleeding_or_dyspepsia,Upper GI bleeding or dyspepsia,condition
-45768629,Gastric hemorrhage due to erosive gastritis,Condition,SNOMED,standard,gi hemorrhage,upper_gi_bleeding_or_dyspepsia,Upper GI bleeding or dyspepsia,condition
-46269819,Gastric hemorrhage due to allergic gastritis,Condition,SNOMED,standard,gi hemorrhage,upper_gi_bleeding_or_dyspepsia,Upper GI bleeding or dyspepsia,condition
-46269821,Duodenal hemorrhage due to angiodysplasia of duodenum,Condition,SNOMED,standard,gi hemorrhage,upper_gi_bleeding_or_dyspepsia,Upper GI bleeding or dyspepsia,condition
-46269822,Gastric hemorrhage due to angiodysplasia of stomach,Condition,SNOMED,standard,gi hemorrhage,upper_gi_bleeding_or_dyspepsia,Upper GI bleeding or dyspepsia,condition
-46269837,Gastric hemorrhage due to chronic superficial gastritis,Condition,SNOMED,standard,gi hemorrhage,upper_gi_bleeding_or_dyspepsia,Upper GI bleeding or dyspepsia,condition
-46269841,Rectal hemorrhage due to chronic ulcerative pancolitis,Condition,SNOMED,standard,gi hemorrhage,upper_gi_bleeding_or_dyspepsia,Upper GI bleeding or dyspepsia,condition
-46269847,Rectal hemorrhage due to chronic ulcerative proctitis,Condition,SNOMED,standard,gi hemorrhage,upper_gi_bleeding_or_dyspepsia,Upper GI bleeding or dyspepsia,condition
-46269851,Rectal hemorrhage due to chronic ulcerative rectosigmoiditis,Condition,SNOMED,standard,gi hemorrhage,upper_gi_bleeding_or_dyspepsia,Upper GI bleeding or dyspepsia,condition
-46269863,Rectal hemorrhage due to inflammatory polyps of colon,Condition,SNOMED,standard,gi hemorrhage,upper_gi_bleeding_or_dyspepsia,Upper GI bleeding or dyspepsia,condition
-46269877,Rectal hemorrhage due to Crohn's disease of large intestine,Condition,SNOMED,standard,gi hemorrhage,upper_gi_bleeding_or_dyspepsia,Upper GI bleeding or dyspepsia,condition
-46269882,Rectal hemorrhage due to Crohn's disease of small and large intestines,Condition,SNOMED,standard,gi hemorrhage,upper_gi_bleeding_or_dyspepsia,Upper GI bleeding or dyspepsia,condition
-46269887,Rectal hemorrhage due to Crohn's disease of small intestine,Condition,SNOMED,standard,gi hemorrhage,upper_gi_bleeding_or_dyspepsia,Upper GI bleeding or dyspepsia,condition
-46269891,Rectal hemorrhage due to Crohn's disease,Condition,SNOMED,standard,gi hemorrhage,upper_gi_bleeding_or_dyspepsia,Upper GI bleeding or dyspepsia,condition
-46269892,Duodenal hemorrhage due to Dieulafoy lesion of duodenum,Condition,SNOMED,standard,gi hemorrhage,upper_gi_bleeding_or_dyspepsia,Upper GI bleeding or dyspepsia,condition
-46269893,Gastric hemorrhage due to Dieulafoy lesion of stomach,Condition,SNOMED,standard,gi hemorrhage,upper_gi_bleeding_or_dyspepsia,Upper GI bleeding or dyspepsia,condition
-46269901,Hemorrhage of small intestine due to diverticulitis,Condition,SNOMED,standard,gi hemorrhage,upper_gi_bleeding_or_dyspepsia,Upper GI bleeding or dyspepsia,condition
-46269902,Perforation of small intestine co-occurrent with hemorrhage due to diverticulitis,Condition,SNOMED,standard,gi hemorrhage,upper_gi_bleeding_or_dyspepsia,Upper GI bleeding or dyspepsia,condition
-46269904,Hemorrhage with diverticulosis of duodenum,Condition,SNOMED,standard,gi hemorrhage,upper_gi_bleeding_or_dyspepsia,Upper GI bleeding or dyspepsia,condition
-46269905,Hemorrhage with diverticulosis of ileum,Condition,SNOMED,standard,gi hemorrhage,upper_gi_bleeding_or_dyspepsia,Upper GI bleeding or dyspepsia,condition
-46269906,Hemorrhage of jejunum with diverticulosis,Condition,SNOMED,standard,gi hemorrhage,upper_gi_bleeding_or_dyspepsia,Upper GI bleeding or dyspepsia,condition
-46269907,Intestinal hemorrhage with diverticulosis,Condition,SNOMED,standard,gi hemorrhage,upper_gi_bleeding_or_dyspepsia,Upper GI bleeding or dyspepsia,condition
-46269908,Gastric hemorrhage due to vascular ectasia of gastric antrum,Condition,SNOMED,standard,gi hemorrhage,upper_gi_bleeding_or_dyspepsia,Upper GI bleeding or dyspepsia,condition
-46269910,Gastric hemorrhage caused by Helicobacter pylori,Condition,SNOMED,standard,gi hemorrhage,upper_gi_bleeding_or_dyspepsia,Upper GI bleeding or dyspepsia,condition
-46269911,Gastric hemorrhage due to hypertrophic gastritis,Condition,SNOMED,standard,gi hemorrhage,upper_gi_bleeding_or_dyspepsia,Upper GI bleeding or dyspepsia,condition
-46269912,Gastric hemorrhage due to irritant gastritis,Condition,SNOMED,standard,gi hemorrhage,upper_gi_bleeding_or_dyspepsia,Upper GI bleeding or dyspepsia,condition
-46269935,Gastric hemorrhage due to pyloric gastritis,Condition,SNOMED,standard,gi hemorrhage,upper_gi_bleeding_or_dyspepsia,Upper GI bleeding or dyspepsia,condition
-46269953,Gastric hemorrhage due to viral gastritis,Condition,SNOMED,standard,gi hemorrhage,upper_gi_bleeding_or_dyspepsia,Upper GI bleeding or dyspepsia,condition
-46270025,Gastric hemorrhage due to eosinophilic gastritis,Condition,SNOMED,standard,gi hemorrhage,upper_gi_bleeding_or_dyspepsia,Upper GI bleeding or dyspepsia,condition
-46270145,Gastric hemorrhage due to atrophic gastritis,Condition,SNOMED,standard,gi hemorrhage,upper_gi_bleeding_or_dyspepsia,Upper GI bleeding or dyspepsia,condition
-46270529,Hemorrhage of small intestine with diverticulosis,Condition,SNOMED,standard,gi hemorrhage,upper_gi_bleeding_or_dyspepsia,Upper GI bleeding or dyspepsia,condition
-46271323,Postoperative hemorrhage of anus,Condition,SNOMED,standard,gi hemorrhage,upper_gi_bleeding_or_dyspepsia,Upper GI bleeding or dyspepsia,condition
-46272978,Hemorrhage of cecum,Condition,SNOMED,standard,gi hemorrhage,upper_gi_bleeding_or_dyspepsia,Upper GI bleeding or dyspepsia,condition
-46273182,Hemorrhage of jejunum,Condition,SNOMED,standard,gi hemorrhage,upper_gi_bleeding_or_dyspepsia,Upper GI bleeding or dyspepsia,condition
-46273183,Intestinal hemorrhage,Condition,SNOMED,standard,gi hemorrhage,upper_gi_bleeding_or_dyspepsia,Upper GI bleeding or dyspepsia,condition
-46273470,Hemorrhage of cecum due to diverticulosis,Condition,SNOMED,standard,gi hemorrhage,upper_gi_bleeding_or_dyspepsia,Upper GI bleeding or dyspepsia,condition
-46273478,Rectal hemorrhage due to ulcerative colitis,Condition,SNOMED,standard,gi hemorrhage,upper_gi_bleeding_or_dyspepsia,Upper GI bleeding or dyspepsia,condition
+cohort_name,cohort_label,cohort_domain,concept_id,include_descendants,concept_name,vocabulary_id,concept_code,review_status,phenotype_note,domain_id,standard_concept,condition
+upper_gi_bleeding_or_dyspepsia,Upper GI bleeding or dyspepsia,condition,22665,FALSE,Chronic peptic ulcer with hemorrhage AND with perforation but without obstruction,SNOMED,gi hemorrhage,reviewed_seed,Imported from master codelists,Condition,standard,gi hemorrhage
+upper_gi_bleeding_or_dyspepsia,Upper GI bleeding or dyspepsia,condition,23237,FALSE,Acute peptic ulcer with hemorrhage AND obstruction,SNOMED,gi hemorrhage,reviewed_seed,Imported from master codelists,Condition,standard,gi hemorrhage
+upper_gi_bleeding_or_dyspepsia,Upper GI bleeding or dyspepsia,condition,23245,FALSE,Esophageal bleeding,SNOMED,gi hemorrhage,reviewed_seed,Imported from master codelists,Condition,standard,gi hemorrhage
+upper_gi_bleeding_or_dyspepsia,Upper GI bleeding or dyspepsia,condition,24076,FALSE,Chronic peptic ulcer with hemorrhage AND obstruction,SNOMED,gi hemorrhage,reviewed_seed,Imported from master codelists,Condition,standard,gi hemorrhage
+upper_gi_bleeding_or_dyspepsia,Upper GI bleeding or dyspepsia,condition,24397,FALSE,"Chronic peptic ulcer with hemorrhage, with perforation AND with obstruction",SNOMED,gi hemorrhage,reviewed_seed,Imported from master codelists,Condition,standard,gi hemorrhage
+upper_gi_bleeding_or_dyspepsia,Upper GI bleeding or dyspepsia,condition,26441,FALSE,Bleeding ulcer of esophagus,SNOMED,gi hemorrhage,reviewed_seed,Imported from master codelists,Condition,standard,gi hemorrhage
+upper_gi_bleeding_or_dyspepsia,Upper GI bleeding or dyspepsia,condition,26727,FALSE,Hematemesis,SNOMED,gi hemorrhage,reviewed_seed,Imported from master codelists,Condition,standard,gi hemorrhage
+upper_gi_bleeding_or_dyspepsia,Upper GI bleeding or dyspepsia,condition,27026,FALSE,Acute peptic ulcer with hemorrhage AND with perforation but without obstruction,SNOMED,gi hemorrhage,reviewed_seed,Imported from master codelists,Condition,standard,gi hemorrhage
+upper_gi_bleeding_or_dyspepsia,Upper GI bleeding or dyspepsia,condition,30770,FALSE,Chronic peptic ulcer with hemorrhage but without obstruction,SNOMED,gi hemorrhage,reviewed_seed,Imported from master codelists,Condition,standard,gi hemorrhage
+upper_gi_bleeding_or_dyspepsia,Upper GI bleeding or dyspepsia,condition,31335,FALSE,Acute peptic ulcer with hemorrhage but without obstruction,SNOMED,gi hemorrhage,reviewed_seed,Imported from master codelists,Condition,standard,gi hemorrhage
+upper_gi_bleeding_or_dyspepsia,Upper GI bleeding or dyspepsia,condition,192671,FALSE,Gastrointestinal hemorrhage,SNOMED,gi hemorrhage,reviewed_seed,Imported from master codelists,Condition,standard,gi hemorrhage
+upper_gi_bleeding_or_dyspepsia,Upper GI bleeding or dyspepsia,condition,193249,FALSE,Acute hemorrhagic gastritis,SNOMED,gi hemorrhage,reviewed_seed,Imported from master codelists,Condition,standard,gi hemorrhage
+upper_gi_bleeding_or_dyspepsia,Upper GI bleeding or dyspepsia,condition,193250,FALSE,Gastric hemorrhage,SNOMED,gi hemorrhage,reviewed_seed,Imported from master codelists,Condition,standard,gi hemorrhage
+upper_gi_bleeding_or_dyspepsia,Upper GI bleeding or dyspepsia,condition,193795,FALSE,Acute gastric ulcer with hemorrhage but without obstruction,SNOMED,gi hemorrhage,reviewed_seed,Imported from master codelists,Condition,standard,gi hemorrhage
+upper_gi_bleeding_or_dyspepsia,Upper GI bleeding or dyspepsia,condition,194158,FALSE,Perinatal gastrointestinal hemorrhage,SNOMED,gi hemorrhage,reviewed_seed,Imported from master codelists,Condition,standard,gi hemorrhage
+upper_gi_bleeding_or_dyspepsia,Upper GI bleeding or dyspepsia,condition,194395,FALSE,Hemorrhage of large intestine with diverticular disease of large intestine,SNOMED,gi hemorrhage,reviewed_seed,Imported from master codelists,Condition,standard,gi hemorrhage
+upper_gi_bleeding_or_dyspepsia,Upper GI bleeding or dyspepsia,condition,194986,FALSE,"Acute peptic ulcer with hemorrhage, with perforation AND with obstruction",SNOMED,gi hemorrhage,reviewed_seed,Imported from master codelists,Condition,standard,gi hemorrhage
+upper_gi_bleeding_or_dyspepsia,Upper GI bleeding or dyspepsia,condition,195845,FALSE,"Acute gastric ulcer with hemorrhage, with perforation and with obstruction",SNOMED,gi hemorrhage,reviewed_seed,Imported from master codelists,Condition,standard,gi hemorrhage
+upper_gi_bleeding_or_dyspepsia,Upper GI bleeding or dyspepsia,condition,196442,FALSE,Chronic gastric ulcer with hemorrhage AND with perforation but without obstruction,SNOMED,gi hemorrhage,reviewed_seed,Imported from master codelists,Condition,standard,gi hemorrhage
+upper_gi_bleeding_or_dyspepsia,Upper GI bleeding or dyspepsia,condition,197018,FALSE,Chronic gastric ulcer with hemorrhage but without obstruction,SNOMED,gi hemorrhage,reviewed_seed,Imported from master codelists,Condition,standard,gi hemorrhage
+upper_gi_bleeding_or_dyspepsia,Upper GI bleeding or dyspepsia,condition,197024,FALSE,Small intestinal hemorrhage,SNOMED,gi hemorrhage,reviewed_seed,Imported from master codelists,Condition,standard,gi hemorrhage
+upper_gi_bleeding_or_dyspepsia,Upper GI bleeding or dyspepsia,condition,197925,FALSE,Hemorrhage of rectum and anus,SNOMED,gi hemorrhage,reviewed_seed,Imported from master codelists,Condition,standard,gi hemorrhage
+upper_gi_bleeding_or_dyspepsia,Upper GI bleeding or dyspepsia,condition,198467,FALSE,Acute gastric ulcer with hemorrhage and obstruction,SNOMED,gi hemorrhage,reviewed_seed,Imported from master codelists,Condition,standard,gi hemorrhage
+upper_gi_bleeding_or_dyspepsia,Upper GI bleeding or dyspepsia,condition,198801,FALSE,"Chronic gastric ulcer with hemorrhage, with perforation and with obstruction",SNOMED,gi hemorrhage,reviewed_seed,Imported from master codelists,Condition,standard,gi hemorrhage
+upper_gi_bleeding_or_dyspepsia,Upper GI bleeding or dyspepsia,condition,199855,FALSE,Acute gastric ulcer with hemorrhage AND with perforation but without obstruction,SNOMED,gi hemorrhage,reviewed_seed,Imported from master codelists,Condition,standard,gi hemorrhage
+upper_gi_bleeding_or_dyspepsia,Upper GI bleeding or dyspepsia,condition,201885,FALSE,Chronic gastric ulcer with hemorrhage and with obstruction,SNOMED,gi hemorrhage,reviewed_seed,Imported from master codelists,Condition,standard,gi hemorrhage
+upper_gi_bleeding_or_dyspepsia,Upper GI bleeding or dyspepsia,condition,316457,FALSE,Mallory-Weiss syndrome,SNOMED,gi hemorrhage,reviewed_seed,Imported from master codelists,Condition,standard,gi hemorrhage
+upper_gi_bleeding_or_dyspepsia,Upper GI bleeding or dyspepsia,condition,433515,FALSE,Chronic gastrojejunal ulcer with hemorrhage,SNOMED,gi hemorrhage,reviewed_seed,Imported from master codelists,Condition,standard,gi hemorrhage
+upper_gi_bleeding_or_dyspepsia,Upper GI bleeding or dyspepsia,condition,434402,FALSE,Acute duodenal ulcer with hemorrhage but without obstruction,SNOMED,gi hemorrhage,reviewed_seed,Imported from master codelists,Condition,standard,gi hemorrhage
+upper_gi_bleeding_or_dyspepsia,Upper GI bleeding or dyspepsia,condition,435855,FALSE,Acute duodenal ulcer with hemorrhage AND with perforation but without obstruction,SNOMED,gi hemorrhage,reviewed_seed,Imported from master codelists,Condition,standard,gi hemorrhage
+upper_gi_bleeding_or_dyspepsia,Upper GI bleeding or dyspepsia,condition,436148,FALSE,Chronic duodenal ulcer with hemorrhage but without obstruction,SNOMED,gi hemorrhage,reviewed_seed,Imported from master codelists,Condition,standard,gi hemorrhage
+upper_gi_bleeding_or_dyspepsia,Upper GI bleeding or dyspepsia,condition,436729,FALSE,Chronic gastrojejunal ulcer with hemorrhage and obstruction,SNOMED,gi hemorrhage,reviewed_seed,Imported from master codelists,Condition,standard,gi hemorrhage
+upper_gi_bleeding_or_dyspepsia,Upper GI bleeding or dyspepsia,condition,437021,FALSE,"Acute duodenal ulcer with hemorrhage, with perforation AND with obstruction",SNOMED,gi hemorrhage,reviewed_seed,Imported from master codelists,Condition,standard,gi hemorrhage
+upper_gi_bleeding_or_dyspepsia,Upper GI bleeding or dyspepsia,condition,437027,FALSE,Hemorrhagic duodenitis,SNOMED,gi hemorrhage,reviewed_seed,Imported from master codelists,Condition,standard,gi hemorrhage
+upper_gi_bleeding_or_dyspepsia,Upper GI bleeding or dyspepsia,condition,437323,FALSE,Chronic duodenal ulcer with hemorrhage AND obstruction,SNOMED,gi hemorrhage,reviewed_seed,Imported from master codelists,Condition,standard,gi hemorrhage
+upper_gi_bleeding_or_dyspepsia,Upper GI bleeding or dyspepsia,condition,437326,FALSE,Chronic gastrojejunal ulcer with hemorrhage and with perforation but without obstruction,SNOMED,gi hemorrhage,reviewed_seed,Imported from master codelists,Condition,standard,gi hemorrhage
+upper_gi_bleeding_or_dyspepsia,Upper GI bleeding or dyspepsia,condition,438468,FALSE,Acute gastrojejunal ulcer with hemorrhage but without obstruction,SNOMED,gi hemorrhage,reviewed_seed,Imported from master codelists,Condition,standard,gi hemorrhage
+upper_gi_bleeding_or_dyspepsia,Upper GI bleeding or dyspepsia,condition,438796,FALSE,Chronic duodenal ulcer with hemorrhage AND with perforation but without obstruction,SNOMED,gi hemorrhage,reviewed_seed,Imported from master codelists,Condition,standard,gi hemorrhage
+upper_gi_bleeding_or_dyspepsia,Upper GI bleeding or dyspepsia,condition,440756,FALSE,"Chronic duodenal ulcer with hemorrhage, with perforation AND with obstruction",SNOMED,gi hemorrhage,reviewed_seed,Imported from master codelists,Condition,standard,gi hemorrhage
+upper_gi_bleeding_or_dyspepsia,Upper GI bleeding or dyspepsia,condition,441062,FALSE,Acute duodenal ulcer with hemorrhage AND obstruction,SNOMED,gi hemorrhage,reviewed_seed,Imported from master codelists,Condition,standard,gi hemorrhage
+upper_gi_bleeding_or_dyspepsia,Upper GI bleeding or dyspepsia,condition,441063,FALSE,Acute gastrojejunal ulcer with hemorrhage and obstruction,SNOMED,gi hemorrhage,reviewed_seed,Imported from master codelists,Condition,standard,gi hemorrhage
+upper_gi_bleeding_or_dyspepsia,Upper GI bleeding or dyspepsia,condition,441328,FALSE,Acute gastrojejunal ulcer with hemorrhage and with perforation but without obstruction,SNOMED,gi hemorrhage,reviewed_seed,Imported from master codelists,Condition,standard,gi hemorrhage
+upper_gi_bleeding_or_dyspepsia,Upper GI bleeding or dyspepsia,condition,442190,FALSE,Hemorrhage of colon,SNOMED,gi hemorrhage,reviewed_seed,Imported from master codelists,Condition,standard,gi hemorrhage
+upper_gi_bleeding_or_dyspepsia,Upper GI bleeding or dyspepsia,condition,442314,FALSE,"Acute gastrojejunal ulcer with hemorrhage, with perforation and with obstruction",SNOMED,gi hemorrhage,reviewed_seed,Imported from master codelists,Condition,standard,gi hemorrhage
+upper_gi_bleeding_or_dyspepsia,Upper GI bleeding or dyspepsia,condition,443779,FALSE,"Chronic gastrojejunal ulcer with hemorrhage, with perforation and with obstruction",SNOMED,gi hemorrhage,reviewed_seed,Imported from master codelists,Condition,standard,gi hemorrhage
+upper_gi_bleeding_or_dyspepsia,Upper GI bleeding or dyspepsia,condition,606751,FALSE,Erosion of duodenum with hemorrhage,SNOMED,gi hemorrhage,reviewed_seed,Imported from master codelists,Condition,standard,gi hemorrhage
+upper_gi_bleeding_or_dyspepsia,Upper GI bleeding or dyspepsia,condition,607946,FALSE,Wischnewski spots,SNOMED,gi hemorrhage,reviewed_seed,Imported from master codelists,Condition,standard,gi hemorrhage
+upper_gi_bleeding_or_dyspepsia,Upper GI bleeding or dyspepsia,condition,608968,FALSE,Bleeding internal hemorrhoid grade III,SNOMED,gi hemorrhage,reviewed_seed,Imported from master codelists,Condition,standard,gi hemorrhage
+upper_gi_bleeding_or_dyspepsia,Upper GI bleeding or dyspepsia,condition,608969,FALSE,Bleeding internal hemorrhoid grade I,SNOMED,gi hemorrhage,reviewed_seed,Imported from master codelists,Condition,standard,gi hemorrhage
+upper_gi_bleeding_or_dyspepsia,Upper GI bleeding or dyspepsia,condition,608970,FALSE,Bleeding internal hemorrhoid grade II,SNOMED,gi hemorrhage,reviewed_seed,Imported from master codelists,Condition,standard,gi hemorrhage
+upper_gi_bleeding_or_dyspepsia,Upper GI bleeding or dyspepsia,condition,608971,FALSE,Bleeding internal hemorrhoid grade IV,SNOMED,gi hemorrhage,reviewed_seed,Imported from master codelists,Condition,standard,gi hemorrhage
+upper_gi_bleeding_or_dyspepsia,Upper GI bleeding or dyspepsia,condition,1075402,FALSE,Rectal hemorrhage caused by drug,SNOMED,gi hemorrhage,reviewed_seed,Imported from master codelists,Condition,standard,gi hemorrhage
+upper_gi_bleeding_or_dyspepsia,Upper GI bleeding or dyspepsia,condition,1075403,FALSE,Rectal hemorrhage caused by apixaban,SNOMED,gi hemorrhage,reviewed_seed,Imported from master codelists,Condition,standard,gi hemorrhage
+upper_gi_bleeding_or_dyspepsia,Upper GI bleeding or dyspepsia,condition,1077328,FALSE,Benign neoplasm of large intestine with hemorrhage,SNOMED,gi hemorrhage,reviewed_seed,Imported from master codelists,Condition,standard,gi hemorrhage
+upper_gi_bleeding_or_dyspepsia,Upper GI bleeding or dyspepsia,condition,1077329,FALSE,Bleeding ulcer of large intestine,SNOMED,gi hemorrhage,reviewed_seed,Imported from master codelists,Condition,standard,gi hemorrhage
+upper_gi_bleeding_or_dyspepsia,Upper GI bleeding or dyspepsia,condition,1077330,FALSE,Bleeding ulcer of mucosa of large intestine,SNOMED,gi hemorrhage,reviewed_seed,Imported from master codelists,Condition,standard,gi hemorrhage
+upper_gi_bleeding_or_dyspepsia,Upper GI bleeding or dyspepsia,condition,1077332,FALSE,Malignant neoplasm of large intestine with hemorrhage,SNOMED,gi hemorrhage,reviewed_seed,Imported from master codelists,Condition,standard,gi hemorrhage
+upper_gi_bleeding_or_dyspepsia,Upper GI bleeding or dyspepsia,condition,1340239,FALSE,Exacerbation of acute hemorrhagic gastritis,OMOP Extension,gi hemorrhage,reviewed_seed,Imported from master codelists,Condition,standard,gi hemorrhage
+upper_gi_bleeding_or_dyspepsia,Upper GI bleeding or dyspepsia,condition,1450600,FALSE,Hemorrhagic mucosa of large intestine,SNOMED,gi hemorrhage,reviewed_seed,Imported from master codelists,Condition,standard,gi hemorrhage
+upper_gi_bleeding_or_dyspepsia,Upper GI bleeding or dyspepsia,condition,4006994,FALSE,Acute peptic ulcer with hemorrhage and perforation,SNOMED,gi hemorrhage,reviewed_seed,Imported from master codelists,Condition,standard,gi hemorrhage
+upper_gi_bleeding_or_dyspepsia,Upper GI bleeding or dyspepsia,condition,4026112,FALSE,Rectal hemorrhage,SNOMED,gi hemorrhage,reviewed_seed,Imported from master codelists,Condition,standard,gi hemorrhage
+upper_gi_bleeding_or_dyspepsia,Upper GI bleeding or dyspepsia,condition,4027729,FALSE,Acute duodenal ulcer with hemorrhage,SNOMED,gi hemorrhage,reviewed_seed,Imported from master codelists,Condition,standard,gi hemorrhage
+upper_gi_bleeding_or_dyspepsia,Upper GI bleeding or dyspepsia,condition,4031954,FALSE,Duodenal ulcer with hemorrhage AND perforation,SNOMED,gi hemorrhage,reviewed_seed,Imported from master codelists,Condition,standard,gi hemorrhage
+upper_gi_bleeding_or_dyspepsia,Upper GI bleeding or dyspepsia,condition,4035167,FALSE,Duodenal ulcer with hemorrhage AND with perforation but without obstruction,SNOMED,gi hemorrhage,reviewed_seed,Imported from master codelists,Condition,standard,gi hemorrhage
+upper_gi_bleeding_or_dyspepsia,Upper GI bleeding or dyspepsia,condition,4041707,FALSE,Gastric ulcer with hemorrhage but without obstruction,SNOMED,gi hemorrhage,reviewed_seed,Imported from master codelists,Condition,standard,gi hemorrhage
+upper_gi_bleeding_or_dyspepsia,Upper GI bleeding or dyspepsia,condition,4046500,FALSE,Acute peptic ulcer with hemorrhage,SNOMED,gi hemorrhage,reviewed_seed,Imported from master codelists,Condition,standard,gi hemorrhage
+upper_gi_bleeding_or_dyspepsia,Upper GI bleeding or dyspepsia,condition,4048286,FALSE,Neonatal rectal hemorrhage,SNOMED,gi hemorrhage,reviewed_seed,Imported from master codelists,Condition,standard,gi hemorrhage
+upper_gi_bleeding_or_dyspepsia,Upper GI bleeding or dyspepsia,condition,4048601,FALSE,Perinatal hematemesis,SNOMED,gi hemorrhage,reviewed_seed,Imported from master codelists,Condition,standard,gi hemorrhage
+upper_gi_bleeding_or_dyspepsia,Upper GI bleeding or dyspepsia,condition,4048602,FALSE,Perinatal rectal hemorrhage,SNOMED,gi hemorrhage,reviewed_seed,Imported from master codelists,Condition,standard,gi hemorrhage
+upper_gi_bleeding_or_dyspepsia,Upper GI bleeding or dyspepsia,condition,4048889,FALSE,Hemorrhagic enteropathy of terminal ileum,SNOMED,gi hemorrhage,reviewed_seed,Imported from master codelists,Condition,standard,gi hemorrhage
+upper_gi_bleeding_or_dyspepsia,Upper GI bleeding or dyspepsia,condition,4049270,FALSE,"Duodenal ulcer with hemorrhage, with perforation AND with obstruction",SNOMED,gi hemorrhage,reviewed_seed,Imported from master codelists,Condition,standard,gi hemorrhage
+upper_gi_bleeding_or_dyspepsia,Upper GI bleeding or dyspepsia,condition,4049466,FALSE,Gastric ulcer with hemorrhage,SNOMED,gi hemorrhage,reviewed_seed,Imported from master codelists,Condition,standard,gi hemorrhage
+upper_gi_bleeding_or_dyspepsia,Upper GI bleeding or dyspepsia,condition,4050203,FALSE,Intramural esophageal hematoma,SNOMED,gi hemorrhage,reviewed_seed,Imported from master codelists,Condition,standard,gi hemorrhage
+upper_gi_bleeding_or_dyspepsia,Upper GI bleeding or dyspepsia,condition,4069838,FALSE,"Gastric ulcer with hemorrhage, with perforation and with obstruction",SNOMED,gi hemorrhage,reviewed_seed,Imported from master codelists,Condition,standard,gi hemorrhage
+upper_gi_bleeding_or_dyspepsia,Upper GI bleeding or dyspepsia,condition,4071070,FALSE,Neonatal hematemesis,SNOMED,gi hemorrhage,reviewed_seed,Imported from master codelists,Condition,standard,gi hemorrhage
+upper_gi_bleeding_or_dyspepsia,Upper GI bleeding or dyspepsia,condition,4071203,FALSE,Gastric ulcer with hemorrhage AND perforation but without obstruction,SNOMED,gi hemorrhage,reviewed_seed,Imported from master codelists,Condition,standard,gi hemorrhage
+upper_gi_bleeding_or_dyspepsia,Upper GI bleeding or dyspepsia,condition,4083969,FALSE,Hematoma of jejunum,SNOMED,gi hemorrhage,reviewed_seed,Imported from master codelists,Condition,standard,gi hemorrhage
+upper_gi_bleeding_or_dyspepsia,Upper GI bleeding or dyspepsia,condition,4084844,FALSE,Duodenal ulcer with hemorrhage AND obstruction,SNOMED,gi hemorrhage,reviewed_seed,Imported from master codelists,Condition,standard,gi hemorrhage
+upper_gi_bleeding_or_dyspepsia,Upper GI bleeding or dyspepsia,condition,4085415,FALSE,Hematoma of anus,SNOMED,gi hemorrhage,reviewed_seed,Imported from master codelists,Condition,standard,gi hemorrhage
+upper_gi_bleeding_or_dyspepsia,Upper GI bleeding or dyspepsia,condition,4087310,FALSE,Bleeding gastric varices,SNOMED,gi hemorrhage,reviewed_seed,Imported from master codelists,Condition,standard,gi hemorrhage
+upper_gi_bleeding_or_dyspepsia,Upper GI bleeding or dyspepsia,condition,4095094,FALSE,Colonic hematoma,SNOMED,gi hemorrhage,reviewed_seed,Imported from master codelists,Condition,standard,gi hemorrhage
+upper_gi_bleeding_or_dyspepsia,Upper GI bleeding or dyspepsia,condition,4095410,FALSE,"Peptic ulcer with hemorrhage, with perforation AND with obstruction",SNOMED,gi hemorrhage,reviewed_seed,Imported from master codelists,Condition,standard,gi hemorrhage
+upper_gi_bleeding_or_dyspepsia,Upper GI bleeding or dyspepsia,condition,4095555,FALSE,Esophageal hematoma,SNOMED,gi hemorrhage,reviewed_seed,Imported from master codelists,Condition,standard,gi hemorrhage
+upper_gi_bleeding_or_dyspepsia,Upper GI bleeding or dyspepsia,condition,4095570,FALSE,Small intestinal hematoma,SNOMED,gi hemorrhage,reviewed_seed,Imported from master codelists,Condition,standard,gi hemorrhage
+upper_gi_bleeding_or_dyspepsia,Upper GI bleeding or dyspepsia,condition,4095572,FALSE,Appendix hematoma,SNOMED,gi hemorrhage,reviewed_seed,Imported from master codelists,Condition,standard,gi hemorrhage
+upper_gi_bleeding_or_dyspepsia,Upper GI bleeding or dyspepsia,condition,4096032,FALSE,Duodenal hematoma,SNOMED,gi hemorrhage,reviewed_seed,Imported from master codelists,Condition,standard,gi hemorrhage
+upper_gi_bleeding_or_dyspepsia,Upper GI bleeding or dyspepsia,condition,4096773,FALSE,Stomach hematoma,SNOMED,gi hemorrhage,reviewed_seed,Imported from master codelists,Condition,standard,gi hemorrhage
+upper_gi_bleeding_or_dyspepsia,Upper GI bleeding or dyspepsia,condition,4096781,FALSE,Rectal hematoma,SNOMED,gi hemorrhage,reviewed_seed,Imported from master codelists,Condition,standard,gi hemorrhage
+upper_gi_bleeding_or_dyspepsia,Upper GI bleeding or dyspepsia,condition,4096916,FALSE,Bleeding external hemorrhoids,SNOMED,gi hemorrhage,reviewed_seed,Imported from master codelists,Condition,standard,gi hemorrhage
+upper_gi_bleeding_or_dyspepsia,Upper GI bleeding or dyspepsia,condition,4099014,FALSE,Duodenal ulcer with hemorrhage,SNOMED,gi hemorrhage,reviewed_seed,Imported from master codelists,Condition,standard,gi hemorrhage
+upper_gi_bleeding_or_dyspepsia,Upper GI bleeding or dyspepsia,condition,4100660,FALSE,Acute gastrointestinal hemorrhage,SNOMED,gi hemorrhage,reviewed_seed,Imported from master codelists,Condition,standard,gi hemorrhage
+upper_gi_bleeding_or_dyspepsia,Upper GI bleeding or dyspepsia,condition,4103011,FALSE,Chronic upper gastrointestinal hemorrhage,SNOMED,gi hemorrhage,reviewed_seed,Imported from master codelists,Condition,standard,gi hemorrhage
+upper_gi_bleeding_or_dyspepsia,Upper GI bleeding or dyspepsia,condition,4106997,FALSE,Hematoma of ileum,SNOMED,gi hemorrhage,reviewed_seed,Imported from master codelists,Condition,standard,gi hemorrhage
+upper_gi_bleeding_or_dyspepsia,Upper GI bleeding or dyspepsia,condition,4119169,FALSE,Cecal hematoma,SNOMED,gi hemorrhage,reviewed_seed,Imported from master codelists,Condition,standard,gi hemorrhage
+upper_gi_bleeding_or_dyspepsia,Upper GI bleeding or dyspepsia,condition,4128705,FALSE,Hemorrhagic enteritis of intestine,SNOMED,gi hemorrhage,reviewed_seed,Imported from master codelists,Condition,standard,gi hemorrhage
+upper_gi_bleeding_or_dyspepsia,Upper GI bleeding or dyspepsia,condition,4131525,FALSE,Hemorrhagic gastropathy,SNOMED,gi hemorrhage,reviewed_seed,Imported from master codelists,Condition,standard,gi hemorrhage
+upper_gi_bleeding_or_dyspepsia,Upper GI bleeding or dyspepsia,condition,4134808,FALSE,Hemorrhagic duodenopathy,SNOMED,gi hemorrhage,reviewed_seed,Imported from master codelists,Condition,standard,gi hemorrhage
+upper_gi_bleeding_or_dyspepsia,Upper GI bleeding or dyspepsia,condition,4139411,FALSE,Massive gastrointestinal bleed,SNOMED,gi hemorrhage,reviewed_seed,Imported from master codelists,Condition,standard,gi hemorrhage
+upper_gi_bleeding_or_dyspepsia,Upper GI bleeding or dyspepsia,condition,4143871,FALSE,Erosion of stomach with hemorrhage,SNOMED,gi hemorrhage,reviewed_seed,Imported from master codelists,Condition,standard,gi hemorrhage
+upper_gi_bleeding_or_dyspepsia,Upper GI bleeding or dyspepsia,condition,4144926,FALSE,Recurrent gastrointestinal bleeding,SNOMED,gi hemorrhage,reviewed_seed,Imported from master codelists,Condition,standard,gi hemorrhage
+upper_gi_bleeding_or_dyspepsia,Upper GI bleeding or dyspepsia,condition,4145805,FALSE,Vomiting blood - fresh,SNOMED,gi hemorrhage,reviewed_seed,Imported from master codelists,Condition,standard,gi hemorrhage
+upper_gi_bleeding_or_dyspepsia,Upper GI bleeding or dyspepsia,condition,4149010,FALSE,Duodenal ulcer with hemorrhage but without obstruction,SNOMED,gi hemorrhage,reviewed_seed,Imported from master codelists,Condition,standard,gi hemorrhage
+upper_gi_bleeding_or_dyspepsia,Upper GI bleeding or dyspepsia,condition,4164920,FALSE,Chronic gastrojejunal ulcer with hemorrhage and perforation,SNOMED,gi hemorrhage,reviewed_seed,Imported from master codelists,Condition,standard,gi hemorrhage
+upper_gi_bleeding_or_dyspepsia,Upper GI bleeding or dyspepsia,condition,4169394,FALSE,Peptic ulcer with hemorrhage but without obstruction,SNOMED,gi hemorrhage,reviewed_seed,Imported from master codelists,Condition,standard,gi hemorrhage
+upper_gi_bleeding_or_dyspepsia,Upper GI bleeding or dyspepsia,condition,4169592,FALSE,Acute gastric ulcer with hemorrhage and perforation,SNOMED,gi hemorrhage,reviewed_seed,Imported from master codelists,Condition,standard,gi hemorrhage
+upper_gi_bleeding_or_dyspepsia,Upper GI bleeding or dyspepsia,condition,4173032,FALSE,Anal margin hematoma,SNOMED,gi hemorrhage,reviewed_seed,Imported from master codelists,Condition,standard,gi hemorrhage
+upper_gi_bleeding_or_dyspepsia,Upper GI bleeding or dyspepsia,condition,4174044,FALSE,Chronic peptic ulcer with hemorrhage,SNOMED,gi hemorrhage,reviewed_seed,Imported from master codelists,Condition,standard,gi hemorrhage
+upper_gi_bleeding_or_dyspepsia,Upper GI bleeding or dyspepsia,condition,4175673,FALSE,Gastrojejunal ulcer with hemorrhage AND obstruction,SNOMED,gi hemorrhage,reviewed_seed,Imported from master codelists,Condition,standard,gi hemorrhage
+upper_gi_bleeding_or_dyspepsia,Upper GI bleeding or dyspepsia,condition,4179773,FALSE,Gastrojejunal ulcer with hemorrhage but without obstruction,SNOMED,gi hemorrhage,reviewed_seed,Imported from master codelists,Condition,standard,gi hemorrhage
+upper_gi_bleeding_or_dyspepsia,Upper GI bleeding or dyspepsia,condition,4183005,FALSE,"Gastrojejunal ulcer with hemorrhage, with perforation and with obstruction",SNOMED,gi hemorrhage,reviewed_seed,Imported from master codelists,Condition,standard,gi hemorrhage
+upper_gi_bleeding_or_dyspepsia,Upper GI bleeding or dyspepsia,condition,4185784,FALSE,Hemorrhagic mucosa of stomach,SNOMED,gi hemorrhage,reviewed_seed,Imported from master codelists,Condition,standard,gi hemorrhage
+upper_gi_bleeding_or_dyspepsia,Upper GI bleeding or dyspepsia,condition,4188154,FALSE,Hemorrhagic mucosa of duodenum,SNOMED,gi hemorrhage,reviewed_seed,Imported from master codelists,Condition,standard,gi hemorrhage
+upper_gi_bleeding_or_dyspepsia,Upper GI bleeding or dyspepsia,condition,4195068,FALSE,Chronic lower gastrointestinal hemorrhage,SNOMED,gi hemorrhage,reviewed_seed,Imported from master codelists,Condition,standard,gi hemorrhage
+upper_gi_bleeding_or_dyspepsia,Upper GI bleeding or dyspepsia,condition,4198840,FALSE,Bleeding hemorrhoids,SNOMED,gi hemorrhage,reviewed_seed,Imported from master codelists,Condition,standard,gi hemorrhage
+upper_gi_bleeding_or_dyspepsia,Upper GI bleeding or dyspepsia,condition,4204041,FALSE,Hematemesis of unknown cause,SNOMED,gi hemorrhage,reviewed_seed,Imported from master codelists,Condition,standard,gi hemorrhage
+upper_gi_bleeding_or_dyspepsia,Upper GI bleeding or dyspepsia,condition,4205670,FALSE,Bleeding stress ulcer of stomach,SNOMED,gi hemorrhage,reviewed_seed,Imported from master codelists,Condition,standard,gi hemorrhage
+upper_gi_bleeding_or_dyspepsia,Upper GI bleeding or dyspepsia,condition,4206466,FALSE,Peptic ulcer with hemorrhage AND perforation,SNOMED,gi hemorrhage,reviewed_seed,Imported from master codelists,Condition,standard,gi hemorrhage
+upper_gi_bleeding_or_dyspepsia,Upper GI bleeding or dyspepsia,condition,4207217,FALSE,Gastric ulcer with hemorrhage and obstruction,SNOMED,gi hemorrhage,reviewed_seed,Imported from master codelists,Condition,standard,gi hemorrhage
+upper_gi_bleeding_or_dyspepsia,Upper GI bleeding or dyspepsia,condition,4211001,FALSE,Chronic gastric ulcer with hemorrhage,SNOMED,gi hemorrhage,reviewed_seed,Imported from master codelists,Condition,standard,gi hemorrhage
+upper_gi_bleeding_or_dyspepsia,Upper GI bleeding or dyspepsia,condition,4216673,FALSE,Hemorrhagic colitis,SNOMED,gi hemorrhage,reviewed_seed,Imported from master codelists,Condition,standard,gi hemorrhage
+upper_gi_bleeding_or_dyspepsia,Upper GI bleeding or dyspepsia,condition,4217947,FALSE,Acute gastrojejunal ulcer with hemorrhage and perforation,SNOMED,gi hemorrhage,reviewed_seed,Imported from master codelists,Condition,standard,gi hemorrhage
+upper_gi_bleeding_or_dyspepsia,Upper GI bleeding or dyspepsia,condition,4222477,FALSE,Gastrojejunal ulcer with hemorrhage,SNOMED,gi hemorrhage,reviewed_seed,Imported from master codelists,Condition,standard,gi hemorrhage
+upper_gi_bleeding_or_dyspepsia,Upper GI bleeding or dyspepsia,condition,4231580,FALSE,Acute gastric ulcer with hemorrhage,SNOMED,gi hemorrhage,reviewed_seed,Imported from master codelists,Condition,standard,gi hemorrhage
+upper_gi_bleeding_or_dyspepsia,Upper GI bleeding or dyspepsia,condition,4232181,FALSE,Chronic duodenal ulcer with hemorrhage,SNOMED,gi hemorrhage,reviewed_seed,Imported from master codelists,Condition,standard,gi hemorrhage
+upper_gi_bleeding_or_dyspepsia,Upper GI bleeding or dyspepsia,condition,4232237,FALSE,Esophageal bleeding due to ulcerative esophagitis,SNOMED,gi hemorrhage,reviewed_seed,Imported from master codelists,Condition,standard,gi hemorrhage
+upper_gi_bleeding_or_dyspepsia,Upper GI bleeding or dyspepsia,condition,4235740,FALSE,Peptic ulcer with hemorrhage AND with perforation but without obstruction,SNOMED,gi hemorrhage,reviewed_seed,Imported from master codelists,Condition,standard,gi hemorrhage
+upper_gi_bleeding_or_dyspepsia,Upper GI bleeding or dyspepsia,condition,4244406,FALSE,Chronic gastrojejunal ulcer with hemorrhage but without perforation,SNOMED,gi hemorrhage,reviewed_seed,Imported from master codelists,Condition,standard,gi hemorrhage
+upper_gi_bleeding_or_dyspepsia,Upper GI bleeding or dyspepsia,condition,4245614,FALSE,Bleeding from anus,SNOMED,gi hemorrhage,reviewed_seed,Imported from master codelists,Condition,standard,gi hemorrhage
+upper_gi_bleeding_or_dyspepsia,Upper GI bleeding or dyspepsia,condition,4246979,FALSE,Coffee ground vomiting,SNOMED,gi hemorrhage,reviewed_seed,Imported from master codelists,Condition,standard,gi hemorrhage
+upper_gi_bleeding_or_dyspepsia,Upper GI bleeding or dyspepsia,condition,4247008,FALSE,Chronic peptic ulcer with hemorrhage AND perforation,SNOMED,gi hemorrhage,reviewed_seed,Imported from master codelists,Condition,standard,gi hemorrhage
+upper_gi_bleeding_or_dyspepsia,Upper GI bleeding or dyspepsia,condition,4260059,FALSE,Hemorrhagic gastroenteritis,SNOMED,gi hemorrhage,reviewed_seed,Imported from master codelists,Condition,standard,gi hemorrhage
+upper_gi_bleeding_or_dyspepsia,Upper GI bleeding or dyspepsia,condition,4264487,FALSE,Hemorrhagic esophagitis,SNOMED,gi hemorrhage,reviewed_seed,Imported from master codelists,Condition,standard,gi hemorrhage
+upper_gi_bleeding_or_dyspepsia,Upper GI bleeding or dyspepsia,condition,4266523,FALSE,Gastric ulcer with hemorrhage and perforation,SNOMED,gi hemorrhage,reviewed_seed,Imported from master codelists,Condition,standard,gi hemorrhage
+upper_gi_bleeding_or_dyspepsia,Upper GI bleeding or dyspepsia,condition,4271696,FALSE,Peptic ulcer with hemorrhage,SNOMED,gi hemorrhage,reviewed_seed,Imported from master codelists,Condition,standard,gi hemorrhage
+upper_gi_bleeding_or_dyspepsia,Upper GI bleeding or dyspepsia,condition,4273101,FALSE,Peptic ulcer with hemorrhage AND obstruction,SNOMED,gi hemorrhage,reviewed_seed,Imported from master codelists,Condition,standard,gi hemorrhage
+upper_gi_bleeding_or_dyspepsia,Upper GI bleeding or dyspepsia,condition,4273874,FALSE,Gastrojejunal ulcer with hemorrhage AND perforation,SNOMED,gi hemorrhage,reviewed_seed,Imported from master codelists,Condition,standard,gi hemorrhage
+upper_gi_bleeding_or_dyspepsia,Upper GI bleeding or dyspepsia,condition,4274491,FALSE,Acute gastrojejunal ulcer with hemorrhage,SNOMED,gi hemorrhage,reviewed_seed,Imported from master codelists,Condition,standard,gi hemorrhage
+upper_gi_bleeding_or_dyspepsia,Upper GI bleeding or dyspepsia,condition,4289830,FALSE,Chronic duodenal ulcer with hemorrhage AND perforation,SNOMED,gi hemorrhage,reviewed_seed,Imported from master codelists,Condition,standard,gi hemorrhage
+upper_gi_bleeding_or_dyspepsia,Upper GI bleeding or dyspepsia,condition,4291649,FALSE,Upper gastrointestinal bleeding,SNOMED,gi hemorrhage,reviewed_seed,Imported from master codelists,Condition,standard,gi hemorrhage
+upper_gi_bleeding_or_dyspepsia,Upper GI bleeding or dyspepsia,condition,4294973,FALSE,Chronic gastric ulcer with hemorrhage and with perforation,SNOMED,gi hemorrhage,reviewed_seed,Imported from master codelists,Condition,standard,gi hemorrhage
+upper_gi_bleeding_or_dyspepsia,Upper GI bleeding or dyspepsia,condition,4295428,FALSE,Bleeding internal hemorrhoids,SNOMED,gi hemorrhage,reviewed_seed,Imported from master codelists,Condition,standard,gi hemorrhage
+upper_gi_bleeding_or_dyspepsia,Upper GI bleeding or dyspepsia,condition,4307661,FALSE,Chronic gastrointestinal hemorrhage,SNOMED,gi hemorrhage,reviewed_seed,Imported from master codelists,Condition,standard,gi hemorrhage
+upper_gi_bleeding_or_dyspepsia,Upper GI bleeding or dyspepsia,condition,4308202,FALSE,Acute upper gastrointestinal hemorrhage,SNOMED,gi hemorrhage,reviewed_seed,Imported from master codelists,Condition,standard,gi hemorrhage
+upper_gi_bleeding_or_dyspepsia,Upper GI bleeding or dyspepsia,condition,4310668,FALSE,Acute lower gastrointestinal hemorrhage,SNOMED,gi hemorrhage,reviewed_seed,Imported from master codelists,Condition,standard,gi hemorrhage
+upper_gi_bleeding_or_dyspepsia,Upper GI bleeding or dyspepsia,condition,4318535,FALSE,Duodenal hemorrhage,SNOMED,gi hemorrhage,reviewed_seed,Imported from master codelists,Condition,standard,gi hemorrhage
+upper_gi_bleeding_or_dyspepsia,Upper GI bleeding or dyspepsia,condition,4318829,FALSE,Ileal hemorrhage,SNOMED,gi hemorrhage,reviewed_seed,Imported from master codelists,Condition,standard,gi hemorrhage
+upper_gi_bleeding_or_dyspepsia,Upper GI bleeding or dyspepsia,condition,4320492,FALSE,Acute hemorrhagic colitis caused by Escherichia coli,SNOMED,gi hemorrhage,reviewed_seed,Imported from master codelists,Condition,standard,gi hemorrhage
+upper_gi_bleeding_or_dyspepsia,Upper GI bleeding or dyspepsia,condition,4322061,FALSE,Hemorrhagic proctitis,SNOMED,gi hemorrhage,reviewed_seed,Imported from master codelists,Condition,standard,gi hemorrhage
+upper_gi_bleeding_or_dyspepsia,Upper GI bleeding or dyspepsia,condition,4332645,FALSE,Upper gastrointestinal hemorrhage associated with hypercoagulability state,SNOMED,gi hemorrhage,reviewed_seed,Imported from master codelists,Condition,standard,gi hemorrhage
+upper_gi_bleeding_or_dyspepsia,Upper GI bleeding or dyspepsia,condition,4336230,FALSE,Acute duodenal ulcer with hemorrhage AND perforation,SNOMED,gi hemorrhage,reviewed_seed,Imported from master codelists,Condition,standard,gi hemorrhage
+upper_gi_bleeding_or_dyspepsia,Upper GI bleeding or dyspepsia,condition,4336971,FALSE,Gastrojejunal ulcer with hemorrhage and with perforation but without obstruction,SNOMED,gi hemorrhage,reviewed_seed,Imported from master codelists,Condition,standard,gi hemorrhage
+upper_gi_bleeding_or_dyspepsia,Upper GI bleeding or dyspepsia,condition,4338544,FALSE,Lower gastrointestinal hemorrhage,SNOMED,gi hemorrhage,reviewed_seed,Imported from master codelists,Condition,standard,gi hemorrhage
+upper_gi_bleeding_or_dyspepsia,Upper GI bleeding or dyspepsia,condition,4340509,FALSE,Acute hemorrhagic enterocolitis,SNOMED,gi hemorrhage,reviewed_seed,Imported from master codelists,Condition,standard,gi hemorrhage
+upper_gi_bleeding_or_dyspepsia,Upper GI bleeding or dyspepsia,condition,4341252,FALSE,Esophageal anastomotic hemorrhage,SNOMED,gi hemorrhage,reviewed_seed,Imported from master codelists,Condition,standard,gi hemorrhage
+upper_gi_bleeding_or_dyspepsia,Upper GI bleeding or dyspepsia,condition,4341253,FALSE,Small intestine anastomotic hemorrhage,SNOMED,gi hemorrhage,reviewed_seed,Imported from master codelists,Condition,standard,gi hemorrhage
+upper_gi_bleeding_or_dyspepsia,Upper GI bleeding or dyspepsia,condition,4341790,FALSE,Large intestine anastomotic hemorrhage,SNOMED,gi hemorrhage,reviewed_seed,Imported from master codelists,Condition,standard,gi hemorrhage
+upper_gi_bleeding_or_dyspepsia,Upper GI bleeding or dyspepsia,condition,4342904,FALSE,Gastrointestinal anastomotic hemorrhage,SNOMED,gi hemorrhage,reviewed_seed,Imported from master codelists,Condition,standard,gi hemorrhage
+upper_gi_bleeding_or_dyspepsia,Upper GI bleeding or dyspepsia,condition,4342905,FALSE,Gastric anastomotic hemorrhage,SNOMED,gi hemorrhage,reviewed_seed,Imported from master codelists,Condition,standard,gi hemorrhage
+upper_gi_bleeding_or_dyspepsia,Upper GI bleeding or dyspepsia,condition,4342987,FALSE,Duodenal anastomotic hemorrhage,SNOMED,gi hemorrhage,reviewed_seed,Imported from master codelists,Condition,standard,gi hemorrhage
+upper_gi_bleeding_or_dyspepsia,Upper GI bleeding or dyspepsia,condition,36684448,FALSE,Gastritis with upper gastrointestinal hemorrhage,SNOMED,gi hemorrhage,reviewed_seed,Imported from master codelists,Condition,standard,gi hemorrhage
+upper_gi_bleeding_or_dyspepsia,Upper GI bleeding or dyspepsia,condition,36685122,FALSE,Diverticulosis of sigmoid colon with hemorrhage,SNOMED,gi hemorrhage,reviewed_seed,Imported from master codelists,Condition,standard,gi hemorrhage
+upper_gi_bleeding_or_dyspepsia,Upper GI bleeding or dyspepsia,condition,36713507,FALSE,Intramural hemorrhage of stomach,SNOMED,gi hemorrhage,reviewed_seed,Imported from master codelists,Condition,standard,gi hemorrhage
+upper_gi_bleeding_or_dyspepsia,Upper GI bleeding or dyspepsia,condition,36715487,FALSE,Intramural hemorrhage of esophagus,SNOMED,gi hemorrhage,reviewed_seed,Imported from master codelists,Condition,standard,gi hemorrhage
+upper_gi_bleeding_or_dyspepsia,Upper GI bleeding or dyspepsia,condition,36717237,FALSE,Obscure gastrointestinal hemorrhage,SNOMED,gi hemorrhage,reviewed_seed,Imported from master codelists,Condition,standard,gi hemorrhage
+upper_gi_bleeding_or_dyspepsia,Upper GI bleeding or dyspepsia,condition,36717494,FALSE,Acute hemorrhagic ulcer of rectum,SNOMED,gi hemorrhage,reviewed_seed,Imported from master codelists,Condition,standard,gi hemorrhage
+upper_gi_bleeding_or_dyspepsia,Upper GI bleeding or dyspepsia,condition,36717644,FALSE,Intramural hemorrhage of duodenum,SNOMED,gi hemorrhage,reviewed_seed,Imported from master codelists,Condition,standard,gi hemorrhage
+upper_gi_bleeding_or_dyspepsia,Upper GI bleeding or dyspepsia,condition,37017911,FALSE,Jejunal anastomotic hemorrhage,SNOMED,gi hemorrhage,reviewed_seed,Imported from master codelists,Condition,standard,gi hemorrhage
+upper_gi_bleeding_or_dyspepsia,Upper GI bleeding or dyspepsia,condition,37109016,FALSE,Neonatal gastrointestinal hemorrhage,SNOMED,gi hemorrhage,reviewed_seed,Imported from master codelists,Condition,standard,gi hemorrhage
+upper_gi_bleeding_or_dyspepsia,Upper GI bleeding or dyspepsia,condition,37160869,FALSE,Prepyloric ulcer with hemorrhage,SNOMED,gi hemorrhage,reviewed_seed,Imported from master codelists,Condition,standard,gi hemorrhage
+upper_gi_bleeding_or_dyspepsia,Upper GI bleeding or dyspepsia,condition,37161060,FALSE,Hemorrhage of colon due to angiodysplasia of colon,SNOMED,gi hemorrhage,reviewed_seed,Imported from master codelists,Condition,standard,gi hemorrhage
+upper_gi_bleeding_or_dyspepsia,Upper GI bleeding or dyspepsia,condition,37162897,FALSE,Hemorrhage of large intestine due to diverticulitis,SNOMED,gi hemorrhage,reviewed_seed,Imported from master codelists,Condition,standard,gi hemorrhage
+upper_gi_bleeding_or_dyspepsia,Upper GI bleeding or dyspepsia,condition,37162899,FALSE,Hemorrhage of lower esophagus due to erosive gastro-esophageal reflux disease,SNOMED,gi hemorrhage,reviewed_seed,Imported from master codelists,Condition,standard,gi hemorrhage
+upper_gi_bleeding_or_dyspepsia,Upper GI bleeding or dyspepsia,condition,37163132,FALSE,Gastrointestinal hemorrhage with sepsis,SNOMED,gi hemorrhage,reviewed_seed,Imported from master codelists,Condition,standard,gi hemorrhage
+upper_gi_bleeding_or_dyspepsia,Upper GI bleeding or dyspepsia,condition,37174298,FALSE,Hemorrhage of ileostomy stoma,SNOMED,gi hemorrhage,reviewed_seed,Imported from master codelists,Condition,standard,gi hemorrhage
+upper_gi_bleeding_or_dyspepsia,Upper GI bleeding or dyspepsia,condition,40482450,FALSE,Bleeding Meckel's diverticulitis,SNOMED,gi hemorrhage,reviewed_seed,Imported from master codelists,Condition,standard,gi hemorrhage
+upper_gi_bleeding_or_dyspepsia,Upper GI bleeding or dyspepsia,condition,40482451,FALSE,Bleeding Meckel's diverticulum,SNOMED,gi hemorrhage,reviewed_seed,Imported from master codelists,Condition,standard,gi hemorrhage
+upper_gi_bleeding_or_dyspepsia,Upper GI bleeding or dyspepsia,condition,42536736,FALSE,Diverticulum and hemorrhage of small intestine,SNOMED,gi hemorrhage,reviewed_seed,Imported from master codelists,Condition,standard,gi hemorrhage
+upper_gi_bleeding_or_dyspepsia,Upper GI bleeding or dyspepsia,condition,42536738,FALSE,Diverticulum and hemorrhage of large intestine,SNOMED,gi hemorrhage,reviewed_seed,Imported from master codelists,Condition,standard,gi hemorrhage
+upper_gi_bleeding_or_dyspepsia,Upper GI bleeding or dyspepsia,condition,44784282,FALSE,Chronic antral gastritis with hemorrhage,SNOMED,gi hemorrhage,reviewed_seed,Imported from master codelists,Condition,standard,gi hemorrhage
+upper_gi_bleeding_or_dyspepsia,Upper GI bleeding or dyspepsia,condition,45757543,FALSE,Hemorrhage of colon due to diverticulosis,SNOMED,gi hemorrhage,reviewed_seed,Imported from master codelists,Condition,standard,gi hemorrhage
+upper_gi_bleeding_or_dyspepsia,Upper GI bleeding or dyspepsia,condition,45757570,FALSE,Gastric hemorrhage due to idiopathic erosive gastritis,SNOMED,gi hemorrhage,reviewed_seed,Imported from master codelists,Condition,standard,gi hemorrhage
+upper_gi_bleeding_or_dyspepsia,Upper GI bleeding or dyspepsia,condition,45757654,FALSE,Intestinal hemorrhage due to angiodysplasia of intestine,SNOMED,gi hemorrhage,reviewed_seed,Imported from master codelists,Condition,standard,gi hemorrhage
+upper_gi_bleeding_or_dyspepsia,Upper GI bleeding or dyspepsia,condition,45757783,FALSE,Gastric hemorrhage due to alcoholic gastritis,SNOMED,gi hemorrhage,reviewed_seed,Imported from master codelists,Condition,standard,gi hemorrhage
+upper_gi_bleeding_or_dyspepsia,Upper GI bleeding or dyspepsia,condition,45768629,FALSE,Gastric hemorrhage due to erosive gastritis,SNOMED,gi hemorrhage,reviewed_seed,Imported from master codelists,Condition,standard,gi hemorrhage
+upper_gi_bleeding_or_dyspepsia,Upper GI bleeding or dyspepsia,condition,46269819,FALSE,Gastric hemorrhage due to allergic gastritis,SNOMED,gi hemorrhage,reviewed_seed,Imported from master codelists,Condition,standard,gi hemorrhage
+upper_gi_bleeding_or_dyspepsia,Upper GI bleeding or dyspepsia,condition,46269821,FALSE,Duodenal hemorrhage due to angiodysplasia of duodenum,SNOMED,gi hemorrhage,reviewed_seed,Imported from master codelists,Condition,standard,gi hemorrhage
+upper_gi_bleeding_or_dyspepsia,Upper GI bleeding or dyspepsia,condition,46269822,FALSE,Gastric hemorrhage due to angiodysplasia of stomach,SNOMED,gi hemorrhage,reviewed_seed,Imported from master codelists,Condition,standard,gi hemorrhage
+upper_gi_bleeding_or_dyspepsia,Upper GI bleeding or dyspepsia,condition,46269837,FALSE,Gastric hemorrhage due to chronic superficial gastritis,SNOMED,gi hemorrhage,reviewed_seed,Imported from master codelists,Condition,standard,gi hemorrhage
+upper_gi_bleeding_or_dyspepsia,Upper GI bleeding or dyspepsia,condition,46269841,FALSE,Rectal hemorrhage due to chronic ulcerative pancolitis,SNOMED,gi hemorrhage,reviewed_seed,Imported from master codelists,Condition,standard,gi hemorrhage
+upper_gi_bleeding_or_dyspepsia,Upper GI bleeding or dyspepsia,condition,46269847,FALSE,Rectal hemorrhage due to chronic ulcerative proctitis,SNOMED,gi hemorrhage,reviewed_seed,Imported from master codelists,Condition,standard,gi hemorrhage
+upper_gi_bleeding_or_dyspepsia,Upper GI bleeding or dyspepsia,condition,46269851,FALSE,Rectal hemorrhage due to chronic ulcerative rectosigmoiditis,SNOMED,gi hemorrhage,reviewed_seed,Imported from master codelists,Condition,standard,gi hemorrhage
+upper_gi_bleeding_or_dyspepsia,Upper GI bleeding or dyspepsia,condition,46269863,FALSE,Rectal hemorrhage due to inflammatory polyps of colon,SNOMED,gi hemorrhage,reviewed_seed,Imported from master codelists,Condition,standard,gi hemorrhage
+upper_gi_bleeding_or_dyspepsia,Upper GI bleeding or dyspepsia,condition,46269877,FALSE,Rectal hemorrhage due to Crohn's disease of large intestine,SNOMED,gi hemorrhage,reviewed_seed,Imported from master codelists,Condition,standard,gi hemorrhage
+upper_gi_bleeding_or_dyspepsia,Upper GI bleeding or dyspepsia,condition,46269882,FALSE,Rectal hemorrhage due to Crohn's disease of small and large intestines,SNOMED,gi hemorrhage,reviewed_seed,Imported from master codelists,Condition,standard,gi hemorrhage
+upper_gi_bleeding_or_dyspepsia,Upper GI bleeding or dyspepsia,condition,46269887,FALSE,Rectal hemorrhage due to Crohn's disease of small intestine,SNOMED,gi hemorrhage,reviewed_seed,Imported from master codelists,Condition,standard,gi hemorrhage
+upper_gi_bleeding_or_dyspepsia,Upper GI bleeding or dyspepsia,condition,46269891,FALSE,Rectal hemorrhage due to Crohn's disease,SNOMED,gi hemorrhage,reviewed_seed,Imported from master codelists,Condition,standard,gi hemorrhage
+upper_gi_bleeding_or_dyspepsia,Upper GI bleeding or dyspepsia,condition,46269892,FALSE,Duodenal hemorrhage due to Dieulafoy lesion of duodenum,SNOMED,gi hemorrhage,reviewed_seed,Imported from master codelists,Condition,standard,gi hemorrhage
+upper_gi_bleeding_or_dyspepsia,Upper GI bleeding or dyspepsia,condition,46269893,FALSE,Gastric hemorrhage due to Dieulafoy lesion of stomach,SNOMED,gi hemorrhage,reviewed_seed,Imported from master codelists,Condition,standard,gi hemorrhage
+upper_gi_bleeding_or_dyspepsia,Upper GI bleeding or dyspepsia,condition,46269901,FALSE,Hemorrhage of small intestine due to diverticulitis,SNOMED,gi hemorrhage,reviewed_seed,Imported from master codelists,Condition,standard,gi hemorrhage
+upper_gi_bleeding_or_dyspepsia,Upper GI bleeding or dyspepsia,condition,46269902,FALSE,Perforation of small intestine co-occurrent with hemorrhage due to diverticulitis,SNOMED,gi hemorrhage,reviewed_seed,Imported from master codelists,Condition,standard,gi hemorrhage
+upper_gi_bleeding_or_dyspepsia,Upper GI bleeding or dyspepsia,condition,46269904,FALSE,Hemorrhage with diverticulosis of duodenum,SNOMED,gi hemorrhage,reviewed_seed,Imported from master codelists,Condition,standard,gi hemorrhage
+upper_gi_bleeding_or_dyspepsia,Upper GI bleeding or dyspepsia,condition,46269905,FALSE,Hemorrhage with diverticulosis of ileum,SNOMED,gi hemorrhage,reviewed_seed,Imported from master codelists,Condition,standard,gi hemorrhage
+upper_gi_bleeding_or_dyspepsia,Upper GI bleeding or dyspepsia,condition,46269906,FALSE,Hemorrhage of jejunum with diverticulosis,SNOMED,gi hemorrhage,reviewed_seed,Imported from master codelists,Condition,standard,gi hemorrhage
+upper_gi_bleeding_or_dyspepsia,Upper GI bleeding or dyspepsia,condition,46269907,FALSE,Intestinal hemorrhage with diverticulosis,SNOMED,gi hemorrhage,reviewed_seed,Imported from master codelists,Condition,standard,gi hemorrhage
+upper_gi_bleeding_or_dyspepsia,Upper GI bleeding or dyspepsia,condition,46269908,FALSE,Gastric hemorrhage due to vascular ectasia of gastric antrum,SNOMED,gi hemorrhage,reviewed_seed,Imported from master codelists,Condition,standard,gi hemorrhage
+upper_gi_bleeding_or_dyspepsia,Upper GI bleeding or dyspepsia,condition,46269910,FALSE,Gastric hemorrhage caused by Helicobacter pylori,SNOMED,gi hemorrhage,reviewed_seed,Imported from master codelists,Condition,standard,gi hemorrhage
+upper_gi_bleeding_or_dyspepsia,Upper GI bleeding or dyspepsia,condition,46269911,FALSE,Gastric hemorrhage due to hypertrophic gastritis,SNOMED,gi hemorrhage,reviewed_seed,Imported from master codelists,Condition,standard,gi hemorrhage
+upper_gi_bleeding_or_dyspepsia,Upper GI bleeding or dyspepsia,condition,46269912,FALSE,Gastric hemorrhage due to irritant gastritis,SNOMED,gi hemorrhage,reviewed_seed,Imported from master codelists,Condition,standard,gi hemorrhage
+upper_gi_bleeding_or_dyspepsia,Upper GI bleeding or dyspepsia,condition,46269935,FALSE,Gastric hemorrhage due to pyloric gastritis,SNOMED,gi hemorrhage,reviewed_seed,Imported from master codelists,Condition,standard,gi hemorrhage
+upper_gi_bleeding_or_dyspepsia,Upper GI bleeding or dyspepsia,condition,46269953,FALSE,Gastric hemorrhage due to viral gastritis,SNOMED,gi hemorrhage,reviewed_seed,Imported from master codelists,Condition,standard,gi hemorrhage
+upper_gi_bleeding_or_dyspepsia,Upper GI bleeding or dyspepsia,condition,46270025,FALSE,Gastric hemorrhage due to eosinophilic gastritis,SNOMED,gi hemorrhage,reviewed_seed,Imported from master codelists,Condition,standard,gi hemorrhage
+upper_gi_bleeding_or_dyspepsia,Upper GI bleeding or dyspepsia,condition,46270145,FALSE,Gastric hemorrhage due to atrophic gastritis,SNOMED,gi hemorrhage,reviewed_seed,Imported from master codelists,Condition,standard,gi hemorrhage
+upper_gi_bleeding_or_dyspepsia,Upper GI bleeding or dyspepsia,condition,46270529,FALSE,Hemorrhage of small intestine with diverticulosis,SNOMED,gi hemorrhage,reviewed_seed,Imported from master codelists,Condition,standard,gi hemorrhage
+upper_gi_bleeding_or_dyspepsia,Upper GI bleeding or dyspepsia,condition,46271323,FALSE,Postoperative hemorrhage of anus,SNOMED,gi hemorrhage,reviewed_seed,Imported from master codelists,Condition,standard,gi hemorrhage
+upper_gi_bleeding_or_dyspepsia,Upper GI bleeding or dyspepsia,condition,46272978,FALSE,Hemorrhage of cecum,SNOMED,gi hemorrhage,reviewed_seed,Imported from master codelists,Condition,standard,gi hemorrhage
+upper_gi_bleeding_or_dyspepsia,Upper GI bleeding or dyspepsia,condition,46273182,FALSE,Hemorrhage of jejunum,SNOMED,gi hemorrhage,reviewed_seed,Imported from master codelists,Condition,standard,gi hemorrhage
+upper_gi_bleeding_or_dyspepsia,Upper GI bleeding or dyspepsia,condition,46273183,FALSE,Intestinal hemorrhage,SNOMED,gi hemorrhage,reviewed_seed,Imported from master codelists,Condition,standard,gi hemorrhage
+upper_gi_bleeding_or_dyspepsia,Upper GI bleeding or dyspepsia,condition,46273470,FALSE,Hemorrhage of cecum due to diverticulosis,SNOMED,gi hemorrhage,reviewed_seed,Imported from master codelists,Condition,standard,gi hemorrhage
+upper_gi_bleeding_or_dyspepsia,Upper GI bleeding or dyspepsia,condition,46273478,FALSE,Rectal hemorrhage due to ulcerative colitis,SNOMED,gi hemorrhage,reviewed_seed,Imported from master codelists,Condition,standard,gi hemorrhage

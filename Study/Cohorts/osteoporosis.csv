@@ -1,132 +1,132 @@
-concept_id,concept_name,domain_id,vocabulary_id,standard_concept,condition,cohort_name,cohort_label,cohort_domain
-77365,Disuse osteoporosis,Condition,SNOMED,standard,Osteoporosis,osteoporosis,Osteoporosis,condition
-80502,Osteoporosis,Condition,SNOMED,standard,Osteoporosis,osteoporosis,Osteoporosis,condition
-80824,Senile osteoporosis,Condition,SNOMED,standard,Osteoporosis,osteoporosis,Osteoporosis,condition
-81390,Idiopathic osteoporosis,Condition,SNOMED,standard,Osteoporosis,osteoporosis,Osteoporosis,condition
-760573,Pathological fracture of right tibia due to osteoporosis,Condition,SNOMED,standard,Osteoporosis,osteoporosis,Osteoporosis,condition
-760578,Pathological fracture of left fibula due to osteoporosis,Condition,SNOMED,standard,Osteoporosis,osteoporosis,Osteoporosis,condition
-760583,Pathological fracture of right humerus due to osteoporosis,Condition,SNOMED,standard,Osteoporosis,osteoporosis,Osteoporosis,condition
-760587,Pathological fracture of right humerus due to secondary osteoporosis,Condition,SNOMED,standard,Osteoporosis,osteoporosis,Osteoporosis,condition
-760588,Pathological fracture of left humerus due to secondary osteoporosis,Condition,SNOMED,standard,Osteoporosis,osteoporosis,Osteoporosis,condition
-760589,Pathological fracture of right clavicle due to osteoporosis,Condition,SNOMED,standard,Osteoporosis,osteoporosis,Osteoporosis,condition
-760590,Pathological fracture of left clavicle due to osteoporosis,Condition,SNOMED,standard,Osteoporosis,osteoporosis,Osteoporosis,condition
-760592,Pathological fracture of right clavicle due to secondary osteoporosis,Condition,SNOMED,standard,Osteoporosis,osteoporosis,Osteoporosis,condition
-760628,Pathological fracture of left foot due to osteoporosis,Condition,SNOMED,standard,Osteoporosis,osteoporosis,Osteoporosis,condition
-760633,Pathological fracture of right foot due to secondary osteoporosis,Condition,SNOMED,standard,Osteoporosis,osteoporosis,Osteoporosis,condition
-760634,Pathological fracture of left foot due to secondary osteoporosis,Condition,SNOMED,standard,Osteoporosis,osteoporosis,Osteoporosis,condition
-760636,Pathological fracture of right femur due to osteoporosis,Condition,SNOMED,standard,Osteoporosis,osteoporosis,Osteoporosis,condition
-760637,Pathological fracture of left femur due to osteoporosis,Condition,SNOMED,standard,Osteoporosis,osteoporosis,Osteoporosis,condition
-760645,Pathological fracture of right femur due to secondary osteoporosis,Condition,SNOMED,standard,Osteoporosis,osteoporosis,Osteoporosis,condition
-760646,Pathological fracture of left femur due to secondary osteoporosis,Condition,SNOMED,standard,Osteoporosis,osteoporosis,Osteoporosis,condition
-760647,Pathological fracture of right ankle due to osteoporosis,Condition,SNOMED,standard,Osteoporosis,osteoporosis,Osteoporosis,condition
-760651,Pathological fracture of right hand due to osteoporosis,Condition,SNOMED,standard,Osteoporosis,osteoporosis,Osteoporosis,condition
-760652,Pathological fracture of left hand due to osteoporosis,Condition,SNOMED,standard,Osteoporosis,osteoporosis,Osteoporosis,condition
-760658,Pathological fracture of right ulna due to osteoporosis,Condition,SNOMED,standard,Osteoporosis,osteoporosis,Osteoporosis,condition
-760659,Pathological fracture of left radius due to osteoporosis,Condition,SNOMED,standard,Osteoporosis,osteoporosis,Osteoporosis,condition
-760667,Pathological fracture of left scapula due to osteoporosis,Condition,SNOMED,standard,Osteoporosis,osteoporosis,Osteoporosis,condition
-760691,Pathological fracture of right hip due to osteoporosis,Condition,SNOMED,standard,Osteoporosis,osteoporosis,Osteoporosis,condition
-760692,Pathological fracture of left hip due to osteoporosis,Condition,SNOMED,standard,Osteoporosis,osteoporosis,Osteoporosis,condition
-760695,Pathological fracture of proximal end of right femur due to secondary osteoporosis,Condition,SNOMED,standard,Osteoporosis,osteoporosis,Osteoporosis,condition
-760696,Pathological fracture of left hip due to secondary osteoporosis,Condition,SNOMED,standard,Osteoporosis,osteoporosis,Osteoporosis,condition
-761873,Pathological fracture of left tibia due to osteoporosis,Condition,SNOMED,standard,Osteoporosis,osteoporosis,Osteoporosis,condition
-764378,Pathological fracture of left ulna due to osteoporosis,Condition,SNOMED,standard,Osteoporosis,osteoporosis,Osteoporosis,condition
-765181,Pathological fracture of right fibula due to osteoporosis,Condition,SNOMED,standard,Osteoporosis,osteoporosis,Osteoporosis,condition
-765188,Pathological fracture of right foot due to osteoporosis,Condition,SNOMED,standard,Osteoporosis,osteoporosis,Osteoporosis,condition
-765191,Pathological fracture of left ankle due to osteoporosis,Condition,SNOMED,standard,Osteoporosis,osteoporosis,Osteoporosis,condition
-765192,Pathological fracture of right radius due to osteoporosis,Condition,SNOMED,standard,Osteoporosis,osteoporosis,Osteoporosis,condition
-765893,Pathological fracture of left humerus due to osteoporosis,Condition,SNOMED,standard,Osteoporosis,osteoporosis,Osteoporosis,condition
-1076256,Osteoporosis caused by ionizing radiation,Condition,SNOMED,standard,Osteoporosis,osteoporosis,Osteoporosis,condition
-1076257,Osteoporosis due to and following radiotherapy,Condition,SNOMED,standard,Osteoporosis,osteoporosis,Osteoporosis,condition
-1245002,Osteoporotic fracture due to idiopathic osteoporosis,Condition,SNOMED,standard,Osteoporosis,osteoporosis,Osteoporosis,condition
-1245003,Osteoporosis due to endocrine disorder,Condition,SNOMED,standard,Osteoporosis,osteoporosis,Osteoporosis,condition
-1245004,Osteoporosis due to chronic kidney disease,Condition,SNOMED,standard,Osteoporosis,osteoporosis,Osteoporosis,condition
-1245005,Osteoporotic fracture due to postmenopausal osteoporosis,Condition,SNOMED,standard,Osteoporosis,osteoporosis,Osteoporosis,condition
-1245006,Osteoporotic fracture due to disuse osteoporosis,Condition,SNOMED,standard,Osteoporosis,osteoporosis,Osteoporosis,condition
-4002133,Postoophorectomy osteoporosis,Condition,SNOMED,standard,Osteoporosis,osteoporosis,Osteoporosis,condition
-4003479,Post-surgical malabsorption osteoporosis,Condition,SNOMED,standard,Osteoporosis,osteoporosis,Osteoporosis,condition
-4003481,Vertebral osteoporosis,Condition,SNOMED,standard,Osteoporosis,osteoporosis,Osteoporosis,condition
-4003482,Osteoporotic fracture due to postoophorectomy osteoporosis,Condition,SNOMED,standard,Osteoporosis,osteoporosis,Osteoporosis,condition
-4004622,Idiopathic generalized osteoporosis,Condition,SNOMED,standard,Osteoporosis,osteoporosis,Osteoporosis,condition
-4004623,Localized osteoporosis - Lequesne,Condition,SNOMED,standard,Osteoporosis,osteoporosis,Osteoporosis,condition
-4004624,Post-surgical malabsorption osteoporosis with pathological fracture,Condition,SNOMED,standard,Osteoporosis,osteoporosis,Osteoporosis,condition
-4010333,Postmenopausal osteoporosis,Condition,SNOMED,standard,Osteoporosis,osteoporosis,Osteoporosis,condition
-4031127,Osteoporotic bone marrow defect,Condition,SNOMED,standard,Osteoporosis,osteoporosis,Osteoporosis,condition
-4033089,Drug-induced osteoporosis,Condition,SNOMED,standard,Osteoporosis,osteoporosis,Osteoporosis,condition
-4049167,Posttraumatic osteoporosis,Condition,SNOMED,standard,Osteoporosis,osteoporosis,Osteoporosis,condition
-4067765,Drug-induced osteoporosis with osteoporotic fracture,Condition,SNOMED,standard,Osteoporosis,osteoporosis,Osteoporosis,condition
-4068133,Osteoporotic fracture of thoracic vertebra,Condition,SNOMED,standard,Osteoporosis,osteoporosis,Osteoporosis,condition
-4069524,Osteoporotic fracture of lumbar vertebra,Condition,SNOMED,standard,Osteoporosis,osteoporosis,Osteoporosis,condition
-4069525,Osteoporotic fracture of cervical vertebra,Condition,SNOMED,standard,Osteoporosis,osteoporosis,Osteoporosis,condition
-4069941,Osteoporotic kyphosis,Condition,SNOMED,standard,Osteoporosis,osteoporosis,Osteoporosis,condition
-4105090,Regional osteoporosis,Condition,SNOMED,standard,Osteoporosis,osteoporosis,Osteoporosis,condition
-4109181,Osteoporosis with pseudoglioma,Condition,SNOMED,standard,Osteoporosis,osteoporosis,Osteoporosis,condition
-4136988,Menopausal osteoporosis,Condition,SNOMED,standard,Osteoporosis,osteoporosis,Osteoporosis,condition
-4151725,Localized disuse osteoporosis,Condition,SNOMED,standard,Osteoporosis,osteoporosis,Osteoporosis,condition
-4160572,Osteoporotic fracture of neck of femur,Condition,SNOMED,standard,Osteoporosis,osteoporosis,Osteoporosis,condition
-4173335,Primary osteoporosis,Condition,SNOMED,standard,Osteoporosis,osteoporosis,Osteoporosis,condition
-4192181,Dual energy X-ray absorptiometry of bone of lumbar vertebra result osteoporosis,Condition,SNOMED,standard,Osteoporosis,osteoporosis,Osteoporosis,condition
-4193146,Dual energy X-ray absorptiometry of bone of forearm result osteoporosis,Condition,SNOMED,standard,Osteoporosis,osteoporosis,Osteoporosis,condition
-4193148,Dual energy X-ray absorptiometry of calcaneum result osteoporosis,Condition,SNOMED,standard,Osteoporosis,osteoporosis,Osteoporosis,condition
-4206888,Osteoporotic collapse of thoracic vertebra,Condition,SNOMED,standard,Osteoporosis,osteoporosis,Osteoporosis,condition
-4207924,Osteoporotic collapse of cervical vertebra,Condition,SNOMED,standard,Osteoporosis,osteoporosis,Osteoporosis,condition
-4210556,Osteoporotic collapse of lumbar vertebra,Condition,SNOMED,standard,Osteoporosis,osteoporosis,Osteoporosis,condition
-4257900,Dual energy X-ray absorptiometry of neck of femur result osteoporosis,Condition,SNOMED,standard,Osteoporosis,osteoporosis,Osteoporosis,condition
-4305731,Osteoporosis caused by corticosteroid,Condition,SNOMED,standard,Osteoporosis,osteoporosis,Osteoporosis,condition
-4307175,Dual energy X-ray absorptiometry of bone of hip joint region result osteoporosis,Condition,SNOMED,standard,Osteoporosis,osteoporosis,Osteoporosis,condition
-4344143,Juvenile idiopathic generalized osteoporosis,Condition,SNOMED,standard,Osteoporosis,osteoporosis,Osteoporosis,condition
-4344144,Regional migrating osteoporosis,Condition,SNOMED,standard,Osteoporosis,osteoporosis,Osteoporosis,condition
-4344145,Transient osteoporosis of hip in pregnancy,Condition,SNOMED,standard,Osteoporosis,osteoporosis,Osteoporosis,condition
-4344377,Secondary generalized osteoporosis,Condition,SNOMED,standard,Osteoporosis,osteoporosis,Osteoporosis,condition
-4344378,Secondary localized osteoporosis,Condition,SNOMED,standard,Osteoporosis,osteoporosis,Osteoporosis,condition
-4345585,Transient osteoporosis of hip,Condition,SNOMED,standard,Osteoporosis,osteoporosis,Osteoporosis,condition
-4347297,Idiopathic osteoporosis in pregnancy,Condition,SNOMED,standard,Osteoporosis,osteoporosis,Osteoporosis,condition
-4347298,Adult idiopathic generalized osteoporosis,Condition,SNOMED,standard,Osteoporosis,osteoporosis,Osteoporosis,condition
-4347301,Osteoporotic vertebral collapse,Condition,SNOMED,standard,Osteoporosis,osteoporosis,Osteoporosis,condition
-36716194,Osteoporosis and oculocutaneous hypopigmentation syndrome,Condition,SNOMED,standard,Osteoporosis,osteoporosis,Osteoporosis,condition
-37160387,Lordosis deformity of spine due to osteoporosis of vertebra,Condition,SNOMED,standard,Osteoporosis,osteoporosis,Osteoporosis,condition
-37160893,LRP5-related primary osteoporosis,Condition,SNOMED,standard,Osteoporosis,osteoporosis,Osteoporosis,condition
-37204244,X-linked osteoporosis with fractures,Condition,SNOMED,standard,Osteoporosis,osteoporosis,Osteoporosis,condition
-37204736,Dominant hypophosphatemia with nephrolithiasis and/or osteoporosis,Condition,SNOMED,standard,Osteoporosis,osteoporosis,Osteoporosis,condition
-37209174,Pathological fracture of right scapula due to osteoporosis,Condition,SNOMED,standard,Osteoporosis,osteoporosis,Osteoporosis,condition
-37209180,Osteoporotic fracture of left rib,Condition,SNOMED,standard,Osteoporosis,osteoporosis,Osteoporosis,condition
-37209181,Osteoporotic fracture of right rib,Condition,SNOMED,standard,Osteoporosis,osteoporosis,Osteoporosis,condition
-40480160,Osteoporotic fracture,Condition,SNOMED,standard,Osteoporosis,osteoporosis,Osteoporosis,condition
-42536670,Premenopausal idiopathic osteoporosis,Condition,SNOMED,standard,Osteoporosis,osteoporosis,Osteoporosis,condition
-42536671,Osteoporosis due to malabsorption,Condition,SNOMED,standard,Osteoporosis,osteoporosis,Osteoporosis,condition
-42538151,Osteoporosis co-occurrent and due to multiple myeloma,Condition,SNOMED,standard,Osteoporosis,osteoporosis,Osteoporosis,condition
-44783435,Transient osteoporosis,Condition,SNOMED,standard,Osteoporosis,osteoporosis,Osteoporosis,condition
-44783850,Osteoporosis circumscripta,Condition,SNOMED,standard,Osteoporosis,osteoporosis,Osteoporosis,condition
-45757314,Secondary osteoporotic fracture of thoracic vertebra,Condition,SNOMED,standard,Osteoporosis,osteoporosis,Osteoporosis,condition
-45757316,Secondary osteoporotic fracture of lumbar vertebra,Condition,SNOMED,standard,Osteoporosis,osteoporosis,Osteoporosis,condition
-45757318,Secondary osteoporotic fracture of cervical vertebra,Condition,SNOMED,standard,Osteoporosis,osteoporosis,Osteoporosis,condition
-45757320,Osteoporotic fracture of vertebra,Condition,SNOMED,standard,Osteoporosis,osteoporosis,Osteoporosis,condition
-45757323,Secondary osteoporotic fracture of vertebra,Condition,SNOMED,standard,Osteoporosis,osteoporosis,Osteoporosis,condition
-45757324,Secondary osteoporotic fracture of sacral vertebra,Condition,SNOMED,standard,Osteoporosis,osteoporosis,Osteoporosis,condition
-45766159,Secondary osteoporosis,Condition,SNOMED,standard,Osteoporosis,osteoporosis,Osteoporosis,condition
-45767001,Secondary osteoporotic fracture of ulna,Condition,SNOMED,standard,Osteoporosis,osteoporosis,Osteoporosis,condition
-45767002,Secondary osteoporotic fracture of tibia,Condition,SNOMED,standard,Osteoporosis,osteoporosis,Osteoporosis,condition
-45767003,Secondary osteoporotic fracture of scapula,Condition,SNOMED,standard,Osteoporosis,osteoporosis,Osteoporosis,condition
-45767004,Secondary osteoporotic fracture of humerus,Condition,SNOMED,standard,Osteoporosis,osteoporosis,Osteoporosis,condition
-45767005,Secondary osteoporotic fracture of proximal femur,Condition,SNOMED,standard,Osteoporosis,osteoporosis,Osteoporosis,condition
-45767006,Secondary osteoporotic fracture of hand,Condition,SNOMED,standard,Osteoporosis,osteoporosis,Osteoporosis,condition
-45767007,Secondary osteoporotic fracture of foot,Condition,SNOMED,standard,Osteoporosis,osteoporosis,Osteoporosis,condition
-45767008,Secondary osteoporotic fracture of fibula,Condition,SNOMED,standard,Osteoporosis,osteoporosis,Osteoporosis,condition
-45767009,Secondary osteoporotic fracture of femur,Condition,SNOMED,standard,Osteoporosis,osteoporosis,Osteoporosis,condition
-45767010,Secondary osteoporotic fracture of clavicle,Condition,SNOMED,standard,Osteoporosis,osteoporosis,Osteoporosis,condition
-45767011,Secondary osteoporotic fracture of ankle,Condition,SNOMED,standard,Osteoporosis,osteoporosis,Osteoporosis,condition
-45767036,Osteoporotic fracture of clavicle,Condition,SNOMED,standard,Osteoporosis,osteoporosis,Osteoporosis,condition
-45767037,Osteoporotic fracture of femur,Condition,SNOMED,standard,Osteoporosis,osteoporosis,Osteoporosis,condition
-45767038,Osteoporotic fracture of fibula,Condition,SNOMED,standard,Osteoporosis,osteoporosis,Osteoporosis,condition
-45767039,Osteoporotic fracture of bone of foot,Condition,SNOMED,standard,Osteoporosis,osteoporosis,Osteoporosis,condition
-45767040,Osteoporotic fracture of hand,Condition,SNOMED,standard,Osteoporosis,osteoporosis,Osteoporosis,condition
-45767041,Osteoporotic fracture of proximal femur,Condition,SNOMED,standard,Osteoporosis,osteoporosis,Osteoporosis,condition
-45767042,Osteoporotic fracture of humerus,Condition,SNOMED,standard,Osteoporosis,osteoporosis,Osteoporosis,condition
-45767043,Osteoporotic fracture of scapula,Condition,SNOMED,standard,Osteoporosis,osteoporosis,Osteoporosis,condition
-45767044,Osteoporotic fracture of tibia,Condition,SNOMED,standard,Osteoporosis,osteoporosis,Osteoporosis,condition
-45767045,Osteoporotic fracture of ulna,Condition,SNOMED,standard,Osteoporosis,osteoporosis,Osteoporosis,condition
-45768892,Osteoporosis due to cystic fibrosis,Condition,SNOMED,standard,Osteoporosis,osteoporosis,Osteoporosis,condition
-45771423,Osteoporotic fracture of ankle,Condition,SNOMED,standard,Osteoporosis,osteoporosis,Osteoporosis,condition
-45772067,Osteoporotic fracture of sacral vertebra,Condition,SNOMED,standard,Osteoporosis,osteoporosis,Osteoporosis,condition
-45772069,Secondary osteoporotic fracture,Condition,SNOMED,standard,Osteoporosis,osteoporosis,Osteoporosis,condition
-45772713,Secondary osteoporotic fracture of radius,Condition,SNOMED,standard,Osteoporosis,osteoporosis,Osteoporosis,condition
-45772718,Osteoporotic fracture of radius,Condition,SNOMED,standard,Osteoporosis,osteoporosis,Osteoporosis,condition
+cohort_name,cohort_label,cohort_domain,concept_id,include_descendants,concept_name,vocabulary_id,concept_code,review_status,phenotype_note,domain_id,standard_concept,condition
+osteoporosis,Osteoporosis,condition,77365,FALSE,Disuse osteoporosis,SNOMED,Osteoporosis,reviewed_seed,Imported from master codelists,Condition,standard,Osteoporosis
+osteoporosis,Osteoporosis,condition,80502,FALSE,Osteoporosis,SNOMED,Osteoporosis,reviewed_seed,Imported from master codelists,Condition,standard,Osteoporosis
+osteoporosis,Osteoporosis,condition,80824,FALSE,Senile osteoporosis,SNOMED,Osteoporosis,reviewed_seed,Imported from master codelists,Condition,standard,Osteoporosis
+osteoporosis,Osteoporosis,condition,81390,FALSE,Idiopathic osteoporosis,SNOMED,Osteoporosis,reviewed_seed,Imported from master codelists,Condition,standard,Osteoporosis
+osteoporosis,Osteoporosis,condition,760573,FALSE,Pathological fracture of right tibia due to osteoporosis,SNOMED,Osteoporosis,reviewed_seed,Imported from master codelists,Condition,standard,Osteoporosis
+osteoporosis,Osteoporosis,condition,760578,FALSE,Pathological fracture of left fibula due to osteoporosis,SNOMED,Osteoporosis,reviewed_seed,Imported from master codelists,Condition,standard,Osteoporosis
+osteoporosis,Osteoporosis,condition,760583,FALSE,Pathological fracture of right humerus due to osteoporosis,SNOMED,Osteoporosis,reviewed_seed,Imported from master codelists,Condition,standard,Osteoporosis
+osteoporosis,Osteoporosis,condition,760587,FALSE,Pathological fracture of right humerus due to secondary osteoporosis,SNOMED,Osteoporosis,reviewed_seed,Imported from master codelists,Condition,standard,Osteoporosis
+osteoporosis,Osteoporosis,condition,760588,FALSE,Pathological fracture of left humerus due to secondary osteoporosis,SNOMED,Osteoporosis,reviewed_seed,Imported from master codelists,Condition,standard,Osteoporosis
+osteoporosis,Osteoporosis,condition,760589,FALSE,Pathological fracture of right clavicle due to osteoporosis,SNOMED,Osteoporosis,reviewed_seed,Imported from master codelists,Condition,standard,Osteoporosis
+osteoporosis,Osteoporosis,condition,760590,FALSE,Pathological fracture of left clavicle due to osteoporosis,SNOMED,Osteoporosis,reviewed_seed,Imported from master codelists,Condition,standard,Osteoporosis
+osteoporosis,Osteoporosis,condition,760592,FALSE,Pathological fracture of right clavicle due to secondary osteoporosis,SNOMED,Osteoporosis,reviewed_seed,Imported from master codelists,Condition,standard,Osteoporosis
+osteoporosis,Osteoporosis,condition,760628,FALSE,Pathological fracture of left foot due to osteoporosis,SNOMED,Osteoporosis,reviewed_seed,Imported from master codelists,Condition,standard,Osteoporosis
+osteoporosis,Osteoporosis,condition,760633,FALSE,Pathological fracture of right foot due to secondary osteoporosis,SNOMED,Osteoporosis,reviewed_seed,Imported from master codelists,Condition,standard,Osteoporosis
+osteoporosis,Osteoporosis,condition,760634,FALSE,Pathological fracture of left foot due to secondary osteoporosis,SNOMED,Osteoporosis,reviewed_seed,Imported from master codelists,Condition,standard,Osteoporosis
+osteoporosis,Osteoporosis,condition,760636,FALSE,Pathological fracture of right femur due to osteoporosis,SNOMED,Osteoporosis,reviewed_seed,Imported from master codelists,Condition,standard,Osteoporosis
+osteoporosis,Osteoporosis,condition,760637,FALSE,Pathological fracture of left femur due to osteoporosis,SNOMED,Osteoporosis,reviewed_seed,Imported from master codelists,Condition,standard,Osteoporosis
+osteoporosis,Osteoporosis,condition,760645,FALSE,Pathological fracture of right femur due to secondary osteoporosis,SNOMED,Osteoporosis,reviewed_seed,Imported from master codelists,Condition,standard,Osteoporosis
+osteoporosis,Osteoporosis,condition,760646,FALSE,Pathological fracture of left femur due to secondary osteoporosis,SNOMED,Osteoporosis,reviewed_seed,Imported from master codelists,Condition,standard,Osteoporosis
+osteoporosis,Osteoporosis,condition,760647,FALSE,Pathological fracture of right ankle due to osteoporosis,SNOMED,Osteoporosis,reviewed_seed,Imported from master codelists,Condition,standard,Osteoporosis
+osteoporosis,Osteoporosis,condition,760651,FALSE,Pathological fracture of right hand due to osteoporosis,SNOMED,Osteoporosis,reviewed_seed,Imported from master codelists,Condition,standard,Osteoporosis
+osteoporosis,Osteoporosis,condition,760652,FALSE,Pathological fracture of left hand due to osteoporosis,SNOMED,Osteoporosis,reviewed_seed,Imported from master codelists,Condition,standard,Osteoporosis
+osteoporosis,Osteoporosis,condition,760658,FALSE,Pathological fracture of right ulna due to osteoporosis,SNOMED,Osteoporosis,reviewed_seed,Imported from master codelists,Condition,standard,Osteoporosis
+osteoporosis,Osteoporosis,condition,760659,FALSE,Pathological fracture of left radius due to osteoporosis,SNOMED,Osteoporosis,reviewed_seed,Imported from master codelists,Condition,standard,Osteoporosis
+osteoporosis,Osteoporosis,condition,760667,FALSE,Pathological fracture of left scapula due to osteoporosis,SNOMED,Osteoporosis,reviewed_seed,Imported from master codelists,Condition,standard,Osteoporosis
+osteoporosis,Osteoporosis,condition,760691,FALSE,Pathological fracture of right hip due to osteoporosis,SNOMED,Osteoporosis,reviewed_seed,Imported from master codelists,Condition,standard,Osteoporosis
+osteoporosis,Osteoporosis,condition,760692,FALSE,Pathological fracture of left hip due to osteoporosis,SNOMED,Osteoporosis,reviewed_seed,Imported from master codelists,Condition,standard,Osteoporosis
+osteoporosis,Osteoporosis,condition,760695,FALSE,Pathological fracture of proximal end of right femur due to secondary osteoporosis,SNOMED,Osteoporosis,reviewed_seed,Imported from master codelists,Condition,standard,Osteoporosis
+osteoporosis,Osteoporosis,condition,760696,FALSE,Pathological fracture of left hip due to secondary osteoporosis,SNOMED,Osteoporosis,reviewed_seed,Imported from master codelists,Condition,standard,Osteoporosis
+osteoporosis,Osteoporosis,condition,761873,FALSE,Pathological fracture of left tibia due to osteoporosis,SNOMED,Osteoporosis,reviewed_seed,Imported from master codelists,Condition,standard,Osteoporosis
+osteoporosis,Osteoporosis,condition,764378,FALSE,Pathological fracture of left ulna due to osteoporosis,SNOMED,Osteoporosis,reviewed_seed,Imported from master codelists,Condition,standard,Osteoporosis
+osteoporosis,Osteoporosis,condition,765181,FALSE,Pathological fracture of right fibula due to osteoporosis,SNOMED,Osteoporosis,reviewed_seed,Imported from master codelists,Condition,standard,Osteoporosis
+osteoporosis,Osteoporosis,condition,765188,FALSE,Pathological fracture of right foot due to osteoporosis,SNOMED,Osteoporosis,reviewed_seed,Imported from master codelists,Condition,standard,Osteoporosis
+osteoporosis,Osteoporosis,condition,765191,FALSE,Pathological fracture of left ankle due to osteoporosis,SNOMED,Osteoporosis,reviewed_seed,Imported from master codelists,Condition,standard,Osteoporosis
+osteoporosis,Osteoporosis,condition,765192,FALSE,Pathological fracture of right radius due to osteoporosis,SNOMED,Osteoporosis,reviewed_seed,Imported from master codelists,Condition,standard,Osteoporosis
+osteoporosis,Osteoporosis,condition,765893,FALSE,Pathological fracture of left humerus due to osteoporosis,SNOMED,Osteoporosis,reviewed_seed,Imported from master codelists,Condition,standard,Osteoporosis
+osteoporosis,Osteoporosis,condition,1076256,FALSE,Osteoporosis caused by ionizing radiation,SNOMED,Osteoporosis,reviewed_seed,Imported from master codelists,Condition,standard,Osteoporosis
+osteoporosis,Osteoporosis,condition,1076257,FALSE,Osteoporosis due to and following radiotherapy,SNOMED,Osteoporosis,reviewed_seed,Imported from master codelists,Condition,standard,Osteoporosis
+osteoporosis,Osteoporosis,condition,1245002,FALSE,Osteoporotic fracture due to idiopathic osteoporosis,SNOMED,Osteoporosis,reviewed_seed,Imported from master codelists,Condition,standard,Osteoporosis
+osteoporosis,Osteoporosis,condition,1245003,FALSE,Osteoporosis due to endocrine disorder,SNOMED,Osteoporosis,reviewed_seed,Imported from master codelists,Condition,standard,Osteoporosis
+osteoporosis,Osteoporosis,condition,1245004,FALSE,Osteoporosis due to chronic kidney disease,SNOMED,Osteoporosis,reviewed_seed,Imported from master codelists,Condition,standard,Osteoporosis
+osteoporosis,Osteoporosis,condition,1245005,FALSE,Osteoporotic fracture due to postmenopausal osteoporosis,SNOMED,Osteoporosis,reviewed_seed,Imported from master codelists,Condition,standard,Osteoporosis
+osteoporosis,Osteoporosis,condition,1245006,FALSE,Osteoporotic fracture due to disuse osteoporosis,SNOMED,Osteoporosis,reviewed_seed,Imported from master codelists,Condition,standard,Osteoporosis
+osteoporosis,Osteoporosis,condition,4002133,FALSE,Postoophorectomy osteoporosis,SNOMED,Osteoporosis,reviewed_seed,Imported from master codelists,Condition,standard,Osteoporosis
+osteoporosis,Osteoporosis,condition,4003479,FALSE,Post-surgical malabsorption osteoporosis,SNOMED,Osteoporosis,reviewed_seed,Imported from master codelists,Condition,standard,Osteoporosis
+osteoporosis,Osteoporosis,condition,4003481,FALSE,Vertebral osteoporosis,SNOMED,Osteoporosis,reviewed_seed,Imported from master codelists,Condition,standard,Osteoporosis
+osteoporosis,Osteoporosis,condition,4003482,FALSE,Osteoporotic fracture due to postoophorectomy osteoporosis,SNOMED,Osteoporosis,reviewed_seed,Imported from master codelists,Condition,standard,Osteoporosis
+osteoporosis,Osteoporosis,condition,4004622,FALSE,Idiopathic generalized osteoporosis,SNOMED,Osteoporosis,reviewed_seed,Imported from master codelists,Condition,standard,Osteoporosis
+osteoporosis,Osteoporosis,condition,4004623,FALSE,Localized osteoporosis - Lequesne,SNOMED,Osteoporosis,reviewed_seed,Imported from master codelists,Condition,standard,Osteoporosis
+osteoporosis,Osteoporosis,condition,4004624,FALSE,Post-surgical malabsorption osteoporosis with pathological fracture,SNOMED,Osteoporosis,reviewed_seed,Imported from master codelists,Condition,standard,Osteoporosis
+osteoporosis,Osteoporosis,condition,4010333,FALSE,Postmenopausal osteoporosis,SNOMED,Osteoporosis,reviewed_seed,Imported from master codelists,Condition,standard,Osteoporosis
+osteoporosis,Osteoporosis,condition,4031127,FALSE,Osteoporotic bone marrow defect,SNOMED,Osteoporosis,reviewed_seed,Imported from master codelists,Condition,standard,Osteoporosis
+osteoporosis,Osteoporosis,condition,4033089,FALSE,Drug-induced osteoporosis,SNOMED,Osteoporosis,reviewed_seed,Imported from master codelists,Condition,standard,Osteoporosis
+osteoporosis,Osteoporosis,condition,4049167,FALSE,Posttraumatic osteoporosis,SNOMED,Osteoporosis,reviewed_seed,Imported from master codelists,Condition,standard,Osteoporosis
+osteoporosis,Osteoporosis,condition,4067765,FALSE,Drug-induced osteoporosis with osteoporotic fracture,SNOMED,Osteoporosis,reviewed_seed,Imported from master codelists,Condition,standard,Osteoporosis
+osteoporosis,Osteoporosis,condition,4068133,FALSE,Osteoporotic fracture of thoracic vertebra,SNOMED,Osteoporosis,reviewed_seed,Imported from master codelists,Condition,standard,Osteoporosis
+osteoporosis,Osteoporosis,condition,4069524,FALSE,Osteoporotic fracture of lumbar vertebra,SNOMED,Osteoporosis,reviewed_seed,Imported from master codelists,Condition,standard,Osteoporosis
+osteoporosis,Osteoporosis,condition,4069525,FALSE,Osteoporotic fracture of cervical vertebra,SNOMED,Osteoporosis,reviewed_seed,Imported from master codelists,Condition,standard,Osteoporosis
+osteoporosis,Osteoporosis,condition,4069941,FALSE,Osteoporotic kyphosis,SNOMED,Osteoporosis,reviewed_seed,Imported from master codelists,Condition,standard,Osteoporosis
+osteoporosis,Osteoporosis,condition,4105090,FALSE,Regional osteoporosis,SNOMED,Osteoporosis,reviewed_seed,Imported from master codelists,Condition,standard,Osteoporosis
+osteoporosis,Osteoporosis,condition,4109181,FALSE,Osteoporosis with pseudoglioma,SNOMED,Osteoporosis,reviewed_seed,Imported from master codelists,Condition,standard,Osteoporosis
+osteoporosis,Osteoporosis,condition,4136988,FALSE,Menopausal osteoporosis,SNOMED,Osteoporosis,reviewed_seed,Imported from master codelists,Condition,standard,Osteoporosis
+osteoporosis,Osteoporosis,condition,4151725,FALSE,Localized disuse osteoporosis,SNOMED,Osteoporosis,reviewed_seed,Imported from master codelists,Condition,standard,Osteoporosis
+osteoporosis,Osteoporosis,condition,4160572,FALSE,Osteoporotic fracture of neck of femur,SNOMED,Osteoporosis,reviewed_seed,Imported from master codelists,Condition,standard,Osteoporosis
+osteoporosis,Osteoporosis,condition,4173335,FALSE,Primary osteoporosis,SNOMED,Osteoporosis,reviewed_seed,Imported from master codelists,Condition,standard,Osteoporosis
+osteoporosis,Osteoporosis,condition,4192181,FALSE,Dual energy X-ray absorptiometry of bone of lumbar vertebra result osteoporosis,SNOMED,Osteoporosis,reviewed_seed,Imported from master codelists,Condition,standard,Osteoporosis
+osteoporosis,Osteoporosis,condition,4193146,FALSE,Dual energy X-ray absorptiometry of bone of forearm result osteoporosis,SNOMED,Osteoporosis,reviewed_seed,Imported from master codelists,Condition,standard,Osteoporosis
+osteoporosis,Osteoporosis,condition,4193148,FALSE,Dual energy X-ray absorptiometry of calcaneum result osteoporosis,SNOMED,Osteoporosis,reviewed_seed,Imported from master codelists,Condition,standard,Osteoporosis
+osteoporosis,Osteoporosis,condition,4206888,FALSE,Osteoporotic collapse of thoracic vertebra,SNOMED,Osteoporosis,reviewed_seed,Imported from master codelists,Condition,standard,Osteoporosis
+osteoporosis,Osteoporosis,condition,4207924,FALSE,Osteoporotic collapse of cervical vertebra,SNOMED,Osteoporosis,reviewed_seed,Imported from master codelists,Condition,standard,Osteoporosis
+osteoporosis,Osteoporosis,condition,4210556,FALSE,Osteoporotic collapse of lumbar vertebra,SNOMED,Osteoporosis,reviewed_seed,Imported from master codelists,Condition,standard,Osteoporosis
+osteoporosis,Osteoporosis,condition,4257900,FALSE,Dual energy X-ray absorptiometry of neck of femur result osteoporosis,SNOMED,Osteoporosis,reviewed_seed,Imported from master codelists,Condition,standard,Osteoporosis
+osteoporosis,Osteoporosis,condition,4305731,FALSE,Osteoporosis caused by corticosteroid,SNOMED,Osteoporosis,reviewed_seed,Imported from master codelists,Condition,standard,Osteoporosis
+osteoporosis,Osteoporosis,condition,4307175,FALSE,Dual energy X-ray absorptiometry of bone of hip joint region result osteoporosis,SNOMED,Osteoporosis,reviewed_seed,Imported from master codelists,Condition,standard,Osteoporosis
+osteoporosis,Osteoporosis,condition,4344143,FALSE,Juvenile idiopathic generalized osteoporosis,SNOMED,Osteoporosis,reviewed_seed,Imported from master codelists,Condition,standard,Osteoporosis
+osteoporosis,Osteoporosis,condition,4344144,FALSE,Regional migrating osteoporosis,SNOMED,Osteoporosis,reviewed_seed,Imported from master codelists,Condition,standard,Osteoporosis
+osteoporosis,Osteoporosis,condition,4344145,FALSE,Transient osteoporosis of hip in pregnancy,SNOMED,Osteoporosis,reviewed_seed,Imported from master codelists,Condition,standard,Osteoporosis
+osteoporosis,Osteoporosis,condition,4344377,FALSE,Secondary generalized osteoporosis,SNOMED,Osteoporosis,reviewed_seed,Imported from master codelists,Condition,standard,Osteoporosis
+osteoporosis,Osteoporosis,condition,4344378,FALSE,Secondary localized osteoporosis,SNOMED,Osteoporosis,reviewed_seed,Imported from master codelists,Condition,standard,Osteoporosis
+osteoporosis,Osteoporosis,condition,4345585,FALSE,Transient osteoporosis of hip,SNOMED,Osteoporosis,reviewed_seed,Imported from master codelists,Condition,standard,Osteoporosis
+osteoporosis,Osteoporosis,condition,4347297,FALSE,Idiopathic osteoporosis in pregnancy,SNOMED,Osteoporosis,reviewed_seed,Imported from master codelists,Condition,standard,Osteoporosis
+osteoporosis,Osteoporosis,condition,4347298,FALSE,Adult idiopathic generalized osteoporosis,SNOMED,Osteoporosis,reviewed_seed,Imported from master codelists,Condition,standard,Osteoporosis
+osteoporosis,Osteoporosis,condition,4347301,FALSE,Osteoporotic vertebral collapse,SNOMED,Osteoporosis,reviewed_seed,Imported from master codelists,Condition,standard,Osteoporosis
+osteoporosis,Osteoporosis,condition,36716194,FALSE,Osteoporosis and oculocutaneous hypopigmentation syndrome,SNOMED,Osteoporosis,reviewed_seed,Imported from master codelists,Condition,standard,Osteoporosis
+osteoporosis,Osteoporosis,condition,37160387,FALSE,Lordosis deformity of spine due to osteoporosis of vertebra,SNOMED,Osteoporosis,reviewed_seed,Imported from master codelists,Condition,standard,Osteoporosis
+osteoporosis,Osteoporosis,condition,37160893,FALSE,LRP5-related primary osteoporosis,SNOMED,Osteoporosis,reviewed_seed,Imported from master codelists,Condition,standard,Osteoporosis
+osteoporosis,Osteoporosis,condition,37204244,FALSE,X-linked osteoporosis with fractures,SNOMED,Osteoporosis,reviewed_seed,Imported from master codelists,Condition,standard,Osteoporosis
+osteoporosis,Osteoporosis,condition,37204736,FALSE,Dominant hypophosphatemia with nephrolithiasis and/or osteoporosis,SNOMED,Osteoporosis,reviewed_seed,Imported from master codelists,Condition,standard,Osteoporosis
+osteoporosis,Osteoporosis,condition,37209174,FALSE,Pathological fracture of right scapula due to osteoporosis,SNOMED,Osteoporosis,reviewed_seed,Imported from master codelists,Condition,standard,Osteoporosis
+osteoporosis,Osteoporosis,condition,37209180,FALSE,Osteoporotic fracture of left rib,SNOMED,Osteoporosis,reviewed_seed,Imported from master codelists,Condition,standard,Osteoporosis
+osteoporosis,Osteoporosis,condition,37209181,FALSE,Osteoporotic fracture of right rib,SNOMED,Osteoporosis,reviewed_seed,Imported from master codelists,Condition,standard,Osteoporosis
+osteoporosis,Osteoporosis,condition,40480160,FALSE,Osteoporotic fracture,SNOMED,Osteoporosis,reviewed_seed,Imported from master codelists,Condition,standard,Osteoporosis
+osteoporosis,Osteoporosis,condition,42536670,FALSE,Premenopausal idiopathic osteoporosis,SNOMED,Osteoporosis,reviewed_seed,Imported from master codelists,Condition,standard,Osteoporosis
+osteoporosis,Osteoporosis,condition,42536671,FALSE,Osteoporosis due to malabsorption,SNOMED,Osteoporosis,reviewed_seed,Imported from master codelists,Condition,standard,Osteoporosis
+osteoporosis,Osteoporosis,condition,42538151,FALSE,Osteoporosis co-occurrent and due to multiple myeloma,SNOMED,Osteoporosis,reviewed_seed,Imported from master codelists,Condition,standard,Osteoporosis
+osteoporosis,Osteoporosis,condition,44783435,FALSE,Transient osteoporosis,SNOMED,Osteoporosis,reviewed_seed,Imported from master codelists,Condition,standard,Osteoporosis
+osteoporosis,Osteoporosis,condition,44783850,FALSE,Osteoporosis circumscripta,SNOMED,Osteoporosis,reviewed_seed,Imported from master codelists,Condition,standard,Osteoporosis
+osteoporosis,Osteoporosis,condition,45757314,FALSE,Secondary osteoporotic fracture of thoracic vertebra,SNOMED,Osteoporosis,reviewed_seed,Imported from master codelists,Condition,standard,Osteoporosis
+osteoporosis,Osteoporosis,condition,45757316,FALSE,Secondary osteoporotic fracture of lumbar vertebra,SNOMED,Osteoporosis,reviewed_seed,Imported from master codelists,Condition,standard,Osteoporosis
+osteoporosis,Osteoporosis,condition,45757318,FALSE,Secondary osteoporotic fracture of cervical vertebra,SNOMED,Osteoporosis,reviewed_seed,Imported from master codelists,Condition,standard,Osteoporosis
+osteoporosis,Osteoporosis,condition,45757320,FALSE,Osteoporotic fracture of vertebra,SNOMED,Osteoporosis,reviewed_seed,Imported from master codelists,Condition,standard,Osteoporosis
+osteoporosis,Osteoporosis,condition,45757323,FALSE,Secondary osteoporotic fracture of vertebra,SNOMED,Osteoporosis,reviewed_seed,Imported from master codelists,Condition,standard,Osteoporosis
+osteoporosis,Osteoporosis,condition,45757324,FALSE,Secondary osteoporotic fracture of sacral vertebra,SNOMED,Osteoporosis,reviewed_seed,Imported from master codelists,Condition,standard,Osteoporosis
+osteoporosis,Osteoporosis,condition,45766159,FALSE,Secondary osteoporosis,SNOMED,Osteoporosis,reviewed_seed,Imported from master codelists,Condition,standard,Osteoporosis
+osteoporosis,Osteoporosis,condition,45767001,FALSE,Secondary osteoporotic fracture of ulna,SNOMED,Osteoporosis,reviewed_seed,Imported from master codelists,Condition,standard,Osteoporosis
+osteoporosis,Osteoporosis,condition,45767002,FALSE,Secondary osteoporotic fracture of tibia,SNOMED,Osteoporosis,reviewed_seed,Imported from master codelists,Condition,standard,Osteoporosis
+osteoporosis,Osteoporosis,condition,45767003,FALSE,Secondary osteoporotic fracture of scapula,SNOMED,Osteoporosis,reviewed_seed,Imported from master codelists,Condition,standard,Osteoporosis
+osteoporosis,Osteoporosis,condition,45767004,FALSE,Secondary osteoporotic fracture of humerus,SNOMED,Osteoporosis,reviewed_seed,Imported from master codelists,Condition,standard,Osteoporosis
+osteoporosis,Osteoporosis,condition,45767005,FALSE,Secondary osteoporotic fracture of proximal femur,SNOMED,Osteoporosis,reviewed_seed,Imported from master codelists,Condition,standard,Osteoporosis
+osteoporosis,Osteoporosis,condition,45767006,FALSE,Secondary osteoporotic fracture of hand,SNOMED,Osteoporosis,reviewed_seed,Imported from master codelists,Condition,standard,Osteoporosis
+osteoporosis,Osteoporosis,condition,45767007,FALSE,Secondary osteoporotic fracture of foot,SNOMED,Osteoporosis,reviewed_seed,Imported from master codelists,Condition,standard,Osteoporosis
+osteoporosis,Osteoporosis,condition,45767008,FALSE,Secondary osteoporotic fracture of fibula,SNOMED,Osteoporosis,reviewed_seed,Imported from master codelists,Condition,standard,Osteoporosis
+osteoporosis,Osteoporosis,condition,45767009,FALSE,Secondary osteoporotic fracture of femur,SNOMED,Osteoporosis,reviewed_seed,Imported from master codelists,Condition,standard,Osteoporosis
+osteoporosis,Osteoporosis,condition,45767010,FALSE,Secondary osteoporotic fracture of clavicle,SNOMED,Osteoporosis,reviewed_seed,Imported from master codelists,Condition,standard,Osteoporosis
+osteoporosis,Osteoporosis,condition,45767011,FALSE,Secondary osteoporotic fracture of ankle,SNOMED,Osteoporosis,reviewed_seed,Imported from master codelists,Condition,standard,Osteoporosis
+osteoporosis,Osteoporosis,condition,45767036,FALSE,Osteoporotic fracture of clavicle,SNOMED,Osteoporosis,reviewed_seed,Imported from master codelists,Condition,standard,Osteoporosis
+osteoporosis,Osteoporosis,condition,45767037,FALSE,Osteoporotic fracture of femur,SNOMED,Osteoporosis,reviewed_seed,Imported from master codelists,Condition,standard,Osteoporosis
+osteoporosis,Osteoporosis,condition,45767038,FALSE,Osteoporotic fracture of fibula,SNOMED,Osteoporosis,reviewed_seed,Imported from master codelists,Condition,standard,Osteoporosis
+osteoporosis,Osteoporosis,condition,45767039,FALSE,Osteoporotic fracture of bone of foot,SNOMED,Osteoporosis,reviewed_seed,Imported from master codelists,Condition,standard,Osteoporosis
+osteoporosis,Osteoporosis,condition,45767040,FALSE,Osteoporotic fracture of hand,SNOMED,Osteoporosis,reviewed_seed,Imported from master codelists,Condition,standard,Osteoporosis
+osteoporosis,Osteoporosis,condition,45767041,FALSE,Osteoporotic fracture of proximal femur,SNOMED,Osteoporosis,reviewed_seed,Imported from master codelists,Condition,standard,Osteoporosis
+osteoporosis,Osteoporosis,condition,45767042,FALSE,Osteoporotic fracture of humerus,SNOMED,Osteoporosis,reviewed_seed,Imported from master codelists,Condition,standard,Osteoporosis
+osteoporosis,Osteoporosis,condition,45767043,FALSE,Osteoporotic fracture of scapula,SNOMED,Osteoporosis,reviewed_seed,Imported from master codelists,Condition,standard,Osteoporosis
+osteoporosis,Osteoporosis,condition,45767044,FALSE,Osteoporotic fracture of tibia,SNOMED,Osteoporosis,reviewed_seed,Imported from master codelists,Condition,standard,Osteoporosis
+osteoporosis,Osteoporosis,condition,45767045,FALSE,Osteoporotic fracture of ulna,SNOMED,Osteoporosis,reviewed_seed,Imported from master codelists,Condition,standard,Osteoporosis
+osteoporosis,Osteoporosis,condition,45768892,FALSE,Osteoporosis due to cystic fibrosis,SNOMED,Osteoporosis,reviewed_seed,Imported from master codelists,Condition,standard,Osteoporosis
+osteoporosis,Osteoporosis,condition,45771423,FALSE,Osteoporotic fracture of ankle,SNOMED,Osteoporosis,reviewed_seed,Imported from master codelists,Condition,standard,Osteoporosis
+osteoporosis,Osteoporosis,condition,45772067,FALSE,Osteoporotic fracture of sacral vertebra,SNOMED,Osteoporosis,reviewed_seed,Imported from master codelists,Condition,standard,Osteoporosis
+osteoporosis,Osteoporosis,condition,45772069,FALSE,Secondary osteoporotic fracture,SNOMED,Osteoporosis,reviewed_seed,Imported from master codelists,Condition,standard,Osteoporosis
+osteoporosis,Osteoporosis,condition,45772713,FALSE,Secondary osteoporotic fracture of radius,SNOMED,Osteoporosis,reviewed_seed,Imported from master codelists,Condition,standard,Osteoporosis
+osteoporosis,Osteoporosis,condition,45772718,FALSE,Osteoporotic fracture of radius,SNOMED,Osteoporosis,reviewed_seed,Imported from master codelists,Condition,standard,Osteoporosis

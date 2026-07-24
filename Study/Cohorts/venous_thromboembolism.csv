@@ -1,128 +1,128 @@
-concept_id,concept_name,domain_id,vocabulary_id,standard_concept,condition,cohort_name,cohort_label,cohort_domain
-77310,Deep vein phlebitis and thrombophlebitis of the leg,Condition,SNOMED,non-standard,dvt,venous_thromboembolism,Venous thromboembolism,condition
-193512,Embolism and thrombosis of the renal vein,Condition,SNOMED,standard,dvt,venous_thromboembolism,Venous thromboembolism,condition
-199837,Portal vein thrombosis,Condition,SNOMED,standard,dvt,venous_thromboembolism,Venous thromboembolism,condition
-435565,Embolism and thrombosis of the vena cava,Condition,SNOMED,standard,dvt,venous_thromboembolism,Venous thromboembolism,condition
-435887,Antepartum deep vein thrombosis,Condition,SNOMED,standard,dvt,venous_thromboembolism,Venous thromboembolism,condition
-438820,Deep venous thrombosis in puerperium,Condition,SNOMED,standard,dvt,venous_thromboembolism,Venous thromboembolism,condition
-439314,Thrombophlebitis of the femoral vein,Condition,SNOMED,standard,dvt,venous_thromboembolism,Venous thromboembolism,condition
-440738,Phlebitis of the femoral vein,Condition,SNOMED,standard,dvt,venous_thromboembolism,Venous thromboembolism,condition
-440750,Thrombophlebitis of deep veins of upper extremities,Condition,SNOMED,standard,dvt,venous_thromboembolism,Venous thromboembolism,condition
-443537,Deep venous thrombosis of lower extremity,Condition,SNOMED,standard,dvt,venous_thromboembolism,Venous thromboembolism,condition
-760875,Acute deep venous thrombosis of bilateral calves,Condition,SNOMED,standard,dvt,venous_thromboembolism,Venous thromboembolism,condition
-760876,Acute deep venous thrombosis of left calf,Condition,SNOMED,standard,dvt,venous_thromboembolism,Venous thromboembolism,condition
-760877,Acute deep venous thrombosis of right calf,Condition,SNOMED,standard,dvt,venous_thromboembolism,Venous thromboembolism,condition
-761415,Acute deep vein thrombosis of right upper limb following coronary artery bypass graft,Condition,SNOMED,standard,dvt,venous_thromboembolism,Venous thromboembolism,condition
-761416,Acute deep vein thrombosis of left upper limb following coronary artery bypass graft,Condition,SNOMED,standard,dvt,venous_thromboembolism,Venous thromboembolism,condition
-761444,Acute deep vein thrombosis of bilateral lower limbs following coronary artery bypass graft,Condition,SNOMED,standard,dvt,venous_thromboembolism,Venous thromboembolism,condition
-761808,Thrombophlebitis of deep vein of left upper limb,Condition,SNOMED,standard,dvt,venous_thromboembolism,Venous thromboembolism,condition
-761809,Thrombophlebitis of deep vein of right upper limb,Condition,SNOMED,standard,dvt,venous_thromboembolism,Venous thromboembolism,condition
-761818,Thrombophlebitis of right femoral vein,Condition,SNOMED,standard,dvt,venous_thromboembolism,Venous thromboembolism,condition
-761819,Thrombophlebitis of left femoral vein,Condition,SNOMED,standard,dvt,venous_thromboembolism,Venous thromboembolism,condition
-761820,Thrombophlebitis of right deep femoral vein,Condition,SNOMED,standard,dvt,venous_thromboembolism,Venous thromboembolism,condition
-761821,Thrombophlebitis of left deep femoral vein,Condition,SNOMED,standard,dvt,venous_thromboembolism,Venous thromboembolism,condition
-761830,Thrombophlebitis of deep vein of left lower limb,Condition,SNOMED,standard,dvt,venous_thromboembolism,Venous thromboembolism,condition
-761831,Thrombophlebitis of deep vein of bilateral lower limbs,Condition,SNOMED,standard,dvt,venous_thromboembolism,Venous thromboembolism,condition
-761832,Thrombophlebitis of deep vein of right lower limb,Condition,SNOMED,standard,dvt,venous_thromboembolism,Venous thromboembolism,condition
-761928,Deep venous thrombosis of right upper extremity,Condition,SNOMED,standard,dvt,venous_thromboembolism,Venous thromboembolism,condition
-761980,Deep venous thrombosis of left upper extremity,Condition,SNOMED,standard,dvt,venous_thromboembolism,Venous thromboembolism,condition
-762004,Acute deep venous thrombosis of both upper extremities,Condition,SNOMED,standard,dvt,venous_thromboembolism,Venous thromboembolism,condition
-762005,Acute deep venous thrombosis of right upper extremity,Condition,SNOMED,standard,dvt,venous_thromboembolism,Venous thromboembolism,condition
-762008,Acute deep venous thrombosis of bilateral axillary veins,Condition,SNOMED,standard,dvt,venous_thromboembolism,Venous thromboembolism,condition
-762009,Acute deep venous thrombosis of left axillary vein,Condition,SNOMED,standard,dvt,venous_thromboembolism,Venous thromboembolism,condition
-762010,Acute deep venous thrombosis of right axillary vein,Condition,SNOMED,standard,dvt,venous_thromboembolism,Venous thromboembolism,condition
-762013,Acute deep venous thrombosis of right femoral vein,Condition,SNOMED,standard,dvt,venous_thromboembolism,Venous thromboembolism,condition
-762015,Acute deep venous thrombosis of ileofemoral vein of left leg,Condition,SNOMED,standard,dvt,venous_thromboembolism,Venous thromboembolism,condition
-762017,Acute deep venous thrombosis of bilateral internal jugular veins,Condition,SNOMED,standard,dvt,venous_thromboembolism,Venous thromboembolism,condition
-762018,Acute deep venous thrombosis of right internal jugular vein,Condition,SNOMED,standard,dvt,venous_thromboembolism,Venous thromboembolism,condition
-762020,Acute deep venous thrombosis of bilateral popliteal veins,Condition,SNOMED,standard,dvt,venous_thromboembolism,Venous thromboembolism,condition
-762021,Acute deep venous thrombosis of popliteal vein of left leg,Condition,SNOMED,standard,dvt,venous_thromboembolism,Venous thromboembolism,condition
-762022,Acute deep venous thrombosis of popliteal vein of right leg,Condition,SNOMED,standard,dvt,venous_thromboembolism,Venous thromboembolism,condition
-762026,Acute deep venous thrombosis of tibial vein of left leg,Condition,SNOMED,standard,dvt,venous_thromboembolism,Venous thromboembolism,condition
-762047,Acute bilateral thrombosis of subclavian veins,Condition,SNOMED,standard,dvt,venous_thromboembolism,Venous thromboembolism,condition
-762048,Acute thrombosis of left subclavian vein,Condition,SNOMED,standard,dvt,venous_thromboembolism,Venous thromboembolism,condition
-762049,Acute thrombosis of right subclavian vein,Condition,SNOMED,standard,dvt,venous_thromboembolism,Venous thromboembolism,condition
-762148,Acute deep vein thrombosis of bilateral iliac veins,Condition,SNOMED,standard,dvt,venous_thromboembolism,Venous thromboembolism,condition
-762417,Acute deep venous thrombosis of bilateral legs,Condition,SNOMED,standard,dvt,venous_thromboembolism,Venous thromboembolism,condition
-762418,Acute deep venous thrombosis of left lower extremity,Condition,SNOMED,standard,dvt,venous_thromboembolism,Venous thromboembolism,condition
-762419,Acute deep venous thrombosis of right lower extremity,Condition,SNOMED,standard,dvt,venous_thromboembolism,Venous thromboembolism,condition
-763941,Deep venous thrombosis of right lower extremity,Condition,SNOMED,standard,dvt,venous_thromboembolism,Venous thromboembolism,condition
-763942,Deep venous thrombosis of left lower extremity,Condition,SNOMED,standard,dvt,venous_thromboembolism,Venous thromboembolism,condition
-764016,Acute deep venous thrombosis of upper extremity after coronary artery bypass graft,Condition,SNOMED,standard,dvt,venous_thromboembolism,Venous thromboembolism,condition
-765049,Thrombosis of left peroneal vein,Condition,SNOMED,standard,dvt,venous_thromboembolism,Venous thromboembolism,condition
-765155,Acute deep venous thrombosis of bilateral ileofemoral veins,Condition,SNOMED,standard,dvt,venous_thromboembolism,Venous thromboembolism,condition
-765156,Acute deep venous thrombosis of tibial vein of right leg,Condition,SNOMED,standard,dvt,venous_thromboembolism,Venous thromboembolism,condition
-765537,Acute deep venous thrombosis of left upper extremity,Condition,SNOMED,standard,dvt,venous_thromboembolism,Venous thromboembolism,condition
-765540,Acute deep venous thrombosis of left femoral vein,Condition,SNOMED,standard,dvt,venous_thromboembolism,Venous thromboembolism,condition
-765541,Acute deep venous thrombosis of ileofemoral vein of right lower extremity,Condition,SNOMED,standard,dvt,venous_thromboembolism,Venous thromboembolism,condition
-765546,Acute deep venous thrombosis of bilateral tibial veins,Condition,SNOMED,standard,dvt,venous_thromboembolism,Venous thromboembolism,condition
-765922,Acute deep venous thrombosis of left internal jugular vein,Condition,SNOMED,standard,dvt,venous_thromboembolism,Venous thromboembolism,condition
-3655221,Deep vein thrombosis of lower extremity due to intravenous drug use,Condition,SNOMED,standard,dvt,venous_thromboembolism,Venous thromboembolism,condition
-4028057,Deep venous thrombosis of upper extremity,Condition,SNOMED,standard,dvt,venous_thromboembolism,Venous thromboembolism,condition
-4033521,Splenic vein thrombosis,Condition,SNOMED,standard,dvt,venous_thromboembolism,Venous thromboembolism,condition
-4042396,Deep thrombophlebitis,Condition,SNOMED,standard,dvt,venous_thromboembolism,Venous thromboembolism,condition
-4046884,Deep vein thrombosis of leg related to air travel,Condition,SNOMED,standard,dvt,venous_thromboembolism,Venous thromboembolism,condition
-4055089,Superior mesenteric vein thrombosis,Condition,SNOMED,standard,dvt,venous_thromboembolism,Venous thromboembolism,condition
-4069561,Thrombophlebitis of deep femoral vein,Condition,SNOMED,standard,dvt,venous_thromboembolism,Venous thromboembolism,condition
-4096099,Phlebitis of deep veins of lower extremity,Condition,SNOMED,standard,dvt,venous_thromboembolism,Venous thromboembolism,condition
-4109877,Thrombophlebitis of the internal iliac vein,Condition,SNOMED,standard,dvt,venous_thromboembolism,Venous thromboembolism,condition
-4110339,Thrombophlebitis of the anterior tibial vein,Condition,SNOMED,standard,dvt,venous_thromboembolism,Venous thromboembolism,condition
-4110343,Thrombophlebitis of the external iliac vein,Condition,SNOMED,standard,dvt,venous_thromboembolism,Venous thromboembolism,condition
-4111861,Phlebitis of popliteal vein,Condition,SNOMED,standard,dvt,venous_thromboembolism,Venous thromboembolism,condition
-4111868,Thrombophlebitis of the common iliac vein,Condition,SNOMED,standard,dvt,venous_thromboembolism,Venous thromboembolism,condition
-4112171,Thrombophlebitis of the popliteal vein,Condition,SNOMED,standard,dvt,venous_thromboembolism,Venous thromboembolism,condition
-4112172,Thrombophlebitis of the posterior tibial vein,Condition,SNOMED,standard,dvt,venous_thromboembolism,Venous thromboembolism,condition
-4119760,Iliofemoral deep vein thrombosis,Condition,SNOMED,standard,dvt,venous_thromboembolism,Venous thromboembolism,condition
-4124856,Inferior mesenteric vein thrombosis,Condition,SNOMED,standard,dvt,venous_thromboembolism,Venous thromboembolism,condition
-4133004,Deep venous thrombosis,Condition,SNOMED,standard,dvt,venous_thromboembolism,Venous thromboembolism,condition
-4133975,Deep venous thrombosis of pelvic vein,Condition,SNOMED,standard,dvt,venous_thromboembolism,Venous thromboembolism,condition
-4149782,Thrombosis of vein of lower limb,Condition,SNOMED,standard,dvt,venous_thromboembolism,Venous thromboembolism,condition
-4153353,Traumatic thrombosis of axillary vein,Condition,SNOMED,standard,dvt,venous_thromboembolism,Venous thromboembolism,condition
-4175649,Thrombosis of the popliteal vein,Condition,SNOMED,standard,dvt,venous_thromboembolism,Venous thromboembolism,condition
-4176614,Thrombophlebitis of iliac vein,Condition,SNOMED,standard,dvt,venous_thromboembolism,Venous thromboembolism,condition
-4179911,Axillary vein thrombosis,Condition,SNOMED,standard,dvt,venous_thromboembolism,Venous thromboembolism,condition
-4181315,Deep venous thrombosis associated with coronary artery bypass graft,Condition,SNOMED,standard,dvt,venous_thromboembolism,Venous thromboembolism,condition
-4189004,Deep vein thrombosis of leg related to intravenous drug use,Condition,SNOMED,non-standard,dvt,venous_thromboembolism,Venous thromboembolism,condition
-4203836,Thrombosis of subclavian vein,Condition,SNOMED,standard,dvt,venous_thromboembolism,Venous thromboembolism,condition
-4207899,Deep venous thrombosis of tibial vein,Condition,SNOMED,standard,dvt,venous_thromboembolism,Venous thromboembolism,condition
-4221821,Thrombophlebitis of deep veins of lower extremity,Condition,SNOMED,standard,dvt,venous_thromboembolism,Venous thromboembolism,condition
-4230403,Thrombophlebitis of axillary vein,Condition,SNOMED,standard,dvt,venous_thromboembolism,Venous thromboembolism,condition
-4250765,Thrombophlebitis of tibial vein,Condition,SNOMED,standard,dvt,venous_thromboembolism,Venous thromboembolism,condition
-4281689,Phlegmasia alba dolens,Condition,SNOMED,standard,dvt,venous_thromboembolism,Venous thromboembolism,condition
-4284538,Phlegmasia cerulea dolens,Condition,SNOMED,standard,dvt,venous_thromboembolism,Venous thromboembolism,condition
-4309333,Postoperative deep vein thrombosis,Condition,SNOMED,standard,dvt,venous_thromboembolism,Venous thromboembolism,condition
-4317289,Thrombosis of mesenteric vein,Condition,SNOMED,standard,dvt,venous_thromboembolism,Venous thromboembolism,condition
-4322565,Deep venous thrombosis of profunda femoris vein,Condition,SNOMED,standard,dvt,venous_thromboembolism,Venous thromboembolism,condition
-35615030,Acute deep vein thrombosis of right upper limb following procedure,Condition,SNOMED,standard,dvt,venous_thromboembolism,Venous thromboembolism,condition
-35615031,Acute deep vein thrombosis of left upper limb following procedure,Condition,SNOMED,standard,dvt,venous_thromboembolism,Venous thromboembolism,condition
-35615034,Acute deep vein thrombosis of right lower limb following procedure,Condition,SNOMED,standard,dvt,venous_thromboembolism,Venous thromboembolism,condition
-35615035,Acute deep vein thrombosis of left lower limb following procedure,Condition,SNOMED,standard,dvt,venous_thromboembolism,Venous thromboembolism,condition
-35616027,Acute deep vein thrombosis of right iliac vein,Condition,SNOMED,standard,dvt,venous_thromboembolism,Venous thromboembolism,condition
-35616028,Acute deep vein thrombosis of left iliac vein,Condition,SNOMED,standard,dvt,venous_thromboembolism,Venous thromboembolism,condition
-36712892,Acute thrombosis of splenic vein,Condition,SNOMED,standard,dvt,venous_thromboembolism,Venous thromboembolism,condition
-37109253,Bilateral acute deep vein thrombosis of femoral veins,Condition,SNOMED,standard,dvt,venous_thromboembolism,Venous thromboembolism,condition
-40478951,Bilateral deep vein thrombosis of lower extremities,Condition,SNOMED,standard,dvt,venous_thromboembolism,Venous thromboembolism,condition
-40480555,Deep venous thrombosis of peroneal vein,Condition,SNOMED,standard,dvt,venous_thromboembolism,Venous thromboembolism,condition
-40481089,Embolism from thrombosis of vein of lower extremity,Condition,SNOMED,standard,dvt,venous_thromboembolism,Venous thromboembolism,condition
-42538533,Thrombosis of iliac vein,Condition,SNOMED,standard,dvt,venous_thromboembolism,Venous thromboembolism,condition
-43531681,Acute deep vein thrombosis of lower limb,Condition,SNOMED,standard,dvt,venous_thromboembolism,Venous thromboembolism,condition
-44782421,Acute deep venous thrombosis of upper extremity,Condition,SNOMED,standard,dvt,venous_thromboembolism,Venous thromboembolism,condition
-44782742,Acute deep venous thrombosis of calf,Condition,SNOMED,standard,dvt,venous_thromboembolism,Venous thromboembolism,condition
-44782743,Acute deep venous thrombosis of popliteal vein,Condition,SNOMED,standard,dvt,venous_thromboembolism,Venous thromboembolism,condition
-44782744,Acute deep venous thrombosis of tibial vein,Condition,SNOMED,standard,dvt,venous_thromboembolism,Venous thromboembolism,condition
-44782745,Acute deep venous thrombosis of thigh,Condition,SNOMED,standard,dvt,venous_thromboembolism,Venous thromboembolism,condition
-44782746,Acute deep venous thrombosis,Condition,SNOMED,standard,dvt,venous_thromboembolism,Venous thromboembolism,condition
-44782747,Acute deep venous thrombosis of femoral vein,Condition,SNOMED,standard,dvt,venous_thromboembolism,Venous thromboembolism,condition
-44782748,Acute deep venous thrombosis of iliofemoral vein,Condition,SNOMED,standard,dvt,venous_thromboembolism,Venous thromboembolism,condition
-44782751,Acute deep venous thrombosis of axillary vein,Condition,SNOMED,standard,dvt,venous_thromboembolism,Venous thromboembolism,condition
-44782752,Acute deep venous thrombosis of internal jugular vein,Condition,SNOMED,standard,dvt,venous_thromboembolism,Venous thromboembolism,condition
-44782762,Acute thrombosis of subclavian vein,Condition,SNOMED,standard,dvt,venous_thromboembolism,Venous thromboembolism,condition
-44782766,Acute deep venous thrombosis of upper extremity as complication of procedure,Condition,SNOMED,standard,dvt,venous_thromboembolism,Venous thromboembolism,condition
-44782767,Acute deep venous thrombosis of lower extremity as complication of procedure,Condition,SNOMED,standard,dvt,venous_thromboembolism,Venous thromboembolism,condition
-44811347,Thrombosis of internal jugular vein,Condition,SNOMED,standard,dvt,venous_thromboembolism,Venous thromboembolism,condition
-45757410,Acute thrombosis of mesenteric vein,Condition,SNOMED,standard,dvt,venous_thromboembolism,Venous thromboembolism,condition
-45773536,Deep venous thrombosis of femoropopliteal vein,Condition,SNOMED,standard,dvt,venous_thromboembolism,Venous thromboembolism,condition
-46270071,Acute deep venous thrombosis of lower limb due to and following coronary artery bypass grafting,Condition,SNOMED,standard,dvt,venous_thromboembolism,Venous thromboembolism,condition
-46271900,Recurrent deep vein thrombosis,Condition,SNOMED,standard,dvt,venous_thromboembolism,Venous thromboembolism,condition
-46285904,Unprovoked deep vein thrombosis,Condition,SNOMED,standard,dvt,venous_thromboembolism,Venous thromboembolism,condition
-46285905,Provoked deep vein thrombosis,Condition,SNOMED,standard,dvt,venous_thromboembolism,Venous thromboembolism,condition
+cohort_name,cohort_label,cohort_domain,concept_id,include_descendants,concept_name,vocabulary_id,concept_code,review_status,phenotype_note,domain_id,standard_concept,condition
+venous_thromboembolism,Venous thromboembolism,condition,77310,FALSE,Deep vein phlebitis and thrombophlebitis of the leg,SNOMED,dvt,reviewed_seed,Imported from master codelists,Condition,non-standard,dvt
+venous_thromboembolism,Venous thromboembolism,condition,193512,FALSE,Embolism and thrombosis of the renal vein,SNOMED,dvt,reviewed_seed,Imported from master codelists,Condition,standard,dvt
+venous_thromboembolism,Venous thromboembolism,condition,199837,FALSE,Portal vein thrombosis,SNOMED,dvt,reviewed_seed,Imported from master codelists,Condition,standard,dvt
+venous_thromboembolism,Venous thromboembolism,condition,435565,FALSE,Embolism and thrombosis of the vena cava,SNOMED,dvt,reviewed_seed,Imported from master codelists,Condition,standard,dvt
+venous_thromboembolism,Venous thromboembolism,condition,435887,FALSE,Antepartum deep vein thrombosis,SNOMED,dvt,reviewed_seed,Imported from master codelists,Condition,standard,dvt
+venous_thromboembolism,Venous thromboembolism,condition,438820,FALSE,Deep venous thrombosis in puerperium,SNOMED,dvt,reviewed_seed,Imported from master codelists,Condition,standard,dvt
+venous_thromboembolism,Venous thromboembolism,condition,439314,FALSE,Thrombophlebitis of the femoral vein,SNOMED,dvt,reviewed_seed,Imported from master codelists,Condition,standard,dvt
+venous_thromboembolism,Venous thromboembolism,condition,440738,FALSE,Phlebitis of the femoral vein,SNOMED,dvt,reviewed_seed,Imported from master codelists,Condition,standard,dvt
+venous_thromboembolism,Venous thromboembolism,condition,440750,FALSE,Thrombophlebitis of deep veins of upper extremities,SNOMED,dvt,reviewed_seed,Imported from master codelists,Condition,standard,dvt
+venous_thromboembolism,Venous thromboembolism,condition,443537,FALSE,Deep venous thrombosis of lower extremity,SNOMED,dvt,reviewed_seed,Imported from master codelists,Condition,standard,dvt
+venous_thromboembolism,Venous thromboembolism,condition,760875,FALSE,Acute deep venous thrombosis of bilateral calves,SNOMED,dvt,reviewed_seed,Imported from master codelists,Condition,standard,dvt
+venous_thromboembolism,Venous thromboembolism,condition,760876,FALSE,Acute deep venous thrombosis of left calf,SNOMED,dvt,reviewed_seed,Imported from master codelists,Condition,standard,dvt
+venous_thromboembolism,Venous thromboembolism,condition,760877,FALSE,Acute deep venous thrombosis of right calf,SNOMED,dvt,reviewed_seed,Imported from master codelists,Condition,standard,dvt
+venous_thromboembolism,Venous thromboembolism,condition,761415,FALSE,Acute deep vein thrombosis of right upper limb following coronary artery bypass graft,SNOMED,dvt,reviewed_seed,Imported from master codelists,Condition,standard,dvt
+venous_thromboembolism,Venous thromboembolism,condition,761416,FALSE,Acute deep vein thrombosis of left upper limb following coronary artery bypass graft,SNOMED,dvt,reviewed_seed,Imported from master codelists,Condition,standard,dvt
+venous_thromboembolism,Venous thromboembolism,condition,761444,FALSE,Acute deep vein thrombosis of bilateral lower limbs following coronary artery bypass graft,SNOMED,dvt,reviewed_seed,Imported from master codelists,Condition,standard,dvt
+venous_thromboembolism,Venous thromboembolism,condition,761808,FALSE,Thrombophlebitis of deep vein of left upper limb,SNOMED,dvt,reviewed_seed,Imported from master codelists,Condition,standard,dvt
+venous_thromboembolism,Venous thromboembolism,condition,761809,FALSE,Thrombophlebitis of deep vein of right upper limb,SNOMED,dvt,reviewed_seed,Imported from master codelists,Condition,standard,dvt
+venous_thromboembolism,Venous thromboembolism,condition,761818,FALSE,Thrombophlebitis of right femoral vein,SNOMED,dvt,reviewed_seed,Imported from master codelists,Condition,standard,dvt
+venous_thromboembolism,Venous thromboembolism,condition,761819,FALSE,Thrombophlebitis of left femoral vein,SNOMED,dvt,reviewed_seed,Imported from master codelists,Condition,standard,dvt
+venous_thromboembolism,Venous thromboembolism,condition,761820,FALSE,Thrombophlebitis of right deep femoral vein,SNOMED,dvt,reviewed_seed,Imported from master codelists,Condition,standard,dvt
+venous_thromboembolism,Venous thromboembolism,condition,761821,FALSE,Thrombophlebitis of left deep femoral vein,SNOMED,dvt,reviewed_seed,Imported from master codelists,Condition,standard,dvt
+venous_thromboembolism,Venous thromboembolism,condition,761830,FALSE,Thrombophlebitis of deep vein of left lower limb,SNOMED,dvt,reviewed_seed,Imported from master codelists,Condition,standard,dvt
+venous_thromboembolism,Venous thromboembolism,condition,761831,FALSE,Thrombophlebitis of deep vein of bilateral lower limbs,SNOMED,dvt,reviewed_seed,Imported from master codelists,Condition,standard,dvt
+venous_thromboembolism,Venous thromboembolism,condition,761832,FALSE,Thrombophlebitis of deep vein of right lower limb,SNOMED,dvt,reviewed_seed,Imported from master codelists,Condition,standard,dvt
+venous_thromboembolism,Venous thromboembolism,condition,761928,FALSE,Deep venous thrombosis of right upper extremity,SNOMED,dvt,reviewed_seed,Imported from master codelists,Condition,standard,dvt
+venous_thromboembolism,Venous thromboembolism,condition,761980,FALSE,Deep venous thrombosis of left upper extremity,SNOMED,dvt,reviewed_seed,Imported from master codelists,Condition,standard,dvt
+venous_thromboembolism,Venous thromboembolism,condition,762004,FALSE,Acute deep venous thrombosis of both upper extremities,SNOMED,dvt,reviewed_seed,Imported from master codelists,Condition,standard,dvt
+venous_thromboembolism,Venous thromboembolism,condition,762005,FALSE,Acute deep venous thrombosis of right upper extremity,SNOMED,dvt,reviewed_seed,Imported from master codelists,Condition,standard,dvt
+venous_thromboembolism,Venous thromboembolism,condition,762008,FALSE,Acute deep venous thrombosis of bilateral axillary veins,SNOMED,dvt,reviewed_seed,Imported from master codelists,Condition,standard,dvt
+venous_thromboembolism,Venous thromboembolism,condition,762009,FALSE,Acute deep venous thrombosis of left axillary vein,SNOMED,dvt,reviewed_seed,Imported from master codelists,Condition,standard,dvt
+venous_thromboembolism,Venous thromboembolism,condition,762010,FALSE,Acute deep venous thrombosis of right axillary vein,SNOMED,dvt,reviewed_seed,Imported from master codelists,Condition,standard,dvt
+venous_thromboembolism,Venous thromboembolism,condition,762013,FALSE,Acute deep venous thrombosis of right femoral vein,SNOMED,dvt,reviewed_seed,Imported from master codelists,Condition,standard,dvt
+venous_thromboembolism,Venous thromboembolism,condition,762015,FALSE,Acute deep venous thrombosis of ileofemoral vein of left leg,SNOMED,dvt,reviewed_seed,Imported from master codelists,Condition,standard,dvt
+venous_thromboembolism,Venous thromboembolism,condition,762017,FALSE,Acute deep venous thrombosis of bilateral internal jugular veins,SNOMED,dvt,reviewed_seed,Imported from master codelists,Condition,standard,dvt
+venous_thromboembolism,Venous thromboembolism,condition,762018,FALSE,Acute deep venous thrombosis of right internal jugular vein,SNOMED,dvt,reviewed_seed,Imported from master codelists,Condition,standard,dvt
+venous_thromboembolism,Venous thromboembolism,condition,762020,FALSE,Acute deep venous thrombosis of bilateral popliteal veins,SNOMED,dvt,reviewed_seed,Imported from master codelists,Condition,standard,dvt
+venous_thromboembolism,Venous thromboembolism,condition,762021,FALSE,Acute deep venous thrombosis of popliteal vein of left leg,SNOMED,dvt,reviewed_seed,Imported from master codelists,Condition,standard,dvt
+venous_thromboembolism,Venous thromboembolism,condition,762022,FALSE,Acute deep venous thrombosis of popliteal vein of right leg,SNOMED,dvt,reviewed_seed,Imported from master codelists,Condition,standard,dvt
+venous_thromboembolism,Venous thromboembolism,condition,762026,FALSE,Acute deep venous thrombosis of tibial vein of left leg,SNOMED,dvt,reviewed_seed,Imported from master codelists,Condition,standard,dvt
+venous_thromboembolism,Venous thromboembolism,condition,762047,FALSE,Acute bilateral thrombosis of subclavian veins,SNOMED,dvt,reviewed_seed,Imported from master codelists,Condition,standard,dvt
+venous_thromboembolism,Venous thromboembolism,condition,762048,FALSE,Acute thrombosis of left subclavian vein,SNOMED,dvt,reviewed_seed,Imported from master codelists,Condition,standard,dvt
+venous_thromboembolism,Venous thromboembolism,condition,762049,FALSE,Acute thrombosis of right subclavian vein,SNOMED,dvt,reviewed_seed,Imported from master codelists,Condition,standard,dvt
+venous_thromboembolism,Venous thromboembolism,condition,762148,FALSE,Acute deep vein thrombosis of bilateral iliac veins,SNOMED,dvt,reviewed_seed,Imported from master codelists,Condition,standard,dvt
+venous_thromboembolism,Venous thromboembolism,condition,762417,FALSE,Acute deep venous thrombosis of bilateral legs,SNOMED,dvt,reviewed_seed,Imported from master codelists,Condition,standard,dvt
+venous_thromboembolism,Venous thromboembolism,condition,762418,FALSE,Acute deep venous thrombosis of left lower extremity,SNOMED,dvt,reviewed_seed,Imported from master codelists,Condition,standard,dvt
+venous_thromboembolism,Venous thromboembolism,condition,762419,FALSE,Acute deep venous thrombosis of right lower extremity,SNOMED,dvt,reviewed_seed,Imported from master codelists,Condition,standard,dvt
+venous_thromboembolism,Venous thromboembolism,condition,763941,FALSE,Deep venous thrombosis of right lower extremity,SNOMED,dvt,reviewed_seed,Imported from master codelists,Condition,standard,dvt
+venous_thromboembolism,Venous thromboembolism,condition,763942,FALSE,Deep venous thrombosis of left lower extremity,SNOMED,dvt,reviewed_seed,Imported from master codelists,Condition,standard,dvt
+venous_thromboembolism,Venous thromboembolism,condition,764016,FALSE,Acute deep venous thrombosis of upper extremity after coronary artery bypass graft,SNOMED,dvt,reviewed_seed,Imported from master codelists,Condition,standard,dvt
+venous_thromboembolism,Venous thromboembolism,condition,765049,FALSE,Thrombosis of left peroneal vein,SNOMED,dvt,reviewed_seed,Imported from master codelists,Condition,standard,dvt
+venous_thromboembolism,Venous thromboembolism,condition,765155,FALSE,Acute deep venous thrombosis of bilateral ileofemoral veins,SNOMED,dvt,reviewed_seed,Imported from master codelists,Condition,standard,dvt
+venous_thromboembolism,Venous thromboembolism,condition,765156,FALSE,Acute deep venous thrombosis of tibial vein of right leg,SNOMED,dvt,reviewed_seed,Imported from master codelists,Condition,standard,dvt
+venous_thromboembolism,Venous thromboembolism,condition,765537,FALSE,Acute deep venous thrombosis of left upper extremity,SNOMED,dvt,reviewed_seed,Imported from master codelists,Condition,standard,dvt
+venous_thromboembolism,Venous thromboembolism,condition,765540,FALSE,Acute deep venous thrombosis of left femoral vein,SNOMED,dvt,reviewed_seed,Imported from master codelists,Condition,standard,dvt
+venous_thromboembolism,Venous thromboembolism,condition,765541,FALSE,Acute deep venous thrombosis of ileofemoral vein of right lower extremity,SNOMED,dvt,reviewed_seed,Imported from master codelists,Condition,standard,dvt
+venous_thromboembolism,Venous thromboembolism,condition,765546,FALSE,Acute deep venous thrombosis of bilateral tibial veins,SNOMED,dvt,reviewed_seed,Imported from master codelists,Condition,standard,dvt
+venous_thromboembolism,Venous thromboembolism,condition,765922,FALSE,Acute deep venous thrombosis of left internal jugular vein,SNOMED,dvt,reviewed_seed,Imported from master codelists,Condition,standard,dvt
+venous_thromboembolism,Venous thromboembolism,condition,3655221,FALSE,Deep vein thrombosis of lower extremity due to intravenous drug use,SNOMED,dvt,reviewed_seed,Imported from master codelists,Condition,standard,dvt
+venous_thromboembolism,Venous thromboembolism,condition,4028057,FALSE,Deep venous thrombosis of upper extremity,SNOMED,dvt,reviewed_seed,Imported from master codelists,Condition,standard,dvt
+venous_thromboembolism,Venous thromboembolism,condition,4033521,FALSE,Splenic vein thrombosis,SNOMED,dvt,reviewed_seed,Imported from master codelists,Condition,standard,dvt
+venous_thromboembolism,Venous thromboembolism,condition,4042396,FALSE,Deep thrombophlebitis,SNOMED,dvt,reviewed_seed,Imported from master codelists,Condition,standard,dvt
+venous_thromboembolism,Venous thromboembolism,condition,4046884,FALSE,Deep vein thrombosis of leg related to air travel,SNOMED,dvt,reviewed_seed,Imported from master codelists,Condition,standard,dvt
+venous_thromboembolism,Venous thromboembolism,condition,4055089,FALSE,Superior mesenteric vein thrombosis,SNOMED,dvt,reviewed_seed,Imported from master codelists,Condition,standard,dvt
+venous_thromboembolism,Venous thromboembolism,condition,4069561,FALSE,Thrombophlebitis of deep femoral vein,SNOMED,dvt,reviewed_seed,Imported from master codelists,Condition,standard,dvt
+venous_thromboembolism,Venous thromboembolism,condition,4096099,FALSE,Phlebitis of deep veins of lower extremity,SNOMED,dvt,reviewed_seed,Imported from master codelists,Condition,standard,dvt
+venous_thromboembolism,Venous thromboembolism,condition,4109877,FALSE,Thrombophlebitis of the internal iliac vein,SNOMED,dvt,reviewed_seed,Imported from master codelists,Condition,standard,dvt
+venous_thromboembolism,Venous thromboembolism,condition,4110339,FALSE,Thrombophlebitis of the anterior tibial vein,SNOMED,dvt,reviewed_seed,Imported from master codelists,Condition,standard,dvt
+venous_thromboembolism,Venous thromboembolism,condition,4110343,FALSE,Thrombophlebitis of the external iliac vein,SNOMED,dvt,reviewed_seed,Imported from master codelists,Condition,standard,dvt
+venous_thromboembolism,Venous thromboembolism,condition,4111861,FALSE,Phlebitis of popliteal vein,SNOMED,dvt,reviewed_seed,Imported from master codelists,Condition,standard,dvt
+venous_thromboembolism,Venous thromboembolism,condition,4111868,FALSE,Thrombophlebitis of the common iliac vein,SNOMED,dvt,reviewed_seed,Imported from master codelists,Condition,standard,dvt
+venous_thromboembolism,Venous thromboembolism,condition,4112171,FALSE,Thrombophlebitis of the popliteal vein,SNOMED,dvt,reviewed_seed,Imported from master codelists,Condition,standard,dvt
+venous_thromboembolism,Venous thromboembolism,condition,4112172,FALSE,Thrombophlebitis of the posterior tibial vein,SNOMED,dvt,reviewed_seed,Imported from master codelists,Condition,standard,dvt
+venous_thromboembolism,Venous thromboembolism,condition,4119760,FALSE,Iliofemoral deep vein thrombosis,SNOMED,dvt,reviewed_seed,Imported from master codelists,Condition,standard,dvt
+venous_thromboembolism,Venous thromboembolism,condition,4124856,FALSE,Inferior mesenteric vein thrombosis,SNOMED,dvt,reviewed_seed,Imported from master codelists,Condition,standard,dvt
+venous_thromboembolism,Venous thromboembolism,condition,4133004,FALSE,Deep venous thrombosis,SNOMED,dvt,reviewed_seed,Imported from master codelists,Condition,standard,dvt
+venous_thromboembolism,Venous thromboembolism,condition,4133975,FALSE,Deep venous thrombosis of pelvic vein,SNOMED,dvt,reviewed_seed,Imported from master codelists,Condition,standard,dvt
+venous_thromboembolism,Venous thromboembolism,condition,4149782,FALSE,Thrombosis of vein of lower limb,SNOMED,dvt,reviewed_seed,Imported from master codelists,Condition,standard,dvt
+venous_thromboembolism,Venous thromboembolism,condition,4153353,FALSE,Traumatic thrombosis of axillary vein,SNOMED,dvt,reviewed_seed,Imported from master codelists,Condition,standard,dvt
+venous_thromboembolism,Venous thromboembolism,condition,4175649,FALSE,Thrombosis of the popliteal vein,SNOMED,dvt,reviewed_seed,Imported from master codelists,Condition,standard,dvt
+venous_thromboembolism,Venous thromboembolism,condition,4176614,FALSE,Thrombophlebitis of iliac vein,SNOMED,dvt,reviewed_seed,Imported from master codelists,Condition,standard,dvt
+venous_thromboembolism,Venous thromboembolism,condition,4179911,FALSE,Axillary vein thrombosis,SNOMED,dvt,reviewed_seed,Imported from master codelists,Condition,standard,dvt
+venous_thromboembolism,Venous thromboembolism,condition,4181315,FALSE,Deep venous thrombosis associated with coronary artery bypass graft,SNOMED,dvt,reviewed_seed,Imported from master codelists,Condition,standard,dvt
+venous_thromboembolism,Venous thromboembolism,condition,4189004,FALSE,Deep vein thrombosis of leg related to intravenous drug use,SNOMED,dvt,reviewed_seed,Imported from master codelists,Condition,non-standard,dvt
+venous_thromboembolism,Venous thromboembolism,condition,4203836,FALSE,Thrombosis of subclavian vein,SNOMED,dvt,reviewed_seed,Imported from master codelists,Condition,standard,dvt
+venous_thromboembolism,Venous thromboembolism,condition,4207899,FALSE,Deep venous thrombosis of tibial vein,SNOMED,dvt,reviewed_seed,Imported from master codelists,Condition,standard,dvt
+venous_thromboembolism,Venous thromboembolism,condition,4221821,FALSE,Thrombophlebitis of deep veins of lower extremity,SNOMED,dvt,reviewed_seed,Imported from master codelists,Condition,standard,dvt
+venous_thromboembolism,Venous thromboembolism,condition,4230403,FALSE,Thrombophlebitis of axillary vein,SNOMED,dvt,reviewed_seed,Imported from master codelists,Condition,standard,dvt
+venous_thromboembolism,Venous thromboembolism,condition,4250765,FALSE,Thrombophlebitis of tibial vein,SNOMED,dvt,reviewed_seed,Imported from master codelists,Condition,standard,dvt
+venous_thromboembolism,Venous thromboembolism,condition,4281689,FALSE,Phlegmasia alba dolens,SNOMED,dvt,reviewed_seed,Imported from master codelists,Condition,standard,dvt
+venous_thromboembolism,Venous thromboembolism,condition,4284538,FALSE,Phlegmasia cerulea dolens,SNOMED,dvt,reviewed_seed,Imported from master codelists,Condition,standard,dvt
+venous_thromboembolism,Venous thromboembolism,condition,4309333,FALSE,Postoperative deep vein thrombosis,SNOMED,dvt,reviewed_seed,Imported from master codelists,Condition,standard,dvt
+venous_thromboembolism,Venous thromboembolism,condition,4317289,FALSE,Thrombosis of mesenteric vein,SNOMED,dvt,reviewed_seed,Imported from master codelists,Condition,standard,dvt
+venous_thromboembolism,Venous thromboembolism,condition,4322565,FALSE,Deep venous thrombosis of profunda femoris vein,SNOMED,dvt,reviewed_seed,Imported from master codelists,Condition,standard,dvt
+venous_thromboembolism,Venous thromboembolism,condition,35615030,FALSE,Acute deep vein thrombosis of right upper limb following procedure,SNOMED,dvt,reviewed_seed,Imported from master codelists,Condition,standard,dvt
+venous_thromboembolism,Venous thromboembolism,condition,35615031,FALSE,Acute deep vein thrombosis of left upper limb following procedure,SNOMED,dvt,reviewed_seed,Imported from master codelists,Condition,standard,dvt
+venous_thromboembolism,Venous thromboembolism,condition,35615034,FALSE,Acute deep vein thrombosis of right lower limb following procedure,SNOMED,dvt,reviewed_seed,Imported from master codelists,Condition,standard,dvt
+venous_thromboembolism,Venous thromboembolism,condition,35615035,FALSE,Acute deep vein thrombosis of left lower limb following procedure,SNOMED,dvt,reviewed_seed,Imported from master codelists,Condition,standard,dvt
+venous_thromboembolism,Venous thromboembolism,condition,35616027,FALSE,Acute deep vein thrombosis of right iliac vein,SNOMED,dvt,reviewed_seed,Imported from master codelists,Condition,standard,dvt
+venous_thromboembolism,Venous thromboembolism,condition,35616028,FALSE,Acute deep vein thrombosis of left iliac vein,SNOMED,dvt,reviewed_seed,Imported from master codelists,Condition,standard,dvt
+venous_thromboembolism,Venous thromboembolism,condition,36712892,FALSE,Acute thrombosis of splenic vein,SNOMED,dvt,reviewed_seed,Imported from master codelists,Condition,standard,dvt
+venous_thromboembolism,Venous thromboembolism,condition,37109253,FALSE,Bilateral acute deep vein thrombosis of femoral veins,SNOMED,dvt,reviewed_seed,Imported from master codelists,Condition,standard,dvt
+venous_thromboembolism,Venous thromboembolism,condition,40478951,FALSE,Bilateral deep vein thrombosis of lower extremities,SNOMED,dvt,reviewed_seed,Imported from master codelists,Condition,standard,dvt
+venous_thromboembolism,Venous thromboembolism,condition,40480555,FALSE,Deep venous thrombosis of peroneal vein,SNOMED,dvt,reviewed_seed,Imported from master codelists,Condition,standard,dvt
+venous_thromboembolism,Venous thromboembolism,condition,40481089,FALSE,Embolism from thrombosis of vein of lower extremity,SNOMED,dvt,reviewed_seed,Imported from master codelists,Condition,standard,dvt
+venous_thromboembolism,Venous thromboembolism,condition,42538533,FALSE,Thrombosis of iliac vein,SNOMED,dvt,reviewed_seed,Imported from master codelists,Condition,standard,dvt
+venous_thromboembolism,Venous thromboembolism,condition,43531681,FALSE,Acute deep vein thrombosis of lower limb,SNOMED,dvt,reviewed_seed,Imported from master codelists,Condition,standard,dvt
+venous_thromboembolism,Venous thromboembolism,condition,44782421,FALSE,Acute deep venous thrombosis of upper extremity,SNOMED,dvt,reviewed_seed,Imported from master codelists,Condition,standard,dvt
+venous_thromboembolism,Venous thromboembolism,condition,44782742,FALSE,Acute deep venous thrombosis of calf,SNOMED,dvt,reviewed_seed,Imported from master codelists,Condition,standard,dvt
+venous_thromboembolism,Venous thromboembolism,condition,44782743,FALSE,Acute deep venous thrombosis of popliteal vein,SNOMED,dvt,reviewed_seed,Imported from master codelists,Condition,standard,dvt
+venous_thromboembolism,Venous thromboembolism,condition,44782744,FALSE,Acute deep venous thrombosis of tibial vein,SNOMED,dvt,reviewed_seed,Imported from master codelists,Condition,standard,dvt
+venous_thromboembolism,Venous thromboembolism,condition,44782745,FALSE,Acute deep venous thrombosis of thigh,SNOMED,dvt,reviewed_seed,Imported from master codelists,Condition,standard,dvt
+venous_thromboembolism,Venous thromboembolism,condition,44782746,FALSE,Acute deep venous thrombosis,SNOMED,dvt,reviewed_seed,Imported from master codelists,Condition,standard,dvt
+venous_thromboembolism,Venous thromboembolism,condition,44782747,FALSE,Acute deep venous thrombosis of femoral vein,SNOMED,dvt,reviewed_seed,Imported from master codelists,Condition,standard,dvt
+venous_thromboembolism,Venous thromboembolism,condition,44782748,FALSE,Acute deep venous thrombosis of iliofemoral vein,SNOMED,dvt,reviewed_seed,Imported from master codelists,Condition,standard,dvt
+venous_thromboembolism,Venous thromboembolism,condition,44782751,FALSE,Acute deep venous thrombosis of axillary vein,SNOMED,dvt,reviewed_seed,Imported from master codelists,Condition,standard,dvt
+venous_thromboembolism,Venous thromboembolism,condition,44782752,FALSE,Acute deep venous thrombosis of internal jugular vein,SNOMED,dvt,reviewed_seed,Imported from master codelists,Condition,standard,dvt
+venous_thromboembolism,Venous thromboembolism,condition,44782762,FALSE,Acute thrombosis of subclavian vein,SNOMED,dvt,reviewed_seed,Imported from master codelists,Condition,standard,dvt
+venous_thromboembolism,Venous thromboembolism,condition,44782766,FALSE,Acute deep venous thrombosis of upper extremity as complication of procedure,SNOMED,dvt,reviewed_seed,Imported from master codelists,Condition,standard,dvt
+venous_thromboembolism,Venous thromboembolism,condition,44782767,FALSE,Acute deep venous thrombosis of lower extremity as complication of procedure,SNOMED,dvt,reviewed_seed,Imported from master codelists,Condition,standard,dvt
+venous_thromboembolism,Venous thromboembolism,condition,44811347,FALSE,Thrombosis of internal jugular vein,SNOMED,dvt,reviewed_seed,Imported from master codelists,Condition,standard,dvt
+venous_thromboembolism,Venous thromboembolism,condition,45757410,FALSE,Acute thrombosis of mesenteric vein,SNOMED,dvt,reviewed_seed,Imported from master codelists,Condition,standard,dvt
+venous_thromboembolism,Venous thromboembolism,condition,45773536,FALSE,Deep venous thrombosis of femoropopliteal vein,SNOMED,dvt,reviewed_seed,Imported from master codelists,Condition,standard,dvt
+venous_thromboembolism,Venous thromboembolism,condition,46270071,FALSE,Acute deep venous thrombosis of lower limb due to and following coronary artery bypass grafting,SNOMED,dvt,reviewed_seed,Imported from master codelists,Condition,standard,dvt
+venous_thromboembolism,Venous thromboembolism,condition,46271900,FALSE,Recurrent deep vein thrombosis,SNOMED,dvt,reviewed_seed,Imported from master codelists,Condition,standard,dvt
+venous_thromboembolism,Venous thromboembolism,condition,46285904,FALSE,Unprovoked deep vein thrombosis,SNOMED,dvt,reviewed_seed,Imported from master codelists,Condition,standard,dvt
+venous_thromboembolism,Venous thromboembolism,condition,46285905,FALSE,Provoked deep vein thrombosis,SNOMED,dvt,reviewed_seed,Imported from master codelists,Condition,standard,dvt

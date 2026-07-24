@@ -1,325 +1,325 @@
-concept_id,concept_name,domain_id,vocabulary_id,standard_concept,condition,cohort_name,cohort_label,cohort_domain
-432312,Chronic angle-closure glaucoma,Condition,SNOMED,standard,glaucoma,glaucoma,Glaucoma,condition
-432626,Open angle glaucoma due to vascular disorder,Condition,SNOMED,standard,glaucoma,glaucoma,Glaucoma,condition
-432908,Glaucomatocyclitic crisis,Condition,SNOMED,standard,glaucoma,glaucoma,Glaucoma,condition
-433473,Steroid-induced glaucoma glaucomatous stage,Condition,SNOMED,standard,glaucoma,glaucoma,Glaucoma,condition
-433767,Glaucoma of childhood,Condition,SNOMED,standard,glaucoma,glaucoma,Glaucoma,condition
-433768,Glaucoma with increased episcleral venous pressure,Condition,SNOMED,standard,glaucoma,glaucoma,Glaucoma,condition
-434030,Phacogenic glaucoma,Condition,SNOMED,standard,glaucoma,glaucoma,Glaucoma,condition
-434928,Glaucoma due to iris anomaly,Condition,SNOMED,standard,glaucoma,glaucoma,Glaucoma,condition
-435262,Primary open angle glaucoma,Condition,SNOMED,standard,glaucoma,glaucoma,Glaucoma,condition
-435543,Primary angle-closure glaucoma,Condition,SNOMED,standard,glaucoma,glaucoma,Glaucoma,condition
-436108,Acute angle-closure glaucoma,Condition,SNOMED,standard,glaucoma,glaucoma,Glaucoma,condition
-436398,Glaucoma associated with ocular disorder,Condition,SNOMED,standard,glaucoma,glaucoma,Glaucoma,condition
-436687,Glaucoma due to anterior segment anomaly,Condition,SNOMED,standard,glaucoma,glaucoma,Glaucoma,condition
-436975,Pigmentary glaucoma,Condition,SNOMED,standard,glaucoma,glaucoma,Glaucoma,condition
-437269,Intermittent angle-closure glaucoma,Condition,SNOMED,standard,glaucoma,glaucoma,Glaucoma,condition
-437273,Pseudoexfoliation glaucoma,Condition,SNOMED,standard,glaucoma,glaucoma,Glaucoma,condition
-437276,Glaucoma due to congenital chamber angle anomaly,Condition,SNOMED,standard,glaucoma,glaucoma,Glaucoma,condition
-437541,Glaucoma,Condition,SNOMED,standard,glaucoma,glaucoma,Glaucoma,condition
-437553,Hypersecretion glaucoma,Condition,SNOMED,standard,glaucoma,glaucoma,Glaucoma,condition
-437851,Open angle with borderline intraocular pressure,Condition,SNOMED,standard,glaucoma,glaucoma,Glaucoma,condition
-438151,Glaucoma associated with tumors AND/OR cysts,Condition,SNOMED,standard,glaucoma,glaucoma,Glaucoma,condition
-438155,Glaucomatous atrophy of optic disc,Condition,SNOMED,standard,glaucoma,glaucoma,Glaucoma,condition
-440105,Aqueous humor misdirect,Condition,SNOMED,standard,glaucoma,glaucoma,Glaucoma,condition
-440396,Glaucoma due to ocular trauma,Condition,SNOMED,standard,glaucoma,glaucoma,Glaucoma,condition
-441005,Secondary angle-closure glaucoma with pupillary block,Condition,SNOMED,standard,glaucoma,glaucoma,Glaucoma,condition
-441284,Open-angle glaucoma,Condition,SNOMED,standard,glaucoma,glaucoma,Glaucoma,condition
-441556,Phacolytic glaucoma,Condition,SNOMED,standard,glaucoma,glaucoma,Glaucoma,condition
-441561,Low tension glaucoma,Condition,SNOMED,standard,glaucoma,glaucoma,Glaucoma,condition
-601091,Intermittent angle-closure glaucoma of left eye,Condition,SNOMED,standard,glaucoma,glaucoma,Glaucoma,condition
-601101,Bilateral intermittent angle-closure glaucoma,Condition,SNOMED,standard,glaucoma,glaucoma,Glaucoma,condition
-601978,Bilateral glaucoma of eyes due to increased episcleral venous pressure,Condition,SNOMED,standard,glaucoma,glaucoma,Glaucoma,condition
-601979,Glaucoma of left eye due to increased episcleral venous pressure,Condition,SNOMED,standard,glaucoma,glaucoma,Glaucoma,condition
-601980,Glaucoma of right eye due to increased episcleral venous pressure,Condition,SNOMED,standard,glaucoma,glaucoma,Glaucoma,condition
-604462,Bilateral primary congenital glaucoma,Condition,SNOMED,standard,glaucoma,glaucoma,Glaucoma,condition
-604631,Glaucoma due to Lowe syndrome,Condition,SNOMED,standard,glaucoma,glaucoma,Glaucoma,condition
-604634,Glaucoma due to congenital anomaly of eye,Condition,SNOMED,standard,glaucoma,glaucoma,Glaucoma,condition
-604674,Angle closure glaucoma suspect,Condition,SNOMED,standard,glaucoma,glaucoma,Glaucoma,condition
-604675,Angle closure glaucoma suspect of right eye,Condition,SNOMED,standard,glaucoma,glaucoma,Glaucoma,condition
-604676,Angle closure glaucoma suspect of left eye,Condition,SNOMED,standard,glaucoma,glaucoma,Glaucoma,condition
-604677,Angle closure glaucoma suspect of bilateral eyes,Condition,SNOMED,standard,glaucoma,glaucoma,Glaucoma,condition
-604700,Glaucoma suspect caused by corticosteroid,Condition,SNOMED,standard,glaucoma,glaucoma,Glaucoma,condition
-604703,Glaucoma suspect of right eye caused by corticosteroid,Condition,SNOMED,standard,glaucoma,glaucoma,Glaucoma,condition
-604704,Glaucoma suspect of left eye caused by corticosteroid,Condition,SNOMED,standard,glaucoma,glaucoma,Glaucoma,condition
-604705,Glaucoma suspect of bilateral eyes caused by corticosteroid,Condition,SNOMED,standard,glaucoma,glaucoma,Glaucoma,condition
-604741,Glaucoma suspect due to diabetes mellitus type 2,Condition,SNOMED,standard,glaucoma,glaucoma,Glaucoma,condition
-604749,Open angle glaucoma suspect,Condition,SNOMED,standard,glaucoma,glaucoma,Glaucoma,condition
-604750,Open angle glaucoma suspect of left eye,Condition,SNOMED,standard,glaucoma,glaucoma,Glaucoma,condition
-604751,Open angle glaucoma suspect of right eye,Condition,SNOMED,standard,glaucoma,glaucoma,Glaucoma,condition
-604752,Open angle glaucoma suspect of bilateral eyes,Condition,SNOMED,standard,glaucoma,glaucoma,Glaucoma,condition
-604779,Congenital glaucoma of left eye,Condition,SNOMED,standard,glaucoma,glaucoma,Glaucoma,condition
-605737,Secondary angle-closure glaucoma due to iridocorneal endothelial syndrome,Condition,SNOMED,standard,glaucoma,glaucoma,Glaucoma,condition
-608989,Bilateral glaucoma of eyes due to plateau iris,Condition,SNOMED,standard,glaucoma,glaucoma,Glaucoma,condition
-609292,Intermittent angle-closure glaucoma of right eye,Condition,SNOMED,standard,glaucoma,glaucoma,Glaucoma,condition
-619263,Secondary childhood glaucoma following congenital cataract surgery,Condition,SNOMED,standard,glaucoma,glaucoma,Glaucoma,condition
-760888,Bilateral open-angle glaucoma,Condition,SNOMED,standard,glaucoma,glaucoma,Glaucoma,condition
-761286,Congenital glaucoma of bilateral eyes,Condition,SNOMED,standard,glaucoma,glaucoma,Glaucoma,condition
-761580,Narrow-angle glaucoma of right eye,Condition,SNOMED,standard,glaucoma,glaucoma,Glaucoma,condition
-761609,Glaucoma of bilateral eyes due to combination of mechanisms,Condition,SNOMED,standard,glaucoma,glaucoma,Glaucoma,condition
-761610,Glaucoma of left eye due to combination of mechanisms,Condition,SNOMED,standard,glaucoma,glaucoma,Glaucoma,condition
-761611,Glaucoma of bilateral eyes due to congenital anomaly of iris,Condition,SNOMED,standard,glaucoma,glaucoma,Glaucoma,condition
-761612,Glaucoma of bilateral eyes due to anterior segment anomaly,Condition,SNOMED,standard,glaucoma,glaucoma,Glaucoma,condition
-761613,Glaucoma of right eye due to anterior segment anomaly,Condition,SNOMED,standard,glaucoma,glaucoma,Glaucoma,condition
-761614,Glaucoma of left eye due to anterior segment anomaly,Condition,SNOMED,standard,glaucoma,glaucoma,Glaucoma,condition
-761621,Glaucoma of right eye due to trauma,Condition,SNOMED,standard,glaucoma,glaucoma,Glaucoma,condition
-761622,Glaucoma of right eye due to lens disorder,Condition,SNOMED,standard,glaucoma,glaucoma,Glaucoma,condition
-761623,Glaucoma of left eye due to lens disorder,Condition,SNOMED,standard,glaucoma,glaucoma,Glaucoma,condition
-765005,Glaucoma caused by Onchocerca volvulus,Condition,SNOMED,standard,glaucoma,glaucoma,Glaucoma,condition
-765051,Glaucoma of right eye,Condition,SNOMED,standard,glaucoma,glaucoma,Glaucoma,condition
-765244,Glaucoma of right eye due to combination of mechanisms,Condition,SNOMED,standard,glaucoma,glaucoma,Glaucoma,condition
-765245,Glaucoma of left eye due to trauma,Condition,SNOMED,standard,glaucoma,glaucoma,Glaucoma,condition
-765264,Glaucoma of left eye,Condition,SNOMED,standard,glaucoma,glaucoma,Glaucoma,condition
-765533,Glaucoma due to diabetes mellitus type 1,Condition,SNOMED,standard,glaucoma,glaucoma,Glaucoma,condition
-765904,Bilateral primary open angle glaucoma,Condition,SNOMED,standard,glaucoma,glaucoma,Glaucoma,condition
-1075252,Open angle glaucoma of right eye due to ocular vascular disorder,Condition,SNOMED,standard,glaucoma,glaucoma,Glaucoma,condition
-1075253,Open angle glaucoma of left eye due to ocular vascular disorder,Condition,SNOMED,standard,glaucoma,glaucoma,Glaucoma,condition
-1075254,Bilateral open angle glaucoma due to ocular vascular disorder,Condition,SNOMED,standard,glaucoma,glaucoma,Glaucoma,condition
-1075255,Bilateral open angle glaucoma due to vascular disorder,Condition,SNOMED,standard,glaucoma,glaucoma,Glaucoma,condition
-1075256,Open angle glaucoma of left eye due to vascular disorder,Condition,SNOMED,standard,glaucoma,glaucoma,Glaucoma,condition
-1075257,Open angle glaucoma of right eye due to vascular disorder,Condition,SNOMED,standard,glaucoma,glaucoma,Glaucoma,condition
-1075313,Glaucoma of left eye due to intraocular neoplasm,Condition,SNOMED,standard,glaucoma,glaucoma,Glaucoma,condition
-1075314,Glaucoma of right eye caused by silicone oil,Condition,SNOMED,standard,glaucoma,glaucoma,Glaucoma,condition
-1075316,Bilateral glaucoma due to intraocular neoplasm,Condition,SNOMED,standard,glaucoma,glaucoma,Glaucoma,condition
-1075318,Glaucoma of right eye due to intraocular neoplasm,Condition,SNOMED,standard,glaucoma,glaucoma,Glaucoma,condition
-1075319,Glaucoma of left eye caused by silicone oil,Condition,SNOMED,standard,glaucoma,glaucoma,Glaucoma,condition
-1075320,Bilateral glaucoma caused by silicone oil,Condition,SNOMED,standard,glaucoma,glaucoma,Glaucoma,condition
-1075342,Dislodgement of tube of right eye due to and following glaucoma drainage surgery,Condition,SNOMED,standard,glaucoma,glaucoma,Glaucoma,condition
-1075343,Dislodgement of tube of left eye due to and following glaucoma drainage surgery,Condition,SNOMED,standard,glaucoma,glaucoma,Glaucoma,condition
-1075344,Bilateral dislodgement of tube of eyes due to and following glaucoma surgery,Condition,SNOMED,standard,glaucoma,glaucoma,Glaucoma,condition
-1075382,Glaucoma of left eye due to systemic syndrome,Condition,SNOMED,standard,glaucoma,glaucoma,Glaucoma,condition
-1075383,Glaucoma of right eye due to systemic syndrome,Condition,SNOMED,standard,glaucoma,glaucoma,Glaucoma,condition
-1075384,Bilateral glaucoma due to systemic syndrome,Condition,SNOMED,standard,glaucoma,glaucoma,Glaucoma,condition
-1075385,Glaucoma of right eye due to retinal detachment,Condition,SNOMED,standard,glaucoma,glaucoma,Glaucoma,condition
-1075386,Glaucoma of left eye due to retinal detachment,Condition,SNOMED,standard,glaucoma,glaucoma,Glaucoma,condition
-1075387,Bilateral glaucoma due to retinal detachment,Condition,SNOMED,standard,glaucoma,glaucoma,Glaucoma,condition
-1075404,Secondary open-angle glaucoma of right eye,Condition,SNOMED,standard,glaucoma,glaucoma,Glaucoma,condition
-1075405,Secondary open-angle glaucoma of left eye,Condition,SNOMED,standard,glaucoma,glaucoma,Glaucoma,condition
-1075406,Bilateral secondary open-angle glaucoma,Condition,SNOMED,standard,glaucoma,glaucoma,Glaucoma,condition
-1075411,Dislodgement of plate of left eye due to and following glaucoma drainage surgery,Condition,SNOMED,standard,glaucoma,glaucoma,Glaucoma,condition
-1075412,Dislodgement of plate of right eye due to and following glaucoma drainage surgery,Condition,SNOMED,standard,glaucoma,glaucoma,Glaucoma,condition
-1075413,Bilateral dislodgement of plates of eyes due to and following glaucoma drainage surgery,Condition,SNOMED,standard,glaucoma,glaucoma,Glaucoma,condition
-1075414,Conjunctival blebitis of left eye following glaucoma surgery,Condition,SNOMED,standard,glaucoma,glaucoma,Glaucoma,condition
-1075415,Conjunctival blebitis of right eye following glaucoma surgery,Condition,SNOMED,standard,glaucoma,glaucoma,Glaucoma,condition
-1075416,Bilateral conjunctival blebitis following glaucoma surgery,Condition,SNOMED,standard,glaucoma,glaucoma,Glaucoma,condition
-1075423,Open angle glaucoma of left eye due to ocular trauma,Condition,SNOMED,standard,glaucoma,glaucoma,Glaucoma,condition
-1075424,Open angle glaucoma of right eye due to ocular trauma,Condition,SNOMED,standard,glaucoma,glaucoma,Glaucoma,condition
-1075425,Bilateral open angle glaucoma due to ocular trauma,Condition,SNOMED,standard,glaucoma,glaucoma,Glaucoma,condition
-1075426,Postoperative angle closure glaucoma of left eye,Condition,SNOMED,standard,glaucoma,glaucoma,Glaucoma,condition
-1075427,Bilateral postoperative angle closure glaucoma,Condition,SNOMED,standard,glaucoma,glaucoma,Glaucoma,condition
-1075428,Postoperative angle closure glaucoma of right eye,Condition,SNOMED,standard,glaucoma,glaucoma,Glaucoma,condition
-1075429,Bilateral open angle glaucoma due to neovascularization,Condition,SNOMED,standard,glaucoma,glaucoma,Glaucoma,condition
-1075430,Open angle glaucoma of left eye due to neovascularization,Condition,SNOMED,standard,glaucoma,glaucoma,Glaucoma,condition
-1075431,Open angle glaucoma of right eye due to neovascularization,Condition,SNOMED,standard,glaucoma,glaucoma,Glaucoma,condition
-1075475,Bilateral glaucoma,Condition,SNOMED,standard,glaucoma,glaucoma,Glaucoma,condition
-1075477,Uveitis-glaucoma-hyphema syndrome of right eye,Condition,SNOMED,standard,glaucoma,glaucoma,Glaucoma,condition
-1075478,Uveitis-glaucoma-hyphema syndrome of left eye,Condition,SNOMED,standard,glaucoma,glaucoma,Glaucoma,condition
-1075479,Secondary angle-closure glaucoma of right eye due to iridocorneal endothelial syndrome,Condition,SNOMED,standard,glaucoma,glaucoma,Glaucoma,condition
-1075480,Secondary angle-closure glaucoma of left eye due to iridocorneal endothelial syndrome,Condition,SNOMED,standard,glaucoma,glaucoma,Glaucoma,condition
-1075481,Bilateral secondary angle-closure glaucoma due to iridocorneal endothelial syndrome,Condition,SNOMED,standard,glaucoma,glaucoma,Glaucoma,condition
-1075489,Bilateral hemolytic glaucoma,Condition,SNOMED,standard,glaucoma,glaucoma,Glaucoma,condition
-1075491,Hemolytic glaucoma of left eye,Condition,SNOMED,standard,glaucoma,glaucoma,Glaucoma,condition
-1075492,Hemolytic glaucoma of right eye,Condition,SNOMED,standard,glaucoma,glaucoma,Glaucoma,condition
-1075501,Primary open angle glaucoma of left eye,Condition,SNOMED,standard,glaucoma,glaucoma,Glaucoma,condition
-1075502,Primary open angle glaucoma of right eye,Condition,SNOMED,standard,glaucoma,glaucoma,Glaucoma,condition
-1075503,Primary open angle glaucoma of bilateral eyes,Condition,SNOMED,standard,glaucoma,glaucoma,Glaucoma,condition
-1075509,Angle closure glaucoma of right eye,Condition,SNOMED,standard,glaucoma,glaucoma,Glaucoma,condition
-1075510,Angle closure glaucoma of left eye,Condition,SNOMED,standard,glaucoma,glaucoma,Glaucoma,condition
-1075537,Angle closure glaucoma of right eye due to peripheral anterior synechiae,Condition,SNOMED,standard,glaucoma,glaucoma,Glaucoma,condition
-1075538,Angle closure glaucoma of left eye due to peripheral anterior synechiae,Condition,SNOMED,standard,glaucoma,glaucoma,Glaucoma,condition
-1075539,Bilateral angle closure glaucoma due to peripheral anterior synechiae,Condition,SNOMED,standard,glaucoma,glaucoma,Glaucoma,condition
-1075540,Secondary angle-closure glaucoma of right eye,Condition,SNOMED,standard,glaucoma,glaucoma,Glaucoma,condition
-1075541,Secondary angle closure glaucoma of left eye,Condition,SNOMED,standard,glaucoma,glaucoma,Glaucoma,condition
-1075542,Bilateral secondary angle closure glaucoma,Condition,SNOMED,standard,glaucoma,glaucoma,Glaucoma,condition
-1075644,Angle recession glaucoma of right eye,Condition,SNOMED,standard,glaucoma,glaucoma,Glaucoma,condition
-1075656,Ghost cell glaucoma of right eye,Condition,SNOMED,standard,glaucoma,glaucoma,Glaucoma,condition
-1075658,Bilateral ghost cell glaucoma,Condition,SNOMED,standard,glaucoma,glaucoma,Glaucoma,condition
-1075659,Ghost cell glaucoma of left eye,Condition,SNOMED,standard,glaucoma,glaucoma,Glaucoma,condition
-1075670,Phacomorphic glaucoma of left eye,Condition,SNOMED,standard,glaucoma,glaucoma,Glaucoma,condition
-1075674,Lens particle glaucoma of right eye,Condition,SNOMED,standard,glaucoma,glaucoma,Glaucoma,condition
-1075675,Lens particle glaucoma of left eye,Condition,SNOMED,standard,glaucoma,glaucoma,Glaucoma,condition
-1075676,Bilateral lens particle glaucoma,Condition,SNOMED,standard,glaucoma,glaucoma,Glaucoma,condition
-1075678,Bilateral phacomorphic angle closure glaucoma,Condition,SNOMED,standard,glaucoma,glaucoma,Glaucoma,condition
-1075679,Phacomorphic glaucoma of right eye,Condition,SNOMED,standard,glaucoma,glaucoma,Glaucoma,condition
-1075680,Glaucoma of right eye due to congenital chamber angle anomaly,Condition,SNOMED,standard,glaucoma,glaucoma,Glaucoma,condition
-1075684,Glaucoma of left eye due to congenital chamber angle anomaly,Condition,SNOMED,standard,glaucoma,glaucoma,Glaucoma,condition
-1075686,Bilateral glaucoma due to congenital chamber angle anomaly,Condition,SNOMED,standard,glaucoma,glaucoma,Glaucoma,condition
-1075704,Angle recession glaucoma of left eye,Condition,SNOMED,standard,glaucoma,glaucoma,Glaucoma,condition
-1075705,Bilateral angle recession glaucoma,Condition,SNOMED,standard,glaucoma,glaucoma,Glaucoma,condition
-1075706,Glaucoma suspect of right eye,Condition,SNOMED,standard,glaucoma,glaucoma,Glaucoma,condition
-1075707,Glaucoma suspect of left eye,Condition,SNOMED,standard,glaucoma,glaucoma,Glaucoma,condition
-1075708,Bilateral glaucoma suspect,Condition,SNOMED,standard,glaucoma,glaucoma,Glaucoma,condition
-1075709,Glaucoma of left eye with intraocular hemorrhage,Condition,SNOMED,standard,glaucoma,glaucoma,Glaucoma,condition
-1075710,Glaucoma of right eye with intraocular hemorrhage,Condition,SNOMED,standard,glaucoma,glaucoma,Glaucoma,condition
-1075711,Bilateral glaucoma with intraocular hemorrhage,Condition,SNOMED,standard,glaucoma,glaucoma,Glaucoma,condition
-1075712,Bilateral open angle glaucoma,Condition,SNOMED,standard,glaucoma,glaucoma,Glaucoma,condition
-1075713,Secondary open angle glaucoma of right eye due to ocular surgery,Condition,SNOMED,standard,glaucoma,glaucoma,Glaucoma,condition
-1075714,Secondary open angle glaucoma of left eye due to ocular surgery,Condition,SNOMED,standard,glaucoma,glaucoma,Glaucoma,condition
-1075715,Bilateral secondary open angle glaucoma due to ocular surgery,Condition,SNOMED,standard,glaucoma,glaucoma,Glaucoma,condition
-1075716,Normal pressure primary open-angle glaucoma of left eye,Condition,SNOMED,standard,glaucoma,glaucoma,Glaucoma,condition
-1075717,Normal pressure primary open-angle glaucoma of right eye,Condition,SNOMED,standard,glaucoma,glaucoma,Glaucoma,condition
-1075718,Normal pressure primary open-angle glaucoma of bilateral eyes,Condition,SNOMED,standard,glaucoma,glaucoma,Glaucoma,condition
-1075723,Neovascular angle closure glaucoma of right eye,Condition,SNOMED,standard,glaucoma,glaucoma,Glaucoma,condition
-1075724,Neovascular angle closure glaucoma of left eye,Condition,SNOMED,standard,glaucoma,glaucoma,Glaucoma,condition
-1075725,Bilateral neovascular angle closure glaucoma,Condition,SNOMED,standard,glaucoma,glaucoma,Glaucoma,condition
-1075828,Glaucoma due to perforating injury of left eye,Condition,SNOMED,standard,glaucoma,glaucoma,Glaucoma,condition
-1075829,Glaucoma due to perforating injury of right eye,Condition,SNOMED,standard,glaucoma,glaucoma,Glaucoma,condition
-1075830,Bilateral glaucoma due to perforating injury,Condition,SNOMED,standard,glaucoma,glaucoma,Glaucoma,condition
-1076154,Glaucoma due to cyst of iris,Condition,SNOMED,standard,glaucoma,glaucoma,Glaucoma,condition
-1076155,Glaucoma due to cyst of ciliary body,Condition,SNOMED,standard,glaucoma,glaucoma,Glaucoma,condition
-1076159,Glaucoma due to cyst of ciliary body of right eye,Condition,SNOMED,standard,glaucoma,glaucoma,Glaucoma,condition
-1076160,Glaucoma due to cyst of ciliary body of left eye,Condition,SNOMED,standard,glaucoma,glaucoma,Glaucoma,condition
-1076161,Bilateral glaucoma due to cyst of ciliary body,Condition,SNOMED,standard,glaucoma,glaucoma,Glaucoma,condition
-1076169,Glaucoma due to cyst of iris of left eye,Condition,SNOMED,standard,glaucoma,glaucoma,Glaucoma,condition
-1076170,Glaucoma due to cyst of iris of right eye,Condition,SNOMED,standard,glaucoma,glaucoma,Glaucoma,condition
-1076171,Bilateral glaucoma due to cyst of iris,Condition,SNOMED,standard,glaucoma,glaucoma,Glaucoma,condition
-1076177,Glaucoma due to cyst of right eye proper,Condition,SNOMED,standard,glaucoma,glaucoma,Glaucoma,condition
-1076178,Glaucoma due to cyst of left eye proper,Condition,SNOMED,standard,glaucoma,glaucoma,Glaucoma,condition
-1076179,Bilateral glaucoma due to cyst of eye,Condition,SNOMED,standard,glaucoma,glaucoma,Glaucoma,condition
-1076186,Glaucoma due to plateau iris,Condition,SNOMED,standard,glaucoma,glaucoma,Glaucoma,condition
-1245138,Glaucomatocyclitic crisis of left eye,Condition,SNOMED,standard,glaucoma,glaucoma,Glaucoma,condition
-1245139,Glaucomatocyclitic crisis of right eye,Condition,SNOMED,standard,glaucoma,glaucoma,Glaucoma,condition
-1245140,Bilateral glaucomatocyclitic crisis,Condition,SNOMED,standard,glaucoma,glaucoma,Glaucoma,condition
-1245417,Primary angle closure glaucoma of right eye,Condition,SNOMED,standard,glaucoma,glaucoma,Glaucoma,condition
-1245418,Primary angle closure glaucoma of left eye,Condition,SNOMED,standard,glaucoma,glaucoma,Glaucoma,condition
-1245419,Bilateral primary angle closure glaucoma,Condition,SNOMED,standard,glaucoma,glaucoma,Glaucoma,condition
-1245653,Glaucoma of left eye due to congenital anomaly of iris,Condition,SNOMED,standard,glaucoma,glaucoma,Glaucoma,condition
-1245654,Glaucoma of right eye due to congenital anomaly of iris,Condition,SNOMED,standard,glaucoma,glaucoma,Glaucoma,condition
-1245751,Glaucoma of left eye due to plateau iris,Condition,SNOMED,standard,glaucoma,glaucoma,Glaucoma,condition
-1245752,Glaucoma of right eye due to plateau iris,Condition,SNOMED,standard,glaucoma,glaucoma,Glaucoma,condition
-1246274,Atrophy of optic disc of right eye due to glaucoma,Condition,SNOMED,standard,glaucoma,glaucoma,Glaucoma,condition
-1246312,Atrophy of optic disc of left eye due to glaucoma,Condition,SNOMED,standard,glaucoma,glaucoma,Glaucoma,condition
-1246349,Phacolytic glaucoma of bilateral eyes,Condition,SNOMED,standard,glaucoma,glaucoma,Glaucoma,condition
-1246372,Atrophy of optic disc of bilateral eyes due to glaucoma,Condition,SNOMED,standard,glaucoma,glaucoma,Glaucoma,condition
-1340339,Exacerbation of glaucoma,Condition,OMOP Extension,standard,glaucoma,glaucoma,Glaucoma,condition
-3655269,Glaucoma due to diabetes mellitus,Condition,SNOMED,standard,glaucoma,glaucoma,Glaucoma,condition
-3656879,Phacolytic glaucoma of right eye,Condition,SNOMED,standard,glaucoma,glaucoma,Glaucoma,condition
-3656963,Phacolytic glaucoma of left eye,Condition,SNOMED,standard,glaucoma,glaucoma,Glaucoma,condition
-3657116,Aqueous humor misdirection of left eye,Condition,SNOMED,standard,glaucoma,glaucoma,Glaucoma,condition
-3657117,Aqueous humor misdirection of right eye,Condition,SNOMED,standard,glaucoma,glaucoma,Glaucoma,condition
-3662317,Congenital glaucoma of right eye,Condition,SNOMED,standard,glaucoma,glaucoma,Glaucoma,condition
-3662326,Bilateral uveitis-glaucoma-hyphema syndrome of eyes,Condition,SNOMED,standard,glaucoma,glaucoma,Glaucoma,condition
-3663197,Glaucoma suspect,Condition,SNOMED,standard,glaucoma,glaucoma,Glaucoma,condition
-4008573,Advanced open-angle glaucoma,Condition,SNOMED,standard,glaucoma,glaucoma,Glaucoma,condition
-4035651,Aphakic glaucoma,Condition,SNOMED,standard,glaucoma,glaucoma,Glaucoma,condition
-4041191,Corticosteroid-induced open angle glaucoma,Condition,SNOMED,standard,glaucoma,glaucoma,Glaucoma,condition
-4065195,Secondary angle-closure glaucoma,Condition,SNOMED,standard,glaucoma,glaucoma,Glaucoma,condition
-4071600,Traumatic glaucoma due to birth trauma,Condition,SNOMED,standard,glaucoma,glaucoma,Glaucoma,condition
-4072218,Secondary open-angle glaucoma,Condition,SNOMED,standard,glaucoma,glaucoma,Glaucoma,condition
-4078543,Absolute glaucoma,Condition,SNOMED,standard,glaucoma,glaucoma,Glaucoma,condition
-4102186,"Glaucoma in endocrine, nutritional and metabolic diseases",Condition,SNOMED,standard,glaucoma,glaucoma,Glaucoma,condition
-4104232,Open angle glaucoma due to ocular vascular disorder,Condition,SNOMED,standard,glaucoma,glaucoma,Glaucoma,condition
-4108979,Glaucoma due to systemic syndrome,Condition,SNOMED,standard,glaucoma,glaucoma,Glaucoma,condition
-4152558,Secondary angle-closure glaucoma - synechial,Condition,SNOMED,standard,glaucoma,glaucoma,Glaucoma,condition
-4154685,Glaucomatous visual field defect,Condition,SNOMED,standard,glaucoma,glaucoma,Glaucoma,condition
-4170134,Glaucoma due to ocular cyst,Condition,SNOMED,standard,glaucoma,glaucoma,Glaucoma,condition
-4190744,Primary congenital glaucoma,Condition,SNOMED,standard,glaucoma,glaucoma,Glaucoma,condition
-4191001,Angle-closure glaucoma,Condition,SNOMED,standard,glaucoma,glaucoma,Glaucoma,condition
-4194237,Uveitis-glaucoma-hyphema syndrome,Condition,SNOMED,standard,glaucoma,glaucoma,Glaucoma,condition
-4195502,Uveitic glaucoma,Condition,SNOMED,standard,glaucoma,glaucoma,Glaucoma,condition
-4198119,Acute-on-chronic glaucoma,Condition,SNOMED,standard,glaucoma,glaucoma,Glaucoma,condition
-4213414,Angle recession glaucoma,Condition,SNOMED,standard,glaucoma,glaucoma,Glaucoma,condition
-4217546,Schwartz-Matsuo syndrome,Condition,SNOMED,standard,glaucoma,glaucoma,Glaucoma,condition
-4231284,Postoperative angle-closure glaucoma,Condition,SNOMED,standard,glaucoma,glaucoma,Glaucoma,condition
-4232575,Lens particle glaucoma,Condition,SNOMED,standard,glaucoma,glaucoma,Glaucoma,condition
-4244668,Glaucoma due to combination of mechanisms,Condition,SNOMED,standard,glaucoma,glaucoma,Glaucoma,condition
-4282930,Glaucoma due to perforating injury,Condition,SNOMED,standard,glaucoma,glaucoma,Glaucoma,condition
-4306341,Glaucoma drainage tube touching cornea,Condition,SNOMED,standard,glaucoma,glaucoma,Glaucoma,condition
-4309250,Glaucoma drainage tube in good position,Condition,SNOMED,standard,glaucoma,glaucoma,Glaucoma,condition
-4309435,Hemolytic glaucoma,Condition,SNOMED,standard,glaucoma,glaucoma,Glaucoma,condition
-4309695,Glaucoma drainage tube touching iris,Condition,SNOMED,standard,glaucoma,glaucoma,Glaucoma,condition
-4311056,Phacomorphic glaucoma,Condition,SNOMED,standard,glaucoma,glaucoma,Glaucoma,condition
-4316071,Secondary glaucoma due to combination mechanisms,Condition,SNOMED,standard,glaucoma,glaucoma,Glaucoma,condition
-4316869,Primary glaucoma due to combination of mechanisms,Condition,SNOMED,standard,glaucoma,glaucoma,Glaucoma,condition
-4318691,Secondary glaucoma,Condition,SNOMED,standard,glaucoma,glaucoma,Glaucoma,condition
-4319579,Glaucomatous retinal degeneration,Condition,SNOMED,standard,glaucoma,glaucoma,Glaucoma,condition
-4334258,Glaucoma and corneal anomaly,Condition,SNOMED,standard,glaucoma,glaucoma,Glaucoma,condition
-4334259,Neovascular angle closure glaucoma,Condition,SNOMED,standard,glaucoma,glaucoma,Glaucoma,condition
-4334260,Glaucoma with intraocular hemorrhage,Condition,SNOMED,standard,glaucoma,glaucoma,Glaucoma,condition
-4335596,Iatrogenic glaucoma,Condition,SNOMED,standard,glaucoma,glaucoma,Glaucoma,condition
-4335597,Iatrogenic angle-closure glaucoma,Condition,SNOMED,standard,glaucoma,glaucoma,Glaucoma,condition
-4336012,Ghost cell glaucoma,Condition,SNOMED,standard,glaucoma,glaucoma,Glaucoma,condition
-36684635,Pigmentary glaucoma of right eye,Condition,SNOMED,standard,glaucoma,glaucoma,Glaucoma,condition
-36684647,Low tension glaucoma of right eye,Condition,SNOMED,standard,glaucoma,glaucoma,Glaucoma,condition
-36684668,Anatomic narrow angle glaucoma of right eye,Condition,SNOMED,standard,glaucoma,glaucoma,Glaucoma,condition
-36684699,Pigmentary glaucoma of left eye,Condition,SNOMED,standard,glaucoma,glaucoma,Glaucoma,condition
-36684712,Low tension glaucoma of left eye,Condition,SNOMED,standard,glaucoma,glaucoma,Glaucoma,condition
-36684734,Anatomic narrow angle glaucoma of left eye,Condition,SNOMED,standard,glaucoma,glaucoma,Glaucoma,condition
-36684765,Bilateral pigmentary glaucoma of eyes,Condition,SNOMED,standard,glaucoma,glaucoma,Glaucoma,condition
-36684774,Bilateral low tension glaucoma of eyes,Condition,SNOMED,standard,glaucoma,glaucoma,Glaucoma,condition
-36684794,Bilateral eye anatomic narrow angle glaucoma,Condition,SNOMED,standard,glaucoma,glaucoma,Glaucoma,condition
-36713123,Acute angle-closure glaucoma of right eye,Condition,SNOMED,standard,glaucoma,glaucoma,Glaucoma,condition
-36713124,Absolute glaucoma right eye,Condition,SNOMED,standard,glaucoma,glaucoma,Glaucoma,condition
-36713135,Acute angle-closure glaucoma of left eye,Condition,SNOMED,standard,glaucoma,glaucoma,Glaucoma,condition
-36713136,Absolute glaucoma left eye,Condition,SNOMED,standard,glaucoma,glaucoma,Glaucoma,condition
-36713152,Bilateral acute angle-closure glaucoma,Condition,SNOMED,standard,glaucoma,glaucoma,Glaucoma,condition
-36713153,Bilateral absolute glaucoma,Condition,SNOMED,standard,glaucoma,glaucoma,Glaucoma,condition
-36713858,Cataract glaucoma syndrome,Condition,SNOMED,standard,glaucoma,glaucoma,Glaucoma,condition
-36714658,Glaucoma and sleep apnea syndrome,Condition,SNOMED,standard,glaucoma,glaucoma,Glaucoma,condition
-36716058,Open angle glaucoma of bilateral eyes caused by corticosteroid,Condition,SNOMED,standard,glaucoma,glaucoma,Glaucoma,condition
-36716109,Lowry MacLean syndrome,Condition,SNOMED,standard,glaucoma,glaucoma,Glaucoma,condition
-36716344,Open angle glaucoma of left eye caused by corticosteroid,Condition,SNOMED,standard,glaucoma,glaucoma,Glaucoma,condition
-36716349,Open angle glaucoma of right eye caused by corticosteroid,Condition,SNOMED,standard,glaucoma,glaucoma,Glaucoma,condition
-36716442,GEMSS syndrome,Condition,SNOMED,standard,glaucoma,glaucoma,Glaucoma,condition
-37017221,Neovascular glaucoma due to diabetes mellitus,Condition,SNOMED,standard,glaucoma,glaucoma,Glaucoma,condition
-37018559,Glaucoma caused by silicone oil,Condition,SNOMED,standard,glaucoma,glaucoma,Glaucoma,condition
-37108932,Bilateral angle-closure glaucoma,Condition,SNOMED,standard,glaucoma,glaucoma,Glaucoma,condition
-37109699,"Retinal degeneration, nanophthalmos, glaucoma syndrome",Condition,SNOMED,standard,glaucoma,glaucoma,Glaucoma,condition
-37110062,"Neonatal diabetes, congenital hypothyroidism, congenital glaucoma, hepatic fibrosis, polycystic kidney syndrome",Condition,SNOMED,standard,glaucoma,glaucoma,Glaucoma,condition
-37116389,Pseudoprogeria syndrome,Condition,SNOMED,standard,glaucoma,glaucoma,Glaucoma,condition
-37116412,"Aniridia, renal agenesis, psychomotor retardation syndrome",Condition,SNOMED,standard,glaucoma,glaucoma,Glaucoma,condition
-37116561,Conjunctival blebitis following glaucoma surgery,Condition,SNOMED,standard,glaucoma,glaucoma,Glaucoma,condition
-37116562,Disorder due to insertion of glaucoma drainage device,Condition,SNOMED,standard,glaucoma,glaucoma,Glaucoma,condition
-37116656,"Spastic paraplegia, glaucoma, intellectual disability syndrome",Condition,SNOMED,standard,glaucoma,glaucoma,Glaucoma,condition
-37162626,Neovascular glaucoma due to diabetes mellitus type 2,Condition,SNOMED,standard,glaucoma,glaucoma,Glaucoma,condition
-37162627,Neovascular glaucoma due to diabetes mellitus type 1,Condition,SNOMED,standard,glaucoma,glaucoma,Glaucoma,condition
-37163695,Dislodgement of plate due to and following glaucoma drainage surgery,Condition,SNOMED,standard,glaucoma,glaucoma,Glaucoma,condition
-37163696,Dislodgement of tube due to and following glaucoma drainage surgery,Condition,SNOMED,standard,glaucoma,glaucoma,Glaucoma,condition
-37164517,High pressure primary open-angle glaucoma,Condition,SNOMED,standard,glaucoma,glaucoma,Glaucoma,condition
-37164535,Glaucoma following ocular onchocerciasis,Condition,SNOMED,standard,glaucoma,glaucoma,Glaucoma,condition
-37164536,Glaucoma due to and following retinopathy of prematurity,Condition,SNOMED,standard,glaucoma,glaucoma,Glaucoma,condition
-37166901,Headache due to acute angle closure glaucoma,Condition,SNOMED,standard,glaucoma,glaucoma,Glaucoma,condition
-37168639,Drug-induced angle closure glaucoma,Condition,SNOMED,standard,glaucoma,glaucoma,Glaucoma,condition
-37168640,Secondary open angle glaucoma due to ocular surgery,Condition,SNOMED,standard,glaucoma,glaucoma,Glaucoma,condition
-37168683,Glaucoma drainage implant endophthalmitis,Condition,SNOMED,standard,glaucoma,glaucoma,Glaucoma,condition
-37168757,Neovascular glaucoma due to central retinal vein occlusion,Condition,SNOMED,standard,glaucoma,glaucoma,Glaucoma,condition
-37168788,Drug-induced open angle glaucoma,Condition,SNOMED,standard,glaucoma,glaucoma,Glaucoma,condition
-37168789,Drug-induced open angle glaucoma of right eye,Condition,SNOMED,standard,glaucoma,glaucoma,Glaucoma,condition
-37168790,Drug-induced open angle glaucoma of left eye,Condition,SNOMED,standard,glaucoma,glaucoma,Glaucoma,condition
-37168791,Drug-induced open angle glaucoma of bilateral eyes,Condition,SNOMED,standard,glaucoma,glaucoma,Glaucoma,condition
-37168792,Drug-induced angle closure glaucoma of right eye,Condition,SNOMED,standard,glaucoma,glaucoma,Glaucoma,condition
-37168793,Drug-induced angle closure glaucoma of left eye,Condition,SNOMED,standard,glaucoma,glaucoma,Glaucoma,condition
-37168794,Drug-induced angle closure glaucoma of bilateral eyes,Condition,SNOMED,standard,glaucoma,glaucoma,Glaucoma,condition
-37171261,Right secondary angle-closure glaucoma due to pupil block,Condition,SNOMED,standard,glaucoma,glaucoma,Glaucoma,condition
-37171321,Left secondary angle-closure glaucoma due to pupil block,Condition,SNOMED,standard,glaucoma,glaucoma,Glaucoma,condition
-37171382,Bilateral secondary angle-closure glaucoma due to pupil block,Condition,SNOMED,standard,glaucoma,glaucoma,Glaucoma,condition
-37171419,Bilateral aqueous humor misdirection of eyes,Condition,SNOMED,standard,glaucoma,glaucoma,Glaucoma,condition
-37204003,Open-angle glaucoma of left eye,Condition,SNOMED,standard,glaucoma,glaucoma,Glaucoma,condition
-37204004,Open-angle glaucoma of right eye,Condition,SNOMED,standard,glaucoma,glaucoma,Glaucoma,condition
-37204543,"Megalocornea, spherophakia, secondary glaucoma syndrome",Condition,SNOMED,standard,glaucoma,glaucoma,Glaucoma,condition
-37207841,Uveitic glaucoma of right eye,Condition,SNOMED,standard,glaucoma,glaucoma,Glaucoma,condition
-37207851,Pseudoexfoliation glaucoma of right eye,Condition,SNOMED,standard,glaucoma,glaucoma,Glaucoma,condition
-37207901,Uveitic glaucoma of left eye,Condition,SNOMED,standard,glaucoma,glaucoma,Glaucoma,condition
-37207911,Pseudoexfoliation glaucoma of left eye,Condition,SNOMED,standard,glaucoma,glaucoma,Glaucoma,condition
-37207965,Bilateral uveitic glaucoma of eyes,Condition,SNOMED,standard,glaucoma,glaucoma,Glaucoma,condition
-37207972,Bilateral pseudoexfoliation glaucoma of eyes,Condition,SNOMED,standard,glaucoma,glaucoma,Glaucoma,condition
-37209015,Secondary open angle glaucoma due to ocular trauma,Condition,SNOMED,standard,glaucoma,glaucoma,Glaucoma,condition
-37209016,Secondary open angle glaucoma due to neovascularization,Condition,SNOMED,standard,glaucoma,glaucoma,Glaucoma,condition
-37209038,Secondary angle closure glaucoma due to uveitis,Condition,SNOMED,standard,glaucoma,glaucoma,Glaucoma,condition
-37209361,Cupping of left optic disc due to open-angle glaucoma of left eye,Condition,SNOMED,standard,glaucoma,glaucoma,Glaucoma,condition
-37209362,Cupping of right optic disc due to open-angle glaucoma of right eye,Condition,SNOMED,standard,glaucoma,glaucoma,Glaucoma,condition
-37310597,Bilateral aphakic glaucoma,Condition,SNOMED,standard,glaucoma,glaucoma,Glaucoma,condition
-37310598,Aphakic glaucoma of left eye,Condition,SNOMED,standard,glaucoma,glaucoma,Glaucoma,condition
-37310599,Aphakic glaucoma of right eye,Condition,SNOMED,standard,glaucoma,glaucoma,Glaucoma,condition
-37311905,Normal pressure primary open-angle glaucoma,Condition,SNOMED,standard,glaucoma,glaucoma,Glaucoma,condition
-37311950,Glaucoma due to retinal detachment,Condition,SNOMED,standard,glaucoma,glaucoma,Glaucoma,condition
-37311951,Glaucoma due to intraocular neoplasm,Condition,SNOMED,standard,glaucoma,glaucoma,Glaucoma,condition
-37311952,Glaucoma due to eye inflammation,Condition,SNOMED,standard,glaucoma,glaucoma,Glaucoma,condition
-37311953,Glaucoma caused by contact lens,Condition,SNOMED,standard,glaucoma,glaucoma,Glaucoma,condition
-37396373,Microcornea with glaucoma and absent frontal sinus syndrome,Condition,SNOMED,standard,glaucoma,glaucoma,Glaucoma,condition
-40403168,Congenital glaucoma,Condition,SNOMED,standard,glaucoma,glaucoma,Glaucoma,condition
-40481141,Anatomical narrow angle glaucoma with borderline intraocular pressure,Condition,SNOMED,standard,glaucoma,glaucoma,Glaucoma,condition
-42537442,Cupping of optic disc due to open angle glaucoma,Condition,SNOMED,standard,glaucoma,glaucoma,Glaucoma,condition
-42537550,Cupping of optic discs of bilateral eyes due to open-angle glaucoma,Condition,SNOMED,standard,glaucoma,glaucoma,Glaucoma,condition
-44782843,Neovascular glaucoma due to hyphema,Condition,SNOMED,standard,glaucoma,glaucoma,Glaucoma,condition
-45772019,Glaucoma due to type 2 diabetes mellitus,Condition,SNOMED,standard,glaucoma,glaucoma,Glaucoma,condition
+cohort_name,cohort_label,cohort_domain,concept_id,include_descendants,concept_name,vocabulary_id,concept_code,review_status,phenotype_note,domain_id,standard_concept,condition
+glaucoma,Glaucoma,condition,432312,FALSE,Chronic angle-closure glaucoma,SNOMED,glaucoma,reviewed_seed,Imported from master codelists,Condition,standard,glaucoma
+glaucoma,Glaucoma,condition,432626,FALSE,Open angle glaucoma due to vascular disorder,SNOMED,glaucoma,reviewed_seed,Imported from master codelists,Condition,standard,glaucoma
+glaucoma,Glaucoma,condition,432908,FALSE,Glaucomatocyclitic crisis,SNOMED,glaucoma,reviewed_seed,Imported from master codelists,Condition,standard,glaucoma
+glaucoma,Glaucoma,condition,433473,FALSE,Steroid-induced glaucoma glaucomatous stage,SNOMED,glaucoma,reviewed_seed,Imported from master codelists,Condition,standard,glaucoma
+glaucoma,Glaucoma,condition,433767,FALSE,Glaucoma of childhood,SNOMED,glaucoma,reviewed_seed,Imported from master codelists,Condition,standard,glaucoma
+glaucoma,Glaucoma,condition,433768,FALSE,Glaucoma with increased episcleral venous pressure,SNOMED,glaucoma,reviewed_seed,Imported from master codelists,Condition,standard,glaucoma
+glaucoma,Glaucoma,condition,434030,FALSE,Phacogenic glaucoma,SNOMED,glaucoma,reviewed_seed,Imported from master codelists,Condition,standard,glaucoma
+glaucoma,Glaucoma,condition,434928,FALSE,Glaucoma due to iris anomaly,SNOMED,glaucoma,reviewed_seed,Imported from master codelists,Condition,standard,glaucoma
+glaucoma,Glaucoma,condition,435262,FALSE,Primary open angle glaucoma,SNOMED,glaucoma,reviewed_seed,Imported from master codelists,Condition,standard,glaucoma
+glaucoma,Glaucoma,condition,435543,FALSE,Primary angle-closure glaucoma,SNOMED,glaucoma,reviewed_seed,Imported from master codelists,Condition,standard,glaucoma
+glaucoma,Glaucoma,condition,436108,FALSE,Acute angle-closure glaucoma,SNOMED,glaucoma,reviewed_seed,Imported from master codelists,Condition,standard,glaucoma
+glaucoma,Glaucoma,condition,436398,FALSE,Glaucoma associated with ocular disorder,SNOMED,glaucoma,reviewed_seed,Imported from master codelists,Condition,standard,glaucoma
+glaucoma,Glaucoma,condition,436687,FALSE,Glaucoma due to anterior segment anomaly,SNOMED,glaucoma,reviewed_seed,Imported from master codelists,Condition,standard,glaucoma
+glaucoma,Glaucoma,condition,436975,FALSE,Pigmentary glaucoma,SNOMED,glaucoma,reviewed_seed,Imported from master codelists,Condition,standard,glaucoma
+glaucoma,Glaucoma,condition,437269,FALSE,Intermittent angle-closure glaucoma,SNOMED,glaucoma,reviewed_seed,Imported from master codelists,Condition,standard,glaucoma
+glaucoma,Glaucoma,condition,437273,FALSE,Pseudoexfoliation glaucoma,SNOMED,glaucoma,reviewed_seed,Imported from master codelists,Condition,standard,glaucoma
+glaucoma,Glaucoma,condition,437276,FALSE,Glaucoma due to congenital chamber angle anomaly,SNOMED,glaucoma,reviewed_seed,Imported from master codelists,Condition,standard,glaucoma
+glaucoma,Glaucoma,condition,437541,FALSE,Glaucoma,SNOMED,glaucoma,reviewed_seed,Imported from master codelists,Condition,standard,glaucoma
+glaucoma,Glaucoma,condition,437553,FALSE,Hypersecretion glaucoma,SNOMED,glaucoma,reviewed_seed,Imported from master codelists,Condition,standard,glaucoma
+glaucoma,Glaucoma,condition,437851,FALSE,Open angle with borderline intraocular pressure,SNOMED,glaucoma,reviewed_seed,Imported from master codelists,Condition,standard,glaucoma
+glaucoma,Glaucoma,condition,438151,FALSE,Glaucoma associated with tumors AND/OR cysts,SNOMED,glaucoma,reviewed_seed,Imported from master codelists,Condition,standard,glaucoma
+glaucoma,Glaucoma,condition,438155,FALSE,Glaucomatous atrophy of optic disc,SNOMED,glaucoma,reviewed_seed,Imported from master codelists,Condition,standard,glaucoma
+glaucoma,Glaucoma,condition,440105,FALSE,Aqueous humor misdirect,SNOMED,glaucoma,reviewed_seed,Imported from master codelists,Condition,standard,glaucoma
+glaucoma,Glaucoma,condition,440396,FALSE,Glaucoma due to ocular trauma,SNOMED,glaucoma,reviewed_seed,Imported from master codelists,Condition,standard,glaucoma
+glaucoma,Glaucoma,condition,441005,FALSE,Secondary angle-closure glaucoma with pupillary block,SNOMED,glaucoma,reviewed_seed,Imported from master codelists,Condition,standard,glaucoma
+glaucoma,Glaucoma,condition,441284,FALSE,Open-angle glaucoma,SNOMED,glaucoma,reviewed_seed,Imported from master codelists,Condition,standard,glaucoma
+glaucoma,Glaucoma,condition,441556,FALSE,Phacolytic glaucoma,SNOMED,glaucoma,reviewed_seed,Imported from master codelists,Condition,standard,glaucoma
+glaucoma,Glaucoma,condition,441561,FALSE,Low tension glaucoma,SNOMED,glaucoma,reviewed_seed,Imported from master codelists,Condition,standard,glaucoma
+glaucoma,Glaucoma,condition,601091,FALSE,Intermittent angle-closure glaucoma of left eye,SNOMED,glaucoma,reviewed_seed,Imported from master codelists,Condition,standard,glaucoma
+glaucoma,Glaucoma,condition,601101,FALSE,Bilateral intermittent angle-closure glaucoma,SNOMED,glaucoma,reviewed_seed,Imported from master codelists,Condition,standard,glaucoma
+glaucoma,Glaucoma,condition,601978,FALSE,Bilateral glaucoma of eyes due to increased episcleral venous pressure,SNOMED,glaucoma,reviewed_seed,Imported from master codelists,Condition,standard,glaucoma
+glaucoma,Glaucoma,condition,601979,FALSE,Glaucoma of left eye due to increased episcleral venous pressure,SNOMED,glaucoma,reviewed_seed,Imported from master codelists,Condition,standard,glaucoma
+glaucoma,Glaucoma,condition,601980,FALSE,Glaucoma of right eye due to increased episcleral venous pressure,SNOMED,glaucoma,reviewed_seed,Imported from master codelists,Condition,standard,glaucoma
+glaucoma,Glaucoma,condition,604462,FALSE,Bilateral primary congenital glaucoma,SNOMED,glaucoma,reviewed_seed,Imported from master codelists,Condition,standard,glaucoma
+glaucoma,Glaucoma,condition,604631,FALSE,Glaucoma due to Lowe syndrome,SNOMED,glaucoma,reviewed_seed,Imported from master codelists,Condition,standard,glaucoma
+glaucoma,Glaucoma,condition,604634,FALSE,Glaucoma due to congenital anomaly of eye,SNOMED,glaucoma,reviewed_seed,Imported from master codelists,Condition,standard,glaucoma
+glaucoma,Glaucoma,condition,604674,FALSE,Angle closure glaucoma suspect,SNOMED,glaucoma,reviewed_seed,Imported from master codelists,Condition,standard,glaucoma
+glaucoma,Glaucoma,condition,604675,FALSE,Angle closure glaucoma suspect of right eye,SNOMED,glaucoma,reviewed_seed,Imported from master codelists,Condition,standard,glaucoma
+glaucoma,Glaucoma,condition,604676,FALSE,Angle closure glaucoma suspect of left eye,SNOMED,glaucoma,reviewed_seed,Imported from master codelists,Condition,standard,glaucoma
+glaucoma,Glaucoma,condition,604677,FALSE,Angle closure glaucoma suspect of bilateral eyes,SNOMED,glaucoma,reviewed_seed,Imported from master codelists,Condition,standard,glaucoma
+glaucoma,Glaucoma,condition,604700,FALSE,Glaucoma suspect caused by corticosteroid,SNOMED,glaucoma,reviewed_seed,Imported from master codelists,Condition,standard,glaucoma
+glaucoma,Glaucoma,condition,604703,FALSE,Glaucoma suspect of right eye caused by corticosteroid,SNOMED,glaucoma,reviewed_seed,Imported from master codelists,Condition,standard,glaucoma
+glaucoma,Glaucoma,condition,604704,FALSE,Glaucoma suspect of left eye caused by corticosteroid,SNOMED,glaucoma,reviewed_seed,Imported from master codelists,Condition,standard,glaucoma
+glaucoma,Glaucoma,condition,604705,FALSE,Glaucoma suspect of bilateral eyes caused by corticosteroid,SNOMED,glaucoma,reviewed_seed,Imported from master codelists,Condition,standard,glaucoma
+glaucoma,Glaucoma,condition,604741,FALSE,Glaucoma suspect due to diabetes mellitus type 2,SNOMED,glaucoma,reviewed_seed,Imported from master codelists,Condition,standard,glaucoma
+glaucoma,Glaucoma,condition,604749,FALSE,Open angle glaucoma suspect,SNOMED,glaucoma,reviewed_seed,Imported from master codelists,Condition,standard,glaucoma
+glaucoma,Glaucoma,condition,604750,FALSE,Open angle glaucoma suspect of left eye,SNOMED,glaucoma,reviewed_seed,Imported from master codelists,Condition,standard,glaucoma
+glaucoma,Glaucoma,condition,604751,FALSE,Open angle glaucoma suspect of right eye,SNOMED,glaucoma,reviewed_seed,Imported from master codelists,Condition,standard,glaucoma
+glaucoma,Glaucoma,condition,604752,FALSE,Open angle glaucoma suspect of bilateral eyes,SNOMED,glaucoma,reviewed_seed,Imported from master codelists,Condition,standard,glaucoma
+glaucoma,Glaucoma,condition,604779,FALSE,Congenital glaucoma of left eye,SNOMED,glaucoma,reviewed_seed,Imported from master codelists,Condition,standard,glaucoma
+glaucoma,Glaucoma,condition,605737,FALSE,Secondary angle-closure glaucoma due to iridocorneal endothelial syndrome,SNOMED,glaucoma,reviewed_seed,Imported from master codelists,Condition,standard,glaucoma
+glaucoma,Glaucoma,condition,608989,FALSE,Bilateral glaucoma of eyes due to plateau iris,SNOMED,glaucoma,reviewed_seed,Imported from master codelists,Condition,standard,glaucoma
+glaucoma,Glaucoma,condition,609292,FALSE,Intermittent angle-closure glaucoma of right eye,SNOMED,glaucoma,reviewed_seed,Imported from master codelists,Condition,standard,glaucoma
+glaucoma,Glaucoma,condition,619263,FALSE,Secondary childhood glaucoma following congenital cataract surgery,SNOMED,glaucoma,reviewed_seed,Imported from master codelists,Condition,standard,glaucoma
+glaucoma,Glaucoma,condition,760888,FALSE,Bilateral open-angle glaucoma,SNOMED,glaucoma,reviewed_seed,Imported from master codelists,Condition,standard,glaucoma
+glaucoma,Glaucoma,condition,761286,FALSE,Congenital glaucoma of bilateral eyes,SNOMED,glaucoma,reviewed_seed,Imported from master codelists,Condition,standard,glaucoma
+glaucoma,Glaucoma,condition,761580,FALSE,Narrow-angle glaucoma of right eye,SNOMED,glaucoma,reviewed_seed,Imported from master codelists,Condition,standard,glaucoma
+glaucoma,Glaucoma,condition,761609,FALSE,Glaucoma of bilateral eyes due to combination of mechanisms,SNOMED,glaucoma,reviewed_seed,Imported from master codelists,Condition,standard,glaucoma
+glaucoma,Glaucoma,condition,761610,FALSE,Glaucoma of left eye due to combination of mechanisms,SNOMED,glaucoma,reviewed_seed,Imported from master codelists,Condition,standard,glaucoma
+glaucoma,Glaucoma,condition,761611,FALSE,Glaucoma of bilateral eyes due to congenital anomaly of iris,SNOMED,glaucoma,reviewed_seed,Imported from master codelists,Condition,standard,glaucoma
+glaucoma,Glaucoma,condition,761612,FALSE,Glaucoma of bilateral eyes due to anterior segment anomaly,SNOMED,glaucoma,reviewed_seed,Imported from master codelists,Condition,standard,glaucoma
+glaucoma,Glaucoma,condition,761613,FALSE,Glaucoma of right eye due to anterior segment anomaly,SNOMED,glaucoma,reviewed_seed,Imported from master codelists,Condition,standard,glaucoma
+glaucoma,Glaucoma,condition,761614,FALSE,Glaucoma of left eye due to anterior segment anomaly,SNOMED,glaucoma,reviewed_seed,Imported from master codelists,Condition,standard,glaucoma
+glaucoma,Glaucoma,condition,761621,FALSE,Glaucoma of right eye due to trauma,SNOMED,glaucoma,reviewed_seed,Imported from master codelists,Condition,standard,glaucoma
+glaucoma,Glaucoma,condition,761622,FALSE,Glaucoma of right eye due to lens disorder,SNOMED,glaucoma,reviewed_seed,Imported from master codelists,Condition,standard,glaucoma
+glaucoma,Glaucoma,condition,761623,FALSE,Glaucoma of left eye due to lens disorder,SNOMED,glaucoma,reviewed_seed,Imported from master codelists,Condition,standard,glaucoma
+glaucoma,Glaucoma,condition,765005,FALSE,Glaucoma caused by Onchocerca volvulus,SNOMED,glaucoma,reviewed_seed,Imported from master codelists,Condition,standard,glaucoma
+glaucoma,Glaucoma,condition,765051,FALSE,Glaucoma of right eye,SNOMED,glaucoma,reviewed_seed,Imported from master codelists,Condition,standard,glaucoma
+glaucoma,Glaucoma,condition,765244,FALSE,Glaucoma of right eye due to combination of mechanisms,SNOMED,glaucoma,reviewed_seed,Imported from master codelists,Condition,standard,glaucoma
+glaucoma,Glaucoma,condition,765245,FALSE,Glaucoma of left eye due to trauma,SNOMED,glaucoma,reviewed_seed,Imported from master codelists,Condition,standard,glaucoma
+glaucoma,Glaucoma,condition,765264,FALSE,Glaucoma of left eye,SNOMED,glaucoma,reviewed_seed,Imported from master codelists,Condition,standard,glaucoma
+glaucoma,Glaucoma,condition,765533,FALSE,Glaucoma due to diabetes mellitus type 1,SNOMED,glaucoma,reviewed_seed,Imported from master codelists,Condition,standard,glaucoma
+glaucoma,Glaucoma,condition,765904,FALSE,Bilateral primary open angle glaucoma,SNOMED,glaucoma,reviewed_seed,Imported from master codelists,Condition,standard,glaucoma
+glaucoma,Glaucoma,condition,1075252,FALSE,Open angle glaucoma of right eye due to ocular vascular disorder,SNOMED,glaucoma,reviewed_seed,Imported from master codelists,Condition,standard,glaucoma
+glaucoma,Glaucoma,condition,1075253,FALSE,Open angle glaucoma of left eye due to ocular vascular disorder,SNOMED,glaucoma,reviewed_seed,Imported from master codelists,Condition,standard,glaucoma
+glaucoma,Glaucoma,condition,1075254,FALSE,Bilateral open angle glaucoma due to ocular vascular disorder,SNOMED,glaucoma,reviewed_seed,Imported from master codelists,Condition,standard,glaucoma
+glaucoma,Glaucoma,condition,1075255,FALSE,Bilateral open angle glaucoma due to vascular disorder,SNOMED,glaucoma,reviewed_seed,Imported from master codelists,Condition,standard,glaucoma
+glaucoma,Glaucoma,condition,1075256,FALSE,Open angle glaucoma of left eye due to vascular disorder,SNOMED,glaucoma,reviewed_seed,Imported from master codelists,Condition,standard,glaucoma
+glaucoma,Glaucoma,condition,1075257,FALSE,Open angle glaucoma of right eye due to vascular disorder,SNOMED,glaucoma,reviewed_seed,Imported from master codelists,Condition,standard,glaucoma
+glaucoma,Glaucoma,condition,1075313,FALSE,Glaucoma of left eye due to intraocular neoplasm,SNOMED,glaucoma,reviewed_seed,Imported from master codelists,Condition,standard,glaucoma
+glaucoma,Glaucoma,condition,1075314,FALSE,Glaucoma of right eye caused by silicone oil,SNOMED,glaucoma,reviewed_seed,Imported from master codelists,Condition,standard,glaucoma
+glaucoma,Glaucoma,condition,1075316,FALSE,Bilateral glaucoma due to intraocular neoplasm,SNOMED,glaucoma,reviewed_seed,Imported from master codelists,Condition,standard,glaucoma
+glaucoma,Glaucoma,condition,1075318,FALSE,Glaucoma of right eye due to intraocular neoplasm,SNOMED,glaucoma,reviewed_seed,Imported from master codelists,Condition,standard,glaucoma
+glaucoma,Glaucoma,condition,1075319,FALSE,Glaucoma of left eye caused by silicone oil,SNOMED,glaucoma,reviewed_seed,Imported from master codelists,Condition,standard,glaucoma
+glaucoma,Glaucoma,condition,1075320,FALSE,Bilateral glaucoma caused by silicone oil,SNOMED,glaucoma,reviewed_seed,Imported from master codelists,Condition,standard,glaucoma
+glaucoma,Glaucoma,condition,1075342,FALSE,Dislodgement of tube of right eye due to and following glaucoma drainage surgery,SNOMED,glaucoma,reviewed_seed,Imported from master codelists,Condition,standard,glaucoma
+glaucoma,Glaucoma,condition,1075343,FALSE,Dislodgement of tube of left eye due to and following glaucoma drainage surgery,SNOMED,glaucoma,reviewed_seed,Imported from master codelists,Condition,standard,glaucoma
+glaucoma,Glaucoma,condition,1075344,FALSE,Bilateral dislodgement of tube of eyes due to and following glaucoma surgery,SNOMED,glaucoma,reviewed_seed,Imported from master codelists,Condition,standard,glaucoma
+glaucoma,Glaucoma,condition,1075382,FALSE,Glaucoma of left eye due to systemic syndrome,SNOMED,glaucoma,reviewed_seed,Imported from master codelists,Condition,standard,glaucoma
+glaucoma,Glaucoma,condition,1075383,FALSE,Glaucoma of right eye due to systemic syndrome,SNOMED,glaucoma,reviewed_seed,Imported from master codelists,Condition,standard,glaucoma
+glaucoma,Glaucoma,condition,1075384,FALSE,Bilateral glaucoma due to systemic syndrome,SNOMED,glaucoma,reviewed_seed,Imported from master codelists,Condition,standard,glaucoma
+glaucoma,Glaucoma,condition,1075385,FALSE,Glaucoma of right eye due to retinal detachment,SNOMED,glaucoma,reviewed_seed,Imported from master codelists,Condition,standard,glaucoma
+glaucoma,Glaucoma,condition,1075386,FALSE,Glaucoma of left eye due to retinal detachment,SNOMED,glaucoma,reviewed_seed,Imported from master codelists,Condition,standard,glaucoma
+glaucoma,Glaucoma,condition,1075387,FALSE,Bilateral glaucoma due to retinal detachment,SNOMED,glaucoma,reviewed_seed,Imported from master codelists,Condition,standard,glaucoma
+glaucoma,Glaucoma,condition,1075404,FALSE,Secondary open-angle glaucoma of right eye,SNOMED,glaucoma,reviewed_seed,Imported from master codelists,Condition,standard,glaucoma
+glaucoma,Glaucoma,condition,1075405,FALSE,Secondary open-angle glaucoma of left eye,SNOMED,glaucoma,reviewed_seed,Imported from master codelists,Condition,standard,glaucoma
+glaucoma,Glaucoma,condition,1075406,FALSE,Bilateral secondary open-angle glaucoma,SNOMED,glaucoma,reviewed_seed,Imported from master codelists,Condition,standard,glaucoma
+glaucoma,Glaucoma,condition,1075411,FALSE,Dislodgement of plate of left eye due to and following glaucoma drainage surgery,SNOMED,glaucoma,reviewed_seed,Imported from master codelists,Condition,standard,glaucoma
+glaucoma,Glaucoma,condition,1075412,FALSE,Dislodgement of plate of right eye due to and following glaucoma drainage surgery,SNOMED,glaucoma,reviewed_seed,Imported from master codelists,Condition,standard,glaucoma
+glaucoma,Glaucoma,condition,1075413,FALSE,Bilateral dislodgement of plates of eyes due to and following glaucoma drainage surgery,SNOMED,glaucoma,reviewed_seed,Imported from master codelists,Condition,standard,glaucoma
+glaucoma,Glaucoma,condition,1075414,FALSE,Conjunctival blebitis of left eye following glaucoma surgery,SNOMED,glaucoma,reviewed_seed,Imported from master codelists,Condition,standard,glaucoma
+glaucoma,Glaucoma,condition,1075415,FALSE,Conjunctival blebitis of right eye following glaucoma surgery,SNOMED,glaucoma,reviewed_seed,Imported from master codelists,Condition,standard,glaucoma
+glaucoma,Glaucoma,condition,1075416,FALSE,Bilateral conjunctival blebitis following glaucoma surgery,SNOMED,glaucoma,reviewed_seed,Imported from master codelists,Condition,standard,glaucoma
+glaucoma,Glaucoma,condition,1075423,FALSE,Open angle glaucoma of left eye due to ocular trauma,SNOMED,glaucoma,reviewed_seed,Imported from master codelists,Condition,standard,glaucoma
+glaucoma,Glaucoma,condition,1075424,FALSE,Open angle glaucoma of right eye due to ocular trauma,SNOMED,glaucoma,reviewed_seed,Imported from master codelists,Condition,standard,glaucoma
+glaucoma,Glaucoma,condition,1075425,FALSE,Bilateral open angle glaucoma due to ocular trauma,SNOMED,glaucoma,reviewed_seed,Imported from master codelists,Condition,standard,glaucoma
+glaucoma,Glaucoma,condition,1075426,FALSE,Postoperative angle closure glaucoma of left eye,SNOMED,glaucoma,reviewed_seed,Imported from master codelists,Condition,standard,glaucoma
+glaucoma,Glaucoma,condition,1075427,FALSE,Bilateral postoperative angle closure glaucoma,SNOMED,glaucoma,reviewed_seed,Imported from master codelists,Condition,standard,glaucoma
+glaucoma,Glaucoma,condition,1075428,FALSE,Postoperative angle closure glaucoma of right eye,SNOMED,glaucoma,reviewed_seed,Imported from master codelists,Condition,standard,glaucoma
+glaucoma,Glaucoma,condition,1075429,FALSE,Bilateral open angle glaucoma due to neovascularization,SNOMED,glaucoma,reviewed_seed,Imported from master codelists,Condition,standard,glaucoma
+glaucoma,Glaucoma,condition,1075430,FALSE,Open angle glaucoma of left eye due to neovascularization,SNOMED,glaucoma,reviewed_seed,Imported from master codelists,Condition,standard,glaucoma
+glaucoma,Glaucoma,condition,1075431,FALSE,Open angle glaucoma of right eye due to neovascularization,SNOMED,glaucoma,reviewed_seed,Imported from master codelists,Condition,standard,glaucoma
+glaucoma,Glaucoma,condition,1075475,FALSE,Bilateral glaucoma,SNOMED,glaucoma,reviewed_seed,Imported from master codelists,Condition,standard,glaucoma
+glaucoma,Glaucoma,condition,1075477,FALSE,Uveitis-glaucoma-hyphema syndrome of right eye,SNOMED,glaucoma,reviewed_seed,Imported from master codelists,Condition,standard,glaucoma
+glaucoma,Glaucoma,condition,1075478,FALSE,Uveitis-glaucoma-hyphema syndrome of left eye,SNOMED,glaucoma,reviewed_seed,Imported from master codelists,Condition,standard,glaucoma
+glaucoma,Glaucoma,condition,1075479,FALSE,Secondary angle-closure glaucoma of right eye due to iridocorneal endothelial syndrome,SNOMED,glaucoma,reviewed_seed,Imported from master codelists,Condition,standard,glaucoma
+glaucoma,Glaucoma,condition,1075480,FALSE,Secondary angle-closure glaucoma of left eye due to iridocorneal endothelial syndrome,SNOMED,glaucoma,reviewed_seed,Imported from master codelists,Condition,standard,glaucoma
+glaucoma,Glaucoma,condition,1075481,FALSE,Bilateral secondary angle-closure glaucoma due to iridocorneal endothelial syndrome,SNOMED,glaucoma,reviewed_seed,Imported from master codelists,Condition,standard,glaucoma
+glaucoma,Glaucoma,condition,1075489,FALSE,Bilateral hemolytic glaucoma,SNOMED,glaucoma,reviewed_seed,Imported from master codelists,Condition,standard,glaucoma
+glaucoma,Glaucoma,condition,1075491,FALSE,Hemolytic glaucoma of left eye,SNOMED,glaucoma,reviewed_seed,Imported from master codelists,Condition,standard,glaucoma
+glaucoma,Glaucoma,condition,1075492,FALSE,Hemolytic glaucoma of right eye,SNOMED,glaucoma,reviewed_seed,Imported from master codelists,Condition,standard,glaucoma
+glaucoma,Glaucoma,condition,1075501,FALSE,Primary open angle glaucoma of left eye,SNOMED,glaucoma,reviewed_seed,Imported from master codelists,Condition,standard,glaucoma
+glaucoma,Glaucoma,condition,1075502,FALSE,Primary open angle glaucoma of right eye,SNOMED,glaucoma,reviewed_seed,Imported from master codelists,Condition,standard,glaucoma
+glaucoma,Glaucoma,condition,1075503,FALSE,Primary open angle glaucoma of bilateral eyes,SNOMED,glaucoma,reviewed_seed,Imported from master codelists,Condition,standard,glaucoma
+glaucoma,Glaucoma,condition,1075509,FALSE,Angle closure glaucoma of right eye,SNOMED,glaucoma,reviewed_seed,Imported from master codelists,Condition,standard,glaucoma
+glaucoma,Glaucoma,condition,1075510,FALSE,Angle closure glaucoma of left eye,SNOMED,glaucoma,reviewed_seed,Imported from master codelists,Condition,standard,glaucoma
+glaucoma,Glaucoma,condition,1075537,FALSE,Angle closure glaucoma of right eye due to peripheral anterior synechiae,SNOMED,glaucoma,reviewed_seed,Imported from master codelists,Condition,standard,glaucoma
+glaucoma,Glaucoma,condition,1075538,FALSE,Angle closure glaucoma of left eye due to peripheral anterior synechiae,SNOMED,glaucoma,reviewed_seed,Imported from master codelists,Condition,standard,glaucoma
+glaucoma,Glaucoma,condition,1075539,FALSE,Bilateral angle closure glaucoma due to peripheral anterior synechiae,SNOMED,glaucoma,reviewed_seed,Imported from master codelists,Condition,standard,glaucoma
+glaucoma,Glaucoma,condition,1075540,FALSE,Secondary angle-closure glaucoma of right eye,SNOMED,glaucoma,reviewed_seed,Imported from master codelists,Condition,standard,glaucoma
+glaucoma,Glaucoma,condition,1075541,FALSE,Secondary angle closure glaucoma of left eye,SNOMED,glaucoma,reviewed_seed,Imported from master codelists,Condition,standard,glaucoma
+glaucoma,Glaucoma,condition,1075542,FALSE,Bilateral secondary angle closure glaucoma,SNOMED,glaucoma,reviewed_seed,Imported from master codelists,Condition,standard,glaucoma
+glaucoma,Glaucoma,condition,1075644,FALSE,Angle recession glaucoma of right eye,SNOMED,glaucoma,reviewed_seed,Imported from master codelists,Condition,standard,glaucoma
+glaucoma,Glaucoma,condition,1075656,FALSE,Ghost cell glaucoma of right eye,SNOMED,glaucoma,reviewed_seed,Imported from master codelists,Condition,standard,glaucoma
+glaucoma,Glaucoma,condition,1075658,FALSE,Bilateral ghost cell glaucoma,SNOMED,glaucoma,reviewed_seed,Imported from master codelists,Condition,standard,glaucoma
+glaucoma,Glaucoma,condition,1075659,FALSE,Ghost cell glaucoma of left eye,SNOMED,glaucoma,reviewed_seed,Imported from master codelists,Condition,standard,glaucoma
+glaucoma,Glaucoma,condition,1075670,FALSE,Phacomorphic glaucoma of left eye,SNOMED,glaucoma,reviewed_seed,Imported from master codelists,Condition,standard,glaucoma
+glaucoma,Glaucoma,condition,1075674,FALSE,Lens particle glaucoma of right eye,SNOMED,glaucoma,reviewed_seed,Imported from master codelists,Condition,standard,glaucoma
+glaucoma,Glaucoma,condition,1075675,FALSE,Lens particle glaucoma of left eye,SNOMED,glaucoma,reviewed_seed,Imported from master codelists,Condition,standard,glaucoma
+glaucoma,Glaucoma,condition,1075676,FALSE,Bilateral lens particle glaucoma,SNOMED,glaucoma,reviewed_seed,Imported from master codelists,Condition,standard,glaucoma
+glaucoma,Glaucoma,condition,1075678,FALSE,Bilateral phacomorphic angle closure glaucoma,SNOMED,glaucoma,reviewed_seed,Imported from master codelists,Condition,standard,glaucoma
+glaucoma,Glaucoma,condition,1075679,FALSE,Phacomorphic glaucoma of right eye,SNOMED,glaucoma,reviewed_seed,Imported from master codelists,Condition,standard,glaucoma
+glaucoma,Glaucoma,condition,1075680,FALSE,Glaucoma of right eye due to congenital chamber angle anomaly,SNOMED,glaucoma,reviewed_seed,Imported from master codelists,Condition,standard,glaucoma
+glaucoma,Glaucoma,condition,1075684,FALSE,Glaucoma of left eye due to congenital chamber angle anomaly,SNOMED,glaucoma,reviewed_seed,Imported from master codelists,Condition,standard,glaucoma
+glaucoma,Glaucoma,condition,1075686,FALSE,Bilateral glaucoma due to congenital chamber angle anomaly,SNOMED,glaucoma,reviewed_seed,Imported from master codelists,Condition,standard,glaucoma
+glaucoma,Glaucoma,condition,1075704,FALSE,Angle recession glaucoma of left eye,SNOMED,glaucoma,reviewed_seed,Imported from master codelists,Condition,standard,glaucoma
+glaucoma,Glaucoma,condition,1075705,FALSE,Bilateral angle recession glaucoma,SNOMED,glaucoma,reviewed_seed,Imported from master codelists,Condition,standard,glaucoma
+glaucoma,Glaucoma,condition,1075706,FALSE,Glaucoma suspect of right eye,SNOMED,glaucoma,reviewed_seed,Imported from master codelists,Condition,standard,glaucoma
+glaucoma,Glaucoma,condition,1075707,FALSE,Glaucoma suspect of left eye,SNOMED,glaucoma,reviewed_seed,Imported from master codelists,Condition,standard,glaucoma
+glaucoma,Glaucoma,condition,1075708,FALSE,Bilateral glaucoma suspect,SNOMED,glaucoma,reviewed_seed,Imported from master codelists,Condition,standard,glaucoma
+glaucoma,Glaucoma,condition,1075709,FALSE,Glaucoma of left eye with intraocular hemorrhage,SNOMED,glaucoma,reviewed_seed,Imported from master codelists,Condition,standard,glaucoma
+glaucoma,Glaucoma,condition,1075710,FALSE,Glaucoma of right eye with intraocular hemorrhage,SNOMED,glaucoma,reviewed_seed,Imported from master codelists,Condition,standard,glaucoma
+glaucoma,Glaucoma,condition,1075711,FALSE,Bilateral glaucoma with intraocular hemorrhage,SNOMED,glaucoma,reviewed_seed,Imported from master codelists,Condition,standard,glaucoma
+glaucoma,Glaucoma,condition,1075712,FALSE,Bilateral open angle glaucoma,SNOMED,glaucoma,reviewed_seed,Imported from master codelists,Condition,standard,glaucoma
+glaucoma,Glaucoma,condition,1075713,FALSE,Secondary open angle glaucoma of right eye due to ocular surgery,SNOMED,glaucoma,reviewed_seed,Imported from master codelists,Condition,standard,glaucoma
+glaucoma,Glaucoma,condition,1075714,FALSE,Secondary open angle glaucoma of left eye due to ocular surgery,SNOMED,glaucoma,reviewed_seed,Imported from master codelists,Condition,standard,glaucoma
+glaucoma,Glaucoma,condition,1075715,FALSE,Bilateral secondary open angle glaucoma due to ocular surgery,SNOMED,glaucoma,reviewed_seed,Imported from master codelists,Condition,standard,glaucoma
+glaucoma,Glaucoma,condition,1075716,FALSE,Normal pressure primary open-angle glaucoma of left eye,SNOMED,glaucoma,reviewed_seed,Imported from master codelists,Condition,standard,glaucoma
+glaucoma,Glaucoma,condition,1075717,FALSE,Normal pressure primary open-angle glaucoma of right eye,SNOMED,glaucoma,reviewed_seed,Imported from master codelists,Condition,standard,glaucoma
+glaucoma,Glaucoma,condition,1075718,FALSE,Normal pressure primary open-angle glaucoma of bilateral eyes,SNOMED,glaucoma,reviewed_seed,Imported from master codelists,Condition,standard,glaucoma
+glaucoma,Glaucoma,condition,1075723,FALSE,Neovascular angle closure glaucoma of right eye,SNOMED,glaucoma,reviewed_seed,Imported from master codelists,Condition,standard,glaucoma
+glaucoma,Glaucoma,condition,1075724,FALSE,Neovascular angle closure glaucoma of left eye,SNOMED,glaucoma,reviewed_seed,Imported from master codelists,Condition,standard,glaucoma
+glaucoma,Glaucoma,condition,1075725,FALSE,Bilateral neovascular angle closure glaucoma,SNOMED,glaucoma,reviewed_seed,Imported from master codelists,Condition,standard,glaucoma
+glaucoma,Glaucoma,condition,1075828,FALSE,Glaucoma due to perforating injury of left eye,SNOMED,glaucoma,reviewed_seed,Imported from master codelists,Condition,standard,glaucoma
+glaucoma,Glaucoma,condition,1075829,FALSE,Glaucoma due to perforating injury of right eye,SNOMED,glaucoma,reviewed_seed,Imported from master codelists,Condition,standard,glaucoma
+glaucoma,Glaucoma,condition,1075830,FALSE,Bilateral glaucoma due to perforating injury,SNOMED,glaucoma,reviewed_seed,Imported from master codelists,Condition,standard,glaucoma
+glaucoma,Glaucoma,condition,1076154,FALSE,Glaucoma due to cyst of iris,SNOMED,glaucoma,reviewed_seed,Imported from master codelists,Condition,standard,glaucoma
+glaucoma,Glaucoma,condition,1076155,FALSE,Glaucoma due to cyst of ciliary body,SNOMED,glaucoma,reviewed_seed,Imported from master codelists,Condition,standard,glaucoma
+glaucoma,Glaucoma,condition,1076159,FALSE,Glaucoma due to cyst of ciliary body of right eye,SNOMED,glaucoma,reviewed_seed,Imported from master codelists,Condition,standard,glaucoma
+glaucoma,Glaucoma,condition,1076160,FALSE,Glaucoma due to cyst of ciliary body of left eye,SNOMED,glaucoma,reviewed_seed,Imported from master codelists,Condition,standard,glaucoma
+glaucoma,Glaucoma,condition,1076161,FALSE,Bilateral glaucoma due to cyst of ciliary body,SNOMED,glaucoma,reviewed_seed,Imported from master codelists,Condition,standard,glaucoma
+glaucoma,Glaucoma,condition,1076169,FALSE,Glaucoma due to cyst of iris of left eye,SNOMED,glaucoma,reviewed_seed,Imported from master codelists,Condition,standard,glaucoma
+glaucoma,Glaucoma,condition,1076170,FALSE,Glaucoma due to cyst of iris of right eye,SNOMED,glaucoma,reviewed_seed,Imported from master codelists,Condition,standard,glaucoma
+glaucoma,Glaucoma,condition,1076171,FALSE,Bilateral glaucoma due to cyst of iris,SNOMED,glaucoma,reviewed_seed,Imported from master codelists,Condition,standard,glaucoma
+glaucoma,Glaucoma,condition,1076177,FALSE,Glaucoma due to cyst of right eye proper,SNOMED,glaucoma,reviewed_seed,Imported from master codelists,Condition,standard,glaucoma
+glaucoma,Glaucoma,condition,1076178,FALSE,Glaucoma due to cyst of left eye proper,SNOMED,glaucoma,reviewed_seed,Imported from master codelists,Condition,standard,glaucoma
+glaucoma,Glaucoma,condition,1076179,FALSE,Bilateral glaucoma due to cyst of eye,SNOMED,glaucoma,reviewed_seed,Imported from master codelists,Condition,standard,glaucoma
+glaucoma,Glaucoma,condition,1076186,FALSE,Glaucoma due to plateau iris,SNOMED,glaucoma,reviewed_seed,Imported from master codelists,Condition,standard,glaucoma
+glaucoma,Glaucoma,condition,1245138,FALSE,Glaucomatocyclitic crisis of left eye,SNOMED,glaucoma,reviewed_seed,Imported from master codelists,Condition,standard,glaucoma
+glaucoma,Glaucoma,condition,1245139,FALSE,Glaucomatocyclitic crisis of right eye,SNOMED,glaucoma,reviewed_seed,Imported from master codelists,Condition,standard,glaucoma
+glaucoma,Glaucoma,condition,1245140,FALSE,Bilateral glaucomatocyclitic crisis,SNOMED,glaucoma,reviewed_seed,Imported from master codelists,Condition,standard,glaucoma
+glaucoma,Glaucoma,condition,1245417,FALSE,Primary angle closure glaucoma of right eye,SNOMED,glaucoma,reviewed_seed,Imported from master codelists,Condition,standard,glaucoma
+glaucoma,Glaucoma,condition,1245418,FALSE,Primary angle closure glaucoma of left eye,SNOMED,glaucoma,reviewed_seed,Imported from master codelists,Condition,standard,glaucoma
+glaucoma,Glaucoma,condition,1245419,FALSE,Bilateral primary angle closure glaucoma,SNOMED,glaucoma,reviewed_seed,Imported from master codelists,Condition,standard,glaucoma
+glaucoma,Glaucoma,condition,1245653,FALSE,Glaucoma of left eye due to congenital anomaly of iris,SNOMED,glaucoma,reviewed_seed,Imported from master codelists,Condition,standard,glaucoma
+glaucoma,Glaucoma,condition,1245654,FALSE,Glaucoma of right eye due to congenital anomaly of iris,SNOMED,glaucoma,reviewed_seed,Imported from master codelists,Condition,standard,glaucoma
+glaucoma,Glaucoma,condition,1245751,FALSE,Glaucoma of left eye due to plateau iris,SNOMED,glaucoma,reviewed_seed,Imported from master codelists,Condition,standard,glaucoma
+glaucoma,Glaucoma,condition,1245752,FALSE,Glaucoma of right eye due to plateau iris,SNOMED,glaucoma,reviewed_seed,Imported from master codelists,Condition,standard,glaucoma
+glaucoma,Glaucoma,condition,1246274,FALSE,Atrophy of optic disc of right eye due to glaucoma,SNOMED,glaucoma,reviewed_seed,Imported from master codelists,Condition,standard,glaucoma
+glaucoma,Glaucoma,condition,1246312,FALSE,Atrophy of optic disc of left eye due to glaucoma,SNOMED,glaucoma,reviewed_seed,Imported from master codelists,Condition,standard,glaucoma
+glaucoma,Glaucoma,condition,1246349,FALSE,Phacolytic glaucoma of bilateral eyes,SNOMED,glaucoma,reviewed_seed,Imported from master codelists,Condition,standard,glaucoma
+glaucoma,Glaucoma,condition,1246372,FALSE,Atrophy of optic disc of bilateral eyes due to glaucoma,SNOMED,glaucoma,reviewed_seed,Imported from master codelists,Condition,standard,glaucoma
+glaucoma,Glaucoma,condition,1340339,FALSE,Exacerbation of glaucoma,OMOP Extension,glaucoma,reviewed_seed,Imported from master codelists,Condition,standard,glaucoma
+glaucoma,Glaucoma,condition,3655269,FALSE,Glaucoma due to diabetes mellitus,SNOMED,glaucoma,reviewed_seed,Imported from master codelists,Condition,standard,glaucoma
+glaucoma,Glaucoma,condition,3656879,FALSE,Phacolytic glaucoma of right eye,SNOMED,glaucoma,reviewed_seed,Imported from master codelists,Condition,standard,glaucoma
+glaucoma,Glaucoma,condition,3656963,FALSE,Phacolytic glaucoma of left eye,SNOMED,glaucoma,reviewed_seed,Imported from master codelists,Condition,standard,glaucoma
+glaucoma,Glaucoma,condition,3657116,FALSE,Aqueous humor misdirection of left eye,SNOMED,glaucoma,reviewed_seed,Imported from master codelists,Condition,standard,glaucoma
+glaucoma,Glaucoma,condition,3657117,FALSE,Aqueous humor misdirection of right eye,SNOMED,glaucoma,reviewed_seed,Imported from master codelists,Condition,standard,glaucoma
+glaucoma,Glaucoma,condition,3662317,FALSE,Congenital glaucoma of right eye,SNOMED,glaucoma,reviewed_seed,Imported from master codelists,Condition,standard,glaucoma
+glaucoma,Glaucoma,condition,3662326,FALSE,Bilateral uveitis-glaucoma-hyphema syndrome of eyes,SNOMED,glaucoma,reviewed_seed,Imported from master codelists,Condition,standard,glaucoma
+glaucoma,Glaucoma,condition,3663197,FALSE,Glaucoma suspect,SNOMED,glaucoma,reviewed_seed,Imported from master codelists,Condition,standard,glaucoma
+glaucoma,Glaucoma,condition,4008573,FALSE,Advanced open-angle glaucoma,SNOMED,glaucoma,reviewed_seed,Imported from master codelists,Condition,standard,glaucoma
+glaucoma,Glaucoma,condition,4035651,FALSE,Aphakic glaucoma,SNOMED,glaucoma,reviewed_seed,Imported from master codelists,Condition,standard,glaucoma
+glaucoma,Glaucoma,condition,4041191,FALSE,Corticosteroid-induced open angle glaucoma,SNOMED,glaucoma,reviewed_seed,Imported from master codelists,Condition,standard,glaucoma
+glaucoma,Glaucoma,condition,4065195,FALSE,Secondary angle-closure glaucoma,SNOMED,glaucoma,reviewed_seed,Imported from master codelists,Condition,standard,glaucoma
+glaucoma,Glaucoma,condition,4071600,FALSE,Traumatic glaucoma due to birth trauma,SNOMED,glaucoma,reviewed_seed,Imported from master codelists,Condition,standard,glaucoma
+glaucoma,Glaucoma,condition,4072218,FALSE,Secondary open-angle glaucoma,SNOMED,glaucoma,reviewed_seed,Imported from master codelists,Condition,standard,glaucoma
+glaucoma,Glaucoma,condition,4078543,FALSE,Absolute glaucoma,SNOMED,glaucoma,reviewed_seed,Imported from master codelists,Condition,standard,glaucoma
+glaucoma,Glaucoma,condition,4102186,FALSE,"Glaucoma in endocrine, nutritional and metabolic diseases",SNOMED,glaucoma,reviewed_seed,Imported from master codelists,Condition,standard,glaucoma
+glaucoma,Glaucoma,condition,4104232,FALSE,Open angle glaucoma due to ocular vascular disorder,SNOMED,glaucoma,reviewed_seed,Imported from master codelists,Condition,standard,glaucoma
+glaucoma,Glaucoma,condition,4108979,FALSE,Glaucoma due to systemic syndrome,SNOMED,glaucoma,reviewed_seed,Imported from master codelists,Condition,standard,glaucoma
+glaucoma,Glaucoma,condition,4152558,FALSE,Secondary angle-closure glaucoma - synechial,SNOMED,glaucoma,reviewed_seed,Imported from master codelists,Condition,standard,glaucoma
+glaucoma,Glaucoma,condition,4154685,FALSE,Glaucomatous visual field defect,SNOMED,glaucoma,reviewed_seed,Imported from master codelists,Condition,standard,glaucoma
+glaucoma,Glaucoma,condition,4170134,FALSE,Glaucoma due to ocular cyst,SNOMED,glaucoma,reviewed_seed,Imported from master codelists,Condition,standard,glaucoma
+glaucoma,Glaucoma,condition,4190744,FALSE,Primary congenital glaucoma,SNOMED,glaucoma,reviewed_seed,Imported from master codelists,Condition,standard,glaucoma
+glaucoma,Glaucoma,condition,4191001,FALSE,Angle-closure glaucoma,SNOMED,glaucoma,reviewed_seed,Imported from master codelists,Condition,standard,glaucoma
+glaucoma,Glaucoma,condition,4194237,FALSE,Uveitis-glaucoma-hyphema syndrome,SNOMED,glaucoma,reviewed_seed,Imported from master codelists,Condition,standard,glaucoma
+glaucoma,Glaucoma,condition,4195502,FALSE,Uveitic glaucoma,SNOMED,glaucoma,reviewed_seed,Imported from master codelists,Condition,standard,glaucoma
+glaucoma,Glaucoma,condition,4198119,FALSE,Acute-on-chronic glaucoma,SNOMED,glaucoma,reviewed_seed,Imported from master codelists,Condition,standard,glaucoma
+glaucoma,Glaucoma,condition,4213414,FALSE,Angle recession glaucoma,SNOMED,glaucoma,reviewed_seed,Imported from master codelists,Condition,standard,glaucoma
+glaucoma,Glaucoma,condition,4217546,FALSE,Schwartz-Matsuo syndrome,SNOMED,glaucoma,reviewed_seed,Imported from master codelists,Condition,standard,glaucoma
+glaucoma,Glaucoma,condition,4231284,FALSE,Postoperative angle-closure glaucoma,SNOMED,glaucoma,reviewed_seed,Imported from master codelists,Condition,standard,glaucoma
+glaucoma,Glaucoma,condition,4232575,FALSE,Lens particle glaucoma,SNOMED,glaucoma,reviewed_seed,Imported from master codelists,Condition,standard,glaucoma
+glaucoma,Glaucoma,condition,4244668,FALSE,Glaucoma due to combination of mechanisms,SNOMED,glaucoma,reviewed_seed,Imported from master codelists,Condition,standard,glaucoma
+glaucoma,Glaucoma,condition,4282930,FALSE,Glaucoma due to perforating injury,SNOMED,glaucoma,reviewed_seed,Imported from master codelists,Condition,standard,glaucoma
+glaucoma,Glaucoma,condition,4306341,FALSE,Glaucoma drainage tube touching cornea,SNOMED,glaucoma,reviewed_seed,Imported from master codelists,Condition,standard,glaucoma
+glaucoma,Glaucoma,condition,4309250,FALSE,Glaucoma drainage tube in good position,SNOMED,glaucoma,reviewed_seed,Imported from master codelists,Condition,standard,glaucoma
+glaucoma,Glaucoma,condition,4309435,FALSE,Hemolytic glaucoma,SNOMED,glaucoma,reviewed_seed,Imported from master codelists,Condition,standard,glaucoma
+glaucoma,Glaucoma,condition,4309695,FALSE,Glaucoma drainage tube touching iris,SNOMED,glaucoma,reviewed_seed,Imported from master codelists,Condition,standard,glaucoma
+glaucoma,Glaucoma,condition,4311056,FALSE,Phacomorphic glaucoma,SNOMED,glaucoma,reviewed_seed,Imported from master codelists,Condition,standard,glaucoma
+glaucoma,Glaucoma,condition,4316071,FALSE,Secondary glaucoma due to combination mechanisms,SNOMED,glaucoma,reviewed_seed,Imported from master codelists,Condition,standard,glaucoma
+glaucoma,Glaucoma,condition,4316869,FALSE,Primary glaucoma due to combination of mechanisms,SNOMED,glaucoma,reviewed_seed,Imported from master codelists,Condition,standard,glaucoma
+glaucoma,Glaucoma,condition,4318691,FALSE,Secondary glaucoma,SNOMED,glaucoma,reviewed_seed,Imported from master codelists,Condition,standard,glaucoma
+glaucoma,Glaucoma,condition,4319579,FALSE,Glaucomatous retinal degeneration,SNOMED,glaucoma,reviewed_seed,Imported from master codelists,Condition,standard,glaucoma
+glaucoma,Glaucoma,condition,4334258,FALSE,Glaucoma and corneal anomaly,SNOMED,glaucoma,reviewed_seed,Imported from master codelists,Condition,standard,glaucoma
+glaucoma,Glaucoma,condition,4334259,FALSE,Neovascular angle closure glaucoma,SNOMED,glaucoma,reviewed_seed,Imported from master codelists,Condition,standard,glaucoma
+glaucoma,Glaucoma,condition,4334260,FALSE,Glaucoma with intraocular hemorrhage,SNOMED,glaucoma,reviewed_seed,Imported from master codelists,Condition,standard,glaucoma
+glaucoma,Glaucoma,condition,4335596,FALSE,Iatrogenic glaucoma,SNOMED,glaucoma,reviewed_seed,Imported from master codelists,Condition,standard,glaucoma
+glaucoma,Glaucoma,condition,4335597,FALSE,Iatrogenic angle-closure glaucoma,SNOMED,glaucoma,reviewed_seed,Imported from master codelists,Condition,standard,glaucoma
+glaucoma,Glaucoma,condition,4336012,FALSE,Ghost cell glaucoma,SNOMED,glaucoma,reviewed_seed,Imported from master codelists,Condition,standard,glaucoma
+glaucoma,Glaucoma,condition,36684635,FALSE,Pigmentary glaucoma of right eye,SNOMED,glaucoma,reviewed_seed,Imported from master codelists,Condition,standard,glaucoma
+glaucoma,Glaucoma,condition,36684647,FALSE,Low tension glaucoma of right eye,SNOMED,glaucoma,reviewed_seed,Imported from master codelists,Condition,standard,glaucoma
+glaucoma,Glaucoma,condition,36684668,FALSE,Anatomic narrow angle glaucoma of right eye,SNOMED,glaucoma,reviewed_seed,Imported from master codelists,Condition,standard,glaucoma
+glaucoma,Glaucoma,condition,36684699,FALSE,Pigmentary glaucoma of left eye,SNOMED,glaucoma,reviewed_seed,Imported from master codelists,Condition,standard,glaucoma
+glaucoma,Glaucoma,condition,36684712,FALSE,Low tension glaucoma of left eye,SNOMED,glaucoma,reviewed_seed,Imported from master codelists,Condition,standard,glaucoma
+glaucoma,Glaucoma,condition,36684734,FALSE,Anatomic narrow angle glaucoma of left eye,SNOMED,glaucoma,reviewed_seed,Imported from master codelists,Condition,standard,glaucoma
+glaucoma,Glaucoma,condition,36684765,FALSE,Bilateral pigmentary glaucoma of eyes,SNOMED,glaucoma,reviewed_seed,Imported from master codelists,Condition,standard,glaucoma
+glaucoma,Glaucoma,condition,36684774,FALSE,Bilateral low tension glaucoma of eyes,SNOMED,glaucoma,reviewed_seed,Imported from master codelists,Condition,standard,glaucoma
+glaucoma,Glaucoma,condition,36684794,FALSE,Bilateral eye anatomic narrow angle glaucoma,SNOMED,glaucoma,reviewed_seed,Imported from master codelists,Condition,standard,glaucoma
+glaucoma,Glaucoma,condition,36713123,FALSE,Acute angle-closure glaucoma of right eye,SNOMED,glaucoma,reviewed_seed,Imported from master codelists,Condition,standard,glaucoma
+glaucoma,Glaucoma,condition,36713124,FALSE,Absolute glaucoma right eye,SNOMED,glaucoma,reviewed_seed,Imported from master codelists,Condition,standard,glaucoma
+glaucoma,Glaucoma,condition,36713135,FALSE,Acute angle-closure glaucoma of left eye,SNOMED,glaucoma,reviewed_seed,Imported from master codelists,Condition,standard,glaucoma
+glaucoma,Glaucoma,condition,36713136,FALSE,Absolute glaucoma left eye,SNOMED,glaucoma,reviewed_seed,Imported from master codelists,Condition,standard,glaucoma
+glaucoma,Glaucoma,condition,36713152,FALSE,Bilateral acute angle-closure glaucoma,SNOMED,glaucoma,reviewed_seed,Imported from master codelists,Condition,standard,glaucoma
+glaucoma,Glaucoma,condition,36713153,FALSE,Bilateral absolute glaucoma,SNOMED,glaucoma,reviewed_seed,Imported from master codelists,Condition,standard,glaucoma
+glaucoma,Glaucoma,condition,36713858,FALSE,Cataract glaucoma syndrome,SNOMED,glaucoma,reviewed_seed,Imported from master codelists,Condition,standard,glaucoma
+glaucoma,Glaucoma,condition,36714658,FALSE,Glaucoma and sleep apnea syndrome,SNOMED,glaucoma,reviewed_seed,Imported from master codelists,Condition,standard,glaucoma
+glaucoma,Glaucoma,condition,36716058,FALSE,Open angle glaucoma of bilateral eyes caused by corticosteroid,SNOMED,glaucoma,reviewed_seed,Imported from master codelists,Condition,standard,glaucoma
+glaucoma,Glaucoma,condition,36716109,FALSE,Lowry MacLean syndrome,SNOMED,glaucoma,reviewed_seed,Imported from master codelists,Condition,standard,glaucoma
+glaucoma,Glaucoma,condition,36716344,FALSE,Open angle glaucoma of left eye caused by corticosteroid,SNOMED,glaucoma,reviewed_seed,Imported from master codelists,Condition,standard,glaucoma
+glaucoma,Glaucoma,condition,36716349,FALSE,Open angle glaucoma of right eye caused by corticosteroid,SNOMED,glaucoma,reviewed_seed,Imported from master codelists,Condition,standard,glaucoma
+glaucoma,Glaucoma,condition,36716442,FALSE,GEMSS syndrome,SNOMED,glaucoma,reviewed_seed,Imported from master codelists,Condition,standard,glaucoma
+glaucoma,Glaucoma,condition,37017221,FALSE,Neovascular glaucoma due to diabetes mellitus,SNOMED,glaucoma,reviewed_seed,Imported from master codelists,Condition,standard,glaucoma
+glaucoma,Glaucoma,condition,37018559,FALSE,Glaucoma caused by silicone oil,SNOMED,glaucoma,reviewed_seed,Imported from master codelists,Condition,standard,glaucoma
+glaucoma,Glaucoma,condition,37108932,FALSE,Bilateral angle-closure glaucoma,SNOMED,glaucoma,reviewed_seed,Imported from master codelists,Condition,standard,glaucoma
+glaucoma,Glaucoma,condition,37109699,FALSE,"Retinal degeneration, nanophthalmos, glaucoma syndrome",SNOMED,glaucoma,reviewed_seed,Imported from master codelists,Condition,standard,glaucoma
+glaucoma,Glaucoma,condition,37110062,FALSE,"Neonatal diabetes, congenital hypothyroidism, congenital glaucoma, hepatic fibrosis, polycystic kidney syndrome",SNOMED,glaucoma,reviewed_seed,Imported from master codelists,Condition,standard,glaucoma
+glaucoma,Glaucoma,condition,37116389,FALSE,Pseudoprogeria syndrome,SNOMED,glaucoma,reviewed_seed,Imported from master codelists,Condition,standard,glaucoma
+glaucoma,Glaucoma,condition,37116412,FALSE,"Aniridia, renal agenesis, psychomotor retardation syndrome",SNOMED,glaucoma,reviewed_seed,Imported from master codelists,Condition,standard,glaucoma
+glaucoma,Glaucoma,condition,37116561,FALSE,Conjunctival blebitis following glaucoma surgery,SNOMED,glaucoma,reviewed_seed,Imported from master codelists,Condition,standard,glaucoma
+glaucoma,Glaucoma,condition,37116562,FALSE,Disorder due to insertion of glaucoma drainage device,SNOMED,glaucoma,reviewed_seed,Imported from master codelists,Condition,standard,glaucoma
+glaucoma,Glaucoma,condition,37116656,FALSE,"Spastic paraplegia, glaucoma, intellectual disability syndrome",SNOMED,glaucoma,reviewed_seed,Imported from master codelists,Condition,standard,glaucoma
+glaucoma,Glaucoma,condition,37162626,FALSE,Neovascular glaucoma due to diabetes mellitus type 2,SNOMED,glaucoma,reviewed_seed,Imported from master codelists,Condition,standard,glaucoma
+glaucoma,Glaucoma,condition,37162627,FALSE,Neovascular glaucoma due to diabetes mellitus type 1,SNOMED,glaucoma,reviewed_seed,Imported from master codelists,Condition,standard,glaucoma
+glaucoma,Glaucoma,condition,37163695,FALSE,Dislodgement of plate due to and following glaucoma drainage surgery,SNOMED,glaucoma,reviewed_seed,Imported from master codelists,Condition,standard,glaucoma
+glaucoma,Glaucoma,condition,37163696,FALSE,Dislodgement of tube due to and following glaucoma drainage surgery,SNOMED,glaucoma,reviewed_seed,Imported from master codelists,Condition,standard,glaucoma
+glaucoma,Glaucoma,condition,37164517,FALSE,High pressure primary open-angle glaucoma,SNOMED,glaucoma,reviewed_seed,Imported from master codelists,Condition,standard,glaucoma
+glaucoma,Glaucoma,condition,37164535,FALSE,Glaucoma following ocular onchocerciasis,SNOMED,glaucoma,reviewed_seed,Imported from master codelists,Condition,standard,glaucoma
+glaucoma,Glaucoma,condition,37164536,FALSE,Glaucoma due to and following retinopathy of prematurity,SNOMED,glaucoma,reviewed_seed,Imported from master codelists,Condition,standard,glaucoma
+glaucoma,Glaucoma,condition,37166901,FALSE,Headache due to acute angle closure glaucoma,SNOMED,glaucoma,reviewed_seed,Imported from master codelists,Condition,standard,glaucoma
+glaucoma,Glaucoma,condition,37168639,FALSE,Drug-induced angle closure glaucoma,SNOMED,glaucoma,reviewed_seed,Imported from master codelists,Condition,standard,glaucoma
+glaucoma,Glaucoma,condition,37168640,FALSE,Secondary open angle glaucoma due to ocular surgery,SNOMED,glaucoma,reviewed_seed,Imported from master codelists,Condition,standard,glaucoma
+glaucoma,Glaucoma,condition,37168683,FALSE,Glaucoma drainage implant endophthalmitis,SNOMED,glaucoma,reviewed_seed,Imported from master codelists,Condition,standard,glaucoma
+glaucoma,Glaucoma,condition,37168757,FALSE,Neovascular glaucoma due to central retinal vein occlusion,SNOMED,glaucoma,reviewed_seed,Imported from master codelists,Condition,standard,glaucoma
+glaucoma,Glaucoma,condition,37168788,FALSE,Drug-induced open angle glaucoma,SNOMED,glaucoma,reviewed_seed,Imported from master codelists,Condition,standard,glaucoma
+glaucoma,Glaucoma,condition,37168789,FALSE,Drug-induced open angle glaucoma of right eye,SNOMED,glaucoma,reviewed_seed,Imported from master codelists,Condition,standard,glaucoma
+glaucoma,Glaucoma,condition,37168790,FALSE,Drug-induced open angle glaucoma of left eye,SNOMED,glaucoma,reviewed_seed,Imported from master codelists,Condition,standard,glaucoma
+glaucoma,Glaucoma,condition,37168791,FALSE,Drug-induced open angle glaucoma of bilateral eyes,SNOMED,glaucoma,reviewed_seed,Imported from master codelists,Condition,standard,glaucoma
+glaucoma,Glaucoma,condition,37168792,FALSE,Drug-induced angle closure glaucoma of right eye,SNOMED,glaucoma,reviewed_seed,Imported from master codelists,Condition,standard,glaucoma
+glaucoma,Glaucoma,condition,37168793,FALSE,Drug-induced angle closure glaucoma of left eye,SNOMED,glaucoma,reviewed_seed,Imported from master codelists,Condition,standard,glaucoma
+glaucoma,Glaucoma,condition,37168794,FALSE,Drug-induced angle closure glaucoma of bilateral eyes,SNOMED,glaucoma,reviewed_seed,Imported from master codelists,Condition,standard,glaucoma
+glaucoma,Glaucoma,condition,37171261,FALSE,Right secondary angle-closure glaucoma due to pupil block,SNOMED,glaucoma,reviewed_seed,Imported from master codelists,Condition,standard,glaucoma
+glaucoma,Glaucoma,condition,37171321,FALSE,Left secondary angle-closure glaucoma due to pupil block,SNOMED,glaucoma,reviewed_seed,Imported from master codelists,Condition,standard,glaucoma
+glaucoma,Glaucoma,condition,37171382,FALSE,Bilateral secondary angle-closure glaucoma due to pupil block,SNOMED,glaucoma,reviewed_seed,Imported from master codelists,Condition,standard,glaucoma
+glaucoma,Glaucoma,condition,37171419,FALSE,Bilateral aqueous humor misdirection of eyes,SNOMED,glaucoma,reviewed_seed,Imported from master codelists,Condition,standard,glaucoma
+glaucoma,Glaucoma,condition,37204003,FALSE,Open-angle glaucoma of left eye,SNOMED,glaucoma,reviewed_seed,Imported from master codelists,Condition,standard,glaucoma
+glaucoma,Glaucoma,condition,37204004,FALSE,Open-angle glaucoma of right eye,SNOMED,glaucoma,reviewed_seed,Imported from master codelists,Condition,standard,glaucoma
+glaucoma,Glaucoma,condition,37204543,FALSE,"Megalocornea, spherophakia, secondary glaucoma syndrome",SNOMED,glaucoma,reviewed_seed,Imported from master codelists,Condition,standard,glaucoma
+glaucoma,Glaucoma,condition,37207841,FALSE,Uveitic glaucoma of right eye,SNOMED,glaucoma,reviewed_seed,Imported from master codelists,Condition,standard,glaucoma
+glaucoma,Glaucoma,condition,37207851,FALSE,Pseudoexfoliation glaucoma of right eye,SNOMED,glaucoma,reviewed_seed,Imported from master codelists,Condition,standard,glaucoma
+glaucoma,Glaucoma,condition,37207901,FALSE,Uveitic glaucoma of left eye,SNOMED,glaucoma,reviewed_seed,Imported from master codelists,Condition,standard,glaucoma
+glaucoma,Glaucoma,condition,37207911,FALSE,Pseudoexfoliation glaucoma of left eye,SNOMED,glaucoma,reviewed_seed,Imported from master codelists,Condition,standard,glaucoma
+glaucoma,Glaucoma,condition,37207965,FALSE,Bilateral uveitic glaucoma of eyes,SNOMED,glaucoma,reviewed_seed,Imported from master codelists,Condition,standard,glaucoma
+glaucoma,Glaucoma,condition,37207972,FALSE,Bilateral pseudoexfoliation glaucoma of eyes,SNOMED,glaucoma,reviewed_seed,Imported from master codelists,Condition,standard,glaucoma
+glaucoma,Glaucoma,condition,37209015,FALSE,Secondary open angle glaucoma due to ocular trauma,SNOMED,glaucoma,reviewed_seed,Imported from master codelists,Condition,standard,glaucoma
+glaucoma,Glaucoma,condition,37209016,FALSE,Secondary open angle glaucoma due to neovascularization,SNOMED,glaucoma,reviewed_seed,Imported from master codelists,Condition,standard,glaucoma
+glaucoma,Glaucoma,condition,37209038,FALSE,Secondary angle closure glaucoma due to uveitis,SNOMED,glaucoma,reviewed_seed,Imported from master codelists,Condition,standard,glaucoma
+glaucoma,Glaucoma,condition,37209361,FALSE,Cupping of left optic disc due to open-angle glaucoma of left eye,SNOMED,glaucoma,reviewed_seed,Imported from master codelists,Condition,standard,glaucoma
+glaucoma,Glaucoma,condition,37209362,FALSE,Cupping of right optic disc due to open-angle glaucoma of right eye,SNOMED,glaucoma,reviewed_seed,Imported from master codelists,Condition,standard,glaucoma
+glaucoma,Glaucoma,condition,37310597,FALSE,Bilateral aphakic glaucoma,SNOMED,glaucoma,reviewed_seed,Imported from master codelists,Condition,standard,glaucoma
+glaucoma,Glaucoma,condition,37310598,FALSE,Aphakic glaucoma of left eye,SNOMED,glaucoma,reviewed_seed,Imported from master codelists,Condition,standard,glaucoma
+glaucoma,Glaucoma,condition,37310599,FALSE,Aphakic glaucoma of right eye,SNOMED,glaucoma,reviewed_seed,Imported from master codelists,Condition,standard,glaucoma
+glaucoma,Glaucoma,condition,37311905,FALSE,Normal pressure primary open-angle glaucoma,SNOMED,glaucoma,reviewed_seed,Imported from master codelists,Condition,standard,glaucoma
+glaucoma,Glaucoma,condition,37311950,FALSE,Glaucoma due to retinal detachment,SNOMED,glaucoma,reviewed_seed,Imported from master codelists,Condition,standard,glaucoma
+glaucoma,Glaucoma,condition,37311951,FALSE,Glaucoma due to intraocular neoplasm,SNOMED,glaucoma,reviewed_seed,Imported from master codelists,Condition,standard,glaucoma
+glaucoma,Glaucoma,condition,37311952,FALSE,Glaucoma due to eye inflammation,SNOMED,glaucoma,reviewed_seed,Imported from master codelists,Condition,standard,glaucoma
+glaucoma,Glaucoma,condition,37311953,FALSE,Glaucoma caused by contact lens,SNOMED,glaucoma,reviewed_seed,Imported from master codelists,Condition,standard,glaucoma
+glaucoma,Glaucoma,condition,37396373,FALSE,Microcornea with glaucoma and absent frontal sinus syndrome,SNOMED,glaucoma,reviewed_seed,Imported from master codelists,Condition,standard,glaucoma
+glaucoma,Glaucoma,condition,40403168,FALSE,Congenital glaucoma,SNOMED,glaucoma,reviewed_seed,Imported from master codelists,Condition,standard,glaucoma
+glaucoma,Glaucoma,condition,40481141,FALSE,Anatomical narrow angle glaucoma with borderline intraocular pressure,SNOMED,glaucoma,reviewed_seed,Imported from master codelists,Condition,standard,glaucoma
+glaucoma,Glaucoma,condition,42537442,FALSE,Cupping of optic disc due to open angle glaucoma,SNOMED,glaucoma,reviewed_seed,Imported from master codelists,Condition,standard,glaucoma
+glaucoma,Glaucoma,condition,42537550,FALSE,Cupping of optic discs of bilateral eyes due to open-angle glaucoma,SNOMED,glaucoma,reviewed_seed,Imported from master codelists,Condition,standard,glaucoma
+glaucoma,Glaucoma,condition,44782843,FALSE,Neovascular glaucoma due to hyphema,SNOMED,glaucoma,reviewed_seed,Imported from master codelists,Condition,standard,glaucoma
+glaucoma,Glaucoma,condition,45772019,FALSE,Glaucoma due to type 2 diabetes mellitus,SNOMED,glaucoma,reviewed_seed,Imported from master codelists,Condition,standard,glaucoma

@@ -1,98 +1,98 @@
-concept_id,concept_name,domain_id,vocabulary_id,standard_concept,condition,cohort_name,cohort_label,cohort_domain
-312327,Acute myocardial infarction,Condition,SNOMED,standard,acute mi,acute_mi_or_angina,Acute myocardial infarction or angina,condition
-319039,Acute posterior myocardial infarction,Condition,SNOMED,standard,acute mi,acute_mi_or_angina,Acute myocardial infarction or angina,condition
-434376,Acute myocardial infarction of anterior wall,Condition,SNOMED,standard,acute mi,acute_mi_or_angina,Acute myocardial infarction or angina,condition
-436706,Acute myocardial infarction of lateral wall,Condition,SNOMED,standard,acute mi,acute_mi_or_angina,Acute myocardial infarction or angina,condition
-438170,Acute myocardial infarction of inferior wall,Condition,SNOMED,standard,acute mi,acute_mi_or_angina,Acute myocardial infarction or angina,condition
-438172,Atrial septal defect due to and following acute myocardial infarction,Condition,SNOMED,standard,acute mi,acute_mi_or_angina,Acute myocardial infarction or angina,condition
-438438,Acute myocardial infarction of anterolateral wall,Condition,SNOMED,standard,acute mi,acute_mi_or_angina,Acute myocardial infarction or angina,condition
-438447,Acute myocardial infarction of inferolateral wall,Condition,SNOMED,standard,acute mi,acute_mi_or_angina,Acute myocardial infarction or angina,condition
-439693,True posterior myocardial infarction,Condition,SNOMED,standard,acute mi,acute_mi_or_angina,Acute myocardial infarction or angina,condition
-441579,Acute myocardial infarction of inferoposterior wall,Condition,SNOMED,standard,acute mi,acute_mi_or_angina,Acute myocardial infarction or angina,condition
-444406,Acute subendocardial infarction,Condition,SNOMED,standard,acute mi,acute_mi_or_angina,Acute myocardial infarction or angina,condition
-761736,Acute ST segment elevation myocardial infarction of anteroapical wall,Condition,SNOMED,standard,acute mi,acute_mi_or_angina,Acute myocardial infarction or angina,condition
-761737,Acute ST segment elevation myocardial infarction due to occlusion of circumflex coronary artery,Condition,SNOMED,non-standard,acute mi,acute_mi_or_angina,Acute myocardial infarction or angina,condition
-765132,Subendocardial myocardial infarction,Condition,SNOMED,standard,acute mi,acute_mi_or_angina,Acute myocardial infarction or angina,condition
-4030582,Postoperative myocardial infarction,Condition,SNOMED,standard,acute mi,acute_mi_or_angina,Acute myocardial infarction or angina,condition
-4051874,Acute myocardial infarction of posterolateral wall,Condition,SNOMED,standard,acute mi,acute_mi_or_angina,Acute myocardial infarction or angina,condition
-4108217,Subsequent myocardial infarction,Condition,SNOMED,standard,acute mi,acute_mi_or_angina,Acute myocardial infarction or angina,condition
-4108218,Subsequent myocardial infarction of inferior wall,Condition,SNOMED,standard,acute mi,acute_mi_or_angina,Acute myocardial infarction or angina,condition
-4108219,Rupture of chordae tendinae due to and following acute myocardial infarction,Condition,SNOMED,standard,acute mi,acute_mi_or_angina,Acute myocardial infarction or angina,condition
-4108669,Acute myocardial infarction of atrium,Condition,SNOMED,standard,acute mi,acute_mi_or_angina,Acute myocardial infarction or angina,condition
-4108677,Subsequent myocardial infarction of anterior wall,Condition,SNOMED,standard,acute mi,acute_mi_or_angina,Acute myocardial infarction or angina,condition
-4108678,Hemopericardium due to and following acute myocardial infarction,Condition,SNOMED,standard,acute mi,acute_mi_or_angina,Acute myocardial infarction or angina,condition
-4108679,Rupture of cardiac wall without hemopericardium as current complication following acute myocardial infarction,Condition,SNOMED,standard,acute mi,acute_mi_or_angina,Acute myocardial infarction or angina,condition
-4108680,"Thrombosis of atrium, auricular appendage, and ventricle due to and following acute myocardial infarction",Condition,SNOMED,standard,acute mi,acute_mi_or_angina,Acute myocardial infarction or angina,condition
-4119456,Acute non-Q wave infarction - anteroseptal,Condition,SNOMED,standard,acute mi,acute_mi_or_angina,Acute myocardial infarction or angina,condition
-4119457,Acute Q wave infarction - anterolateral,Condition,SNOMED,standard,acute mi,acute_mi_or_angina,Acute myocardial infarction or angina,condition
-4119943,Acute Q wave infarction - anteroseptal,Condition,SNOMED,standard,acute mi,acute_mi_or_angina,Acute myocardial infarction or angina,condition
-4119944,Acute non-Q wave infarction - anterolateral,Condition,SNOMED,standard,acute mi,acute_mi_or_angina,Acute myocardial infarction or angina,condition
-4119945,Acute non-Q wave infarction - inferior,Condition,SNOMED,standard,acute mi,acute_mi_or_angina,Acute myocardial infarction or angina,condition
-4119946,Acute non-Q wave infarction - inferolateral,Condition,SNOMED,standard,acute mi,acute_mi_or_angina,Acute myocardial infarction or angina,condition
-4119947,Acute widespread myocardial infarction,Condition,SNOMED,standard,acute mi,acute_mi_or_angina,Acute myocardial infarction or angina,condition
-4119948,Acute Q wave infarction - widespread,Condition,SNOMED,standard,acute mi,acute_mi_or_angina,Acute myocardial infarction or angina,condition
-4121464,Acute Q wave infarction - inferior,Condition,SNOMED,standard,acute mi,acute_mi_or_angina,Acute myocardial infarction or angina,condition
-4121465,Acute Q wave infarction - inferolateral,Condition,SNOMED,standard,acute mi,acute_mi_or_angina,Acute myocardial infarction or angina,condition
-4121466,Acute non-Q wave infarction - lateral,Condition,SNOMED,standard,acute mi,acute_mi_or_angina,Acute myocardial infarction or angina,condition
-4124684,Acute Q wave infarction - lateral,Condition,SNOMED,standard,acute mi,acute_mi_or_angina,Acute myocardial infarction or angina,condition
-4124685,Acute non-Q wave infarction - widespread,Condition,SNOMED,standard,acute mi,acute_mi_or_angina,Acute myocardial infarction or angina,condition
-4124686,Silent myocardial infarction,Condition,SNOMED,standard,acute mi,acute_mi_or_angina,Acute myocardial infarction or angina,condition
-4124687,Cardiac rupture due to and following acute myocardial infarction,Condition,SNOMED,standard,acute mi,acute_mi_or_angina,Acute myocardial infarction or angina,condition
-4126801,Acute Q wave myocardial infarction,Condition,SNOMED,standard,acute mi,acute_mi_or_angina,Acute myocardial infarction or angina,condition
-4145721,Acute non-Q wave infarction,Condition,SNOMED,standard,acute mi,acute_mi_or_angina,Acute myocardial infarction or angina,condition
-4147223,Rupture of ventricle due to acute myocardial infarction,Condition,SNOMED,standard,acute mi,acute_mi_or_angina,Acute myocardial infarction or angina,condition
-4151046,Acute myocardial infarction of basal-lateral wall,Condition,SNOMED,non-standard,acute mi,acute_mi_or_angina,Acute myocardial infarction or angina,condition
-4154704,Myocardial infarction with complication,Condition,SNOMED,non-standard,acute mi,acute_mi_or_angina,Acute myocardial infarction or angina,condition
-4170094,Myocardial infarction in recovery phase,Condition,SNOMED,standard,acute mi,acute_mi_or_angina,Acute myocardial infarction or angina,condition
-4173632,Microinfarct of heart,Condition,SNOMED,standard,acute mi,acute_mi_or_angina,Acute myocardial infarction or angina,condition
-4178129,Acute anteroapical myocardial infarction,Condition,SNOMED,standard,acute mi,acute_mi_or_angina,Acute myocardial infarction or angina,condition
-4200113,Non-Q wave myocardial infarction,Condition,SNOMED,standard,acute mi,acute_mi_or_angina,Acute myocardial infarction or angina,condition
-4206867,Postoperative subendocardial myocardial infarction,Condition,SNOMED,standard,acute mi,acute_mi_or_angina,Acute myocardial infarction or angina,condition
-4207921,Postoperative transmural myocardial infarction of anterior wall,Condition,SNOMED,standard,acute mi,acute_mi_or_angina,Acute myocardial infarction or angina,condition
-4209541,Postoperative transmural myocardial infarction of inferior wall,Condition,SNOMED,standard,acute mi,acute_mi_or_angina,Acute myocardial infarction or angina,condition
-4215259,First myocardial infarction,Condition,SNOMED,standard,acute mi,acute_mi_or_angina,Acute myocardial infarction or angina,condition
-4243372,Acute myocardial infarction of apical-lateral wall,Condition,SNOMED,standard,acute mi,acute_mi_or_angina,Acute myocardial infarction or angina,condition
-4267568,Acute anteroseptal myocardial infarction,Condition,SNOMED,standard,acute mi,acute_mi_or_angina,Acute myocardial infarction or angina,condition
-4270024,Acute non-ST segment elevation myocardial infarction,Condition,SNOMED,standard,acute mi,acute_mi_or_angina,Acute myocardial infarction or angina,condition
-4275436,Acute myocardial infarction of high lateral wall,Condition,SNOMED,standard,acute mi,acute_mi_or_angina,Acute myocardial infarction or angina,condition
-4296653,Acute ST segment elevation myocardial infarction,Condition,SNOMED,standard,acute mi,acute_mi_or_angina,Acute myocardial infarction or angina,condition
-4303359,Acute myocardial infarction of septum,Condition,SNOMED,standard,acute mi,acute_mi_or_angina,Acute myocardial infarction or angina,condition
-4323202,Mixed myocardial ischemia and infarction,Condition,SNOMED,standard,acute mi,acute_mi_or_angina,Acute myocardial infarction or angina,condition
-4324413,Acute myocardial infarction of posterobasal wall,Condition,SNOMED,standard,acute mi,acute_mi_or_angina,Acute myocardial infarction or angina,condition
-4329847,Myocardial infarction,Condition,SNOMED,standard,acute mi,acute_mi_or_angina,Acute myocardial infarction or angina,condition
-35610087,Postoperative nontransmural myocardial infarction,Condition,SNOMED,standard,acute mi,acute_mi_or_angina,Acute myocardial infarction or angina,condition
-35610089,Postoperative transmural myocardial infarction,Condition,SNOMED,standard,acute mi,acute_mi_or_angina,Acute myocardial infarction or angina,condition
-35610091,Acute nontransmural myocardial infarction,Condition,SNOMED,standard,acute mi,acute_mi_or_angina,Acute myocardial infarction or angina,condition
-35610093,Acute transmural myocardial infarction,Condition,SNOMED,standard,acute mi,acute_mi_or_angina,Acute myocardial infarction or angina,condition
-35611570,Acute ST segment elevation myocardial infarction of inferolateral wall,Condition,SNOMED,standard,acute mi,acute_mi_or_angina,Acute myocardial infarction or angina,condition
-35611571,Acute ST segment elevation myocardial infarction of inferoposterior wall,Condition,SNOMED,standard,acute mi,acute_mi_or_angina,Acute myocardial infarction or angina,condition
-37109910,Ventricular aneurysm due to and following acute myocardial infarction,Condition,SNOMED,standard,acute mi,acute_mi_or_angina,Acute myocardial infarction or angina,condition
-37109911,Pulmonary embolism due to and following acute myocardial infarction,Condition,SNOMED,standard,acute mi,acute_mi_or_angina,Acute myocardial infarction or angina,condition
-37109912,Arrhythmia due to and following acute myocardial infarction,Condition,SNOMED,standard,acute mi,acute_mi_or_angina,Acute myocardial infarction or angina,condition
-37309626,Myocardial infarction due to demand ischemia,Condition,SNOMED,standard,acute mi,acute_mi_or_angina,Acute myocardial infarction or angina,condition
-43020460,Acute ST segment elevation myocardial infarction involving left anterior descending coronary artery,Condition,SNOMED,standard,acute mi,acute_mi_or_angina,Acute myocardial infarction or angina,condition
-44782712,Acute myocardial infarction due to right coronary artery occlusion,Condition,SNOMED,standard,acute mi,acute_mi_or_angina,Acute myocardial infarction or angina,condition
-44782769,Acute myocardial infarction due to left coronary artery occlusion,Condition,SNOMED,standard,acute mi,acute_mi_or_angina,Acute myocardial infarction or angina,condition
-45766075,Acute anterior ST segment elevation myocardial infarction,Condition,SNOMED,standard,acute mi,acute_mi_or_angina,Acute myocardial infarction or angina,condition
-45766076,Acute ST segment elevation myocardial infarction of anterior wall involving right ventricle,Condition,SNOMED,standard,acute mi,acute_mi_or_angina,Acute myocardial infarction or angina,condition
-45766113,Subsequent ST segment elevation myocardial infarction of anterior wall,Condition,SNOMED,standard,acute mi,acute_mi_or_angina,Acute myocardial infarction or angina,condition
-45766114,Subsequent ST segment elevation myocardial infarction,Condition,SNOMED,standard,acute mi,acute_mi_or_angina,Acute myocardial infarction or angina,condition
-45766115,Acute myocardial infarction during procedure,Condition,SNOMED,standard,acute mi,acute_mi_or_angina,Acute myocardial infarction or angina,condition
-45766116,Acute ST segment elevation myocardial infarction of inferior wall,Condition,SNOMED,standard,acute mi,acute_mi_or_angina,Acute myocardial infarction or angina,condition
-45766150,Acute myocardial infarction of anterior wall involving right ventricle,Condition,SNOMED,standard,acute mi,acute_mi_or_angina,Acute myocardial infarction or angina,condition
-45766151,Acute ST segment elevation myocardial infarction of inferior wall involving right ventricle,Condition,SNOMED,standard,acute mi,acute_mi_or_angina,Acute myocardial infarction or angina,condition
-45766212,Mitral valve regurgitation due to and following acute myocardial infarction,Condition,SNOMED,non-standard,acute mi,acute_mi_or_angina,Acute myocardial infarction or angina,condition
-45766214,Mitral valve regurgitation due to acute myocardial infarction without papillary muscle and chordal rupture,Condition,SNOMED,standard,acute mi,acute_mi_or_angina,Acute myocardial infarction or angina,condition
-45766241,Subsequent non-ST segment elevation myocardial infarction,Condition,SNOMED,standard,acute mi,acute_mi_or_angina,Acute myocardial infarction or angina,condition
-45771322,Acute myocardial infarction of inferior wall involving right ventricle,Condition,SNOMED,standard,acute mi,acute_mi_or_angina,Acute myocardial infarction or angina,condition
-45771327,Mitral valve regurgitation due to acute myocardial infarction with papillary muscle and chordal rupture,Condition,SNOMED,standard,acute mi,acute_mi_or_angina,Acute myocardial infarction or angina,condition
-45773170,Subsequent ST segment elevation myocardial infarction of inferior wall,Condition,SNOMED,standard,acute mi,acute_mi_or_angina,Acute myocardial infarction or angina,condition
-46270158,Acute ST segment elevation myocardial infarction of posterolateral wall,Condition,SNOMED,standard,acute mi,acute_mi_or_angina,Acute myocardial infarction or angina,condition
-46270159,Acute ST segment elevation myocardial infarction of anterolateral wall,Condition,SNOMED,standard,acute mi,acute_mi_or_angina,Acute myocardial infarction or angina,condition
-46270160,Acute ST segment elevation myocardial infarction of anteroseptal wall,Condition,SNOMED,standard,acute mi,acute_mi_or_angina,Acute myocardial infarction or angina,condition
-46270161,Acute ST segment elevation myocardial infarction of posterior wall,Condition,SNOMED,standard,acute mi,acute_mi_or_angina,Acute myocardial infarction or angina,condition
-46270162,Acute ST segment elevation myocardial infarction due to left coronary artery occlusion,Condition,SNOMED,standard,acute mi,acute_mi_or_angina,Acute myocardial infarction or angina,condition
-46270163,Acute ST segment elevation myocardial infarction due to right coronary artery occlusion,Condition,SNOMED,standard,acute mi,acute_mi_or_angina,Acute myocardial infarction or angina,condition
-46270164,Acute ST segment elevation myocardial infarction of septum,Condition,SNOMED,standard,acute mi,acute_mi_or_angina,Acute myocardial infarction or angina,condition
-46273495,Acute ST segment elevation myocardial infarction of posterobasal wall,Condition,SNOMED,standard,acute mi,acute_mi_or_angina,Acute myocardial infarction or angina,condition
-46274044,Acute ST segment elevation myocardial infarction of lateral wall,Condition,SNOMED,standard,acute mi,acute_mi_or_angina,Acute myocardial infarction or angina,condition
+cohort_name,cohort_label,cohort_domain,concept_id,include_descendants,concept_name,vocabulary_id,concept_code,review_status,phenotype_note,domain_id,standard_concept,condition
+acute_mi_or_angina,Acute myocardial infarction or angina,condition,312327,FALSE,Acute myocardial infarction,SNOMED,acute mi,reviewed_seed,Imported from master codelists,Condition,standard,acute mi
+acute_mi_or_angina,Acute myocardial infarction or angina,condition,319039,FALSE,Acute posterior myocardial infarction,SNOMED,acute mi,reviewed_seed,Imported from master codelists,Condition,standard,acute mi
+acute_mi_or_angina,Acute myocardial infarction or angina,condition,434376,FALSE,Acute myocardial infarction of anterior wall,SNOMED,acute mi,reviewed_seed,Imported from master codelists,Condition,standard,acute mi
+acute_mi_or_angina,Acute myocardial infarction or angina,condition,436706,FALSE,Acute myocardial infarction of lateral wall,SNOMED,acute mi,reviewed_seed,Imported from master codelists,Condition,standard,acute mi
+acute_mi_or_angina,Acute myocardial infarction or angina,condition,438170,FALSE,Acute myocardial infarction of inferior wall,SNOMED,acute mi,reviewed_seed,Imported from master codelists,Condition,standard,acute mi
+acute_mi_or_angina,Acute myocardial infarction or angina,condition,438172,FALSE,Atrial septal defect due to and following acute myocardial infarction,SNOMED,acute mi,reviewed_seed,Imported from master codelists,Condition,standard,acute mi
+acute_mi_or_angina,Acute myocardial infarction or angina,condition,438438,FALSE,Acute myocardial infarction of anterolateral wall,SNOMED,acute mi,reviewed_seed,Imported from master codelists,Condition,standard,acute mi
+acute_mi_or_angina,Acute myocardial infarction or angina,condition,438447,FALSE,Acute myocardial infarction of inferolateral wall,SNOMED,acute mi,reviewed_seed,Imported from master codelists,Condition,standard,acute mi
+acute_mi_or_angina,Acute myocardial infarction or angina,condition,439693,FALSE,True posterior myocardial infarction,SNOMED,acute mi,reviewed_seed,Imported from master codelists,Condition,standard,acute mi
+acute_mi_or_angina,Acute myocardial infarction or angina,condition,441579,FALSE,Acute myocardial infarction of inferoposterior wall,SNOMED,acute mi,reviewed_seed,Imported from master codelists,Condition,standard,acute mi
+acute_mi_or_angina,Acute myocardial infarction or angina,condition,444406,FALSE,Acute subendocardial infarction,SNOMED,acute mi,reviewed_seed,Imported from master codelists,Condition,standard,acute mi
+acute_mi_or_angina,Acute myocardial infarction or angina,condition,761736,FALSE,Acute ST segment elevation myocardial infarction of anteroapical wall,SNOMED,acute mi,reviewed_seed,Imported from master codelists,Condition,standard,acute mi
+acute_mi_or_angina,Acute myocardial infarction or angina,condition,761737,FALSE,Acute ST segment elevation myocardial infarction due to occlusion of circumflex coronary artery,SNOMED,acute mi,reviewed_seed,Imported from master codelists,Condition,non-standard,acute mi
+acute_mi_or_angina,Acute myocardial infarction or angina,condition,765132,FALSE,Subendocardial myocardial infarction,SNOMED,acute mi,reviewed_seed,Imported from master codelists,Condition,standard,acute mi
+acute_mi_or_angina,Acute myocardial infarction or angina,condition,4030582,FALSE,Postoperative myocardial infarction,SNOMED,acute mi,reviewed_seed,Imported from master codelists,Condition,standard,acute mi
+acute_mi_or_angina,Acute myocardial infarction or angina,condition,4051874,FALSE,Acute myocardial infarction of posterolateral wall,SNOMED,acute mi,reviewed_seed,Imported from master codelists,Condition,standard,acute mi
+acute_mi_or_angina,Acute myocardial infarction or angina,condition,4108217,FALSE,Subsequent myocardial infarction,SNOMED,acute mi,reviewed_seed,Imported from master codelists,Condition,standard,acute mi
+acute_mi_or_angina,Acute myocardial infarction or angina,condition,4108218,FALSE,Subsequent myocardial infarction of inferior wall,SNOMED,acute mi,reviewed_seed,Imported from master codelists,Condition,standard,acute mi
+acute_mi_or_angina,Acute myocardial infarction or angina,condition,4108219,FALSE,Rupture of chordae tendinae due to and following acute myocardial infarction,SNOMED,acute mi,reviewed_seed,Imported from master codelists,Condition,standard,acute mi
+acute_mi_or_angina,Acute myocardial infarction or angina,condition,4108669,FALSE,Acute myocardial infarction of atrium,SNOMED,acute mi,reviewed_seed,Imported from master codelists,Condition,standard,acute mi
+acute_mi_or_angina,Acute myocardial infarction or angina,condition,4108677,FALSE,Subsequent myocardial infarction of anterior wall,SNOMED,acute mi,reviewed_seed,Imported from master codelists,Condition,standard,acute mi
+acute_mi_or_angina,Acute myocardial infarction or angina,condition,4108678,FALSE,Hemopericardium due to and following acute myocardial infarction,SNOMED,acute mi,reviewed_seed,Imported from master codelists,Condition,standard,acute mi
+acute_mi_or_angina,Acute myocardial infarction or angina,condition,4108679,FALSE,Rupture of cardiac wall without hemopericardium as current complication following acute myocardial infarction,SNOMED,acute mi,reviewed_seed,Imported from master codelists,Condition,standard,acute mi
+acute_mi_or_angina,Acute myocardial infarction or angina,condition,4108680,FALSE,"Thrombosis of atrium, auricular appendage, and ventricle due to and following acute myocardial infarction",SNOMED,acute mi,reviewed_seed,Imported from master codelists,Condition,standard,acute mi
+acute_mi_or_angina,Acute myocardial infarction or angina,condition,4119456,FALSE,Acute non-Q wave infarction - anteroseptal,SNOMED,acute mi,reviewed_seed,Imported from master codelists,Condition,standard,acute mi
+acute_mi_or_angina,Acute myocardial infarction or angina,condition,4119457,FALSE,Acute Q wave infarction - anterolateral,SNOMED,acute mi,reviewed_seed,Imported from master codelists,Condition,standard,acute mi
+acute_mi_or_angina,Acute myocardial infarction or angina,condition,4119943,FALSE,Acute Q wave infarction - anteroseptal,SNOMED,acute mi,reviewed_seed,Imported from master codelists,Condition,standard,acute mi
+acute_mi_or_angina,Acute myocardial infarction or angina,condition,4119944,FALSE,Acute non-Q wave infarction - anterolateral,SNOMED,acute mi,reviewed_seed,Imported from master codelists,Condition,standard,acute mi
+acute_mi_or_angina,Acute myocardial infarction or angina,condition,4119945,FALSE,Acute non-Q wave infarction - inferior,SNOMED,acute mi,reviewed_seed,Imported from master codelists,Condition,standard,acute mi
+acute_mi_or_angina,Acute myocardial infarction or angina,condition,4119946,FALSE,Acute non-Q wave infarction - inferolateral,SNOMED,acute mi,reviewed_seed,Imported from master codelists,Condition,standard,acute mi
+acute_mi_or_angina,Acute myocardial infarction or angina,condition,4119947,FALSE,Acute widespread myocardial infarction,SNOMED,acute mi,reviewed_seed,Imported from master codelists,Condition,standard,acute mi
+acute_mi_or_angina,Acute myocardial infarction or angina,condition,4119948,FALSE,Acute Q wave infarction - widespread,SNOMED,acute mi,reviewed_seed,Imported from master codelists,Condition,standard,acute mi
+acute_mi_or_angina,Acute myocardial infarction or angina,condition,4121464,FALSE,Acute Q wave infarction - inferior,SNOMED,acute mi,reviewed_seed,Imported from master codelists,Condition,standard,acute mi
+acute_mi_or_angina,Acute myocardial infarction or angina,condition,4121465,FALSE,Acute Q wave infarction - inferolateral,SNOMED,acute mi,reviewed_seed,Imported from master codelists,Condition,standard,acute mi
+acute_mi_or_angina,Acute myocardial infarction or angina,condition,4121466,FALSE,Acute non-Q wave infarction - lateral,SNOMED,acute mi,reviewed_seed,Imported from master codelists,Condition,standard,acute mi
+acute_mi_or_angina,Acute myocardial infarction or angina,condition,4124684,FALSE,Acute Q wave infarction - lateral,SNOMED,acute mi,reviewed_seed,Imported from master codelists,Condition,standard,acute mi
+acute_mi_or_angina,Acute myocardial infarction or angina,condition,4124685,FALSE,Acute non-Q wave infarction - widespread,SNOMED,acute mi,reviewed_seed,Imported from master codelists,Condition,standard,acute mi
+acute_mi_or_angina,Acute myocardial infarction or angina,condition,4124686,FALSE,Silent myocardial infarction,SNOMED,acute mi,reviewed_seed,Imported from master codelists,Condition,standard,acute mi
+acute_mi_or_angina,Acute myocardial infarction or angina,condition,4124687,FALSE,Cardiac rupture due to and following acute myocardial infarction,SNOMED,acute mi,reviewed_seed,Imported from master codelists,Condition,standard,acute mi
+acute_mi_or_angina,Acute myocardial infarction or angina,condition,4126801,FALSE,Acute Q wave myocardial infarction,SNOMED,acute mi,reviewed_seed,Imported from master codelists,Condition,standard,acute mi
+acute_mi_or_angina,Acute myocardial infarction or angina,condition,4145721,FALSE,Acute non-Q wave infarction,SNOMED,acute mi,reviewed_seed,Imported from master codelists,Condition,standard,acute mi
+acute_mi_or_angina,Acute myocardial infarction or angina,condition,4147223,FALSE,Rupture of ventricle due to acute myocardial infarction,SNOMED,acute mi,reviewed_seed,Imported from master codelists,Condition,standard,acute mi
+acute_mi_or_angina,Acute myocardial infarction or angina,condition,4151046,FALSE,Acute myocardial infarction of basal-lateral wall,SNOMED,acute mi,reviewed_seed,Imported from master codelists,Condition,non-standard,acute mi
+acute_mi_or_angina,Acute myocardial infarction or angina,condition,4154704,FALSE,Myocardial infarction with complication,SNOMED,acute mi,reviewed_seed,Imported from master codelists,Condition,non-standard,acute mi
+acute_mi_or_angina,Acute myocardial infarction or angina,condition,4170094,FALSE,Myocardial infarction in recovery phase,SNOMED,acute mi,reviewed_seed,Imported from master codelists,Condition,standard,acute mi
+acute_mi_or_angina,Acute myocardial infarction or angina,condition,4173632,FALSE,Microinfarct of heart,SNOMED,acute mi,reviewed_seed,Imported from master codelists,Condition,standard,acute mi
+acute_mi_or_angina,Acute myocardial infarction or angina,condition,4178129,FALSE,Acute anteroapical myocardial infarction,SNOMED,acute mi,reviewed_seed,Imported from master codelists,Condition,standard,acute mi
+acute_mi_or_angina,Acute myocardial infarction or angina,condition,4200113,FALSE,Non-Q wave myocardial infarction,SNOMED,acute mi,reviewed_seed,Imported from master codelists,Condition,standard,acute mi
+acute_mi_or_angina,Acute myocardial infarction or angina,condition,4206867,FALSE,Postoperative subendocardial myocardial infarction,SNOMED,acute mi,reviewed_seed,Imported from master codelists,Condition,standard,acute mi
+acute_mi_or_angina,Acute myocardial infarction or angina,condition,4207921,FALSE,Postoperative transmural myocardial infarction of anterior wall,SNOMED,acute mi,reviewed_seed,Imported from master codelists,Condition,standard,acute mi
+acute_mi_or_angina,Acute myocardial infarction or angina,condition,4209541,FALSE,Postoperative transmural myocardial infarction of inferior wall,SNOMED,acute mi,reviewed_seed,Imported from master codelists,Condition,standard,acute mi
+acute_mi_or_angina,Acute myocardial infarction or angina,condition,4215259,FALSE,First myocardial infarction,SNOMED,acute mi,reviewed_seed,Imported from master codelists,Condition,standard,acute mi
+acute_mi_or_angina,Acute myocardial infarction or angina,condition,4243372,FALSE,Acute myocardial infarction of apical-lateral wall,SNOMED,acute mi,reviewed_seed,Imported from master codelists,Condition,standard,acute mi
+acute_mi_or_angina,Acute myocardial infarction or angina,condition,4267568,FALSE,Acute anteroseptal myocardial infarction,SNOMED,acute mi,reviewed_seed,Imported from master codelists,Condition,standard,acute mi
+acute_mi_or_angina,Acute myocardial infarction or angina,condition,4270024,FALSE,Acute non-ST segment elevation myocardial infarction,SNOMED,acute mi,reviewed_seed,Imported from master codelists,Condition,standard,acute mi
+acute_mi_or_angina,Acute myocardial infarction or angina,condition,4275436,FALSE,Acute myocardial infarction of high lateral wall,SNOMED,acute mi,reviewed_seed,Imported from master codelists,Condition,standard,acute mi
+acute_mi_or_angina,Acute myocardial infarction or angina,condition,4296653,FALSE,Acute ST segment elevation myocardial infarction,SNOMED,acute mi,reviewed_seed,Imported from master codelists,Condition,standard,acute mi
+acute_mi_or_angina,Acute myocardial infarction or angina,condition,4303359,FALSE,Acute myocardial infarction of septum,SNOMED,acute mi,reviewed_seed,Imported from master codelists,Condition,standard,acute mi
+acute_mi_or_angina,Acute myocardial infarction or angina,condition,4323202,FALSE,Mixed myocardial ischemia and infarction,SNOMED,acute mi,reviewed_seed,Imported from master codelists,Condition,standard,acute mi
+acute_mi_or_angina,Acute myocardial infarction or angina,condition,4324413,FALSE,Acute myocardial infarction of posterobasal wall,SNOMED,acute mi,reviewed_seed,Imported from master codelists,Condition,standard,acute mi
+acute_mi_or_angina,Acute myocardial infarction or angina,condition,4329847,FALSE,Myocardial infarction,SNOMED,acute mi,reviewed_seed,Imported from master codelists,Condition,standard,acute mi
+acute_mi_or_angina,Acute myocardial infarction or angina,condition,35610087,FALSE,Postoperative nontransmural myocardial infarction,SNOMED,acute mi,reviewed_seed,Imported from master codelists,Condition,standard,acute mi
+acute_mi_or_angina,Acute myocardial infarction or angina,condition,35610089,FALSE,Postoperative transmural myocardial infarction,SNOMED,acute mi,reviewed_seed,Imported from master codelists,Condition,standard,acute mi
+acute_mi_or_angina,Acute myocardial infarction or angina,condition,35610091,FALSE,Acute nontransmural myocardial infarction,SNOMED,acute mi,reviewed_seed,Imported from master codelists,Condition,standard,acute mi
+acute_mi_or_angina,Acute myocardial infarction or angina,condition,35610093,FALSE,Acute transmural myocardial infarction,SNOMED,acute mi,reviewed_seed,Imported from master codelists,Condition,standard,acute mi
+acute_mi_or_angina,Acute myocardial infarction or angina,condition,35611570,FALSE,Acute ST segment elevation myocardial infarction of inferolateral wall,SNOMED,acute mi,reviewed_seed,Imported from master codelists,Condition,standard,acute mi
+acute_mi_or_angina,Acute myocardial infarction or angina,condition,35611571,FALSE,Acute ST segment elevation myocardial infarction of inferoposterior wall,SNOMED,acute mi,reviewed_seed,Imported from master codelists,Condition,standard,acute mi
+acute_mi_or_angina,Acute myocardial infarction or angina,condition,37109910,FALSE,Ventricular aneurysm due to and following acute myocardial infarction,SNOMED,acute mi,reviewed_seed,Imported from master codelists,Condition,standard,acute mi
+acute_mi_or_angina,Acute myocardial infarction or angina,condition,37109911,FALSE,Pulmonary embolism due to and following acute myocardial infarction,SNOMED,acute mi,reviewed_seed,Imported from master codelists,Condition,standard,acute mi
+acute_mi_or_angina,Acute myocardial infarction or angina,condition,37109912,FALSE,Arrhythmia due to and following acute myocardial infarction,SNOMED,acute mi,reviewed_seed,Imported from master codelists,Condition,standard,acute mi
+acute_mi_or_angina,Acute myocardial infarction or angina,condition,37309626,FALSE,Myocardial infarction due to demand ischemia,SNOMED,acute mi,reviewed_seed,Imported from master codelists,Condition,standard,acute mi
+acute_mi_or_angina,Acute myocardial infarction or angina,condition,43020460,FALSE,Acute ST segment elevation myocardial infarction involving left anterior descending coronary artery,SNOMED,acute mi,reviewed_seed,Imported from master codelists,Condition,standard,acute mi
+acute_mi_or_angina,Acute myocardial infarction or angina,condition,44782712,FALSE,Acute myocardial infarction due to right coronary artery occlusion,SNOMED,acute mi,reviewed_seed,Imported from master codelists,Condition,standard,acute mi
+acute_mi_or_angina,Acute myocardial infarction or angina,condition,44782769,FALSE,Acute myocardial infarction due to left coronary artery occlusion,SNOMED,acute mi,reviewed_seed,Imported from master codelists,Condition,standard,acute mi
+acute_mi_or_angina,Acute myocardial infarction or angina,condition,45766075,FALSE,Acute anterior ST segment elevation myocardial infarction,SNOMED,acute mi,reviewed_seed,Imported from master codelists,Condition,standard,acute mi
+acute_mi_or_angina,Acute myocardial infarction or angina,condition,45766076,FALSE,Acute ST segment elevation myocardial infarction of anterior wall involving right ventricle,SNOMED,acute mi,reviewed_seed,Imported from master codelists,Condition,standard,acute mi
+acute_mi_or_angina,Acute myocardial infarction or angina,condition,45766113,FALSE,Subsequent ST segment elevation myocardial infarction of anterior wall,SNOMED,acute mi,reviewed_seed,Imported from master codelists,Condition,standard,acute mi
+acute_mi_or_angina,Acute myocardial infarction or angina,condition,45766114,FALSE,Subsequent ST segment elevation myocardial infarction,SNOMED,acute mi,reviewed_seed,Imported from master codelists,Condition,standard,acute mi
+acute_mi_or_angina,Acute myocardial infarction or angina,condition,45766115,FALSE,Acute myocardial infarction during procedure,SNOMED,acute mi,reviewed_seed,Imported from master codelists,Condition,standard,acute mi
+acute_mi_or_angina,Acute myocardial infarction or angina,condition,45766116,FALSE,Acute ST segment elevation myocardial infarction of inferior wall,SNOMED,acute mi,reviewed_seed,Imported from master codelists,Condition,standard,acute mi
+acute_mi_or_angina,Acute myocardial infarction or angina,condition,45766150,FALSE,Acute myocardial infarction of anterior wall involving right ventricle,SNOMED,acute mi,reviewed_seed,Imported from master codelists,Condition,standard,acute mi
+acute_mi_or_angina,Acute myocardial infarction or angina,condition,45766151,FALSE,Acute ST segment elevation myocardial infarction of inferior wall involving right ventricle,SNOMED,acute mi,reviewed_seed,Imported from master codelists,Condition,standard,acute mi
+acute_mi_or_angina,Acute myocardial infarction or angina,condition,45766212,FALSE,Mitral valve regurgitation due to and following acute myocardial infarction,SNOMED,acute mi,reviewed_seed,Imported from master codelists,Condition,non-standard,acute mi
+acute_mi_or_angina,Acute myocardial infarction or angina,condition,45766214,FALSE,Mitral valve regurgitation due to acute myocardial infarction without papillary muscle and chordal rupture,SNOMED,acute mi,reviewed_seed,Imported from master codelists,Condition,standard,acute mi
+acute_mi_or_angina,Acute myocardial infarction or angina,condition,45766241,FALSE,Subsequent non-ST segment elevation myocardial infarction,SNOMED,acute mi,reviewed_seed,Imported from master codelists,Condition,standard,acute mi
+acute_mi_or_angina,Acute myocardial infarction or angina,condition,45771322,FALSE,Acute myocardial infarction of inferior wall involving right ventricle,SNOMED,acute mi,reviewed_seed,Imported from master codelists,Condition,standard,acute mi
+acute_mi_or_angina,Acute myocardial infarction or angina,condition,45771327,FALSE,Mitral valve regurgitation due to acute myocardial infarction with papillary muscle and chordal rupture,SNOMED,acute mi,reviewed_seed,Imported from master codelists,Condition,standard,acute mi
+acute_mi_or_angina,Acute myocardial infarction or angina,condition,45773170,FALSE,Subsequent ST segment elevation myocardial infarction of inferior wall,SNOMED,acute mi,reviewed_seed,Imported from master codelists,Condition,standard,acute mi
+acute_mi_or_angina,Acute myocardial infarction or angina,condition,46270158,FALSE,Acute ST segment elevation myocardial infarction of posterolateral wall,SNOMED,acute mi,reviewed_seed,Imported from master codelists,Condition,standard,acute mi
+acute_mi_or_angina,Acute myocardial infarction or angina,condition,46270159,FALSE,Acute ST segment elevation myocardial infarction of anterolateral wall,SNOMED,acute mi,reviewed_seed,Imported from master codelists,Condition,standard,acute mi
+acute_mi_or_angina,Acute myocardial infarction or angina,condition,46270160,FALSE,Acute ST segment elevation myocardial infarction of anteroseptal wall,SNOMED,acute mi,reviewed_seed,Imported from master codelists,Condition,standard,acute mi
+acute_mi_or_angina,Acute myocardial infarction or angina,condition,46270161,FALSE,Acute ST segment elevation myocardial infarction of posterior wall,SNOMED,acute mi,reviewed_seed,Imported from master codelists,Condition,standard,acute mi
+acute_mi_or_angina,Acute myocardial infarction or angina,condition,46270162,FALSE,Acute ST segment elevation myocardial infarction due to left coronary artery occlusion,SNOMED,acute mi,reviewed_seed,Imported from master codelists,Condition,standard,acute mi
+acute_mi_or_angina,Acute myocardial infarction or angina,condition,46270163,FALSE,Acute ST segment elevation myocardial infarction due to right coronary artery occlusion,SNOMED,acute mi,reviewed_seed,Imported from master codelists,Condition,standard,acute mi
+acute_mi_or_angina,Acute myocardial infarction or angina,condition,46270164,FALSE,Acute ST segment elevation myocardial infarction of septum,SNOMED,acute mi,reviewed_seed,Imported from master codelists,Condition,standard,acute mi
+acute_mi_or_angina,Acute myocardial infarction or angina,condition,46273495,FALSE,Acute ST segment elevation myocardial infarction of posterobasal wall,SNOMED,acute mi,reviewed_seed,Imported from master codelists,Condition,standard,acute mi
+acute_mi_or_angina,Acute myocardial infarction or angina,condition,46274044,FALSE,Acute ST segment elevation myocardial infarction of lateral wall,SNOMED,acute mi,reviewed_seed,Imported from master codelists,Condition,standard,acute mi

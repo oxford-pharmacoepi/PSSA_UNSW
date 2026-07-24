@@ -1,303 +1,303 @@
-concept_id,concept_name,domain_id,vocabulary_id,standard_concept,condition,cohort_name,cohort_label,cohort_domain
-22350,Edema of larynx,Condition,SNOMED,standard,Edema,peripheral_edema,Peripheral oedema,condition
-23799,Pharynx or nasopharynx edema,Condition,SNOMED,standard,Edema,peripheral_edema,Peripheral oedema,condition
-201346,Edema of penis,Condition,SNOMED,standard,Edema,peripheral_edema,Peripheral oedema,condition
-201907,Edema of male genital organs,Condition,SNOMED,standard,Edema,peripheral_edema,Peripheral oedema,condition
-372903,Retinal edema,Condition,SNOMED,standard,Edema,peripheral_edema,Peripheral oedema,condition
-374950,Edema of eyelid,Condition,SNOMED,standard,Edema,peripheral_edema,Peripheral oedema,condition
-376690,Cerebral edema,Condition,SNOMED,standard,Edema,peripheral_edema,Peripheral oedema,condition
-377875,Idiopathic corneal edema,Condition,SNOMED,standard,Edema,peripheral_edema,Peripheral oedema,condition
-380102,Corneal edema,Condition,SNOMED,standard,Edema,peripheral_edema,Peripheral oedema,condition
-380117,Conjunctival edema,Condition,SNOMED,standard,Edema,peripheral_edema,Peripheral oedema,condition
-380720,Secondary corneal edema,Condition,SNOMED,standard,Edema,peripheral_edema,Peripheral oedema,condition
-432791,Angioedema,Condition,SNOMED,standard,Edema,peripheral_edema,Peripheral oedema,condition
-433595,Edema,Condition,SNOMED,standard,Edema,peripheral_edema,Peripheral oedema,condition
-435839,Lymphedema,Condition,SNOMED,standard,Edema,peripheral_edema,Peripheral oedema,condition
-436010,Heat edema,Condition,SNOMED,standard,Edema,peripheral_edema,Peripheral oedema,condition
-436702,Pseudopapilledema,Condition,SNOMED,standard,Edema,peripheral_edema,Peripheral oedema,condition
-441564,Optic disc edema associated with retinal disorder,Condition,SNOMED,standard,Edema,peripheral_edema,Peripheral oedema,condition
-761524,Papilledema of right eye,Condition,SNOMED,non-standard,Edema,peripheral_edema,Peripheral oedema,condition
-761525,Papilledema of left eye,Condition,SNOMED,non-standard,Edema,peripheral_edema,Peripheral oedema,condition
-761570,Microcystic edema of cornea of left eye,Condition,SNOMED,standard,Edema,peripheral_edema,Peripheral oedema,condition
-761571,Microcystic edema of cornea of right eye,Condition,SNOMED,standard,Edema,peripheral_edema,Peripheral oedema,condition
-761572,Edema of cornea of bilateral eyes,Condition,SNOMED,standard,Edema,peripheral_edema,Peripheral oedema,condition
-761573,Edema of cornea of right eye,Condition,SNOMED,standard,Edema,peripheral_edema,Peripheral oedema,condition
-762385,Edema of right eyelid,Condition,SNOMED,standard,Edema,peripheral_edema,Peripheral oedema,condition
-762386,Edema of left eyelid,Condition,SNOMED,standard,Edema,peripheral_edema,Peripheral oedema,condition
-762400,Periorbital edema of right eye,Condition,SNOMED,standard,Edema,peripheral_edema,Peripheral oedema,condition
-765062,Lymphedema of bilateral upper limbs,Condition,SNOMED,standard,Edema,peripheral_edema,Peripheral oedema,condition
-765087,Edema of cornea of left eye,Condition,SNOMED,standard,Edema,peripheral_edema,Peripheral oedema,condition
-765506,Periorbital edema of left eye,Condition,SNOMED,standard,Edema,peripheral_edema,Peripheral oedema,condition
-1340248,Exacerbation of angioedema,Condition,OMOP Extension,standard,Edema,peripheral_edema,Peripheral oedema,condition
-1340321,Exacerbation of edema,Condition,OMOP Extension,standard,Edema,peripheral_edema,Peripheral oedema,condition
-1340432,Exacerbation of peripheral edema,Condition,OMOP Extension,standard,Edema,peripheral_edema,Peripheral oedema,condition
-3043344,Edema [Minimum Data Set],Observation,LOINC,standard,Edema,peripheral_edema,Peripheral oedema,condition
-3045290,Edema,Observation,LOINC,standard,Edema,peripheral_edema,Peripheral oedema,condition
-3170605,NA,NA,NA,NA,Edema,peripheral_edema,Peripheral oedema,condition
-3175599,NA,NA,NA,NA,Edema,peripheral_edema,Peripheral oedema,condition
-3654235,Bilateral feet edema,Condition,SNOMED,standard,Edema,peripheral_edema,Peripheral oedema,condition
-3654345,Edema of abdomen,Condition,SNOMED,standard,Edema,peripheral_edema,Peripheral oedema,condition
-3655089,Respiratory angioedema,Condition,SNOMED,standard,Edema,peripheral_edema,Peripheral oedema,condition
-3655098,Angioedema of eyelid,Condition,SNOMED,standard,Edema,peripheral_edema,Peripheral oedema,condition
-3655099,Angioedema of lip,Condition,SNOMED,standard,Edema,peripheral_edema,Peripheral oedema,condition
-3655137,Acute edema,Condition,SNOMED,standard,Edema,peripheral_edema,Peripheral oedema,condition
-3655268,Generalized edema due to fluid overload,Condition,SNOMED,standard,Edema,peripheral_edema,Peripheral oedema,condition
-3655493,Edema of esophagus,Condition,SNOMED,standard,Edema,peripheral_edema,Peripheral oedema,condition
-3656022,Edema of vocal cord,Condition,SNOMED,standard,Edema,peripheral_edema,Peripheral oedema,condition
-3656887,Edema of right orbit,Condition,SNOMED,standard,Edema,peripheral_edema,Peripheral oedema,condition
-3656971,Edema of left orbit,Condition,SNOMED,standard,Edema,peripheral_edema,Peripheral oedema,condition
-3657020,Edema of right lower eyelid,Condition,SNOMED,standard,Edema,peripheral_edema,Peripheral oedema,condition
-3657051,Bilateral edema of orbits,Condition,SNOMED,standard,Edema,peripheral_edema,Peripheral oedema,condition
-3657789,Bilateral edema of upper eyelids,Condition,SNOMED,standard,Edema,peripheral_edema,Peripheral oedema,condition
-3657790,Bilateral edema of lower eyelids,Condition,SNOMED,standard,Edema,peripheral_edema,Peripheral oedema,condition
-3657791,Edema of corneal stroma of right eye,Condition,SNOMED,standard,Edema,peripheral_edema,Peripheral oedema,condition
-3657792,Edema of corneal stroma of left eye,Condition,SNOMED,standard,Edema,peripheral_edema,Peripheral oedema,condition
-3657793,Bilateral edema of corneal stroma of eyes,Condition,SNOMED,standard,Edema,peripheral_edema,Peripheral oedema,condition
-3661528,Angioedema,Observation,SNOMED,standard,Edema,peripheral_edema,Peripheral oedema,condition
-3661559,Drug-induced angioedema-urticaria,Condition,SNOMED,standard,Edema,peripheral_edema,Peripheral oedema,condition
-3662351,Bilateral microcystic edema of cornea,Condition,SNOMED,standard,Edema,peripheral_edema,Peripheral oedema,condition
-3662401,Edema of left lower eyelid,Condition,SNOMED,standard,Edema,peripheral_edema,Peripheral oedema,condition
-4003006,Edema of oral vestibule,Condition,SNOMED,standard,Edema,peripheral_edema,Peripheral oedema,condition
-4009044,Edema of glottis,Condition,SNOMED,standard,Edema,peripheral_edema,Peripheral oedema,condition
-4009381,Edema of hand,Condition,SNOMED,standard,Edema,peripheral_edema,Peripheral oedema,condition
-4010007,Edema of the upper extremity,Condition,SNOMED,standard,Edema,peripheral_edema,Peripheral oedema,condition
-4010009,Edema of thumb,Condition,SNOMED,standard,Edema,peripheral_edema,Peripheral oedema,condition
-4010011,Edema of thigh,Condition,SNOMED,standard,Edema,peripheral_edema,Peripheral oedema,condition
-4010012,Edema of knee,Condition,SNOMED,standard,Edema,peripheral_edema,Peripheral oedema,condition
-4010362,Edema of foot,Condition,SNOMED,standard,Edema,peripheral_edema,Peripheral oedema,condition
-4010900,Transient edema,Observation,SNOMED,standard,Edema,peripheral_edema,Peripheral oedema,condition
-4010967,Edema of forearm,Condition,SNOMED,standard,Edema,peripheral_edema,Peripheral oedema,condition
-4010968,Edema of elbow,Condition,SNOMED,standard,Edema,peripheral_edema,Peripheral oedema,condition
-4010969,Edema of wrist,Condition,SNOMED,standard,Edema,peripheral_edema,Peripheral oedema,condition
-4010970,Edema of finger,Condition,SNOMED,standard,Edema,peripheral_edema,Peripheral oedema,condition
-4010971,Edema of lower extremity,Condition,SNOMED,standard,Edema,peripheral_edema,Peripheral oedema,condition
-4024297,Nasal mucosa edematous,Condition,SNOMED,standard,Edema,peripheral_edema,Peripheral oedema,condition
-4026047,Sacral edema,Condition,SNOMED,standard,Edema,peripheral_edema,Peripheral oedema,condition
-4032595,Idiopathic scrotal edema,Condition,SNOMED,standard,Edema,peripheral_edema,Peripheral oedema,condition
-4032895,Lymphedema of face,Condition,SNOMED,standard,Edema,peripheral_edema,Peripheral oedema,condition
-4043946,Leukedema of tongue,Condition,SNOMED,standard,Edema,peripheral_edema,Peripheral oedema,condition
-4048793,Vasogenic cerebral edema,Condition,SNOMED,standard,Edema,peripheral_edema,Peripheral oedema,condition
-4049236,Edema of uvula,Condition,SNOMED,standard,Edema,peripheral_edema,Peripheral oedema,condition
-4054198,Non-pitting edema,Observation,SNOMED,standard,Edema,peripheral_edema,Peripheral oedema,condition
-4056883,Edema of pharynx,Condition,SNOMED,standard,Edema,peripheral_edema,Peripheral oedema,condition
-4081073,Vibratory angioedema,Condition,SNOMED,standard,Edema,peripheral_edema,Peripheral oedema,condition
-4082015,Edema of ear canal,Condition,SNOMED,standard,Edema,peripheral_edema,Peripheral oedema,condition
-4083996,Drug-aggravated angioedema-urticaria,Condition,SNOMED,standard,Edema,peripheral_edema,Peripheral oedema,condition
-4083997,NSAID-induced angioedema-urticaria,Condition,SNOMED,standard,Edema,peripheral_edema,Peripheral oedema,condition
-4083998,Aspirin-induced angioedema-urticaria,Condition,SNOMED,standard,Edema,peripheral_edema,Peripheral oedema,condition
-4084172,Chemical-aggravated angioedema-urticaria,Condition,SNOMED,standard,Edema,peripheral_edema,Peripheral oedema,condition
-4086676,Swelling or edema,Condition,SNOMED,non-standard,Edema,peripheral_edema,Peripheral oedema,condition
-4087149,Dependent edema,Condition,SNOMED,standard,Edema,peripheral_edema,Peripheral oedema,condition
-4087152,Edema of structure within eye,Condition,SNOMED,standard,Edema,peripheral_edema,Peripheral oedema,condition
-4087153,Widespread retinal edema,Condition,SNOMED,standard,Edema,peripheral_edema,Peripheral oedema,condition
-4094011,Fine corneal edema,Condition,SNOMED,standard,Edema,peripheral_edema,Peripheral oedema,condition
-4094012,Abdominal wall edema,Condition,SNOMED,standard,Edema,peripheral_edema,Peripheral oedema,condition
-4094513,Ankle edema,Condition,SNOMED,standard,Edema,peripheral_edema,Peripheral oedema,condition
-4095994,Traumatic generalized cerebral edema,Condition,SNOMED,standard,Edema,peripheral_edema,Peripheral oedema,condition
-4095997,Edema of thoracic cord,Condition,SNOMED,standard,Edema,peripheral_edema,Peripheral oedema,condition
-4096619,Edema of cervical cord,Condition,SNOMED,standard,Edema,peripheral_edema,Peripheral oedema,condition
-4096620,Edema of lumbar cord,Condition,SNOMED,standard,Edema,peripheral_edema,Peripheral oedema,condition
-4096621,Edema of sacral cord,Condition,SNOMED,standard,Edema,peripheral_edema,Peripheral oedema,condition
-4101027,Subconjunctival edema,Condition,SNOMED,standard,Edema,peripheral_edema,Peripheral oedema,condition
-4101821,Edema of prepuce,Condition,SNOMED,non-standard,Edema,peripheral_edema,Peripheral oedema,condition
-4102122,Genital edema,Condition,SNOMED,standard,Edema,peripheral_edema,Peripheral oedema,condition
-4102131,Gravitational edema of leg,Condition,SNOMED,standard,Edema,peripheral_edema,Peripheral oedema,condition
-4102320,Chronic acquired lymphedema,Condition,SNOMED,standard,Edema,peripheral_edema,Peripheral oedema,condition
-4105178,Cystoid macular edema,Condition,SNOMED,standard,Edema,peripheral_edema,Peripheral oedema,condition
-4109678,Pitting edema,Condition,SNOMED,standard,Edema,peripheral_edema,Peripheral oedema,condition
-4121791,Lipedema,Condition,SNOMED,standard,Edema,peripheral_edema,Peripheral oedema,condition
-4124333,Edema of clitoris,Condition,SNOMED,standard,Edema,peripheral_edema,Peripheral oedema,condition
-4126002,Referral by lymphedema care nurse,Observation,SNOMED,standard,Edema,peripheral_edema,Peripheral oedema,condition
-4127843,Edema of cervix,Condition,SNOMED,standard,Edema,peripheral_edema,Peripheral oedema,condition
-4129675,Edema of breast,Condition,SNOMED,standard,Edema,peripheral_edema,Peripheral oedema,condition
-4131335,Stomal edema,Meas Value,SNOMED,standard,Edema,peripheral_edema,Peripheral oedema,condition
-4136481,Under care of lymphedema care nurse,Observation,SNOMED,standard,Edema,peripheral_edema,Peripheral oedema,condition
-4141850,Referral to lymphedema care nurse,Observation,SNOMED,standard,Edema,peripheral_edema,Peripheral oedema,condition
-4147210,Lymphatic edema,Observation,SNOMED,standard,Edema,peripheral_edema,Peripheral oedema,condition
-4154456,Localized retinal edema,Condition,SNOMED,standard,Edema,peripheral_edema,Peripheral oedema,condition
-4155910,Generalized edema,Condition,SNOMED,standard,Edema,peripheral_edema,Peripheral oedema,condition
-4158343,Peripheral edema,Condition,SNOMED,standard,Edema,peripheral_edema,Peripheral oedema,condition
-4159367,Edema of nipple,Condition,SNOMED,standard,Edema,peripheral_edema,Peripheral oedema,condition
-4159968,Corneal stromal edema,Condition,SNOMED,standard,Edema,peripheral_edema,Peripheral oedema,condition
-4161207,ACE inhibitor-aggravated angioedema,Condition,SNOMED,standard,Edema,peripheral_edema,Peripheral oedema,condition
-4171917,Localized edema,Condition,SNOMED,standard,Edema,peripheral_edema,Peripheral oedema,condition
-4172672,Edema of skeletal muscle,Condition,SNOMED,standard,Edema,peripheral_edema,Peripheral oedema,condition
-4173563,Pitting edema,Observation,SNOMED,standard,Edema,peripheral_edema,Peripheral oedema,condition
-4175817,Massive edema,Observation,SNOMED,standard,Edema,peripheral_edema,Peripheral oedema,condition
-4177665,Periorbital edema,Condition,SNOMED,standard,Edema,peripheral_edema,Peripheral oedema,condition
-4179625,Subglottic edema,Condition,SNOMED,standard,Edema,peripheral_edema,Peripheral oedema,condition
-4182393,Peripheral retinal edema,Condition,SNOMED,standard,Edema,peripheral_edema,Peripheral oedema,condition
-4189298,Corneal epithelial edema,Condition,SNOMED,standard,Edema,peripheral_edema,Peripheral oedema,condition
-4189299,Bullous corneal epithelial edema,Condition,SNOMED,standard,Edema,peripheral_edema,Peripheral oedema,condition
-4195046,Clinically significant macular edema,Condition,SNOMED,standard,Edema,peripheral_edema,Peripheral oedema,condition
-4195595,Localized edema,Observation,SNOMED,standard,Edema,peripheral_edema,Peripheral oedema,condition
-4195695,Leukedema of mouth,Condition,SNOMED,standard,Edema,peripheral_edema,Peripheral oedema,condition
-4196943,Edema,Observation,SNOMED,standard,Edema,peripheral_edema,Peripheral oedema,condition
-4198564,Supraglottic edema,Condition,SNOMED,standard,Edema,peripheral_edema,Peripheral oedema,condition
-4199409,Edema of trunk,Condition,SNOMED,standard,Edema,peripheral_edema,Peripheral oedema,condition
-4205497,Lymphedema of limb,Condition,SNOMED,standard,Edema,peripheral_edema,Peripheral oedema,condition
-4217627,Edema of the tongue,Condition,SNOMED,standard,Edema,peripheral_edema,Peripheral oedema,condition
-4220064,Peripheral edema,Observation,SNOMED,standard,Edema,peripheral_edema,Peripheral oedema,condition
-4222079,4+ pitting edema,Condition,SNOMED,standard,Edema,peripheral_edema,Peripheral oedema,condition
-4222260,Idiopathic urticaria and/or angioedema,Condition,SNOMED,standard,Edema,peripheral_edema,Peripheral oedema,condition
-4222414,Non-pitting edema,Condition,SNOMED,standard,Edema,peripheral_edema,Peripheral oedema,condition
-4222871,2+ pitting edema,Condition,SNOMED,standard,Edema,peripheral_edema,Peripheral oedema,condition
-4223489,Idiopathic angioedema,Condition,SNOMED,standard,Edema,peripheral_edema,Peripheral oedema,condition
-4227224,1+ pitting edema,Condition,SNOMED,standard,Edema,peripheral_edema,Peripheral oedema,condition
-4230799,Edema of scrotum,Condition,SNOMED,standard,Edema,peripheral_edema,Peripheral oedema,condition
-4231570,Cardiac edema,Condition,SNOMED,standard,Edema,peripheral_edema,Peripheral oedema,condition
-4233567,Alimentary edema,Condition,SNOMED,standard,Edema,peripheral_edema,Peripheral oedema,condition
-4233682,Edema of oral soft tissues,Condition,SNOMED,standard,Edema,peripheral_edema,Peripheral oedema,condition
-4237151,Idiopathic edema,Condition,SNOMED,standard,Edema,peripheral_edema,Peripheral oedema,condition
-4242440,Dependent edema,Observation,SNOMED,standard,Edema,peripheral_edema,Peripheral oedema,condition
-4244710,Edema bullosum vesicae,Condition,SNOMED,standard,Edema,peripheral_edema,Peripheral oedema,condition
-4245407,Edema of nasopharynx,Condition,SNOMED,standard,Edema,peripheral_edema,Peripheral oedema,condition
-4246404,Hard edema,Observation,SNOMED,standard,Edema,peripheral_edema,Peripheral oedema,condition
-4252207,Acute edema,Observation,SNOMED,standard,Edema,peripheral_edema,Peripheral oedema,condition
-4263453,Subepidermal edema,Observation,SNOMED,standard,Edema,peripheral_edema,Peripheral oedema,condition
-4265394,Edema of vulva,Condition,SNOMED,standard,Edema,peripheral_edema,Peripheral oedema,condition
-4267552,Primary lymphedema tardum,Condition,SNOMED,standard,Edema,peripheral_edema,Peripheral oedema,condition
-4270861,Allergic angioedema,Condition,SNOMED,standard,Edema,peripheral_edema,Peripheral oedema,condition
-4270865,Episodic angioedema with eosinophilia,Condition,SNOMED,standard,Edema,peripheral_edema,Peripheral oedema,condition
-4276529,Edema of spinal cord,Condition,SNOMED,standard,Edema,peripheral_edema,Peripheral oedema,condition
-4290333,Macular retinal edema,Condition,SNOMED,standard,Edema,peripheral_edema,Peripheral oedema,condition
-4291296,Lymphedema of uncertain etiology,Condition,SNOMED,standard,Edema,peripheral_edema,Peripheral oedema,condition
-4291466,Periodic edema,Condition,SNOMED,standard,Edema,peripheral_edema,Peripheral oedema,condition
-4292365,Angioedema of tongue,Condition,SNOMED,standard,Edema,peripheral_edema,Peripheral oedema,condition
-4292366,Cholinergic angioedema,Condition,SNOMED,standard,Edema,peripheral_edema,Peripheral oedema,condition
-4293698,Lymphedema of ear,Condition,SNOMED,standard,Edema,peripheral_edema,Peripheral oedema,condition
-4296243,Cerebral edema control,Observation,SNOMED,standard,Edema,peripheral_edema,Peripheral oedema,condition
-4296363,Lymphedema of eyelid,Condition,SNOMED,standard,Edema,peripheral_edema,Peripheral oedema,condition
-4296364,Lymphedema of lip,Condition,SNOMED,standard,Edema,peripheral_edema,Peripheral oedema,condition
-4296365,Lymphedema of penis,Condition,SNOMED,standard,Edema,peripheral_edema,Peripheral oedema,condition
-4296366,Lymphedema of vulva,Condition,SNOMED,standard,Edema,peripheral_edema,Peripheral oedema,condition
-4296646,Factitious lymphedema,Condition,SNOMED,standard,Edema,peripheral_edema,Peripheral oedema,condition
-4297361,Angioedema and/or urticaria,Condition,SNOMED,standard,Edema,peripheral_edema,Peripheral oedema,condition
-4299016,Acute edema blisters,Condition,SNOMED,standard,Edema,peripheral_edema,Peripheral oedema,condition
-4299806,Lymphedema of lower extremity,Condition,SNOMED,standard,Edema,peripheral_edema,Peripheral oedema,condition
-4299807,Lymphedema of genitalia,Condition,SNOMED,standard,Edema,peripheral_edema,Peripheral oedema,condition
-4301048,Penile venereal edema,Condition,SNOMED,standard,Edema,peripheral_edema,Peripheral oedema,condition
-4301157,Angioedema caused by angiotensin-converting-enzyme inhibitor,Condition,SNOMED,standard,Edema,peripheral_edema,Peripheral oedema,condition
-4304346,Inflammatory edema,Observation,SNOMED,standard,Edema,peripheral_edema,Peripheral oedema,condition
-4308632,Optic disc edema,Condition,SNOMED,standard,Edema,peripheral_edema,Peripheral oedema,condition
-4309070,Edema of extremity,Condition,SNOMED,standard,Edema,peripheral_edema,Peripheral oedema,condition
-4311956,Chronic edema,Observation,SNOMED,standard,Edema,peripheral_edema,Peripheral oedema,condition
-4317260,Edematous skin,Condition,SNOMED,standard,Edema,peripheral_edema,Peripheral oedema,condition
-4318834,Retroperitoneal edema,Condition,SNOMED,standard,Edema,peripheral_edema,Peripheral oedema,condition
-4319301,Scleredema,Condition,SNOMED,standard,Edema,peripheral_edema,Peripheral oedema,condition
-4319307,Mucous membrane edema,Condition,SNOMED,standard,Edema,peripheral_edema,Peripheral oedema,condition
-4321716,Gingival edema,Condition,SNOMED,standard,Edema,peripheral_edema,Peripheral oedema,condition
-4321748,Leukedema,Observation,SNOMED,standard,Edema,peripheral_edema,Peripheral oedema,condition
-4323491,Lymphedema of scrotum,Condition,SNOMED,standard,Edema,peripheral_edema,Peripheral oedema,condition
-4334119,Aphakic corneal edema,Condition,SNOMED,standard,Edema,peripheral_edema,Peripheral oedema,condition
-4334176,Noncystoid edema of macula of retina,Condition,SNOMED,standard,Edema,peripheral_edema,Peripheral oedema,condition
-4334751,Phakic corneal edema,Condition,SNOMED,standard,Edema,peripheral_edema,Peripheral oedema,condition
-4334752,Pseudophakic corneal edema,Condition,SNOMED,standard,Edema,peripheral_edema,Peripheral oedema,condition
-4339010,Central retinal vein occlusion with macular edema,Condition,SNOMED,standard,Edema,peripheral_edema,Peripheral oedema,condition
-4339391,Intercellular edema,Observation,SNOMED,standard,Edema,peripheral_edema,Peripheral oedema,condition
-36684660,Cystoid macular edema of right retina,Condition,SNOMED,standard,Edema,peripheral_edema,Peripheral oedema,condition
-36684726,Cystoid macular edema of left retina,Condition,SNOMED,standard,Edema,peripheral_edema,Peripheral oedema,condition
-36684786,Bilateral cystoid macular edema of retinas,Condition,SNOMED,standard,Edema,peripheral_edema,Peripheral oedema,condition
-36712935,Lymphedema of right lower limb,Condition,SNOMED,standard,Edema,peripheral_edema,Peripheral oedema,condition
-36712936,Lymphedema of left lower limb,Condition,SNOMED,standard,Edema,peripheral_edema,Peripheral oedema,condition
-36712937,Lymphedema of bilateral lower limbs,Condition,SNOMED,standard,Edema,peripheral_edema,Peripheral oedema,condition
-36712938,Lymphedema of right upper limb,Condition,SNOMED,standard,Edema,peripheral_edema,Peripheral oedema,condition
-36712941,Macular edema of retina of bilateral eyes,Condition,SNOMED,standard,Edema,peripheral_edema,Peripheral oedema,condition
-36712976,Venous stasis edema of bilateral lower limbs,Condition,SNOMED,standard,Edema,peripheral_edema,Peripheral oedema,condition
-36712977,Venous stasis edema of left lower limb,Condition,SNOMED,standard,Edema,peripheral_edema,Peripheral oedema,condition
-36715489,Localized edema due to fluid overload,Condition,SNOMED,standard,Edema,peripheral_edema,Peripheral oedema,condition
-36715511,Edema due to fluid overload,Condition,SNOMED,standard,Edema,peripheral_edema,Peripheral oedema,condition
-36717015,Edema of optic disc of bilateral eyes,Condition,SNOMED,standard,Edema,peripheral_edema,Peripheral oedema,condition
-36717150,Fluid overload without edema,Condition,SNOMED,standard,Edema,peripheral_edema,Peripheral oedema,condition
-36717276,Lymphedema of left upper limb,Condition,SNOMED,standard,Edema,peripheral_edema,Peripheral oedema,condition
-36717281,Venous stasis edema of right lower limb,Condition,SNOMED,standard,Edema,peripheral_edema,Peripheral oedema,condition
-36717304,Non-traumatic cerebral edema,Condition,SNOMED,standard,Edema,peripheral_edema,Peripheral oedema,condition
-37108888,Macular edema of retina of right eye,Condition,SNOMED,standard,Edema,peripheral_edema,Peripheral oedema,condition
-37108889,Macular edema of retina of left eye,Condition,SNOMED,standard,Edema,peripheral_edema,Peripheral oedema,condition
-37108959,Edema of optic disc of right eye,Condition,SNOMED,standard,Edema,peripheral_edema,Peripheral oedema,condition
-37110554,Physical angioedema,Condition,SNOMED,standard,Edema,peripheral_edema,Peripheral oedema,condition
-37110576,Edema of soft tissue due to increased capillary pressure,Condition,SNOMED,standard,Edema,peripheral_edema,Peripheral oedema,condition
-37117079,Edema of optic disc of left eye,Condition,SNOMED,standard,Edema,peripheral_edema,Peripheral oedema,condition
-37207425,Mild generalized edema,Condition,SNOMED,standard,Edema,peripheral_edema,Peripheral oedema,condition
-37207426,Moderate generalized edema,Condition,SNOMED,standard,Edema,peripheral_edema,Peripheral oedema,condition
-37207427,Severe generalized edema,Condition,SNOMED,standard,Edema,peripheral_edema,Peripheral oedema,condition
-37207850,Pseudopapilledema of right eye,Condition,SNOMED,standard,Edema,peripheral_edema,Peripheral oedema,condition
-37207887,Conjunctival edema of right eye,Condition,SNOMED,standard,Edema,peripheral_edema,Peripheral oedema,condition
-37207910,Pseudopapilledema of left eye,Condition,SNOMED,standard,Edema,peripheral_edema,Peripheral oedema,condition
-37207947,Conjunctival edema of left eye,Condition,SNOMED,standard,Edema,peripheral_edema,Peripheral oedema,condition
-37207959,Edema of right upper eyelid,Condition,SNOMED,standard,Edema,peripheral_edema,Peripheral oedema,condition
-37207960,Edema of left upper eyelid,Condition,SNOMED,standard,Edema,peripheral_edema,Peripheral oedema,condition
-37207971,Bilateral pseudopapilledema of eyes,Condition,SNOMED,standard,Edema,peripheral_edema,Peripheral oedema,condition
-37207994,Bilateral conjunctival edema,Condition,SNOMED,standard,Edema,peripheral_edema,Peripheral oedema,condition
-37208020,Bilateral periorbital edema,Condition,SNOMED,standard,Edema,peripheral_edema,Peripheral oedema,condition
-37209358,Edema of bilateral eyelids,Condition,SNOMED,standard,Edema,peripheral_edema,Peripheral oedema,condition
-37311245,Bilateral upper limb edema,Condition,SNOMED,standard,Edema,peripheral_edema,Peripheral oedema,condition
-37311246,Edema of right upper limb,Condition,SNOMED,standard,Edema,peripheral_edema,Peripheral oedema,condition
-37311247,Edema of left upper limb,Condition,SNOMED,standard,Edema,peripheral_edema,Peripheral oedema,condition
-37311248,Edema of right lower limb,Condition,SNOMED,standard,Edema,peripheral_edema,Peripheral oedema,condition
-37311249,Edema of left lower limb,Condition,SNOMED,standard,Edema,peripheral_edema,Peripheral oedema,condition
-37311250,Bilateral lower limb edema,Condition,SNOMED,standard,Edema,peripheral_edema,Peripheral oedema,condition
-37311251,Edema of right lower leg,Condition,SNOMED,standard,Edema,peripheral_edema,Peripheral oedema,condition
-37311252,Edema of left lower leg,Condition,SNOMED,standard,Edema,peripheral_edema,Peripheral oedema,condition
-37311855,Bilateral upper arm edema,Condition,SNOMED,standard,Edema,peripheral_edema,Peripheral oedema,condition
-37311856,Edema of right upper arm,Condition,SNOMED,standard,Edema,peripheral_edema,Peripheral oedema,condition
-37311857,Edema of left upper arm,Condition,SNOMED,standard,Edema,peripheral_edema,Peripheral oedema,condition
-37311858,Bilateral lower leg edema,Condition,SNOMED,standard,Edema,peripheral_edema,Peripheral oedema,condition
-37311894,Pitting edema of lip,Condition,SNOMED,standard,Edema,peripheral_edema,Peripheral oedema,condition
-40480099,Edema of upper arm,Condition,SNOMED,standard,Edema,peripheral_edema,Peripheral oedema,condition
-40480101,Edema of calf,Condition,SNOMED,standard,Edema,peripheral_edema,Peripheral oedema,condition
-40480159,Edema of chest wall,Condition,SNOMED,standard,Edema,peripheral_edema,Peripheral oedema,condition
-40480516,Orbital edema,Condition,SNOMED,standard,Edema,peripheral_edema,Peripheral oedema,condition
-40481037,Edema of palm of hand,Condition,SNOMED,standard,Edema,peripheral_edema,Peripheral oedema,condition
-40481124,Edema of back,Condition,SNOMED,standard,Edema,peripheral_edema,Peripheral oedema,condition
-40481573,Edema of all toes,Condition,SNOMED,standard,Edema,peripheral_edema,Peripheral oedema,condition
-40481932,Edema of shoulder,Condition,SNOMED,standard,Edema,peripheral_edema,Peripheral oedema,condition
-40481968,Edema of sole of foot,Condition,SNOMED,standard,Edema,peripheral_edema,Peripheral oedema,condition
-40482015,Soft nonpitting edema,Condition,SNOMED,standard,Edema,peripheral_edema,Peripheral oedema,condition
-40482052,Edema of face,Condition,SNOMED,standard,Edema,peripheral_edema,Peripheral oedema,condition
-40482408,Edema of dorsum of foot,Condition,SNOMED,standard,Edema,peripheral_edema,Peripheral oedema,condition
-40482410,Edema of entire limb,Condition,SNOMED,standard,Edema,peripheral_edema,Peripheral oedema,condition
-40482463,Edema of suprapubic region,Condition,SNOMED,standard,Edema,peripheral_edema,Peripheral oedema,condition
-40482819,Edema of dorsum of hand,Condition,SNOMED,standard,Edema,peripheral_edema,Peripheral oedema,condition
-40482879,Edema of buttock,Condition,SNOMED,standard,Edema,peripheral_edema,Peripheral oedema,condition
-40482905,Firm nonpitting edema,Condition,SNOMED,standard,Edema,peripheral_edema,Peripheral oedema,condition
-40482907,Soft pitting edema,Condition,SNOMED,standard,Edema,peripheral_edema,Peripheral oedema,condition
-40483302,Firm pitting edema,Condition,SNOMED,standard,Edema,peripheral_edema,Peripheral oedema,condition
-40483338,Dependent lymphedema,Condition,SNOMED,standard,Edema,peripheral_edema,Peripheral oedema,condition
-40483347,Skin folds visible on edematous limb,Condition,SNOMED,standard,Edema,peripheral_edema,Peripheral oedema,condition
-40483787,Edema of extremity with extension to trunk,Condition,SNOMED,standard,Edema,peripheral_edema,Peripheral oedema,condition
-40483788,Lymphovenous edema,Condition,SNOMED,standard,Edema,peripheral_edema,Peripheral oedema,condition
-40492237,Lymphedema care,Observation,SNOMED,standard,Edema,peripheral_edema,Peripheral oedema,condition
-42536675,Chronic edema of penis,Condition,SNOMED,standard,Edema,peripheral_edema,Peripheral oedema,condition
-42574098,NA,NA,NA,NA,Edema,peripheral_edema,Peripheral oedema,condition
-42593384,NA,NA,NA,NA,Edema,peripheral_edema,Peripheral oedema,condition
-42596288,NA,NA,NA,NA,Edema,peripheral_edema,Peripheral oedema,condition
-42596548,NA,NA,NA,NA,Edema,peripheral_edema,Peripheral oedema,condition
-42598264,NA,NA,NA,NA,Edema,peripheral_edema,Peripheral oedema,condition
-42709748,Lymphedema of upper limb,Condition,SNOMED,standard,Edema,peripheral_edema,Peripheral oedema,condition
-42709749,Lymphedema of upper arm,Condition,SNOMED,standard,Edema,peripheral_edema,Peripheral oedema,condition
-42709835,Edema of lower leg,Condition,SNOMED,standard,Edema,peripheral_edema,Peripheral oedema,condition
-42869826,Edema present,Observation,LOINC,standard,Edema,peripheral_edema,Peripheral oedema,condition
-43531690,Acquired lymphedema of lower extremity,Condition,SNOMED,standard,Edema,peripheral_edema,Peripheral oedema,condition
-44782959,Edema of extremity of sudden onset,Condition,SNOMED,standard,Edema,peripheral_edema,Peripheral oedema,condition
-44801742,Referral for intensive treatment of lymphoedema,Observation,SNOMED,standard,Edema,peripheral_edema,Peripheral oedema,condition
-44801795,Has lymphoedema key worker,Observation,SNOMED,standard,Edema,peripheral_edema,Peripheral oedema,condition
-44802019,Mild lymphoedema of limb,Condition,SNOMED,standard,Edema,peripheral_edema,Peripheral oedema,condition
-44802020,Severe lymphoedema of limb,Condition,SNOMED,standard,Edema,peripheral_edema,Peripheral oedema,condition
-44802359,Intensive treatment of lymphoedema,Observation,SNOMED,standard,Edema,peripheral_edema,Peripheral oedema,condition
-44802361,Palliative treatment of lymphoedema,Observation,SNOMED,standard,Edema,peripheral_edema,Peripheral oedema,condition
-44802493,Oedema of neck,Condition,SNOMED,standard,Edema,peripheral_edema,Peripheral oedema,condition
-44802547,Lymphoedema monitoring,Observation,SNOMED,standard,Edema,peripheral_edema,Peripheral oedema,condition
-44802878,Limb oedema of sudden onset,Condition,SNOMED,standard,Edema,peripheral_edema,Peripheral oedema,condition
-44802880,Oedema of head,Condition,SNOMED,standard,Edema,peripheral_edema,Peripheral oedema,condition
-44802882,Referral to community lymphoedema service,Observation,SNOMED,standard,Edema,peripheral_edema,Peripheral oedema,condition
-44805390,Worsening peripheral oedema,Condition,SNOMED,standard,Edema,peripheral_edema,Peripheral oedema,condition
-44806913,Unilateral oedema of arm,Condition,SNOMED,standard,Edema,peripheral_edema,Peripheral oedema,condition
-44809280,Referred by lymphoedema service,Observation,SNOMED,standard,Edema,peripheral_edema,Peripheral oedema,condition
-44811198,Seen in community lymphoedema clinic,Observation,SNOMED,standard,Edema,peripheral_edema,Peripheral oedema,condition
-44811523,Seen in lymphoedema clinic,Observation,SNOMED,standard,Edema,peripheral_edema,Peripheral oedema,condition
-44813738,Moderate lymphoedema of limb,Condition,SNOMED,standard,Edema,peripheral_edema,Peripheral oedema,condition
-45763811,Edema of lower eyelid,Condition,SNOMED,standard,Edema,peripheral_edema,Peripheral oedema,condition
-45763822,Edema of upper eyelid,Condition,SNOMED,standard,Edema,peripheral_edema,Peripheral oedema,condition
-45766923,Massive ovarian edema,Condition,SNOMED,standard,Edema,peripheral_edema,Peripheral oedema,condition
-45767286,Exudative edema,Condition,SNOMED,standard,Edema,peripheral_edema,Peripheral oedema,condition
+cohort_name,cohort_label,cohort_domain,concept_id,include_descendants,concept_name,vocabulary_id,concept_code,review_status,phenotype_note,domain_id,standard_concept,condition
+peripheral_edema,Peripheral oedema,condition,22350,FALSE,Edema of larynx,SNOMED,Edema,reviewed_seed,Imported from master codelists,Condition,standard,Edema
+peripheral_edema,Peripheral oedema,condition,23799,FALSE,Pharynx or nasopharynx edema,SNOMED,Edema,reviewed_seed,Imported from master codelists,Condition,standard,Edema
+peripheral_edema,Peripheral oedema,condition,201346,FALSE,Edema of penis,SNOMED,Edema,reviewed_seed,Imported from master codelists,Condition,standard,Edema
+peripheral_edema,Peripheral oedema,condition,201907,FALSE,Edema of male genital organs,SNOMED,Edema,reviewed_seed,Imported from master codelists,Condition,standard,Edema
+peripheral_edema,Peripheral oedema,condition,372903,FALSE,Retinal edema,SNOMED,Edema,reviewed_seed,Imported from master codelists,Condition,standard,Edema
+peripheral_edema,Peripheral oedema,condition,374950,FALSE,Edema of eyelid,SNOMED,Edema,reviewed_seed,Imported from master codelists,Condition,standard,Edema
+peripheral_edema,Peripheral oedema,condition,376690,FALSE,Cerebral edema,SNOMED,Edema,reviewed_seed,Imported from master codelists,Condition,standard,Edema
+peripheral_edema,Peripheral oedema,condition,377875,FALSE,Idiopathic corneal edema,SNOMED,Edema,reviewed_seed,Imported from master codelists,Condition,standard,Edema
+peripheral_edema,Peripheral oedema,condition,380102,FALSE,Corneal edema,SNOMED,Edema,reviewed_seed,Imported from master codelists,Condition,standard,Edema
+peripheral_edema,Peripheral oedema,condition,380117,FALSE,Conjunctival edema,SNOMED,Edema,reviewed_seed,Imported from master codelists,Condition,standard,Edema
+peripheral_edema,Peripheral oedema,condition,380720,FALSE,Secondary corneal edema,SNOMED,Edema,reviewed_seed,Imported from master codelists,Condition,standard,Edema
+peripheral_edema,Peripheral oedema,condition,432791,FALSE,Angioedema,SNOMED,Edema,reviewed_seed,Imported from master codelists,Condition,standard,Edema
+peripheral_edema,Peripheral oedema,condition,433595,FALSE,Edema,SNOMED,Edema,reviewed_seed,Imported from master codelists,Condition,standard,Edema
+peripheral_edema,Peripheral oedema,condition,435839,FALSE,Lymphedema,SNOMED,Edema,reviewed_seed,Imported from master codelists,Condition,standard,Edema
+peripheral_edema,Peripheral oedema,condition,436010,FALSE,Heat edema,SNOMED,Edema,reviewed_seed,Imported from master codelists,Condition,standard,Edema
+peripheral_edema,Peripheral oedema,condition,436702,FALSE,Pseudopapilledema,SNOMED,Edema,reviewed_seed,Imported from master codelists,Condition,standard,Edema
+peripheral_edema,Peripheral oedema,condition,441564,FALSE,Optic disc edema associated with retinal disorder,SNOMED,Edema,reviewed_seed,Imported from master codelists,Condition,standard,Edema
+peripheral_edema,Peripheral oedema,condition,761524,FALSE,Papilledema of right eye,SNOMED,Edema,reviewed_seed,Imported from master codelists,Condition,non-standard,Edema
+peripheral_edema,Peripheral oedema,condition,761525,FALSE,Papilledema of left eye,SNOMED,Edema,reviewed_seed,Imported from master codelists,Condition,non-standard,Edema
+peripheral_edema,Peripheral oedema,condition,761570,FALSE,Microcystic edema of cornea of left eye,SNOMED,Edema,reviewed_seed,Imported from master codelists,Condition,standard,Edema
+peripheral_edema,Peripheral oedema,condition,761571,FALSE,Microcystic edema of cornea of right eye,SNOMED,Edema,reviewed_seed,Imported from master codelists,Condition,standard,Edema
+peripheral_edema,Peripheral oedema,condition,761572,FALSE,Edema of cornea of bilateral eyes,SNOMED,Edema,reviewed_seed,Imported from master codelists,Condition,standard,Edema
+peripheral_edema,Peripheral oedema,condition,761573,FALSE,Edema of cornea of right eye,SNOMED,Edema,reviewed_seed,Imported from master codelists,Condition,standard,Edema
+peripheral_edema,Peripheral oedema,condition,762385,FALSE,Edema of right eyelid,SNOMED,Edema,reviewed_seed,Imported from master codelists,Condition,standard,Edema
+peripheral_edema,Peripheral oedema,condition,762386,FALSE,Edema of left eyelid,SNOMED,Edema,reviewed_seed,Imported from master codelists,Condition,standard,Edema
+peripheral_edema,Peripheral oedema,condition,762400,FALSE,Periorbital edema of right eye,SNOMED,Edema,reviewed_seed,Imported from master codelists,Condition,standard,Edema
+peripheral_edema,Peripheral oedema,condition,765062,FALSE,Lymphedema of bilateral upper limbs,SNOMED,Edema,reviewed_seed,Imported from master codelists,Condition,standard,Edema
+peripheral_edema,Peripheral oedema,condition,765087,FALSE,Edema of cornea of left eye,SNOMED,Edema,reviewed_seed,Imported from master codelists,Condition,standard,Edema
+peripheral_edema,Peripheral oedema,condition,765506,FALSE,Periorbital edema of left eye,SNOMED,Edema,reviewed_seed,Imported from master codelists,Condition,standard,Edema
+peripheral_edema,Peripheral oedema,condition,1340248,FALSE,Exacerbation of angioedema,OMOP Extension,Edema,reviewed_seed,Imported from master codelists,Condition,standard,Edema
+peripheral_edema,Peripheral oedema,condition,1340321,FALSE,Exacerbation of edema,OMOP Extension,Edema,reviewed_seed,Imported from master codelists,Condition,standard,Edema
+peripheral_edema,Peripheral oedema,condition,1340432,FALSE,Exacerbation of peripheral edema,OMOP Extension,Edema,reviewed_seed,Imported from master codelists,Condition,standard,Edema
+peripheral_edema,Peripheral oedema,condition,3043344,FALSE,Edema [Minimum Data Set],LOINC,Edema,reviewed_seed,Imported from master codelists,Observation,standard,Edema
+peripheral_edema,Peripheral oedema,condition,3045290,FALSE,Edema,LOINC,Edema,reviewed_seed,Imported from master codelists,Observation,standard,Edema
+peripheral_edema,Peripheral oedema,condition,3170605,FALSE,NA,NA,Edema,reviewed_seed,Imported from master codelists,NA,NA,Edema
+peripheral_edema,Peripheral oedema,condition,3175599,FALSE,NA,NA,Edema,reviewed_seed,Imported from master codelists,NA,NA,Edema
+peripheral_edema,Peripheral oedema,condition,3654235,FALSE,Bilateral feet edema,SNOMED,Edema,reviewed_seed,Imported from master codelists,Condition,standard,Edema
+peripheral_edema,Peripheral oedema,condition,3654345,FALSE,Edema of abdomen,SNOMED,Edema,reviewed_seed,Imported from master codelists,Condition,standard,Edema
+peripheral_edema,Peripheral oedema,condition,3655089,FALSE,Respiratory angioedema,SNOMED,Edema,reviewed_seed,Imported from master codelists,Condition,standard,Edema
+peripheral_edema,Peripheral oedema,condition,3655098,FALSE,Angioedema of eyelid,SNOMED,Edema,reviewed_seed,Imported from master codelists,Condition,standard,Edema
+peripheral_edema,Peripheral oedema,condition,3655099,FALSE,Angioedema of lip,SNOMED,Edema,reviewed_seed,Imported from master codelists,Condition,standard,Edema
+peripheral_edema,Peripheral oedema,condition,3655137,FALSE,Acute edema,SNOMED,Edema,reviewed_seed,Imported from master codelists,Condition,standard,Edema
+peripheral_edema,Peripheral oedema,condition,3655268,FALSE,Generalized edema due to fluid overload,SNOMED,Edema,reviewed_seed,Imported from master codelists,Condition,standard,Edema
+peripheral_edema,Peripheral oedema,condition,3655493,FALSE,Edema of esophagus,SNOMED,Edema,reviewed_seed,Imported from master codelists,Condition,standard,Edema
+peripheral_edema,Peripheral oedema,condition,3656022,FALSE,Edema of vocal cord,SNOMED,Edema,reviewed_seed,Imported from master codelists,Condition,standard,Edema
+peripheral_edema,Peripheral oedema,condition,3656887,FALSE,Edema of right orbit,SNOMED,Edema,reviewed_seed,Imported from master codelists,Condition,standard,Edema
+peripheral_edema,Peripheral oedema,condition,3656971,FALSE,Edema of left orbit,SNOMED,Edema,reviewed_seed,Imported from master codelists,Condition,standard,Edema
+peripheral_edema,Peripheral oedema,condition,3657020,FALSE,Edema of right lower eyelid,SNOMED,Edema,reviewed_seed,Imported from master codelists,Condition,standard,Edema
+peripheral_edema,Peripheral oedema,condition,3657051,FALSE,Bilateral edema of orbits,SNOMED,Edema,reviewed_seed,Imported from master codelists,Condition,standard,Edema
+peripheral_edema,Peripheral oedema,condition,3657789,FALSE,Bilateral edema of upper eyelids,SNOMED,Edema,reviewed_seed,Imported from master codelists,Condition,standard,Edema
+peripheral_edema,Peripheral oedema,condition,3657790,FALSE,Bilateral edema of lower eyelids,SNOMED,Edema,reviewed_seed,Imported from master codelists,Condition,standard,Edema
+peripheral_edema,Peripheral oedema,condition,3657791,FALSE,Edema of corneal stroma of right eye,SNOMED,Edema,reviewed_seed,Imported from master codelists,Condition,standard,Edema
+peripheral_edema,Peripheral oedema,condition,3657792,FALSE,Edema of corneal stroma of left eye,SNOMED,Edema,reviewed_seed,Imported from master codelists,Condition,standard,Edema
+peripheral_edema,Peripheral oedema,condition,3657793,FALSE,Bilateral edema of corneal stroma of eyes,SNOMED,Edema,reviewed_seed,Imported from master codelists,Condition,standard,Edema
+peripheral_edema,Peripheral oedema,condition,3661528,FALSE,Angioedema,SNOMED,Edema,reviewed_seed,Imported from master codelists,Observation,standard,Edema
+peripheral_edema,Peripheral oedema,condition,3661559,FALSE,Drug-induced angioedema-urticaria,SNOMED,Edema,reviewed_seed,Imported from master codelists,Condition,standard,Edema
+peripheral_edema,Peripheral oedema,condition,3662351,FALSE,Bilateral microcystic edema of cornea,SNOMED,Edema,reviewed_seed,Imported from master codelists,Condition,standard,Edema
+peripheral_edema,Peripheral oedema,condition,3662401,FALSE,Edema of left lower eyelid,SNOMED,Edema,reviewed_seed,Imported from master codelists,Condition,standard,Edema
+peripheral_edema,Peripheral oedema,condition,4003006,FALSE,Edema of oral vestibule,SNOMED,Edema,reviewed_seed,Imported from master codelists,Condition,standard,Edema
+peripheral_edema,Peripheral oedema,condition,4009044,FALSE,Edema of glottis,SNOMED,Edema,reviewed_seed,Imported from master codelists,Condition,standard,Edema
+peripheral_edema,Peripheral oedema,condition,4009381,FALSE,Edema of hand,SNOMED,Edema,reviewed_seed,Imported from master codelists,Condition,standard,Edema
+peripheral_edema,Peripheral oedema,condition,4010007,FALSE,Edema of the upper extremity,SNOMED,Edema,reviewed_seed,Imported from master codelists,Condition,standard,Edema
+peripheral_edema,Peripheral oedema,condition,4010009,FALSE,Edema of thumb,SNOMED,Edema,reviewed_seed,Imported from master codelists,Condition,standard,Edema
+peripheral_edema,Peripheral oedema,condition,4010011,FALSE,Edema of thigh,SNOMED,Edema,reviewed_seed,Imported from master codelists,Condition,standard,Edema
+peripheral_edema,Peripheral oedema,condition,4010012,FALSE,Edema of knee,SNOMED,Edema,reviewed_seed,Imported from master codelists,Condition,standard,Edema
+peripheral_edema,Peripheral oedema,condition,4010362,FALSE,Edema of foot,SNOMED,Edema,reviewed_seed,Imported from master codelists,Condition,standard,Edema
+peripheral_edema,Peripheral oedema,condition,4010900,FALSE,Transient edema,SNOMED,Edema,reviewed_seed,Imported from master codelists,Observation,standard,Edema
+peripheral_edema,Peripheral oedema,condition,4010967,FALSE,Edema of forearm,SNOMED,Edema,reviewed_seed,Imported from master codelists,Condition,standard,Edema
+peripheral_edema,Peripheral oedema,condition,4010968,FALSE,Edema of elbow,SNOMED,Edema,reviewed_seed,Imported from master codelists,Condition,standard,Edema
+peripheral_edema,Peripheral oedema,condition,4010969,FALSE,Edema of wrist,SNOMED,Edema,reviewed_seed,Imported from master codelists,Condition,standard,Edema
+peripheral_edema,Peripheral oedema,condition,4010970,FALSE,Edema of finger,SNOMED,Edema,reviewed_seed,Imported from master codelists,Condition,standard,Edema
+peripheral_edema,Peripheral oedema,condition,4010971,FALSE,Edema of lower extremity,SNOMED,Edema,reviewed_seed,Imported from master codelists,Condition,standard,Edema
+peripheral_edema,Peripheral oedema,condition,4024297,FALSE,Nasal mucosa edematous,SNOMED,Edema,reviewed_seed,Imported from master codelists,Condition,standard,Edema
+peripheral_edema,Peripheral oedema,condition,4026047,FALSE,Sacral edema,SNOMED,Edema,reviewed_seed,Imported from master codelists,Condition,standard,Edema
+peripheral_edema,Peripheral oedema,condition,4032595,FALSE,Idiopathic scrotal edema,SNOMED,Edema,reviewed_seed,Imported from master codelists,Condition,standard,Edema
+peripheral_edema,Peripheral oedema,condition,4032895,FALSE,Lymphedema of face,SNOMED,Edema,reviewed_seed,Imported from master codelists,Condition,standard,Edema
+peripheral_edema,Peripheral oedema,condition,4043946,FALSE,Leukedema of tongue,SNOMED,Edema,reviewed_seed,Imported from master codelists,Condition,standard,Edema
+peripheral_edema,Peripheral oedema,condition,4048793,FALSE,Vasogenic cerebral edema,SNOMED,Edema,reviewed_seed,Imported from master codelists,Condition,standard,Edema
+peripheral_edema,Peripheral oedema,condition,4049236,FALSE,Edema of uvula,SNOMED,Edema,reviewed_seed,Imported from master codelists,Condition,standard,Edema
+peripheral_edema,Peripheral oedema,condition,4054198,FALSE,Non-pitting edema,SNOMED,Edema,reviewed_seed,Imported from master codelists,Observation,standard,Edema
+peripheral_edema,Peripheral oedema,condition,4056883,FALSE,Edema of pharynx,SNOMED,Edema,reviewed_seed,Imported from master codelists,Condition,standard,Edema
+peripheral_edema,Peripheral oedema,condition,4081073,FALSE,Vibratory angioedema,SNOMED,Edema,reviewed_seed,Imported from master codelists,Condition,standard,Edema
+peripheral_edema,Peripheral oedema,condition,4082015,FALSE,Edema of ear canal,SNOMED,Edema,reviewed_seed,Imported from master codelists,Condition,standard,Edema
+peripheral_edema,Peripheral oedema,condition,4083996,FALSE,Drug-aggravated angioedema-urticaria,SNOMED,Edema,reviewed_seed,Imported from master codelists,Condition,standard,Edema
+peripheral_edema,Peripheral oedema,condition,4083997,FALSE,NSAID-induced angioedema-urticaria,SNOMED,Edema,reviewed_seed,Imported from master codelists,Condition,standard,Edema
+peripheral_edema,Peripheral oedema,condition,4083998,FALSE,Aspirin-induced angioedema-urticaria,SNOMED,Edema,reviewed_seed,Imported from master codelists,Condition,standard,Edema
+peripheral_edema,Peripheral oedema,condition,4084172,FALSE,Chemical-aggravated angioedema-urticaria,SNOMED,Edema,reviewed_seed,Imported from master codelists,Condition,standard,Edema
+peripheral_edema,Peripheral oedema,condition,4086676,FALSE,Swelling or edema,SNOMED,Edema,reviewed_seed,Imported from master codelists,Condition,non-standard,Edema
+peripheral_edema,Peripheral oedema,condition,4087149,FALSE,Dependent edema,SNOMED,Edema,reviewed_seed,Imported from master codelists,Condition,standard,Edema
+peripheral_edema,Peripheral oedema,condition,4087152,FALSE,Edema of structure within eye,SNOMED,Edema,reviewed_seed,Imported from master codelists,Condition,standard,Edema
+peripheral_edema,Peripheral oedema,condition,4087153,FALSE,Widespread retinal edema,SNOMED,Edema,reviewed_seed,Imported from master codelists,Condition,standard,Edema
+peripheral_edema,Peripheral oedema,condition,4094011,FALSE,Fine corneal edema,SNOMED,Edema,reviewed_seed,Imported from master codelists,Condition,standard,Edema
+peripheral_edema,Peripheral oedema,condition,4094012,FALSE,Abdominal wall edema,SNOMED,Edema,reviewed_seed,Imported from master codelists,Condition,standard,Edema
+peripheral_edema,Peripheral oedema,condition,4094513,FALSE,Ankle edema,SNOMED,Edema,reviewed_seed,Imported from master codelists,Condition,standard,Edema
+peripheral_edema,Peripheral oedema,condition,4095994,FALSE,Traumatic generalized cerebral edema,SNOMED,Edema,reviewed_seed,Imported from master codelists,Condition,standard,Edema
+peripheral_edema,Peripheral oedema,condition,4095997,FALSE,Edema of thoracic cord,SNOMED,Edema,reviewed_seed,Imported from master codelists,Condition,standard,Edema
+peripheral_edema,Peripheral oedema,condition,4096619,FALSE,Edema of cervical cord,SNOMED,Edema,reviewed_seed,Imported from master codelists,Condition,standard,Edema
+peripheral_edema,Peripheral oedema,condition,4096620,FALSE,Edema of lumbar cord,SNOMED,Edema,reviewed_seed,Imported from master codelists,Condition,standard,Edema
+peripheral_edema,Peripheral oedema,condition,4096621,FALSE,Edema of sacral cord,SNOMED,Edema,reviewed_seed,Imported from master codelists,Condition,standard,Edema
+peripheral_edema,Peripheral oedema,condition,4101027,FALSE,Subconjunctival edema,SNOMED,Edema,reviewed_seed,Imported from master codelists,Condition,standard,Edema
+peripheral_edema,Peripheral oedema,condition,4101821,FALSE,Edema of prepuce,SNOMED,Edema,reviewed_seed,Imported from master codelists,Condition,non-standard,Edema
+peripheral_edema,Peripheral oedema,condition,4102122,FALSE,Genital edema,SNOMED,Edema,reviewed_seed,Imported from master codelists,Condition,standard,Edema
+peripheral_edema,Peripheral oedema,condition,4102131,FALSE,Gravitational edema of leg,SNOMED,Edema,reviewed_seed,Imported from master codelists,Condition,standard,Edema
+peripheral_edema,Peripheral oedema,condition,4102320,FALSE,Chronic acquired lymphedema,SNOMED,Edema,reviewed_seed,Imported from master codelists,Condition,standard,Edema
+peripheral_edema,Peripheral oedema,condition,4105178,FALSE,Cystoid macular edema,SNOMED,Edema,reviewed_seed,Imported from master codelists,Condition,standard,Edema
+peripheral_edema,Peripheral oedema,condition,4109678,FALSE,Pitting edema,SNOMED,Edema,reviewed_seed,Imported from master codelists,Condition,standard,Edema
+peripheral_edema,Peripheral oedema,condition,4121791,FALSE,Lipedema,SNOMED,Edema,reviewed_seed,Imported from master codelists,Condition,standard,Edema
+peripheral_edema,Peripheral oedema,condition,4124333,FALSE,Edema of clitoris,SNOMED,Edema,reviewed_seed,Imported from master codelists,Condition,standard,Edema
+peripheral_edema,Peripheral oedema,condition,4126002,FALSE,Referral by lymphedema care nurse,SNOMED,Edema,reviewed_seed,Imported from master codelists,Observation,standard,Edema
+peripheral_edema,Peripheral oedema,condition,4127843,FALSE,Edema of cervix,SNOMED,Edema,reviewed_seed,Imported from master codelists,Condition,standard,Edema
+peripheral_edema,Peripheral oedema,condition,4129675,FALSE,Edema of breast,SNOMED,Edema,reviewed_seed,Imported from master codelists,Condition,standard,Edema
+peripheral_edema,Peripheral oedema,condition,4131335,FALSE,Stomal edema,SNOMED,Edema,reviewed_seed,Imported from master codelists,Meas Value,standard,Edema
+peripheral_edema,Peripheral oedema,condition,4136481,FALSE,Under care of lymphedema care nurse,SNOMED,Edema,reviewed_seed,Imported from master codelists,Observation,standard,Edema
+peripheral_edema,Peripheral oedema,condition,4141850,FALSE,Referral to lymphedema care nurse,SNOMED,Edema,reviewed_seed,Imported from master codelists,Observation,standard,Edema
+peripheral_edema,Peripheral oedema,condition,4147210,FALSE,Lymphatic edema,SNOMED,Edema,reviewed_seed,Imported from master codelists,Observation,standard,Edema
+peripheral_edema,Peripheral oedema,condition,4154456,FALSE,Localized retinal edema,SNOMED,Edema,reviewed_seed,Imported from master codelists,Condition,standard,Edema
+peripheral_edema,Peripheral oedema,condition,4155910,FALSE,Generalized edema,SNOMED,Edema,reviewed_seed,Imported from master codelists,Condition,standard,Edema
+peripheral_edema,Peripheral oedema,condition,4158343,FALSE,Peripheral edema,SNOMED,Edema,reviewed_seed,Imported from master codelists,Condition,standard,Edema
+peripheral_edema,Peripheral oedema,condition,4159367,FALSE,Edema of nipple,SNOMED,Edema,reviewed_seed,Imported from master codelists,Condition,standard,Edema
+peripheral_edema,Peripheral oedema,condition,4159968,FALSE,Corneal stromal edema,SNOMED,Edema,reviewed_seed,Imported from master codelists,Condition,standard,Edema
+peripheral_edema,Peripheral oedema,condition,4161207,FALSE,ACE inhibitor-aggravated angioedema,SNOMED,Edema,reviewed_seed,Imported from master codelists,Condition,standard,Edema
+peripheral_edema,Peripheral oedema,condition,4171917,FALSE,Localized edema,SNOMED,Edema,reviewed_seed,Imported from master codelists,Condition,standard,Edema
+peripheral_edema,Peripheral oedema,condition,4172672,FALSE,Edema of skeletal muscle,SNOMED,Edema,reviewed_seed,Imported from master codelists,Condition,standard,Edema
+peripheral_edema,Peripheral oedema,condition,4173563,FALSE,Pitting edema,SNOMED,Edema,reviewed_seed,Imported from master codelists,Observation,standard,Edema
+peripheral_edema,Peripheral oedema,condition,4175817,FALSE,Massive edema,SNOMED,Edema,reviewed_seed,Imported from master codelists,Observation,standard,Edema
+peripheral_edema,Peripheral oedema,condition,4177665,FALSE,Periorbital edema,SNOMED,Edema,reviewed_seed,Imported from master codelists,Condition,standard,Edema
+peripheral_edema,Peripheral oedema,condition,4179625,FALSE,Subglottic edema,SNOMED,Edema,reviewed_seed,Imported from master codelists,Condition,standard,Edema
+peripheral_edema,Peripheral oedema,condition,4182393,FALSE,Peripheral retinal edema,SNOMED,Edema,reviewed_seed,Imported from master codelists,Condition,standard,Edema
+peripheral_edema,Peripheral oedema,condition,4189298,FALSE,Corneal epithelial edema,SNOMED,Edema,reviewed_seed,Imported from master codelists,Condition,standard,Edema
+peripheral_edema,Peripheral oedema,condition,4189299,FALSE,Bullous corneal epithelial edema,SNOMED,Edema,reviewed_seed,Imported from master codelists,Condition,standard,Edema
+peripheral_edema,Peripheral oedema,condition,4195046,FALSE,Clinically significant macular edema,SNOMED,Edema,reviewed_seed,Imported from master codelists,Condition,standard,Edema
+peripheral_edema,Peripheral oedema,condition,4195595,FALSE,Localized edema,SNOMED,Edema,reviewed_seed,Imported from master codelists,Observation,standard,Edema
+peripheral_edema,Peripheral oedema,condition,4195695,FALSE,Leukedema of mouth,SNOMED,Edema,reviewed_seed,Imported from master codelists,Condition,standard,Edema
+peripheral_edema,Peripheral oedema,condition,4196943,FALSE,Edema,SNOMED,Edema,reviewed_seed,Imported from master codelists,Observation,standard,Edema
+peripheral_edema,Peripheral oedema,condition,4198564,FALSE,Supraglottic edema,SNOMED,Edema,reviewed_seed,Imported from master codelists,Condition,standard,Edema
+peripheral_edema,Peripheral oedema,condition,4199409,FALSE,Edema of trunk,SNOMED,Edema,reviewed_seed,Imported from master codelists,Condition,standard,Edema
+peripheral_edema,Peripheral oedema,condition,4205497,FALSE,Lymphedema of limb,SNOMED,Edema,reviewed_seed,Imported from master codelists,Condition,standard,Edema
+peripheral_edema,Peripheral oedema,condition,4217627,FALSE,Edema of the tongue,SNOMED,Edema,reviewed_seed,Imported from master codelists,Condition,standard,Edema
+peripheral_edema,Peripheral oedema,condition,4220064,FALSE,Peripheral edema,SNOMED,Edema,reviewed_seed,Imported from master codelists,Observation,standard,Edema
+peripheral_edema,Peripheral oedema,condition,4222079,FALSE,4+ pitting edema,SNOMED,Edema,reviewed_seed,Imported from master codelists,Condition,standard,Edema
+peripheral_edema,Peripheral oedema,condition,4222260,FALSE,Idiopathic urticaria and/or angioedema,SNOMED,Edema,reviewed_seed,Imported from master codelists,Condition,standard,Edema
+peripheral_edema,Peripheral oedema,condition,4222414,FALSE,Non-pitting edema,SNOMED,Edema,reviewed_seed,Imported from master codelists,Condition,standard,Edema
+peripheral_edema,Peripheral oedema,condition,4222871,FALSE,2+ pitting edema,SNOMED,Edema,reviewed_seed,Imported from master codelists,Condition,standard,Edema
+peripheral_edema,Peripheral oedema,condition,4223489,FALSE,Idiopathic angioedema,SNOMED,Edema,reviewed_seed,Imported from master codelists,Condition,standard,Edema
+peripheral_edema,Peripheral oedema,condition,4227224,FALSE,1+ pitting edema,SNOMED,Edema,reviewed_seed,Imported from master codelists,Condition,standard,Edema
+peripheral_edema,Peripheral oedema,condition,4230799,FALSE,Edema of scrotum,SNOMED,Edema,reviewed_seed,Imported from master codelists,Condition,standard,Edema
+peripheral_edema,Peripheral oedema,condition,4231570,FALSE,Cardiac edema,SNOMED,Edema,reviewed_seed,Imported from master codelists,Condition,standard,Edema
+peripheral_edema,Peripheral oedema,condition,4233567,FALSE,Alimentary edema,SNOMED,Edema,reviewed_seed,Imported from master codelists,Condition,standard,Edema
+peripheral_edema,Peripheral oedema,condition,4233682,FALSE,Edema of oral soft tissues,SNOMED,Edema,reviewed_seed,Imported from master codelists,Condition,standard,Edema
+peripheral_edema,Peripheral oedema,condition,4237151,FALSE,Idiopathic edema,SNOMED,Edema,reviewed_seed,Imported from master codelists,Condition,standard,Edema
+peripheral_edema,Peripheral oedema,condition,4242440,FALSE,Dependent edema,SNOMED,Edema,reviewed_seed,Imported from master codelists,Observation,standard,Edema
+peripheral_edema,Peripheral oedema,condition,4244710,FALSE,Edema bullosum vesicae,SNOMED,Edema,reviewed_seed,Imported from master codelists,Condition,standard,Edema
+peripheral_edema,Peripheral oedema,condition,4245407,FALSE,Edema of nasopharynx,SNOMED,Edema,reviewed_seed,Imported from master codelists,Condition,standard,Edema
+peripheral_edema,Peripheral oedema,condition,4246404,FALSE,Hard edema,SNOMED,Edema,reviewed_seed,Imported from master codelists,Observation,standard,Edema
+peripheral_edema,Peripheral oedema,condition,4252207,FALSE,Acute edema,SNOMED,Edema,reviewed_seed,Imported from master codelists,Observation,standard,Edema
+peripheral_edema,Peripheral oedema,condition,4263453,FALSE,Subepidermal edema,SNOMED,Edema,reviewed_seed,Imported from master codelists,Observation,standard,Edema
+peripheral_edema,Peripheral oedema,condition,4265394,FALSE,Edema of vulva,SNOMED,Edema,reviewed_seed,Imported from master codelists,Condition,standard,Edema
+peripheral_edema,Peripheral oedema,condition,4267552,FALSE,Primary lymphedema tardum,SNOMED,Edema,reviewed_seed,Imported from master codelists,Condition,standard,Edema
+peripheral_edema,Peripheral oedema,condition,4270861,FALSE,Allergic angioedema,SNOMED,Edema,reviewed_seed,Imported from master codelists,Condition,standard,Edema
+peripheral_edema,Peripheral oedema,condition,4270865,FALSE,Episodic angioedema with eosinophilia,SNOMED,Edema,reviewed_seed,Imported from master codelists,Condition,standard,Edema
+peripheral_edema,Peripheral oedema,condition,4276529,FALSE,Edema of spinal cord,SNOMED,Edema,reviewed_seed,Imported from master codelists,Condition,standard,Edema
+peripheral_edema,Peripheral oedema,condition,4290333,FALSE,Macular retinal edema,SNOMED,Edema,reviewed_seed,Imported from master codelists,Condition,standard,Edema
+peripheral_edema,Peripheral oedema,condition,4291296,FALSE,Lymphedema of uncertain etiology,SNOMED,Edema,reviewed_seed,Imported from master codelists,Condition,standard,Edema
+peripheral_edema,Peripheral oedema,condition,4291466,FALSE,Periodic edema,SNOMED,Edema,reviewed_seed,Imported from master codelists,Condition,standard,Edema
+peripheral_edema,Peripheral oedema,condition,4292365,FALSE,Angioedema of tongue,SNOMED,Edema,reviewed_seed,Imported from master codelists,Condition,standard,Edema
+peripheral_edema,Peripheral oedema,condition,4292366,FALSE,Cholinergic angioedema,SNOMED,Edema,reviewed_seed,Imported from master codelists,Condition,standard,Edema
+peripheral_edema,Peripheral oedema,condition,4293698,FALSE,Lymphedema of ear,SNOMED,Edema,reviewed_seed,Imported from master codelists,Condition,standard,Edema
+peripheral_edema,Peripheral oedema,condition,4296243,FALSE,Cerebral edema control,SNOMED,Edema,reviewed_seed,Imported from master codelists,Observation,standard,Edema
+peripheral_edema,Peripheral oedema,condition,4296363,FALSE,Lymphedema of eyelid,SNOMED,Edema,reviewed_seed,Imported from master codelists,Condition,standard,Edema
+peripheral_edema,Peripheral oedema,condition,4296364,FALSE,Lymphedema of lip,SNOMED,Edema,reviewed_seed,Imported from master codelists,Condition,standard,Edema
+peripheral_edema,Peripheral oedema,condition,4296365,FALSE,Lymphedema of penis,SNOMED,Edema,reviewed_seed,Imported from master codelists,Condition,standard,Edema
+peripheral_edema,Peripheral oedema,condition,4296366,FALSE,Lymphedema of vulva,SNOMED,Edema,reviewed_seed,Imported from master codelists,Condition,standard,Edema
+peripheral_edema,Peripheral oedema,condition,4296646,FALSE,Factitious lymphedema,SNOMED,Edema,reviewed_seed,Imported from master codelists,Condition,standard,Edema
+peripheral_edema,Peripheral oedema,condition,4297361,FALSE,Angioedema and/or urticaria,SNOMED,Edema,reviewed_seed,Imported from master codelists,Condition,standard,Edema
+peripheral_edema,Peripheral oedema,condition,4299016,FALSE,Acute edema blisters,SNOMED,Edema,reviewed_seed,Imported from master codelists,Condition,standard,Edema
+peripheral_edema,Peripheral oedema,condition,4299806,FALSE,Lymphedema of lower extremity,SNOMED,Edema,reviewed_seed,Imported from master codelists,Condition,standard,Edema
+peripheral_edema,Peripheral oedema,condition,4299807,FALSE,Lymphedema of genitalia,SNOMED,Edema,reviewed_seed,Imported from master codelists,Condition,standard,Edema
+peripheral_edema,Peripheral oedema,condition,4301048,FALSE,Penile venereal edema,SNOMED,Edema,reviewed_seed,Imported from master codelists,Condition,standard,Edema
+peripheral_edema,Peripheral oedema,condition,4301157,FALSE,Angioedema caused by angiotensin-converting-enzyme inhibitor,SNOMED,Edema,reviewed_seed,Imported from master codelists,Condition,standard,Edema
+peripheral_edema,Peripheral oedema,condition,4304346,FALSE,Inflammatory edema,SNOMED,Edema,reviewed_seed,Imported from master codelists,Observation,standard,Edema
+peripheral_edema,Peripheral oedema,condition,4308632,FALSE,Optic disc edema,SNOMED,Edema,reviewed_seed,Imported from master codelists,Condition,standard,Edema
+peripheral_edema,Peripheral oedema,condition,4309070,FALSE,Edema of extremity,SNOMED,Edema,reviewed_seed,Imported from master codelists,Condition,standard,Edema
+peripheral_edema,Peripheral oedema,condition,4311956,FALSE,Chronic edema,SNOMED,Edema,reviewed_seed,Imported from master codelists,Observation,standard,Edema
+peripheral_edema,Peripheral oedema,condition,4317260,FALSE,Edematous skin,SNOMED,Edema,reviewed_seed,Imported from master codelists,Condition,standard,Edema
+peripheral_edema,Peripheral oedema,condition,4318834,FALSE,Retroperitoneal edema,SNOMED,Edema,reviewed_seed,Imported from master codelists,Condition,standard,Edema
+peripheral_edema,Peripheral oedema,condition,4319301,FALSE,Scleredema,SNOMED,Edema,reviewed_seed,Imported from master codelists,Condition,standard,Edema
+peripheral_edema,Peripheral oedema,condition,4319307,FALSE,Mucous membrane edema,SNOMED,Edema,reviewed_seed,Imported from master codelists,Condition,standard,Edema
+peripheral_edema,Peripheral oedema,condition,4321716,FALSE,Gingival edema,SNOMED,Edema,reviewed_seed,Imported from master codelists,Condition,standard,Edema
+peripheral_edema,Peripheral oedema,condition,4321748,FALSE,Leukedema,SNOMED,Edema,reviewed_seed,Imported from master codelists,Observation,standard,Edema
+peripheral_edema,Peripheral oedema,condition,4323491,FALSE,Lymphedema of scrotum,SNOMED,Edema,reviewed_seed,Imported from master codelists,Condition,standard,Edema
+peripheral_edema,Peripheral oedema,condition,4334119,FALSE,Aphakic corneal edema,SNOMED,Edema,reviewed_seed,Imported from master codelists,Condition,standard,Edema
+peripheral_edema,Peripheral oedema,condition,4334176,FALSE,Noncystoid edema of macula of retina,SNOMED,Edema,reviewed_seed,Imported from master codelists,Condition,standard,Edema
+peripheral_edema,Peripheral oedema,condition,4334751,FALSE,Phakic corneal edema,SNOMED,Edema,reviewed_seed,Imported from master codelists,Condition,standard,Edema
+peripheral_edema,Peripheral oedema,condition,4334752,FALSE,Pseudophakic corneal edema,SNOMED,Edema,reviewed_seed,Imported from master codelists,Condition,standard,Edema
+peripheral_edema,Peripheral oedema,condition,4339010,FALSE,Central retinal vein occlusion with macular edema,SNOMED,Edema,reviewed_seed,Imported from master codelists,Condition,standard,Edema
+peripheral_edema,Peripheral oedema,condition,4339391,FALSE,Intercellular edema,SNOMED,Edema,reviewed_seed,Imported from master codelists,Observation,standard,Edema
+peripheral_edema,Peripheral oedema,condition,36684660,FALSE,Cystoid macular edema of right retina,SNOMED,Edema,reviewed_seed,Imported from master codelists,Condition,standard,Edema
+peripheral_edema,Peripheral oedema,condition,36684726,FALSE,Cystoid macular edema of left retina,SNOMED,Edema,reviewed_seed,Imported from master codelists,Condition,standard,Edema
+peripheral_edema,Peripheral oedema,condition,36684786,FALSE,Bilateral cystoid macular edema of retinas,SNOMED,Edema,reviewed_seed,Imported from master codelists,Condition,standard,Edema
+peripheral_edema,Peripheral oedema,condition,36712935,FALSE,Lymphedema of right lower limb,SNOMED,Edema,reviewed_seed,Imported from master codelists,Condition,standard,Edema
+peripheral_edema,Peripheral oedema,condition,36712936,FALSE,Lymphedema of left lower limb,SNOMED,Edema,reviewed_seed,Imported from master codelists,Condition,standard,Edema
+peripheral_edema,Peripheral oedema,condition,36712937,FALSE,Lymphedema of bilateral lower limbs,SNOMED,Edema,reviewed_seed,Imported from master codelists,Condition,standard,Edema
+peripheral_edema,Peripheral oedema,condition,36712938,FALSE,Lymphedema of right upper limb,SNOMED,Edema,reviewed_seed,Imported from master codelists,Condition,standard,Edema
+peripheral_edema,Peripheral oedema,condition,36712941,FALSE,Macular edema of retina of bilateral eyes,SNOMED,Edema,reviewed_seed,Imported from master codelists,Condition,standard,Edema
+peripheral_edema,Peripheral oedema,condition,36712976,FALSE,Venous stasis edema of bilateral lower limbs,SNOMED,Edema,reviewed_seed,Imported from master codelists,Condition,standard,Edema
+peripheral_edema,Peripheral oedema,condition,36712977,FALSE,Venous stasis edema of left lower limb,SNOMED,Edema,reviewed_seed,Imported from master codelists,Condition,standard,Edema
+peripheral_edema,Peripheral oedema,condition,36715489,FALSE,Localized edema due to fluid overload,SNOMED,Edema,reviewed_seed,Imported from master codelists,Condition,standard,Edema
+peripheral_edema,Peripheral oedema,condition,36715511,FALSE,Edema due to fluid overload,SNOMED,Edema,reviewed_seed,Imported from master codelists,Condition,standard,Edema
+peripheral_edema,Peripheral oedema,condition,36717015,FALSE,Edema of optic disc of bilateral eyes,SNOMED,Edema,reviewed_seed,Imported from master codelists,Condition,standard,Edema
+peripheral_edema,Peripheral oedema,condition,36717150,FALSE,Fluid overload without edema,SNOMED,Edema,reviewed_seed,Imported from master codelists,Condition,standard,Edema
+peripheral_edema,Peripheral oedema,condition,36717276,FALSE,Lymphedema of left upper limb,SNOMED,Edema,reviewed_seed,Imported from master codelists,Condition,standard,Edema
+peripheral_edema,Peripheral oedema,condition,36717281,FALSE,Venous stasis edema of right lower limb,SNOMED,Edema,reviewed_seed,Imported from master codelists,Condition,standard,Edema
+peripheral_edema,Peripheral oedema,condition,36717304,FALSE,Non-traumatic cerebral edema,SNOMED,Edema,reviewed_seed,Imported from master codelists,Condition,standard,Edema
+peripheral_edema,Peripheral oedema,condition,37108888,FALSE,Macular edema of retina of right eye,SNOMED,Edema,reviewed_seed,Imported from master codelists,Condition,standard,Edema
+peripheral_edema,Peripheral oedema,condition,37108889,FALSE,Macular edema of retina of left eye,SNOMED,Edema,reviewed_seed,Imported from master codelists,Condition,standard,Edema
+peripheral_edema,Peripheral oedema,condition,37108959,FALSE,Edema of optic disc of right eye,SNOMED,Edema,reviewed_seed,Imported from master codelists,Condition,standard,Edema
+peripheral_edema,Peripheral oedema,condition,37110554,FALSE,Physical angioedema,SNOMED,Edema,reviewed_seed,Imported from master codelists,Condition,standard,Edema
+peripheral_edema,Peripheral oedema,condition,37110576,FALSE,Edema of soft tissue due to increased capillary pressure,SNOMED,Edema,reviewed_seed,Imported from master codelists,Condition,standard,Edema
+peripheral_edema,Peripheral oedema,condition,37117079,FALSE,Edema of optic disc of left eye,SNOMED,Edema,reviewed_seed,Imported from master codelists,Condition,standard,Edema
+peripheral_edema,Peripheral oedema,condition,37207425,FALSE,Mild generalized edema,SNOMED,Edema,reviewed_seed,Imported from master codelists,Condition,standard,Edema
+peripheral_edema,Peripheral oedema,condition,37207426,FALSE,Moderate generalized edema,SNOMED,Edema,reviewed_seed,Imported from master codelists,Condition,standard,Edema
+peripheral_edema,Peripheral oedema,condition,37207427,FALSE,Severe generalized edema,SNOMED,Edema,reviewed_seed,Imported from master codelists,Condition,standard,Edema
+peripheral_edema,Peripheral oedema,condition,37207850,FALSE,Pseudopapilledema of right eye,SNOMED,Edema,reviewed_seed,Imported from master codelists,Condition,standard,Edema
+peripheral_edema,Peripheral oedema,condition,37207887,FALSE,Conjunctival edema of right eye,SNOMED,Edema,reviewed_seed,Imported from master codelists,Condition,standard,Edema
+peripheral_edema,Peripheral oedema,condition,37207910,FALSE,Pseudopapilledema of left eye,SNOMED,Edema,reviewed_seed,Imported from master codelists,Condition,standard,Edema
+peripheral_edema,Peripheral oedema,condition,37207947,FALSE,Conjunctival edema of left eye,SNOMED,Edema,reviewed_seed,Imported from master codelists,Condition,standard,Edema
+peripheral_edema,Peripheral oedema,condition,37207959,FALSE,Edema of right upper eyelid,SNOMED,Edema,reviewed_seed,Imported from master codelists,Condition,standard,Edema
+peripheral_edema,Peripheral oedema,condition,37207960,FALSE,Edema of left upper eyelid,SNOMED,Edema,reviewed_seed,Imported from master codelists,Condition,standard,Edema
+peripheral_edema,Peripheral oedema,condition,37207971,FALSE,Bilateral pseudopapilledema of eyes,SNOMED,Edema,reviewed_seed,Imported from master codelists,Condition,standard,Edema
+peripheral_edema,Peripheral oedema,condition,37207994,FALSE,Bilateral conjunctival edema,SNOMED,Edema,reviewed_seed,Imported from master codelists,Condition,standard,Edema
+peripheral_edema,Peripheral oedema,condition,37208020,FALSE,Bilateral periorbital edema,SNOMED,Edema,reviewed_seed,Imported from master codelists,Condition,standard,Edema
+peripheral_edema,Peripheral oedema,condition,37209358,FALSE,Edema of bilateral eyelids,SNOMED,Edema,reviewed_seed,Imported from master codelists,Condition,standard,Edema
+peripheral_edema,Peripheral oedema,condition,37311245,FALSE,Bilateral upper limb edema,SNOMED,Edema,reviewed_seed,Imported from master codelists,Condition,standard,Edema
+peripheral_edema,Peripheral oedema,condition,37311246,FALSE,Edema of right upper limb,SNOMED,Edema,reviewed_seed,Imported from master codelists,Condition,standard,Edema
+peripheral_edema,Peripheral oedema,condition,37311247,FALSE,Edema of left upper limb,SNOMED,Edema,reviewed_seed,Imported from master codelists,Condition,standard,Edema
+peripheral_edema,Peripheral oedema,condition,37311248,FALSE,Edema of right lower limb,SNOMED,Edema,reviewed_seed,Imported from master codelists,Condition,standard,Edema
+peripheral_edema,Peripheral oedema,condition,37311249,FALSE,Edema of left lower limb,SNOMED,Edema,reviewed_seed,Imported from master codelists,Condition,standard,Edema
+peripheral_edema,Peripheral oedema,condition,37311250,FALSE,Bilateral lower limb edema,SNOMED,Edema,reviewed_seed,Imported from master codelists,Condition,standard,Edema
+peripheral_edema,Peripheral oedema,condition,37311251,FALSE,Edema of right lower leg,SNOMED,Edema,reviewed_seed,Imported from master codelists,Condition,standard,Edema
+peripheral_edema,Peripheral oedema,condition,37311252,FALSE,Edema of left lower leg,SNOMED,Edema,reviewed_seed,Imported from master codelists,Condition,standard,Edema
+peripheral_edema,Peripheral oedema,condition,37311855,FALSE,Bilateral upper arm edema,SNOMED,Edema,reviewed_seed,Imported from master codelists,Condition,standard,Edema
+peripheral_edema,Peripheral oedema,condition,37311856,FALSE,Edema of right upper arm,SNOMED,Edema,reviewed_seed,Imported from master codelists,Condition,standard,Edema
+peripheral_edema,Peripheral oedema,condition,37311857,FALSE,Edema of left upper arm,SNOMED,Edema,reviewed_seed,Imported from master codelists,Condition,standard,Edema
+peripheral_edema,Peripheral oedema,condition,37311858,FALSE,Bilateral lower leg edema,SNOMED,Edema,reviewed_seed,Imported from master codelists,Condition,standard,Edema
+peripheral_edema,Peripheral oedema,condition,37311894,FALSE,Pitting edema of lip,SNOMED,Edema,reviewed_seed,Imported from master codelists,Condition,standard,Edema
+peripheral_edema,Peripheral oedema,condition,40480099,FALSE,Edema of upper arm,SNOMED,Edema,reviewed_seed,Imported from master codelists,Condition,standard,Edema
+peripheral_edema,Peripheral oedema,condition,40480101,FALSE,Edema of calf,SNOMED,Edema,reviewed_seed,Imported from master codelists,Condition,standard,Edema
+peripheral_edema,Peripheral oedema,condition,40480159,FALSE,Edema of chest wall,SNOMED,Edema,reviewed_seed,Imported from master codelists,Condition,standard,Edema
+peripheral_edema,Peripheral oedema,condition,40480516,FALSE,Orbital edema,SNOMED,Edema,reviewed_seed,Imported from master codelists,Condition,standard,Edema
+peripheral_edema,Peripheral oedema,condition,40481037,FALSE,Edema of palm of hand,SNOMED,Edema,reviewed_seed,Imported from master codelists,Condition,standard,Edema
+peripheral_edema,Peripheral oedema,condition,40481124,FALSE,Edema of back,SNOMED,Edema,reviewed_seed,Imported from master codelists,Condition,standard,Edema
+peripheral_edema,Peripheral oedema,condition,40481573,FALSE,Edema of all toes,SNOMED,Edema,reviewed_seed,Imported from master codelists,Condition,standard,Edema
+peripheral_edema,Peripheral oedema,condition,40481932,FALSE,Edema of shoulder,SNOMED,Edema,reviewed_seed,Imported from master codelists,Condition,standard,Edema
+peripheral_edema,Peripheral oedema,condition,40481968,FALSE,Edema of sole of foot,SNOMED,Edema,reviewed_seed,Imported from master codelists,Condition,standard,Edema
+peripheral_edema,Peripheral oedema,condition,40482015,FALSE,Soft nonpitting edema,SNOMED,Edema,reviewed_seed,Imported from master codelists,Condition,standard,Edema
+peripheral_edema,Peripheral oedema,condition,40482052,FALSE,Edema of face,SNOMED,Edema,reviewed_seed,Imported from master codelists,Condition,standard,Edema
+peripheral_edema,Peripheral oedema,condition,40482408,FALSE,Edema of dorsum of foot,SNOMED,Edema,reviewed_seed,Imported from master codelists,Condition,standard,Edema
+peripheral_edema,Peripheral oedema,condition,40482410,FALSE,Edema of entire limb,SNOMED,Edema,reviewed_seed,Imported from master codelists,Condition,standard,Edema
+peripheral_edema,Peripheral oedema,condition,40482463,FALSE,Edema of suprapubic region,SNOMED,Edema,reviewed_seed,Imported from master codelists,Condition,standard,Edema
+peripheral_edema,Peripheral oedema,condition,40482819,FALSE,Edema of dorsum of hand,SNOMED,Edema,reviewed_seed,Imported from master codelists,Condition,standard,Edema
+peripheral_edema,Peripheral oedema,condition,40482879,FALSE,Edema of buttock,SNOMED,Edema,reviewed_seed,Imported from master codelists,Condition,standard,Edema
+peripheral_edema,Peripheral oedema,condition,40482905,FALSE,Firm nonpitting edema,SNOMED,Edema,reviewed_seed,Imported from master codelists,Condition,standard,Edema
+peripheral_edema,Peripheral oedema,condition,40482907,FALSE,Soft pitting edema,SNOMED,Edema,reviewed_seed,Imported from master codelists,Condition,standard,Edema
+peripheral_edema,Peripheral oedema,condition,40483302,FALSE,Firm pitting edema,SNOMED,Edema,reviewed_seed,Imported from master codelists,Condition,standard,Edema
+peripheral_edema,Peripheral oedema,condition,40483338,FALSE,Dependent lymphedema,SNOMED,Edema,reviewed_seed,Imported from master codelists,Condition,standard,Edema
+peripheral_edema,Peripheral oedema,condition,40483347,FALSE,Skin folds visible on edematous limb,SNOMED,Edema,reviewed_seed,Imported from master codelists,Condition,standard,Edema
+peripheral_edema,Peripheral oedema,condition,40483787,FALSE,Edema of extremity with extension to trunk,SNOMED,Edema,reviewed_seed,Imported from master codelists,Condition,standard,Edema
+peripheral_edema,Peripheral oedema,condition,40483788,FALSE,Lymphovenous edema,SNOMED,Edema,reviewed_seed,Imported from master codelists,Condition,standard,Edema
+peripheral_edema,Peripheral oedema,condition,40492237,FALSE,Lymphedema care,SNOMED,Edema,reviewed_seed,Imported from master codelists,Observation,standard,Edema
+peripheral_edema,Peripheral oedema,condition,42536675,FALSE,Chronic edema of penis,SNOMED,Edema,reviewed_seed,Imported from master codelists,Condition,standard,Edema
+peripheral_edema,Peripheral oedema,condition,42574098,FALSE,NA,NA,Edema,reviewed_seed,Imported from master codelists,NA,NA,Edema
+peripheral_edema,Peripheral oedema,condition,42593384,FALSE,NA,NA,Edema,reviewed_seed,Imported from master codelists,NA,NA,Edema
+peripheral_edema,Peripheral oedema,condition,42596288,FALSE,NA,NA,Edema,reviewed_seed,Imported from master codelists,NA,NA,Edema
+peripheral_edema,Peripheral oedema,condition,42596548,FALSE,NA,NA,Edema,reviewed_seed,Imported from master codelists,NA,NA,Edema
+peripheral_edema,Peripheral oedema,condition,42598264,FALSE,NA,NA,Edema,reviewed_seed,Imported from master codelists,NA,NA,Edema
+peripheral_edema,Peripheral oedema,condition,42709748,FALSE,Lymphedema of upper limb,SNOMED,Edema,reviewed_seed,Imported from master codelists,Condition,standard,Edema
+peripheral_edema,Peripheral oedema,condition,42709749,FALSE,Lymphedema of upper arm,SNOMED,Edema,reviewed_seed,Imported from master codelists,Condition,standard,Edema
+peripheral_edema,Peripheral oedema,condition,42709835,FALSE,Edema of lower leg,SNOMED,Edema,reviewed_seed,Imported from master codelists,Condition,standard,Edema
+peripheral_edema,Peripheral oedema,condition,42869826,FALSE,Edema present,LOINC,Edema,reviewed_seed,Imported from master codelists,Observation,standard,Edema
+peripheral_edema,Peripheral oedema,condition,43531690,FALSE,Acquired lymphedema of lower extremity,SNOMED,Edema,reviewed_seed,Imported from master codelists,Condition,standard,Edema
+peripheral_edema,Peripheral oedema,condition,44782959,FALSE,Edema of extremity of sudden onset,SNOMED,Edema,reviewed_seed,Imported from master codelists,Condition,standard,Edema
+peripheral_edema,Peripheral oedema,condition,44801742,FALSE,Referral for intensive treatment of lymphoedema,SNOMED,Edema,reviewed_seed,Imported from master codelists,Observation,standard,Edema
+peripheral_edema,Peripheral oedema,condition,44801795,FALSE,Has lymphoedema key worker,SNOMED,Edema,reviewed_seed,Imported from master codelists,Observation,standard,Edema
+peripheral_edema,Peripheral oedema,condition,44802019,FALSE,Mild lymphoedema of limb,SNOMED,Edema,reviewed_seed,Imported from master codelists,Condition,standard,Edema
+peripheral_edema,Peripheral oedema,condition,44802020,FALSE,Severe lymphoedema of limb,SNOMED,Edema,reviewed_seed,Imported from master codelists,Condition,standard,Edema
+peripheral_edema,Peripheral oedema,condition,44802359,FALSE,Intensive treatment of lymphoedema,SNOMED,Edema,reviewed_seed,Imported from master codelists,Observation,standard,Edema
+peripheral_edema,Peripheral oedema,condition,44802361,FALSE,Palliative treatment of lymphoedema,SNOMED,Edema,reviewed_seed,Imported from master codelists,Observation,standard,Edema
+peripheral_edema,Peripheral oedema,condition,44802493,FALSE,Oedema of neck,SNOMED,Edema,reviewed_seed,Imported from master codelists,Condition,standard,Edema
+peripheral_edema,Peripheral oedema,condition,44802547,FALSE,Lymphoedema monitoring,SNOMED,Edema,reviewed_seed,Imported from master codelists,Observation,standard,Edema
+peripheral_edema,Peripheral oedema,condition,44802878,FALSE,Limb oedema of sudden onset,SNOMED,Edema,reviewed_seed,Imported from master codelists,Condition,standard,Edema
+peripheral_edema,Peripheral oedema,condition,44802880,FALSE,Oedema of head,SNOMED,Edema,reviewed_seed,Imported from master codelists,Condition,standard,Edema
+peripheral_edema,Peripheral oedema,condition,44802882,FALSE,Referral to community lymphoedema service,SNOMED,Edema,reviewed_seed,Imported from master codelists,Observation,standard,Edema
+peripheral_edema,Peripheral oedema,condition,44805390,FALSE,Worsening peripheral oedema,SNOMED,Edema,reviewed_seed,Imported from master codelists,Condition,standard,Edema
+peripheral_edema,Peripheral oedema,condition,44806913,FALSE,Unilateral oedema of arm,SNOMED,Edema,reviewed_seed,Imported from master codelists,Condition,standard,Edema
+peripheral_edema,Peripheral oedema,condition,44809280,FALSE,Referred by lymphoedema service,SNOMED,Edema,reviewed_seed,Imported from master codelists,Observation,standard,Edema
+peripheral_edema,Peripheral oedema,condition,44811198,FALSE,Seen in community lymphoedema clinic,SNOMED,Edema,reviewed_seed,Imported from master codelists,Observation,standard,Edema
+peripheral_edema,Peripheral oedema,condition,44811523,FALSE,Seen in lymphoedema clinic,SNOMED,Edema,reviewed_seed,Imported from master codelists,Observation,standard,Edema
+peripheral_edema,Peripheral oedema,condition,44813738,FALSE,Moderate lymphoedema of limb,SNOMED,Edema,reviewed_seed,Imported from master codelists,Condition,standard,Edema
+peripheral_edema,Peripheral oedema,condition,45763811,FALSE,Edema of lower eyelid,SNOMED,Edema,reviewed_seed,Imported from master codelists,Condition,standard,Edema
+peripheral_edema,Peripheral oedema,condition,45763822,FALSE,Edema of upper eyelid,SNOMED,Edema,reviewed_seed,Imported from master codelists,Condition,standard,Edema
+peripheral_edema,Peripheral oedema,condition,45766923,FALSE,Massive ovarian edema,SNOMED,Edema,reviewed_seed,Imported from master codelists,Condition,standard,Edema
+peripheral_edema,Peripheral oedema,condition,45767286,FALSE,Exudative edema,SNOMED,Edema,reviewed_seed,Imported from master codelists,Condition,standard,Edema

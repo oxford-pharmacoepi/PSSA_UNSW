@@ -1,37 +1,37 @@
-concept_id,concept_name,domain_id,vocabulary_id,standard_concept,condition,cohort_name,cohort_label,cohort_domain
-193238,Acute appendicitis with peritoneal abscess,Condition,SNOMED,standard,Appendicitis,appendicitis,Appendicitis,condition
-196149,Acute appendicitis with generalized peritonitis,Condition,SNOMED,standard,Appendicitis,appendicitis,Appendicitis,condition
-440448,Appendicitis,Condition,SNOMED,standard,Appendicitis,appendicitis,Appendicitis,condition
-441604,Acute appendicitis without peritonitis,Condition,SNOMED,standard,Appendicitis,appendicitis,Appendicitis,condition
-606479,Gangrenous appendicitis,Condition,SNOMED,standard,Appendicitis,appendicitis,Appendicitis,condition
-4048056,Healed appendicitis,Condition,SNOMED,standard,Appendicitis,appendicitis,Appendicitis,condition
-4048522,Focal appendicitis,Condition,SNOMED,standard,Appendicitis,appendicitis,Appendicitis,condition
-4057524,Acute appendicitis with peritonitis,Condition,SNOMED,standard,Appendicitis,appendicitis,Appendicitis,condition
-4097678,Amebic appendicitis,Condition,SNOMED,standard,Appendicitis,appendicitis,Appendicitis,condition
-4106169,Retrocecal appendicitis,Condition,SNOMED,standard,Appendicitis,appendicitis,Appendicitis,condition
-4117866,Acute perforated appendicitis,Condition,SNOMED,standard,Appendicitis,appendicitis,Appendicitis,condition
-4135708,Retroileal appendicitis,Condition,SNOMED,standard,Appendicitis,appendicitis,Appendicitis,condition
-4141626,Acute appendicitis with appendix abscess,Condition,SNOMED,standard,Appendicitis,appendicitis,Appendicitis,condition
-4151696,Acute obstructive appendicitis with perforation AND peritonitis,Condition,SNOMED,standard,Appendicitis,appendicitis,Appendicitis,condition
-4168050,Complicated appendicitis,Condition,SNOMED,standard,Appendicitis,appendicitis,Appendicitis,condition
-4175003,Suppurative appendicitis,Condition,SNOMED,standard,Appendicitis,appendicitis,Appendicitis,condition
-4177979,Acute obstructive appendicitis,Condition,SNOMED,standard,Appendicitis,appendicitis,Appendicitis,condition
-4178300,Acute gangrenous appendicitis,Condition,SNOMED,standard,Appendicitis,appendicitis,Appendicitis,condition
-4185984,Atypical appendicitis,Condition,SNOMED,standard,Appendicitis,appendicitis,Appendicitis,condition
-4197798,Periappendicitis,Condition,SNOMED,standard,Appendicitis,appendicitis,Appendicitis,condition
-4222930,Acute fulminating appendicitis,Condition,SNOMED,standard,Appendicitis,appendicitis,Appendicitis,condition
-4235575,Subacute appendicitis,Condition,SNOMED,standard,Appendicitis,appendicitis,Appendicitis,condition
-4239238,Pelvic appendicitis,Condition,SNOMED,standard,Appendicitis,appendicitis,Appendicitis,condition
-4243357,Chronic appendicitis,Condition,SNOMED,standard,Appendicitis,appendicitis,Appendicitis,condition
-4275886,Acute gangrenous appendicitis with perforation AND peritonitis,Condition,SNOMED,standard,Appendicitis,appendicitis,Appendicitis,condition
-4277609,Acute fulminating appendicitis with perforation AND peritonitis,Condition,SNOMED,standard,Appendicitis,appendicitis,Appendicitis,condition
-4283354,Recurrent appendicitis,Condition,SNOMED,standard,Appendicitis,appendicitis,Appendicitis,condition
-4310400,Acute appendicitis,Condition,SNOMED,standard,Appendicitis,appendicitis,Appendicitis,condition
-4318538,Ruptured suppurative appendicitis,Condition,SNOMED,standard,Appendicitis,appendicitis,Appendicitis,condition
-4337975,Catarrhal appendicitis,Condition,SNOMED,standard,Appendicitis,appendicitis,Appendicitis,condition
-4340802,Acute focal appendicitis,Condition,SNOMED,standard,Appendicitis,appendicitis,Appendicitis,condition
-4340803,Acute suppurative appendicitis,Condition,SNOMED,standard,Appendicitis,appendicitis,Appendicitis,condition
-37116446,Crohn disease of appendix,Condition,SNOMED,standard,Appendicitis,appendicitis,Appendicitis,condition
-37165601,Chronic appendicitis with perforation of appendix,Condition,SNOMED,standard,Appendicitis,appendicitis,Appendicitis,condition
-42536650,Acute phlegmonous appendicitis,Condition,SNOMED,standard,Appendicitis,appendicitis,Appendicitis,condition
-44784251,Acute appendicitis with localized peritonitis,Condition,SNOMED,standard,Appendicitis,appendicitis,Appendicitis,condition
+cohort_name,cohort_label,cohort_domain,concept_id,include_descendants,concept_name,vocabulary_id,concept_code,review_status,phenotype_note,domain_id,standard_concept,condition
+appendicitis,Appendicitis,condition,193238,FALSE,Acute appendicitis with peritoneal abscess,SNOMED,Appendicitis,reviewed_seed,Imported from master codelists,Condition,standard,Appendicitis
+appendicitis,Appendicitis,condition,196149,FALSE,Acute appendicitis with generalized peritonitis,SNOMED,Appendicitis,reviewed_seed,Imported from master codelists,Condition,standard,Appendicitis
+appendicitis,Appendicitis,condition,440448,FALSE,Appendicitis,SNOMED,Appendicitis,reviewed_seed,Imported from master codelists,Condition,standard,Appendicitis
+appendicitis,Appendicitis,condition,441604,FALSE,Acute appendicitis without peritonitis,SNOMED,Appendicitis,reviewed_seed,Imported from master codelists,Condition,standard,Appendicitis
+appendicitis,Appendicitis,condition,606479,FALSE,Gangrenous appendicitis,SNOMED,Appendicitis,reviewed_seed,Imported from master codelists,Condition,standard,Appendicitis
+appendicitis,Appendicitis,condition,4048056,FALSE,Healed appendicitis,SNOMED,Appendicitis,reviewed_seed,Imported from master codelists,Condition,standard,Appendicitis
+appendicitis,Appendicitis,condition,4048522,FALSE,Focal appendicitis,SNOMED,Appendicitis,reviewed_seed,Imported from master codelists,Condition,standard,Appendicitis
+appendicitis,Appendicitis,condition,4057524,FALSE,Acute appendicitis with peritonitis,SNOMED,Appendicitis,reviewed_seed,Imported from master codelists,Condition,standard,Appendicitis
+appendicitis,Appendicitis,condition,4097678,FALSE,Amebic appendicitis,SNOMED,Appendicitis,reviewed_seed,Imported from master codelists,Condition,standard,Appendicitis
+appendicitis,Appendicitis,condition,4106169,FALSE,Retrocecal appendicitis,SNOMED,Appendicitis,reviewed_seed,Imported from master codelists,Condition,standard,Appendicitis
+appendicitis,Appendicitis,condition,4117866,FALSE,Acute perforated appendicitis,SNOMED,Appendicitis,reviewed_seed,Imported from master codelists,Condition,standard,Appendicitis
+appendicitis,Appendicitis,condition,4135708,FALSE,Retroileal appendicitis,SNOMED,Appendicitis,reviewed_seed,Imported from master codelists,Condition,standard,Appendicitis
+appendicitis,Appendicitis,condition,4141626,FALSE,Acute appendicitis with appendix abscess,SNOMED,Appendicitis,reviewed_seed,Imported from master codelists,Condition,standard,Appendicitis
+appendicitis,Appendicitis,condition,4151696,FALSE,Acute obstructive appendicitis with perforation AND peritonitis,SNOMED,Appendicitis,reviewed_seed,Imported from master codelists,Condition,standard,Appendicitis
+appendicitis,Appendicitis,condition,4168050,FALSE,Complicated appendicitis,SNOMED,Appendicitis,reviewed_seed,Imported from master codelists,Condition,standard,Appendicitis
+appendicitis,Appendicitis,condition,4175003,FALSE,Suppurative appendicitis,SNOMED,Appendicitis,reviewed_seed,Imported from master codelists,Condition,standard,Appendicitis
+appendicitis,Appendicitis,condition,4177979,FALSE,Acute obstructive appendicitis,SNOMED,Appendicitis,reviewed_seed,Imported from master codelists,Condition,standard,Appendicitis
+appendicitis,Appendicitis,condition,4178300,FALSE,Acute gangrenous appendicitis,SNOMED,Appendicitis,reviewed_seed,Imported from master codelists,Condition,standard,Appendicitis
+appendicitis,Appendicitis,condition,4185984,FALSE,Atypical appendicitis,SNOMED,Appendicitis,reviewed_seed,Imported from master codelists,Condition,standard,Appendicitis
+appendicitis,Appendicitis,condition,4197798,FALSE,Periappendicitis,SNOMED,Appendicitis,reviewed_seed,Imported from master codelists,Condition,standard,Appendicitis
+appendicitis,Appendicitis,condition,4222930,FALSE,Acute fulminating appendicitis,SNOMED,Appendicitis,reviewed_seed,Imported from master codelists,Condition,standard,Appendicitis
+appendicitis,Appendicitis,condition,4235575,FALSE,Subacute appendicitis,SNOMED,Appendicitis,reviewed_seed,Imported from master codelists,Condition,standard,Appendicitis
+appendicitis,Appendicitis,condition,4239238,FALSE,Pelvic appendicitis,SNOMED,Appendicitis,reviewed_seed,Imported from master codelists,Condition,standard,Appendicitis
+appendicitis,Appendicitis,condition,4243357,FALSE,Chronic appendicitis,SNOMED,Appendicitis,reviewed_seed,Imported from master codelists,Condition,standard,Appendicitis
+appendicitis,Appendicitis,condition,4275886,FALSE,Acute gangrenous appendicitis with perforation AND peritonitis,SNOMED,Appendicitis,reviewed_seed,Imported from master codelists,Condition,standard,Appendicitis
+appendicitis,Appendicitis,condition,4277609,FALSE,Acute fulminating appendicitis with perforation AND peritonitis,SNOMED,Appendicitis,reviewed_seed,Imported from master codelists,Condition,standard,Appendicitis
+appendicitis,Appendicitis,condition,4283354,FALSE,Recurrent appendicitis,SNOMED,Appendicitis,reviewed_seed,Imported from master codelists,Condition,standard,Appendicitis
+appendicitis,Appendicitis,condition,4310400,FALSE,Acute appendicitis,SNOMED,Appendicitis,reviewed_seed,Imported from master codelists,Condition,standard,Appendicitis
+appendicitis,Appendicitis,condition,4318538,FALSE,Ruptured suppurative appendicitis,SNOMED,Appendicitis,reviewed_seed,Imported from master codelists,Condition,standard,Appendicitis
+appendicitis,Appendicitis,condition,4337975,FALSE,Catarrhal appendicitis,SNOMED,Appendicitis,reviewed_seed,Imported from master codelists,Condition,standard,Appendicitis
+appendicitis,Appendicitis,condition,4340802,FALSE,Acute focal appendicitis,SNOMED,Appendicitis,reviewed_seed,Imported from master codelists,Condition,standard,Appendicitis
+appendicitis,Appendicitis,condition,4340803,FALSE,Acute suppurative appendicitis,SNOMED,Appendicitis,reviewed_seed,Imported from master codelists,Condition,standard,Appendicitis
+appendicitis,Appendicitis,condition,37116446,FALSE,Crohn disease of appendix,SNOMED,Appendicitis,reviewed_seed,Imported from master codelists,Condition,standard,Appendicitis
+appendicitis,Appendicitis,condition,37165601,FALSE,Chronic appendicitis with perforation of appendix,SNOMED,Appendicitis,reviewed_seed,Imported from master codelists,Condition,standard,Appendicitis
+appendicitis,Appendicitis,condition,42536650,FALSE,Acute phlegmonous appendicitis,SNOMED,Appendicitis,reviewed_seed,Imported from master codelists,Condition,standard,Appendicitis
+appendicitis,Appendicitis,condition,44784251,FALSE,Acute appendicitis with localized peritonitis,SNOMED,Appendicitis,reviewed_seed,Imported from master codelists,Condition,standard,Appendicitis

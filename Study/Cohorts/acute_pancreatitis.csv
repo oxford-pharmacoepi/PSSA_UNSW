@@ -1,46 +1,46 @@
-concept_id,concept_name,domain_id,vocabulary_id,standard_concept,condition,cohort_name,cohort_label,cohort_domain
-196628,Mumps pancreatitis,Condition,SNOMED,standard,pancreatitis,acute_pancreatitis,Acute pancreatitis,condition
-199074,Acute pancreatitis,Condition,SNOMED,standard,pancreatitis,acute_pancreatitis,Acute pancreatitis,condition
-763030,Calculus of common bile duct with acute pancreatitis,Condition,SNOMED,non-standard,pancreatitis,acute_pancreatitis,Acute pancreatitis,condition
-4008556,Pseudocyst of pancreas,Condition,SNOMED,standard,pancreatitis,acute_pancreatitis,Acute pancreatitis,condition
-4026157,Acute recurrent pancreatitis,Condition,SNOMED,standard,pancreatitis,acute_pancreatitis,Acute pancreatitis,condition
-4026158,Acute suppurative pancreatitis,Condition,SNOMED,standard,pancreatitis,acute_pancreatitis,Acute pancreatitis,condition
-4049458,Acute necrosis of pancreas,Condition,SNOMED,standard,pancreatitis,acute_pancreatitis,Acute pancreatitis,condition
-4082334,Post-ERCP acute pancreatitis,Condition,SNOMED,standard,pancreatitis,acute_pancreatitis,Acute pancreatitis,condition
-4088042,Suppurative pancreatitis,Condition,SNOMED,standard,pancreatitis,acute_pancreatitis,Acute pancreatitis,condition
-4121819,Relapsing pancreatitis,Condition,SNOMED,standard,pancreatitis,acute_pancreatitis,Acute pancreatitis,condition
-4124691,Recurrent pancreatitis,Condition,SNOMED,standard,pancreatitis,acute_pancreatitis,Acute pancreatitis,condition
-4125494,Pancytopenia with pancreatitis,Condition,SNOMED,standard,pancreatitis,acute_pancreatitis,Acute pancreatitis,condition
-4147231,Apoplectic pancreatitis,Condition,SNOMED,standard,pancreatitis,acute_pancreatitis,Acute pancreatitis,condition
-4164003,Inflammation of ampulla of Vater,Condition,SNOMED,standard,pancreatitis,acute_pancreatitis,Acute pancreatitis,condition
-4171684,Pleural effusion associated with pancreatitis,Condition,SNOMED,non-standard,pancreatitis,acute_pancreatitis,Acute pancreatitis,condition
-4185268,Acute hemorrhagic pancreatitis,Condition,SNOMED,standard,pancreatitis,acute_pancreatitis,Acute pancreatitis,condition
-4192640,Pancreatitis,Condition,SNOMED,standard,pancreatitis,acute_pancreatitis,Acute pancreatitis,condition
-4194916,Hereditary pancreatitis,Condition,SNOMED,standard,pancreatitis,acute_pancreatitis,Acute pancreatitis,condition
-4211348,Aplastic anemia associated with pancreatitis,Condition,SNOMED,standard,pancreatitis,acute_pancreatitis,Acute pancreatitis,condition
-4241838,Metabolic pancreatitis,Condition,SNOMED,standard,pancreatitis,acute_pancreatitis,Acute pancreatitis,condition
-4243504,Subacute pancreatitis,Condition,SNOMED,standard,pancreatitis,acute_pancreatitis,Acute pancreatitis,condition
-4262809,Subcutaneous nodular fat necrosis in pancreatitis,Condition,SNOMED,standard,pancreatitis,acute_pancreatitis,Acute pancreatitis,condition
-4262937,Interstitial pancreatitis,Condition,SNOMED,standard,pancreatitis,acute_pancreatitis,Acute pancreatitis,condition
-4303234,Acute necrotizing pancreatitis,Condition,SNOMED,standard,pancreatitis,acute_pancreatitis,Acute pancreatitis,condition
-4309439,Infectious pancreatitis,Condition,SNOMED,standard,pancreatitis,acute_pancreatitis,Acute pancreatitis,condition
-4319446,Gallstone pancreatitis,Condition,SNOMED,standard,pancreatitis,acute_pancreatitis,Acute pancreatitis,condition
-4337316,Painless pancreatitis,Condition,SNOMED,standard,pancreatitis,acute_pancreatitis,Acute pancreatitis,condition
-4340493,Alcohol-induced acute pancreatitis,Condition,SNOMED,standard,pancreatitis,acute_pancreatitis,Acute pancreatitis,condition
-4340494,Postoperative acute pancreatitis,Condition,SNOMED,standard,pancreatitis,acute_pancreatitis,Acute pancreatitis,condition
-4340495,Traumatic acute pancreatitis,Condition,SNOMED,standard,pancreatitis,acute_pancreatitis,Acute pancreatitis,condition
-4340497,Infected pancreatic necrosis,Condition,SNOMED,standard,pancreatitis,acute_pancreatitis,Acute pancreatitis,condition
-4340960,Idiopathic acute pancreatitis,Condition,SNOMED,standard,pancreatitis,acute_pancreatitis,Acute pancreatitis,condition
-4340961,Drug-induced acute pancreatitis,Condition,SNOMED,standard,pancreatitis,acute_pancreatitis,Acute pancreatitis,condition
-4340962,Cytomegaloviral pancreatitis,Condition,SNOMED,standard,pancreatitis,acute_pancreatitis,Acute pancreatitis,condition
-4341763,Gallstone acute pancreatitis,Condition,SNOMED,standard,pancreatitis,acute_pancreatitis,Acute pancreatitis,condition
-4341764,Acute pancreatitis due to infection,Condition,SNOMED,standard,pancreatitis,acute_pancreatitis,Acute pancreatitis,condition
-4341765,Viral acute pancreatitis,Condition,SNOMED,standard,pancreatitis,acute_pancreatitis,Acute pancreatitis,condition
-4342865,Familial acute pancreatitis,Condition,SNOMED,standard,pancreatitis,acute_pancreatitis,Acute pancreatitis,condition
-36675120,Follicular cholangitis and pancreatitis,Condition,SNOMED,standard,pancreatitis,acute_pancreatitis,Acute pancreatitis,condition
-36716513,Pancreatitis due to pancreatic duct obstruction,Condition,SNOMED,standard,pancreatitis,acute_pancreatitis,Acute pancreatitis,condition
-36716715,Autoimmune pancreatitis type 1,Condition,SNOMED,standard,pancreatitis,acute_pancreatitis,Acute pancreatitis,condition
-40483827,Inflammation of pancreas caused by alcohol,Condition,SNOMED,standard,pancreatitis,acute_pancreatitis,Acute pancreatitis,condition
-40490446,Autoimmune pancreatitis,Condition,SNOMED,standard,pancreatitis,acute_pancreatitis,Acute pancreatitis,condition
-44806251,Biliary acute pancreatitis,Condition,SNOMED,standard,pancreatitis,acute_pancreatitis,Acute pancreatitis,condition
-46274136,Acute pancreatitis due to common bile duct calculus,Condition,SNOMED,standard,pancreatitis,acute_pancreatitis,Acute pancreatitis,condition
+cohort_name,cohort_label,cohort_domain,concept_id,include_descendants,concept_name,vocabulary_id,concept_code,review_status,phenotype_note,domain_id,standard_concept,condition
+acute_pancreatitis,Acute pancreatitis,condition,196628,FALSE,Mumps pancreatitis,SNOMED,pancreatitis,reviewed_seed,Imported from master codelists,Condition,standard,pancreatitis
+acute_pancreatitis,Acute pancreatitis,condition,199074,FALSE,Acute pancreatitis,SNOMED,pancreatitis,reviewed_seed,Imported from master codelists,Condition,standard,pancreatitis
+acute_pancreatitis,Acute pancreatitis,condition,763030,FALSE,Calculus of common bile duct with acute pancreatitis,SNOMED,pancreatitis,reviewed_seed,Imported from master codelists,Condition,non-standard,pancreatitis
+acute_pancreatitis,Acute pancreatitis,condition,4008556,FALSE,Pseudocyst of pancreas,SNOMED,pancreatitis,reviewed_seed,Imported from master codelists,Condition,standard,pancreatitis
+acute_pancreatitis,Acute pancreatitis,condition,4026157,FALSE,Acute recurrent pancreatitis,SNOMED,pancreatitis,reviewed_seed,Imported from master codelists,Condition,standard,pancreatitis
+acute_pancreatitis,Acute pancreatitis,condition,4026158,FALSE,Acute suppurative pancreatitis,SNOMED,pancreatitis,reviewed_seed,Imported from master codelists,Condition,standard,pancreatitis
+acute_pancreatitis,Acute pancreatitis,condition,4049458,FALSE,Acute necrosis of pancreas,SNOMED,pancreatitis,reviewed_seed,Imported from master codelists,Condition,standard,pancreatitis
+acute_pancreatitis,Acute pancreatitis,condition,4082334,FALSE,Post-ERCP acute pancreatitis,SNOMED,pancreatitis,reviewed_seed,Imported from master codelists,Condition,standard,pancreatitis
+acute_pancreatitis,Acute pancreatitis,condition,4088042,FALSE,Suppurative pancreatitis,SNOMED,pancreatitis,reviewed_seed,Imported from master codelists,Condition,standard,pancreatitis
+acute_pancreatitis,Acute pancreatitis,condition,4121819,FALSE,Relapsing pancreatitis,SNOMED,pancreatitis,reviewed_seed,Imported from master codelists,Condition,standard,pancreatitis
+acute_pancreatitis,Acute pancreatitis,condition,4124691,FALSE,Recurrent pancreatitis,SNOMED,pancreatitis,reviewed_seed,Imported from master codelists,Condition,standard,pancreatitis
+acute_pancreatitis,Acute pancreatitis,condition,4125494,FALSE,Pancytopenia with pancreatitis,SNOMED,pancreatitis,reviewed_seed,Imported from master codelists,Condition,standard,pancreatitis
+acute_pancreatitis,Acute pancreatitis,condition,4147231,FALSE,Apoplectic pancreatitis,SNOMED,pancreatitis,reviewed_seed,Imported from master codelists,Condition,standard,pancreatitis
+acute_pancreatitis,Acute pancreatitis,condition,4164003,FALSE,Inflammation of ampulla of Vater,SNOMED,pancreatitis,reviewed_seed,Imported from master codelists,Condition,standard,pancreatitis
+acute_pancreatitis,Acute pancreatitis,condition,4171684,FALSE,Pleural effusion associated with pancreatitis,SNOMED,pancreatitis,reviewed_seed,Imported from master codelists,Condition,non-standard,pancreatitis
+acute_pancreatitis,Acute pancreatitis,condition,4185268,FALSE,Acute hemorrhagic pancreatitis,SNOMED,pancreatitis,reviewed_seed,Imported from master codelists,Condition,standard,pancreatitis
+acute_pancreatitis,Acute pancreatitis,condition,4192640,FALSE,Pancreatitis,SNOMED,pancreatitis,reviewed_seed,Imported from master codelists,Condition,standard,pancreatitis
+acute_pancreatitis,Acute pancreatitis,condition,4194916,FALSE,Hereditary pancreatitis,SNOMED,pancreatitis,reviewed_seed,Imported from master codelists,Condition,standard,pancreatitis
+acute_pancreatitis,Acute pancreatitis,condition,4211348,FALSE,Aplastic anemia associated with pancreatitis,SNOMED,pancreatitis,reviewed_seed,Imported from master codelists,Condition,standard,pancreatitis
+acute_pancreatitis,Acute pancreatitis,condition,4241838,FALSE,Metabolic pancreatitis,SNOMED,pancreatitis,reviewed_seed,Imported from master codelists,Condition,standard,pancreatitis
+acute_pancreatitis,Acute pancreatitis,condition,4243504,FALSE,Subacute pancreatitis,SNOMED,pancreatitis,reviewed_seed,Imported from master codelists,Condition,standard,pancreatitis
+acute_pancreatitis,Acute pancreatitis,condition,4262809,FALSE,Subcutaneous nodular fat necrosis in pancreatitis,SNOMED,pancreatitis,reviewed_seed,Imported from master codelists,Condition,standard,pancreatitis
+acute_pancreatitis,Acute pancreatitis,condition,4262937,FALSE,Interstitial pancreatitis,SNOMED,pancreatitis,reviewed_seed,Imported from master codelists,Condition,standard,pancreatitis
+acute_pancreatitis,Acute pancreatitis,condition,4303234,FALSE,Acute necrotizing pancreatitis,SNOMED,pancreatitis,reviewed_seed,Imported from master codelists,Condition,standard,pancreatitis
+acute_pancreatitis,Acute pancreatitis,condition,4309439,FALSE,Infectious pancreatitis,SNOMED,pancreatitis,reviewed_seed,Imported from master codelists,Condition,standard,pancreatitis
+acute_pancreatitis,Acute pancreatitis,condition,4319446,FALSE,Gallstone pancreatitis,SNOMED,pancreatitis,reviewed_seed,Imported from master codelists,Condition,standard,pancreatitis
+acute_pancreatitis,Acute pancreatitis,condition,4337316,FALSE,Painless pancreatitis,SNOMED,pancreatitis,reviewed_seed,Imported from master codelists,Condition,standard,pancreatitis
+acute_pancreatitis,Acute pancreatitis,condition,4340493,FALSE,Alcohol-induced acute pancreatitis,SNOMED,pancreatitis,reviewed_seed,Imported from master codelists,Condition,standard,pancreatitis
+acute_pancreatitis,Acute pancreatitis,condition,4340494,FALSE,Postoperative acute pancreatitis,SNOMED,pancreatitis,reviewed_seed,Imported from master codelists,Condition,standard,pancreatitis
+acute_pancreatitis,Acute pancreatitis,condition,4340495,FALSE,Traumatic acute pancreatitis,SNOMED,pancreatitis,reviewed_seed,Imported from master codelists,Condition,standard,pancreatitis
+acute_pancreatitis,Acute pancreatitis,condition,4340497,FALSE,Infected pancreatic necrosis,SNOMED,pancreatitis,reviewed_seed,Imported from master codelists,Condition,standard,pancreatitis
+acute_pancreatitis,Acute pancreatitis,condition,4340960,FALSE,Idiopathic acute pancreatitis,SNOMED,pancreatitis,reviewed_seed,Imported from master codelists,Condition,standard,pancreatitis
+acute_pancreatitis,Acute pancreatitis,condition,4340961,FALSE,Drug-induced acute pancreatitis,SNOMED,pancreatitis,reviewed_seed,Imported from master codelists,Condition,standard,pancreatitis
+acute_pancreatitis,Acute pancreatitis,condition,4340962,FALSE,Cytomegaloviral pancreatitis,SNOMED,pancreatitis,reviewed_seed,Imported from master codelists,Condition,standard,pancreatitis
+acute_pancreatitis,Acute pancreatitis,condition,4341763,FALSE,Gallstone acute pancreatitis,SNOMED,pancreatitis,reviewed_seed,Imported from master codelists,Condition,standard,pancreatitis
+acute_pancreatitis,Acute pancreatitis,condition,4341764,FALSE,Acute pancreatitis due to infection,SNOMED,pancreatitis,reviewed_seed,Imported from master codelists,Condition,standard,pancreatitis
+acute_pancreatitis,Acute pancreatitis,condition,4341765,FALSE,Viral acute pancreatitis,SNOMED,pancreatitis,reviewed_seed,Imported from master codelists,Condition,standard,pancreatitis
+acute_pancreatitis,Acute pancreatitis,condition,4342865,FALSE,Familial acute pancreatitis,SNOMED,pancreatitis,reviewed_seed,Imported from master codelists,Condition,standard,pancreatitis
+acute_pancreatitis,Acute pancreatitis,condition,36675120,FALSE,Follicular cholangitis and pancreatitis,SNOMED,pancreatitis,reviewed_seed,Imported from master codelists,Condition,standard,pancreatitis
+acute_pancreatitis,Acute pancreatitis,condition,36716513,FALSE,Pancreatitis due to pancreatic duct obstruction,SNOMED,pancreatitis,reviewed_seed,Imported from master codelists,Condition,standard,pancreatitis
+acute_pancreatitis,Acute pancreatitis,condition,36716715,FALSE,Autoimmune pancreatitis type 1,SNOMED,pancreatitis,reviewed_seed,Imported from master codelists,Condition,standard,pancreatitis
+acute_pancreatitis,Acute pancreatitis,condition,40483827,FALSE,Inflammation of pancreas caused by alcohol,SNOMED,pancreatitis,reviewed_seed,Imported from master codelists,Condition,standard,pancreatitis
+acute_pancreatitis,Acute pancreatitis,condition,40490446,FALSE,Autoimmune pancreatitis,SNOMED,pancreatitis,reviewed_seed,Imported from master codelists,Condition,standard,pancreatitis
+acute_pancreatitis,Acute pancreatitis,condition,44806251,FALSE,Biliary acute pancreatitis,SNOMED,pancreatitis,reviewed_seed,Imported from master codelists,Condition,standard,pancreatitis
+acute_pancreatitis,Acute pancreatitis,condition,46274136,FALSE,Acute pancreatitis due to common bile duct calculus,SNOMED,pancreatitis,reviewed_seed,Imported from master codelists,Condition,standard,pancreatitis

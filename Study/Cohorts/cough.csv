@@ -1,62 +1,62 @@
-concept_id,concept_name,domain_id,vocabulary_id,standard_concept,condition,cohort_name,cohort_label,cohort_domain
-254761,Cough,Condition,SNOMED,standard,coughCodes,cough,Cough,condition
-1340293,Exacerbation of cough,Condition,OMOP Extension,standard,coughCodes,cough,Cough,condition
-4000163,Cough on exercise,Condition,SNOMED,standard,coughCodes,cough,Cough,condition
-4009383,Cough suppression,Condition,SNOMED,standard,coughCodes,cough,Cough,condition
-4009942,Postural cough,Condition,SNOMED,standard,coughCodes,cough,Cough,condition
-4021673,Unable to cough up sputum,Condition,SNOMED,standard,coughCodes,cough,Cough,condition
-4023177,Able to cough up sputum,Condition,SNOMED,standard,coughCodes,cough,Cough,condition
-4038519,Dry cough,Condition,SNOMED,standard,coughCodes,cough,Cough,condition
-4048098,Cough with fever,Condition,SNOMED,standard,coughCodes,cough,Cough,condition
-4048218,Cough reflex absent,Condition,SNOMED,standard,coughCodes,cough,Cough,condition
-4048759,Brassy cough,Condition,SNOMED,standard,coughCodes,cough,Cough,condition
-4058584,Evening cough,Condition,SNOMED,standard,coughCodes,cough,Cough,condition
-4059017,Productive cough-yellow sputum,Condition,SNOMED,standard,coughCodes,cough,Cough,condition
-4059020,Morning cough,Condition,SNOMED,standard,coughCodes,cough,Cough,condition
-4060051,Productive cough -green sputum,Condition,SNOMED,standard,coughCodes,cough,Cough,condition
-4060224,Productive cough -clear sputum,Condition,SNOMED,standard,coughCodes,cough,Cough,condition
-4060313,Nocturnal cough and wheeze,Condition,SNOMED,standard,coughCodes,cough,Cough,condition
-4077128,Barking cough,Condition,SNOMED,standard,coughCodes,cough,Cough,condition
-4077210,Coughing ineffective,Condition,SNOMED,standard,coughCodes,cough,Cough,condition
-4082168,Sputum retention,Condition,SNOMED,standard,coughCodes,cough,Cough,condition
-4086814,Clearing throat - hawking,Condition,SNOMED,standard,coughCodes,cough,Cough,condition
-4086815,Tracheal esophageal fistula cough,Condition,SNOMED,standard,coughCodes,cough,Cough,condition
-4087178,Unable to cough,Condition,SNOMED,standard,coughCodes,cough,Cough,condition
-4090569,Painful cough,Condition,SNOMED,standard,coughCodes,cough,Cough,condition
-4094147,Cough when swallowing,Condition,SNOMED,standard,coughCodes,cough,Cough,condition
-4102774,Productive cough,Condition,SNOMED,standard,coughCodes,cough,Cough,condition
-4103332,Effective cough,Condition,SNOMED,standard,coughCodes,cough,Cough,condition
-4109381,Persistent cough,Condition,SNOMED,standard,coughCodes,cough,Cough,condition
-4116781,Difficulty in coughing up sputum,Condition,SNOMED,standard,coughCodes,cough,Cough,condition
-4116782,Does not cough up sputum,Condition,SNOMED,standard,coughCodes,cough,Cough,condition
-4116989,Allergic cough,Condition,SNOMED,standard,coughCodes,cough,Cough,condition
-4117283,Does cough up sputum,Condition,SNOMED,standard,coughCodes,cough,Cough,condition
-4122567,Does cough,Condition,SNOMED,standard,coughCodes,cough,Cough,condition
-4125451,Does not cough,Condition,SNOMED,standard,coughCodes,cough,Cough,condition
-4126096,Croupy cough,Condition,SNOMED,standard,coughCodes,cough,Cough,condition
-4128691,Able to cough,Condition,SNOMED,standard,coughCodes,cough,Cough,condition
-4128692,Difficulty coughing,Condition,SNOMED,standard,coughCodes,cough,Cough,condition
-4137418,Able to cough voluntarily,Condition,SNOMED,standard,coughCodes,cough,Cough,condition
-4144507,Unable to cough voluntarily,Condition,SNOMED,standard,coughCodes,cough,Cough,condition
-4144508,Difficulty coughing voluntarily,Condition,SNOMED,standard,coughCodes,cough,Cough,condition
-4167374,Respiratory tract congestion and cough,Condition,SNOMED,standard,coughCodes,cough,Cough,condition
-4182587,Paroxysmal cough,Condition,SNOMED,standard,coughCodes,cough,Cough,condition
-4188217,Cough after eating,Condition,SNOMED,standard,coughCodes,cough,Cough,condition
-4195384,Chronic cough,Condition,SNOMED,standard,coughCodes,cough,Cough,condition
-4196430,Unexplained cough,Condition,SNOMED,standard,coughCodes,cough,Cough,condition
-4199298,Decreased coughing,Condition,SNOMED,standard,coughCodes,cough,Cough,condition
-4243802,Hacking cough,Condition,SNOMED,standard,coughCodes,cough,Cough,condition
-4263877,Smokers' cough,Condition,SNOMED,standard,coughCodes,cough,Cough,condition
-4266667,Bovine cough,Condition,SNOMED,standard,coughCodes,cough,Cough,condition
-4266704,Early morning cough,Condition,SNOMED,standard,coughCodes,cough,Cough,condition
-4269128,Finding related to ability to cough up sputum,Condition,SNOMED,standard,coughCodes,cough,Cough,condition
-4269800,Nocturnal cough,Condition,SNOMED,standard,coughCodes,cough,Cough,condition
-4270340,Increasing frequency of cough,Condition,SNOMED,standard,coughCodes,cough,Cough,condition
-4271318,Spasmodic cough,Condition,SNOMED,standard,coughCodes,cough,Cough,condition
-4275649,Finding related to ability to cough,Condition,SNOMED,standard,coughCodes,cough,Cough,condition
-4278454,Finding related to ability to cough voluntarily,Condition,SNOMED,standard,coughCodes,cough,Cough,condition
-4323688,Cough at rest,Condition,SNOMED,standard,coughCodes,cough,Cough,condition
-35626061,No cough strength,Condition,SNOMED,standard,coughCodes,cough,Cough,condition
-40482863,Postviral cough,Condition,SNOMED,standard,coughCodes,cough,Cough,condition
-44789249,Reflux cough,Condition,SNOMED,standard,coughCodes,cough,Cough,condition
-44806100,Episodic dry cough,Condition,SNOMED,standard,coughCodes,cough,Cough,condition
+cohort_name,cohort_label,cohort_domain,concept_id,include_descendants,concept_name,vocabulary_id,concept_code,review_status,phenotype_note,domain_id,standard_concept,condition
+cough,Cough,condition,254761,FALSE,Cough,SNOMED,coughCodes,reviewed_seed,Imported from master codelists,Condition,standard,coughCodes
+cough,Cough,condition,1340293,FALSE,Exacerbation of cough,OMOP Extension,coughCodes,reviewed_seed,Imported from master codelists,Condition,standard,coughCodes
+cough,Cough,condition,4000163,FALSE,Cough on exercise,SNOMED,coughCodes,reviewed_seed,Imported from master codelists,Condition,standard,coughCodes
+cough,Cough,condition,4009383,FALSE,Cough suppression,SNOMED,coughCodes,reviewed_seed,Imported from master codelists,Condition,standard,coughCodes
+cough,Cough,condition,4009942,FALSE,Postural cough,SNOMED,coughCodes,reviewed_seed,Imported from master codelists,Condition,standard,coughCodes
+cough,Cough,condition,4021673,FALSE,Unable to cough up sputum,SNOMED,coughCodes,reviewed_seed,Imported from master codelists,Condition,standard,coughCodes
+cough,Cough,condition,4023177,FALSE,Able to cough up sputum,SNOMED,coughCodes,reviewed_seed,Imported from master codelists,Condition,standard,coughCodes
+cough,Cough,condition,4038519,FALSE,Dry cough,SNOMED,coughCodes,reviewed_seed,Imported from master codelists,Condition,standard,coughCodes
+cough,Cough,condition,4048098,FALSE,Cough with fever,SNOMED,coughCodes,reviewed_seed,Imported from master codelists,Condition,standard,coughCodes
+cough,Cough,condition,4048218,FALSE,Cough reflex absent,SNOMED,coughCodes,reviewed_seed,Imported from master codelists,Condition,standard,coughCodes
+cough,Cough,condition,4048759,FALSE,Brassy cough,SNOMED,coughCodes,reviewed_seed,Imported from master codelists,Condition,standard,coughCodes
+cough,Cough,condition,4058584,FALSE,Evening cough,SNOMED,coughCodes,reviewed_seed,Imported from master codelists,Condition,standard,coughCodes
+cough,Cough,condition,4059017,FALSE,Productive cough-yellow sputum,SNOMED,coughCodes,reviewed_seed,Imported from master codelists,Condition,standard,coughCodes
+cough,Cough,condition,4059020,FALSE,Morning cough,SNOMED,coughCodes,reviewed_seed,Imported from master codelists,Condition,standard,coughCodes
+cough,Cough,condition,4060051,FALSE,Productive cough -green sputum,SNOMED,coughCodes,reviewed_seed,Imported from master codelists,Condition,standard,coughCodes
+cough,Cough,condition,4060224,FALSE,Productive cough -clear sputum,SNOMED,coughCodes,reviewed_seed,Imported from master codelists,Condition,standard,coughCodes
+cough,Cough,condition,4060313,FALSE,Nocturnal cough and wheeze,SNOMED,coughCodes,reviewed_seed,Imported from master codelists,Condition,standard,coughCodes
+cough,Cough,condition,4077128,FALSE,Barking cough,SNOMED,coughCodes,reviewed_seed,Imported from master codelists,Condition,standard,coughCodes
+cough,Cough,condition,4077210,FALSE,Coughing ineffective,SNOMED,coughCodes,reviewed_seed,Imported from master codelists,Condition,standard,coughCodes
+cough,Cough,condition,4082168,FALSE,Sputum retention,SNOMED,coughCodes,reviewed_seed,Imported from master codelists,Condition,standard,coughCodes
+cough,Cough,condition,4086814,FALSE,Clearing throat - hawking,SNOMED,coughCodes,reviewed_seed,Imported from master codelists,Condition,standard,coughCodes
+cough,Cough,condition,4086815,FALSE,Tracheal esophageal fistula cough,SNOMED,coughCodes,reviewed_seed,Imported from master codelists,Condition,standard,coughCodes
+cough,Cough,condition,4087178,FALSE,Unable to cough,SNOMED,coughCodes,reviewed_seed,Imported from master codelists,Condition,standard,coughCodes
+cough,Cough,condition,4090569,FALSE,Painful cough,SNOMED,coughCodes,reviewed_seed,Imported from master codelists,Condition,standard,coughCodes
+cough,Cough,condition,4094147,FALSE,Cough when swallowing,SNOMED,coughCodes,reviewed_seed,Imported from master codelists,Condition,standard,coughCodes
+cough,Cough,condition,4102774,FALSE,Productive cough,SNOMED,coughCodes,reviewed_seed,Imported from master codelists,Condition,standard,coughCodes
+cough,Cough,condition,4103332,FALSE,Effective cough,SNOMED,coughCodes,reviewed_seed,Imported from master codelists,Condition,standard,coughCodes
+cough,Cough,condition,4109381,FALSE,Persistent cough,SNOMED,coughCodes,reviewed_seed,Imported from master codelists,Condition,standard,coughCodes
+cough,Cough,condition,4116781,FALSE,Difficulty in coughing up sputum,SNOMED,coughCodes,reviewed_seed,Imported from master codelists,Condition,standard,coughCodes
+cough,Cough,condition,4116782,FALSE,Does not cough up sputum,SNOMED,coughCodes,reviewed_seed,Imported from master codelists,Condition,standard,coughCodes
+cough,Cough,condition,4116989,FALSE,Allergic cough,SNOMED,coughCodes,reviewed_seed,Imported from master codelists,Condition,standard,coughCodes
+cough,Cough,condition,4117283,FALSE,Does cough up sputum,SNOMED,coughCodes,reviewed_seed,Imported from master codelists,Condition,standard,coughCodes
+cough,Cough,condition,4122567,FALSE,Does cough,SNOMED,coughCodes,reviewed_seed,Imported from master codelists,Condition,standard,coughCodes
+cough,Cough,condition,4125451,FALSE,Does not cough,SNOMED,coughCodes,reviewed_seed,Imported from master codelists,Condition,standard,coughCodes
+cough,Cough,condition,4126096,FALSE,Croupy cough,SNOMED,coughCodes,reviewed_seed,Imported from master codelists,Condition,standard,coughCodes
+cough,Cough,condition,4128691,FALSE,Able to cough,SNOMED,coughCodes,reviewed_seed,Imported from master codelists,Condition,standard,coughCodes
+cough,Cough,condition,4128692,FALSE,Difficulty coughing,SNOMED,coughCodes,reviewed_seed,Imported from master codelists,Condition,standard,coughCodes
+cough,Cough,condition,4137418,FALSE,Able to cough voluntarily,SNOMED,coughCodes,reviewed_seed,Imported from master codelists,Condition,standard,coughCodes
+cough,Cough,condition,4144507,FALSE,Unable to cough voluntarily,SNOMED,coughCodes,reviewed_seed,Imported from master codelists,Condition,standard,coughCodes
+cough,Cough,condition,4144508,FALSE,Difficulty coughing voluntarily,SNOMED,coughCodes,reviewed_seed,Imported from master codelists,Condition,standard,coughCodes
+cough,Cough,condition,4167374,FALSE,Respiratory tract congestion and cough,SNOMED,coughCodes,reviewed_seed,Imported from master codelists,Condition,standard,coughCodes
+cough,Cough,condition,4182587,FALSE,Paroxysmal cough,SNOMED,coughCodes,reviewed_seed,Imported from master codelists,Condition,standard,coughCodes
+cough,Cough,condition,4188217,FALSE,Cough after eating,SNOMED,coughCodes,reviewed_seed,Imported from master codelists,Condition,standard,coughCodes
+cough,Cough,condition,4195384,FALSE,Chronic cough,SNOMED,coughCodes,reviewed_seed,Imported from master codelists,Condition,standard,coughCodes
+cough,Cough,condition,4196430,FALSE,Unexplained cough,SNOMED,coughCodes,reviewed_seed,Imported from master codelists,Condition,standard,coughCodes
+cough,Cough,condition,4199298,FALSE,Decreased coughing,SNOMED,coughCodes,reviewed_seed,Imported from master codelists,Condition,standard,coughCodes
+cough,Cough,condition,4243802,FALSE,Hacking cough,SNOMED,coughCodes,reviewed_seed,Imported from master codelists,Condition,standard,coughCodes
+cough,Cough,condition,4263877,FALSE,Smokers' cough,SNOMED,coughCodes,reviewed_seed,Imported from master codelists,Condition,standard,coughCodes
+cough,Cough,condition,4266667,FALSE,Bovine cough,SNOMED,coughCodes,reviewed_seed,Imported from master codelists,Condition,standard,coughCodes
+cough,Cough,condition,4266704,FALSE,Early morning cough,SNOMED,coughCodes,reviewed_seed,Imported from master codelists,Condition,standard,coughCodes
+cough,Cough,condition,4269128,FALSE,Finding related to ability to cough up sputum,SNOMED,coughCodes,reviewed_seed,Imported from master codelists,Condition,standard,coughCodes
+cough,Cough,condition,4269800,FALSE,Nocturnal cough,SNOMED,coughCodes,reviewed_seed,Imported from master codelists,Condition,standard,coughCodes
+cough,Cough,condition,4270340,FALSE,Increasing frequency of cough,SNOMED,coughCodes,reviewed_seed,Imported from master codelists,Condition,standard,coughCodes
+cough,Cough,condition,4271318,FALSE,Spasmodic cough,SNOMED,coughCodes,reviewed_seed,Imported from master codelists,Condition,standard,coughCodes
+cough,Cough,condition,4275649,FALSE,Finding related to ability to cough,SNOMED,coughCodes,reviewed_seed,Imported from master codelists,Condition,standard,coughCodes
+cough,Cough,condition,4278454,FALSE,Finding related to ability to cough voluntarily,SNOMED,coughCodes,reviewed_seed,Imported from master codelists,Condition,standard,coughCodes
+cough,Cough,condition,4323688,FALSE,Cough at rest,SNOMED,coughCodes,reviewed_seed,Imported from master codelists,Condition,standard,coughCodes
+cough,Cough,condition,35626061,FALSE,No cough strength,SNOMED,coughCodes,reviewed_seed,Imported from master codelists,Condition,standard,coughCodes
+cough,Cough,condition,40482863,FALSE,Postviral cough,SNOMED,coughCodes,reviewed_seed,Imported from master codelists,Condition,standard,coughCodes
+cough,Cough,condition,44789249,FALSE,Reflux cough,SNOMED,coughCodes,reviewed_seed,Imported from master codelists,Condition,standard,coughCodes
+cough,Cough,condition,44806100,FALSE,Episodic dry cough,SNOMED,coughCodes,reviewed_seed,Imported from master codelists,Condition,standard,coughCodes

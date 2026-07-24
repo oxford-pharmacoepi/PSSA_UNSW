@@ -1,170 +1,170 @@
-concept_id,concept_name,domain_id,vocabulary_id,standard_concept,condition,cohort_name,cohort_label,cohort_domain
-373748,Tonic-clonic status epilepticus,Condition,SNOMED,standard,EpilepticSeizureCodeList,seizure,Seizure,condition
-374023,Epilepsia partialis continua,Condition,SNOMED,standard,EpilepticSeizureCodeList,seizure,Seizure,condition
-374168,Complex febrile seizure,Condition,SNOMED,standard,EpilepticSeizureCodeList,seizure,Seizure,condition
-377091,Seizure,Condition,SNOMED,standard,EpilepticSeizureCodeList,seizure,Seizure,condition
-377101,Simple febrile seizure,Condition,SNOMED,standard,EpilepticSeizureCodeList,seizure,Seizure,condition
-381842,Absence status epilepticus,Condition,SNOMED,standard,EpilepticSeizureCodeList,seizure,Seizure,condition
-444413,Febrile convulsion,Condition,SNOMED,standard,EpilepticSeizureCodeList,seizure,Seizure,condition
-761783,Intractable juvenile myoclonic status epilepticus,Condition,SNOMED,non-standard,EpilepticSeizureCodeList,seizure,Seizure,condition
-762088,Idiopathic partial status epilepticus,Condition,SNOMED,standard,EpilepticSeizureCodeList,seizure,Seizure,condition
-762804,"Myoclonic seizure, non-refractory",Condition,SNOMED,non-standard,EpilepticSeizureCodeList,seizure,Seizure,condition
-762809,Typical absence seizure,Condition,SNOMED,non-standard,EpilepticSeizureCodeList,seizure,Seizure,condition
-762812,"Tonic seizures, refractory",Condition,SNOMED,non-standard,EpilepticSeizureCodeList,seizure,Seizure,condition
-762813,"Tonic seizures, non-refractory",Condition,SNOMED,non-standard,EpilepticSeizureCodeList,seizure,Seizure,condition
-762829,"Atonic seizure, refractory",Condition,SNOMED,non-standard,EpilepticSeizureCodeList,seizure,Seizure,condition
-762830,"Atonic seizure, non-refractory",Condition,SNOMED,non-standard,EpilepticSeizureCodeList,seizure,Seizure,condition
-762832,"Epilepsia partialis continua, non-refractory",Condition,SNOMED,non-standard,EpilepticSeizureCodeList,seizure,Seizure,condition
-762834,"Typical absence seizure, non-refractory",Condition,SNOMED,non-standard,EpilepticSeizureCodeList,seizure,Seizure,condition
-762914,"Complex febrile seizure, non-refractory",Condition,SNOMED,non-standard,EpilepticSeizureCodeList,seizure,Seizure,condition
-762947,"Simple febrile seizure, refractory",Condition,SNOMED,non-standard,EpilepticSeizureCodeList,seizure,Seizure,condition
-762948,"Simple febrile seizure, non-refractory",Condition,SNOMED,non-standard,EpilepticSeizureCodeList,seizure,Seizure,condition
-762955,"Grand mal status epilepticus, refractory",Condition,SNOMED,non-standard,EpilepticSeizureCodeList,seizure,Seizure,condition
-762956,"Grand mal status epilepticus, non-refractory",Condition,SNOMED,non-standard,EpilepticSeizureCodeList,seizure,Seizure,condition
-762957,"Tonic-clonic seizure, non-refractory",Condition,SNOMED,non-standard,EpilepticSeizureCodeList,seizure,Seizure,condition
-762963,"Myoclonic seizure, refractory",Condition,SNOMED,non-standard,EpilepticSeizureCodeList,seizure,Seizure,condition
-762977,"Complex partial status epilepticus, refractory",Condition,SNOMED,non-standard,EpilepticSeizureCodeList,seizure,Seizure,condition
-762978,"Complex partial status epilepticus, non-refractory",Condition,SNOMED,non-standard,EpilepticSeizureCodeList,seizure,Seizure,condition
-762979,"Atypical absence seizure, refractory",Condition,SNOMED,non-standard,EpilepticSeizureCodeList,seizure,Seizure,condition
-762980,"Atypical absence seizure, non-refractory",Condition,SNOMED,non-standard,EpilepticSeizureCodeList,seizure,Seizure,condition
-763096,"Simple partial status epilepticus, non-refractory",Condition,SNOMED,non-standard,EpilepticSeizureCodeList,seizure,Seizure,condition
-763150,"Simple partial seizure with motor dysfunction, refractory",Condition,SNOMED,non-standard,EpilepticSeizureCodeList,seizure,Seizure,condition
-763151,"Simple partial seizure with motor dysfunction, non-refractory",Condition,SNOMED,non-standard,EpilepticSeizureCodeList,seizure,Seizure,condition
-765497,"Clonic seizure, refractory",Condition,SNOMED,non-standard,EpilepticSeizureCodeList,seizure,Seizure,condition
-765510,"Clonic seizure, non-refractory",Condition,SNOMED,non-standard,EpilepticSeizureCodeList,seizure,Seizure,condition
-765511,"Typical absence seizure, refractory",Condition,SNOMED,non-standard,EpilepticSeizureCodeList,seizure,Seizure,condition
-765514,"Tonic-clonic seizure, refractory",Condition,SNOMED,non-standard,EpilepticSeizureCodeList,seizure,Seizure,condition
-765661,"Petit mal status, refractory",Condition,SNOMED,non-standard,EpilepticSeizureCodeList,seizure,Seizure,condition
-765872,"Complex febrile seizure, refractory",Condition,SNOMED,non-standard,EpilepticSeizureCodeList,seizure,Seizure,condition
-765902,"Petit mal status, non-refractory",Condition,SNOMED,non-standard,EpilepticSeizureCodeList,seizure,Seizure,condition
-4023976,Movement partial seizure,Condition,SNOMED,non-standard,EpilepticSeizureCodeList,seizure,Seizure,condition
-4027257,Focal onset motor onset epileptic seizure,Condition,SNOMED,standard,EpilepticSeizureCodeList,seizure,Seizure,condition
-4029783,Partial seizure with impaired consciousness,Condition,SNOMED,non-standard,EpilepticSeizureCodeList,seizure,Seizure,condition
-4032157,Focal onset sensory epileptic seizure with visual symptoms,Condition,SNOMED,standard,EpilepticSeizureCodeList,seizure,Seizure,condition
-4038581,O/E - psychomotor fit,Condition,SNOMED,non-standard,EpilepticSeizureCodeList,seizure,Seizure,condition
-4038770,O/E - grand mal fit,Observation,SNOMED,non-standard,EpilepticSeizureCodeList,seizure,Seizure,condition
-4038771,O/E - febrile convulsion,Condition,SNOMED,non-standard,EpilepticSeizureCodeList,seizure,Seizure,condition
-4039099,O/E - petit mal fit,Condition,SNOMED,non-standard,EpilepticSeizureCodeList,seizure,Seizure,condition
-4039100,O/E - salaam attack,Condition,SNOMED,non-standard,EpilepticSeizureCodeList,seizure,Seizure,condition
-4043411,Self-limited familial neonatal epilepsy,Condition,SNOMED,standard,EpilepticSeizureCodeList,seizure,Seizure,condition
-4043412,Cryptogenic West syndrome,Condition,SNOMED,standard,EpilepticSeizureCodeList,seizure,Seizure,condition
-4043557,Atypical absence status epilepticus,Condition,SNOMED,standard,EpilepticSeizureCodeList,seizure,Seizure,condition
-4043558,Non-convulsive simple partial status epilepticus,Condition,SNOMED,non-standard,EpilepticSeizureCodeList,seizure,Seizure,condition
-4043559,Complex partial status epilepticus,Condition,SNOMED,non-standard,EpilepticSeizureCodeList,seizure,Seizure,condition
-4044231,Typical absence status epilepticus,Condition,SNOMED,standard,EpilepticSeizureCodeList,seizure,Seizure,condition
-4046220,Absence seizure with eyelid myoclonia,Condition,SNOMED,standard,EpilepticSeizureCodeList,seizure,Seizure,condition
-4050738,Atypical absence seizure,Condition,SNOMED,standard,EpilepticSeizureCodeList,seizure,Seizure,condition
-4056835,Musicogenic seizure,Condition,SNOMED,standard,EpilepticSeizureCodeList,seizure,Seizure,condition
-4058001,Salaam spasm,Condition,SNOMED,non-standard,EpilepticSeizureCodeList,seizure,Seizure,condition
-4078328,Simple partial seizure with focal motor signs without march,Condition,SNOMED,non-standard,EpilepticSeizureCodeList,seizure,Seizure,condition
-4078330,Focal onset cognitive epileptic seizure with hallucinations,Condition,SNOMED,standard,EpilepticSeizureCodeList,seizure,Seizure,condition
-4078331,Simple partial onset of seizure with automatisms,Condition,SNOMED,non-standard,EpilepticSeizureCodeList,seizure,Seizure,condition
-4078332,Focal to bilateral tonic-clonic epileptic seizure,Condition,SNOMED,standard,EpilepticSeizureCodeList,seizure,Seizure,condition
-4078333,Generalized onset epileptic seizure,Condition,SNOMED,standard,EpilepticSeizureCodeList,seizure,Seizure,condition
-4078334,Absence seizure with mild clonic components,Condition,SNOMED,non-standard,EpilepticSeizureCodeList,seizure,Seizure,condition
-4078335,Absence seizure with atonic components,Condition,SNOMED,non-standard,EpilepticSeizureCodeList,seizure,Seizure,condition
-4078336,Absence seizure with tonic components,Condition,SNOMED,non-standard,EpilepticSeizureCodeList,seizure,Seizure,condition
-4078337,Absence seizure with autonomic components,Condition,SNOMED,non-standard,EpilepticSeizureCodeList,seizure,Seizure,condition
-4079056,Focal onset aware sensory epileptic seizure,Condition,SNOMED,standard,EpilepticSeizureCodeList,seizure,Seizure,condition
-4079057,Affective seizure,Condition,SNOMED,non-standard,EpilepticSeizureCodeList,seizure,Seizure,condition
-4079058,Focal onset cognitive epileptic seizure with illusions,Condition,SNOMED,standard,EpilepticSeizureCodeList,seizure,Seizure,condition
-4081160,Focal onset aware motor onset Jacksonian epileptic seizure,Condition,SNOMED,standard,EpilepticSeizureCodeList,seizure,Seizure,condition
-4081161,Simple partial seizure followed by impaired consciousness,Condition,SNOMED,non-standard,EpilepticSeizureCodeList,seizure,Seizure,condition
-4081162,Complex part seizure with impairment of consciousness only,Condition,SNOMED,non-standard,EpilepticSeizureCodeList,seizure,Seizure,condition
-4086173,Focal onset motor onset versive epileptic seizure,Condition,SNOMED,standard,EpilepticSeizureCodeList,seizure,Seizure,condition
-4086174,Postural seizure,Condition,SNOMED,non-standard,EpilepticSeizureCodeList,seizure,Seizure,condition
-4086175,Phonatory seizure,Condition,SNOMED,non-standard,EpilepticSeizureCodeList,seizure,Seizure,condition
-4086176,Focal onset cognitive epileptic seizure with dysphasia,Condition,SNOMED,standard,EpilepticSeizureCodeList,seizure,Seizure,condition
-4086177,Focal onset aware cognitive epileptic seizure,Condition,SNOMED,standard,EpilepticSeizureCodeList,seizure,Seizure,condition
-4086179,Absence seizure with impairment of consciousness only,Condition,SNOMED,non-standard,EpilepticSeizureCodeList,seizure,Seizure,condition
-4086180,Absence seizure with automatisms,Condition,SNOMED,non-standard,EpilepticSeizureCodeList,seizure,Seizure,condition
-4106574,Focal onset epileptic seizure,Condition,SNOMED,standard,EpilepticSeizureCodeList,seizure,Seizure,condition
-4107690,Dysmnesic seizure,Condition,SNOMED,non-standard,EpilepticSeizureCodeList,seizure,Seizure,condition
-4132128,Coordinate convulsion,Condition,SNOMED,non-standard,EpilepticSeizureCodeList,seizure,Seizure,condition
-4143868,Recurrent febrile convulsion,Condition,SNOMED,standard,EpilepticSeizureCodeList,seizure,Seizure,condition
-4144967,Focal onset cognitive epileptic seizure,Condition,SNOMED,standard,EpilepticSeizureCodeList,seizure,Seizure,condition
-4146378,Focal onset somatosensory epileptic seizure,Condition,SNOMED,standard,EpilepticSeizureCodeList,seizure,Seizure,condition
-4149533,O/E - focal (Jacksonian) fit,Condition,SNOMED,non-standard,EpilepticSeizureCodeList,seizure,Seizure,condition
-4165104,Akinetic seizure without atonia,Condition,SNOMED,non-standard,EpilepticSeizureCodeList,seizure,Seizure,condition
-4165417,Complex partial seizure with impairment of consciousness,Condition,SNOMED,non-standard,EpilepticSeizureCodeList,seizure,Seizure,condition
-4170562,Uremic convulsion,Condition,SNOMED,standard,EpilepticSeizureCodeList,seizure,Seizure,condition
-4171110,Fifth day fits,Condition,SNOMED,non-standard,EpilepticSeizureCodeList,seizure,Seizure,condition
-4171667,Simple partial onset seizure followed by impaired consciousness,Condition,SNOMED,non-standard,EpilepticSeizureCodeList,seizure,Seizure,condition
-4173765,Atonic seizure,Condition,SNOMED,non-standard,EpilepticSeizureCodeList,seizure,Seizure,condition
-4174399,Partial seizure with illusions and hallucinations,Condition,SNOMED,non-standard,EpilepticSeizureCodeList,seizure,Seizure,condition
-4174747,Seizure undetermined whether focal or generalized,Condition,SNOMED,non-standard,EpilepticSeizureCodeList,seizure,Seizure,condition
-4179207,Focal onset sensory epileptic seizure with gustatory symptoms,Condition,SNOMED,standard,EpilepticSeizureCodeList,seizure,Seizure,condition
-4183856,Tonic-clonic seizure,Condition,SNOMED,non-standard,EpilepticSeizureCodeList,seizure,Seizure,condition
-4184641,EEG abnormality with seizure,Condition,SNOMED,standard,EpilepticSeizureCodeList,seizure,Seizure,condition
-4194056,"Simple partial seizure, consciousness not impaired",Condition,SNOMED,non-standard,EpilepticSeizureCodeList,seizure,Seizure,condition
-4194232,Absence seizure,Condition,SNOMED,standard,EpilepticSeizureCodeList,seizure,Seizure,condition
-4197485,Epileptic seizure,Condition,SNOMED,standard,EpilepticSeizureCodeList,seizure,Seizure,condition
-4198075,Tonic seizure,Condition,SNOMED,non-standard,EpilepticSeizureCodeList,seizure,Seizure,condition
-4198103,Complex partial seizure evolving to generalized seizure,Condition,SNOMED,non-standard,EpilepticSeizureCodeList,seizure,Seizure,condition
-4200704,Startle partial seizure,Condition,SNOMED,standard,EpilepticSeizureCodeList,seizure,Seizure,condition
-4203424,Hypoglycemia-induced convulsion,Condition,SNOMED,standard,EpilepticSeizureCodeList,seizure,Seizure,condition
-4215937,Simple partial seizure with special sensory symptoms,Condition,SNOMED,non-standard,EpilepticSeizureCodeList,seizure,Seizure,condition
-4219625,Focal onset aware motor onset epileptic seizure,Condition,SNOMED,standard,EpilepticSeizureCodeList,seizure,Seizure,condition
-4219724,Chronic progressive epilepsia partialis continua,Condition,SNOMED,non-standard,EpilepticSeizureCodeList,seizure,Seizure,condition
-4231042,Anoxic epileptic seizure,Condition,SNOMED,standard,EpilepticSeizureCodeList,seizure,Seizure,condition
-4232618,Focal onset emotional epileptic seizure with laughing,Condition,SNOMED,standard,EpilepticSeizureCodeList,seizure,Seizure,condition
-4236312,Focal onset impaired awareness epileptic seizure,Condition,SNOMED,standard,EpilepticSeizureCodeList,seizure,Seizure,condition
-4243340,Central convulsion,Condition,SNOMED,standard,EpilepticSeizureCodeList,seizure,Seizure,condition
-4244738,Partial seizure with multiple symptoms,Condition,SNOMED,non-standard,EpilepticSeizureCodeList,seizure,Seizure,condition
-4245044,Simple partial seizure evolving to secondary generalized seizure,Condition,SNOMED,non-standard,EpilepticSeizureCodeList,seizure,Seizure,condition
-4245285,Brief atonic seizure,Condition,SNOMED,non-standard,EpilepticSeizureCodeList,seizure,Seizure,condition
-4245301,Pattern sensitive seizure,Condition,SNOMED,standard,EpilepticSeizureCodeList,seizure,Seizure,condition
-4249451,Ideational partial seizure,Condition,SNOMED,non-standard,EpilepticSeizureCodeList,seizure,Seizure,condition
-4251337,Epileptic cry,Condition,SNOMED,standard,EpilepticSeizureCodeList,seizure,Seizure,condition
-4251921,Focal onset aware autonomic epileptic seizure,Condition,SNOMED,standard,EpilepticSeizureCodeList,seizure,Seizure,condition
-4254546,Complex partial seizure + impairment consciousness at onset,Condition,SNOMED,non-standard,EpilepticSeizureCodeList,seizure,Seizure,condition
-4255159,Retropulsion petit mal,Condition,SNOMED,non-standard,EpilepticSeizureCodeList,seizure,Seizure,condition
-4264143,Simple partial seizure evolving to complex partial seizure evolving to generalized seizure,Condition,SNOMED,non-standard,EpilepticSeizureCodeList,seizure,Seizure,condition
-4265182,Clonic seizure,Condition,SNOMED,non-standard,EpilepticSeizureCodeList,seizure,Seizure,condition
-4267146,Focal onset sensory epileptic seizure with auditory symptoms,Condition,SNOMED,standard,EpilepticSeizureCodeList,seizure,Seizure,condition
-4282301,Todd's paresis,Condition,SNOMED,standard,EpilepticSeizureCodeList,seizure,Seizure,condition
-4290772,Myoclonic seizure,Condition,SNOMED,non-standard,EpilepticSeizureCodeList,seizure,Seizure,condition
-4297994,Reading seizure,Condition,SNOMED,standard,EpilepticSeizureCodeList,seizure,Seizure,condition
-4306496,Refractory infantile spasms,Condition,SNOMED,standard,EpilepticSeizureCodeList,seizure,Seizure,condition
-4309044,Abdominal seizure,Condition,SNOMED,non-standard,EpilepticSeizureCodeList,seizure,Seizure,condition
-4311977,Refractory epilepsia partialis continua,Condition,SNOMED,non-standard,EpilepticSeizureCodeList,seizure,Seizure,condition
-4313035,Simple partial status epilepticus,Condition,SNOMED,non-standard,EpilepticSeizureCodeList,seizure,Seizure,condition
-4332304,Status epilepticus,Condition,SNOMED,standard,EpilepticSeizureCodeList,seizure,Seizure,condition
-4336820,Focal onset sensory epileptic seizure with olfactory symptoms,Condition,SNOMED,standard,EpilepticSeizureCodeList,seizure,Seizure,condition
-4337361,Long atonic seizure,Condition,SNOMED,non-standard,EpilepticSeizureCodeList,seizure,Seizure,condition
-35624201,Perioral myoclonia with absences,Condition,SNOMED,standard,EpilepticSeizureCodeList,seizure,Seizure,condition
-36674194,New-onset refractory status epilepticus,Condition,SNOMED,standard,EpilepticSeizureCodeList,seizure,Seizure,condition
-36716898,Single seizure due to remote cause,Condition,SNOMED,non-standard,EpilepticSeizureCodeList,seizure,Seizure,condition
-36716899,Single unprovoked seizure,Condition,SNOMED,non-standard,EpilepticSeizureCodeList,seizure,Seizure,condition
-37016270,Status epilepticus due to complex partial epileptic seizure,Condition,SNOMED,non-standard,EpilepticSeizureCodeList,seizure,Seizure,condition
-37018623,Complex partial seizure of temporal lobe,Condition,SNOMED,non-standard,EpilepticSeizureCodeList,seizure,Seizure,condition
-37110420,Seizure co-occurrent and due to sedative withdrawal,Condition,SNOMED,standard,EpilepticSeizureCodeList,seizure,Seizure,condition
-37110421,Seizure co-occurrent and due to hypnotic withdrawal,Condition,SNOMED,standard,EpilepticSeizureCodeList,seizure,Seizure,condition
-37110422,Seizure co-occurrent and due to anxiolytic withdrawal,Condition,SNOMED,standard,EpilepticSeizureCodeList,seizure,Seizure,condition
-37110423,Perceptual disturbances and seizures co-occurrent and due to sedative withdrawal,Condition,SNOMED,standard,EpilepticSeizureCodeList,seizure,Seizure,condition
-37110424,Perceptual disturbances and seizures co-occurrent and due to hypnotic withdrawal,Condition,SNOMED,standard,EpilepticSeizureCodeList,seizure,Seizure,condition
-37110470,Seizure co-occurrent and due to psychoactive substance withdrawal,Condition,SNOMED,standard,EpilepticSeizureCodeList,seizure,Seizure,condition
-37110471,Perceptual disturbances and seizures co-occurrent and due to psychoactive substance withdrawal,Condition,SNOMED,standard,EpilepticSeizureCodeList,seizure,Seizure,condition
-37208113,Acute repetitive seizure,Condition,SNOMED,standard,EpilepticSeizureCodeList,seizure,Seizure,condition
-37208117,Recurrent seizure,Condition,SNOMED,standard,EpilepticSeizureCodeList,seizure,Seizure,condition
-37395845,Benign focal seizure of adolescence,Condition,SNOMED,standard,EpilepticSeizureCodeList,seizure,Seizure,condition
-37399364,Folinic acid responsive seizure syndrome,Condition,SNOMED,standard,EpilepticSeizureCodeList,seizure,Seizure,condition
-40481467,Childhood seizure,Condition,SNOMED,non-standard,EpilepticSeizureCodeList,seizure,Seizure,condition
-40482060,Witnessed epileptic seizure,Condition,SNOMED,non-standard,EpilepticSeizureCodeList,seizure,Seizure,condition
-40483620,Status epilepticus without prominent motor symptoms,Condition,SNOMED,standard,EpilepticSeizureCodeList,seizure,Seizure,condition
-40485492,Afebrile seizure,Condition,SNOMED,non-standard,EpilepticSeizureCodeList,seizure,Seizure,condition
-40486152,Focal seizure with experiential sensory symptoms,Condition,SNOMED,non-standard,EpilepticSeizureCodeList,seizure,Seizure,condition
-42536419,Seizure co-occurrent and due to drug withdrawal,Condition,SNOMED,non-standard,EpilepticSeizureCodeList,seizure,Seizure,condition
-42873167,Single epileptic seizure,Condition,SNOMED,non-standard,EpilepticSeizureCodeList,seizure,Seizure,condition
-43530619,Refractory complex partial seizure with impairment of consciousness,Condition,SNOMED,non-standard,EpilepticSeizureCodeList,seizure,Seizure,condition
-43530626,Focal onset aware epileptic seizure,Condition,SNOMED,standard,EpilepticSeizureCodeList,seizure,Seizure,condition
-43530759,First generalized onset seizure,Condition,SNOMED,non-standard,EpilepticSeizureCodeList,seizure,Seizure,condition
-44784592,Postoperative status epilepticus,Condition,SNOMED,non-standard,EpilepticSeizureCodeList,seizure,Seizure,condition
-44789005,Simple partial epileptic seizure,Condition,SNOMED,standard,EpilepticSeizureCodeList,seizure,Seizure,condition
-45757119,Eclampsia with pre-existing hypertension in childbirth,Condition,SNOMED,standard,EpilepticSeizureCodeList,seizure,Seizure,condition
-45766063,Single seizure,Condition,SNOMED,non-standard,EpilepticSeizureCodeList,seizure,Seizure,condition
-45771300,Complete partial seizure of uncertain origin,Condition,SNOMED,non-standard,EpilepticSeizureCodeList,seizure,Seizure,condition
-46270364,Status epilepticus due to refractory complex partial seizures,Condition,SNOMED,non-standard,EpilepticSeizureCodeList,seizure,Seizure,condition
-46273397,Complex partial seizure of parietal lobe,Condition,SNOMED,non-standard,EpilepticSeizureCodeList,seizure,Seizure,condition
-46273398,Complex partial seizure of frontal lobe,Condition,SNOMED,non-standard,EpilepticSeizureCodeList,seizure,Seizure,condition
-46273399,Complex partial seizure of occipital lobe,Condition,SNOMED,non-standard,EpilepticSeizureCodeList,seizure,Seizure,condition
+cohort_name,cohort_label,cohort_domain,concept_id,include_descendants,concept_name,vocabulary_id,concept_code,review_status,phenotype_note,domain_id,standard_concept,condition
+seizure,Seizure,condition,373748,FALSE,Tonic-clonic status epilepticus,SNOMED,EpilepticSeizureCodeList,reviewed_seed,Imported from master codelists,Condition,standard,EpilepticSeizureCodeList
+seizure,Seizure,condition,374023,FALSE,Epilepsia partialis continua,SNOMED,EpilepticSeizureCodeList,reviewed_seed,Imported from master codelists,Condition,standard,EpilepticSeizureCodeList
+seizure,Seizure,condition,374168,FALSE,Complex febrile seizure,SNOMED,EpilepticSeizureCodeList,reviewed_seed,Imported from master codelists,Condition,standard,EpilepticSeizureCodeList
+seizure,Seizure,condition,377091,FALSE,Seizure,SNOMED,EpilepticSeizureCodeList,reviewed_seed,Imported from master codelists,Condition,standard,EpilepticSeizureCodeList
+seizure,Seizure,condition,377101,FALSE,Simple febrile seizure,SNOMED,EpilepticSeizureCodeList,reviewed_seed,Imported from master codelists,Condition,standard,EpilepticSeizureCodeList
+seizure,Seizure,condition,381842,FALSE,Absence status epilepticus,SNOMED,EpilepticSeizureCodeList,reviewed_seed,Imported from master codelists,Condition,standard,EpilepticSeizureCodeList
+seizure,Seizure,condition,444413,FALSE,Febrile convulsion,SNOMED,EpilepticSeizureCodeList,reviewed_seed,Imported from master codelists,Condition,standard,EpilepticSeizureCodeList
+seizure,Seizure,condition,761783,FALSE,Intractable juvenile myoclonic status epilepticus,SNOMED,EpilepticSeizureCodeList,reviewed_seed,Imported from master codelists,Condition,non-standard,EpilepticSeizureCodeList
+seizure,Seizure,condition,762088,FALSE,Idiopathic partial status epilepticus,SNOMED,EpilepticSeizureCodeList,reviewed_seed,Imported from master codelists,Condition,standard,EpilepticSeizureCodeList
+seizure,Seizure,condition,762804,FALSE,"Myoclonic seizure, non-refractory",SNOMED,EpilepticSeizureCodeList,reviewed_seed,Imported from master codelists,Condition,non-standard,EpilepticSeizureCodeList
+seizure,Seizure,condition,762809,FALSE,Typical absence seizure,SNOMED,EpilepticSeizureCodeList,reviewed_seed,Imported from master codelists,Condition,non-standard,EpilepticSeizureCodeList
+seizure,Seizure,condition,762812,FALSE,"Tonic seizures, refractory",SNOMED,EpilepticSeizureCodeList,reviewed_seed,Imported from master codelists,Condition,non-standard,EpilepticSeizureCodeList
+seizure,Seizure,condition,762813,FALSE,"Tonic seizures, non-refractory",SNOMED,EpilepticSeizureCodeList,reviewed_seed,Imported from master codelists,Condition,non-standard,EpilepticSeizureCodeList
+seizure,Seizure,condition,762829,FALSE,"Atonic seizure, refractory",SNOMED,EpilepticSeizureCodeList,reviewed_seed,Imported from master codelists,Condition,non-standard,EpilepticSeizureCodeList
+seizure,Seizure,condition,762830,FALSE,"Atonic seizure, non-refractory",SNOMED,EpilepticSeizureCodeList,reviewed_seed,Imported from master codelists,Condition,non-standard,EpilepticSeizureCodeList
+seizure,Seizure,condition,762832,FALSE,"Epilepsia partialis continua, non-refractory",SNOMED,EpilepticSeizureCodeList,reviewed_seed,Imported from master codelists,Condition,non-standard,EpilepticSeizureCodeList
+seizure,Seizure,condition,762834,FALSE,"Typical absence seizure, non-refractory",SNOMED,EpilepticSeizureCodeList,reviewed_seed,Imported from master codelists,Condition,non-standard,EpilepticSeizureCodeList
+seizure,Seizure,condition,762914,FALSE,"Complex febrile seizure, non-refractory",SNOMED,EpilepticSeizureCodeList,reviewed_seed,Imported from master codelists,Condition,non-standard,EpilepticSeizureCodeList
+seizure,Seizure,condition,762947,FALSE,"Simple febrile seizure, refractory",SNOMED,EpilepticSeizureCodeList,reviewed_seed,Imported from master codelists,Condition,non-standard,EpilepticSeizureCodeList
+seizure,Seizure,condition,762948,FALSE,"Simple febrile seizure, non-refractory",SNOMED,EpilepticSeizureCodeList,reviewed_seed,Imported from master codelists,Condition,non-standard,EpilepticSeizureCodeList
+seizure,Seizure,condition,762955,FALSE,"Grand mal status epilepticus, refractory",SNOMED,EpilepticSeizureCodeList,reviewed_seed,Imported from master codelists,Condition,non-standard,EpilepticSeizureCodeList
+seizure,Seizure,condition,762956,FALSE,"Grand mal status epilepticus, non-refractory",SNOMED,EpilepticSeizureCodeList,reviewed_seed,Imported from master codelists,Condition,non-standard,EpilepticSeizureCodeList
+seizure,Seizure,condition,762957,FALSE,"Tonic-clonic seizure, non-refractory",SNOMED,EpilepticSeizureCodeList,reviewed_seed,Imported from master codelists,Condition,non-standard,EpilepticSeizureCodeList
+seizure,Seizure,condition,762963,FALSE,"Myoclonic seizure, refractory",SNOMED,EpilepticSeizureCodeList,reviewed_seed,Imported from master codelists,Condition,non-standard,EpilepticSeizureCodeList
+seizure,Seizure,condition,762977,FALSE,"Complex partial status epilepticus, refractory",SNOMED,EpilepticSeizureCodeList,reviewed_seed,Imported from master codelists,Condition,non-standard,EpilepticSeizureCodeList
+seizure,Seizure,condition,762978,FALSE,"Complex partial status epilepticus, non-refractory",SNOMED,EpilepticSeizureCodeList,reviewed_seed,Imported from master codelists,Condition,non-standard,EpilepticSeizureCodeList
+seizure,Seizure,condition,762979,FALSE,"Atypical absence seizure, refractory",SNOMED,EpilepticSeizureCodeList,reviewed_seed,Imported from master codelists,Condition,non-standard,EpilepticSeizureCodeList
+seizure,Seizure,condition,762980,FALSE,"Atypical absence seizure, non-refractory",SNOMED,EpilepticSeizureCodeList,reviewed_seed,Imported from master codelists,Condition,non-standard,EpilepticSeizureCodeList
+seizure,Seizure,condition,763096,FALSE,"Simple partial status epilepticus, non-refractory",SNOMED,EpilepticSeizureCodeList,reviewed_seed,Imported from master codelists,Condition,non-standard,EpilepticSeizureCodeList
+seizure,Seizure,condition,763150,FALSE,"Simple partial seizure with motor dysfunction, refractory",SNOMED,EpilepticSeizureCodeList,reviewed_seed,Imported from master codelists,Condition,non-standard,EpilepticSeizureCodeList
+seizure,Seizure,condition,763151,FALSE,"Simple partial seizure with motor dysfunction, non-refractory",SNOMED,EpilepticSeizureCodeList,reviewed_seed,Imported from master codelists,Condition,non-standard,EpilepticSeizureCodeList
+seizure,Seizure,condition,765497,FALSE,"Clonic seizure, refractory",SNOMED,EpilepticSeizureCodeList,reviewed_seed,Imported from master codelists,Condition,non-standard,EpilepticSeizureCodeList
+seizure,Seizure,condition,765510,FALSE,"Clonic seizure, non-refractory",SNOMED,EpilepticSeizureCodeList,reviewed_seed,Imported from master codelists,Condition,non-standard,EpilepticSeizureCodeList
+seizure,Seizure,condition,765511,FALSE,"Typical absence seizure, refractory",SNOMED,EpilepticSeizureCodeList,reviewed_seed,Imported from master codelists,Condition,non-standard,EpilepticSeizureCodeList
+seizure,Seizure,condition,765514,FALSE,"Tonic-clonic seizure, refractory",SNOMED,EpilepticSeizureCodeList,reviewed_seed,Imported from master codelists,Condition,non-standard,EpilepticSeizureCodeList
+seizure,Seizure,condition,765661,FALSE,"Petit mal status, refractory",SNOMED,EpilepticSeizureCodeList,reviewed_seed,Imported from master codelists,Condition,non-standard,EpilepticSeizureCodeList
+seizure,Seizure,condition,765872,FALSE,"Complex febrile seizure, refractory",SNOMED,EpilepticSeizureCodeList,reviewed_seed,Imported from master codelists,Condition,non-standard,EpilepticSeizureCodeList
+seizure,Seizure,condition,765902,FALSE,"Petit mal status, non-refractory",SNOMED,EpilepticSeizureCodeList,reviewed_seed,Imported from master codelists,Condition,non-standard,EpilepticSeizureCodeList
+seizure,Seizure,condition,4023976,FALSE,Movement partial seizure,SNOMED,EpilepticSeizureCodeList,reviewed_seed,Imported from master codelists,Condition,non-standard,EpilepticSeizureCodeList
+seizure,Seizure,condition,4027257,FALSE,Focal onset motor onset epileptic seizure,SNOMED,EpilepticSeizureCodeList,reviewed_seed,Imported from master codelists,Condition,standard,EpilepticSeizureCodeList
+seizure,Seizure,condition,4029783,FALSE,Partial seizure with impaired consciousness,SNOMED,EpilepticSeizureCodeList,reviewed_seed,Imported from master codelists,Condition,non-standard,EpilepticSeizureCodeList
+seizure,Seizure,condition,4032157,FALSE,Focal onset sensory epileptic seizure with visual symptoms,SNOMED,EpilepticSeizureCodeList,reviewed_seed,Imported from master codelists,Condition,standard,EpilepticSeizureCodeList
+seizure,Seizure,condition,4038581,FALSE,O/E - psychomotor fit,SNOMED,EpilepticSeizureCodeList,reviewed_seed,Imported from master codelists,Condition,non-standard,EpilepticSeizureCodeList
+seizure,Seizure,condition,4038770,FALSE,O/E - grand mal fit,SNOMED,EpilepticSeizureCodeList,reviewed_seed,Imported from master codelists,Observation,non-standard,EpilepticSeizureCodeList
+seizure,Seizure,condition,4038771,FALSE,O/E - febrile convulsion,SNOMED,EpilepticSeizureCodeList,reviewed_seed,Imported from master codelists,Condition,non-standard,EpilepticSeizureCodeList
+seizure,Seizure,condition,4039099,FALSE,O/E - petit mal fit,SNOMED,EpilepticSeizureCodeList,reviewed_seed,Imported from master codelists,Condition,non-standard,EpilepticSeizureCodeList
+seizure,Seizure,condition,4039100,FALSE,O/E - salaam attack,SNOMED,EpilepticSeizureCodeList,reviewed_seed,Imported from master codelists,Condition,non-standard,EpilepticSeizureCodeList
+seizure,Seizure,condition,4043411,FALSE,Self-limited familial neonatal epilepsy,SNOMED,EpilepticSeizureCodeList,reviewed_seed,Imported from master codelists,Condition,standard,EpilepticSeizureCodeList
+seizure,Seizure,condition,4043412,FALSE,Cryptogenic West syndrome,SNOMED,EpilepticSeizureCodeList,reviewed_seed,Imported from master codelists,Condition,standard,EpilepticSeizureCodeList
+seizure,Seizure,condition,4043557,FALSE,Atypical absence status epilepticus,SNOMED,EpilepticSeizureCodeList,reviewed_seed,Imported from master codelists,Condition,standard,EpilepticSeizureCodeList
+seizure,Seizure,condition,4043558,FALSE,Non-convulsive simple partial status epilepticus,SNOMED,EpilepticSeizureCodeList,reviewed_seed,Imported from master codelists,Condition,non-standard,EpilepticSeizureCodeList
+seizure,Seizure,condition,4043559,FALSE,Complex partial status epilepticus,SNOMED,EpilepticSeizureCodeList,reviewed_seed,Imported from master codelists,Condition,non-standard,EpilepticSeizureCodeList
+seizure,Seizure,condition,4044231,FALSE,Typical absence status epilepticus,SNOMED,EpilepticSeizureCodeList,reviewed_seed,Imported from master codelists,Condition,standard,EpilepticSeizureCodeList
+seizure,Seizure,condition,4046220,FALSE,Absence seizure with eyelid myoclonia,SNOMED,EpilepticSeizureCodeList,reviewed_seed,Imported from master codelists,Condition,standard,EpilepticSeizureCodeList
+seizure,Seizure,condition,4050738,FALSE,Atypical absence seizure,SNOMED,EpilepticSeizureCodeList,reviewed_seed,Imported from master codelists,Condition,standard,EpilepticSeizureCodeList
+seizure,Seizure,condition,4056835,FALSE,Musicogenic seizure,SNOMED,EpilepticSeizureCodeList,reviewed_seed,Imported from master codelists,Condition,standard,EpilepticSeizureCodeList
+seizure,Seizure,condition,4058001,FALSE,Salaam spasm,SNOMED,EpilepticSeizureCodeList,reviewed_seed,Imported from master codelists,Condition,non-standard,EpilepticSeizureCodeList
+seizure,Seizure,condition,4078328,FALSE,Simple partial seizure with focal motor signs without march,SNOMED,EpilepticSeizureCodeList,reviewed_seed,Imported from master codelists,Condition,non-standard,EpilepticSeizureCodeList
+seizure,Seizure,condition,4078330,FALSE,Focal onset cognitive epileptic seizure with hallucinations,SNOMED,EpilepticSeizureCodeList,reviewed_seed,Imported from master codelists,Condition,standard,EpilepticSeizureCodeList
+seizure,Seizure,condition,4078331,FALSE,Simple partial onset of seizure with automatisms,SNOMED,EpilepticSeizureCodeList,reviewed_seed,Imported from master codelists,Condition,non-standard,EpilepticSeizureCodeList
+seizure,Seizure,condition,4078332,FALSE,Focal to bilateral tonic-clonic epileptic seizure,SNOMED,EpilepticSeizureCodeList,reviewed_seed,Imported from master codelists,Condition,standard,EpilepticSeizureCodeList
+seizure,Seizure,condition,4078333,FALSE,Generalized onset epileptic seizure,SNOMED,EpilepticSeizureCodeList,reviewed_seed,Imported from master codelists,Condition,standard,EpilepticSeizureCodeList
+seizure,Seizure,condition,4078334,FALSE,Absence seizure with mild clonic components,SNOMED,EpilepticSeizureCodeList,reviewed_seed,Imported from master codelists,Condition,non-standard,EpilepticSeizureCodeList
+seizure,Seizure,condition,4078335,FALSE,Absence seizure with atonic components,SNOMED,EpilepticSeizureCodeList,reviewed_seed,Imported from master codelists,Condition,non-standard,EpilepticSeizureCodeList
+seizure,Seizure,condition,4078336,FALSE,Absence seizure with tonic components,SNOMED,EpilepticSeizureCodeList,reviewed_seed,Imported from master codelists,Condition,non-standard,EpilepticSeizureCodeList
+seizure,Seizure,condition,4078337,FALSE,Absence seizure with autonomic components,SNOMED,EpilepticSeizureCodeList,reviewed_seed,Imported from master codelists,Condition,non-standard,EpilepticSeizureCodeList
+seizure,Seizure,condition,4079056,FALSE,Focal onset aware sensory epileptic seizure,SNOMED,EpilepticSeizureCodeList,reviewed_seed,Imported from master codelists,Condition,standard,EpilepticSeizureCodeList
+seizure,Seizure,condition,4079057,FALSE,Affective seizure,SNOMED,EpilepticSeizureCodeList,reviewed_seed,Imported from master codelists,Condition,non-standard,EpilepticSeizureCodeList
+seizure,Seizure,condition,4079058,FALSE,Focal onset cognitive epileptic seizure with illusions,SNOMED,EpilepticSeizureCodeList,reviewed_seed,Imported from master codelists,Condition,standard,EpilepticSeizureCodeList
+seizure,Seizure,condition,4081160,FALSE,Focal onset aware motor onset Jacksonian epileptic seizure,SNOMED,EpilepticSeizureCodeList,reviewed_seed,Imported from master codelists,Condition,standard,EpilepticSeizureCodeList
+seizure,Seizure,condition,4081161,FALSE,Simple partial seizure followed by impaired consciousness,SNOMED,EpilepticSeizureCodeList,reviewed_seed,Imported from master codelists,Condition,non-standard,EpilepticSeizureCodeList
+seizure,Seizure,condition,4081162,FALSE,Complex part seizure with impairment of consciousness only,SNOMED,EpilepticSeizureCodeList,reviewed_seed,Imported from master codelists,Condition,non-standard,EpilepticSeizureCodeList
+seizure,Seizure,condition,4086173,FALSE,Focal onset motor onset versive epileptic seizure,SNOMED,EpilepticSeizureCodeList,reviewed_seed,Imported from master codelists,Condition,standard,EpilepticSeizureCodeList
+seizure,Seizure,condition,4086174,FALSE,Postural seizure,SNOMED,EpilepticSeizureCodeList,reviewed_seed,Imported from master codelists,Condition,non-standard,EpilepticSeizureCodeList
+seizure,Seizure,condition,4086175,FALSE,Phonatory seizure,SNOMED,EpilepticSeizureCodeList,reviewed_seed,Imported from master codelists,Condition,non-standard,EpilepticSeizureCodeList
+seizure,Seizure,condition,4086176,FALSE,Focal onset cognitive epileptic seizure with dysphasia,SNOMED,EpilepticSeizureCodeList,reviewed_seed,Imported from master codelists,Condition,standard,EpilepticSeizureCodeList
+seizure,Seizure,condition,4086177,FALSE,Focal onset aware cognitive epileptic seizure,SNOMED,EpilepticSeizureCodeList,reviewed_seed,Imported from master codelists,Condition,standard,EpilepticSeizureCodeList
+seizure,Seizure,condition,4086179,FALSE,Absence seizure with impairment of consciousness only,SNOMED,EpilepticSeizureCodeList,reviewed_seed,Imported from master codelists,Condition,non-standard,EpilepticSeizureCodeList
+seizure,Seizure,condition,4086180,FALSE,Absence seizure with automatisms,SNOMED,EpilepticSeizureCodeList,reviewed_seed,Imported from master codelists,Condition,non-standard,EpilepticSeizureCodeList
+seizure,Seizure,condition,4106574,FALSE,Focal onset epileptic seizure,SNOMED,EpilepticSeizureCodeList,reviewed_seed,Imported from master codelists,Condition,standard,EpilepticSeizureCodeList
+seizure,Seizure,condition,4107690,FALSE,Dysmnesic seizure,SNOMED,EpilepticSeizureCodeList,reviewed_seed,Imported from master codelists,Condition,non-standard,EpilepticSeizureCodeList
+seizure,Seizure,condition,4132128,FALSE,Coordinate convulsion,SNOMED,EpilepticSeizureCodeList,reviewed_seed,Imported from master codelists,Condition,non-standard,EpilepticSeizureCodeList
+seizure,Seizure,condition,4143868,FALSE,Recurrent febrile convulsion,SNOMED,EpilepticSeizureCodeList,reviewed_seed,Imported from master codelists,Condition,standard,EpilepticSeizureCodeList
+seizure,Seizure,condition,4144967,FALSE,Focal onset cognitive epileptic seizure,SNOMED,EpilepticSeizureCodeList,reviewed_seed,Imported from master codelists,Condition,standard,EpilepticSeizureCodeList
+seizure,Seizure,condition,4146378,FALSE,Focal onset somatosensory epileptic seizure,SNOMED,EpilepticSeizureCodeList,reviewed_seed,Imported from master codelists,Condition,standard,EpilepticSeizureCodeList
+seizure,Seizure,condition,4149533,FALSE,O/E - focal (Jacksonian) fit,SNOMED,EpilepticSeizureCodeList,reviewed_seed,Imported from master codelists,Condition,non-standard,EpilepticSeizureCodeList
+seizure,Seizure,condition,4165104,FALSE,Akinetic seizure without atonia,SNOMED,EpilepticSeizureCodeList,reviewed_seed,Imported from master codelists,Condition,non-standard,EpilepticSeizureCodeList
+seizure,Seizure,condition,4165417,FALSE,Complex partial seizure with impairment of consciousness,SNOMED,EpilepticSeizureCodeList,reviewed_seed,Imported from master codelists,Condition,non-standard,EpilepticSeizureCodeList
+seizure,Seizure,condition,4170562,FALSE,Uremic convulsion,SNOMED,EpilepticSeizureCodeList,reviewed_seed,Imported from master codelists,Condition,standard,EpilepticSeizureCodeList
+seizure,Seizure,condition,4171110,FALSE,Fifth day fits,SNOMED,EpilepticSeizureCodeList,reviewed_seed,Imported from master codelists,Condition,non-standard,EpilepticSeizureCodeList
+seizure,Seizure,condition,4171667,FALSE,Simple partial onset seizure followed by impaired consciousness,SNOMED,EpilepticSeizureCodeList,reviewed_seed,Imported from master codelists,Condition,non-standard,EpilepticSeizureCodeList
+seizure,Seizure,condition,4173765,FALSE,Atonic seizure,SNOMED,EpilepticSeizureCodeList,reviewed_seed,Imported from master codelists,Condition,non-standard,EpilepticSeizureCodeList
+seizure,Seizure,condition,4174399,FALSE,Partial seizure with illusions and hallucinations,SNOMED,EpilepticSeizureCodeList,reviewed_seed,Imported from master codelists,Condition,non-standard,EpilepticSeizureCodeList
+seizure,Seizure,condition,4174747,FALSE,Seizure undetermined whether focal or generalized,SNOMED,EpilepticSeizureCodeList,reviewed_seed,Imported from master codelists,Condition,non-standard,EpilepticSeizureCodeList
+seizure,Seizure,condition,4179207,FALSE,Focal onset sensory epileptic seizure with gustatory symptoms,SNOMED,EpilepticSeizureCodeList,reviewed_seed,Imported from master codelists,Condition,standard,EpilepticSeizureCodeList
+seizure,Seizure,condition,4183856,FALSE,Tonic-clonic seizure,SNOMED,EpilepticSeizureCodeList,reviewed_seed,Imported from master codelists,Condition,non-standard,EpilepticSeizureCodeList
+seizure,Seizure,condition,4184641,FALSE,EEG abnormality with seizure,SNOMED,EpilepticSeizureCodeList,reviewed_seed,Imported from master codelists,Condition,standard,EpilepticSeizureCodeList
+seizure,Seizure,condition,4194056,FALSE,"Simple partial seizure, consciousness not impaired",SNOMED,EpilepticSeizureCodeList,reviewed_seed,Imported from master codelists,Condition,non-standard,EpilepticSeizureCodeList
+seizure,Seizure,condition,4194232,FALSE,Absence seizure,SNOMED,EpilepticSeizureCodeList,reviewed_seed,Imported from master codelists,Condition,standard,EpilepticSeizureCodeList
+seizure,Seizure,condition,4197485,FALSE,Epileptic seizure,SNOMED,EpilepticSeizureCodeList,reviewed_seed,Imported from master codelists,Condition,standard,EpilepticSeizureCodeList
+seizure,Seizure,condition,4198075,FALSE,Tonic seizure,SNOMED,EpilepticSeizureCodeList,reviewed_seed,Imported from master codelists,Condition,non-standard,EpilepticSeizureCodeList
+seizure,Seizure,condition,4198103,FALSE,Complex partial seizure evolving to generalized seizure,SNOMED,EpilepticSeizureCodeList,reviewed_seed,Imported from master codelists,Condition,non-standard,EpilepticSeizureCodeList
+seizure,Seizure,condition,4200704,FALSE,Startle partial seizure,SNOMED,EpilepticSeizureCodeList,reviewed_seed,Imported from master codelists,Condition,standard,EpilepticSeizureCodeList
+seizure,Seizure,condition,4203424,FALSE,Hypoglycemia-induced convulsion,SNOMED,EpilepticSeizureCodeList,reviewed_seed,Imported from master codelists,Condition,standard,EpilepticSeizureCodeList
+seizure,Seizure,condition,4215937,FALSE,Simple partial seizure with special sensory symptoms,SNOMED,EpilepticSeizureCodeList,reviewed_seed,Imported from master codelists,Condition,non-standard,EpilepticSeizureCodeList
+seizure,Seizure,condition,4219625,FALSE,Focal onset aware motor onset epileptic seizure,SNOMED,EpilepticSeizureCodeList,reviewed_seed,Imported from master codelists,Condition,standard,EpilepticSeizureCodeList
+seizure,Seizure,condition,4219724,FALSE,Chronic progressive epilepsia partialis continua,SNOMED,EpilepticSeizureCodeList,reviewed_seed,Imported from master codelists,Condition,non-standard,EpilepticSeizureCodeList
+seizure,Seizure,condition,4231042,FALSE,Anoxic epileptic seizure,SNOMED,EpilepticSeizureCodeList,reviewed_seed,Imported from master codelists,Condition,standard,EpilepticSeizureCodeList
+seizure,Seizure,condition,4232618,FALSE,Focal onset emotional epileptic seizure with laughing,SNOMED,EpilepticSeizureCodeList,reviewed_seed,Imported from master codelists,Condition,standard,EpilepticSeizureCodeList
+seizure,Seizure,condition,4236312,FALSE,Focal onset impaired awareness epileptic seizure,SNOMED,EpilepticSeizureCodeList,reviewed_seed,Imported from master codelists,Condition,standard,EpilepticSeizureCodeList
+seizure,Seizure,condition,4243340,FALSE,Central convulsion,SNOMED,EpilepticSeizureCodeList,reviewed_seed,Imported from master codelists,Condition,standard,EpilepticSeizureCodeList
+seizure,Seizure,condition,4244738,FALSE,Partial seizure with multiple symptoms,SNOMED,EpilepticSeizureCodeList,reviewed_seed,Imported from master codelists,Condition,non-standard,EpilepticSeizureCodeList
+seizure,Seizure,condition,4245044,FALSE,Simple partial seizure evolving to secondary generalized seizure,SNOMED,EpilepticSeizureCodeList,reviewed_seed,Imported from master codelists,Condition,non-standard,EpilepticSeizureCodeList
+seizure,Seizure,condition,4245285,FALSE,Brief atonic seizure,SNOMED,EpilepticSeizureCodeList,reviewed_seed,Imported from master codelists,Condition,non-standard,EpilepticSeizureCodeList
+seizure,Seizure,condition,4245301,FALSE,Pattern sensitive seizure,SNOMED,EpilepticSeizureCodeList,reviewed_seed,Imported from master codelists,Condition,standard,EpilepticSeizureCodeList
+seizure,Seizure,condition,4249451,FALSE,Ideational partial seizure,SNOMED,EpilepticSeizureCodeList,reviewed_seed,Imported from master codelists,Condition,non-standard,EpilepticSeizureCodeList
+seizure,Seizure,condition,4251337,FALSE,Epileptic cry,SNOMED,EpilepticSeizureCodeList,reviewed_seed,Imported from master codelists,Condition,standard,EpilepticSeizureCodeList
+seizure,Seizure,condition,4251921,FALSE,Focal onset aware autonomic epileptic seizure,SNOMED,EpilepticSeizureCodeList,reviewed_seed,Imported from master codelists,Condition,standard,EpilepticSeizureCodeList
+seizure,Seizure,condition,4254546,FALSE,Complex partial seizure + impairment consciousness at onset,SNOMED,EpilepticSeizureCodeList,reviewed_seed,Imported from master codelists,Condition,non-standard,EpilepticSeizureCodeList
+seizure,Seizure,condition,4255159,FALSE,Retropulsion petit mal,SNOMED,EpilepticSeizureCodeList,reviewed_seed,Imported from master codelists,Condition,non-standard,EpilepticSeizureCodeList
+seizure,Seizure,condition,4264143,FALSE,Simple partial seizure evolving to complex partial seizure evolving to generalized seizure,SNOMED,EpilepticSeizureCodeList,reviewed_seed,Imported from master codelists,Condition,non-standard,EpilepticSeizureCodeList
+seizure,Seizure,condition,4265182,FALSE,Clonic seizure,SNOMED,EpilepticSeizureCodeList,reviewed_seed,Imported from master codelists,Condition,non-standard,EpilepticSeizureCodeList
+seizure,Seizure,condition,4267146,FALSE,Focal onset sensory epileptic seizure with auditory symptoms,SNOMED,EpilepticSeizureCodeList,reviewed_seed,Imported from master codelists,Condition,standard,EpilepticSeizureCodeList
+seizure,Seizure,condition,4282301,FALSE,Todd's paresis,SNOMED,EpilepticSeizureCodeList,reviewed_seed,Imported from master codelists,Condition,standard,EpilepticSeizureCodeList
+seizure,Seizure,condition,4290772,FALSE,Myoclonic seizure,SNOMED,EpilepticSeizureCodeList,reviewed_seed,Imported from master codelists,Condition,non-standard,EpilepticSeizureCodeList
+seizure,Seizure,condition,4297994,FALSE,Reading seizure,SNOMED,EpilepticSeizureCodeList,reviewed_seed,Imported from master codelists,Condition,standard,EpilepticSeizureCodeList
+seizure,Seizure,condition,4306496,FALSE,Refractory infantile spasms,SNOMED,EpilepticSeizureCodeList,reviewed_seed,Imported from master codelists,Condition,standard,EpilepticSeizureCodeList
+seizure,Seizure,condition,4309044,FALSE,Abdominal seizure,SNOMED,EpilepticSeizureCodeList,reviewed_seed,Imported from master codelists,Condition,non-standard,EpilepticSeizureCodeList
+seizure,Seizure,condition,4311977,FALSE,Refractory epilepsia partialis continua,SNOMED,EpilepticSeizureCodeList,reviewed_seed,Imported from master codelists,Condition,non-standard,EpilepticSeizureCodeList
+seizure,Seizure,condition,4313035,FALSE,Simple partial status epilepticus,SNOMED,EpilepticSeizureCodeList,reviewed_seed,Imported from master codelists,Condition,non-standard,EpilepticSeizureCodeList
+seizure,Seizure,condition,4332304,FALSE,Status epilepticus,SNOMED,EpilepticSeizureCodeList,reviewed_seed,Imported from master codelists,Condition,standard,EpilepticSeizureCodeList
+seizure,Seizure,condition,4336820,FALSE,Focal onset sensory epileptic seizure with olfactory symptoms,SNOMED,EpilepticSeizureCodeList,reviewed_seed,Imported from master codelists,Condition,standard,EpilepticSeizureCodeList
+seizure,Seizure,condition,4337361,FALSE,Long atonic seizure,SNOMED,EpilepticSeizureCodeList,reviewed_seed,Imported from master codelists,Condition,non-standard,EpilepticSeizureCodeList
+seizure,Seizure,condition,35624201,FALSE,Perioral myoclonia with absences,SNOMED,EpilepticSeizureCodeList,reviewed_seed,Imported from master codelists,Condition,standard,EpilepticSeizureCodeList
+seizure,Seizure,condition,36674194,FALSE,New-onset refractory status epilepticus,SNOMED,EpilepticSeizureCodeList,reviewed_seed,Imported from master codelists,Condition,standard,EpilepticSeizureCodeList
+seizure,Seizure,condition,36716898,FALSE,Single seizure due to remote cause,SNOMED,EpilepticSeizureCodeList,reviewed_seed,Imported from master codelists,Condition,non-standard,EpilepticSeizureCodeList
+seizure,Seizure,condition,36716899,FALSE,Single unprovoked seizure,SNOMED,EpilepticSeizureCodeList,reviewed_seed,Imported from master codelists,Condition,non-standard,EpilepticSeizureCodeList
+seizure,Seizure,condition,37016270,FALSE,Status epilepticus due to complex partial epileptic seizure,SNOMED,EpilepticSeizureCodeList,reviewed_seed,Imported from master codelists,Condition,non-standard,EpilepticSeizureCodeList
+seizure,Seizure,condition,37018623,FALSE,Complex partial seizure of temporal lobe,SNOMED,EpilepticSeizureCodeList,reviewed_seed,Imported from master codelists,Condition,non-standard,EpilepticSeizureCodeList
+seizure,Seizure,condition,37110420,FALSE,Seizure co-occurrent and due to sedative withdrawal,SNOMED,EpilepticSeizureCodeList,reviewed_seed,Imported from master codelists,Condition,standard,EpilepticSeizureCodeList
+seizure,Seizure,condition,37110421,FALSE,Seizure co-occurrent and due to hypnotic withdrawal,SNOMED,EpilepticSeizureCodeList,reviewed_seed,Imported from master codelists,Condition,standard,EpilepticSeizureCodeList
+seizure,Seizure,condition,37110422,FALSE,Seizure co-occurrent and due to anxiolytic withdrawal,SNOMED,EpilepticSeizureCodeList,reviewed_seed,Imported from master codelists,Condition,standard,EpilepticSeizureCodeList
+seizure,Seizure,condition,37110423,FALSE,Perceptual disturbances and seizures co-occurrent and due to sedative withdrawal,SNOMED,EpilepticSeizureCodeList,reviewed_seed,Imported from master codelists,Condition,standard,EpilepticSeizureCodeList
+seizure,Seizure,condition,37110424,FALSE,Perceptual disturbances and seizures co-occurrent and due to hypnotic withdrawal,SNOMED,EpilepticSeizureCodeList,reviewed_seed,Imported from master codelists,Condition,standard,EpilepticSeizureCodeList
+seizure,Seizure,condition,37110470,FALSE,Seizure co-occurrent and due to psychoactive substance withdrawal,SNOMED,EpilepticSeizureCodeList,reviewed_seed,Imported from master codelists,Condition,standard,EpilepticSeizureCodeList
+seizure,Seizure,condition,37110471,FALSE,Perceptual disturbances and seizures co-occurrent and due to psychoactive substance withdrawal,SNOMED,EpilepticSeizureCodeList,reviewed_seed,Imported from master codelists,Condition,standard,EpilepticSeizureCodeList
+seizure,Seizure,condition,37208113,FALSE,Acute repetitive seizure,SNOMED,EpilepticSeizureCodeList,reviewed_seed,Imported from master codelists,Condition,standard,EpilepticSeizureCodeList
+seizure,Seizure,condition,37208117,FALSE,Recurrent seizure,SNOMED,EpilepticSeizureCodeList,reviewed_seed,Imported from master codelists,Condition,standard,EpilepticSeizureCodeList
+seizure,Seizure,condition,37395845,FALSE,Benign focal seizure of adolescence,SNOMED,EpilepticSeizureCodeList,reviewed_seed,Imported from master codelists,Condition,standard,EpilepticSeizureCodeList
+seizure,Seizure,condition,37399364,FALSE,Folinic acid responsive seizure syndrome,SNOMED,EpilepticSeizureCodeList,reviewed_seed,Imported from master codelists,Condition,standard,EpilepticSeizureCodeList
+seizure,Seizure,condition,40481467,FALSE,Childhood seizure,SNOMED,EpilepticSeizureCodeList,reviewed_seed,Imported from master codelists,Condition,non-standard,EpilepticSeizureCodeList
+seizure,Seizure,condition,40482060,FALSE,Witnessed epileptic seizure,SNOMED,EpilepticSeizureCodeList,reviewed_seed,Imported from master codelists,Condition,non-standard,EpilepticSeizureCodeList
+seizure,Seizure,condition,40483620,FALSE,Status epilepticus without prominent motor symptoms,SNOMED,EpilepticSeizureCodeList,reviewed_seed,Imported from master codelists,Condition,standard,EpilepticSeizureCodeList
+seizure,Seizure,condition,40485492,FALSE,Afebrile seizure,SNOMED,EpilepticSeizureCodeList,reviewed_seed,Imported from master codelists,Condition,non-standard,EpilepticSeizureCodeList
+seizure,Seizure,condition,40486152,FALSE,Focal seizure with experiential sensory symptoms,SNOMED,EpilepticSeizureCodeList,reviewed_seed,Imported from master codelists,Condition,non-standard,EpilepticSeizureCodeList
+seizure,Seizure,condition,42536419,FALSE,Seizure co-occurrent and due to drug withdrawal,SNOMED,EpilepticSeizureCodeList,reviewed_seed,Imported from master codelists,Condition,non-standard,EpilepticSeizureCodeList
+seizure,Seizure,condition,42873167,FALSE,Single epileptic seizure,SNOMED,EpilepticSeizureCodeList,reviewed_seed,Imported from master codelists,Condition,non-standard,EpilepticSeizureCodeList
+seizure,Seizure,condition,43530619,FALSE,Refractory complex partial seizure with impairment of consciousness,SNOMED,EpilepticSeizureCodeList,reviewed_seed,Imported from master codelists,Condition,non-standard,EpilepticSeizureCodeList
+seizure,Seizure,condition,43530626,FALSE,Focal onset aware epileptic seizure,SNOMED,EpilepticSeizureCodeList,reviewed_seed,Imported from master codelists,Condition,standard,EpilepticSeizureCodeList
+seizure,Seizure,condition,43530759,FALSE,First generalized onset seizure,SNOMED,EpilepticSeizureCodeList,reviewed_seed,Imported from master codelists,Condition,non-standard,EpilepticSeizureCodeList
+seizure,Seizure,condition,44784592,FALSE,Postoperative status epilepticus,SNOMED,EpilepticSeizureCodeList,reviewed_seed,Imported from master codelists,Condition,non-standard,EpilepticSeizureCodeList
+seizure,Seizure,condition,44789005,FALSE,Simple partial epileptic seizure,SNOMED,EpilepticSeizureCodeList,reviewed_seed,Imported from master codelists,Condition,standard,EpilepticSeizureCodeList
+seizure,Seizure,condition,45757119,FALSE,Eclampsia with pre-existing hypertension in childbirth,SNOMED,EpilepticSeizureCodeList,reviewed_seed,Imported from master codelists,Condition,standard,EpilepticSeizureCodeList
+seizure,Seizure,condition,45766063,FALSE,Single seizure,SNOMED,EpilepticSeizureCodeList,reviewed_seed,Imported from master codelists,Condition,non-standard,EpilepticSeizureCodeList
+seizure,Seizure,condition,45771300,FALSE,Complete partial seizure of uncertain origin,SNOMED,EpilepticSeizureCodeList,reviewed_seed,Imported from master codelists,Condition,non-standard,EpilepticSeizureCodeList
+seizure,Seizure,condition,46270364,FALSE,Status epilepticus due to refractory complex partial seizures,SNOMED,EpilepticSeizureCodeList,reviewed_seed,Imported from master codelists,Condition,non-standard,EpilepticSeizureCodeList
+seizure,Seizure,condition,46273397,FALSE,Complex partial seizure of parietal lobe,SNOMED,EpilepticSeizureCodeList,reviewed_seed,Imported from master codelists,Condition,non-standard,EpilepticSeizureCodeList
+seizure,Seizure,condition,46273398,FALSE,Complex partial seizure of frontal lobe,SNOMED,EpilepticSeizureCodeList,reviewed_seed,Imported from master codelists,Condition,non-standard,EpilepticSeizureCodeList
+seizure,Seizure,condition,46273399,FALSE,Complex partial seizure of occipital lobe,SNOMED,EpilepticSeizureCodeList,reviewed_seed,Imported from master codelists,Condition,non-standard,EpilepticSeizureCodeList
