@@ -1,3 +1,845 @@
-"cohort_name","cohort_label","cohort_domain","concept_id","include_descendants","concept_name","vocabulary_id","concept_code","review_status","phenotype_note"
-"myopathy","Myopathy","condition",81286,TRUE,"Toxic myopathy","SNOMED","66952001","provisional_broad","Drug-related myopathy seed"
-"myopathy","Myopathy","condition",442752,TRUE,"Muscle pain","SNOMED","68962001","provisional_broad","Adds myalgia; clinical review needed"
+concept_id,concept_name,domain_id,vocabulary_id,standard_concept,condition,cohort_name,cohort_label,cohort_domain
+72413,Nontraumatic rupture of muscle,Condition,SNOMED,standard,Myopathy_difference,myopathy,Myopathy,condition
+73184,Familial periodic paralysis,Condition,SNOMED,standard,Myopathy_difference,myopathy,Myopathy,condition
+75356,Congenital anomaly of sternocleidomastoid muscle,Condition,SNOMED,standard,Myopathy_difference,myopathy,Myopathy,condition
+75804,Congenital myotonic dystrophy,Condition,SNOMED,standard,Myopathy_difference,myopathy,Myopathy,condition
+76508,Infective myositis,Condition,SNOMED,standard,Myopathy_difference,myopathy,Myopathy,condition
+77653,Traumatic myositis ossificans,Condition,SNOMED,standard,Myopathy_difference,myopathy,Myopathy,condition
+78149,Congenital hereditary muscular dystrophy,Condition,SNOMED,standard,Myopathy_difference,myopathy,Myopathy,condition
+78236,Muscle atrophy,Condition,SNOMED,standard,Myopathy_difference,myopathy,Myopathy,condition
+79804,Steinert myotonic dystrophy syndrome,Condition,SNOMED,standard,Myopathy_difference,myopathy,Myopathy,condition
+80399,Hereditary progressive muscular dystrophy,Condition,SNOMED,standard,Myopathy_difference,myopathy,Myopathy,condition
+81400,Neonatal myasthenia gravis,Condition,SNOMED,standard,Myopathy_difference,myopathy,Myopathy,condition
+81539,Mitochondrial cytopathy,Condition,SNOMED,standard,Myopathy_difference,myopathy,Myopathy,condition
+193830,Third degree perineal laceration,Condition,SNOMED,standard,Myopathy_difference,myopathy,Myopathy,condition
+194403,Obstructed diaphragmatic hernia,Condition,SNOMED,standard,Myopathy_difference,myopathy,Myopathy,condition
+195673,Injury of diaphragm with open wound into cavity,Condition,SNOMED,standard,Myopathy_difference,myopathy,Myopathy,condition
+196159,Old laceration of muscles of pelvic floor,Condition,SNOMED,standard,Myopathy_difference,myopathy,Myopathy,condition
+196217,Congenital anomaly of diaphragm,Condition,SNOMED,standard,Myopathy_difference,myopathy,Myopathy,condition
+200143,Diaphragmatic hernia with gangrene,Condition,SNOMED,standard,Myopathy_difference,myopathy,Myopathy,condition
+201061,Diaphragmatic hernia,Condition,SNOMED,standard,Myopathy_difference,myopathy,Myopathy,condition
+201157,Injury of diaphragm without open wound into cavity,Condition,SNOMED,non-standard,Myopathy_difference,myopathy,Myopathy,condition
+312383,Postpartum cardiomyopathy,Condition,SNOMED,standard,Myopathy_difference,myopathy,Myopathy,condition
+312723,Congenital heart disease,Condition,SNOMED,standard,Myopathy_difference,myopathy,Myopathy,condition
+315560,Primary endomyocardial fibrosis cardiomyopathy,Condition,SNOMED,standard,Myopathy_difference,myopathy,Myopathy,condition
+316428,Hypertrophic obstructive cardiomyopathy,Condition,SNOMED,standard,Myopathy_difference,myopathy,Myopathy,condition
+318773,Dilated cardiomyopathy secondary to alcohol,Condition,SNOMED,non-standard,Myopathy_difference,myopathy,Myopathy,condition
+320746,Cardiomyopathy associated with another disorder,Condition,SNOMED,standard,Myopathy_difference,myopathy,Myopathy,condition
+321319,Cardiomyopathy,Condition,SNOMED,standard,Myopathy_difference,myopathy,Myopathy,condition
+321320,Myocardial degeneration,Condition,SNOMED,standard,Myopathy_difference,myopathy,Myopathy,condition
+432250,Infectious disease,Condition,SNOMED,standard,Myopathy_difference,myopathy,Myopathy,condition
+436546,Strain of subscapularis muscle,Condition,SNOMED,standard,Myopathy_difference,myopathy,Myopathy,condition
+442180,Congenital anomaly of muscle AND/OR tendon,Condition,SNOMED,standard,Myopathy_difference,myopathy,Myopathy,condition
+443201,Disuse muscle atrophy,Condition,SNOMED,standard,Myopathy_difference,myopathy,Myopathy,condition
+444464,Fetal or neonatal effect of chronic maternal circulatory disease,Condition,SNOMED,non-standard,Myopathy_difference,myopathy,Myopathy,condition
+759822,Family history of inclusion body myositis,Observation,SNOMED,standard,Myopathy_difference,myopathy,Myopathy,condition
+760737,Strain of muscle of right forearm,Condition,SNOMED,standard,Myopathy_difference,myopathy,Myopathy,condition
+760738,Strain of muscle of left forearm,Condition,SNOMED,standard,Myopathy_difference,myopathy,Myopathy,condition
+760739,Strain of muscle of right upper arm,Condition,SNOMED,standard,Myopathy_difference,myopathy,Myopathy,condition
+760740,Strain of muscle of right shoulder,Condition,SNOMED,standard,Myopathy_difference,myopathy,Myopathy,condition
+760741,Strain of muscle of left upper arm,Condition,SNOMED,standard,Myopathy_difference,myopathy,Myopathy,condition
+760742,Strain of muscle of left shoulder,Condition,SNOMED,standard,Myopathy_difference,myopathy,Myopathy,condition
+760753,Strain of right trapezius muscle,Condition,SNOMED,standard,Myopathy_difference,myopathy,Myopathy,condition
+760754,Strain of left trapezius muscle,Condition,SNOMED,standard,Myopathy_difference,myopathy,Myopathy,condition
+760768,Strain of muscle of right groin region,Condition,SNOMED,standard,Myopathy_difference,myopathy,Myopathy,condition
+760769,Strain of muscle of left groin region,Condition,SNOMED,standard,Myopathy_difference,myopathy,Myopathy,condition
+760782,Strain of right pectoral muscle,Condition,SNOMED,standard,Myopathy_difference,myopathy,Myopathy,condition
+760801,Strain of flexor muscle of left hip,Condition,SNOMED,standard,Myopathy_difference,myopathy,Myopathy,condition
+760802,Strain of muscle of right hip,Condition,SNOMED,standard,Myopathy_difference,myopathy,Myopathy,condition
+760803,Strain of muscle of left hip,Condition,SNOMED,standard,Myopathy_difference,myopathy,Myopathy,condition
+760804,Strain of muscle of left wrist,Condition,SNOMED,standard,Myopathy_difference,myopathy,Myopathy,condition
+760805,Strain of right quadriceps muscle,Condition,SNOMED,standard,Myopathy_difference,myopathy,Myopathy,condition
+760807,Strain of muscle of right thigh,Condition,SNOMED,standard,Myopathy_difference,myopathy,Myopathy,condition
+760808,Strain of muscle of left thigh,Condition,SNOMED,standard,Myopathy_difference,myopathy,Myopathy,condition
+760814,Strain of muscle of right wrist,Condition,SNOMED,standard,Myopathy_difference,myopathy,Myopathy,condition
+761214,Congenital anomaly of right sternocleidomastoid muscle,Condition,SNOMED,standard,Myopathy_difference,myopathy,Myopathy,condition
+761269,Congenital contracture of right gastrocnemius muscle,Condition,SNOMED,standard,Myopathy_difference,myopathy,Myopathy,condition
+761404,Atrophy of muscle of bilateral hands,Condition,SNOMED,standard,Myopathy_difference,myopathy,Myopathy,condition
+761405,Repetitive strain injury of bilateral hands,Condition,SNOMED,non-standard,Myopathy_difference,myopathy,Myopathy,condition
+761406,Repetitive strain injury of bilateral forearms,Condition,SNOMED,non-standard,Myopathy_difference,myopathy,Myopathy,condition
+761764,Weakness of left facial muscle due to and following non-traumatic intracerebral hemorrhage,Condition,SNOMED,standard,Myopathy_difference,myopathy,Myopathy,condition
+761826,Atherosclerosis of bypass graft of right lower limb with intermittent claudication,Condition,SNOMED,standard,Myopathy_difference,myopathy,Myopathy,condition
+761827,Atherosclerosis of bypass graft of left lower limb with intermittent claudication,Condition,SNOMED,standard,Myopathy_difference,myopathy,Myopathy,condition
+761828,Atherosclerosis of bypass graft of bilateral lower limbs with intermittent claudication,Condition,SNOMED,standard,Myopathy_difference,myopathy,Myopathy,condition
+762183,Repetitive strain injury of left ankle,Condition,SNOMED,non-standard,Myopathy_difference,myopathy,Myopathy,condition
+762184,Repetitive strain injury of left foot,Condition,SNOMED,non-standard,Myopathy_difference,myopathy,Myopathy,condition
+762185,Repetitive strain injury of left thigh,Condition,SNOMED,non-standard,Myopathy_difference,myopathy,Myopathy,condition
+762186,Repetitive strain injury of right ankle,Condition,SNOMED,non-standard,Myopathy_difference,myopathy,Myopathy,condition
+762187,Repetitive strain injury of right foot,Condition,SNOMED,non-standard,Myopathy_difference,myopathy,Myopathy,condition
+762188,Repetitive strain injury of right thigh,Condition,SNOMED,non-standard,Myopathy_difference,myopathy,Myopathy,condition
+762208,Family history of polymyositis,Observation,SNOMED,standard,Myopathy_difference,myopathy,Myopathy,condition
+763882,Strain of pectoral muscle,Condition,SNOMED,non-standard,Myopathy_difference,myopathy,Myopathy,condition
+763883,Strain of shoulder muscle,Condition,SNOMED,standard,Myopathy_difference,myopathy,Myopathy,condition
+763884,Strain of muscle of upper arm,Condition,SNOMED,standard,Myopathy_difference,myopathy,Myopathy,condition
+764555,Family history of fibromyalgia,Observation,SNOMED,standard,Myopathy_difference,myopathy,Myopathy,condition
+764966,Family history of left ventricular noncompaction cardiomyopathy,Observation,SNOMED,standard,Myopathy_difference,myopathy,Myopathy,condition
+765066,Congenital contracture of left gastrocnemius muscle,Condition,SNOMED,standard,Myopathy_difference,myopathy,Myopathy,condition
+765110,Diaphragmatic hernia with gastroesophageal reflux disease,Condition,SNOMED,standard,Myopathy_difference,myopathy,Myopathy,condition
+765130,Family history of myasthenia gravis,Observation,SNOMED,standard,Myopathy_difference,myopathy,Myopathy,condition
+765366,Strain of left pectoral muscle,Condition,SNOMED,standard,Myopathy_difference,myopathy,Myopathy,condition
+765369,Strain of flexor muscle of right hip,Condition,SNOMED,standard,Myopathy_difference,myopathy,Myopathy,condition
+765370,Strain of left quadriceps muscle,Condition,SNOMED,standard,Myopathy_difference,myopathy,Myopathy,condition
+765455,Family history of disorder of skeletal and/or smooth muscle,Observation,SNOMED,standard,Myopathy_difference,myopathy,Myopathy,condition
+765771,Family history of congenital diaphragmatic hernia,Observation,SNOMED,standard,Myopathy_difference,myopathy,Myopathy,condition
+2111288,"MTTL1, commonly called tRNAleu (mitochondrial encephalomyopathy, MELAS) (Deprecated)",Observation,CPT4,standard,Myopathy_difference,myopathy,Myopathy,condition
+3168877,NA,NA,NA,NA,Myopathy_difference,myopathy,Myopathy,condition
+3174970,NA,NA,NA,NA,Myopathy_difference,myopathy,Myopathy,condition
+3182458,NA,NA,NA,NA,Myopathy_difference,myopathy,Myopathy,condition
+3182861,NA,NA,NA,NA,Myopathy_difference,myopathy,Myopathy,condition
+3186078,NA,NA,NA,NA,Myopathy_difference,myopathy,Myopathy,condition
+3197162,NA,NA,NA,NA,Myopathy_difference,myopathy,Myopathy,condition
+3654681,Chronic alcoholic myopathy,Condition,SNOMED,standard,Myopathy_difference,myopathy,Myopathy,condition
+3654690,Acute alcoholic myopathy,Condition,SNOMED,standard,Myopathy_difference,myopathy,Myopathy,condition
+3655302,Cardiomyopathy due to connective tissue disease,Condition,SNOMED,standard,Myopathy_difference,myopathy,Myopathy,condition
+3655303,Cardiomyopathy due to storage disease,Condition,SNOMED,standard,Myopathy_difference,myopathy,Myopathy,condition
+3655834,Myopathy due to chronic alcoholism,Condition,SNOMED,standard,Myopathy_difference,myopathy,Myopathy,condition
+3656112,Hypertrophic cardiomyopathy due to glycogen storage disease,Condition,SNOMED,standard,Myopathy_difference,myopathy,Myopathy,condition
+3656113,Dilated cardiomyopathy due to mitochondrial disease,Condition,SNOMED,standard,Myopathy_difference,myopathy,Myopathy,condition
+3656119,Infiltrative cardiomyopathy,Condition,SNOMED,standard,Myopathy_difference,myopathy,Myopathy,condition
+3656122,Hypertrophic cardiomyopathy due to lysosomal disease,Condition,SNOMED,standard,Myopathy_difference,myopathy,Myopathy,condition
+3656146,Strain of rectus abdominus muscle,Condition,SNOMED,standard,Myopathy_difference,myopathy,Myopathy,condition
+3656667,Cardiomyopathy due to COVID-19,Condition,SNOMED,standard,Myopathy_difference,myopathy,Myopathy,condition
+3663194,Autoinflammatory syndrome with pyogenic bacterial infection and amylopectinosis,Condition,SNOMED,standard,Myopathy_difference,myopathy,Myopathy,condition
+4001124,Infective myositis of upper arm,Condition,SNOMED,standard,Myopathy_difference,myopathy,Myopathy,condition
+4001125,Infective myositis of pelvis,Condition,SNOMED,standard,Myopathy_difference,myopathy,Myopathy,condition
+4001126,Infective myositis of thigh,Condition,SNOMED,standard,Myopathy_difference,myopathy,Myopathy,condition
+4001626,Infective myositis of hand,Condition,SNOMED,standard,Myopathy_difference,myopathy,Myopathy,condition
+4001627,Infective myositis of lower leg,Condition,SNOMED,standard,Myopathy_difference,myopathy,Myopathy,condition
+4001628,Infective myositis of foot,Condition,SNOMED,standard,Myopathy_difference,myopathy,Myopathy,condition
+4002807,Infective myositis of back,Condition,SNOMED,standard,Myopathy_difference,myopathy,Myopathy,condition
+4002808,Infective myositis of shoulder,Condition,SNOMED,standard,Myopathy_difference,myopathy,Myopathy,condition
+4002809,Infective myositis of forearm,Condition,SNOMED,standard,Myopathy_difference,myopathy,Myopathy,condition
+4003141,Infective myositis of neck,Condition,SNOMED,standard,Myopathy_difference,myopathy,Myopathy,condition
+4003921,Ischemic muscular atrophy,Condition,SNOMED,standard,Myopathy_difference,myopathy,Myopathy,condition
+4005765,Congenital pyloric spasm,Condition,SNOMED,standard,Myopathy_difference,myopathy,Myopathy,condition
+4006277,Neonatal hypotonia,Condition,SNOMED,standard,Myopathy_difference,myopathy,Myopathy,condition
+4006292,Dilated cardiomyopathy due to metabolic disorder,Condition,SNOMED,standard,Myopathy_difference,myopathy,Myopathy,condition
+4006462,Merosin deficient congenital muscular dystrophy,Condition,SNOMED,standard,Myopathy_difference,myopathy,Myopathy,condition
+4006792,Dilated cardiomyopathy due to phytanic acid storage disease,Condition,SNOMED,standard,Myopathy_difference,myopathy,Myopathy,condition
+4008570,Fukuyama congenital muscular dystrophy,Condition,SNOMED,standard,Myopathy_difference,myopathy,Myopathy,condition
+4008571,"Muscle-eye-brain disease, congenital muscular dystrophy",Condition,SNOMED,standard,Myopathy_difference,myopathy,Myopathy,condition
+4008572,"Distal muscular dystrophy, Miyoshi type",Condition,SNOMED,standard,Myopathy_difference,myopathy,Myopathy,condition
+4009185,Emery-Dreifuss muscular dystrophy,Condition,SNOMED,standard,Myopathy_difference,myopathy,Myopathy,condition
+4009657,Muscular dystrophy-deafmutism syndrome,Condition,SNOMED,non-standard,Myopathy_difference,myopathy,Myopathy,condition
+4009773,Walker-Warburg congenital muscular dystrophy,Condition,SNOMED,standard,Myopathy_difference,myopathy,Myopathy,condition
+4016546,Open injury of diaphragm,Condition,SNOMED,standard,Myopathy_difference,myopathy,Myopathy,condition
+4019718,Closed injury of diaphragm,Condition,SNOMED,standard,Myopathy_difference,myopathy,Myopathy,condition
+4023964,Dilated cardiomyopathy secondary to toxic reaction,Condition,SNOMED,non-standard,Myopathy_difference,myopathy,Myopathy,condition
+4030434,Scapuloperoneal muscular dystrophy,Condition,SNOMED,standard,Myopathy_difference,myopathy,Myopathy,condition
+4030587,Menopausal muscular dystrophy syndrome,Condition,SNOMED,non-standard,Myopathy_difference,myopathy,Myopathy,condition
+4031800,Mitochondrial trifunctional protein deficiency,Condition,SNOMED,standard,Myopathy_difference,myopathy,Myopathy,condition
+4033033,Congenital diffuse lipomatosis,Condition,SNOMED,standard,Myopathy_difference,myopathy,Myopathy,condition
+4034961,"Muscular atrophy, ataxia, retinitis pigmentosa, and diabetes mellitus",Condition,SNOMED,standard,Myopathy_difference,myopathy,Myopathy,condition
+4035144,Primary familial amyloid myopathy,Condition,SNOMED,standard,Myopathy_difference,myopathy,Myopathy,condition
+4035792,Myotubular myopathy with type I atrophy,Condition,SNOMED,standard,Myopathy_difference,myopathy,Myopathy,condition
+4037495,Dilated peripartum cardiomyopathy,Condition,SNOMED,standard,Myopathy_difference,myopathy,Myopathy,condition
+4045730,Transient neonatal myasthenia gravis,Condition,SNOMED,standard,Myopathy_difference,myopathy,Myopathy,condition
+4045843,Congenital spastic foot,Condition,SNOMED,standard,Myopathy_difference,myopathy,Myopathy,condition
+4045989,Congenital articular rigidity with myopathy,Condition,SNOMED,non-standard,Myopathy_difference,myopathy,Myopathy,condition
+4045990,Congenital eventration of left crus of diaphragm,Condition,SNOMED,standard,Myopathy_difference,myopathy,Myopathy,condition
+4046082,Benign monomelic amyotrophy,Condition,SNOMED,standard,Myopathy_difference,myopathy,Myopathy,condition
+4046355,Genetically determined myasthenia,Condition,SNOMED,standard,Myopathy_difference,myopathy,Myopathy,condition
+4046356,Congenital myasthenic syndrome,Condition,SNOMED,standard,Myopathy_difference,myopathy,Myopathy,condition
+4047866,Torticollis due to birth injury,Condition,SNOMED,standard,Myopathy_difference,myopathy,Myopathy,condition
+4047867,Sternomastoid injury due to birth injury,Condition,SNOMED,standard,Myopathy_difference,myopathy,Myopathy,condition
+4048093,Hamstring injury,Condition,SNOMED,standard,Myopathy_difference,myopathy,Myopathy,condition
+4048268,Restrictive cardiomyopathy secondary to infiltrations,Condition,SNOMED,standard,Myopathy_difference,myopathy,Myopathy,condition
+4048495,Congenital laryngeal abductor palsy,Condition,SNOMED,standard,Myopathy_difference,myopathy,Myopathy,condition
+4048496,Congenital laryngeal adductor palsy,Condition,SNOMED,standard,Myopathy_difference,myopathy,Myopathy,condition
+4048654,Familial infantile myasthenia,Condition,SNOMED,standard,Myopathy_difference,myopathy,Myopathy,condition
+4048655,Congenital end-plate acetylcholine receptor deficiency,Condition,SNOMED,standard,Myopathy_difference,myopathy,Myopathy,condition
+4048779,Congenital end-plate acetylcholinesterase deficiency,Condition,SNOMED,standard,Myopathy_difference,myopathy,Myopathy,condition
+4049044,Congenital hypertonia,Condition,SNOMED,standard,Myopathy_difference,myopathy,Myopathy,condition
+4051573,FH: Muscular dystrophy,Observation,SNOMED,standard,Myopathy_difference,myopathy,Myopathy,condition
+4054430,Neoplasm of muscle,Condition,SNOMED,standard,Myopathy_difference,myopathy,Myopathy,condition
+4054496,Neoplasm of muscle of thorax,Condition,SNOMED,standard,Myopathy_difference,myopathy,Myopathy,condition
+4054497,Neoplasm of muscle of perineum,Condition,SNOMED,standard,Myopathy_difference,myopathy,Myopathy,condition
+4054528,Neoplasm of diaphragm,Condition,SNOMED,standard,Myopathy_difference,myopathy,Myopathy,condition
+4054832,Neoplasm of muscle of neck,Condition,SNOMED,standard,Myopathy_difference,myopathy,Myopathy,condition
+4054834,Neoplasm of muscle of abdomen,Condition,SNOMED,standard,Myopathy_difference,myopathy,Myopathy,condition
+4055004,Irreducible diaphragmatic hernia,Condition,SNOMED,standard,Myopathy_difference,myopathy,Myopathy,condition
+4055008,Irreducible ischiorectal hernia,Condition,SNOMED,standard,Myopathy_difference,myopathy,Myopathy,condition
+4056713,"Injury of muscle and tendon of abdomen, lower back and pelvis",Condition,SNOMED,standard,Myopathy_difference,myopathy,Myopathy,condition
+4056714,Injury of flexor muscle and tendon of thumb at forearm level,Condition,SNOMED,standard,Myopathy_difference,myopathy,Myopathy,condition
+4056716,Injury of multiple muscles and tendons at forearm level,Condition,SNOMED,standard,Myopathy_difference,myopathy,Myopathy,condition
+4056717,Injury of muscle and tendon at hip and thigh level,Condition,SNOMED,standard,Myopathy_difference,myopathy,Myopathy,condition
+4056718,Injury of adductor muscle and tendon of thigh,Condition,SNOMED,standard,Myopathy_difference,myopathy,Myopathy,condition
+4057044,Injury of muscle and tendon at neck level,Condition,SNOMED,standard,Myopathy_difference,myopathy,Myopathy,condition
+4057170,Injury of multiple muscles and tendons at shoulder and upper arm level,Condition,SNOMED,standard,Myopathy_difference,myopathy,Myopathy,condition
+4057176,Injury of extensor or abductor muscles and tendons of thumb at forearm level,Condition,SNOMED,standard,Myopathy_difference,myopathy,Myopathy,condition
+4057177,Injury of muscle and tendon at ankle and foot level,Condition,SNOMED,standard,Myopathy_difference,myopathy,Myopathy,condition
+4057178,Injury of muscle and tendon of long extensor muscle of toe at ankle and foot level,Condition,SNOMED,standard,Myopathy_difference,myopathy,Myopathy,condition
+4059253,Injury of muscle and tendon of head,Condition,SNOMED,standard,Myopathy_difference,myopathy,Myopathy,condition
+4059256,Injury of multiple muscles and tendons at hip and thigh level,Condition,SNOMED,standard,Myopathy_difference,myopathy,Myopathy,condition
+4059257,Injury of muscle and tendon at lower leg level,Condition,SNOMED,standard,Myopathy_difference,myopathy,Myopathy,condition
+4059258,Injury of muscle(s) and tendon(s) of peroneal muscle group at lower leg level,Condition,SNOMED,standard,Myopathy_difference,myopathy,Myopathy,condition
+4059259,Injury of multiple muscles and tendons at lower leg level,Condition,SNOMED,standard,Myopathy_difference,myopathy,Myopathy,condition
+4059379,Mitochondrial myopathy,Condition,SNOMED,standard,Myopathy_difference,myopathy,Myopathy,condition
+4060405,Dilated cardiomyopathy due to rheumatoid arthritis,Condition,SNOMED,standard,Myopathy_difference,myopathy,Myopathy,condition
+4062387,Injury of muscle and tendon at thorax level,Condition,SNOMED,standard,Myopathy_difference,myopathy,Myopathy,condition
+4062388,Injury of muscle and tendon at forearm level,Condition,SNOMED,standard,Myopathy_difference,myopathy,Myopathy,condition
+4062390,Injury of muscle(s) and tendon(s) of anterior muscle group at lower leg level,Condition,SNOMED,standard,Myopathy_difference,myopathy,Myopathy,condition
+4062391,Injury of muscle and tendon of long flexor muscle of toe at ankle and foot level,Condition,SNOMED,standard,Myopathy_difference,myopathy,Myopathy,condition
+4065029,Congenital eventration of diaphragm,Condition,SNOMED,standard,Myopathy_difference,myopathy,Myopathy,condition
+4066010,Congenital diaphragmatic hernia,Condition,SNOMED,standard,Myopathy_difference,myopathy,Myopathy,condition
+4068262,Dilated cardiomyopathy secondary to metazoal myocarditis,Condition,SNOMED,non-standard,Myopathy_difference,myopathy,Myopathy,condition
+4069289,"Congenital myotonia, autosomal recessive form",Condition,SNOMED,standard,Myopathy_difference,myopathy,Myopathy,condition
+4071896,Secondary dilated cardiomyopathy,Condition,SNOMED,standard,Myopathy_difference,myopathy,Myopathy,condition
+4076799,Restrictive cardiomyopathy secondary to malignancy,Condition,SNOMED,standard,Myopathy_difference,myopathy,Myopathy,condition
+4078688,Alcohol myopathy,Condition,SNOMED,standard,Myopathy_difference,myopathy,Myopathy,condition
+4084268,Idiopathic dermatomyositis,Condition,SNOMED,standard,Myopathy_difference,myopathy,Myopathy,condition
+4084286,Infection of muscle graft,Condition,SNOMED,standard,Myopathy_difference,myopathy,Myopathy,condition
+4084780,Idiopathic polymyositis,Condition,SNOMED,standard,Myopathy_difference,myopathy,Myopathy,condition
+4084819,Coxsackie muscle infection,Condition,SNOMED,standard,Myopathy_difference,myopathy,Myopathy,condition
+4092069,Malignant neoplasm of sphincter of Oddi,Condition,SNOMED,standard,Myopathy_difference,myopathy,Myopathy,condition
+4092529,Malignant neoplasm of extraocular muscle of orbit,Condition,SNOMED,standard,Myopathy_difference,myopathy,Myopathy,condition
+4093507,Herniation of lumbar muscles,Condition,SNOMED,standard,Myopathy_difference,myopathy,Myopathy,condition
+4094104,Neoplasm of uncertain behavior of sphincter of Oddi,Condition,SNOMED,standard,Myopathy_difference,myopathy,Myopathy,condition
+4095553,Injury of diaphragm,Condition,SNOMED,standard,Myopathy_difference,myopathy,Myopathy,condition
+4097114,Benign neoplasm of sphincter of Oddi,Condition,SNOMED,standard,Myopathy_difference,myopathy,Myopathy,condition
+4097992,Danish type familial amyloid cardiomyopathy,Condition,SNOMED,standard,Myopathy_difference,myopathy,Myopathy,condition
+4099147,Congenital absence of pectoral muscle,Condition,SNOMED,standard,Myopathy_difference,myopathy,Myopathy,condition
+4099496,Neoplasm of uncertain behavior of anal canal and sphincter,Condition,SNOMED,standard,Myopathy_difference,myopathy,Myopathy,condition
+4101863,Dilated cardiomyopathy due to myotonic dystrophy,Condition,SNOMED,standard,Myopathy_difference,myopathy,Myopathy,condition
+4101902,Distal muscular dystrophy with juvenile onset,Condition,SNOMED,standard,Myopathy_difference,myopathy,Myopathy,condition
+4102499,Benign congenital myopathy,Condition,SNOMED,standard,Myopathy_difference,myopathy,Myopathy,condition
+4102501,Pelvic muscular dystrophy,Condition,SNOMED,non-standard,Myopathy_difference,myopathy,Myopathy,condition
+4103513,Dilated cardiomyopathy due to muscular dystrophy,Condition,SNOMED,standard,Myopathy_difference,myopathy,Myopathy,condition
+4105642,Persistent neonatal myasthenia gravis,Condition,SNOMED,standard,Myopathy_difference,myopathy,Myopathy,condition
+4108236,Hypertrophic cardiomyopathy without obstruction,Condition,SNOMED,standard,Myopathy_difference,myopathy,Myopathy,condition
+4108237,Cardiomyopathy due to mucopolysaccharidosis,Condition,SNOMED,standard,Myopathy_difference,myopathy,Myopathy,condition
+4108238,Cardiomyopathy in myotonic dystrophy,Condition,SNOMED,standard,Myopathy_difference,myopathy,Myopathy,condition
+4108239,Dystrophic cardiomyopathy,Condition,SNOMED,standard,Myopathy_difference,myopathy,Myopathy,condition
+4108822,Primary dilated cardiomyopathy,Condition,SNOMED,standard,Myopathy_difference,myopathy,Myopathy,condition
+4108898,Congenital absent hemidiaphragm - bilateral,Condition,SNOMED,standard,Myopathy_difference,myopathy,Myopathy,condition
+4109087,Strain of muscle of upper limb,Condition,SNOMED,standard,Myopathy_difference,myopathy,Myopathy,condition
+4109088,Strain of muscle of trunk,Condition,SNOMED,standard,Myopathy_difference,myopathy,Myopathy,condition
+4111349,Strain of calf muscle,Condition,SNOMED,standard,Myopathy_difference,myopathy,Myopathy,condition
+4111421,Cardiac glycogenosis,Condition,SNOMED,standard,Myopathy_difference,myopathy,Myopathy,condition
+4111569,Cardiomyopathy in Friedreich's ataxia,Condition,SNOMED,standard,Myopathy_difference,myopathy,Myopathy,condition
+4112302,Strain of muscle of lower limb,Condition,SNOMED,standard,Myopathy_difference,myopathy,Myopathy,condition
+4113583,Congenital sternomastoid tumor,Condition,SNOMED,standard,Myopathy_difference,myopathy,Myopathy,condition
+4115036,Strain of abdominal muscle,Condition,SNOMED,standard,Myopathy_difference,myopathy,Myopathy,condition
+4115238,Low back strain,Condition,SNOMED,standard,Myopathy_difference,myopathy,Myopathy,condition
+4117680,Complicated diaphragmatic hernia,Condition,SNOMED,standard,Myopathy_difference,myopathy,Myopathy,condition
+4119592,Restrictive cardiomyopathy without endomyocardial fibrosis,Condition,SNOMED,standard,Myopathy_difference,myopathy,Myopathy,condition
+4119959,Familial restrictive cardiomyopathy,Condition,SNOMED,standard,Myopathy_difference,myopathy,Myopathy,condition
+4121474,Post-myocarditic cardiomyopathy,Condition,SNOMED,standard,Myopathy_difference,myopathy,Myopathy,condition
+4121515,Familial hyperkalemic periodic paralysis,Condition,SNOMED,standard,Myopathy_difference,myopathy,Myopathy,condition
+4124541,Traumatic rupture of diaphragm,Condition,SNOMED,standard,Myopathy_difference,myopathy,Myopathy,condition
+4124692,Congestive obstructive cardiomyopathy,Condition,SNOMED,standard,Myopathy_difference,myopathy,Myopathy,condition
+4124693,Hypertrophic cardiomyopathy,Condition,SNOMED,standard,Myopathy_difference,myopathy,Myopathy,condition
+4129241,Neoplasm of muscle of hip,Condition,SNOMED,standard,Myopathy_difference,myopathy,Myopathy,condition
+4129242,Neoplasm of muscle of inguinal region,Condition,SNOMED,standard,Myopathy_difference,myopathy,Myopathy,condition
+4129399,Dilated cardiomyopathy caused by radiation,Condition,SNOMED,standard,Myopathy_difference,myopathy,Myopathy,condition
+4129870,Neoplasm of muscle of head,Condition,SNOMED,standard,Myopathy_difference,myopathy,Myopathy,condition
+4131429,Neoplasm of muscle of face,Condition,SNOMED,standard,Myopathy_difference,myopathy,Myopathy,condition
+4131430,Neoplasm of muscle of shoulder,Condition,SNOMED,standard,Myopathy_difference,myopathy,Myopathy,condition
+4131431,Neoplasm of muscle of upper limb,Condition,SNOMED,standard,Myopathy_difference,myopathy,Myopathy,condition
+4131432,Neoplasm of muscle of lower limb,Condition,SNOMED,standard,Myopathy_difference,myopathy,Myopathy,condition
+4131433,Neoplasm of muscle of trunk,Condition,SNOMED,standard,Myopathy_difference,myopathy,Myopathy,condition
+4131434,Neoplasm of muscle of pelvis,Condition,SNOMED,standard,Myopathy_difference,myopathy,Myopathy,condition
+4131435,Neoplasm of muscle of buttock,Condition,SNOMED,standard,Myopathy_difference,myopathy,Myopathy,condition
+4134163,Traumatic division of muscle,Condition,SNOMED,standard,Myopathy_difference,myopathy,Myopathy,condition
+4134946,Crushing injury of muscle,Condition,SNOMED,standard,Myopathy_difference,myopathy,Myopathy,condition
+4134950,Strain of tendon of adductor longus,Condition,SNOMED,standard,Myopathy_difference,myopathy,Myopathy,condition
+4137355,Strain of back muscle,Condition,SNOMED,standard,Myopathy_difference,myopathy,Myopathy,condition
+4139754,Restrictive cardiomyopathy secondary to endocardial fibroelastosis,Condition,SNOMED,standard,Myopathy_difference,myopathy,Myopathy,condition
+4141588,Primary eosinophilic endomyocardial restrictive cardiomyopathy,Condition,SNOMED,standard,Myopathy_difference,myopathy,Myopathy,condition
+4141805,Congenital contracture of gastrocnemius muscle,Condition,SNOMED,standard,Myopathy_difference,myopathy,Myopathy,condition
+4142028,Ischiorectal hernia with gangrene,Condition,SNOMED,standard,Myopathy_difference,myopathy,Myopathy,condition
+4142185,Dilated cardiomyopathy secondary to deficiency,Condition,SNOMED,non-standard,Myopathy_difference,myopathy,Myopathy,condition
+4144463,Tachycardia-induced cardiomyopathy,Condition,SNOMED,standard,Myopathy_difference,myopathy,Myopathy,condition
+4145696,Ischemic congestive cardiomyopathy,Condition,SNOMED,standard,Myopathy_difference,myopathy,Myopathy,condition
+4147604,Dilated cardiomyopathy due to systemic sclerosis,Condition,SNOMED,standard,Myopathy_difference,myopathy,Myopathy,condition
+4147982,Dilated cardiomyopathy due to viral myocarditis,Condition,SNOMED,standard,Myopathy_difference,myopathy,Myopathy,condition
+4148481,Irreducible hiatal hernia,Condition,SNOMED,standard,Myopathy_difference,myopathy,Myopathy,condition
+4149725,Restrictive cardiomyopathy secondary to familial storage disease,Condition,SNOMED,standard,Myopathy_difference,myopathy,Myopathy,condition
+4150951,O/E - muscle atrophy present,Condition,SNOMED,non-standard,Myopathy_difference,myopathy,Myopathy,condition
+4151870,Congenital torticollis,Condition,SNOMED,standard,Myopathy_difference,myopathy,Myopathy,condition
+4154093,Cardiomyopathy in Duchenne muscular dystrophy,Condition,SNOMED,standard,Myopathy_difference,myopathy,Myopathy,condition
+4159156,Hiatal hernia with gastroesophageal reflux,Condition,SNOMED,standard,Myopathy_difference,myopathy,Myopathy,condition
+4159652,Traumatic hypotonia,Condition,SNOMED,standard,Myopathy_difference,myopathy,Myopathy,condition
+4161246,Congenital absence of quadriceps muscle,Condition,SNOMED,standard,Myopathy_difference,myopathy,Myopathy,condition
+4162674,Restrictive cardiomyopathy with endomyocardial fibrosis,Condition,SNOMED,standard,Myopathy_difference,myopathy,Myopathy,condition
+4163266,Facioscapulohumeral muscular dystrophy,Condition,SNOMED,standard,Myopathy_difference,myopathy,Myopathy,condition
+4163710,Dilated cardiomyopathy,Condition,SNOMED,standard,Myopathy_difference,myopathy,Myopathy,condition
+4164440,Congenital cardiospasm,Condition,SNOMED,standard,Myopathy_difference,myopathy,Myopathy,condition
+4167868,Danon disease,Condition,SNOMED,standard,Myopathy_difference,myopathy,Myopathy,condition
+4168796,Muscle strain,Condition,SNOMED,standard,Myopathy_difference,myopathy,Myopathy,condition
+4169418,Congenital hernia of foramen of Morgagni,Condition,SNOMED,standard,Myopathy_difference,myopathy,Myopathy,condition
+4172641,Primary endomyocardial fibrosis restrictive cardiomyopathy,Condition,SNOMED,standard,Myopathy_difference,myopathy,Myopathy,condition
+4172671,Severe childhood autosomal recessive muscular dystrophy,Condition,SNOMED,standard,Myopathy_difference,myopathy,Myopathy,condition
+4173155,Congenital absence of abdominal muscle,Condition,SNOMED,standard,Myopathy_difference,myopathy,Myopathy,condition
+4175651,Contracture of gastrocnemius muscle due to traumatic injury,Condition,SNOMED,standard,Myopathy_difference,myopathy,Myopathy,condition
+4176953,Neonatal neuromuscular disorder,Condition,SNOMED,standard,Myopathy_difference,myopathy,Myopathy,condition
+4177187,Dilated cardiomyopathy due to Friedreich's ataxia,Condition,SNOMED,standard,Myopathy_difference,myopathy,Myopathy,condition
+4177188,Cobalt cardiomyopathy,Condition,SNOMED,standard,Myopathy_difference,myopathy,Myopathy,condition
+4177239,Malignant tumor of muscle,Condition,SNOMED,standard,Myopathy_difference,myopathy,Myopathy,condition
+4178460,Traumatic rupture of skeletal muscle,Condition,SNOMED,standard,Myopathy_difference,myopathy,Myopathy,condition
+4178584,Primary familial dilated cardiomyopathy,Condition,SNOMED,standard,Myopathy_difference,myopathy,Myopathy,condition
+4179650,Congenital velopharyngeal incompetence,Condition,SNOMED,standard,Myopathy_difference,myopathy,Myopathy,condition
+4180126,Traumatic injury of skeletal muscle,Condition,SNOMED,standard,Myopathy_difference,myopathy,Myopathy,condition
+4180607,Strain of flexor muscle of hip,Condition,SNOMED,standard,Myopathy_difference,myopathy,Myopathy,condition
+4181170,Congenital nonprogressive myopathy with Moebius and Robin sequences,Condition,SNOMED,standard,Myopathy_difference,myopathy,Myopathy,condition
+4182388,Lethal neonatal spasticity,Condition,SNOMED,non-standard,Myopathy_difference,myopathy,Myopathy,condition
+4185379,Dilated cardiomyopathy due to bacterial myocarditis,Condition,SNOMED,standard,Myopathy_difference,myopathy,Myopathy,condition
+4185450,Dilated cardiomyopathy with connective tissue disorder,Condition,SNOMED,standard,Myopathy_difference,myopathy,Myopathy,condition
+4189147,Dilated cardiomyopathy due to taurine deficiency,Condition,SNOMED,standard,Myopathy_difference,myopathy,Myopathy,condition
+4190653,Posterior perineal hernia,Condition,SNOMED,standard,Myopathy_difference,myopathy,Myopathy,condition
+4190773,Restrictive cardiomyopathy,Condition,SNOMED,standard,Myopathy_difference,myopathy,Myopathy,condition
+4191606,Restrictive cardiomyopathy secondary to sarcoidosis,Condition,SNOMED,standard,Myopathy_difference,myopathy,Myopathy,condition
+4194894,Muscle and tendon injury,Condition,SNOMED,standard,Myopathy_difference,myopathy,Myopathy,condition
+4195075,Congenital myopathy with abnormal subcellular organelles,Condition,SNOMED,standard,Myopathy_difference,myopathy,Myopathy,condition
+4195417,Dilated cardiomyopathy due to neuromuscular disorder,Condition,SNOMED,standard,Myopathy_difference,myopathy,Myopathy,condition
+4195688,Ocular muscular dystrophy,Condition,SNOMED,non-standard,Myopathy_difference,myopathy,Myopathy,condition
+4197087,Restrictive cardiomyopathy secondary to amyloidosis,Condition,SNOMED,standard,Myopathy_difference,myopathy,Myopathy,condition
+4203149,Primary idiopathic dilated cardiomyopathy,Condition,SNOMED,standard,Myopathy_difference,myopathy,Myopathy,condition
+4204523,Congenital muscular hypertrophy-cerebral syndrome,Condition,SNOMED,standard,Myopathy_difference,myopathy,Myopathy,condition
+4204824,Multi-core congenital myopathy,Condition,SNOMED,standard,Myopathy_difference,myopathy,Myopathy,condition
+4204856,Primary eosinophilic endomyocardial cardiomyopathy,Condition,SNOMED,standard,Myopathy_difference,myopathy,Myopathy,condition
+4205399,Lumbosacral strain,Condition,SNOMED,standard,Myopathy_difference,myopathy,Myopathy,condition
+4205593,Hypertrophic cardiomyopathy secondary to Friedreich's ataxia,Condition,SNOMED,non-standard,Myopathy_difference,myopathy,Myopathy,condition
+4205714,Hereditary myopathy associated with hydrocephalus,Condition,SNOMED,standard,Myopathy_difference,myopathy,Myopathy,condition
+4207805,Idiopathic myoglobinuria,Condition,SNOMED,standard,Myopathy_difference,myopathy,Myopathy,condition
+4211345,Anterior perineal hernia,Condition,SNOMED,standard,Myopathy_difference,myopathy,Myopathy,condition
+4211517,Restrictive cardiomyopathy secondary to hemochromatosis,Condition,SNOMED,standard,Myopathy_difference,myopathy,Myopathy,condition
+4212349,"Congenital myotonia, autosomal dominant form",Condition,SNOMED,standard,Myopathy_difference,myopathy,Myopathy,condition
+4212562,Perineal hernia,Condition,SNOMED,standard,Myopathy_difference,myopathy,Myopathy,condition
+4215284,Dilated cardiomyopathy due to granuloma,Condition,SNOMED,standard,Myopathy_difference,myopathy,Myopathy,condition
+4217551,Secondary restrictive cardiomyopathy,Condition,SNOMED,standard,Myopathy_difference,myopathy,Myopathy,condition
+4218771,Dilated cardiomyopathy caused by drug,Condition,SNOMED,standard,Myopathy_difference,myopathy,Myopathy,condition
+4219376,Dilated cardiomyopathy due to hemochromatosis,Condition,SNOMED,standard,Myopathy_difference,myopathy,Myopathy,condition
+4221408,Familial hypokalemic periodic paralysis,Condition,SNOMED,standard,Myopathy_difference,myopathy,Myopathy,condition
+4222754,Familial normokalemic periodic paralysis,Condition,SNOMED,standard,Myopathy_difference,myopathy,Myopathy,condition
+4222765,Primary familial hypertrophic cardiomyopathy,Condition,SNOMED,standard,Myopathy_difference,myopathy,Myopathy,condition
+4223017,Hypertrophic cardiomyopathy secondary to neuromuscular disorder,Condition,SNOMED,non-standard,Myopathy_difference,myopathy,Myopathy,condition
+4224935,Dilated cardiomyopathy due to nutritional deficiency,Condition,SNOMED,standard,Myopathy_difference,myopathy,Myopathy,condition
+4224937,Obstructed ischiorectal hernia,Condition,SNOMED,standard,Myopathy_difference,myopathy,Myopathy,condition
+4225077,Dilated cardiomyopathy due to protozoan myocarditis,Condition,SNOMED,standard,Myopathy_difference,myopathy,Myopathy,condition
+4225117,Restrictive cardiomyopathy due to mucopolysaccharidosis,Condition,SNOMED,standard,Myopathy_difference,myopathy,Myopathy,condition
+4227734,Partial thenar atrophy,Condition,SNOMED,standard,Myopathy_difference,myopathy,Myopathy,condition
+4229830,Strain of trapezius muscle,Condition,SNOMED,standard,Myopathy_difference,myopathy,Myopathy,condition
+4232495,Primary cardiomyopathy,Condition,SNOMED,standard,Myopathy_difference,myopathy,Myopathy,condition
+4233941,Congenital anomaly of skeletal muscle,Condition,SNOMED,standard,Myopathy_difference,myopathy,Myopathy,condition
+4234537,Dilated cardiomyopathy secondary to electrolyte deficiency,Condition,SNOMED,non-standard,Myopathy_difference,myopathy,Myopathy,condition
+4235779,Strain of neck muscle,Condition,SNOMED,standard,Myopathy_difference,myopathy,Myopathy,condition
+4236332,Primary restrictive cardiomyopathy,Condition,SNOMED,standard,Myopathy_difference,myopathy,Myopathy,condition
+4236361,Traumatic torticollis,Condition,SNOMED,standard,Myopathy_difference,myopathy,Myopathy,condition
+4240023,Benign neoplasm of muscle of buttock,Condition,SNOMED,standard,Myopathy_difference,myopathy,Myopathy,condition
+4240024,Benign neoplasm of muscle of head,Condition,SNOMED,standard,Myopathy_difference,myopathy,Myopathy,condition
+4240025,Benign neoplasm of muscle of neck,Condition,SNOMED,standard,Myopathy_difference,myopathy,Myopathy,condition
+4240027,Benign neoplasm of muscle of upper limb,Condition,SNOMED,standard,Myopathy_difference,myopathy,Myopathy,condition
+4240028,Benign neoplasm of muscle,Condition,SNOMED,standard,Myopathy_difference,myopathy,Myopathy,condition
+4240233,Dilated cardiomyopathy due to amyloidosis,Condition,SNOMED,standard,Myopathy_difference,myopathy,Myopathy,condition
+4240306,Dilated cardiomyopathy due to polyarteritis nodosa,Condition,SNOMED,standard,Myopathy_difference,myopathy,Myopathy,condition
+4241644,Benign neoplasm of diaphragm,Condition,SNOMED,standard,Myopathy_difference,myopathy,Myopathy,condition
+4242362,Benign neoplasm of muscle of face,Condition,SNOMED,standard,Myopathy_difference,myopathy,Myopathy,condition
+4242363,Benign neoplasm of muscle of lower limb,Condition,SNOMED,standard,Myopathy_difference,myopathy,Myopathy,condition
+4242364,Benign neoplasm of muscle of pelvis,Condition,SNOMED,standard,Myopathy_difference,myopathy,Myopathy,condition
+4242365,Benign neoplasm of muscle of perineum,Condition,SNOMED,standard,Myopathy_difference,myopathy,Myopathy,condition
+4242366,Benign neoplasm of muscle of shoulder,Condition,SNOMED,standard,Myopathy_difference,myopathy,Myopathy,condition
+4242693,Perineal laceration involving vaginal muscles,Condition,SNOMED,standard,Myopathy_difference,myopathy,Myopathy,condition
+4242808,Benign neoplasm of muscle of inguinal region,Condition,SNOMED,standard,Myopathy_difference,myopathy,Myopathy,condition
+4243215,Distal muscular dystrophy,Condition,SNOMED,standard,Myopathy_difference,myopathy,Myopathy,condition
+4243435,Benign neoplasm of muscle of abdomen,Condition,SNOMED,standard,Myopathy_difference,myopathy,Myopathy,condition
+4243436,Benign neoplasm of muscle of hip,Condition,SNOMED,standard,Myopathy_difference,myopathy,Myopathy,condition
+4243437,Benign neoplasm of muscle of thorax,Condition,SNOMED,standard,Myopathy_difference,myopathy,Myopathy,condition
+4243438,Benign neoplasm of muscle of trunk,Condition,SNOMED,standard,Myopathy_difference,myopathy,Myopathy,condition
+4243769,Mitochondrial-lipid-glycogen storage myopathy,Condition,SNOMED,standard,Myopathy_difference,myopathy,Myopathy,condition
+4243983,Dilated cardiomyopathy due to glycogen storage disease,Condition,SNOMED,standard,Myopathy_difference,myopathy,Myopathy,condition
+4245506,Dilated cardiomyopathy due to familial storage disease,Condition,SNOMED,standard,Myopathy_difference,myopathy,Myopathy,condition
+4246133,Primary malignant neoplasm of muscle of hip,Condition,SNOMED,standard,Myopathy_difference,myopathy,Myopathy,condition
+4246134,Primary malignant neoplasm of muscle of inguinal region,Condition,SNOMED,standard,Myopathy_difference,myopathy,Myopathy,condition
+4246135,Primary malignant neoplasm of muscle of perineum,Condition,SNOMED,standard,Myopathy_difference,myopathy,Myopathy,condition
+4246673,Hypertrophic cardiomyopathy secondary to hyperthyroidism,Condition,SNOMED,non-standard,Myopathy_difference,myopathy,Myopathy,condition
+4247261,Dilated cardiomyopathy due to sarcoidosis,Condition,SNOMED,standard,Myopathy_difference,myopathy,Myopathy,condition
+4247337,Primary malignant neoplasm of muscle of thorax,Condition,SNOMED,standard,Myopathy_difference,myopathy,Myopathy,condition
+4247802,Muscular dystrophy,Condition,SNOMED,standard,Myopathy_difference,myopathy,Myopathy,condition
+4247825,Primary malignant neoplasm of diaphragm,Condition,SNOMED,standard,Myopathy_difference,myopathy,Myopathy,condition
+4247838,Primary malignant neoplasm of muscle of head,Condition,SNOMED,standard,Myopathy_difference,myopathy,Myopathy,condition
+4247839,Primary malignant neoplasm of muscle of trunk,Condition,SNOMED,standard,Myopathy_difference,myopathy,Myopathy,condition
+4247840,Primary malignant neoplasm of muscle of upper limb,Condition,SNOMED,standard,Myopathy_difference,myopathy,Myopathy,condition
+4247908,Congenital absence of diaphragm,Condition,SNOMED,standard,Myopathy_difference,myopathy,Myopathy,condition
+4248081,Metastatic malignant neoplasm to muscle of lower limb,Condition,SNOMED,non-standard,Myopathy_difference,myopathy,Myopathy,condition
+4248082,Metastatic malignant neoplasm to muscle of neck,Condition,SNOMED,non-standard,Myopathy_difference,myopathy,Myopathy,condition
+4248182,Metastatic malignant neoplasm to muscle,Condition,SNOMED,non-standard,Myopathy_difference,myopathy,Myopathy,condition
+4249303,Obstructed diaphragmatic hernia with gangrene,Condition,SNOMED,standard,Myopathy_difference,myopathy,Myopathy,condition
+4250174,Denervation atrophy of muscle,Condition,SNOMED,standard,Myopathy_difference,myopathy,Myopathy,condition
+4251051,Dilated cardiomyopathy due to malignancy,Condition,SNOMED,standard,Myopathy_difference,myopathy,Myopathy,condition
+4258681,Dilated cardiomyopathy due to fungal myocarditis,Condition,SNOMED,standard,Myopathy_difference,myopathy,Myopathy,condition
+4261970,Familial cardiomyopathy,Condition,SNOMED,standard,Myopathy_difference,myopathy,Myopathy,condition
+4262911,Dilated cardiomyopathy due to dermatomyositis,Condition,SNOMED,standard,Myopathy_difference,myopathy,Myopathy,condition
+4268155,Congenital hourglass stomach,Condition,SNOMED,standard,Myopathy_difference,myopathy,Myopathy,condition
+4268879,Congenital fibrosis syndrome,Condition,SNOMED,standard,Myopathy_difference,myopathy,Myopathy,condition
+4269448,Dilated cardiomyopathy due to systemic lupus erythematosus,Condition,SNOMED,standard,Myopathy_difference,myopathy,Myopathy,condition
+4270625,Primary idiopathic hypertrophic cardiomyopathy,Condition,SNOMED,standard,Myopathy_difference,myopathy,Myopathy,condition
+4270789,Hereditary hollow viscus myopathy,Condition,SNOMED,standard,Myopathy_difference,myopathy,Myopathy,condition
+4273369,Restrictive cardiomyopathy secondary to glycogen storage disease,Condition,SNOMED,standard,Myopathy_difference,myopathy,Myopathy,condition
+4273401,Dilated cardiomyopathy due to infiltration,Condition,SNOMED,standard,Myopathy_difference,myopathy,Myopathy,condition
+4274635,Primary idiopathic restrictive cardiomyopathy,Condition,SNOMED,standard,Myopathy_difference,myopathy,Myopathy,condition
+4280235,Strain of thoracic region,Condition,SNOMED,standard,Myopathy_difference,myopathy,Myopathy,condition
+4288868,Nonobstructive cardiomyopathy,Condition,SNOMED,standard,Myopathy_difference,myopathy,Myopathy,condition
+4290767,Congenital eventration of right crus of diaphragm,Condition,SNOMED,standard,Myopathy_difference,myopathy,Myopathy,condition
+4294833,Cloquet's hernia,Condition,SNOMED,standard,Myopathy_difference,myopathy,Myopathy,condition
+4294859,Congenital fibrosis of inferior rectus muscle,Condition,SNOMED,standard,Myopathy_difference,myopathy,Myopathy,condition
+4296473,Duchenne muscular dystrophy,Condition,SNOMED,standard,Myopathy_difference,myopathy,Myopathy,condition
+4296494,Denervation atrophy of tongue,Condition,SNOMED,standard,Myopathy_difference,myopathy,Myopathy,condition
+4297316,Restrictive cardiomyopathy secondary to granulomas,Condition,SNOMED,standard,Myopathy_difference,myopathy,Myopathy,condition
+4297463,Oculopharyngeal muscular dystrophy,Condition,SNOMED,standard,Myopathy_difference,myopathy,Myopathy,condition
+4301289,Eosinophilia-myalgia syndrome from tryptophan,Condition,SNOMED,standard,Myopathy_difference,myopathy,Myopathy,condition
+4302459,Erb's muscular dystrophy,Condition,SNOMED,non-standard,Myopathy_difference,myopathy,Myopathy,condition
+4302678,Congenital absence of skeletal muscle,Condition,SNOMED,standard,Myopathy_difference,myopathy,Myopathy,condition
+4307028,FH: Cardiomyopathy,Observation,SNOMED,standard,Myopathy_difference,myopathy,Myopathy,condition
+4308668,Becker muscular dystrophy,Condition,SNOMED,standard,Myopathy_difference,myopathy,Myopathy,condition
+4311485,Primary malignant neoplasm of muscle of abdomen,Condition,SNOMED,standard,Myopathy_difference,myopathy,Myopathy,condition
+4311486,Primary malignant neoplasm of muscle of buttock,Condition,SNOMED,standard,Myopathy_difference,myopathy,Myopathy,condition
+4311487,Primary malignant neoplasm of muscle of face,Condition,SNOMED,standard,Myopathy_difference,myopathy,Myopathy,condition
+4311488,Primary malignant neoplasm of muscle of lower limb,Condition,SNOMED,standard,Myopathy_difference,myopathy,Myopathy,condition
+4311489,Primary malignant neoplasm of muscle of neck,Condition,SNOMED,standard,Myopathy_difference,myopathy,Myopathy,condition
+4311490,Primary malignant neoplasm of muscle of pelvis,Condition,SNOMED,standard,Myopathy_difference,myopathy,Myopathy,condition
+4311491,Primary malignant neoplasm of muscle of shoulder,Condition,SNOMED,standard,Myopathy_difference,myopathy,Myopathy,condition
+4311492,Primary malignant neoplasm of muscle,Condition,SNOMED,standard,Myopathy_difference,myopathy,Myopathy,condition
+4311876,Metastatic malignant neoplasm to diaphragm,Condition,SNOMED,non-standard,Myopathy_difference,myopathy,Myopathy,condition
+4312551,Metastatic malignant neoplasm to muscle of face,Condition,SNOMED,non-standard,Myopathy_difference,myopathy,Myopathy,condition
+4312552,Metastatic malignant neoplasm to muscle of hip,Condition,SNOMED,non-standard,Myopathy_difference,myopathy,Myopathy,condition
+4312553,Metastatic malignant neoplasm to muscle of perineum,Condition,SNOMED,non-standard,Myopathy_difference,myopathy,Myopathy,condition
+4312554,Metastatic malignant neoplasm to muscle of shoulder,Condition,SNOMED,non-standard,Myopathy_difference,myopathy,Myopathy,condition
+4312555,Metastatic malignant neoplasm to muscle of upper limb,Condition,SNOMED,non-standard,Myopathy_difference,myopathy,Myopathy,condition
+4313305,Dilated cardiomyopathy due to infectious disease,Condition,SNOMED,standard,Myopathy_difference,myopathy,Myopathy,condition
+4313646,Neoplasm of uncertain behavior of muscle of abdomen,Condition,SNOMED,standard,Myopathy_difference,myopathy,Myopathy,condition
+4313647,Neoplasm of uncertain behavior of muscle of neck,Condition,SNOMED,standard,Myopathy_difference,myopathy,Myopathy,condition
+4313648,Neoplasm of uncertain behavior of muscle of shoulder,Condition,SNOMED,standard,Myopathy_difference,myopathy,Myopathy,condition
+4313650,Neoplasm of uncertain behavior of muscle,Condition,SNOMED,standard,Myopathy_difference,myopathy,Myopathy,condition
+4313794,Metastatic malignant neoplasm to muscle of buttock,Condition,SNOMED,non-standard,Myopathy_difference,myopathy,Myopathy,condition
+4313795,Metastatic malignant neoplasm to muscle of head,Condition,SNOMED,non-standard,Myopathy_difference,myopathy,Myopathy,condition
+4313796,Metastatic malignant neoplasm to muscle of pelvis,Condition,SNOMED,non-standard,Myopathy_difference,myopathy,Myopathy,condition
+4313797,Metastatic malignant neoplasm to muscle of thorax,Condition,SNOMED,non-standard,Myopathy_difference,myopathy,Myopathy,condition
+4314400,Dilated cardiomyopathy due to mucopolysaccharidosis,Condition,SNOMED,standard,Myopathy_difference,myopathy,Myopathy,condition
+4315528,Neoplasm of uncertain behavior of muscle of inguinal region,Condition,SNOMED,standard,Myopathy_difference,myopathy,Myopathy,condition
+4315529,Neoplasm of uncertain behavior of muscle of pelvis,Condition,SNOMED,standard,Myopathy_difference,myopathy,Myopathy,condition
+4315530,Neoplasm of uncertain behavior of muscle of perineum,Condition,SNOMED,standard,Myopathy_difference,myopathy,Myopathy,condition
+4315541,Metastatic malignant neoplasm to muscle of abdomen,Condition,SNOMED,non-standard,Myopathy_difference,myopathy,Myopathy,condition
+4315542,Metastatic malignant neoplasm to muscle of inguinal region,Condition,SNOMED,non-standard,Myopathy_difference,myopathy,Myopathy,condition
+4315543,Metastatic malignant neoplasm to muscle of trunk,Condition,SNOMED,non-standard,Myopathy_difference,myopathy,Myopathy,condition
+4316379,Neoplasm of uncertain behavior of diaphragm,Condition,SNOMED,standard,Myopathy_difference,myopathy,Myopathy,condition
+4316508,Neoplasm of uncertain behavior of muscle of buttock,Condition,SNOMED,standard,Myopathy_difference,myopathy,Myopathy,condition
+4316509,Neoplasm of uncertain behavior of muscle of head,Condition,SNOMED,standard,Myopathy_difference,myopathy,Myopathy,condition
+4316510,Neoplasm of uncertain behavior of muscle of trunk,Condition,SNOMED,standard,Myopathy_difference,myopathy,Myopathy,condition
+4316511,Neoplasm of uncertain behavior of muscle of upper limb,Condition,SNOMED,standard,Myopathy_difference,myopathy,Myopathy,condition
+4317556,Neoplasm of uncertain behavior of muscle of face,Condition,SNOMED,standard,Myopathy_difference,myopathy,Myopathy,condition
+4317557,Neoplasm of uncertain behavior of muscle of hip,Condition,SNOMED,standard,Myopathy_difference,myopathy,Myopathy,condition
+4317558,Neoplasm of uncertain behavior of muscle of lower limb,Condition,SNOMED,standard,Myopathy_difference,myopathy,Myopathy,condition
+4317559,Neoplasm of uncertain behavior of muscle of thorax,Condition,SNOMED,standard,Myopathy_difference,myopathy,Myopathy,condition
+4320821,Injury of muscle,Condition,SNOMED,standard,Myopathy_difference,myopathy,Myopathy,condition
+4323060,Strain of triceps brachii muscle,Condition,SNOMED,standard,Myopathy_difference,myopathy,Myopathy,condition
+4328805,Strain of muscle of chest wall,Condition,SNOMED,standard,Myopathy_difference,myopathy,Myopathy,condition
+4328807,Strain of rectus femoris muscle,Condition,SNOMED,standard,Myopathy_difference,myopathy,Myopathy,condition
+4328879,Volkmann ischemic contracture following traumatic compartment syndrome,Condition,SNOMED,standard,Myopathy_difference,myopathy,Myopathy,condition
+4339191,Intermuscular hernia,Condition,SNOMED,standard,Myopathy_difference,myopathy,Myopathy,condition
+4340500,Familial hypertrophy of sphincter of Oddi,Condition,SNOMED,standard,Myopathy_difference,myopathy,Myopathy,condition
+4340514,Perineal incisional hernia,Condition,SNOMED,standard,Myopathy_difference,myopathy,Myopathy,condition
+4340519,Traumatic diaphragmatic hernia,Condition,SNOMED,standard,Myopathy_difference,myopathy,Myopathy,condition
+4342897,Central tendon hernia,Condition,SNOMED,standard,Myopathy_difference,myopathy,Myopathy,condition
+4343683,Congenital erector pili hamartoma,Condition,SNOMED,standard,Myopathy_difference,myopathy,Myopathy,condition
+4343926,Polymyositis with malignant disease,Condition,SNOMED,standard,Myopathy_difference,myopathy,Myopathy,condition
+4344042,Muscular dystrophy with predominantly proximal limb girdle distribution,Condition,SNOMED,standard,Myopathy_difference,myopathy,Myopathy,condition
+4344045,Hutterite type of muscular dystrophy,Condition,SNOMED,standard,Myopathy_difference,myopathy,Myopathy,condition
+4344046,Autosomal dominant muscular dystrophy not predominantly limb girdle,Condition,SNOMED,standard,Myopathy_difference,myopathy,Myopathy,condition
+4344047,Benign congenital hypotonia,Condition,SNOMED,standard,Myopathy_difference,myopathy,Myopathy,condition
+4344051,Viral myositis,Condition,SNOMED,standard,Myopathy_difference,myopathy,Myopathy,condition
+4344138,Traumatic rhabdomyolysis,Condition,SNOMED,standard,Myopathy_difference,myopathy,Myopathy,condition
+4344140,Non-traumatic rhabdomyolysis,Condition,SNOMED,standard,Myopathy_difference,myopathy,Myopathy,condition
+4344161,Dermatomyositis with malignant disease,Condition,SNOMED,standard,Myopathy_difference,myopathy,Myopathy,condition
+4344276,X-linked muscular dystrophy with abnormal dystrophin,Condition,SNOMED,standard,Myopathy_difference,myopathy,Myopathy,condition
+4344277,Intermediate X-linked muscular dystrophy,Condition,SNOMED,standard,Myopathy_difference,myopathy,Myopathy,condition
+4344278,Manifesting female carrier of X-linked muscular dystrophy,Condition,SNOMED,standard,Myopathy_difference,myopathy,Myopathy,condition
+4344279,Autosomal recessive muscular dystrophy with abnormal dystrophin-associated glycoprotein,Condition,SNOMED,standard,Myopathy_difference,myopathy,Myopathy,condition
+4344281,Congenital muscular dystrophy with arthrogryposis multiplex congenita,Condition,SNOMED,standard,Myopathy_difference,myopathy,Myopathy,condition
+4344282,Autosomal recessive muscular dystrophy not predominantly limb girdle,Condition,SNOMED,standard,Myopathy_difference,myopathy,Myopathy,condition
+4344283,Benign congenital muscular dystrophy with finger flexion contractures,Condition,SNOMED,standard,Myopathy_difference,myopathy,Myopathy,condition
+4344284,Autosomal recessive centronuclear myopathy,Condition,SNOMED,standard,Myopathy_difference,myopathy,Myopathy,condition
+4344370,Viral myalgia,Condition,SNOMED,standard,Myopathy_difference,myopathy,Myopathy,condition
+4344604,X-linked muscular dystrophy with limb girdle distribution,Condition,SNOMED,standard,Myopathy_difference,myopathy,Myopathy,condition
+4344605,Ji muscular dystrophy,Condition,SNOMED,non-standard,Myopathy_difference,myopathy,Myopathy,condition
+4344606,Reunion-Indiana Amish type muscular dystrophy,Condition,SNOMED,standard,Myopathy_difference,myopathy,Myopathy,condition
+4344607,Western type of congenital muscular dystrophy,Condition,SNOMED,standard,Myopathy_difference,myopathy,Myopathy,condition
+4344608,Ullrich congenital muscular dystrophy,Condition,SNOMED,standard,Myopathy_difference,myopathy,Myopathy,condition
+4345481,Muscular dystrophy not predominantly limb girdle in distribution,Condition,SNOMED,standard,Myopathy_difference,myopathy,Myopathy,condition
+4345563,X-linked muscular dystrophy not predominantly limb girdle,Condition,SNOMED,standard,Myopathy_difference,myopathy,Myopathy,condition
+4345564,Benign scapuloperoneal muscular dystrophy with cardiomyopathy,Condition,SNOMED,non-standard,Myopathy_difference,myopathy,Myopathy,condition
+4345565,Severe scapuloperoneal muscular dystrophy with cardiomyopathy,Condition,SNOMED,standard,Myopathy_difference,myopathy,Myopathy,condition
+4345571,Benign acute myositis,Condition,SNOMED,standard,Myopathy_difference,myopathy,Myopathy,condition
+4345579,Familial paroxysmal rhabdomyolysis,Condition,SNOMED,standard,Myopathy_difference,myopathy,Myopathy,condition
+4347183,X-linked limb girdle muscular dystrophy with normal dystrophin,Condition,SNOMED,standard,Myopathy_difference,myopathy,Myopathy,condition
+4347184,Hereditary myopathy limited to females,Condition,SNOMED,standard,Myopathy_difference,myopathy,Myopathy,condition
+4347185,Autosomal recessive muscular dystrophy with limb girdle distribution,Condition,SNOMED,standard,Myopathy_difference,myopathy,Myopathy,condition
+4347186,Eichsfeld type congenital muscular dystrophy,Condition,SNOMED,standard,Myopathy_difference,myopathy,Myopathy,condition
+4347187,Adult onset autosomal recessive muscular dystrophy with normal dystrophin,Condition,SNOMED,standard,Myopathy_difference,myopathy,Myopathy,condition
+4347189,Autosomal dominant muscular dystrophy with limb girdle distribution,Condition,SNOMED,standard,Myopathy_difference,myopathy,Myopathy,condition
+4347190,Autosomal dominant muscular dystrophy with gene located at 5q31,Condition,SNOMED,standard,Myopathy_difference,myopathy,Myopathy,condition
+4347191,Late onset proximal muscular dystrophy with dysarthria,Condition,SNOMED,standard,Myopathy_difference,myopathy,Myopathy,condition
+4347192,Scapulohumeral muscular dystrophy,Condition,SNOMED,standard,Myopathy_difference,myopathy,Myopathy,condition
+4347193,Benign scapuloperoneal muscular dystrophy,Condition,SNOMED,standard,Myopathy_difference,myopathy,Myopathy,condition
+4347282,Congenital myopathy with fiber type disproportion,Condition,SNOMED,standard,Myopathy_difference,myopathy,Myopathy,condition
+4347283,Congenital myopathy with uniform fiber type,Condition,SNOMED,standard,Myopathy_difference,myopathy,Myopathy,condition
+35608124,Symptomatic form of muscular dystrophy of Duchenne and Becker in female carrier,Condition,SNOMED,standard,Myopathy_difference,myopathy,Myopathy,condition
+35614921,Congenital absence of right hemidiaphragm,Condition,SNOMED,standard,Myopathy_difference,myopathy,Myopathy,condition
+35615148,Cardiomyopathy caused by drug,Condition,SNOMED,standard,Myopathy_difference,myopathy,Myopathy,condition
+35621979,"Encephalopathy, hypertrophic cardiomyopathy, renal tubular disease syndrome",Condition,SNOMED,standard,Myopathy_difference,myopathy,Myopathy,condition
+35622006,Congenital muscular dystrophy with hyperlaxity,Condition,SNOMED,standard,Myopathy_difference,myopathy,Myopathy,condition
+35622007,Congenital myopathy with myasthenic-like onset,Condition,SNOMED,standard,Myopathy_difference,myopathy,Myopathy,condition
+35622034,Lethal congenital contracture syndrome type 5,Condition,SNOMED,standard,Myopathy_difference,myopathy,Myopathy,condition
+35622040,Familial dyskinesia and facial myokymia,Condition,SNOMED,standard,Myopathy_difference,myopathy,Myopathy,condition
+35622689,Autosomal recessive myogenic arthrogryposis multiplex congenita,Condition,SNOMED,standard,Myopathy_difference,myopathy,Myopathy,condition
+35622763,Congenital muscular dystrophy type 1B,Condition,SNOMED,standard,Myopathy_difference,myopathy,Myopathy,condition
+35622764,Congenital myopathy with internal nuclei and atypical cores,Condition,SNOMED,standard,Myopathy_difference,myopathy,Myopathy,condition
+35622874,"RRM2B-related mitochondrial DNA depletion syndrome, encephalomyopathic form with renal tubulopathy",Condition,SNOMED,standard,Myopathy_difference,myopathy,Myopathy,condition
+35623097,Mitochondrial DNA depletion syndrome encephalomyopathic form,Condition,SNOMED,standard,Myopathy_difference,myopathy,Myopathy,condition
+35623098,FBXL4-related encephalomyopathic mitochondrial DNA depletion syndrome,Condition,SNOMED,standard,Myopathy_difference,myopathy,Myopathy,condition
+35623822,Lethal infantile mitochondrial myopathy,Condition,SNOMED,standard,Myopathy_difference,myopathy,Myopathy,condition
+35624231,Familial dilated cardiomyopathy with conduction defect due to LMNA mutation,Condition,SNOMED,standard,Myopathy_difference,myopathy,Myopathy,condition
+35624533,Congenital absence of left hemidiaphragm,Condition,SNOMED,standard,Myopathy_difference,myopathy,Myopathy,condition
+36303523,Kansas City Cardiomyopathy Questionnaire - 12 item [KCCQ-12],Observation,LOINC,standard,Myopathy_difference,myopathy,Myopathy,condition
+36674283,Congenital muscular dystrophy due to LMNA mutation,Condition,SNOMED,standard,Myopathy_difference,myopathy,Myopathy,condition
+36674391,X-linked myopathy with postural muscle atrophy,Condition,SNOMED,standard,Myopathy_difference,myopathy,Myopathy,condition
+36674477,Neonatal dermatomyositis,Condition,SNOMED,standard,Myopathy_difference,myopathy,Myopathy,condition
+36674899,Hereditary inclusion body myopathy type 4,Condition,SNOMED,standard,Myopathy_difference,myopathy,Myopathy,condition
+36674900,Benign Samaritan congenital myopathy,Condition,SNOMED,standard,Myopathy_difference,myopathy,Myopathy,condition
+36675030,Congenital muscular dystrophy with integrin alpha-7 deficiency,Condition,SNOMED,standard,Myopathy_difference,myopathy,Myopathy,condition
+36675038,Autosomal recessive lower motor neuron disease with childhood onset,Condition,SNOMED,standard,Myopathy_difference,myopathy,Myopathy,condition
+36675042,"Hereditary fibrosing poikiloderma, tendon contractures, myopathy, pulmonary fibrosis syndrome",Condition,SNOMED,standard,Myopathy_difference,myopathy,Myopathy,condition
+36675058,Autosomal dominant limb-girdle muscular dystrophy type 1H,Condition,SNOMED,standard,Myopathy_difference,myopathy,Myopathy,condition
+36675150,Mitochondrial hypertrophic cardiomyopathy with lactic acidosis due to MTO1 deficiency,Condition,SNOMED,standard,Myopathy_difference,myopathy,Myopathy,condition
+36675174,Hypertrophic cardiomyopathy and renal tubular disease due to mitochondrial DNA mutation,Condition,SNOMED,standard,Myopathy_difference,myopathy,Myopathy,condition
+36675178,Infantile hypertrophic cardiomyopathy due to MRPL44 deficiency,Condition,SNOMED,standard,Myopathy_difference,myopathy,Myopathy,condition
+36676395,Obstructed perineal hernia,Condition,SNOMED,standard,Myopathy_difference,myopathy,Myopathy,condition
+36676396,Perineal hernia with gangrene,Condition,SNOMED,standard,Myopathy_difference,myopathy,Myopathy,condition
+36676398,Irreducible perineal hernia,Condition,SNOMED,standard,Myopathy_difference,myopathy,Myopathy,condition
+36676429,Congenital lethal myopathy Compton North type,Condition,SNOMED,standard,Myopathy_difference,myopathy,Myopathy,condition
+36676498,"Congenital cataract, progressive muscular hypotonia, hearing loss, developmental delay syndrome",Condition,SNOMED,standard,Myopathy_difference,myopathy,Myopathy,condition
+36678496,Combined oxidative phosphorylation defect type 17,Condition,SNOMED,standard,Myopathy_difference,myopathy,Myopathy,condition
+36680590,FASTKD2-related infantile mitochondrial encephalomyopathy,Condition,SNOMED,standard,Myopathy_difference,myopathy,Myopathy,condition
+36680602,Idiopathic eosinophilic myositis,Condition,SNOMED,standard,Myopathy_difference,myopathy,Myopathy,condition
+36683538,Strain of plantaris tendon,Condition,SNOMED,standard,Myopathy_difference,myopathy,Myopathy,condition
+36684439,Strain of intercostal muscle,Condition,SNOMED,standard,Myopathy_difference,myopathy,Myopathy,condition
+36684545,Atrophy of muscle of left hand,Condition,SNOMED,standard,Myopathy_difference,myopathy,Myopathy,condition
+36684546,Atrophy of muscle of left lower leg,Condition,SNOMED,standard,Myopathy_difference,myopathy,Myopathy,condition
+36684547,Atrophy of muscle of left shoulder,Condition,SNOMED,standard,Myopathy_difference,myopathy,Myopathy,condition
+36684548,Atrophy of muscle of left thigh,Condition,SNOMED,standard,Myopathy_difference,myopathy,Myopathy,condition
+36684549,Atrophy of muscle of left upper arm,Condition,SNOMED,standard,Myopathy_difference,myopathy,Myopathy,condition
+36684550,Atrophy of muscle of right hand,Condition,SNOMED,standard,Myopathy_difference,myopathy,Myopathy,condition
+36684551,Atrophy of muscle of right lower leg,Condition,SNOMED,standard,Myopathy_difference,myopathy,Myopathy,condition
+36684552,Atrophy of muscle of right shoulder,Condition,SNOMED,standard,Myopathy_difference,myopathy,Myopathy,condition
+36684553,Atrophy of muscle of right thigh,Condition,SNOMED,standard,Myopathy_difference,myopathy,Myopathy,condition
+36684554,Atrophy of muscle of right upper arm,Condition,SNOMED,standard,Myopathy_difference,myopathy,Myopathy,condition
+36686398,Laceration of diaphragm,Condition,SNOMED,standard,Myopathy_difference,myopathy,Myopathy,condition
+36686407,Laceration of muscle of chest wall,Condition,SNOMED,standard,Myopathy_difference,myopathy,Myopathy,condition
+36686447,Strain of muscle of left hand,Condition,SNOMED,standard,Myopathy_difference,myopathy,Myopathy,condition
+36686458,Strain of intrinsic muscle of left thumb,Condition,SNOMED,standard,Myopathy_difference,myopathy,Myopathy,condition
+36686459,Strain of muscle of right hand,Condition,SNOMED,standard,Myopathy_difference,myopathy,Myopathy,condition
+36686460,Strain of intrinsic muscle of right thumb,Condition,SNOMED,standard,Myopathy_difference,myopathy,Myopathy,condition
+36686467,Laceration of muscle of right foot,Condition,SNOMED,standard,Myopathy_difference,myopathy,Myopathy,condition
+36686468,Laceration of muscle of left foot,Condition,SNOMED,standard,Myopathy_difference,myopathy,Myopathy,condition
+36686469,Strain of muscle of right foot,Condition,SNOMED,standard,Myopathy_difference,myopathy,Myopathy,condition
+36686470,Strain of muscle of left foot,Condition,SNOMED,standard,Myopathy_difference,myopathy,Myopathy,condition
+36686481,Laceration of muscle of face,Condition,SNOMED,standard,Myopathy_difference,myopathy,Myopathy,condition
+36686510,Injury of muscle of right foot,Condition,SNOMED,standard,Myopathy_difference,myopathy,Myopathy,condition
+36686511,Injury of muscle of left foot,Condition,SNOMED,standard,Myopathy_difference,myopathy,Myopathy,condition
+36686515,Strain of muscle of right lower leg,Condition,SNOMED,standard,Myopathy_difference,myopathy,Myopathy,condition
+36686516,Strain of muscle of left lower leg,Condition,SNOMED,standard,Myopathy_difference,myopathy,Myopathy,condition
+36687021,Bilateral atrophy of muscle of lower legs,Condition,SNOMED,standard,Myopathy_difference,myopathy,Myopathy,condition
+36712757,Cardiomyopathy due to hypertension,Condition,SNOMED,standard,Myopathy_difference,myopathy,Myopathy,condition
+36712927,Congestive heart failure stage C due to ischemic cardiomyopathy,Condition,SNOMED,standard,Myopathy_difference,myopathy,Myopathy,condition
+36712928,Congestive heart failure stage B due to ischemic cardiomyopathy,Condition,SNOMED,standard,Myopathy_difference,myopathy,Myopathy,condition
+36712929,Systolic heart failure stage C due to ischemic cardiomyopathy,Condition,SNOMED,standard,Myopathy_difference,myopathy,Myopathy,condition
+36713473,"Congenital cataract, hypertrophic cardiomyopathy, mitochondrial myopathy syndrome",Condition,SNOMED,standard,Myopathy_difference,myopathy,Myopathy,condition
+36713480,Glycogen storage disease with severe cardiomyopathy due to glycogenin deficiency,Condition,SNOMED,standard,Myopathy_difference,myopathy,Myopathy,condition
+36713761,Hypertrophic cardiomyopathy with hypotonia and lactic acidosis syndrome,Condition,SNOMED,standard,Myopathy_difference,myopathy,Myopathy,condition
+36713857,Autosomal recessive limb girdle muscular dystrophy type 2E,Condition,SNOMED,standard,Myopathy_difference,myopathy,Myopathy,condition
+36714090,Atrophy of quadriceps femoris muscle,Condition,SNOMED,standard,Myopathy_difference,myopathy,Myopathy,condition
+36714091,Atrophy of trapezius muscle,Condition,SNOMED,standard,Myopathy_difference,myopathy,Myopathy,condition
+36714092,Atrophy of temporalis muscle,Condition,SNOMED,standard,Myopathy_difference,myopathy,Myopathy,condition
+36714093,Atrophy of pectoral muscle,Condition,SNOMED,standard,Myopathy_difference,myopathy,Myopathy,condition
+36714094,Atrophy of interosseous muscle of hand,Condition,SNOMED,standard,Myopathy_difference,myopathy,Myopathy,condition
+36714095,Atrophy of gastrocnemius muscle,Condition,SNOMED,standard,Myopathy_difference,myopathy,Myopathy,condition
+36714157,Progressive sensorineural hearing loss and hypertrophic cardiomyopathy syndrome,Condition,SNOMED,standard,Myopathy_difference,myopathy,Myopathy,condition
+36714240,Microcephalus cardiomyopathy syndrome,Condition,SNOMED,standard,Myopathy_difference,myopathy,Myopathy,condition
+36714255,Malignant hyperthermia with arthrogryposis and torticollis syndrome,Condition,SNOMED,standard,Myopathy_difference,myopathy,Myopathy,condition
+36714338,Benign paroxysmal torticollis of infancy,Condition,SNOMED,standard,Myopathy_difference,myopathy,Myopathy,condition
+36714540,Vici syndrome,Condition,SNOMED,standard,Myopathy_difference,myopathy,Myopathy,condition
+36714549,Wooly hair and palmoplantar keratoderma with dilated cardiomyopathy syndrome,Condition,SNOMED,standard,Myopathy_difference,myopathy,Myopathy,condition
+36714666,Autosomal dominant limb girdle muscular dystrophy type 1A,Condition,SNOMED,standard,Myopathy_difference,myopathy,Myopathy,condition
+36714667,Autosomal dominant limb girdle muscular dystrophy type 1C,Condition,SNOMED,non-standard,Myopathy_difference,myopathy,Myopathy,condition
+36714668,Autosomal dominant limb girdle muscular dystrophy type 1D,Condition,SNOMED,standard,Myopathy_difference,myopathy,Myopathy,condition
+36714669,Autosomal dominant limb girdle muscular dystrophy type 1E,Condition,SNOMED,standard,Myopathy_difference,myopathy,Myopathy,condition
+36714670,Autosomal dominant limb girdle muscular dystrophy type 1F,Condition,SNOMED,standard,Myopathy_difference,myopathy,Myopathy,condition
+36714671,Autosomal dominant limb girdle muscular dystrophy type 1G,Condition,SNOMED,standard,Myopathy_difference,myopathy,Myopathy,condition
+36715054,Autosomal recessive limb girdle muscular dystrophy type 2G,Condition,SNOMED,standard,Myopathy_difference,myopathy,Myopathy,condition
+36715055,Autosomal recessive limb girdle muscular dystrophy type 2K,Condition,SNOMED,standard,Myopathy_difference,myopathy,Myopathy,condition
+36715121,Cardiomyopathy with cataract and hip spine disease syndrome,Condition,SNOMED,standard,Myopathy_difference,myopathy,Myopathy,condition
+36715122,Cardiomyopathy and renal anomaly syndrome,Condition,SNOMED,standard,Myopathy_difference,myopathy,Myopathy,condition
+36715466,Congenital absence of gastric muscle,Condition,SNOMED,standard,Myopathy_difference,myopathy,Myopathy,condition
+36715613,Laceration of muscle of head,Condition,SNOMED,standard,Myopathy_difference,myopathy,Myopathy,condition
+36716065,Strain of muscle of anterior chest wall,Condition,SNOMED,standard,Myopathy_difference,myopathy,Myopathy,condition
+36716157,Oculogastrointestinal muscular dystrophy,Condition,SNOMED,standard,Myopathy_difference,myopathy,Myopathy,condition
+36716263,Severe X-linked mitochondrial encephalomyopathy,Condition,SNOMED,standard,Myopathy_difference,myopathy,Myopathy,condition
+36716671,Strain of muscle of wrist,Condition,SNOMED,standard,Myopathy_difference,myopathy,Myopathy,condition
+36717072,Atrophy of latissimus dorsi muscle,Condition,SNOMED,standard,Myopathy_difference,myopathy,Myopathy,condition
+36717073,Atrophy of deltoid muscle,Condition,SNOMED,standard,Myopathy_difference,myopathy,Myopathy,condition
+36717148,Congenital chalasia of esophagus,Condition,SNOMED,standard,Myopathy_difference,myopathy,Myopathy,condition
+36717359,Systolic heart failure stage B due to ischemic cardiomyopathy,Condition,SNOMED,standard,Myopathy_difference,myopathy,Myopathy,condition
+36717700,Atrophy of gluteus maximus muscle,Condition,SNOMED,standard,Myopathy_difference,myopathy,Myopathy,condition
+36717720,Dilated cardiomyopathy with hypergonadotropic hypogonadism syndrome,Condition,SNOMED,standard,Myopathy_difference,myopathy,Myopathy,condition
+36717761,Tubular renal disease with cardiomyopathy syndrome,Condition,SNOMED,standard,Myopathy_difference,myopathy,Myopathy,condition
+37017276,Cardiomyopathy co-occurrent with human immunodeficiency virus infection,Condition,SNOMED,standard,Myopathy_difference,myopathy,Myopathy,condition
+37108569,Injury of diaphragm during surgery,Condition,SNOMED,standard,Myopathy_difference,myopathy,Myopathy,condition
+37108733,Strain of muscle of left posterior lower leg,Condition,SNOMED,standard,Myopathy_difference,myopathy,Myopathy,condition
+37109462,Family history of Steinert myotonic dystrophy,Observation,SNOMED,standard,Myopathy_difference,myopathy,Myopathy,condition
+37109579,Epidermolysis bullosa simplex with muscular dystrophy,Condition,SNOMED,standard,Myopathy_difference,myopathy,Myopathy,condition
+37109644,Muscular dystrophy Selcen type,Condition,SNOMED,standard,Myopathy_difference,myopathy,Myopathy,condition
+37109990,Sensorineural deafness with dilated cardiomyopathy syndrome,Condition,SNOMED,standard,Myopathy_difference,myopathy,Myopathy,condition
+37110070,Mitochondrial myopathy with sideroblastic anemia syndrome,Condition,SNOMED,standard,Myopathy_difference,myopathy,Myopathy,condition
+37110185,"Hereditary inclusion body myopathy, joint contracture, ophthalmoplegia syndrome",Condition,SNOMED,standard,Myopathy_difference,myopathy,Myopathy,condition
+37110596,Injury of muscle of thorax,Condition,SNOMED,standard,Myopathy_difference,myopathy,Myopathy,condition
+37110605,Strain of muscle of pelvis,Condition,SNOMED,standard,Myopathy_difference,myopathy,Myopathy,condition
+37110609,Laceration of muscle of lower back,Condition,SNOMED,standard,Myopathy_difference,myopathy,Myopathy,condition
+37110612,Laceration of muscle of pelvis,Condition,SNOMED,standard,Myopathy_difference,myopathy,Myopathy,condition
+37110615,Injury of muscle at shoulder level,Condition,SNOMED,standard,Myopathy_difference,myopathy,Myopathy,condition
+37110622,Injury of muscle of long head of biceps,Condition,SNOMED,standard,Myopathy_difference,myopathy,Myopathy,condition
+37110626,Laceration of muscle of long head of biceps brachii,Condition,SNOMED,standard,Myopathy_difference,myopathy,Myopathy,condition
+37110629,Injury of biceps brachii muscle,Condition,SNOMED,standard,Myopathy_difference,myopathy,Myopathy,condition
+37110632,Strain of biceps brachii muscle,Condition,SNOMED,standard,Myopathy_difference,myopathy,Myopathy,condition
+37110637,Injury of triceps brachii muscle,Condition,SNOMED,standard,Myopathy_difference,myopathy,Myopathy,condition
+37110641,Laceration of triceps brachii,Condition,SNOMED,standard,Myopathy_difference,myopathy,Myopathy,condition
+37110645,Injury of muscle at forearm level,Condition,SNOMED,standard,Myopathy_difference,myopathy,Myopathy,condition
+37110648,Injury of flexor muscle of thumb at forearm level,Condition,SNOMED,standard,Myopathy_difference,myopathy,Myopathy,condition
+37110649,Laceration of flexor muscle of thumb at forearm level,Condition,SNOMED,standard,Myopathy_difference,myopathy,Myopathy,condition
+37110651,Injury of flexor muscle of finger at forearm level,Condition,SNOMED,standard,Myopathy_difference,myopathy,Myopathy,condition
+37110653,Strain of flexor muscle of finger at forearm level,Condition,SNOMED,standard,Myopathy_difference,myopathy,Myopathy,condition
+37110655,Laceration of flexor muscle of finger at forearm level,Condition,SNOMED,standard,Myopathy_difference,myopathy,Myopathy,condition
+37110656,Strain of flexor muscle at forearm level,Condition,SNOMED,standard,Myopathy_difference,myopathy,Myopathy,condition
+37110663,Strain of extensor muscle of finger at forearm level,Condition,SNOMED,standard,Myopathy_difference,myopathy,Myopathy,condition
+37110666,Laceration of extensor muscle of finger at forearm level,Condition,SNOMED,standard,Myopathy_difference,myopathy,Myopathy,condition
+37110668,Injury of extensor muscle at forearm level,Condition,SNOMED,standard,Myopathy_difference,myopathy,Myopathy,condition
+37110671,Strain of extensor muscle at forearm level,Condition,SNOMED,standard,Myopathy_difference,myopathy,Myopathy,condition
+37110687,Injury of muscle of head,Condition,SNOMED,standard,Myopathy_difference,myopathy,Myopathy,condition
+37110690,Strain of muscle of head,Condition,SNOMED,standard,Myopathy_difference,myopathy,Myopathy,condition
+37110697,Injury of muscle of neck,Condition,SNOMED,standard,Myopathy_difference,myopathy,Myopathy,condition
+37110701,Laceration of muscle of neck,Condition,SNOMED,standard,Myopathy_difference,myopathy,Myopathy,condition
+37110717,Autosomal recessive limb girdle muscular dystrophy type 2O,Condition,SNOMED,standard,Myopathy_difference,myopathy,Myopathy,condition
+37110890,Cirrhotic cardiomyopathy,Condition,SNOMED,standard,Myopathy_difference,myopathy,Myopathy,condition
+37110894,Congenital muscular dystrophy Paradas type,Condition,SNOMED,standard,Myopathy_difference,myopathy,Myopathy,condition
+37110924,Adult-onset chronic progressive external ophthalmoplegia with mitochondrial myopathy,Condition,SNOMED,standard,Myopathy_difference,myopathy,Myopathy,condition
+37111243,Autosomal dominant myoglobinuria,Condition,SNOMED,standard,Myopathy_difference,myopathy,Myopathy,condition
+37111246,Autosomal recessive limb girdle muscular dystrophy type 2Y,Condition,SNOMED,standard,Myopathy_difference,myopathy,Myopathy,condition
+37111382,Laceration of intrinsic muscle of thumb,Condition,SNOMED,standard,Myopathy_difference,myopathy,Myopathy,condition
+37111384,Injury of intrinsic muscle of finger,Condition,SNOMED,standard,Myopathy_difference,myopathy,Myopathy,condition
+37111388,Laceration of intrinsic muscle of finger,Condition,SNOMED,standard,Myopathy_difference,myopathy,Myopathy,condition
+37111389,Injury of muscle of hip,Condition,SNOMED,standard,Myopathy_difference,myopathy,Myopathy,condition
+37111392,Strain of muscle of hip,Condition,SNOMED,standard,Myopathy_difference,myopathy,Myopathy,condition
+37111396,Injury of adductor muscle of thigh,Condition,SNOMED,standard,Myopathy_difference,myopathy,Myopathy,condition
+37111399,Strain of adductor muscle of thigh,Condition,SNOMED,standard,Myopathy_difference,myopathy,Myopathy,condition
+37111403,Laceration of intrinsic muscle of foot,Condition,SNOMED,standard,Myopathy_difference,myopathy,Myopathy,condition
+37111406,Injury of muscle of trunk,Condition,SNOMED,standard,Myopathy_difference,myopathy,Myopathy,condition
+37111584,Autosomal recessive limb girdle muscular dystrophy type 2P,Condition,SNOMED,standard,Myopathy_difference,myopathy,Myopathy,condition
+37111585,Autosomal recessive limb girdle muscular dystrophy type 2Q,Condition,SNOMED,standard,Myopathy_difference,myopathy,Myopathy,condition
+37111586,Autosomal recessive limb girdle muscular dystrophy type 2L,Condition,SNOMED,standard,Myopathy_difference,myopathy,Myopathy,condition
+37111587,Autosomal recessive limb girdle muscular dystrophy type 2N,Condition,SNOMED,standard,Myopathy_difference,myopathy,Myopathy,condition
+37111588,Autosomal recessive limb girdle muscular dystrophy type 2M,Condition,SNOMED,standard,Myopathy_difference,myopathy,Myopathy,condition
+37111632,Hernia of muscle through fascia of lower leg,Condition,SNOMED,standard,Myopathy_difference,myopathy,Myopathy,condition
+37115757,Pure mitochondrial myopathy,Condition,SNOMED,standard,Myopathy_difference,myopathy,Myopathy,condition
+37116271,Autosomal recessive limb girdle muscular dystrophy type 2S,Condition,SNOMED,standard,Myopathy_difference,myopathy,Myopathy,condition
+37116272,Autosomal recessive limb girdle muscular dystrophy type 2T,Condition,SNOMED,standard,Myopathy_difference,myopathy,Myopathy,condition
+37116273,Autosomal recessive limb girdle muscular dystrophy type 2R,Condition,SNOMED,non-standard,Myopathy_difference,myopathy,Myopathy,condition
+37116289,"Mitochondrial myopathy, lactic acidosis, deafness syndrome",Condition,SNOMED,standard,Myopathy_difference,myopathy,Myopathy,condition
+37116497,Injury of muscle of rotator cuff,Condition,SNOMED,standard,Myopathy_difference,myopathy,Myopathy,condition
+37116538,Injury of quadriceps muscle,Condition,SNOMED,standard,Myopathy_difference,myopathy,Myopathy,condition
+37116540,Laceration of quadriceps muscle,Condition,SNOMED,standard,Myopathy_difference,myopathy,Myopathy,condition
+37116571,Injury of sphincter pupillae muscle,Condition,SNOMED,standard,Myopathy_difference,myopathy,Myopathy,condition
+37116723,Adult-onset multiple mitochondrial deoxyribonucleic acid deletion syndrome due to deoxyguanosine kinase deficiency,Condition,SNOMED,standard,Myopathy_difference,myopathy,Myopathy,condition
+37117224,Strain of muscle at thorax level,Condition,SNOMED,standard,Myopathy_difference,myopathy,Myopathy,condition
+37117227,Laceration of muscle of abdomen,Condition,SNOMED,standard,Myopathy_difference,myopathy,Myopathy,condition
+37117230,Laceration of flexor muscle at forearm level,Condition,SNOMED,standard,Myopathy_difference,myopathy,Myopathy,condition
+37117231,Injury of extensor muscle of finger at forearm level,Condition,SNOMED,standard,Myopathy_difference,myopathy,Myopathy,condition
+37117235,Autosomal recessive limb girdle muscular dystrophy type 2J,Condition,SNOMED,standard,Myopathy_difference,myopathy,Myopathy,condition
+37118007,Strain of intrinsic muscle of thumb,Condition,SNOMED,standard,Myopathy_difference,myopathy,Myopathy,condition
+37118008,Strain of intrinsic muscle of finger,Condition,SNOMED,standard,Myopathy_difference,myopathy,Myopathy,condition
+37119055,Maternally inherited cardiomyopathy and hearing loss syndrome,Condition,SNOMED,standard,Myopathy_difference,myopathy,Myopathy,condition
+37119071,Hereditary hyperekplexia,Condition,SNOMED,standard,Myopathy_difference,myopathy,Myopathy,condition
+37119164,Laceration of muscle of thorax,Condition,SNOMED,standard,Myopathy_difference,myopathy,Myopathy,condition
+37119166,Injury of muscle at upper arm level,Condition,SNOMED,standard,Myopathy_difference,myopathy,Myopathy,condition
+37119167,Strain of muscle of long head of biceps brachii,Condition,SNOMED,standard,Myopathy_difference,myopathy,Myopathy,condition
+37119168,Laceration of biceps brachii,Condition,SNOMED,standard,Myopathy_difference,myopathy,Myopathy,condition
+37119245,Laceration of muscle of hip,Condition,SNOMED,standard,Myopathy_difference,myopathy,Myopathy,condition
+37203915,Muscle eye brain disease with bilateral multicystic leukodystrophy,Condition,SNOMED,standard,Myopathy_difference,myopathy,Myopathy,condition
+37204001,Congenital muscular dystrophy type 1A,Condition,SNOMED,standard,Myopathy_difference,myopathy,Myopathy,condition
+37204083,Congenital rhabdomyomatous mesenchymal hamartoma,Condition,SNOMED,standard,Myopathy_difference,myopathy,Myopathy,condition
+37204238,Congenital muscular dystrophy with intellectual disability and severe epilepsy,Condition,SNOMED,standard,Myopathy_difference,myopathy,Myopathy,condition
+37204405,DNA2-related mitochondrial DNA deletion syndrome,Condition,SNOMED,standard,Myopathy_difference,myopathy,Myopathy,condition
+37204504,Congenital muscular dystrophy with intellectual disability,Condition,SNOMED,standard,Myopathy_difference,myopathy,Myopathy,condition
+37204505,Congenital muscular dystrophy without intellectual disability,Condition,SNOMED,standard,Myopathy_difference,myopathy,Myopathy,condition
+37204506,Congenital muscular dystrophy with cerebellar involvement,Condition,SNOMED,standard,Myopathy_difference,myopathy,Myopathy,condition
+37204689,Autosomal recessive limb girdle muscular dystrophy type 2U,Condition,SNOMED,standard,Myopathy_difference,myopathy,Myopathy,condition
+37205074,X-linked scapuloperoneal muscular dystrophy,Condition,SNOMED,standard,Myopathy_difference,myopathy,Myopathy,condition
+37205083,Mitochondrial myopathy with reversible cytochrome C oxidase deficiency,Condition,SNOMED,standard,Myopathy_difference,myopathy,Myopathy,condition
+37205773,"Multiple congenital anomalies, hypotonia, seizures syndrome",Condition,SNOMED,standard,Myopathy_difference,myopathy,Myopathy,condition
+37206250,Contracture of muscle following injury,Condition,SNOMED,standard,Myopathy_difference,myopathy,Myopathy,condition
+37206611,Idiopathic detrusor overactivity,Condition,SNOMED,standard,Myopathy_difference,myopathy,Myopathy,condition
+37206826,Childhood-onset autosomal recessive myopathy with external ophthalmoplegia,Condition,SNOMED,standard,Myopathy_difference,myopathy,Myopathy,condition
+37207422,Mild muscle atrophy,Condition,SNOMED,standard,Myopathy_difference,myopathy,Myopathy,condition
+37207423,Moderate muscle atrophy,Condition,SNOMED,standard,Myopathy_difference,myopathy,Myopathy,condition
+37207424,Severe muscle atrophy,Condition,SNOMED,standard,Myopathy_difference,myopathy,Myopathy,condition
+37209303,Congenital deformity of left sternocleidomastoid muscle,Condition,SNOMED,standard,Myopathy_difference,myopathy,Myopathy,condition
+37209309,Congenital absence of left pectoral muscle,Condition,SNOMED,standard,Myopathy_difference,myopathy,Myopathy,condition
+37209310,Congenital absence of right pectoral muscle,Condition,SNOMED,standard,Myopathy_difference,myopathy,Myopathy,condition
+37309939,Injury of muscle of left lower leg,Condition,SNOMED,standard,Myopathy_difference,myopathy,Myopathy,condition
+37309940,Injury of muscle of right lower leg,Condition,SNOMED,standard,Myopathy_difference,myopathy,Myopathy,condition
+37309948,Injury of left peroneal muscle,Condition,SNOMED,standard,Myopathy_difference,myopathy,Myopathy,condition
+37309949,Injury of right peroneal muscle,Condition,SNOMED,standard,Myopathy_difference,myopathy,Myopathy,condition
+37309962,Injury of intrinsic muscle of left hand,Condition,SNOMED,standard,Myopathy_difference,myopathy,Myopathy,condition
+37309963,Injury of intrinsic muscle of right hand,Condition,SNOMED,standard,Myopathy_difference,myopathy,Myopathy,condition
+37309974,Laceration of muscle of left hand,Condition,SNOMED,standard,Myopathy_difference,myopathy,Myopathy,condition
+37309975,Laceration of muscle of right hand,Condition,SNOMED,standard,Myopathy_difference,myopathy,Myopathy,condition
+37309976,Injury of muscle of left thigh,Condition,SNOMED,standard,Myopathy_difference,myopathy,Myopathy,condition
+37309977,Injury of muscle of right thigh,Condition,SNOMED,standard,Myopathy_difference,myopathy,Myopathy,condition
+37310058,Laceration of right biceps brachii muscle,Condition,SNOMED,standard,Myopathy_difference,myopathy,Myopathy,condition
+37310059,Injury of muscle of left upper arm,Condition,SNOMED,standard,Myopathy_difference,myopathy,Myopathy,condition
+37310060,Injury of muscle of right upper arm,Condition,SNOMED,standard,Myopathy_difference,myopathy,Myopathy,condition
+37310065,Laceration of left biceps brachii muscle,Condition,SNOMED,standard,Myopathy_difference,myopathy,Myopathy,condition
+37310068,Laceration of muscle of right upper arm,Condition,SNOMED,standard,Myopathy_difference,myopathy,Myopathy,condition
+37310074,Laceration of muscle of left forearm,Condition,SNOMED,standard,Myopathy_difference,myopathy,Myopathy,condition
+37310075,Laceration of muscle of right forearm,Condition,SNOMED,standard,Myopathy_difference,myopathy,Myopathy,condition
+37310087,Laceration of muscle of left upper arm,Condition,SNOMED,standard,Myopathy_difference,myopathy,Myopathy,condition
+37311114,Autosomal recessive progressive external ophthalmoplegia,Condition,SNOMED,standard,Myopathy_difference,myopathy,Myopathy,condition
+37311116,Autosomal dominant progressive external ophthalmoplegia,Condition,SNOMED,standard,Myopathy_difference,myopathy,Myopathy,condition
+37312019,Diabetic cardiomyopathy,Condition,SNOMED,standard,Myopathy_difference,myopathy,Myopathy,condition
+37312596,Rheumatic cardiomyopathy,Condition,SNOMED,standard,Myopathy_difference,myopathy,Myopathy,condition
+37395781,Autosomal recessive limb girdle muscular dystrophy type 2D,Condition,SNOMED,standard,Myopathy_difference,myopathy,Myopathy,condition
+37395782,Autosomal recessive limb girdle muscular dystrophy type 2A,Condition,SNOMED,standard,Myopathy_difference,myopathy,Myopathy,condition
+37395841,Lethal congenital contracture syndrome type 2,Condition,SNOMED,standard,Myopathy_difference,myopathy,Myopathy,condition
+37395848,Congenital muscular dystrophy with infantile cataract and hypogonadism syndrome,Condition,SNOMED,standard,Myopathy_difference,myopathy,Myopathy,condition
+37395855,Familial partial lipodystrophy Dunnigan type,Condition,SNOMED,standard,Myopathy_difference,myopathy,Myopathy,condition
+37396000,Transthyretin related familial amyloid cardiomyopathy,Condition,SNOMED,standard,Myopathy_difference,myopathy,Myopathy,condition
+37396333,Hand muscle strain,Condition,SNOMED,standard,Myopathy_difference,myopathy,Myopathy,condition
+37396784,Genetic recurrent myoglobinuria,Condition,SNOMED,standard,Myopathy_difference,myopathy,Myopathy,condition
+37397521,Autosomal recessive limb girdle muscular dystrophy type 2F,Condition,SNOMED,standard,Myopathy_difference,myopathy,Myopathy,condition
+37397522,Autosomal dominant limb girdle muscular dystrophy type 1B,Condition,SNOMED,non-standard,Myopathy_difference,myopathy,Myopathy,condition
+37397523,Autosomal recessive limb girdle muscular dystrophy type 2B,Condition,SNOMED,standard,Myopathy_difference,myopathy,Myopathy,condition
+37397524,Autosomal recessive limb girdle muscular dystrophy type 2I,Condition,SNOMED,standard,Myopathy_difference,myopathy,Myopathy,condition
+37397548,TMEM70 related mitochondrial encephalo-cardio-myopathy,Condition,SNOMED,standard,Myopathy_difference,myopathy,Myopathy,condition
+37397550,Mitochondrial neurogastrointestinal encephalomyopathy syndrome,Condition,SNOMED,standard,Myopathy_difference,myopathy,Myopathy,condition
+37398931,Tropical endomyocardial fibrosis,Condition,SNOMED,standard,Myopathy_difference,myopathy,Myopathy,condition
+37399011,Autosomal dominant centronuclear myopathy,Condition,SNOMED,standard,Myopathy_difference,myopathy,Myopathy,condition
+37399401,Autosomal recessive limb girdle muscular dystrophy type 2C,Condition,SNOMED,standard,Myopathy_difference,myopathy,Myopathy,condition
+37399476,Familial isolated arrhythmogenic right ventricular dysplasia,Condition,SNOMED,standard,Myopathy_difference,myopathy,Myopathy,condition
+40479589,Takotsubo cardiomyopathy,Condition,SNOMED,standard,Myopathy_difference,myopathy,Myopathy,condition
+40480217,Atrophy of skeletal muscle of pelvis,Condition,SNOMED,standard,Myopathy_difference,myopathy,Myopathy,condition
+40481325,Strain of muscle and/or tendon of lower leg,Condition,SNOMED,standard,Myopathy_difference,myopathy,Myopathy,condition
+40481837,Strain of muscle of face,Condition,SNOMED,standard,Myopathy_difference,myopathy,Myopathy,condition
+40482209,Strain of muscle and/or tendon of elbow region,Condition,SNOMED,standard,Myopathy_difference,myopathy,Myopathy,condition
+40482683,Strain of muscle and/or tendon of forearm,Condition,SNOMED,non-standard,Myopathy_difference,myopathy,Myopathy,condition
+40483134,Strain of muscle and/or tendon of thigh,Condition,SNOMED,standard,Myopathy_difference,myopathy,Myopathy,condition
+40483296,Hypertrophic cardiomyopathy associated with another disorder,Condition,SNOMED,non-standard,Myopathy_difference,myopathy,Myopathy,condition
+40486607,Congenital posterolateral diaphragmatic hernia,Condition,SNOMED,standard,Myopathy_difference,myopathy,Myopathy,condition
+40486906,Strain of infraspinatus muscle,Condition,SNOMED,standard,Myopathy_difference,myopathy,Myopathy,condition
+40486907,Strain of supraspinatus muscle,Condition,SNOMED,standard,Myopathy_difference,myopathy,Myopathy,condition
+40487104,Right ventricular myocardial noncompaction cardiomyopathy,Condition,SNOMED,standard,Myopathy_difference,myopathy,Myopathy,condition
+40487105,Left ventricular myocardial noncompaction cardiomyopathy,Condition,SNOMED,standard,Myopathy_difference,myopathy,Myopathy,condition
+40487824,Traumatic injury of popliteus muscle,Condition,SNOMED,standard,Myopathy_difference,myopathy,Myopathy,condition
+40491902,Mitochondrial encephalomyopathy,Condition,SNOMED,standard,Myopathy_difference,myopathy,Myopathy,condition
+40625963,Ischiorectal hernia,Condition,SNOMED,standard,Myopathy_difference,myopathy,Myopathy,condition
+40769285,Cardiomyopathy [Reported],Observation,LOINC,standard,Myopathy_difference,myopathy,Myopathy,condition
+42535719,Injury of intrinsic muscle of thumb,Condition,SNOMED,standard,Myopathy_difference,myopathy,Myopathy,condition
+42535724,Laceration of adductor muscle of thigh,Condition,SNOMED,standard,Myopathy_difference,myopathy,Myopathy,condition
+42535726,Laceration of posterior muscle of thigh,Condition,SNOMED,standard,Myopathy_difference,myopathy,Myopathy,condition
+42535730,Strain of intrinsic muscle of foot,Condition,SNOMED,standard,Myopathy_difference,myopathy,Myopathy,condition
+42536831,Strain of quadriceps muscle,Condition,SNOMED,standard,Myopathy_difference,myopathy,Myopathy,condition
+42536886,Ischemia of muscle due to traumatic injury,Condition,SNOMED,standard,Myopathy_difference,myopathy,Myopathy,condition
+42537714,Injury of muscle of lower back,Condition,SNOMED,standard,Myopathy_difference,myopathy,Myopathy,condition
+42537715,Injury of muscle of pelvis,Condition,SNOMED,standard,Myopathy_difference,myopathy,Myopathy,condition
+42539044,Laceration of muscle of rotator cuff,Condition,SNOMED,standard,Myopathy_difference,myopathy,Myopathy,condition
+42539094,Injury of muscle of abdomen,Condition,SNOMED,standard,Myopathy_difference,myopathy,Myopathy,condition
+42539484,Strain of muscle of right posterior lower leg,Condition,SNOMED,standard,Myopathy_difference,myopathy,Myopathy,condition
+42539790,Injury of intrinsic muscle of foot,Condition,SNOMED,standard,Myopathy_difference,myopathy,Myopathy,condition
+42573031,NA,NA,NA,NA,Myopathy_difference,myopathy,Myopathy,condition
+42573032,NA,NA,NA,NA,Myopathy_difference,myopathy,Myopathy,condition
+42573033,NA,NA,NA,NA,Myopathy_difference,myopathy,Myopathy,condition
+42573212,NA,NA,NA,NA,Myopathy_difference,myopathy,Myopathy,condition
+42573213,NA,NA,NA,NA,Myopathy_difference,myopathy,Myopathy,condition
+42573214,NA,NA,NA,NA,Myopathy_difference,myopathy,Myopathy,condition
+42573220,NA,NA,NA,NA,Myopathy_difference,myopathy,Myopathy,condition
+42573350,NA,NA,NA,NA,Myopathy_difference,myopathy,Myopathy,condition
+42593431,NA,NA,NA,NA,Myopathy_difference,myopathy,Myopathy,condition
+42596095,NA,NA,NA,NA,Myopathy_difference,myopathy,Myopathy,condition
+42596187,NA,NA,NA,NA,Myopathy_difference,myopathy,Myopathy,condition
+42596272,NA,NA,NA,NA,Myopathy_difference,myopathy,Myopathy,condition
+42596310,NA,NA,NA,NA,Myopathy_difference,myopathy,Myopathy,condition
+42596312,NA,NA,NA,NA,Myopathy_difference,myopathy,Myopathy,condition
+42596359,NA,NA,NA,NA,Myopathy_difference,myopathy,Myopathy,condition
+42596381,NA,NA,NA,NA,Myopathy_difference,myopathy,Myopathy,condition
+42596400,NA,NA,NA,NA,Myopathy_difference,myopathy,Myopathy,condition
+42596448,NA,NA,NA,NA,Myopathy_difference,myopathy,Myopathy,condition
+42597039,NA,NA,NA,NA,Myopathy_difference,myopathy,Myopathy,condition
+42598715,NA,NA,NA,NA,Myopathy_difference,myopathy,Myopathy,condition
+42598803,NA,NA,NA,NA,Myopathy_difference,myopathy,Myopathy,condition
+42599291,NA,NA,NA,NA,Myopathy_difference,myopathy,Myopathy,condition
+42599292,NA,NA,NA,NA,Myopathy_difference,myopathy,Myopathy,condition
+42599293,NA,NA,NA,NA,Myopathy_difference,myopathy,Myopathy,condition
+42599761,NA,NA,NA,NA,Myopathy_difference,myopathy,Myopathy,condition
+42599794,NA,NA,NA,NA,Myopathy_difference,myopathy,Myopathy,condition
+42606060,NA,NA,NA,NA,Myopathy_difference,myopathy,Myopathy,condition
+42606061,NA,NA,NA,NA,Myopathy_difference,myopathy,Myopathy,condition
+42709935,Type 3a third degree laceration of perineum,Condition,SNOMED,standard,Myopathy_difference,myopathy,Myopathy,condition
+42709936,Type 3b third degree laceration of perineum,Condition,SNOMED,standard,Myopathy_difference,myopathy,Myopathy,condition
+42709937,Type 3c third degree laceration of perineum,Condition,SNOMED,standard,Myopathy_difference,myopathy,Myopathy,condition
+42869696,Kansas City Cardiomyopathy Questionnaire [KCCQ],Observation,LOINC,standard,Myopathy_difference,myopathy,Myopathy,condition
+42872390,Nonischemic congestive cardiomyopathy,Condition,SNOMED,standard,Myopathy_difference,myopathy,Myopathy,condition
+42873049,Strain of hamstring muscle,Condition,SNOMED,standard,Myopathy_difference,myopathy,Myopathy,condition
+43020652,Inflammatory cardiomyopathy,Condition,SNOMED,standard,Myopathy_difference,myopathy,Myopathy,condition
+43020654,Valvular cardiomyopathy,Condition,SNOMED,standard,Myopathy_difference,myopathy,Myopathy,condition
+43020656,Pacing-induced cardiomyopathy,Condition,SNOMED,standard,Myopathy_difference,myopathy,Myopathy,condition
+43020658,Hypertrophic cardiomyopathy with genetic marker,Condition,SNOMED,standard,Myopathy_difference,myopathy,Myopathy,condition
+43020659,Dilated cardiomyopathy with genetic marker,Condition,SNOMED,standard,Myopathy_difference,myopathy,Myopathy,condition
+43020660,Ischemic dilated cardiomyopathy due to coronary artery disease,Condition,SNOMED,standard,Myopathy_difference,myopathy,Myopathy,condition
+43020666,Mitochondrial cardiomyopathy,Condition,SNOMED,standard,Myopathy_difference,myopathy,Myopathy,condition
+43020667,Histiocytoid mitochondrial cardiomyopathy,Condition,SNOMED,standard,Myopathy_difference,myopathy,Myopathy,condition
+43020668,Hypertrophic mitochondrial cardiomyopathy associated with cataracts and lactic acidosis,Condition,SNOMED,standard,Myopathy_difference,myopathy,Myopathy,condition
+43020669,Fatal infantile mitochondrial cardiomyopathy,Condition,SNOMED,standard,Myopathy_difference,myopathy,Myopathy,condition
+43020781,Fetal cardiomyopathy,Condition,SNOMED,standard,Myopathy_difference,myopathy,Myopathy,condition
+43020782,Fetal hypertrophic cardiomyopathy,Condition,SNOMED,standard,Myopathy_difference,myopathy,Myopathy,condition
+43020783,Fetal hypertrophic cardiomyopathy due to twin to twin transfusion syndrome,Condition,SNOMED,standard,Myopathy_difference,myopathy,Myopathy,condition
+43020784,Fetal hypertrophic cardiomyopathy associated with renal disease,Condition,SNOMED,standard,Myopathy_difference,myopathy,Myopathy,condition
+43020785,Fetal dilated cardiomyopathy,Condition,SNOMED,standard,Myopathy_difference,myopathy,Myopathy,condition
+43021299,Histiocytoid mitochondrial cardiomyopathy due to cytochrome aa3 deficiency,Condition,SNOMED,standard,Myopathy_difference,myopathy,Myopathy,condition
+43021902,Cardiomyopathy due to neuromuscular disorder,Condition,SNOMED,standard,Myopathy_difference,myopathy,Myopathy,condition
+43021903,Ventricular myocardial noncompaction cardiomyopathy,Condition,SNOMED,standard,Myopathy_difference,myopathy,Myopathy,condition
+43021905,Hypertrophic mitochondrial cardiomyopathy,Condition,SNOMED,standard,Myopathy_difference,myopathy,Myopathy,condition
+43021906,Maternally inherited mitochondrial cardiomyopathy and myopathy,Condition,SNOMED,standard,Myopathy_difference,myopathy,Myopathy,condition
+44782428,Congestive heart failure due to cardiomyopathy,Condition,SNOMED,standard,Myopathy_difference,myopathy,Myopathy,condition
+44782849,Tibial muscular dystrophy,Condition,SNOMED,standard,Myopathy_difference,myopathy,Myopathy,condition
+44783374,Neoplasm of muscle of mastication,Condition,SNOMED,standard,Myopathy_difference,myopathy,Myopathy,condition
+44783568,Secondary nonischemic congestive cardiomyopathy,Condition,SNOMED,standard,Myopathy_difference,myopathy,Myopathy,condition
+44783947,Neoplasm of skeletal muscle,Condition,SNOMED,standard,Myopathy_difference,myopathy,Myopathy,condition
+44784145,Primary hypertrophic cardiomyopathy,Condition,SNOMED,standard,Myopathy_difference,myopathy,Myopathy,condition
+44788721,FH: Hypertrophic obstructive cardiomyopathy,Observation,SNOMED,standard,Myopathy_difference,myopathy,Myopathy,condition
+44806493,Injury of muscle of upper back,Condition,SNOMED,standard,Myopathy_difference,myopathy,Myopathy,condition
+44806512,Injury of muscle of hand,Condition,SNOMED,non-standard,Myopathy_difference,myopathy,Myopathy,condition
+44806514,Injury of muscle of thigh,Condition,SNOMED,non-standard,Myopathy_difference,myopathy,Myopathy,condition
+44806515,Injury of muscle of lower leg,Condition,SNOMED,non-standard,Myopathy_difference,myopathy,Myopathy,condition
+44806516,Injury of muscle of foot,Condition,SNOMED,standard,Myopathy_difference,myopathy,Myopathy,condition
+44807892,Amyloid cardiomyopathy,Condition,SNOMED,standard,Myopathy_difference,myopathy,Myopathy,condition
+45757557,Cardiomyopathy due to viral infection,Condition,SNOMED,standard,Myopathy_difference,myopathy,Myopathy,condition
+45763777,Congenital velopharyngeal dysfunction,Condition,SNOMED,standard,Myopathy_difference,myopathy,Myopathy,condition
+45765411,Early onset myopathy with fatal cardiomyopathy,Condition,SNOMED,standard,Myopathy_difference,myopathy,Myopathy,condition
+45765437,Hereditary myopathy with early respiratory failure,Condition,SNOMED,standard,Myopathy_difference,myopathy,Myopathy,condition
+45765443,Idiopathic inflammatory myopathy,Condition,SNOMED,standard,Myopathy_difference,myopathy,Myopathy,condition
+45765475,Dilated cardiomyopathy 3B,Condition,SNOMED,standard,Myopathy_difference,myopathy,Myopathy,condition
+45766167,Heart failure with reduced ejection fraction due to cardiomyopathy,Condition,SNOMED,standard,Myopathy_difference,myopathy,Myopathy,condition
+45766382,TK2-related mitochondrial deoxyribonucleic acid depletion syndrome myopathic form,Condition,SNOMED,standard,Myopathy_difference,myopathy,Myopathy,condition
+45766963,Fetal hypertrophic cardiomyopathy due to maternal diabetes mellitus,Condition,SNOMED,standard,Myopathy_difference,myopathy,Myopathy,condition
+45769863,Female perineal hernia,Condition,SNOMED,standard,Myopathy_difference,myopathy,Myopathy,condition
+45771323,Mitral valve regurgitation due to cardiomyopathy,Condition,SNOMED,standard,Myopathy_difference,myopathy,Myopathy,condition
+46269894,Cardiomyopathy due to diphtheria,Condition,SNOMED,standard,Myopathy_difference,myopathy,Myopathy,condition
+46270605,History of cardiomyopathy,Observation,SNOMED,non-standard,Myopathy_difference,myopathy,Myopathy,condition
+46273300,Spasmodic torticollis due to infection,Condition,SNOMED,standard,Myopathy_difference,myopathy,Myopathy,condition

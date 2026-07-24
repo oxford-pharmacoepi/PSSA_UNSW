@@ -1,3 +1,58 @@
-"cohort_name","cohort_label","cohort_domain","concept_id","include_descendants","concept_name","vocabulary_id","concept_code","review_status","phenotype_note"
-"genital_fungal_infection","Genital fungal infection","condition",4080452,TRUE,"Anogenital candidiasis","SNOMED","240707005","reviewed_seed","Anogenital candidiasis"
-"genital_fungal_infection","Genital fungal infection","condition",444106,TRUE,"Candidiasis of vulva","SNOMED","1085006","reviewed_seed","Vulval candidiasis"
+concept_id,concept_name,domain_id,vocabulary_id,standard_concept,condition,cohort_name,cohort_label,cohort_domain
+132553,Herpangina,Condition,SNOMED,standard,upper respiratory tract infection,genital_fungal_infection,Genital fungal infection,condition
+260427,Common cold,Condition,SNOMED,standard,upper respiratory tract infection,genital_fungal_infection,Genital fungal infection,condition
+380944,Adenoviral pharyngoconjunctivitis,Condition,SNOMED,standard,upper respiratory tract infection,genital_fungal_infection,Genital fungal infection,condition
+1077384,Acute nasopharyngitis caused by respiratory syncytial virus,Condition,SNOMED,standard,upper respiratory tract infection,genital_fungal_infection,Genital fungal infection,condition
+1077502,Acute upper respiratory infection caused by respiratory syncytial virus,Condition,SNOMED,standard,upper respiratory tract infection,genital_fungal_infection,Genital fungal infection,condition
+4030792,Parainfluenza virus laryngotracheitis,Condition,SNOMED,standard,upper respiratory tract infection,genital_fungal_infection,Genital fungal infection,condition
+4035987,Viral pharyngitis,Condition,SNOMED,standard,upper respiratory tract infection,genital_fungal_infection,Genital fungal infection,condition
+4048187,Acute herpes simplex pharyngitis,Condition,SNOMED,standard,upper respiratory tract infection,genital_fungal_infection,Genital fungal infection,condition
+4048188,Chronic pharyngeal candidiasis,Condition,SNOMED,standard,upper respiratory tract infection,genital_fungal_infection,Genital fungal infection,condition
+4049232,Acute herpes zoster pharyngitis,Condition,SNOMED,standard,upper respiratory tract infection,genital_fungal_infection,Genital fungal infection,condition
+4049243,Chronic fungal laryngitis,Condition,SNOMED,standard,upper respiratory tract infection,genital_fungal_infection,Genital fungal infection,condition
+4051492,Acute pharyngeal candidiasis,Condition,SNOMED,standard,upper respiratory tract infection,genital_fungal_infection,Genital fungal infection,condition
+4080451,Pharyngeal candidiasis,Condition,SNOMED,standard,upper respiratory tract infection,genital_fungal_infection,Genital fungal infection,condition
+4080749,Classical histoplasmosis nasal ulceration,Condition,SNOMED,standard,upper respiratory tract infection,genital_fungal_infection,Genital fungal infection,condition
+4080772,Lymphonodular coxsackie pharyngitis,Condition,SNOMED,standard,upper respiratory tract infection,genital_fungal_infection,Genital fungal infection,condition
+4085100,Viral upper respiratory tract infection,Condition,SNOMED,standard,upper respiratory tract infection,genital_fungal_infection,Genital fungal infection,condition
+4090099,Tonsillar aspergillosis,Condition,SNOMED,standard,upper respiratory tract infection,genital_fungal_infection,Genital fungal infection,condition
+4092983,Rhinocerebral mucormycosis,Condition,SNOMED,standard,upper respiratory tract infection,genital_fungal_infection,Genital fungal infection,condition
+4093292,Viral pharyngoconjunctivitis,Condition,SNOMED,standard,upper respiratory tract infection,genital_fungal_infection,Genital fungal infection,condition
+4110361,Acute viral tonsillitis,Condition,SNOMED,standard,upper respiratory tract infection,genital_fungal_infection,Genital fungal infection,condition
+4110479,Recurrent upper respiratory tract infection,Condition,SNOMED,standard,upper respiratory tract infection,genital_fungal_infection,Genital fungal infection,condition
+4110512,Influenza with pharyngitis,Condition,SNOMED,standard,upper respiratory tract infection,genital_fungal_infection,Genital fungal infection,condition
+4112343,Acute viral pharyngitis,Condition,SNOMED,standard,upper respiratory tract infection,genital_fungal_infection,Genital fungal infection,condition
+4112664,Influenza with laryngitis,Condition,SNOMED,standard,upper respiratory tract infection,genital_fungal_infection,Genital fungal infection,condition
+4146838,Parainfluenza virus laryngotracheobronchitis,Condition,SNOMED,standard,upper respiratory tract infection,genital_fungal_infection,Genital fungal infection,condition
+4150370,Respiratory syncytial virus pharyngitis,Condition,SNOMED,standard,upper respiratory tract infection,genital_fungal_infection,Genital fungal infection,condition
+4178772,Invasive fungal sinusitis,Condition,SNOMED,standard,upper respiratory tract infection,genital_fungal_infection,Genital fungal infection,condition
+4183609,Influenzal acute upper respiratory infection,Condition,SNOMED,standard,upper respiratory tract infection,genital_fungal_infection,Genital fungal infection,condition
+4193918,Parainfluenza virus pharyngitis,Condition,SNOMED,standard,upper respiratory tract infection,genital_fungal_infection,Genital fungal infection,condition
+4198240,Viral tonsillitis,Condition,SNOMED,standard,upper respiratory tract infection,genital_fungal_infection,Genital fungal infection,condition
+4200018,Acute viral laryngotracheitis,Condition,SNOMED,standard,upper respiratory tract infection,genital_fungal_infection,Genital fungal infection,condition
+4218289,Respiratory syncytial virus laryngotracheobronchitis,Condition,SNOMED,standard,upper respiratory tract infection,genital_fungal_infection,Genital fungal infection,condition
+4233054,Enteroviral lymphonodular pharyngitis,Condition,SNOMED,standard,upper respiratory tract infection,genital_fungal_infection,Genital fungal infection,condition
+4244268,Parainfluenza virus rhinopharyngitis,Condition,SNOMED,standard,upper respiratory tract infection,genital_fungal_infection,Genital fungal infection,condition
+4301754,Adenoviral pharyngitis,Condition,SNOMED,standard,upper respiratory tract infection,genital_fungal_infection,Genital fungal infection,condition
+4312196,Parainfluenza virus laryngitis,Condition,SNOMED,standard,upper respiratory tract infection,genital_fungal_infection,Genital fungal infection,condition
+4321233,Viral epiglottitis,Condition,SNOMED,standard,upper respiratory tract infection,genital_fungal_infection,Genital fungal infection,condition
+4322815,Adenoviral laryngotracheobronchitis,Condition,SNOMED,standard,upper respiratory tract infection,genital_fungal_infection,Genital fungal infection,condition
+4333885,Human papilloma virus infection of vocal cord,Condition,SNOMED,standard,upper respiratory tract infection,genital_fungal_infection,Genital fungal infection,condition
+36714339,Candidiasis of upper respiratory tract co-occurrent with human immunodeficiency virus infection,Condition,SNOMED,standard,upper respiratory tract infection,genital_fungal_infection,Genital fungal infection,condition
+36715818,Pharyngotonsillitis caused by Human herpes simplex virus,Condition,SNOMED,standard,upper respiratory tract infection,genital_fungal_infection,Genital fungal infection,condition
+37111252,Acute sinusitis caused by fungus,Condition,SNOMED,standard,upper respiratory tract infection,genital_fungal_infection,Genital fungal infection,condition
+37116455,Chronic aspergillosis of paranasal sinus,Condition,SNOMED,standard,upper respiratory tract infection,genital_fungal_infection,Genital fungal infection,condition
+37117932,Acute sinusitis caused by virus,Condition,SNOMED,standard,upper respiratory tract infection,genital_fungal_infection,Genital fungal infection,condition
+37160834,Fibrosis of upper respiratory tract due to paracoccidioidomycosis,Condition,SNOMED,standard,upper respiratory tract infection,genital_fungal_infection,Genital fungal infection,condition
+37168907,Candidiasis of oropharynx,Condition,SNOMED,standard,upper respiratory tract infection,genital_fungal_infection,Genital fungal infection,condition
+37310286,Infection of upper respiratory tract caused by SARS-CoV-2,Condition,SNOMED,standard,upper respiratory tract infection,genital_fungal_infection,Genital fungal infection,condition
+37395957,Candidiasis of nose,Condition,SNOMED,standard,upper respiratory tract infection,genital_fungal_infection,Genital fungal infection,condition
+37396171,Severe acute respiratory syndrome of upper respiratory tract,Condition,SNOMED,standard,upper respiratory tract infection,genital_fungal_infection,Genital fungal infection,condition
+37396756,Infection of upper respiratory tract caused by fungus,Condition,SNOMED,standard,upper respiratory tract infection,genital_fungal_infection,Genital fungal infection,condition
+40479600,Inflammation of larynx caused by virus,Condition,SNOMED,standard,upper respiratory tract infection,genital_fungal_infection,Genital fungal infection,condition
+40481087,Viral sinusitis,Condition,SNOMED,standard,upper respiratory tract infection,genital_fungal_infection,Genital fungal infection,condition
+42534820,Recurrent acute streptococcal tonsillitis,Condition,SNOMED,standard,upper respiratory tract infection,genital_fungal_infection,Genital fungal infection,condition
+45757067,Fungal sinusitis,Condition,SNOMED,standard,upper respiratory tract infection,genital_fungal_infection,Genital fungal infection,condition
+46270122,Upper respiratory tract infection caused by H1N1 influenza,Condition,SNOMED,standard,upper respiratory tract infection,genital_fungal_infection,Genital fungal infection,condition
+46270491,Upper respiratory tract infection caused by Influenza A,Condition,SNOMED,standard,upper respiratory tract infection,genital_fungal_infection,Genital fungal infection,condition
+46273463,Upper respiratory tract infection caused by Influenza virus,Condition,SNOMED,standard,upper respiratory tract infection,genital_fungal_infection,Genital fungal infection,condition

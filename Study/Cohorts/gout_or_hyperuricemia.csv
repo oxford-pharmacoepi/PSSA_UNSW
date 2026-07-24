@@ -1,3 +1,186 @@
-"cohort_name","cohort_label","cohort_domain","concept_id","include_descendants","concept_name","vocabulary_id","concept_code","review_status","phenotype_note"
-"gout_or_hyperuricemia","Gout or hyperuricaemia","condition",440674,TRUE,"Gout","SNOMED","90560007","reviewed_seed","Gout component"
-"gout_or_hyperuricemia","Gout or hyperuricaemia","condition",4147761,TRUE,"Hyperuricemia","SNOMED","35885006","reviewed_seed","Hyperuricaemia component"
+concept_id,concept_name,domain_id,vocabulary_id,standard_concept,condition,cohort_name,cohort_label,cohort_domain
+74892,Gouty arthritis,Condition,SNOMED,standard,gout,gout_or_hyperuricemia,Gout or hyperuricaemia,condition
+192276,Chronic gouty nephropathy,Condition,SNOMED,standard,gout,gout_or_hyperuricemia,Gout or hyperuricaemia,condition
+376955,Gouty tophus of pinna,Condition,SNOMED,standard,gout,gout_or_hyperuricemia,Gout or hyperuricaemia,condition
+440674,Gout,Condition,SNOMED,standard,gout,gout_or_hyperuricemia,Gout or hyperuricaemia,condition
+603005,Polyarticular acute primary gout,Condition,SNOMED,standard,gout,gout_or_hyperuricemia,Gout or hyperuricaemia,condition
+603006,Polyarticular chronic gout caused by lead,Condition,SNOMED,standard,gout,gout_or_hyperuricemia,Gout or hyperuricaemia,condition
+603008,Polyarticular acute gout caused by lead,Condition,SNOMED,standard,gout,gout_or_hyperuricemia,Gout or hyperuricaemia,condition
+606962,Gouty arthropathy due to double heterozygous sickling disorder,Condition,SNOMED,standard,gout,gout_or_hyperuricemia,Gout or hyperuricaemia,condition
+606968,Gouty arthropathy due to sickle-cell trait,Condition,SNOMED,standard,gout,gout_or_hyperuricemia,Gout or hyperuricaemia,condition
+607387,Polyarticular chronic primary gouty arthritis,Condition,SNOMED,standard,gout,gout_or_hyperuricemia,Gout or hyperuricaemia,condition
+607392,Acute lead-induced gout,Condition,SNOMED,standard,gout,gout_or_hyperuricemia,Gout or hyperuricaemia,condition
+607393,Acute drug-induced gout,Condition,SNOMED,standard,gout,gout_or_hyperuricemia,Gout or hyperuricaemia,condition
+607401,Monoarticular chronic primary gouty arthritis,Condition,SNOMED,standard,gout,gout_or_hyperuricemia,Gout or hyperuricaemia,condition
+607403,Monoarticular acute primary gout,Condition,SNOMED,standard,gout,gout_or_hyperuricemia,Gout or hyperuricaemia,condition
+607404,Monoarticular chronic gout caused by lead,Condition,SNOMED,standard,gout,gout_or_hyperuricemia,Gout or hyperuricaemia,condition
+607406,Monoarticular acute gout caused by lead,Condition,SNOMED,standard,gout,gout_or_hyperuricemia,Gout or hyperuricaemia,condition
+607431,Chronic gout caused by drug,Condition,SNOMED,standard,gout,gout_or_hyperuricemia,Gout or hyperuricaemia,condition
+607432,Chronic gout caused by lead,Condition,SNOMED,standard,gout,gout_or_hyperuricemia,Gout or hyperuricaemia,condition
+762219,Chronic tophaceous gout of right wrist due to renal impairment,Condition,SNOMED,standard,gout,gout_or_hyperuricemia,Gout or hyperuricaemia,condition
+1074844,Gouty bursitis of right shoulder,Condition,SNOMED,standard,gout,gout_or_hyperuricemia,Gout or hyperuricaemia,condition
+1074845,Gouty bursitis of left shoulder,Condition,SNOMED,standard,gout,gout_or_hyperuricemia,Gout or hyperuricaemia,condition
+1074846,Gouty bursitis of right knee,Condition,SNOMED,standard,gout,gout_or_hyperuricemia,Gout or hyperuricaemia,condition
+1074847,Gouty bursitis of left knee,Condition,SNOMED,standard,gout,gout_or_hyperuricemia,Gout or hyperuricaemia,condition
+1075850,Gouty bursitis of knee,Condition,SNOMED,standard,gout,gout_or_hyperuricemia,Gout or hyperuricaemia,condition
+1075935,Gouty arthritis of wrist,Condition,SNOMED,standard,gout,gout_or_hyperuricemia,Gout or hyperuricaemia,condition
+1075941,Gouty arthritis of left radiocarpal joint,Condition,SNOMED,standard,gout,gout_or_hyperuricemia,Gout or hyperuricaemia,condition
+1075942,Gouty arthritis of right radiocarpal joint,Condition,SNOMED,standard,gout,gout_or_hyperuricemia,Gout or hyperuricaemia,condition
+1075943,Gouty arthritis of radiocarpal joint,Condition,SNOMED,standard,gout,gout_or_hyperuricemia,Gout or hyperuricaemia,condition
+1076627,Gouty bursitis of bilateral olecranon,Condition,SNOMED,standard,gout,gout_or_hyperuricemia,Gout or hyperuricaemia,condition
+1076628,Gouty bursitis of bilateral shoulders,Condition,SNOMED,standard,gout,gout_or_hyperuricemia,Gout or hyperuricaemia,condition
+1076629,Gouty bursitis of bilateral knees,Condition,SNOMED,standard,gout,gout_or_hyperuricemia,Gout or hyperuricaemia,condition
+1076715,Gouty arthritis of bilateral wrist joints,Condition,SNOMED,standard,gout,gout_or_hyperuricemia,Gout or hyperuricaemia,condition
+1077408,Gouty bursitis of shoulder,Condition,SNOMED,standard,gout,gout_or_hyperuricemia,Gout or hyperuricaemia,condition
+1077409,Gouty bursitis of olecranon,Condition,SNOMED,standard,gout,gout_or_hyperuricemia,Gout or hyperuricaemia,condition
+1245766,Gouty arthritis of bilateral hands,Condition,SNOMED,standard,gout,gout_or_hyperuricemia,Gout or hyperuricaemia,condition
+1245836,Gouty arthritis of bilateral elbows,Condition,SNOMED,standard,gout,gout_or_hyperuricemia,Gout or hyperuricaemia,condition
+1340341,Exacerbation of gout,Condition,OMOP Extension,standard,gout,gout_or_hyperuricemia,Gout or hyperuricaemia,condition
+1449136,Gouty arthritis of elbow,Condition,SNOMED,standard,gout,gout_or_hyperuricemia,Gout or hyperuricaemia,condition
+1449137,Gouty arthritis of knee,Condition,SNOMED,standard,gout,gout_or_hyperuricemia,Gout or hyperuricaemia,condition
+4035436,Secondary gout,Condition,SNOMED,standard,gout,gout_or_hyperuricemia,Gout or hyperuricaemia,condition
+4035437,Gout secondary to renal impairment,Condition,SNOMED,standard,gout,gout_or_hyperuricemia,Gout or hyperuricaemia,condition
+4035438,Gout caused by lead,Condition,SNOMED,standard,gout,gout_or_hyperuricemia,Gout or hyperuricaemia,condition
+4035751,Gout secondary to drug,Condition,SNOMED,standard,gout,gout_or_hyperuricemia,Gout or hyperuricaemia,condition
+4035752,Gout secondary to enzyme defect,Condition,SNOMED,standard,gout,gout_or_hyperuricemia,Gout or hyperuricaemia,condition
+4046096,Aicardi Goutieres syndrome,Condition,SNOMED,standard,gout,gout_or_hyperuricemia,Gout or hyperuricaemia,condition
+4079745,Gouty bursitis,Condition,SNOMED,standard,gout,gout_or_hyperuricemia,Gout or hyperuricaemia,condition
+4083344,Gouty tophus of prepatellar bursa,Condition,SNOMED,standard,gout,gout_or_hyperuricemia,Gout or hyperuricaemia,condition
+4083688,Monosodium urate arthritis and periarthritis,Condition,SNOMED,standard,gout,gout_or_hyperuricemia,Gout or hyperuricaemia,condition
+4084229,Primary gout,Condition,SNOMED,standard,gout,gout_or_hyperuricemia,Gout or hyperuricaemia,condition
+4099013,Gouty tophus of heart,Condition,SNOMED,standard,gout,gout_or_hyperuricemia,Gout or hyperuricaemia,condition
+4099759,Gouty proteinuria,Condition,SNOMED,standard,gout,gout_or_hyperuricemia,Gout or hyperuricaemia,condition
+4101425,Chronic tophaceous gout of hand,Condition,SNOMED,standard,gout,gout_or_hyperuricemia,Gout or hyperuricaemia,condition
+4104957,Gouty tophus of bursa,Condition,SNOMED,standard,gout,gout_or_hyperuricemia,Gout or hyperuricaemia,condition
+4104958,Gouty tophus of tendon,Condition,SNOMED,standard,gout,gout_or_hyperuricemia,Gout or hyperuricaemia,condition
+4104959,Gouty tophus of olecranon bursa,Condition,SNOMED,standard,gout,gout_or_hyperuricemia,Gout or hyperuricaemia,condition
+4114911,Gouty arthritis of hand,Condition,SNOMED,standard,gout,gout_or_hyperuricemia,Gout or hyperuricaemia,condition
+4114912,Gouty arthritis of pelvic region and thigh,Condition,SNOMED,standard,gout,gout_or_hyperuricemia,Gout or hyperuricaemia,condition
+4116007,Gouty arthritis of shoulder region,Condition,SNOMED,standard,gout,gout_or_hyperuricemia,Gout or hyperuricaemia,condition
+4116008,Gouty arthritis of ankle and/or foot,Condition,SNOMED,standard,gout,gout_or_hyperuricemia,Gout or hyperuricaemia,condition
+4116009,Gouty arthritis of multiple sites,Condition,SNOMED,standard,gout,gout_or_hyperuricemia,Gout or hyperuricaemia,condition
+4125972,Saturnine nephropathy,Condition,SNOMED,standard,gout,gout_or_hyperuricemia,Gout or hyperuricaemia,condition
+4153103,Visceral gout,Condition,SNOMED,standard,gout,gout_or_hyperuricemia,Gout or hyperuricaemia,condition
+4154437,Intercritical gout,Condition,SNOMED,standard,gout,gout_or_hyperuricemia,Gout or hyperuricaemia,condition
+4177675,Gouty urine,Condition,SNOMED,standard,gout,gout_or_hyperuricemia,Gout or hyperuricaemia,condition
+4179065,Gouty arthritis of toe,Condition,SNOMED,standard,gout,gout_or_hyperuricemia,Gout or hyperuricaemia,condition
+4182267,Gouty iritis,Condition,SNOMED,standard,gout,gout_or_hyperuricemia,Gout or hyperuricaemia,condition
+4188214,Familial juvenile hyperuricemic nephropathy,Condition,SNOMED,standard,gout,gout_or_hyperuricemia,Gout or hyperuricaemia,condition
+4247334,Gouty neuritis,Condition,SNOMED,standard,gout,gout_or_hyperuricemia,Gout or hyperuricaemia,condition
+4250767,Chronic tophaceous gout,Condition,SNOMED,standard,gout,gout_or_hyperuricemia,Gout or hyperuricaemia,condition
+4281849,Gouty arthritis of great toe,Condition,SNOMED,standard,gout,gout_or_hyperuricemia,Gout or hyperuricaemia,condition
+4285308,Chronic gouty arthritis,Condition,SNOMED,standard,gout,gout_or_hyperuricemia,Gout or hyperuricaemia,condition
+4297662,Chronic tophaceous gout of digit,Condition,SNOMED,standard,gout,gout_or_hyperuricemia,Gout or hyperuricaemia,condition
+4299408,Gouty tophus,Condition,SNOMED,standard,gout,gout_or_hyperuricemia,Gout or hyperuricaemia,condition
+35615129,Bilateral chronic tophaceous gout of elbows,Condition,SNOMED,standard,gout,gout_or_hyperuricemia,Gout or hyperuricaemia,condition
+35615130,Bilateral chronic tophaceous gout of hands,Condition,SNOMED,standard,gout,gout_or_hyperuricemia,Gout or hyperuricaemia,condition
+36674930,Acute gout,Condition,SNOMED,standard,gout,gout_or_hyperuricemia,Gout or hyperuricaemia,condition
+36684526,Gouty arthritis of left ankle,Condition,SNOMED,standard,gout,gout_or_hyperuricemia,Gout or hyperuricaemia,condition
+36684527,Gouty arthritis of left elbow,Condition,SNOMED,standard,gout,gout_or_hyperuricemia,Gout or hyperuricaemia,condition
+36684528,Gouty arthritis of left hand,Condition,SNOMED,standard,gout,gout_or_hyperuricemia,Gout or hyperuricaemia,condition
+36684529,Gouty arthritis of left knee,Condition,SNOMED,standard,gout,gout_or_hyperuricemia,Gout or hyperuricaemia,condition
+36684530,Gouty arthritis of left wrist,Condition,SNOMED,standard,gout,gout_or_hyperuricemia,Gout or hyperuricaemia,condition
+36684531,Gouty arthritis of right ankle,Condition,SNOMED,standard,gout,gout_or_hyperuricemia,Gout or hyperuricaemia,condition
+36684532,Gouty arthritis of right elbow,Condition,SNOMED,standard,gout,gout_or_hyperuricemia,Gout or hyperuricaemia,condition
+36684533,Gouty arthritis of right hand,Condition,SNOMED,standard,gout,gout_or_hyperuricemia,Gout or hyperuricaemia,condition
+36684534,Gouty arthritis of right knee,Condition,SNOMED,standard,gout,gout_or_hyperuricemia,Gout or hyperuricaemia,condition
+36684535,Gouty arthritis of right wrist,Condition,SNOMED,standard,gout,gout_or_hyperuricemia,Gout or hyperuricaemia,condition
+36685026,Chronic tophaceous gout of right foot,Condition,SNOMED,standard,gout,gout_or_hyperuricemia,Gout or hyperuricaemia,condition
+36685027,Chronic tophaceous gout of left foot,Condition,SNOMED,standard,gout,gout_or_hyperuricemia,Gout or hyperuricaemia,condition
+36714445,Chronic tophaceous gout of toe,Condition,SNOMED,standard,gout,gout_or_hyperuricemia,Gout or hyperuricaemia,condition
+36715572,Chronic primary gouty arthritis,Condition,SNOMED,standard,gout,gout_or_hyperuricemia,Gout or hyperuricaemia,condition
+37108592,Gouty arthritis of right foot,Condition,SNOMED,standard,gout,gout_or_hyperuricemia,Gout or hyperuricaemia,condition
+37108593,Gouty arthritis of right great toe,Condition,SNOMED,standard,gout,gout_or_hyperuricemia,Gout or hyperuricaemia,condition
+37108594,Gouty arthritis of left great toe,Condition,SNOMED,standard,gout,gout_or_hyperuricemia,Gout or hyperuricaemia,condition
+37162233,Aicardi Goutieres syndrome type 1,Condition,SNOMED,standard,gout,gout_or_hyperuricemia,Gout or hyperuricaemia,condition
+37162234,Aicardi Goutieres syndrome type 2,Condition,SNOMED,standard,gout,gout_or_hyperuricemia,Gout or hyperuricaemia,condition
+37162235,Aicardi Goutieres syndrome type 3,Condition,SNOMED,standard,gout,gout_or_hyperuricemia,Gout or hyperuricaemia,condition
+37162236,Aicardi Goutieres syndrome type 4,Condition,SNOMED,standard,gout,gout_or_hyperuricemia,Gout or hyperuricaemia,condition
+37162237,Aicardi Goutieres syndrome type 5,Condition,SNOMED,standard,gout,gout_or_hyperuricemia,Gout or hyperuricaemia,condition
+37209406,Gouty tophus of left ear,Condition,SNOMED,standard,gout,gout_or_hyperuricemia,Gout or hyperuricaemia,condition
+37209407,Gouty tophus of bilateral ears,Condition,SNOMED,standard,gout,gout_or_hyperuricemia,Gout or hyperuricaemia,condition
+37209408,Gouty tophus of right ear,Condition,SNOMED,standard,gout,gout_or_hyperuricemia,Gout or hyperuricaemia,condition
+37209463,Gouty tophus of bilateral olecranon bursae,Condition,SNOMED,standard,gout,gout_or_hyperuricemia,Gout or hyperuricaemia,condition
+37394509,Gouty tophi of toe,Condition,SNOMED,standard,gout,gout_or_hyperuricemia,Gout or hyperuricaemia,condition
+42534842,Gouty bursitis of right olecranon,Condition,SNOMED,standard,gout,gout_or_hyperuricemia,Gout or hyperuricaemia,condition
+42534843,Gouty arthritis of left foot,Condition,SNOMED,standard,gout,gout_or_hyperuricemia,Gout or hyperuricaemia,condition
+42535120,Chronic tophaceous gout of right hand,Condition,SNOMED,standard,gout,gout_or_hyperuricemia,Gout or hyperuricaemia,condition
+42535121,Chronic tophaceous gout of left hand,Condition,SNOMED,standard,gout,gout_or_hyperuricemia,Gout or hyperuricaemia,condition
+42535127,Bilateral gouty arthritis of great toes,Condition,SNOMED,standard,gout,gout_or_hyperuricemia,Gout or hyperuricaemia,condition
+42535133,Gouty arthritis of bilateral feet,Condition,SNOMED,standard,gout,gout_or_hyperuricemia,Gout or hyperuricaemia,condition
+42535204,Chronic tophaceous gout of bilateral feet,Condition,SNOMED,standard,gout,gout_or_hyperuricemia,Gout or hyperuricaemia,condition
+42535205,Chronic tophaceous gout of left elbow,Condition,SNOMED,standard,gout,gout_or_hyperuricemia,Gout or hyperuricaemia,condition
+42539209,Chronic tophaceous gout of right elbow,Condition,SNOMED,standard,gout,gout_or_hyperuricemia,Gout or hyperuricaemia,condition
+42539261,Bilateral gouty arthritis of ankles,Condition,SNOMED,standard,gout,gout_or_hyperuricemia,Gout or hyperuricaemia,condition
+42539266,Gouty arthritis of bilateral knees,Condition,SNOMED,standard,gout,gout_or_hyperuricemia,Gout or hyperuricaemia,condition
+42539288,Gouty bursitis of left olecranon,Condition,SNOMED,standard,gout,gout_or_hyperuricemia,Gout or hyperuricaemia,condition
+44783578,Gouty arthritis of temporomandibular joint,Condition,SNOMED,standard,gout,gout_or_hyperuricemia,Gout or hyperuricaemia,condition
+46270412,Gout of shoulder due to renal impairment,Condition,SNOMED,standard,gout,gout_or_hyperuricemia,Gout or hyperuricaemia,condition
+46270413,Gout of wrist due to renal impairment,Condition,SNOMED,standard,gout,gout_or_hyperuricemia,Gout or hyperuricaemia,condition
+46270416,Chronic tophaceous gout of ankle due to renal impairment,Condition,SNOMED,standard,gout,gout_or_hyperuricemia,Gout or hyperuricaemia,condition
+46270417,Chronic gout of ankle without tophus due to renal impairment,Condition,SNOMED,standard,gout,gout_or_hyperuricemia,Gout or hyperuricaemia,condition
+46270418,Chronic tophaceous gout of elbow due to renal impairment,Condition,SNOMED,standard,gout,gout_or_hyperuricemia,Gout or hyperuricaemia,condition
+46270419,Chronic gout of elbow without tophus due to renal impairment,Condition,SNOMED,standard,gout,gout_or_hyperuricemia,Gout or hyperuricaemia,condition
+46270420,Chronic tophaceous gout of hand due to renal impairment,Condition,SNOMED,standard,gout,gout_or_hyperuricemia,Gout or hyperuricaemia,condition
+46270421,Chronic gout of hand without tophus due to renal impairment,Condition,SNOMED,standard,gout,gout_or_hyperuricemia,Gout or hyperuricaemia,condition
+46270422,Chronic tophaceous gout of hip due to renal impairment,Condition,SNOMED,standard,gout,gout_or_hyperuricemia,Gout or hyperuricaemia,condition
+46270423,Chronic gout of hip without tophus due to renal impairment,Condition,SNOMED,standard,gout,gout_or_hyperuricemia,Gout or hyperuricaemia,condition
+46270424,Chronic tophaceous gout of knee due to renal impairment,Condition,SNOMED,standard,gout,gout_or_hyperuricemia,Gout or hyperuricaemia,condition
+46270425,Chronic tophaceous gout of multiple sites due to renal impairment,Condition,SNOMED,standard,gout,gout_or_hyperuricemia,Gout or hyperuricaemia,condition
+46270426,Chronic gout of multiple sites without tophus due to renal impairment,Condition,SNOMED,standard,gout,gout_or_hyperuricemia,Gout or hyperuricaemia,condition
+46270427,Chronic gout of shoulder without tophus due to renal impairment,Condition,SNOMED,standard,gout,gout_or_hyperuricemia,Gout or hyperuricaemia,condition
+46270428,Chronic gout of vertebra without tophus due to renal impairment,Condition,SNOMED,standard,gout,gout_or_hyperuricemia,Gout or hyperuricaemia,condition
+46270429,Chronic tophaceous gout due to renal impairment,Condition,SNOMED,standard,gout,gout_or_hyperuricemia,Gout or hyperuricaemia,condition
+46270430,Chronic gout without tophus due to renal impairment,Condition,SNOMED,standard,gout,gout_or_hyperuricemia,Gout or hyperuricaemia,condition
+46270431,Chronic tophaceous gout of wrist due to renal impairment,Condition,SNOMED,standard,gout,gout_or_hyperuricemia,Gout or hyperuricaemia,condition
+46270432,Chronic gout of wrist without tophus due to renal impairment,Condition,SNOMED,standard,gout,gout_or_hyperuricemia,Gout or hyperuricaemia,condition
+46270435,Chronic tophaceous gout of ankle and/or foot caused by drug,Condition,SNOMED,standard,gout,gout_or_hyperuricemia,Gout or hyperuricaemia,condition
+46270436,Chronic tophaceous gout of elbow caused by drug,Condition,SNOMED,standard,gout,gout_or_hyperuricemia,Gout or hyperuricaemia,condition
+46270437,Chronic gout of elbow without tophus caused by drug,Condition,SNOMED,standard,gout,gout_or_hyperuricemia,Gout or hyperuricaemia,condition
+46270438,Chronic tophaceous gout of hand caused by drug,Condition,SNOMED,standard,gout,gout_or_hyperuricemia,Gout or hyperuricaemia,condition
+46270439,Chronic gout of hand without tophus caused by drug,Condition,SNOMED,standard,gout,gout_or_hyperuricemia,Gout or hyperuricaemia,condition
+46270440,Chronic tophaceous gout of hip caused by drug,Condition,SNOMED,standard,gout,gout_or_hyperuricemia,Gout or hyperuricaemia,condition
+46270441,Chronic gout of hip without tophus caused by drug,Condition,SNOMED,standard,gout,gout_or_hyperuricemia,Gout or hyperuricaemia,condition
+46270442,Chronic tophaceous gout of knee caused by drug,Condition,SNOMED,standard,gout,gout_or_hyperuricemia,Gout or hyperuricaemia,condition
+46270443,Chronic gout of knee without tophus caused by drug,Condition,SNOMED,standard,gout,gout_or_hyperuricemia,Gout or hyperuricaemia,condition
+46270444,Chronic tophaceous gout of multiple sites caused by drug,Condition,SNOMED,standard,gout,gout_or_hyperuricemia,Gout or hyperuricaemia,condition
+46270445,Chronic gout of multiple sites without tophus caused by drug,Condition,SNOMED,standard,gout,gout_or_hyperuricemia,Gout or hyperuricaemia,condition
+46270446,Chronic tophaceous gout of shoulder caused by drug,Condition,SNOMED,standard,gout,gout_or_hyperuricemia,Gout or hyperuricaemia,condition
+46270447,Chronic gout of shoulder without tophus caused by drug,Condition,SNOMED,standard,gout,gout_or_hyperuricemia,Gout or hyperuricaemia,condition
+46270448,Chronic tophaceous gout of vertebra caused by drug,Condition,SNOMED,standard,gout,gout_or_hyperuricemia,Gout or hyperuricaemia,condition
+46270449,Chronic gout of vertebra without tophus caused by drug,Condition,SNOMED,standard,gout,gout_or_hyperuricemia,Gout or hyperuricaemia,condition
+46270450,Chronic tophaceous gout caused by drug,Condition,SNOMED,standard,gout,gout_or_hyperuricemia,Gout or hyperuricaemia,condition
+46270451,Chronic gout without tophus caused by drug,Condition,SNOMED,standard,gout,gout_or_hyperuricemia,Gout or hyperuricaemia,condition
+46270452,Chronic tophaceous gout of wrist caused by drug,Condition,SNOMED,standard,gout,gout_or_hyperuricemia,Gout or hyperuricaemia,condition
+46270453,Gout of ankle and/or foot caused by drug,Condition,SNOMED,standard,gout,gout_or_hyperuricemia,Gout or hyperuricaemia,condition
+46270454,Gout of elbow caused by drug,Condition,SNOMED,standard,gout,gout_or_hyperuricemia,Gout or hyperuricaemia,condition
+46270455,Gout of hand caused by drug,Condition,SNOMED,standard,gout,gout_or_hyperuricemia,Gout or hyperuricaemia,condition
+46270456,Gout of hip caused by drug,Condition,SNOMED,standard,gout,gout_or_hyperuricemia,Gout or hyperuricaemia,condition
+46270457,Gout of knee caused by drug,Condition,SNOMED,standard,gout,gout_or_hyperuricemia,Gout or hyperuricaemia,condition
+46270458,Gout of multiple sites caused by drug,Condition,SNOMED,standard,gout,gout_or_hyperuricemia,Gout or hyperuricaemia,condition
+46270459,Gout of shoulder caused by drug,Condition,SNOMED,standard,gout,gout_or_hyperuricemia,Gout or hyperuricaemia,condition
+46270460,Gout of vertebra caused by drug,Condition,SNOMED,standard,gout,gout_or_hyperuricemia,Gout or hyperuricaemia,condition
+46270461,Gout of wrist caused by drug,Condition,SNOMED,standard,gout,gout_or_hyperuricemia,Gout or hyperuricaemia,condition
+46270464,Gout of elbow due to renal impairment,Condition,SNOMED,standard,gout,gout_or_hyperuricemia,Gout or hyperuricaemia,condition
+46270465,Gout of hand due to renal impairment,Condition,SNOMED,standard,gout,gout_or_hyperuricemia,Gout or hyperuricaemia,condition
+46270466,Gout of hip due to renal impairment,Condition,SNOMED,standard,gout,gout_or_hyperuricemia,Gout or hyperuricaemia,condition
+46270467,Gout of knee due to renal impairment,Condition,SNOMED,standard,gout,gout_or_hyperuricemia,Gout or hyperuricaemia,condition
+46270468,Gout of multiple sites due to renal impairment,Condition,SNOMED,standard,gout,gout_or_hyperuricemia,Gout or hyperuricaemia,condition
+46270470,Primary chronic gout without tophus of ankle and/or foot,Condition,SNOMED,standard,gout,gout_or_hyperuricemia,Gout or hyperuricaemia,condition
+46270471,Primary chronic gout without tophus of hand,Condition,SNOMED,standard,gout,gout_or_hyperuricemia,Gout or hyperuricaemia,condition
+46270472,Primary chronic gout without tophus of knee,Condition,SNOMED,standard,gout,gout_or_hyperuricemia,Gout or hyperuricaemia,condition
+46270473,Primary chronic gout without tophus of multiple sites,Condition,SNOMED,standard,gout,gout_or_hyperuricemia,Gout or hyperuricaemia,condition
+46270474,Primary chronic gout without tophus of vertebra,Condition,SNOMED,standard,gout,gout_or_hyperuricemia,Gout or hyperuricaemia,condition
+46270475,Primary chronic gout without tophus of wrist,Condition,SNOMED,standard,gout,gout_or_hyperuricemia,Gout or hyperuricaemia,condition
+46272380,Chronic gout without tophus,Condition,SNOMED,standard,gout,gout_or_hyperuricemia,Gout or hyperuricaemia,condition
+46272381,Secondary chronic gout without tophus,Condition,SNOMED,standard,gout,gout_or_hyperuricemia,Gout or hyperuricaemia,condition
+46273507,Chronic tophaceous gout of shoulder due to renal impairment,Condition,SNOMED,standard,gout,gout_or_hyperuricemia,Gout or hyperuricaemia,condition
+46273508,Chronic tophaceous gout of vertebra due to renal impairment,Condition,SNOMED,standard,gout,gout_or_hyperuricemia,Gout or hyperuricaemia,condition
+46273523,Primary chronic gout without tophus of shoulder,Condition,SNOMED,standard,gout,gout_or_hyperuricemia,Gout or hyperuricaemia,condition
+46273541,Gout of vertebra due to renal impairment,Condition,SNOMED,standard,gout,gout_or_hyperuricemia,Gout or hyperuricaemia,condition
+46273638,Primary chronic gout without tophus of elbow,Condition,SNOMED,standard,gout,gout_or_hyperuricemia,Gout or hyperuricaemia,condition
+46273639,Primary chronic gout without tophus of hip,Condition,SNOMED,standard,gout,gout_or_hyperuricemia,Gout or hyperuricaemia,condition
+46273641,Primary chronic gout without tophus,Condition,SNOMED,standard,gout,gout_or_hyperuricemia,Gout or hyperuricaemia,condition
+46273648,Chronic gout of knee without tophus due to renal impairment,Condition,SNOMED,standard,gout,gout_or_hyperuricemia,Gout or hyperuricaemia,condition
+46273653,Chronic gout of ankle and/or foot without tophus caused by drug,Condition,SNOMED,standard,gout,gout_or_hyperuricemia,Gout or hyperuricaemia,condition
+46273655,Chronic gout of wrist without tophus caused by drug,Condition,SNOMED,standard,gout,gout_or_hyperuricemia,Gout or hyperuricaemia,condition

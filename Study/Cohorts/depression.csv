@@ -1,2 +1,165 @@
-"cohort_name","cohort_label","cohort_domain","concept_id","include_descendants","concept_name","vocabulary_id","concept_code","review_status","phenotype_note"
-"depression","Depression","condition",440383,TRUE,"Depressive disorder","SNOMED","35489007","reviewed_seed","Standard SNOMED disorder"
+concept_id,concept_name,domain_id,vocabulary_id,standard_concept,condition,cohort_name,cohort_label,cohort_domain
+374326,Arteriosclerotic dementia with depression,Condition,SNOMED,standard,codelist_depression,depression,Depression,condition
+377527,Presenile dementia with depression,Condition,SNOMED,standard,codelist_depression,depression,Depression,condition
+379784,Senile dementia with depression,Condition,SNOMED,standard,codelist_depression,depression,Depression,condition
+432285,Recurrent major depressive episodes,Condition,SNOMED,standard,codelist_depression,depression,Depression,condition
+432883,"Recurrent major depressive episodes, moderate",Condition,SNOMED,standard,codelist_depression,depression,Depression,condition
+433991,Recurrent major depression in remission,Condition,SNOMED,standard,codelist_depression,depression,Depression,condition
+434911,"Recurrent major depressive episodes, severe, with psychosis",Condition,SNOMED,standard,codelist_depression,depression,Depression,condition
+435220,Severe recurrent major depression without psychotic features,Condition,SNOMED,standard,codelist_depression,depression,Depression,condition
+438406,"Severe major depression, single episode, with psychotic features",Condition,SNOMED,standard,codelist_depression,depression,Depression,condition
+438727,Atypical depressive disorder,Condition,SNOMED,standard,codelist_depression,depression,Depression,condition
+438998,"Recurrent major depressive episodes, mild",Condition,SNOMED,standard,codelist_depression,depression,Depression,condition
+439259,"Single major depressive episode, severe, with psychosis",Condition,SNOMED,standard,codelist_depression,depression,Depression,condition
+440383,Depressive disorder,Condition,SNOMED,standard,codelist_depression,depression,Depression,condition
+441534,"Severe major depression, single episode, without psychotic features",Condition,SNOMED,standard,codelist_depression,depression,Depression,condition
+443864,Multi-infarct dementia with depression,Condition,SNOMED,standard,codelist_depression,depression,Depression,condition
+607540,Treatment resistant depression,Condition,SNOMED,standard,codelist_depression,depression,Depression,condition
+607543,Persistent depressive disorder,Condition,SNOMED,standard,codelist_depression,depression,Depression,condition
+762508,Maternal postpartum depression care,Observation,SNOMED,standard,codelist_depression,depression,Depression,condition
+762860,Documentation of depression medication action plan,Observation,SNOMED,standard,codelist_depression,depression,Depression,condition
+1260110,Symptomatic depression,Observation,LOINC,standard,codelist_depression,depression,Depression,condition
+1340305,Exacerbation of depressive disorder,Condition,OMOP Extension,standard,codelist_depression,depression,Depression,condition
+1340392,Exacerbation of major depressive disorder,Condition,OMOP Extension,standard,codelist_depression,depression,Depression,condition
+2106304,"Major depressive disorder, mild (MDD)",Observation,CPT4,non-standard,codelist_depression,depression,Depression,condition
+2106305,"Major depressive disorder, moderate (MDD)",Observation,CPT4,non-standard,codelist_depression,depression,Depression,condition
+2106310,"Major depressive disorder, severe without psychotic features (MDD)",Observation,CPT4,non-standard,codelist_depression,depression,Depression,condition
+2106322,"Major depressive disorder, severe with psychotic features (MDD)",Observation,CPT4,non-standard,codelist_depression,depression,Depression,condition
+2106326,Documentation of new diagnosis of initial or recurrent episode of major depressive disorder (MDD),Observation,CPT4,standard,codelist_depression,depression,Depression,condition
+2107245,Mild to moderate depressive symptoms as categorized by using a standardized depression screening/assessment tool (MDD),Observation,CPT4,standard,codelist_depression,depression,Depression,condition
+3656234,Depressive episode,Observation,SNOMED,standard,codelist_depression,depression,Depression,condition
+4019705,"Primary degenerative dementia of the Alzheimer type, presenile onset, with depression",Condition,SNOMED,standard,codelist_depression,depression,Depression,condition
+4025677,Single episode of major depression in full remission,Condition,SNOMED,standard,codelist_depression,depression,Depression,condition
+4029451,Pseudo-Cushing's syndrome of depression,Condition,SNOMED,standard,codelist_depression,depression,Depression,condition
+4031328,"Chronic major depressive disorder, single episode",Condition,SNOMED,standard,codelist_depression,depression,Depression,condition
+4034842,"Severe recurrent major depression with psychotic features, mood-incongruent",Condition,SNOMED,standard,codelist_depression,depression,Depression,condition
+4049623,"Moderate major depression, single episode",Condition,SNOMED,standard,codelist_depression,depression,Depression,condition
+4057218,Late onset dysthymia,Condition,SNOMED,standard,codelist_depression,depression,Depression,condition
+4067409,"Severe major depression, single episode, with psychotic features, mood-incongruent",Condition,SNOMED,standard,codelist_depression,depression,Depression,condition
+4077577,Moderate recurrent major depression,Condition,SNOMED,standard,codelist_depression,depression,Depression,condition
+4085661,Depression worse later in day,Observation,SNOMED,standard,codelist_depression,depression,Depression,condition
+4092238,Depression worse in morning,Observation,SNOMED,standard,codelist_depression,depression,Depression,condition
+4092239,Seasonal affective disorder,Condition,SNOMED,standard,codelist_depression,depression,Depression,condition
+4093584,"Major depressive disorder, single episode with postpartum onset",Condition,SNOMED,standard,codelist_depression,depression,Depression,condition
+4094358,Chronic recurrent major depressive disorder,Condition,SNOMED,standard,codelist_depression,depression,Depression,condition
+4097384,"Primary degenerative dementia of the Alzheimer type, senile onset, with depression",Condition,SNOMED,standard,codelist_depression,depression,Depression,condition
+4098302,Recurrent depression,Condition,SNOMED,standard,codelist_depression,depression,Depression,condition
+4102973,Postviral depression,Condition,SNOMED,standard,codelist_depression,depression,Depression,condition
+4103574,Chronic depression,Condition,SNOMED,standard,codelist_depression,depression,Depression,condition
+4114950,Endogenous depression,Condition,SNOMED,standard,codelist_depression,depression,Depression,condition
+4129184,Severe postnatal depression,Condition,SNOMED,standard,codelist_depression,depression,Depression,condition
+4129842,Mild postnatal depression,Condition,SNOMED,standard,codelist_depression,depression,Depression,condition
+4131545,Depression requiring intervention,Condition,SNOMED,standard,codelist_depression,depression,Depression,condition
+4141292,"Severe recurrent major depression with psychotic features, mood-congruent",Condition,SNOMED,standard,codelist_depression,depression,Depression,condition
+4141454,Recurrent major depression in partial remission,Condition,SNOMED,standard,codelist_depression,depression,Depression,condition
+4144233,"Severe major depression with psychotic features, mood-congruent",Condition,SNOMED,standard,codelist_depression,depression,Depression,condition
+4148630,Major depression in partial remission,Condition,SNOMED,standard,codelist_depression,depression,Depression,condition
+4149320,Mild depression,Condition,SNOMED,standard,codelist_depression,depression,Depression,condition
+4149321,Severe depression,Condition,SNOMED,standard,codelist_depression,depression,Depression,condition
+4150047,Secondary dysthymia early onset,Condition,SNOMED,standard,codelist_depression,depression,Depression,condition
+4151170,Moderate depression,Condition,SNOMED,standard,codelist_depression,depression,Depression,condition
+4152280,Major depressive disorder,Condition,SNOMED,standard,codelist_depression,depression,Depression,condition
+4154309,Severe recurrent major depression with psychotic features,Condition,SNOMED,standard,codelist_depression,depression,Depression,condition
+4154391,"Major depression, melancholic type",Condition,SNOMED,standard,codelist_depression,depression,Depression,condition
+4154805,Involutional depression,Condition,SNOMED,standard,codelist_depression,depression,Depression,condition
+4168858,Endogenous depression - recurrent,Condition,SNOMED,standard,codelist_depression,depression,Depression,condition
+4174987,Minor depressive disorder,Condition,SNOMED,standard,codelist_depression,depression,Depression,condition
+4176002,Major depression in remission,Condition,SNOMED,standard,codelist_depression,depression,Depression,condition
+4181807,"Major depressive disorder, single episode with atypical features",Condition,SNOMED,standard,codelist_depression,depression,Depression,condition
+4189143,Depression annual review,Observation,SNOMED,standard,codelist_depression,depression,Depression,condition
+4195572,"Mild major depression, single episode",Condition,SNOMED,standard,codelist_depression,depression,Depression,condition
+4195680,Primary dysthymia late onset,Condition,SNOMED,standard,codelist_depression,depression,Depression,condition
+4197222,Stuporous depression,Condition,SNOMED,standard,codelist_depression,depression,Depression,condition
+4205471,Recurrent major depressive disorder with melancholic features,Condition,SNOMED,standard,codelist_depression,depression,Depression,condition
+4220023,Recurrent major depressive disorder with catatonic features,Condition,SNOMED,standard,codelist_depression,depression,Depression,condition
+4223090,Menopausal depression,Condition,SNOMED,standard,codelist_depression,depression,Depression,condition
+4224639,Secondary dysthymia,Condition,SNOMED,standard,codelist_depression,depression,Depression,condition
+4226155,Recurrent brief depressive disorder,Condition,SNOMED,standard,codelist_depression,depression,Depression,condition
+4228802,Mild recurrent major depression,Condition,SNOMED,standard,codelist_depression,depression,Depression,condition
+4239471,Postpartum depression,Condition,SNOMED,standard,codelist_depression,depression,Depression,condition
+4243308,Primary dysthymia early onset,Condition,SNOMED,standard,codelist_depression,depression,Depression,condition
+4243822,"Severe major depression with psychotic features, mood-incongruent",Condition,SNOMED,standard,codelist_depression,depression,Depression,condition
+4250023,Severe major depression with psychotic features,Condition,SNOMED,standard,codelist_depression,depression,Depression,condition
+4263748,Recurrent major depression in full remission,Condition,SNOMED,standard,codelist_depression,depression,Depression,condition
+4263770,Secondary dysthymia late onset,Condition,SNOMED,standard,codelist_depression,depression,Depression,condition
+4269493,Major depression in full remission,Condition,SNOMED,standard,codelist_depression,depression,Depression,condition
+4270907,"Major depressive disorder, single episode with melancholic features",Condition,SNOMED,standard,codelist_depression,depression,Depression,condition
+4282096,"Major depression, single episode",Condition,SNOMED,standard,codelist_depression,depression,Depression,condition
+4282316,Recurrent major depression,Condition,SNOMED,standard,codelist_depression,depression,Depression,condition
+4287238,"Major depressive disorder, single episode with catatonic features",Condition,SNOMED,standard,codelist_depression,depression,Depression,condition
+4299785,"Severe major depression, single episode, with psychotic features, mood-congruent",Condition,SNOMED,standard,codelist_depression,depression,Depression,condition
+4304140,Recurrent major depressive disorder with atypical features,Condition,SNOMED,standard,codelist_depression,depression,Depression,condition
+4305966,Postoperative depression,Condition,SNOMED,standard,codelist_depression,depression,Depression,condition
+4307111,Moderate major depression,Condition,SNOMED,standard,codelist_depression,depression,Depression,condition
+4307951,Primary dysthymia,Condition,SNOMED,standard,codelist_depression,depression,Depression,condition
+4308866,Agitated depression,Condition,SNOMED,standard,codelist_depression,depression,Depression,condition
+4314692,Reactive depression (situational),Condition,SNOMED,standard,codelist_depression,depression,Depression,condition
+4323418,"Major depression single episode, in partial remission",Condition,SNOMED,standard,codelist_depression,depression,Depression,condition
+4324959,Recurrent major depressive disorder with postpartum onset,Condition,SNOMED,standard,codelist_depression,depression,Depression,condition
+4327337,Severe major depression without psychotic features,Condition,SNOMED,standard,codelist_depression,depression,Depression,condition
+4332994,Post-schizophrenic depression,Condition,SNOMED,standard,codelist_depression,depression,Depression,condition
+4333679,Endogenous depression first episode,Condition,SNOMED,standard,codelist_depression,depression,Depression,condition
+4336957,Mild major depression,Condition,SNOMED,standard,codelist_depression,depression,Depression,condition
+4338029,Masked depression,Condition,SNOMED,standard,codelist_depression,depression,Depression,condition
+4338031,Mixed anxiety and depressive disorder,Condition,SNOMED,standard,codelist_depression,depression,Depression,condition
+35608073,Antidepressant drug treatment started,Observation,SNOMED,standard,codelist_depression,depression,Depression,condition
+35609530,Depression monitoring invitation email,Observation,SNOMED,standard,codelist_depression,depression,Depression,condition
+35609532,Depression monitoring invitation SMS (short message service) text message,Observation,SNOMED,standard,codelist_depression,depression,Depression,condition
+35609824,"Recurrent reactive depressive episodes, severe, with psychosis",Condition,SNOMED,standard,codelist_depression,depression,Depression,condition
+35609842,"Reactive depression, prolonged single episode",Condition,SNOMED,standard,codelist_depression,depression,Depression,condition
+35609843,"Reactive depression, single episode",Condition,SNOMED,standard,codelist_depression,depression,Depression,condition
+35609844,"Reactive depression, recurrent",Condition,SNOMED,standard,codelist_depression,depression,Depression,condition
+35609845,"Reactive depression, first episode",Condition,SNOMED,standard,codelist_depression,depression,Depression,condition
+35610097,Recurrent depression with current severe episode and psychotic features,Condition,SNOMED,standard,codelist_depression,depression,Depression,condition
+35610108,Recurrent depression with current severe episode without psychotic features,Condition,SNOMED,standard,codelist_depression,depression,Depression,condition
+35610109,Recurrent depression with current moderate episode,Condition,SNOMED,standard,codelist_depression,depression,Depression,condition
+35615151,Recurrent mild major depressive disorder co-occurrent with anxiety,Condition,SNOMED,standard,codelist_depression,depression,Depression,condition
+35615152,Recurrent severe major depressive disorder co-occurrent with anxiety,Condition,SNOMED,standard,codelist_depression,depression,Depression,condition
+35615153,Recurrent moderate major depressive disorder co-occurrent with anxiety,Condition,SNOMED,standard,codelist_depression,depression,Depression,condition
+35615154,Recurrent major depressive disorder co-occurrent with anxiety in full remission,Condition,SNOMED,standard,codelist_depression,depression,Depression,condition
+35615155,Recurrent major depressive disorder in partial remission co-occurrent with anxiety,Condition,SNOMED,standard,codelist_depression,depression,Depression,condition
+36712668,Perinatal depression,Condition,SNOMED,standard,codelist_depression,depression,Depression,condition
+36713698,Minimal depression,Condition,SNOMED,standard,codelist_depression,depression,Depression,condition
+36714389,Moderately severe major depression,Condition,SNOMED,standard,codelist_depression,depression,Depression,condition
+36714997,Minimal recurrent major depression,Condition,SNOMED,standard,codelist_depression,depression,Depression,condition
+36714998,Moderately severe recurrent major depression,Condition,SNOMED,standard,codelist_depression,depression,Depression,condition
+36714999,Minimal major depression single episode,Condition,SNOMED,standard,codelist_depression,depression,Depression,condition
+36715000,Minimal major depression,Condition,SNOMED,standard,codelist_depression,depression,Depression,condition
+36717092,Moderately severe depression,Condition,SNOMED,standard,codelist_depression,depression,Depression,condition
+36717389,Moderately severe major depression single episode,Condition,SNOMED,standard,codelist_depression,depression,Depression,condition
+37016718,Acute depression,Condition,SNOMED,standard,codelist_depression,depression,Depression,condition
+37018656,Depressive disorder in mother complicating pregnancy,Condition,SNOMED,standard,codelist_depression,depression,Depression,condition
+37109052,Mild major depressive disorder co-occurrent with anxiety single episode,Condition,SNOMED,standard,codelist_depression,depression,Depression,condition
+37109053,Moderate major depressive disorder co-occurrent with anxiety single episode,Condition,SNOMED,standard,codelist_depression,depression,Depression,condition
+37109054,Severe major depressive disorder co-occurrent with anxiety single episode,Condition,SNOMED,standard,codelist_depression,depression,Depression,condition
+37111697,Major depression with psychotic features,Condition,SNOMED,standard,codelist_depression,depression,Depression,condition
+37166876,Postmenopausal depression,Condition,SNOMED,standard,codelist_depression,depression,Depression,condition
+37394744,Maternal postnatal depression,Observation,SNOMED,standard,codelist_depression,depression,Depression,condition
+40756912,"Plan for follow-up care for major depressive disorder, documented (MDD ADOL)",Observation,CPT4,standard,codelist_depression,depression,Depression,condition
+40760391,Plan of care includes depression intervention during assessment period [CMS Assessment],Observation,LOINC,standard,codelist_depression,depression,Depression,condition
+42534817,Postpartum major depression in remission,Condition,SNOMED,standard,codelist_depression,depression,Depression,condition
+42872411,"Severe major depression, single episode",Condition,SNOMED,standard,codelist_depression,depression,Depression,condition
+42872722,Severe major depression,Condition,SNOMED,standard,codelist_depression,depression,Depression,condition
+43531624,Severe recurrent major depression,Condition,SNOMED,standard,codelist_depression,depression,Depression,condition
+44782720,Severe seasonal affective disorder,Condition,SNOMED,standard,codelist_depression,depression,Depression,condition
+44782943,Depressive disorder in remission,Condition,SNOMED,standard,codelist_depression,depression,Depression,condition
+44784328,Antidepressant drug treatment stopped,Observation,SNOMED,standard,codelist_depression,depression,Depression,condition
+44788804,Depression resolved,Observation,SNOMED,standard,codelist_depression,depression,Depression,condition
+44792460,On full dose long term treatment for depression,Observation,SNOMED,standard,codelist_depression,depression,Depression,condition
+44803723,Depression monitoring telephone invitation,Observation,SNOMED,standard,codelist_depression,depression,Depression,condition
+44803782,Depression monitoring second letter,Observation,SNOMED,standard,codelist_depression,depression,Depression,condition
+44803840,Depression monitoring third letter,Observation,SNOMED,standard,codelist_depression,depression,Depression,condition
+44803862,Depression monitoring first letter,Observation,SNOMED,standard,codelist_depression,depression,Depression,condition
+44803866,Depression monitoring verbal invitation,Observation,SNOMED,standard,codelist_depression,depression,Depression,condition
+44804340,Depression monitoring invitation,Observation,SNOMED,standard,codelist_depression,depression,Depression,condition
+44805542,"Recurrent major depressive episodes, severe",Condition,SNOMED,standard,codelist_depression,depression,Depression,condition
+44805549,"Recurrent major depressive episodes, in partial remission",Condition,SNOMED,standard,codelist_depression,depression,Depression,condition
+44805550,"Single major depressive episode, in remission",Condition,SNOMED,standard,codelist_depression,depression,Depression,condition
+44805668,"Single major depressive episode, severe, with psychosis, psychosis in remission",Condition,SNOMED,standard,codelist_depression,depression,Depression,condition
+44805669,"Recurrent major depressive episodes, severe, with psychosis, psychosis in remission",Condition,SNOMED,standard,codelist_depression,depression,Depression,condition
+44806919,Antidepressant drug treatment changed,Observation,SNOMED,standard,codelist_depression,depression,Depression,condition
+44811293,Did not attend depression review,Observation,SNOMED,standard,codelist_depression,depression,Depression,condition
+44813499,"Recurrent major depressive episodes, in remission",Condition,SNOMED,standard,codelist_depression,depression,Depression,condition
+45757195,Major depressive disorder in mother complicating childbirth,Condition,SNOMED,standard,codelist_depression,depression,Depression,condition
+45757196,Major depressive disorder in mother complicating pregnancy,Condition,SNOMED,standard,codelist_depression,depression,Depression,condition
+45757213,Depressive disorder in mother complicating childbirth,Condition,SNOMED,standard,codelist_depression,depression,Depression,condition

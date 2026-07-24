@@ -1,2 +1,37 @@
-"cohort_name","cohort_label","cohort_domain","concept_id","include_descendants","concept_name","vocabulary_id","concept_code","review_status","phenotype_note"
-"appendicitis","Appendicitis","condition",440448,TRUE,"Appendicitis","SNOMED","74400008","reviewed_seed","Standard SNOMED condition"
+concept_id,concept_name,domain_id,vocabulary_id,standard_concept,condition,cohort_name,cohort_label,cohort_domain
+193238,Acute appendicitis with peritoneal abscess,Condition,SNOMED,standard,Appendicitis,appendicitis,Appendicitis,condition
+196149,Acute appendicitis with generalized peritonitis,Condition,SNOMED,standard,Appendicitis,appendicitis,Appendicitis,condition
+440448,Appendicitis,Condition,SNOMED,standard,Appendicitis,appendicitis,Appendicitis,condition
+441604,Acute appendicitis without peritonitis,Condition,SNOMED,standard,Appendicitis,appendicitis,Appendicitis,condition
+606479,Gangrenous appendicitis,Condition,SNOMED,standard,Appendicitis,appendicitis,Appendicitis,condition
+4048056,Healed appendicitis,Condition,SNOMED,standard,Appendicitis,appendicitis,Appendicitis,condition
+4048522,Focal appendicitis,Condition,SNOMED,standard,Appendicitis,appendicitis,Appendicitis,condition
+4057524,Acute appendicitis with peritonitis,Condition,SNOMED,standard,Appendicitis,appendicitis,Appendicitis,condition
+4097678,Amebic appendicitis,Condition,SNOMED,standard,Appendicitis,appendicitis,Appendicitis,condition
+4106169,Retrocecal appendicitis,Condition,SNOMED,standard,Appendicitis,appendicitis,Appendicitis,condition
+4117866,Acute perforated appendicitis,Condition,SNOMED,standard,Appendicitis,appendicitis,Appendicitis,condition
+4135708,Retroileal appendicitis,Condition,SNOMED,standard,Appendicitis,appendicitis,Appendicitis,condition
+4141626,Acute appendicitis with appendix abscess,Condition,SNOMED,standard,Appendicitis,appendicitis,Appendicitis,condition
+4151696,Acute obstructive appendicitis with perforation AND peritonitis,Condition,SNOMED,standard,Appendicitis,appendicitis,Appendicitis,condition
+4168050,Complicated appendicitis,Condition,SNOMED,standard,Appendicitis,appendicitis,Appendicitis,condition
+4175003,Suppurative appendicitis,Condition,SNOMED,standard,Appendicitis,appendicitis,Appendicitis,condition
+4177979,Acute obstructive appendicitis,Condition,SNOMED,standard,Appendicitis,appendicitis,Appendicitis,condition
+4178300,Acute gangrenous appendicitis,Condition,SNOMED,standard,Appendicitis,appendicitis,Appendicitis,condition
+4185984,Atypical appendicitis,Condition,SNOMED,standard,Appendicitis,appendicitis,Appendicitis,condition
+4197798,Periappendicitis,Condition,SNOMED,standard,Appendicitis,appendicitis,Appendicitis,condition
+4222930,Acute fulminating appendicitis,Condition,SNOMED,standard,Appendicitis,appendicitis,Appendicitis,condition
+4235575,Subacute appendicitis,Condition,SNOMED,standard,Appendicitis,appendicitis,Appendicitis,condition
+4239238,Pelvic appendicitis,Condition,SNOMED,standard,Appendicitis,appendicitis,Appendicitis,condition
+4243357,Chronic appendicitis,Condition,SNOMED,standard,Appendicitis,appendicitis,Appendicitis,condition
+4275886,Acute gangrenous appendicitis with perforation AND peritonitis,Condition,SNOMED,standard,Appendicitis,appendicitis,Appendicitis,condition
+4277609,Acute fulminating appendicitis with perforation AND peritonitis,Condition,SNOMED,standard,Appendicitis,appendicitis,Appendicitis,condition
+4283354,Recurrent appendicitis,Condition,SNOMED,standard,Appendicitis,appendicitis,Appendicitis,condition
+4310400,Acute appendicitis,Condition,SNOMED,standard,Appendicitis,appendicitis,Appendicitis,condition
+4318538,Ruptured suppurative appendicitis,Condition,SNOMED,standard,Appendicitis,appendicitis,Appendicitis,condition
+4337975,Catarrhal appendicitis,Condition,SNOMED,standard,Appendicitis,appendicitis,Appendicitis,condition
+4340802,Acute focal appendicitis,Condition,SNOMED,standard,Appendicitis,appendicitis,Appendicitis,condition
+4340803,Acute suppurative appendicitis,Condition,SNOMED,standard,Appendicitis,appendicitis,Appendicitis,condition
+37116446,Crohn disease of appendix,Condition,SNOMED,standard,Appendicitis,appendicitis,Appendicitis,condition
+37165601,Chronic appendicitis with perforation of appendix,Condition,SNOMED,standard,Appendicitis,appendicitis,Appendicitis,condition
+42536650,Acute phlegmonous appendicitis,Condition,SNOMED,standard,Appendicitis,appendicitis,Appendicitis,condition
+44784251,Acute appendicitis with localized peritonitis,Condition,SNOMED,standard,Appendicitis,appendicitis,Appendicitis,condition

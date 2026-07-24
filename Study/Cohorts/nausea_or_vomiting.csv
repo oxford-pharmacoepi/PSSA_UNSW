@@ -1,3 +1,17 @@
-"cohort_name","cohort_label","cohort_domain","concept_id","include_descendants","concept_name","vocabulary_id","concept_code","review_status","phenotype_note"
-"nausea_or_vomiting","Nausea or vomiting","condition",31967,TRUE,"Nausea","SNOMED","422587007","reviewed_seed","Nausea component"
-"nausea_or_vomiting","Nausea or vomiting","condition",441408,TRUE,"Vomiting","SNOMED","422400008","reviewed_seed","Vomiting component"
+concept_id,concept_name,domain_id,vocabulary_id,standard_concept,condition,cohort_name,cohort_label,cohort_domain
+27674,Nausea and vomiting,Condition,SNOMED,standard,Nausea,nausea_or_vomiting,Nausea or vomiting,condition
+31967,Nausea,Condition,SNOMED,standard,Nausea,nausea_or_vomiting,Nausea or vomiting,condition
+1340406,Exacerbation of nausea,Condition,OMOP Extension,standard,Nausea,nausea_or_vomiting,Nausea or vomiting,condition
+4012500,Nausea present,Observation,SNOMED,standard,Nausea,nausea_or_vomiting,Nausea or vomiting,condition
+4170402,Nausea and vomiting caused by drug,Condition,SNOMED,standard,Nausea,nausea_or_vomiting,Nausea or vomiting,condition
+4188573,Tendency to nausea and vomiting,Condition,SNOMED,standard,Nausea,nausea_or_vomiting,Nausea or vomiting,condition
+4234524,Nausea and vomiting control behavior,Observation,SNOMED,standard,Nausea,nausea_or_vomiting,Nausea or vomiting,condition
+4234652,Nausea and vomiting status: disruptive effects,Observation,SNOMED,standard,Nausea,nausea_or_vomiting,Nausea or vomiting,condition
+4247894,Increased nausea and vomiting,Condition,SNOMED,standard,Nausea,nausea_or_vomiting,Nausea or vomiting,condition
+4296392,Nausea care,Observation,SNOMED,standard,Nausea,nausea_or_vomiting,Nausea or vomiting,condition
+21493942,Nausea [Presence],Observation,LOINC,standard,Nausea,nausea_or_vomiting,Nausea or vomiting,condition
+42539349,Functional nausea,Condition,SNOMED,standard,Nausea,nausea_or_vomiting,Nausea or vomiting,condition
+42868877,I have nausea in the past 7 days [FACIT],Observation,LOINC,standard,Nausea,nausea_or_vomiting,Nausea or vomiting,condition
+44783646,Intractable nausea and vomiting,Condition,SNOMED,standard,Nausea,nausea_or_vomiting,Nausea or vomiting,condition
+44806510,Minimal nausea,Condition,SNOMED,standard,Nausea,nausea_or_vomiting,Nausea or vomiting,condition
+46236401,"Patient has anorexia, nausea or vomiting in the past week [UPDRS]",Observation,LOINC,standard,Nausea,nausea_or_vomiting,Nausea or vomiting,condition

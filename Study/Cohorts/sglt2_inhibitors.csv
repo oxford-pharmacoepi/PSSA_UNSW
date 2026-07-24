@@ -1,2 +1,371 @@
-"cohort_name","cohort_label","cohort_domain","concept_id","include_descendants","concept_name","vocabulary_id","concept_code","review_status","phenotype_note"
-"sglt2_inhibitors","SGLT2 inhibitors","drug",1123627,TRUE,"Sodium-glucose co-transporter 2 (SGLT2) inhibitors","ATC","A10BK","reviewed_seed","ATC class"
+concept_id,concept_name,domain_id,vocabulary_id,standard_concept,drug,cohort_name,cohort_label,cohort_domain
+715760,ipragliflozin; oral,Drug,ATC,classification,A10BK_sodium_glucose_co_transporter_2_sglt2_inhibitors,sglt2_inhibitors,SGLT2 inhibitors,drug
+715762,sotagliflozin; oral,Drug,ATC,classification,A10BK_sodium_glucose_co_transporter_2_sglt2_inhibitors,sglt2_inhibitors,SGLT2 inhibitors,drug
+715887,ertugliflozin; oral,Drug,ATC,classification,A10BK_sodium_glucose_co_transporter_2_sglt2_inhibitors,sglt2_inhibitors,SGLT2 inhibitors,drug
+723187,enavogliflozin,Drug,ATC,classification,A10BK_sodium_glucose_co_transporter_2_sglt2_inhibitors,sglt2_inhibitors,SGLT2 inhibitors,drug
+784068,canagliflozin 300 MG Oral Tablet [Invokana] Box of 30 by Mundipharma,Drug,RxNorm Extension,standard,A10BK_sodium_glucose_co_transporter_2_sglt2_inhibitors,sglt2_inhibitors,SGLT2 inhibitors,drug
+784069,canagliflozin 300 MG Oral Tablet [Invokana] Box of 90 by Mundipharma,Drug,RxNorm Extension,standard,A10BK_sodium_glucose_co_transporter_2_sglt2_inhibitors,sglt2_inhibitors,SGLT2 inhibitors,drug
+784070,canagliflozin 100 MG Oral Tablet [Invokana] Box of 30 by Mundipharma,Drug,RxNorm Extension,standard,A10BK_sodium_glucose_co_transporter_2_sglt2_inhibitors,sglt2_inhibitors,SGLT2 inhibitors,drug
+784071,canagliflozin 100 MG Oral Tablet [Invokana] Box of 90 by Mundipharma,Drug,RxNorm Extension,standard,A10BK_sodium_glucose_co_transporter_2_sglt2_inhibitors,sglt2_inhibitors,SGLT2 inhibitors,drug
+793293,ertugliflozin,Drug,RxNorm,standard,A10BK_sodium_glucose_co_transporter_2_sglt2_inhibitors,sglt2_inhibitors,SGLT2 inhibitors,drug
+793317,ertugliflozin 5 MG,Drug,RxNorm,standard,A10BK_sodium_glucose_co_transporter_2_sglt2_inhibitors,sglt2_inhibitors,SGLT2 inhibitors,drug
+793320,ertugliflozin Oral Tablet,Drug,RxNorm,standard,A10BK_sodium_glucose_co_transporter_2_sglt2_inhibitors,sglt2_inhibitors,SGLT2 inhibitors,drug
+793321,ertugliflozin 5 MG Oral Tablet,Drug,RxNorm,standard,A10BK_sodium_glucose_co_transporter_2_sglt2_inhibitors,sglt2_inhibitors,SGLT2 inhibitors,drug
+793323,ertugliflozin 5 MG [Steglatro],Drug,RxNorm,standard,A10BK_sodium_glucose_co_transporter_2_sglt2_inhibitors,sglt2_inhibitors,SGLT2 inhibitors,drug
+793324,ertugliflozin Oral Tablet [Steglatro],Drug,RxNorm,standard,A10BK_sodium_glucose_co_transporter_2_sglt2_inhibitors,sglt2_inhibitors,SGLT2 inhibitors,drug
+793327,ertugliflozin 5 MG Oral Tablet [Steglatro],Drug,RxNorm,standard,A10BK_sodium_glucose_co_transporter_2_sglt2_inhibitors,sglt2_inhibitors,SGLT2 inhibitors,drug
+793328,ertugliflozin 15 MG,Drug,RxNorm,standard,A10BK_sodium_glucose_co_transporter_2_sglt2_inhibitors,sglt2_inhibitors,SGLT2 inhibitors,drug
+793329,ertugliflozin 15 MG Oral Tablet,Drug,RxNorm,standard,A10BK_sodium_glucose_co_transporter_2_sglt2_inhibitors,sglt2_inhibitors,SGLT2 inhibitors,drug
+793330,ertugliflozin 15 MG [Steglatro],Drug,RxNorm,standard,A10BK_sodium_glucose_co_transporter_2_sglt2_inhibitors,sglt2_inhibitors,SGLT2 inhibitors,drug
+793331,ertugliflozin 15 MG Oral Tablet [Steglatro],Drug,RxNorm,standard,A10BK_sodium_glucose_co_transporter_2_sglt2_inhibitors,sglt2_inhibitors,SGLT2 inhibitors,drug
+947981,luseogliflozin; oral,Drug,ATC,classification,A10BK_sodium_glucose_co_transporter_2_sglt2_inhibitors,sglt2_inhibitors,SGLT2 inhibitors,drug
+954894,bexagliflozin; oral,Drug,ATC,classification,A10BK_sodium_glucose_co_transporter_2_sglt2_inhibitors,sglt2_inhibitors,SGLT2 inhibitors,drug
+1123627,Sodium-glucose co-transporter 2 (SGLT2) inhibitors,Drug,ATC,classification,A10BK_sodium_glucose_co_transporter_2_sglt2_inhibitors,sglt2_inhibitors,SGLT2 inhibitors,drug
+1123673,canagliflozin; oral,Drug,ATC,classification,A10BK_sodium_glucose_co_transporter_2_sglt2_inhibitors,sglt2_inhibitors,SGLT2 inhibitors,drug
+1123740,empagliflozin; oral,Drug,ATC,classification,A10BK_sodium_glucose_co_transporter_2_sglt2_inhibitors,sglt2_inhibitors,SGLT2 inhibitors,drug
+1123890,dapagliflozin; oral,Drug,ATC,classification,A10BK_sodium_glucose_co_transporter_2_sglt2_inhibitors,sglt2_inhibitors,SGLT2 inhibitors,drug
+1201314,bexagliflozin 20 MG,Drug,RxNorm,standard,A10BK_sodium_glucose_co_transporter_2_sglt2_inhibitors,sglt2_inhibitors,SGLT2 inhibitors,drug
+1201315,bexagliflozin 20 MG Oral Tablet,Drug,RxNorm,standard,A10BK_sodium_glucose_co_transporter_2_sglt2_inhibitors,sglt2_inhibitors,SGLT2 inhibitors,drug
+1201317,bexagliflozin 20 MG [Brenzavvy],Drug,RxNorm,standard,A10BK_sodium_glucose_co_transporter_2_sglt2_inhibitors,sglt2_inhibitors,SGLT2 inhibitors,drug
+1201320,bexagliflozin Oral Tablet [Brenzavvy],Drug,RxNorm,standard,A10BK_sodium_glucose_co_transporter_2_sglt2_inhibitors,sglt2_inhibitors,SGLT2 inhibitors,drug
+1201321,bexagliflozin 20 MG Oral Tablet [Brenzavvy],Drug,RxNorm,standard,A10BK_sodium_glucose_co_transporter_2_sglt2_inhibitors,sglt2_inhibitors,SGLT2 inhibitors,drug
+1201376,sotagliflozin Oral Tablet,Drug,RxNorm,standard,A10BK_sodium_glucose_co_transporter_2_sglt2_inhibitors,sglt2_inhibitors,SGLT2 inhibitors,drug
+1201377,sotagliflozin 200 MG Oral Tablet,Drug,RxNorm,standard,A10BK_sodium_glucose_co_transporter_2_sglt2_inhibitors,sglt2_inhibitors,SGLT2 inhibitors,drug
+1201379,sotagliflozin 200 MG [Inpefa],Drug,RxNorm,standard,A10BK_sodium_glucose_co_transporter_2_sglt2_inhibitors,sglt2_inhibitors,SGLT2 inhibitors,drug
+1201382,sotagliflozin Oral Tablet [Inpefa],Drug,RxNorm,standard,A10BK_sodium_glucose_co_transporter_2_sglt2_inhibitors,sglt2_inhibitors,SGLT2 inhibitors,drug
+1201383,sotagliflozin 200 MG Oral Tablet [Inpefa],Drug,RxNorm,standard,A10BK_sodium_glucose_co_transporter_2_sglt2_inhibitors,sglt2_inhibitors,SGLT2 inhibitors,drug
+1201385,sotagliflozin 400 MG Oral Tablet,Drug,RxNorm,standard,A10BK_sodium_glucose_co_transporter_2_sglt2_inhibitors,sglt2_inhibitors,SGLT2 inhibitors,drug
+1201386,sotagliflozin 400 MG [Inpefa],Drug,RxNorm,standard,A10BK_sodium_glucose_co_transporter_2_sglt2_inhibitors,sglt2_inhibitors,SGLT2 inhibitors,drug
+1201387,sotagliflozin 400 MG Oral Tablet [Inpefa],Drug,RxNorm,standard,A10BK_sodium_glucose_co_transporter_2_sglt2_inhibitors,sglt2_inhibitors,SGLT2 inhibitors,drug
+1301517,bexagliflozin,Drug,RxNorm,standard,A10BK_sodium_glucose_co_transporter_2_sglt2_inhibitors,sglt2_inhibitors,SGLT2 inhibitors,drug
+1301518,bexagliflozin 15 MG,Drug,RxNorm,standard,A10BK_sodium_glucose_co_transporter_2_sglt2_inhibitors,sglt2_inhibitors,SGLT2 inhibitors,drug
+1301521,bexagliflozin Oral Tablet,Drug,RxNorm,standard,A10BK_sodium_glucose_co_transporter_2_sglt2_inhibitors,sglt2_inhibitors,SGLT2 inhibitors,drug
+1301522,bexagliflozin 15 MG Oral Tablet,Drug,RxNorm,standard,A10BK_sodium_glucose_co_transporter_2_sglt2_inhibitors,sglt2_inhibitors,SGLT2 inhibitors,drug
+1301524,bexagliflozin 15 MG [Bexacat],Drug,RxNorm,standard,A10BK_sodium_glucose_co_transporter_2_sglt2_inhibitors,sglt2_inhibitors,SGLT2 inhibitors,drug
+1301527,bexagliflozin Oral Tablet [Bexacat],Drug,RxNorm,standard,A10BK_sodium_glucose_co_transporter_2_sglt2_inhibitors,sglt2_inhibitors,SGLT2 inhibitors,drug
+1301528,bexagliflozin 15 MG Oral Tablet [Bexacat],Drug,RxNorm,standard,A10BK_sodium_glucose_co_transporter_2_sglt2_inhibitors,sglt2_inhibitors,SGLT2 inhibitors,drug
+1831711,ertugliflozin 5 MG Oral Tablet Box of 98,Drug,RxNorm Extension,standard,A10BK_sodium_glucose_co_transporter_2_sglt2_inhibitors,sglt2_inhibitors,SGLT2 inhibitors,drug
+1831712,ertugliflozin 5 MG Oral Tablet [Steglatro] Box of 28 by MSD,Drug,RxNorm Extension,standard,A10BK_sodium_glucose_co_transporter_2_sglt2_inhibitors,sglt2_inhibitors,SGLT2 inhibitors,drug
+1831713,ertugliflozin 5 MG Oral Tablet [Steglatro] Box of 98,Drug,RxNorm Extension,standard,A10BK_sodium_glucose_co_transporter_2_sglt2_inhibitors,sglt2_inhibitors,SGLT2 inhibitors,drug
+1831714,ertugliflozin 5 MG Oral Tablet [Steglatro] Box of 98 by MSD,Drug,RxNorm Extension,standard,A10BK_sodium_glucose_co_transporter_2_sglt2_inhibitors,sglt2_inhibitors,SGLT2 inhibitors,drug
+1831715,ertugliflozin 15 MG Oral Tablet Box of 98,Drug,RxNorm Extension,standard,A10BK_sodium_glucose_co_transporter_2_sglt2_inhibitors,sglt2_inhibitors,SGLT2 inhibitors,drug
+1831716,ertugliflozin 15 MG Oral Tablet [Steglatro] Box of 28 by MSD,Drug,RxNorm Extension,standard,A10BK_sodium_glucose_co_transporter_2_sglt2_inhibitors,sglt2_inhibitors,SGLT2 inhibitors,drug
+1831717,ertugliflozin 15 MG Oral Tablet [Steglatro] Box of 98,Drug,RxNorm Extension,standard,A10BK_sodium_glucose_co_transporter_2_sglt2_inhibitors,sglt2_inhibitors,SGLT2 inhibitors,drug
+1831718,ertugliflozin 15 MG Oral Tablet [Steglatro] Box of 98 by MSD,Drug,RxNorm Extension,standard,A10BK_sodium_glucose_co_transporter_2_sglt2_inhibitors,sglt2_inhibitors,SGLT2 inhibitors,drug
+1970879,dapagliflozin 10 MG Delayed Release Oral Tablet Box of 10,Drug,RxNorm Extension,standard,A10BK_sodium_glucose_co_transporter_2_sglt2_inhibitors,sglt2_inhibitors,SGLT2 inhibitors,drug
+1970880,dapagliflozin 10 MG Delayed Release Oral Tablet [Forxiga] Box of 10,Drug,RxNorm Extension,standard,A10BK_sodium_glucose_co_transporter_2_sglt2_inhibitors,sglt2_inhibitors,SGLT2 inhibitors,drug
+1970881,dapagliflozin 10 MG Delayed Release Oral Tablet [Forxiga] Box of 10 by Astrazeneca,Drug,RxNorm Extension,standard,A10BK_sodium_glucose_co_transporter_2_sglt2_inhibitors,sglt2_inhibitors,SGLT2 inhibitors,drug
+1970882,dapagliflozin 10 MG Oral Tablet Box of 10,Drug,RxNorm Extension,standard,A10BK_sodium_glucose_co_transporter_2_sglt2_inhibitors,sglt2_inhibitors,SGLT2 inhibitors,drug
+1970883,dapagliflozin 10 MG Oral Tablet [Forxiga] Box of 10,Drug,RxNorm Extension,standard,A10BK_sodium_glucose_co_transporter_2_sglt2_inhibitors,sglt2_inhibitors,SGLT2 inhibitors,drug
+1970884,dapagliflozin 10 MG Oral Tablet [Forxiga] Box of 10 by Astrazeneca,Drug,RxNorm Extension,standard,A10BK_sodium_glucose_co_transporter_2_sglt2_inhibitors,sglt2_inhibitors,SGLT2 inhibitors,drug
+1970923,empagliflozin 10 MG Oral Tablet [Jardiance] Box of 100 by Bb Farma,Drug,RxNorm Extension,standard,A10BK_sodium_glucose_co_transporter_2_sglt2_inhibitors,sglt2_inhibitors,SGLT2 inhibitors,drug
+1970924,empagliflozin 25 MG Oral Tablet [Jardiance] Box of 100 by Bb Farma,Drug,RxNorm Extension,standard,A10BK_sodium_glucose_co_transporter_2_sglt2_inhibitors,sglt2_inhibitors,SGLT2 inhibitors,drug
+2043007,ertugliflozin 15 MG Oral Tablet [Steglatro] by MSD,Drug,RxNorm Extension,standard,A10BK_sodium_glucose_co_transporter_2_sglt2_inhibitors,sglt2_inhibitors,SGLT2 inhibitors,drug
+2043008,ertugliflozin 5 MG Oral Tablet [Steglatro] by MSD,Drug,RxNorm Extension,standard,A10BK_sodium_glucose_co_transporter_2_sglt2_inhibitors,sglt2_inhibitors,SGLT2 inhibitors,drug
+2912420,ertugliflozin 15 MG Oral Tablet [Steglatro] Box of 7,Drug,RxNorm Extension,standard,A10BK_sodium_glucose_co_transporter_2_sglt2_inhibitors,sglt2_inhibitors,SGLT2 inhibitors,drug
+2912421,ertugliflozin 15 MG Oral Tablet Box of 7,Drug,RxNorm Extension,standard,A10BK_sodium_glucose_co_transporter_2_sglt2_inhibitors,sglt2_inhibitors,SGLT2 inhibitors,drug
+2912422,ertugliflozin 5 MG Oral Tablet [Steglatro] Box of 7,Drug,RxNorm Extension,standard,A10BK_sodium_glucose_co_transporter_2_sglt2_inhibitors,sglt2_inhibitors,SGLT2 inhibitors,drug
+2912423,ertugliflozin 5 MG Oral Tablet Box of 7,Drug,RxNorm Extension,standard,A10BK_sodium_glucose_co_transporter_2_sglt2_inhibitors,sglt2_inhibitors,SGLT2 inhibitors,drug
+2926540,empagliflozin 25 MG Oral Tablet [Jardiance] Box of 10,Drug,RxNorm Extension,standard,A10BK_sodium_glucose_co_transporter_2_sglt2_inhibitors,sglt2_inhibitors,SGLT2 inhibitors,drug
+2926541,empagliflozin 25 MG Oral Tablet Box of 10,Drug,RxNorm Extension,standard,A10BK_sodium_glucose_co_transporter_2_sglt2_inhibitors,sglt2_inhibitors,SGLT2 inhibitors,drug
+2926542,empagliflozin 10 MG Oral Tablet [Jardiance] Box of 10,Drug,RxNorm Extension,standard,A10BK_sodium_glucose_co_transporter_2_sglt2_inhibitors,sglt2_inhibitors,SGLT2 inhibitors,drug
+2926543,empagliflozin 10 MG Oral Tablet Box of 10,Drug,RxNorm Extension,standard,A10BK_sodium_glucose_co_transporter_2_sglt2_inhibitors,sglt2_inhibitors,SGLT2 inhibitors,drug
+21027308,empagliflozin 25 MG Oral Tablet [Jardiance] Box of 28 by Boehringer Ingelheim,Drug,RxNorm Extension,standard,A10BK_sodium_glucose_co_transporter_2_sglt2_inhibitors,sglt2_inhibitors,SGLT2 inhibitors,drug
+21037074,dapagliflozin Oral Tablet [Forxiga],Drug,RxNorm Extension,standard,A10BK_sodium_glucose_co_transporter_2_sglt2_inhibitors,sglt2_inhibitors,SGLT2 inhibitors,drug
+21037075,dapagliflozin 5 MG Oral Tablet [Forxiga] Box of 28 by Waymade,Drug,RxNorm Extension,standard,A10BK_sodium_glucose_co_transporter_2_sglt2_inhibitors,sglt2_inhibitors,SGLT2 inhibitors,drug
+21037076,dapagliflozin 10 MG Oral Tablet [Forxiga],Drug,RxNorm Extension,standard,A10BK_sodium_glucose_co_transporter_2_sglt2_inhibitors,sglt2_inhibitors,SGLT2 inhibitors,drug
+21037077,dapagliflozin 10 MG Oral Tablet [Forxiga] by Waymade,Drug,RxNorm Extension,standard,A10BK_sodium_glucose_co_transporter_2_sglt2_inhibitors,sglt2_inhibitors,SGLT2 inhibitors,drug
+21037078,dapagliflozin 10 MG Oral Tablet [Forxiga] Box of 28,Drug,RxNorm Extension,standard,A10BK_sodium_glucose_co_transporter_2_sglt2_inhibitors,sglt2_inhibitors,SGLT2 inhibitors,drug
+21037079,canagliflozin 100 MG Oral Tablet [Invokana] by Janssen,Drug,RxNorm Extension,standard,A10BK_sodium_glucose_co_transporter_2_sglt2_inhibitors,sglt2_inhibitors,SGLT2 inhibitors,drug
+21046995,dapagliflozin 10 MG [Forxiga],Drug,RxNorm Extension,standard,A10BK_sodium_glucose_co_transporter_2_sglt2_inhibitors,sglt2_inhibitors,SGLT2 inhibitors,drug
+21046996,dapagliflozin 10 MG Oral Tablet [Forxiga] Box of 28 by Astrazeneca,Drug,RxNorm Extension,standard,A10BK_sodium_glucose_co_transporter_2_sglt2_inhibitors,sglt2_inhibitors,SGLT2 inhibitors,drug
+21046997,canagliflozin 100 MG Oral Tablet by Colorama,Drug,RxNorm Extension,standard,A10BK_sodium_glucose_co_transporter_2_sglt2_inhibitors,sglt2_inhibitors,SGLT2 inhibitors,drug
+21046998,canagliflozin 100 MG Oral Tablet Box of 30 by Niche,Drug,RxNorm Extension,standard,A10BK_sodium_glucose_co_transporter_2_sglt2_inhibitors,sglt2_inhibitors,SGLT2 inhibitors,drug
+21056724,dapagliflozin 5 MG Oral Tablet [Forxiga] by Waymade,Drug,RxNorm Extension,standard,A10BK_sodium_glucose_co_transporter_2_sglt2_inhibitors,sglt2_inhibitors,SGLT2 inhibitors,drug
+21056725,dapagliflozin 10 MG Oral Tablet [Forxiga] by Astrazeneca,Drug,RxNorm Extension,standard,A10BK_sodium_glucose_co_transporter_2_sglt2_inhibitors,sglt2_inhibitors,SGLT2 inhibitors,drug
+21056726,canagliflozin 100 MG Oral Tablet Box of 30,Drug,RxNorm Extension,standard,A10BK_sodium_glucose_co_transporter_2_sglt2_inhibitors,sglt2_inhibitors,SGLT2 inhibitors,drug
+21056727,canagliflozin 300 MG Oral Tablet [Invokana] by Janssen,Drug,RxNorm Extension,standard,A10BK_sodium_glucose_co_transporter_2_sglt2_inhibitors,sglt2_inhibitors,SGLT2 inhibitors,drug
+21066569,canagliflozin 100 MG Oral Tablet [Invokana] Box of 30 by Janssen,Drug,RxNorm Extension,standard,A10BK_sodium_glucose_co_transporter_2_sglt2_inhibitors,sglt2_inhibitors,SGLT2 inhibitors,drug
+21066576,empagliflozin 10 MG Oral Tablet [Jardiance] Box of 28,Drug,RxNorm Extension,standard,A10BK_sodium_glucose_co_transporter_2_sglt2_inhibitors,sglt2_inhibitors,SGLT2 inhibitors,drug
+21076477,dapagliflozin 5 MG Oral Tablet [Forxiga] Box of 28,Drug,RxNorm Extension,standard,A10BK_sodium_glucose_co_transporter_2_sglt2_inhibitors,sglt2_inhibitors,SGLT2 inhibitors,drug
+21076478,canagliflozin 100 MG Oral Tablet by Niche,Drug,RxNorm Extension,standard,A10BK_sodium_glucose_co_transporter_2_sglt2_inhibitors,sglt2_inhibitors,SGLT2 inhibitors,drug
+21076479,canagliflozin 100 MG Oral Tablet Box of 30 by J M McGill,Drug,RxNorm Extension,standard,A10BK_sodium_glucose_co_transporter_2_sglt2_inhibitors,sglt2_inhibitors,SGLT2 inhibitors,drug
+21086192,dapagliflozin 5 MG Oral Tablet [Forxiga],Drug,RxNorm Extension,standard,A10BK_sodium_glucose_co_transporter_2_sglt2_inhibitors,sglt2_inhibitors,SGLT2 inhibitors,drug
+21086203,empagliflozin 10 MG Oral Tablet Box of 28,Drug,RxNorm Extension,standard,A10BK_sodium_glucose_co_transporter_2_sglt2_inhibitors,sglt2_inhibitors,SGLT2 inhibitors,drug
+21086204,empagliflozin 25 MG Oral Tablet [Jardiance] Box of 28,Drug,RxNorm Extension,standard,A10BK_sodium_glucose_co_transporter_2_sglt2_inhibitors,sglt2_inhibitors,SGLT2 inhibitors,drug
+21105861,dapagliflozin 5 MG Oral Tablet Box of 28,Drug,RxNorm Extension,standard,A10BK_sodium_glucose_co_transporter_2_sglt2_inhibitors,sglt2_inhibitors,SGLT2 inhibitors,drug
+21105862,dapagliflozin 5 MG Oral Tablet [Forxiga] by Astrazeneca,Drug,RxNorm Extension,standard,A10BK_sodium_glucose_co_transporter_2_sglt2_inhibitors,sglt2_inhibitors,SGLT2 inhibitors,drug
+21105863,canagliflozin 300 MG Oral Tablet by Colorama,Drug,RxNorm Extension,standard,A10BK_sodium_glucose_co_transporter_2_sglt2_inhibitors,sglt2_inhibitors,SGLT2 inhibitors,drug
+21105864,canagliflozin 300 MG Oral Tablet Box of 30,Drug,RxNorm Extension,standard,A10BK_sodium_glucose_co_transporter_2_sglt2_inhibitors,sglt2_inhibitors,SGLT2 inhibitors,drug
+21115639,dapagliflozin 10 MG Oral Tablet Box of 28,Drug,RxNorm Extension,standard,A10BK_sodium_glucose_co_transporter_2_sglt2_inhibitors,sglt2_inhibitors,SGLT2 inhibitors,drug
+21125279,dapagliflozin 5 MG [Forxiga],Drug,RxNorm Extension,standard,A10BK_sodium_glucose_co_transporter_2_sglt2_inhibitors,sglt2_inhibitors,SGLT2 inhibitors,drug
+21125280,dapagliflozin 5 MG Oral Tablet [Forxiga] Box of 28 by Astrazeneca,Drug,RxNorm Extension,standard,A10BK_sodium_glucose_co_transporter_2_sglt2_inhibitors,sglt2_inhibitors,SGLT2 inhibitors,drug
+21125281,canagliflozin 100 MG Oral Tablet by J M McGill,Drug,RxNorm Extension,standard,A10BK_sodium_glucose_co_transporter_2_sglt2_inhibitors,sglt2_inhibitors,SGLT2 inhibitors,drug
+21125282,canagliflozin 100 MG Oral Tablet Box of 30 by Colorama,Drug,RxNorm Extension,standard,A10BK_sodium_glucose_co_transporter_2_sglt2_inhibitors,sglt2_inhibitors,SGLT2 inhibitors,drug
+21125283,canagliflozin 300 MG Oral Tablet [Invokana] Box of 30,Drug,RxNorm Extension,standard,A10BK_sodium_glucose_co_transporter_2_sglt2_inhibitors,sglt2_inhibitors,SGLT2 inhibitors,drug
+21125291,empagliflozin 10 MG Oral Tablet [Jardiance] by Boehringer Ingelheim,Drug,RxNorm Extension,standard,A10BK_sodium_glucose_co_transporter_2_sglt2_inhibitors,sglt2_inhibitors,SGLT2 inhibitors,drug
+21145066,canagliflozin 300 MG Oral Tablet Box of 30 by Colorama,Drug,RxNorm Extension,standard,A10BK_sodium_glucose_co_transporter_2_sglt2_inhibitors,sglt2_inhibitors,SGLT2 inhibitors,drug
+21145067,canagliflozin 300 MG Oral Tablet [Invokana] Box of 30 by Janssen,Drug,RxNorm Extension,standard,A10BK_sodium_glucose_co_transporter_2_sglt2_inhibitors,sglt2_inhibitors,SGLT2 inhibitors,drug
+21145074,empagliflozin 10 MG Oral Tablet [Jardiance] Box of 28 by Boehringer Ingelheim,Drug,RxNorm Extension,standard,A10BK_sodium_glucose_co_transporter_2_sglt2_inhibitors,sglt2_inhibitors,SGLT2 inhibitors,drug
+21155014,empagliflozin 25 MG Oral Tablet Box of 28,Drug,RxNorm Extension,standard,A10BK_sodium_glucose_co_transporter_2_sglt2_inhibitors,sglt2_inhibitors,SGLT2 inhibitors,drug
+21164839,canagliflozin 100 MG Oral Tablet [Invokana] Box of 30,Drug,RxNorm Extension,standard,A10BK_sodium_glucose_co_transporter_2_sglt2_inhibitors,sglt2_inhibitors,SGLT2 inhibitors,drug
+21174561,dapagliflozin 10 MG Oral Tablet [Forxiga] Box of 28 by Waymade,Drug,RxNorm Extension,standard,A10BK_sodium_glucose_co_transporter_2_sglt2_inhibitors,sglt2_inhibitors,SGLT2 inhibitors,drug
+21174570,empagliflozin 25 MG Oral Tablet [Jardiance] by Boehringer Ingelheim,Drug,RxNorm Extension,standard,A10BK_sodium_glucose_co_transporter_2_sglt2_inhibitors,sglt2_inhibitors,SGLT2 inhibitors,drug
+35130600,ipragliflozin 25 MG Oral Tablet,Drug,RxNorm Extension,standard,A10BK_sodium_glucose_co_transporter_2_sglt2_inhibitors,sglt2_inhibitors,SGLT2 inhibitors,drug
+35131592,luseogliflozin hydrate 2.5 MG Oral Tablet [Lusefi],Drug,RxNorm Extension,standard,A10BK_sodium_glucose_co_transporter_2_sglt2_inhibitors,sglt2_inhibitors,SGLT2 inhibitors,drug
+35132200,luseogliflozin hydrate 5 MG Oral Tablet [Lusefi],Drug,RxNorm Extension,standard,A10BK_sodium_glucose_co_transporter_2_sglt2_inhibitors,sglt2_inhibitors,SGLT2 inhibitors,drug
+35133042,canagliflozin 20 MG [TENELIA],Drug,RxNorm Extension,standard,A10BK_sodium_glucose_co_transporter_2_sglt2_inhibitors,sglt2_inhibitors,SGLT2 inhibitors,drug
+35133449,canagliflozin 20 MG Oral Tablet [TENELIA],Drug,RxNorm Extension,standard,A10BK_sodium_glucose_co_transporter_2_sglt2_inhibitors,sglt2_inhibitors,SGLT2 inhibitors,drug
+35135114,luseogliflozin hydrate 2.5 MG Oral Tablet,Drug,RxNorm Extension,standard,A10BK_sodium_glucose_co_transporter_2_sglt2_inhibitors,sglt2_inhibitors,SGLT2 inhibitors,drug
+35137912,canagliflozin 20 MG,Drug,RxNorm Extension,standard,A10BK_sodium_glucose_co_transporter_2_sglt2_inhibitors,sglt2_inhibitors,SGLT2 inhibitors,drug
+35139070,ipragliflozin 25 MG Oral Tablet [SUGLAT],Drug,RxNorm Extension,standard,A10BK_sodium_glucose_co_transporter_2_sglt2_inhibitors,sglt2_inhibitors,SGLT2 inhibitors,drug
+35141352,canagliflozin 100 MG [Canaglu],Drug,RxNorm Extension,standard,A10BK_sodium_glucose_co_transporter_2_sglt2_inhibitors,sglt2_inhibitors,SGLT2 inhibitors,drug
+35141791,luseogliflozin hydrate Oral Tablet,Drug,RxNorm Extension,standard,A10BK_sodium_glucose_co_transporter_2_sglt2_inhibitors,sglt2_inhibitors,SGLT2 inhibitors,drug
+35143968,canagliflozin Oral Tablet [TENELIA],Drug,RxNorm Extension,standard,A10BK_sodium_glucose_co_transporter_2_sglt2_inhibitors,sglt2_inhibitors,SGLT2 inhibitors,drug
+35146420,ipragliflozin 25 MG,Drug,RxNorm Extension,standard,A10BK_sodium_glucose_co_transporter_2_sglt2_inhibitors,sglt2_inhibitors,SGLT2 inhibitors,drug
+35147878,luseogliflozin hydrate Oral Tablet [Lusefi],Drug,RxNorm Extension,standard,A10BK_sodium_glucose_co_transporter_2_sglt2_inhibitors,sglt2_inhibitors,SGLT2 inhibitors,drug
+35151855,luseogliflozin hydrate 5 MG [Lusefi],Drug,RxNorm Extension,standard,A10BK_sodium_glucose_co_transporter_2_sglt2_inhibitors,sglt2_inhibitors,SGLT2 inhibitors,drug
+35153086,luseogliflozin hydrate 5 MG,Drug,RxNorm Extension,standard,A10BK_sodium_glucose_co_transporter_2_sglt2_inhibitors,sglt2_inhibitors,SGLT2 inhibitors,drug
+35154435,luseogliflozin hydrate 5 MG Oral Tablet,Drug,RxNorm Extension,standard,A10BK_sodium_glucose_co_transporter_2_sglt2_inhibitors,sglt2_inhibitors,SGLT2 inhibitors,drug
+35155065,canagliflozin 20 MG Oral Tablet,Drug,RxNorm Extension,standard,A10BK_sodium_glucose_co_transporter_2_sglt2_inhibitors,sglt2_inhibitors,SGLT2 inhibitors,drug
+35155579,canagliflozin 100 MG Oral Tablet [Canaglu],Drug,RxNorm Extension,standard,A10BK_sodium_glucose_co_transporter_2_sglt2_inhibitors,sglt2_inhibitors,SGLT2 inhibitors,drug
+35155816,canagliflozin Oral Tablet [Canaglu],Drug,RxNorm Extension,standard,A10BK_sodium_glucose_co_transporter_2_sglt2_inhibitors,sglt2_inhibitors,SGLT2 inhibitors,drug
+35157372,ipragliflozin / sitagliptin Oral Tablet [Sujanu],Drug,RxNorm Extension,standard,A10BK_sodium_glucose_co_transporter_2_sglt2_inhibitors,sglt2_inhibitors,SGLT2 inhibitors,drug
+35157424,luseogliflozin hydrate 2.5 MG [Lusefi],Drug,RxNorm Extension,standard,A10BK_sodium_glucose_co_transporter_2_sglt2_inhibitors,sglt2_inhibitors,SGLT2 inhibitors,drug
+35158145,ipragliflozin / sitagliptin Oral Tablet,Drug,RxNorm Extension,standard,A10BK_sodium_glucose_co_transporter_2_sglt2_inhibitors,sglt2_inhibitors,SGLT2 inhibitors,drug
+35158377,luseogliflozin hydrate 2.5 MG,Drug,RxNorm Extension,standard,A10BK_sodium_glucose_co_transporter_2_sglt2_inhibitors,sglt2_inhibitors,SGLT2 inhibitors,drug
+35159956,ipragliflozin 25 MG [SUGLAT],Drug,RxNorm Extension,standard,A10BK_sodium_glucose_co_transporter_2_sglt2_inhibitors,sglt2_inhibitors,SGLT2 inhibitors,drug
+35198021,luseogliflozin hydrate,Drug,RxNorm Extension,standard,A10BK_sodium_glucose_co_transporter_2_sglt2_inhibitors,sglt2_inhibitors,SGLT2 inhibitors,drug
+35754222,dapagliflozin 5 MG Extended Release Oral Tablet [Forxiga] Box of 28,Drug,RxNorm Extension,standard,A10BK_sodium_glucose_co_transporter_2_sglt2_inhibitors,sglt2_inhibitors,SGLT2 inhibitors,drug
+35757868,dapagliflozin Extended Release Oral Tablet [Forxiga],Drug,RxNorm Extension,standard,A10BK_sodium_glucose_co_transporter_2_sglt2_inhibitors,sglt2_inhibitors,SGLT2 inhibitors,drug
+35758345,dapagliflozin 5 MG Extended Release Oral Tablet [Forxiga],Drug,RxNorm Extension,standard,A10BK_sodium_glucose_co_transporter_2_sglt2_inhibitors,sglt2_inhibitors,SGLT2 inhibitors,drug
+35759111,dapagliflozin 5 MG Extended Release Oral Tablet [Forxiga] Box of 28 by Waymade,Drug,RxNorm Extension,standard,A10BK_sodium_glucose_co_transporter_2_sglt2_inhibitors,sglt2_inhibitors,SGLT2 inhibitors,drug
+35759112,dapagliflozin 5 MG Extended Release Oral Tablet [Forxiga] by Waymade,Drug,RxNorm Extension,standard,A10BK_sodium_glucose_co_transporter_2_sglt2_inhibitors,sglt2_inhibitors,SGLT2 inhibitors,drug
+35762252,dapagliflozin 5 MG Extended Release Oral Tablet Box of 28,Drug,RxNorm Extension,standard,A10BK_sodium_glucose_co_transporter_2_sglt2_inhibitors,sglt2_inhibitors,SGLT2 inhibitors,drug
+35762253,dapagliflozin 5 MG Extended Release Oral Tablet,Drug,RxNorm Extension,standard,A10BK_sodium_glucose_co_transporter_2_sglt2_inhibitors,sglt2_inhibitors,SGLT2 inhibitors,drug
+35763316,dapagliflozin 5 MG Extended Release Oral Tablet [Forxiga] Box of 28 by Astrazeneca,Drug,RxNorm Extension,standard,A10BK_sodium_glucose_co_transporter_2_sglt2_inhibitors,sglt2_inhibitors,SGLT2 inhibitors,drug
+35763317,dapagliflozin 5 MG Extended Release Oral Tablet [Forxiga] by Astrazeneca,Drug,RxNorm Extension,standard,A10BK_sodium_glucose_co_transporter_2_sglt2_inhibitors,sglt2_inhibitors,SGLT2 inhibitors,drug
+35766101,dapagliflozin Extended Release Oral Tablet,Drug,RxNorm Extension,standard,A10BK_sodium_glucose_co_transporter_2_sglt2_inhibitors,sglt2_inhibitors,SGLT2 inhibitors,drug
+35831423,canagliflozin 40 MG Oral Tablet [TENELIA],Drug,RxNorm Extension,standard,A10BK_sodium_glucose_co_transporter_2_sglt2_inhibitors,sglt2_inhibitors,SGLT2 inhibitors,drug
+35831424,canagliflozin 40 MG Oral Tablet,Drug,RxNorm Extension,standard,A10BK_sodium_glucose_co_transporter_2_sglt2_inhibitors,sglt2_inhibitors,SGLT2 inhibitors,drug
+35831425,canagliflozin 40 MG [TENELIA],Drug,RxNorm Extension,standard,A10BK_sodium_glucose_co_transporter_2_sglt2_inhibitors,sglt2_inhibitors,SGLT2 inhibitors,drug
+35831426,canagliflozin 40 MG,Drug,RxNorm Extension,standard,A10BK_sodium_glucose_co_transporter_2_sglt2_inhibitors,sglt2_inhibitors,SGLT2 inhibitors,drug
+35887723,dapagliflozin 5 MG Oral Tablet [Forxiga] Box of 28 by Ethigen,Drug,RxNorm Extension,standard,A10BK_sodium_glucose_co_transporter_2_sglt2_inhibitors,sglt2_inhibitors,SGLT2 inhibitors,drug
+35887724,dapagliflozin 5 MG Oral Tablet [Forxiga] by Ethigen,Drug,RxNorm Extension,standard,A10BK_sodium_glucose_co_transporter_2_sglt2_inhibitors,sglt2_inhibitors,SGLT2 inhibitors,drug
+36035501,empagliflozin 10 MG Oral Tablet [Jardiance] Box of 100 by Abacus Medicine,Drug,RxNorm Extension,standard,A10BK_sodium_glucose_co_transporter_2_sglt2_inhibitors,sglt2_inhibitors,SGLT2 inhibitors,drug
+36035502,empagliflozin 10 MG Oral Tablet [Jardiance] Box of 100 by Eurim-Pharm,Drug,RxNorm Extension,standard,A10BK_sodium_glucose_co_transporter_2_sglt2_inhibitors,sglt2_inhibitors,SGLT2 inhibitors,drug
+36035503,empagliflozin 25 MG Oral Tablet [Jardiance] Box of 100 by Eurim-Pharm,Drug,RxNorm Extension,standard,A10BK_sodium_glucose_co_transporter_2_sglt2_inhibitors,sglt2_inhibitors,SGLT2 inhibitors,drug
+36065376,empagliflozin 25 MG Oral Tablet [Jardiance] Box of 30 by CST,Drug,RxNorm Extension,standard,A10BK_sodium_glucose_co_transporter_2_sglt2_inhibitors,sglt2_inhibitors,SGLT2 inhibitors,drug
+36065475,empagliflozin 25 MG Oral Tablet [Jardiance] Box of 30 by Mawdsley-Brooks,Drug,RxNorm Extension,standard,A10BK_sodium_glucose_co_transporter_2_sglt2_inhibitors,sglt2_inhibitors,SGLT2 inhibitors,drug
+36065476,empagliflozin 25 MG Oral Tablet [Jardiance] Box of 30 by DE,Drug,RxNorm Extension,standard,A10BK_sodium_glucose_co_transporter_2_sglt2_inhibitors,sglt2_inhibitors,SGLT2 inhibitors,drug
+36065477,empagliflozin 25 MG Oral Tablet [Jardiance] Box of 30 by Originalis B.V.,Drug,RxNorm Extension,standard,A10BK_sodium_glucose_co_transporter_2_sglt2_inhibitors,sglt2_inhibitors,SGLT2 inhibitors,drug
+36065478,empagliflozin 25 MG Oral Tablet [Jardiance] Box of 28 by DE,Drug,RxNorm Extension,standard,A10BK_sodium_glucose_co_transporter_2_sglt2_inhibitors,sglt2_inhibitors,SGLT2 inhibitors,drug
+36065479,empagliflozin 25 MG Oral Tablet [Jardiance] Box of 28 by CST,Drug,RxNorm Extension,standard,A10BK_sodium_glucose_co_transporter_2_sglt2_inhibitors,sglt2_inhibitors,SGLT2 inhibitors,drug
+36065480,empagliflozin 25 MG Oral Tablet [Jardiance] by Mawdsley-Brooks,Drug,RxNorm Extension,standard,A10BK_sodium_glucose_co_transporter_2_sglt2_inhibitors,sglt2_inhibitors,SGLT2 inhibitors,drug
+36065481,empagliflozin 25 MG Oral Tablet [Jardiance] by DE,Drug,RxNorm Extension,standard,A10BK_sodium_glucose_co_transporter_2_sglt2_inhibitors,sglt2_inhibitors,SGLT2 inhibitors,drug
+36065482,empagliflozin 25 MG Oral Tablet [Jardiance] by CST,Drug,RxNorm Extension,standard,A10BK_sodium_glucose_co_transporter_2_sglt2_inhibitors,sglt2_inhibitors,SGLT2 inhibitors,drug
+36065483,empagliflozin 25 MG Oral Tablet [Jardiance] by Originalis B.V.,Drug,RxNorm Extension,standard,A10BK_sodium_glucose_co_transporter_2_sglt2_inhibitors,sglt2_inhibitors,SGLT2 inhibitors,drug
+36065484,empagliflozin 10 MG Oral Tablet [Jardiance] Box of 30 by Mawdsley-Brooks,Drug,RxNorm Extension,standard,A10BK_sodium_glucose_co_transporter_2_sglt2_inhibitors,sglt2_inhibitors,SGLT2 inhibitors,drug
+36065485,empagliflozin 10 MG Oral Tablet [Jardiance] Box of 30 by DE,Drug,RxNorm Extension,standard,A10BK_sodium_glucose_co_transporter_2_sglt2_inhibitors,sglt2_inhibitors,SGLT2 inhibitors,drug
+36065486,empagliflozin 10 MG Oral Tablet [Jardiance] Box of 30 by CST,Drug,RxNorm Extension,standard,A10BK_sodium_glucose_co_transporter_2_sglt2_inhibitors,sglt2_inhibitors,SGLT2 inhibitors,drug
+36065487,empagliflozin 10 MG Oral Tablet [Jardiance] Box of 30 by Ethigen,Drug,RxNorm Extension,standard,A10BK_sodium_glucose_co_transporter_2_sglt2_inhibitors,sglt2_inhibitors,SGLT2 inhibitors,drug
+36065488,empagliflozin 10 MG Oral Tablet [Jardiance] Box of 30 by Originalis B.V.,Drug,RxNorm Extension,standard,A10BK_sodium_glucose_co_transporter_2_sglt2_inhibitors,sglt2_inhibitors,SGLT2 inhibitors,drug
+36065489,empagliflozin 10 MG Oral Tablet [Jardiance] Box of 28 by DE,Drug,RxNorm Extension,standard,A10BK_sodium_glucose_co_transporter_2_sglt2_inhibitors,sglt2_inhibitors,SGLT2 inhibitors,drug
+36065490,empagliflozin 10 MG Oral Tablet [Jardiance] Box of 28 by CST,Drug,RxNorm Extension,standard,A10BK_sodium_glucose_co_transporter_2_sglt2_inhibitors,sglt2_inhibitors,SGLT2 inhibitors,drug
+36065491,empagliflozin 10 MG Oral Tablet [Jardiance] by Mawdsley-Brooks,Drug,RxNorm Extension,standard,A10BK_sodium_glucose_co_transporter_2_sglt2_inhibitors,sglt2_inhibitors,SGLT2 inhibitors,drug
+36065492,empagliflozin 10 MG Oral Tablet [Jardiance] by DE,Drug,RxNorm Extension,standard,A10BK_sodium_glucose_co_transporter_2_sglt2_inhibitors,sglt2_inhibitors,SGLT2 inhibitors,drug
+36065493,empagliflozin 10 MG Oral Tablet [Jardiance] by CST,Drug,RxNorm Extension,standard,A10BK_sodium_glucose_co_transporter_2_sglt2_inhibitors,sglt2_inhibitors,SGLT2 inhibitors,drug
+36065494,empagliflozin 10 MG Oral Tablet [Jardiance] by Ethigen,Drug,RxNorm Extension,standard,A10BK_sodium_glucose_co_transporter_2_sglt2_inhibitors,sglt2_inhibitors,SGLT2 inhibitors,drug
+36065495,empagliflozin 10 MG Oral Tablet [Jardiance] by Originalis B.V.,Drug,RxNorm Extension,standard,A10BK_sodium_glucose_co_transporter_2_sglt2_inhibitors,sglt2_inhibitors,SGLT2 inhibitors,drug
+36065594,dapagliflozin 10 MG Oral Tablet [Forxiga] Box of 30 by DE,Drug,RxNorm Extension,standard,A10BK_sodium_glucose_co_transporter_2_sglt2_inhibitors,sglt2_inhibitors,SGLT2 inhibitors,drug
+36065595,dapagliflozin 10 MG Oral Tablet [Forxiga] Box of 30,Drug,RxNorm Extension,standard,A10BK_sodium_glucose_co_transporter_2_sglt2_inhibitors,sglt2_inhibitors,SGLT2 inhibitors,drug
+36065596,dapagliflozin 10 MG Oral Tablet [Forxiga] Box of 30 by Pharmaram,Drug,RxNorm Extension,standard,A10BK_sodium_glucose_co_transporter_2_sglt2_inhibitors,sglt2_inhibitors,SGLT2 inhibitors,drug
+36065597,dapagliflozin 10 MG Oral Tablet [Forxiga] Box of 28 by DE,Drug,RxNorm Extension,standard,A10BK_sodium_glucose_co_transporter_2_sglt2_inhibitors,sglt2_inhibitors,SGLT2 inhibitors,drug
+36065598,dapagliflozin 10 MG Oral Tablet [Forxiga] Box of 28 by CST,Drug,RxNorm Extension,standard,A10BK_sodium_glucose_co_transporter_2_sglt2_inhibitors,sglt2_inhibitors,SGLT2 inhibitors,drug
+36065599,dapagliflozin 10 MG Oral Tablet [Forxiga] Box of 28 by Ethigen,Drug,RxNorm Extension,standard,A10BK_sodium_glucose_co_transporter_2_sglt2_inhibitors,sglt2_inhibitors,SGLT2 inhibitors,drug
+36065600,dapagliflozin 10 MG Oral Tablet [Forxiga] Box of 28 by Pharmaram,Drug,RxNorm Extension,standard,A10BK_sodium_glucose_co_transporter_2_sglt2_inhibitors,sglt2_inhibitors,SGLT2 inhibitors,drug
+36065601,dapagliflozin 10 MG Oral Tablet [Forxiga] by DE,Drug,RxNorm Extension,standard,A10BK_sodium_glucose_co_transporter_2_sglt2_inhibitors,sglt2_inhibitors,SGLT2 inhibitors,drug
+36065602,dapagliflozin 10 MG Oral Tablet [Forxiga] by CST,Drug,RxNorm Extension,standard,A10BK_sodium_glucose_co_transporter_2_sglt2_inhibitors,sglt2_inhibitors,SGLT2 inhibitors,drug
+36065603,dapagliflozin 10 MG Oral Tablet [Forxiga] by Ethigen,Drug,RxNorm Extension,standard,A10BK_sodium_glucose_co_transporter_2_sglt2_inhibitors,sglt2_inhibitors,SGLT2 inhibitors,drug
+36065604,dapagliflozin 10 MG Oral Tablet [Forxiga] by Pharmaram,Drug,RxNorm Extension,standard,A10BK_sodium_glucose_co_transporter_2_sglt2_inhibitors,sglt2_inhibitors,SGLT2 inhibitors,drug
+36065605,dapagliflozin 10 MG Oral Tablet Box of 30,Drug,RxNorm Extension,standard,A10BK_sodium_glucose_co_transporter_2_sglt2_inhibitors,sglt2_inhibitors,SGLT2 inhibitors,drug
+36065606,dapagliflozin 5 MG Oral Tablet [Forxiga] Box of 28 by DE,Drug,RxNorm Extension,standard,A10BK_sodium_glucose_co_transporter_2_sglt2_inhibitors,sglt2_inhibitors,SGLT2 inhibitors,drug
+36065607,dapagliflozin 5 MG Oral Tablet [Forxiga] Box of 28 by CST,Drug,RxNorm Extension,standard,A10BK_sodium_glucose_co_transporter_2_sglt2_inhibitors,sglt2_inhibitors,SGLT2 inhibitors,drug
+36065608,dapagliflozin 5 MG Oral Tablet [Forxiga] Box of 28 by Pharmaram,Drug,RxNorm Extension,standard,A10BK_sodium_glucose_co_transporter_2_sglt2_inhibitors,sglt2_inhibitors,SGLT2 inhibitors,drug
+36065609,dapagliflozin 5 MG Oral Tablet [Forxiga] by DE,Drug,RxNorm Extension,standard,A10BK_sodium_glucose_co_transporter_2_sglt2_inhibitors,sglt2_inhibitors,SGLT2 inhibitors,drug
+36065610,dapagliflozin 5 MG Oral Tablet [Forxiga] by CST,Drug,RxNorm Extension,standard,A10BK_sodium_glucose_co_transporter_2_sglt2_inhibitors,sglt2_inhibitors,SGLT2 inhibitors,drug
+36065611,dapagliflozin 5 MG Oral Tablet [Forxiga] by Pharmaram,Drug,RxNorm Extension,standard,A10BK_sodium_glucose_co_transporter_2_sglt2_inhibitors,sglt2_inhibitors,SGLT2 inhibitors,drug
+36066342,canagliflozin 300 MG Oral Tablet [Invokana] Box of 30 by Mawdsley-Brooks,Drug,RxNorm Extension,standard,A10BK_sodium_glucose_co_transporter_2_sglt2_inhibitors,sglt2_inhibitors,SGLT2 inhibitors,drug
+36066343,canagliflozin 300 MG Oral Tablet [Invokana] by Mawdsley-Brooks,Drug,RxNorm Extension,standard,A10BK_sodium_glucose_co_transporter_2_sglt2_inhibitors,sglt2_inhibitors,SGLT2 inhibitors,drug
+36066344,canagliflozin 100 MG Oral Tablet [Invokana] Box of 30 by Mawdsley-Brooks,Drug,RxNorm Extension,standard,A10BK_sodium_glucose_co_transporter_2_sglt2_inhibitors,sglt2_inhibitors,SGLT2 inhibitors,drug
+36066345,canagliflozin 100 MG Oral Tablet [Invokana] Box of 30 by DE,Drug,RxNorm Extension,standard,A10BK_sodium_glucose_co_transporter_2_sglt2_inhibitors,sglt2_inhibitors,SGLT2 inhibitors,drug
+36066346,canagliflozin 100 MG Oral Tablet [Invokana] Box of 30 by Ethigen,Drug,RxNorm Extension,standard,A10BK_sodium_glucose_co_transporter_2_sglt2_inhibitors,sglt2_inhibitors,SGLT2 inhibitors,drug
+36066347,canagliflozin 100 MG Oral Tablet [Invokana] Box of 28,Drug,RxNorm Extension,standard,A10BK_sodium_glucose_co_transporter_2_sglt2_inhibitors,sglt2_inhibitors,SGLT2 inhibitors,drug
+36066348,canagliflozin 100 MG Oral Tablet [Invokana] Box of 28 by Pharmaram,Drug,RxNorm Extension,standard,A10BK_sodium_glucose_co_transporter_2_sglt2_inhibitors,sglt2_inhibitors,SGLT2 inhibitors,drug
+36066349,canagliflozin 100 MG Oral Tablet [Invokana] by Mawdsley-Brooks,Drug,RxNorm Extension,standard,A10BK_sodium_glucose_co_transporter_2_sglt2_inhibitors,sglt2_inhibitors,SGLT2 inhibitors,drug
+36066350,canagliflozin 100 MG Oral Tablet [Invokana] by DE,Drug,RxNorm Extension,standard,A10BK_sodium_glucose_co_transporter_2_sglt2_inhibitors,sglt2_inhibitors,SGLT2 inhibitors,drug
+36066351,canagliflozin 100 MG Oral Tablet [Invokana] by Ethigen,Drug,RxNorm Extension,standard,A10BK_sodium_glucose_co_transporter_2_sglt2_inhibitors,sglt2_inhibitors,SGLT2 inhibitors,drug
+36066352,canagliflozin 100 MG Oral Tablet [Invokana] by Pharmaram,Drug,RxNorm Extension,standard,A10BK_sodium_glucose_co_transporter_2_sglt2_inhibitors,sglt2_inhibitors,SGLT2 inhibitors,drug
+36074835,dapagliflozin 10 MG Oral Tablet [Forxiga] Box of 30 by CST,Drug,RxNorm Extension,standard,A10BK_sodium_glucose_co_transporter_2_sglt2_inhibitors,sglt2_inhibitors,SGLT2 inhibitors,drug
+36074836,dapagliflozin 10 MG Oral Tablet [Forxiga] Box of 30 by Ethigen,Drug,RxNorm Extension,standard,A10BK_sodium_glucose_co_transporter_2_sglt2_inhibitors,sglt2_inhibitors,SGLT2 inhibitors,drug
+36074921,canagliflozin 100 MG Oral Tablet Box of 28,Drug,RxNorm Extension,standard,A10BK_sodium_glucose_co_transporter_2_sglt2_inhibitors,sglt2_inhibitors,SGLT2 inhibitors,drug
+36258765,canagliflozin 300 MG Oral Tablet [Invokana] Box of 90 by Janssen,Drug,RxNorm Extension,standard,A10BK_sodium_glucose_co_transporter_2_sglt2_inhibitors,sglt2_inhibitors,SGLT2 inhibitors,drug
+36262387,canagliflozin 300 MG Oral Tablet [Invokana] Box of 90,Drug,RxNorm Extension,standard,A10BK_sodium_glucose_co_transporter_2_sglt2_inhibitors,sglt2_inhibitors,SGLT2 inhibitors,drug
+36273902,canagliflozin 100 MG Oral Tablet [Invokana] Box of 90 by Janssen,Drug,RxNorm Extension,standard,A10BK_sodium_glucose_co_transporter_2_sglt2_inhibitors,sglt2_inhibitors,SGLT2 inhibitors,drug
+36274846,canagliflozin 100 MG Oral Tablet Box of 90,Drug,RxNorm Extension,standard,A10BK_sodium_glucose_co_transporter_2_sglt2_inhibitors,sglt2_inhibitors,SGLT2 inhibitors,drug
+36274847,canagliflozin 300 MG Oral Tablet Box of 90,Drug,RxNorm Extension,standard,A10BK_sodium_glucose_co_transporter_2_sglt2_inhibitors,sglt2_inhibitors,SGLT2 inhibitors,drug
+36275199,canagliflozin 100 MG Oral Tablet [Invokana] Box of 90,Drug,RxNorm Extension,standard,A10BK_sodium_glucose_co_transporter_2_sglt2_inhibitors,sglt2_inhibitors,SGLT2 inhibitors,drug
+36509850,empagliflozin 10 MG Delayed Release Oral Tablet [Jardiance] by Boehringer Ingelheim,Drug,RxNorm Extension,standard,A10BK_sodium_glucose_co_transporter_2_sglt2_inhibitors,sglt2_inhibitors,SGLT2 inhibitors,drug
+36782042,canagliflozin 100 MG Delayed Release Oral Tablet [Invokana] Box of 90 by Mundipharma,Drug,RxNorm Extension,standard,A10BK_sodium_glucose_co_transporter_2_sglt2_inhibitors,sglt2_inhibitors,SGLT2 inhibitors,drug
+36782043,canagliflozin 100 MG Delayed Release Oral Tablet [Invokana] Box of 90,Drug,RxNorm Extension,standard,A10BK_sodium_glucose_co_transporter_2_sglt2_inhibitors,sglt2_inhibitors,SGLT2 inhibitors,drug
+36782044,canagliflozin 100 MG Delayed Release Oral Tablet [Invokana] Box of 30 by Mundipharma,Drug,RxNorm Extension,standard,A10BK_sodium_glucose_co_transporter_2_sglt2_inhibitors,sglt2_inhibitors,SGLT2 inhibitors,drug
+36782045,canagliflozin 100 MG Delayed Release Oral Tablet [Invokana] Box of 30,Drug,RxNorm Extension,standard,A10BK_sodium_glucose_co_transporter_2_sglt2_inhibitors,sglt2_inhibitors,SGLT2 inhibitors,drug
+36782046,canagliflozin 100 MG Delayed Release Oral Tablet [Invokana],Drug,RxNorm Extension,standard,A10BK_sodium_glucose_co_transporter_2_sglt2_inhibitors,sglt2_inhibitors,SGLT2 inhibitors,drug
+36782047,canagliflozin 100 MG Delayed Release Oral Tablet Box of 90,Drug,RxNorm Extension,standard,A10BK_sodium_glucose_co_transporter_2_sglt2_inhibitors,sglt2_inhibitors,SGLT2 inhibitors,drug
+36782048,canagliflozin 100 MG Delayed Release Oral Tablet Box of 30,Drug,RxNorm Extension,standard,A10BK_sodium_glucose_co_transporter_2_sglt2_inhibitors,sglt2_inhibitors,SGLT2 inhibitors,drug
+36782049,canagliflozin 100 MG Delayed Release Oral Tablet,Drug,RxNorm Extension,standard,A10BK_sodium_glucose_co_transporter_2_sglt2_inhibitors,sglt2_inhibitors,SGLT2 inhibitors,drug
+36782050,canagliflozin 300 MG Delayed Release Oral Tablet [Invokana] Box of 90 by Mundipharma,Drug,RxNorm Extension,standard,A10BK_sodium_glucose_co_transporter_2_sglt2_inhibitors,sglt2_inhibitors,SGLT2 inhibitors,drug
+36782051,canagliflozin 300 MG Delayed Release Oral Tablet [Invokana] Box of 90,Drug,RxNorm Extension,standard,A10BK_sodium_glucose_co_transporter_2_sglt2_inhibitors,sglt2_inhibitors,SGLT2 inhibitors,drug
+36782052,canagliflozin 300 MG Delayed Release Oral Tablet [Invokana] Box of 30 by Mundipharma,Drug,RxNorm Extension,standard,A10BK_sodium_glucose_co_transporter_2_sglt2_inhibitors,sglt2_inhibitors,SGLT2 inhibitors,drug
+36782053,canagliflozin 300 MG Delayed Release Oral Tablet [Invokana] Box of 30,Drug,RxNorm Extension,standard,A10BK_sodium_glucose_co_transporter_2_sglt2_inhibitors,sglt2_inhibitors,SGLT2 inhibitors,drug
+36782054,canagliflozin 300 MG Delayed Release Oral Tablet [Invokana],Drug,RxNorm Extension,standard,A10BK_sodium_glucose_co_transporter_2_sglt2_inhibitors,sglt2_inhibitors,SGLT2 inhibitors,drug
+36782055,canagliflozin 300 MG Delayed Release Oral Tablet Box of 90,Drug,RxNorm Extension,standard,A10BK_sodium_glucose_co_transporter_2_sglt2_inhibitors,sglt2_inhibitors,SGLT2 inhibitors,drug
+36782056,canagliflozin 300 MG Delayed Release Oral Tablet Box of 30,Drug,RxNorm Extension,standard,A10BK_sodium_glucose_co_transporter_2_sglt2_inhibitors,sglt2_inhibitors,SGLT2 inhibitors,drug
+36782057,canagliflozin 300 MG Delayed Release Oral Tablet,Drug,RxNorm Extension,standard,A10BK_sodium_glucose_co_transporter_2_sglt2_inhibitors,sglt2_inhibitors,SGLT2 inhibitors,drug
+36782058,canagliflozin Delayed Release Oral Tablet [Invokana],Drug,RxNorm Extension,standard,A10BK_sodium_glucose_co_transporter_2_sglt2_inhibitors,sglt2_inhibitors,SGLT2 inhibitors,drug
+36782059,canagliflozin Delayed Release Oral Tablet,Drug,RxNorm Extension,standard,A10BK_sodium_glucose_co_transporter_2_sglt2_inhibitors,sglt2_inhibitors,SGLT2 inhibitors,drug
+36788049,empagliflozin 25 MG Delayed Release Oral Tablet [Jardiance] Box of 100 by Boehringer Ingelheim,Drug,RxNorm Extension,standard,A10BK_sodium_glucose_co_transporter_2_sglt2_inhibitors,sglt2_inhibitors,SGLT2 inhibitors,drug
+36788050,empagliflozin 25 MG Delayed Release Oral Tablet [Jardiance] Box of 100,Drug,RxNorm Extension,standard,A10BK_sodium_glucose_co_transporter_2_sglt2_inhibitors,sglt2_inhibitors,SGLT2 inhibitors,drug
+36788051,empagliflozin 25 MG Delayed Release Oral Tablet [Jardiance] Box of 30 by Boehringer Ingelheim,Drug,RxNorm Extension,standard,A10BK_sodium_glucose_co_transporter_2_sglt2_inhibitors,sglt2_inhibitors,SGLT2 inhibitors,drug
+36788052,empagliflozin 25 MG Delayed Release Oral Tablet [Jardiance] Box of 30,Drug,RxNorm Extension,standard,A10BK_sodium_glucose_co_transporter_2_sglt2_inhibitors,sglt2_inhibitors,SGLT2 inhibitors,drug
+36788053,empagliflozin 25 MG Delayed Release Oral Tablet [Jardiance],Drug,RxNorm Extension,standard,A10BK_sodium_glucose_co_transporter_2_sglt2_inhibitors,sglt2_inhibitors,SGLT2 inhibitors,drug
+36788054,empagliflozin 25 MG Delayed Release Oral Tablet Box of 100,Drug,RxNorm Extension,standard,A10BK_sodium_glucose_co_transporter_2_sglt2_inhibitors,sglt2_inhibitors,SGLT2 inhibitors,drug
+36788055,empagliflozin 25 MG Delayed Release Oral Tablet Box of 30,Drug,RxNorm Extension,standard,A10BK_sodium_glucose_co_transporter_2_sglt2_inhibitors,sglt2_inhibitors,SGLT2 inhibitors,drug
+36788056,empagliflozin 25 MG Delayed Release Oral Tablet,Drug,RxNorm Extension,standard,A10BK_sodium_glucose_co_transporter_2_sglt2_inhibitors,sglt2_inhibitors,SGLT2 inhibitors,drug
+36788057,empagliflozin 10 MG Delayed Release Oral Tablet [Jardiance] Box of 100 by Boehringer Ingelheim,Drug,RxNorm Extension,standard,A10BK_sodium_glucose_co_transporter_2_sglt2_inhibitors,sglt2_inhibitors,SGLT2 inhibitors,drug
+36788058,empagliflozin 10 MG Delayed Release Oral Tablet [Jardiance] Box of 100,Drug,RxNorm Extension,standard,A10BK_sodium_glucose_co_transporter_2_sglt2_inhibitors,sglt2_inhibitors,SGLT2 inhibitors,drug
+36788059,empagliflozin 10 MG Delayed Release Oral Tablet [Jardiance] Box of 30 by Boehringer Ingelheim,Drug,RxNorm Extension,standard,A10BK_sodium_glucose_co_transporter_2_sglt2_inhibitors,sglt2_inhibitors,SGLT2 inhibitors,drug
+36788060,empagliflozin 10 MG Delayed Release Oral Tablet [Jardiance] Box of 30,Drug,RxNorm Extension,standard,A10BK_sodium_glucose_co_transporter_2_sglt2_inhibitors,sglt2_inhibitors,SGLT2 inhibitors,drug
+36788061,empagliflozin 10 MG Delayed Release Oral Tablet [Jardiance],Drug,RxNorm Extension,standard,A10BK_sodium_glucose_co_transporter_2_sglt2_inhibitors,sglt2_inhibitors,SGLT2 inhibitors,drug
+36788062,empagliflozin 10 MG Delayed Release Oral Tablet Box of 100,Drug,RxNorm Extension,standard,A10BK_sodium_glucose_co_transporter_2_sglt2_inhibitors,sglt2_inhibitors,SGLT2 inhibitors,drug
+36788063,empagliflozin 10 MG Delayed Release Oral Tablet Box of 30,Drug,RxNorm Extension,standard,A10BK_sodium_glucose_co_transporter_2_sglt2_inhibitors,sglt2_inhibitors,SGLT2 inhibitors,drug
+36788064,empagliflozin 10 MG Delayed Release Oral Tablet,Drug,RxNorm Extension,standard,A10BK_sodium_glucose_co_transporter_2_sglt2_inhibitors,sglt2_inhibitors,SGLT2 inhibitors,drug
+36788065,empagliflozin Delayed Release Oral Tablet [Jardiance],Drug,RxNorm Extension,standard,A10BK_sodium_glucose_co_transporter_2_sglt2_inhibitors,sglt2_inhibitors,SGLT2 inhibitors,drug
+36788066,empagliflozin Delayed Release Oral Tablet,Drug,RxNorm Extension,standard,A10BK_sodium_glucose_co_transporter_2_sglt2_inhibitors,sglt2_inhibitors,SGLT2 inhibitors,drug
+36788779,dapagliflozin 10 MG Delayed Release Oral Tablet [Forxiga] Box of 98 by Astrazeneca,Drug,RxNorm Extension,standard,A10BK_sodium_glucose_co_transporter_2_sglt2_inhibitors,sglt2_inhibitors,SGLT2 inhibitors,drug
+36788780,dapagliflozin 10 MG Delayed Release Oral Tablet [Forxiga] Box of 98,Drug,RxNorm Extension,standard,A10BK_sodium_glucose_co_transporter_2_sglt2_inhibitors,sglt2_inhibitors,SGLT2 inhibitors,drug
+36788781,dapagliflozin 10 MG Delayed Release Oral Tablet [Forxiga] Box of 28 by Astrazeneca,Drug,RxNorm Extension,standard,A10BK_sodium_glucose_co_transporter_2_sglt2_inhibitors,sglt2_inhibitors,SGLT2 inhibitors,drug
+36788782,dapagliflozin 10 MG Delayed Release Oral Tablet [Forxiga] Box of 28,Drug,RxNorm Extension,standard,A10BK_sodium_glucose_co_transporter_2_sglt2_inhibitors,sglt2_inhibitors,SGLT2 inhibitors,drug
+36788783,dapagliflozin 10 MG Delayed Release Oral Tablet [Forxiga],Drug,RxNorm Extension,standard,A10BK_sodium_glucose_co_transporter_2_sglt2_inhibitors,sglt2_inhibitors,SGLT2 inhibitors,drug
+36788784,dapagliflozin 10 MG Delayed Release Oral Tablet Box of 98,Drug,RxNorm Extension,standard,A10BK_sodium_glucose_co_transporter_2_sglt2_inhibitors,sglt2_inhibitors,SGLT2 inhibitors,drug
+36788786,dapagliflozin 10 MG Delayed Release Oral Tablet Box of 28,Drug,RxNorm Extension,standard,A10BK_sodium_glucose_co_transporter_2_sglt2_inhibitors,sglt2_inhibitors,SGLT2 inhibitors,drug
+36788787,dapagliflozin 10 MG Delayed Release Oral Tablet,Drug,RxNorm Extension,standard,A10BK_sodium_glucose_co_transporter_2_sglt2_inhibitors,sglt2_inhibitors,SGLT2 inhibitors,drug
+36788788,dapagliflozin Delayed Release Oral Tablet [Forxiga],Drug,RxNorm Extension,standard,A10BK_sodium_glucose_co_transporter_2_sglt2_inhibitors,sglt2_inhibitors,SGLT2 inhibitors,drug
+36788789,dapagliflozin Delayed Release Oral Tablet,Drug,RxNorm Extension,standard,A10BK_sodium_glucose_co_transporter_2_sglt2_inhibitors,sglt2_inhibitors,SGLT2 inhibitors,drug
+36810294,ertugliflozin 15 MG Oral Tablet Box of 28,Drug,RxNorm Extension,standard,A10BK_sodium_glucose_co_transporter_2_sglt2_inhibitors,sglt2_inhibitors,SGLT2 inhibitors,drug
+36810445,ertugliflozin 5 MG Oral Tablet Box of 28,Drug,RxNorm Extension,standard,A10BK_sodium_glucose_co_transporter_2_sglt2_inhibitors,sglt2_inhibitors,SGLT2 inhibitors,drug
+36811625,ertugliflozin 5 MG Oral Tablet [Steglatro] by Merck,Drug,RxNorm Extension,standard,A10BK_sodium_glucose_co_transporter_2_sglt2_inhibitors,sglt2_inhibitors,SGLT2 inhibitors,drug
+36812927,ertugliflozin 5 MG Oral Tablet [Steglatro] Box of 28,Drug,RxNorm Extension,standard,A10BK_sodium_glucose_co_transporter_2_sglt2_inhibitors,sglt2_inhibitors,SGLT2 inhibitors,drug
+36812966,ertugliflozin 15 MG Oral Tablet [Steglatro] Box of 28 by Merck,Drug,RxNorm Extension,standard,A10BK_sodium_glucose_co_transporter_2_sglt2_inhibitors,sglt2_inhibitors,SGLT2 inhibitors,drug
+36813349,ertugliflozin 15 MG Oral Tablet [Steglatro] by Merck,Drug,RxNorm Extension,standard,A10BK_sodium_glucose_co_transporter_2_sglt2_inhibitors,sglt2_inhibitors,SGLT2 inhibitors,drug
+36813884,ertugliflozin 15 MG Oral Tablet [Steglatro] Box of 28,Drug,RxNorm Extension,standard,A10BK_sodium_glucose_co_transporter_2_sglt2_inhibitors,sglt2_inhibitors,SGLT2 inhibitors,drug
+36814594,ertugliflozin 5 MG Oral Tablet [Steglatro] Box of 28 by Merck,Drug,RxNorm Extension,standard,A10BK_sodium_glucose_co_transporter_2_sglt2_inhibitors,sglt2_inhibitors,SGLT2 inhibitors,drug
+36927492,empagliflozin 10 MG Oral Tablet [Jardiance] Box of 28,Drug,RxNorm Extension,standard,A10BK_sodium_glucose_co_transporter_2_sglt2_inhibitors,sglt2_inhibitors,SGLT2 inhibitors,drug
+36927535,canagliflozin 300 MG Oral Tablet [Invokana] Box of 30 by Pilsco,Drug,RxNorm Extension,standard,A10BK_sodium_glucose_co_transporter_2_sglt2_inhibitors,sglt2_inhibitors,SGLT2 inhibitors,drug
+36928709,canagliflozin 300 MG Oral Tablet [Invokana] by Pilsco,Drug,RxNorm Extension,standard,A10BK_sodium_glucose_co_transporter_2_sglt2_inhibitors,sglt2_inhibitors,SGLT2 inhibitors,drug
+36945567,dapagliflozin 5 MG Oral Tablet [Forxiga] Box of 30 by DE,Drug,RxNorm Extension,standard,A10BK_sodium_glucose_co_transporter_2_sglt2_inhibitors,sglt2_inhibitors,SGLT2 inhibitors,drug
+36946454,empagliflozin 10 MG Oral Tablet [Jardiance] Box of 28 by Ethigen,Drug,RxNorm Extension,standard,A10BK_sodium_glucose_co_transporter_2_sglt2_inhibitors,sglt2_inhibitors,SGLT2 inhibitors,drug
+36947610,canagliflozin 300 MG Oral Tablet [Invokana] Box of 30,Drug,RxNorm Extension,standard,A10BK_sodium_glucose_co_transporter_2_sglt2_inhibitors,sglt2_inhibitors,SGLT2 inhibitors,drug
+36962935,dapagliflozin 5 MG Oral Tablet Box of 30,Drug,RxNorm Extension,standard,A10BK_sodium_glucose_co_transporter_2_sglt2_inhibitors,sglt2_inhibitors,SGLT2 inhibitors,drug
+36969247,dapagliflozin 5 MG Oral Tablet [Forxiga] Box of 30,Drug,RxNorm Extension,standard,A10BK_sodium_glucose_co_transporter_2_sglt2_inhibitors,sglt2_inhibitors,SGLT2 inhibitors,drug
+40721261,canagliflozin 100 MG Oral Tablet [Invokana] Box of 30 by Napp,Drug,RxNorm Extension,standard,A10BK_sodium_glucose_co_transporter_2_sglt2_inhibitors,sglt2_inhibitors,SGLT2 inhibitors,drug
+40721262,canagliflozin 100 MG Oral Tablet [Invokana] by Napp,Drug,RxNorm Extension,standard,A10BK_sodium_glucose_co_transporter_2_sglt2_inhibitors,sglt2_inhibitors,SGLT2 inhibitors,drug
+40721263,canagliflozin 300 MG Oral Tablet [Invokana] Box of 30 by Napp,Drug,RxNorm Extension,standard,A10BK_sodium_glucose_co_transporter_2_sglt2_inhibitors,sglt2_inhibitors,SGLT2 inhibitors,drug
+40721264,canagliflozin 300 MG Oral Tablet [Invokana] by Napp,Drug,RxNorm Extension,standard,A10BK_sodium_glucose_co_transporter_2_sglt2_inhibitors,sglt2_inhibitors,SGLT2 inhibitors,drug
+40846851,empagliflozin 25 MG Oral Tablet [Jardiance] Box of 100,Drug,RxNorm Extension,standard,A10BK_sodium_glucose_co_transporter_2_sglt2_inhibitors,sglt2_inhibitors,SGLT2 inhibitors,drug
+40855378,empagliflozin 10 MG Oral Tablet [Jardiance] Box of 30 by Boehringer Ingelheim,Drug,RxNorm Extension,standard,A10BK_sodium_glucose_co_transporter_2_sglt2_inhibitors,sglt2_inhibitors,SGLT2 inhibitors,drug
+40855800,dapagliflozin 10 MG Oral Tablet [Forxiga] Box of 98 by Astrazeneca,Drug,RxNorm Extension,standard,A10BK_sodium_glucose_co_transporter_2_sglt2_inhibitors,sglt2_inhibitors,SGLT2 inhibitors,drug
+40856479,canagliflozin 100 MG Oral Tablet [Invokana] Box of 100 by Janssen,Drug,RxNorm Extension,standard,A10BK_sodium_glucose_co_transporter_2_sglt2_inhibitors,sglt2_inhibitors,SGLT2 inhibitors,drug
+40880199,canagliflozin 300 MG Oral Tablet [Invokana] Box of 100,Drug,RxNorm Extension,standard,A10BK_sodium_glucose_co_transporter_2_sglt2_inhibitors,sglt2_inhibitors,SGLT2 inhibitors,drug
+40886683,empagliflozin 25 MG Oral Tablet [Jardiance] Box of 30 by Boehringer Ingelheim,Drug,RxNorm Extension,standard,A10BK_sodium_glucose_co_transporter_2_sglt2_inhibitors,sglt2_inhibitors,SGLT2 inhibitors,drug
+40887126,dapagliflozin 10 MG Oral Tablet [Forxiga] Box of 28 by Eurim-Pharm,Drug,RxNorm Extension,standard,A10BK_sodium_glucose_co_transporter_2_sglt2_inhibitors,sglt2_inhibitors,SGLT2 inhibitors,drug
+40898738,empagliflozin 10 MG Oral Tablet Box of 70,Drug,RxNorm Extension,standard,A10BK_sodium_glucose_co_transporter_2_sglt2_inhibitors,sglt2_inhibitors,SGLT2 inhibitors,drug
+40929856,empagliflozin 25 MG Oral Tablet Box of 100,Drug,RxNorm Extension,standard,A10BK_sodium_glucose_co_transporter_2_sglt2_inhibitors,sglt2_inhibitors,SGLT2 inhibitors,drug
+40930896,canagliflozin 100 MG Oral Tablet Box of 100,Drug,RxNorm Extension,standard,A10BK_sodium_glucose_co_transporter_2_sglt2_inhibitors,sglt2_inhibitors,SGLT2 inhibitors,drug
+40962151,canagliflozin 300 MG Oral Tablet Box of 100,Drug,RxNorm Extension,standard,A10BK_sodium_glucose_co_transporter_2_sglt2_inhibitors,sglt2_inhibitors,SGLT2 inhibitors,drug
+40980366,dapagliflozin 10 MG Oral Tablet [Forxiga] Box of 98 by European,Drug,RxNorm Extension,standard,A10BK_sodium_glucose_co_transporter_2_sglt2_inhibitors,sglt2_inhibitors,SGLT2 inhibitors,drug
+40981049,canagliflozin 300 MG Oral Tablet [Invokana] Box of 30 by Orifarm Leverkus,Drug,RxNorm Extension,standard,A10BK_sodium_glucose_co_transporter_2_sglt2_inhibitors,sglt2_inhibitors,SGLT2 inhibitors,drug
+40981050,canagliflozin 300 MG Oral Tablet [Invokana] Box of 100 by Orifarm Leverkus,Drug,RxNorm Extension,standard,A10BK_sodium_glucose_co_transporter_2_sglt2_inhibitors,sglt2_inhibitors,SGLT2 inhibitors,drug
+40992435,empagliflozin 10 MG Oral Tablet Box of 100,Drug,RxNorm Extension,standard,A10BK_sodium_glucose_co_transporter_2_sglt2_inhibitors,sglt2_inhibitors,SGLT2 inhibitors,drug
+41011261,empagliflozin 25 MG Oral Tablet [Jardiance] Box of 100 by Boehringer Ingelheim,Drug,RxNorm Extension,standard,A10BK_sodium_glucose_co_transporter_2_sglt2_inhibitors,sglt2_inhibitors,SGLT2 inhibitors,drug
+41023709,dapagliflozin 10 MG Oral Tablet Box of 98,Drug,RxNorm Extension,standard,A10BK_sodium_glucose_co_transporter_2_sglt2_inhibitors,sglt2_inhibitors,SGLT2 inhibitors,drug
+41033737,empagliflozin 25 MG Oral Tablet [Jardiance] Box of 70,Drug,RxNorm Extension,standard,A10BK_sodium_glucose_co_transporter_2_sglt2_inhibitors,sglt2_inhibitors,SGLT2 inhibitors,drug
+41042795,dapagliflozin 10 MG Oral Tablet [Forxiga] Box of 28 by European,Drug,RxNorm Extension,standard,A10BK_sodium_glucose_co_transporter_2_sglt2_inhibitors,sglt2_inhibitors,SGLT2 inhibitors,drug
+41042796,dapagliflozin 10 MG Oral Tablet [Forxiga] Box of 98 by Eurim-Pharm,Drug,RxNorm Extension,standard,A10BK_sodium_glucose_co_transporter_2_sglt2_inhibitors,sglt2_inhibitors,SGLT2 inhibitors,drug
+41064872,empagliflozin 10 MG Oral Tablet [Jardiance] Box of 70,Drug,RxNorm Extension,standard,A10BK_sodium_glucose_co_transporter_2_sglt2_inhibitors,sglt2_inhibitors,SGLT2 inhibitors,drug
+41074785,canagliflozin 300 MG Oral Tablet [Invokana] Box of 100 by Janssen,Drug,RxNorm Extension,standard,A10BK_sodium_glucose_co_transporter_2_sglt2_inhibitors,sglt2_inhibitors,SGLT2 inhibitors,drug
+41097250,dapagliflozin 10 MG Oral Tablet [Forxiga] Box of 98,Drug,RxNorm Extension,standard,A10BK_sodium_glucose_co_transporter_2_sglt2_inhibitors,sglt2_inhibitors,SGLT2 inhibitors,drug
+41105129,empagliflozin 25 MG Oral Tablet [Jardiance] Box of 70 by Boehringer Ingelheim,Drug,RxNorm Extension,standard,A10BK_sodium_glucose_co_transporter_2_sglt2_inhibitors,sglt2_inhibitors,SGLT2 inhibitors,drug
+41117427,empagliflozin 25 MG Oral Tablet Box of 70,Drug,RxNorm Extension,standard,A10BK_sodium_glucose_co_transporter_2_sglt2_inhibitors,sglt2_inhibitors,SGLT2 inhibitors,drug
+41136536,empagliflozin 10 MG Oral Tablet [Jardiance] Box of 100 by Boehringer Ingelheim,Drug,RxNorm Extension,standard,A10BK_sodium_glucose_co_transporter_2_sglt2_inhibitors,sglt2_inhibitors,SGLT2 inhibitors,drug
+41137648,canagliflozin 100 MG Oral Tablet [Invokana] Box of 100 by Orifarm Leverkus,Drug,RxNorm Extension,standard,A10BK_sodium_glucose_co_transporter_2_sglt2_inhibitors,sglt2_inhibitors,SGLT2 inhibitors,drug
+41190318,empagliflozin 10 MG Oral Tablet [Jardiance] Box of 100,Drug,RxNorm Extension,standard,A10BK_sodium_glucose_co_transporter_2_sglt2_inhibitors,sglt2_inhibitors,SGLT2 inhibitors,drug
+41230230,empagliflozin 10 MG Oral Tablet [Jardiance] Box of 70 by Boehringer Ingelheim,Drug,RxNorm Extension,standard,A10BK_sodium_glucose_co_transporter_2_sglt2_inhibitors,sglt2_inhibitors,SGLT2 inhibitors,drug
+41285598,canagliflozin 100 MG Oral Tablet [Invokana] Box of 100,Drug,RxNorm Extension,standard,A10BK_sodium_glucose_co_transporter_2_sglt2_inhibitors,sglt2_inhibitors,SGLT2 inhibitors,drug
+41293190,canagliflozin 100 MG Oral Tablet [Invokana] Box of 30 by Orifarm Leverkus,Drug,RxNorm Extension,standard,A10BK_sodium_glucose_co_transporter_2_sglt2_inhibitors,sglt2_inhibitors,SGLT2 inhibitors,drug
+42875429,empagliflozin 25 MG Delayed Release Oral Tablet Box of 14,Drug,RxNorm Extension,standard,A10BK_sodium_glucose_co_transporter_2_sglt2_inhibitors,sglt2_inhibitors,SGLT2 inhibitors,drug
+42875430,empagliflozin 25 MG Delayed Release Oral Tablet [Jardiance] Box of 14,Drug,RxNorm Extension,standard,A10BK_sodium_glucose_co_transporter_2_sglt2_inhibitors,sglt2_inhibitors,SGLT2 inhibitors,drug
+42875431,empagliflozin 25 MG Delayed Release Oral Tablet [Jardiance] Box of 14 by Boehringer Ingelheim,Drug,RxNorm Extension,standard,A10BK_sodium_glucose_co_transporter_2_sglt2_inhibitors,sglt2_inhibitors,SGLT2 inhibitors,drug
+42875432,empagliflozin 25 MG Oral Tablet Box of 14,Drug,RxNorm Extension,standard,A10BK_sodium_glucose_co_transporter_2_sglt2_inhibitors,sglt2_inhibitors,SGLT2 inhibitors,drug
+42875433,empagliflozin 25 MG Oral Tablet [Jardiance] Box of 14,Drug,RxNorm Extension,standard,A10BK_sodium_glucose_co_transporter_2_sglt2_inhibitors,sglt2_inhibitors,SGLT2 inhibitors,drug
+42875434,empagliflozin 25 MG Oral Tablet [Jardiance] Box of 14 by Boehringer Ingelheim,Drug,RxNorm Extension,standard,A10BK_sodium_glucose_co_transporter_2_sglt2_inhibitors,sglt2_inhibitors,SGLT2 inhibitors,drug
+42962855,ipragliflozin 50 MG Oral Tablet,Drug,RxNorm Extension,standard,A10BK_sodium_glucose_co_transporter_2_sglt2_inhibitors,sglt2_inhibitors,SGLT2 inhibitors,drug
+42962856,ipragliflozin 50 MG Oral Tablet [SUGLAT],Drug,RxNorm Extension,standard,A10BK_sodium_glucose_co_transporter_2_sglt2_inhibitors,sglt2_inhibitors,SGLT2 inhibitors,drug
+42962857,ipragliflozin 50 MG,Drug,RxNorm Extension,standard,A10BK_sodium_glucose_co_transporter_2_sglt2_inhibitors,sglt2_inhibitors,SGLT2 inhibitors,drug
+42962858,ipragliflozin 50 MG [SUGLAT],Drug,RxNorm Extension,standard,A10BK_sodium_glucose_co_transporter_2_sglt2_inhibitors,sglt2_inhibitors,SGLT2 inhibitors,drug
+42962859,ipragliflozin Oral Tablet,Drug,RxNorm Extension,standard,A10BK_sodium_glucose_co_transporter_2_sglt2_inhibitors,sglt2_inhibitors,SGLT2 inhibitors,drug
+42962860,ipragliflozin Oral Tablet [SUGLAT],Drug,RxNorm Extension,standard,A10BK_sodium_glucose_co_transporter_2_sglt2_inhibitors,sglt2_inhibitors,SGLT2 inhibitors,drug
+43009020,ipragliflozin,Drug,RxNorm Extension,standard,A10BK_sodium_glucose_co_transporter_2_sglt2_inhibitors,sglt2_inhibitors,SGLT2 inhibitors,drug
+43258480,empagliflozin 25 MG Oral Tablet Box of 30,Drug,RxNorm Extension,standard,A10BK_sodium_glucose_co_transporter_2_sglt2_inhibitors,sglt2_inhibitors,SGLT2 inhibitors,drug
+43258637,dapagliflozin 10 MG Oral Tablet [Forxiga] Box of 7,Drug,RxNorm Extension,standard,A10BK_sodium_glucose_co_transporter_2_sglt2_inhibitors,sglt2_inhibitors,SGLT2 inhibitors,drug
+43269375,empagliflozin 10 MG Oral Tablet Box of 30,Drug,RxNorm Extension,standard,A10BK_sodium_glucose_co_transporter_2_sglt2_inhibitors,sglt2_inhibitors,SGLT2 inhibitors,drug
+43280253,empagliflozin 25 MG Oral Tablet [Jardiance] Box of 30,Drug,RxNorm Extension,standard,A10BK_sodium_glucose_co_transporter_2_sglt2_inhibitors,sglt2_inhibitors,SGLT2 inhibitors,drug
+43291260,dapagliflozin 10 MG Oral Tablet Box of 7,Drug,RxNorm Extension,standard,A10BK_sodium_glucose_co_transporter_2_sglt2_inhibitors,sglt2_inhibitors,SGLT2 inhibitors,drug
+43296487,empagliflozin 10 MG Oral Tablet [Jardiance] Box of 30,Drug,RxNorm Extension,standard,A10BK_sodium_glucose_co_transporter_2_sglt2_inhibitors,sglt2_inhibitors,SGLT2 inhibitors,drug
+43526465,canagliflozin,Drug,RxNorm,standard,A10BK_sodium_glucose_co_transporter_2_sglt2_inhibitors,sglt2_inhibitors,SGLT2 inhibitors,drug
+43526466,canagliflozin 100 MG,Drug,RxNorm,standard,A10BK_sodium_glucose_co_transporter_2_sglt2_inhibitors,sglt2_inhibitors,SGLT2 inhibitors,drug
+43526467,canagliflozin 100 MG Oral Tablet,Drug,RxNorm,standard,A10BK_sodium_glucose_co_transporter_2_sglt2_inhibitors,sglt2_inhibitors,SGLT2 inhibitors,drug
+43526468,canagliflozin 100 MG Oral Tablet [Invokana],Drug,RxNorm,standard,A10BK_sodium_glucose_co_transporter_2_sglt2_inhibitors,sglt2_inhibitors,SGLT2 inhibitors,drug
+43526469,canagliflozin 100 MG [Invokana],Drug,RxNorm,standard,A10BK_sodium_glucose_co_transporter_2_sglt2_inhibitors,sglt2_inhibitors,SGLT2 inhibitors,drug
+43526470,canagliflozin 300 MG,Drug,RxNorm,standard,A10BK_sodium_glucose_co_transporter_2_sglt2_inhibitors,sglt2_inhibitors,SGLT2 inhibitors,drug
+43526471,canagliflozin 300 MG Oral Tablet,Drug,RxNorm,standard,A10BK_sodium_glucose_co_transporter_2_sglt2_inhibitors,sglt2_inhibitors,SGLT2 inhibitors,drug
+43526472,canagliflozin 300 MG Oral Tablet [Invokana],Drug,RxNorm,standard,A10BK_sodium_glucose_co_transporter_2_sglt2_inhibitors,sglt2_inhibitors,SGLT2 inhibitors,drug
+43526473,canagliflozin 300 MG [Invokana],Drug,RxNorm,standard,A10BK_sodium_glucose_co_transporter_2_sglt2_inhibitors,sglt2_inhibitors,SGLT2 inhibitors,drug
+43526474,canagliflozin Oral Tablet,Drug,RxNorm,standard,A10BK_sodium_glucose_co_transporter_2_sglt2_inhibitors,sglt2_inhibitors,SGLT2 inhibitors,drug
+43526475,canagliflozin Oral Tablet [Invokana],Drug,RxNorm,standard,A10BK_sodium_glucose_co_transporter_2_sglt2_inhibitors,sglt2_inhibitors,SGLT2 inhibitors,drug
+44037881,dapagliflozin 5 MG Oral Tablet [Farxiga] by Astrazeneca,Drug,RxNorm Extension,standard,A10BK_sodium_glucose_co_transporter_2_sglt2_inhibitors,sglt2_inhibitors,SGLT2 inhibitors,drug
+44128622,dapagliflozin 10 MG Oral Tablet [Farxiga] by Astrazeneca,Drug,RxNorm Extension,standard,A10BK_sodium_glucose_co_transporter_2_sglt2_inhibitors,sglt2_inhibitors,SGLT2 inhibitors,drug
+44160227,dapagliflozin 10 MG Oral Tablet [Forxiga] Box of 98 by European,Drug,RxNorm Extension,standard,A10BK_sodium_glucose_co_transporter_2_sglt2_inhibitors,sglt2_inhibitors,SGLT2 inhibitors,drug
+44182774,dapagliflozin 10 MG Oral Tablet [Forxiga] Box of 28 by European,Drug,RxNorm Extension,standard,A10BK_sodium_glucose_co_transporter_2_sglt2_inhibitors,sglt2_inhibitors,SGLT2 inhibitors,drug
+44785473,dapagliflozin 10 MG Oral Tablet [Farxiga],Drug,RxNorm,standard,A10BK_sodium_glucose_co_transporter_2_sglt2_inhibitors,sglt2_inhibitors,SGLT2 inhibitors,drug
+44785477,dapagliflozin 5 MG Oral Tablet [Farxiga],Drug,RxNorm,standard,A10BK_sodium_glucose_co_transporter_2_sglt2_inhibitors,sglt2_inhibitors,SGLT2 inhibitors,drug
+44785829,dapagliflozin,Drug,RxNorm,standard,A10BK_sodium_glucose_co_transporter_2_sglt2_inhibitors,sglt2_inhibitors,SGLT2 inhibitors,drug
+44785830,dapagliflozin 10 MG,Drug,RxNorm,standard,A10BK_sodium_glucose_co_transporter_2_sglt2_inhibitors,sglt2_inhibitors,SGLT2 inhibitors,drug
+44785831,dapagliflozin 10 MG Oral Tablet,Drug,RxNorm,standard,A10BK_sodium_glucose_co_transporter_2_sglt2_inhibitors,sglt2_inhibitors,SGLT2 inhibitors,drug
+44785832,dapagliflozin 5 MG,Drug,RxNorm,standard,A10BK_sodium_glucose_co_transporter_2_sglt2_inhibitors,sglt2_inhibitors,SGLT2 inhibitors,drug
+44785833,dapagliflozin 5 MG Oral Tablet,Drug,RxNorm,standard,A10BK_sodium_glucose_co_transporter_2_sglt2_inhibitors,sglt2_inhibitors,SGLT2 inhibitors,drug
+44785834,dapagliflozin Oral Tablet,Drug,RxNorm,standard,A10BK_sodium_glucose_co_transporter_2_sglt2_inhibitors,sglt2_inhibitors,SGLT2 inhibitors,drug
+44815995,dapagliflozin Oral Tablet [Farxiga],Drug,RxNorm,standard,A10BK_sodium_glucose_co_transporter_2_sglt2_inhibitors,sglt2_inhibitors,SGLT2 inhibitors,drug
+44815996,dapagliflozin 5 MG [Farxiga],Drug,RxNorm,standard,A10BK_sodium_glucose_co_transporter_2_sglt2_inhibitors,sglt2_inhibitors,SGLT2 inhibitors,drug
+44816049,dapagliflozin 10 MG [Farxiga],Drug,RxNorm,standard,A10BK_sodium_glucose_co_transporter_2_sglt2_inhibitors,sglt2_inhibitors,SGLT2 inhibitors,drug
+45774751,empagliflozin,Drug,RxNorm,standard,A10BK_sodium_glucose_co_transporter_2_sglt2_inhibitors,sglt2_inhibitors,SGLT2 inhibitors,drug
+45774752,empagliflozin 10 MG,Drug,RxNorm,standard,A10BK_sodium_glucose_co_transporter_2_sglt2_inhibitors,sglt2_inhibitors,SGLT2 inhibitors,drug
+45774753,empagliflozin Oral Tablet,Drug,RxNorm,standard,A10BK_sodium_glucose_co_transporter_2_sglt2_inhibitors,sglt2_inhibitors,SGLT2 inhibitors,drug
+45774754,empagliflozin 10 MG Oral Tablet,Drug,RxNorm,standard,A10BK_sodium_glucose_co_transporter_2_sglt2_inhibitors,sglt2_inhibitors,SGLT2 inhibitors,drug
+45774756,empagliflozin 10 MG [Jardiance],Drug,RxNorm,standard,A10BK_sodium_glucose_co_transporter_2_sglt2_inhibitors,sglt2_inhibitors,SGLT2 inhibitors,drug
+45774757,empagliflozin Oral Tablet [Jardiance],Drug,RxNorm,standard,A10BK_sodium_glucose_co_transporter_2_sglt2_inhibitors,sglt2_inhibitors,SGLT2 inhibitors,drug
+45774758,empagliflozin 10 MG Oral Tablet [Jardiance],Drug,RxNorm,standard,A10BK_sodium_glucose_co_transporter_2_sglt2_inhibitors,sglt2_inhibitors,SGLT2 inhibitors,drug
+45774759,empagliflozin 25 MG,Drug,RxNorm,standard,A10BK_sodium_glucose_co_transporter_2_sglt2_inhibitors,sglt2_inhibitors,SGLT2 inhibitors,drug
+45774893,empagliflozin 25 MG Oral Tablet,Drug,RxNorm,standard,A10BK_sodium_glucose_co_transporter_2_sglt2_inhibitors,sglt2_inhibitors,SGLT2 inhibitors,drug
+45774894,empagliflozin 25 MG [Jardiance],Drug,RxNorm,standard,A10BK_sodium_glucose_co_transporter_2_sglt2_inhibitors,sglt2_inhibitors,SGLT2 inhibitors,drug
+45774895,empagliflozin 25 MG Oral Tablet [Jardiance],Drug,RxNorm,standard,A10BK_sodium_glucose_co_transporter_2_sglt2_inhibitors,sglt2_inhibitors,SGLT2 inhibitors,drug

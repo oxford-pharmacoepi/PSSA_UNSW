@@ -1,2 +1,9 @@
-"cohort_name","cohort_label","cohort_domain","concept_id","include_descendants","concept_name","vocabulary_id","concept_code","review_status","phenotype_note"
-"diabetic_ketoacidosis","Diabetic ketoacidosis","condition",443727,TRUE,"Diabetic ketoacidosis","SNOMED","420422005","reviewed_seed","Standard SNOMED condition"
+concept_id,concept_name,domain_id,vocabulary_id,standard_concept,condition,cohort_name,cohort_label,cohort_domain
+439770,Ketoacidosis due to type 1 diabetes mellitus,Condition,SNOMED,standard,Diabetic ketoacidosis,diabetic_ketoacidosis,Diabetic ketoacidosis,condition
+443727,Diabetic ketoacidosis,Condition,SNOMED,standard,Diabetic ketoacidosis,diabetic_ketoacidosis,Diabetic ketoacidosis,condition
+443734,Ketoacidosis due to type 2 diabetes mellitus,Condition,SNOMED,standard,Diabetic ketoacidosis,diabetic_ketoacidosis,Diabetic ketoacidosis,condition
+4009303,Diabetic ketoacidosis without coma,Condition,SNOMED,standard,Diabetic ketoacidosis,diabetic_ketoacidosis,Diabetic ketoacidosis,condition
+4095288,Ketoacidotic coma due to diabetes mellitus,Condition,SNOMED,standard,Diabetic ketoacidosis,diabetic_ketoacidosis,Diabetic ketoacidosis,condition
+4096041,Malnutrition-related diabetes mellitus with ketoacidosis,Condition,SNOMED,standard,Diabetic ketoacidosis,diabetic_ketoacidosis,Diabetic ketoacidosis,condition
+4224254,Ketoacidotic coma due to type 1 diabetes mellitus,Condition,SNOMED,standard,Diabetic ketoacidosis,diabetic_ketoacidosis,Diabetic ketoacidosis,condition
+4228443,Ketoacidotic coma due to type 2 diabetes mellitus,Condition,SNOMED,standard,Diabetic ketoacidosis,diabetic_ketoacidosis,Diabetic ketoacidosis,condition

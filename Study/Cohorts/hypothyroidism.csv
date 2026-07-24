@@ -1,2 +1,141 @@
-"cohort_name","cohort_label","cohort_domain","concept_id","include_descendants","concept_name","vocabulary_id","concept_code","review_status","phenotype_note"
-"hypothyroidism","Hypothyroidism","condition",140673,TRUE,"Hypothyroidism","SNOMED","40930008","reviewed_seed","Standard SNOMED condition"
+concept_id,concept_name,domain_id,vocabulary_id,standard_concept,condition,cohort_name,cohort_label,cohort_domain
+132583,Postablative hypothyroidism,Condition,SNOMED,standard,codelist_hypothyroidism,hypothyroidism,Hypothyroidism,condition
+133728,Congenital hypothyroidism,Condition,SNOMED,standard,codelist_hypothyroidism,hypothyroidism,Hypothyroidism,condition
+134312,Iatrogenic hypothyroidism,Condition,SNOMED,standard,codelist_hypothyroidism,hypothyroidism,Hypothyroidism,condition
+135215,Hashimoto thyroiditis,Condition,SNOMED,standard,codelist_hypothyroidism,hypothyroidism,Hypothyroidism,condition
+136933,Dyshormonogenic goiter,Condition,SNOMED,standard,codelist_hypothyroidism,hypothyroidism,Hypothyroidism,condition
+137820,Postoperative hypothyroidism,Condition,SNOMED,standard,codelist_hypothyroidism,hypothyroidism,Hypothyroidism,condition
+138384,Acquired hypothyroidism,Condition,SNOMED,standard,codelist_hypothyroidism,hypothyroidism,Hypothyroidism,condition
+138711,Fibrous autoimmune thyroiditis,Condition,SNOMED,standard,codelist_hypothyroidism,hypothyroidism,Hypothyroidism,condition
+140062,Iodine hypothyroidism,Condition,SNOMED,standard,codelist_hypothyroidism,hypothyroidism,Hypothyroidism,condition
+140673,Hypothyroidism,Condition,SNOMED,standard,codelist_hypothyroidism,hypothyroidism,Hypothyroidism,condition
+605667,Hypothyroidism due to and following radiotherapy,Condition,SNOMED,standard,codelist_hypothyroidism,hypothyroidism,Hypothyroidism,condition
+606080,Transient congenital hypothyroidism due to dual oxidase 2 mutation,Condition,SNOMED,standard,codelist_hypothyroidism,hypothyroidism,Hypothyroidism,condition
+1244151,Postpartum hypothyroidism,Condition,SNOMED,standard,codelist_hypothyroidism,hypothyroidism,Hypothyroidism,condition
+3043555,Hypothyroidism [Minimum Data Set],Observation,LOINC,standard,codelist_hypothyroidism,hypothyroidism,Hypothyroidism,condition
+4006466,Refetoff syndrome,Condition,SNOMED,standard,codelist_hypothyroidism,hypothyroidism,Hypothyroidism,condition
+4009783,Hyperthermia-hyperphagia-hypothyroidism syndrome,Condition,SNOMED,standard,codelist_hypothyroidism,hypothyroidism,Hypothyroidism,condition
+4016051,Follow-up thyroid assessment,Observation,SNOMED,standard,codelist_hypothyroidism,hypothyroidism,Hypothyroidism,condition
+4028612,Juvenile myxedema,Condition,SNOMED,standard,codelist_hypothyroidism,hypothyroidism,Hypothyroidism,condition
+4030047,Hypothyroidism due to TSH receptor blocking antibody,Condition,SNOMED,standard,codelist_hypothyroidism,hypothyroidism,Hypothyroidism,condition
+4030049,Post-infectious hypothyroidism,Condition,SNOMED,standard,codelist_hypothyroidism,hypothyroidism,Hypothyroidism,condition
+4030053,Familial dyshormonogenetic goiter,Condition,SNOMED,standard,codelist_hypothyroidism,hypothyroidism,Hypothyroidism,condition
+4030054,Thyroid hormone resistance syndrome,Condition,SNOMED,standard,codelist_hypothyroidism,hypothyroidism,Hypothyroidism,condition
+4032331,Hypothyroidism following external beam radiation therapy,Condition,SNOMED,standard,codelist_hypothyroidism,hypothyroidism,Hypothyroidism,condition
+4034814,"Hypothyroid goiter, acquired",Condition,SNOMED,standard,codelist_hypothyroidism,hypothyroidism,Hypothyroidism,condition
+4034815,Autoimmune hypothyroidism,Condition,SNOMED,standard,codelist_hypothyroidism,hypothyroidism,Hypothyroidism,condition
+4034824,Hypothyroidism due to iodide organification defect,Condition,SNOMED,standard,codelist_hypothyroidism,hypothyroidism,Hypothyroidism,condition
+4034983,Idiopathic TSH (thyroid stimulating hormone) deficiency,Condition,SNOMED,standard,codelist_hypothyroidism,hypothyroidism,Hypothyroidism,condition
+4052693,Iodotyrosyl coupling defect,Condition,SNOMED,standard,codelist_hypothyroidism,hypothyroidism,Hypothyroidism,condition
+4065088,Congenital hypothyroidism with ectopic thyroid,Condition,SNOMED,standard,codelist_hypothyroidism,hypothyroidism,Hypothyroidism,condition
+4071079,Neonatal jaundice with congenital hypothyroidism,Condition,SNOMED,standard,codelist_hypothyroidism,hypothyroidism,Hypothyroidism,condition
+4076302,Iodotyrosine deiodination defect,Condition,SNOMED,standard,codelist_hypothyroidism,hypothyroidism,Hypothyroidism,condition
+4081998,Congenital hypothyroidism with diffuse goiter,Condition,SNOMED,standard,codelist_hypothyroidism,hypothyroidism,Hypothyroidism,condition
+4082365,"Alopecia, nail dystrophy, ophthalmic complications, thyroid dysfunction, hypohidrosis, ephelides, enteropathy and respiratory tract infections",Condition,SNOMED,standard,codelist_hypothyroidism,hypothyroidism,Hypothyroidism,condition
+4095912,Hypothyroidism resulting from para-aminosalicylic acid,Condition,SNOMED,standard,codelist_hypothyroidism,hypothyroidism,Hypothyroidism,condition
+4095913,Hypothyroidism resulting from phenylbutazone,Condition,SNOMED,standard,codelist_hypothyroidism,hypothyroidism,Hypothyroidism,condition
+4095914,Hypothyroidism caused by resorcinol,Condition,SNOMED,standard,codelist_hypothyroidism,hypothyroidism,Hypothyroidism,condition
+4099205,Hypothyroidism caused by radiation,Condition,SNOMED,standard,codelist_hypothyroidism,hypothyroidism,Hypothyroidism,condition
+4099644,Premature puberty due to hypothyroidism,Condition,SNOMED,standard,codelist_hypothyroidism,hypothyroidism,Hypothyroidism,condition
+4101898,Myasthenic syndrome due to hypothyroidism,Condition,SNOMED,standard,codelist_hypothyroidism,hypothyroidism,Hypothyroidism,condition
+4104540,Transient hypothyroidism,Condition,SNOMED,standard,codelist_hypothyroidism,hypothyroidism,Hypothyroidism,condition
+4114014,FH: Hypothyroidism,Observation,SNOMED,standard,codelist_hypothyroidism,hypothyroidism,Hypothyroidism,condition
+4129369,Hypothyroidism due to iodide trapping defect,Condition,SNOMED,standard,codelist_hypothyroidism,hypothyroidism,Hypothyroidism,condition
+4130017,Congenital hypothyroidism without goiter,Condition,SNOMED,standard,codelist_hypothyroidism,hypothyroidism,Hypothyroidism,condition
+4130018,Hypothyroidism due to Hashimoto's thyroiditis,Condition,SNOMED,standard,codelist_hypothyroidism,hypothyroidism,Hypothyroidism,condition
+4130024,Generalized thyroid hormone resistance,Condition,SNOMED,standard,codelist_hypothyroidism,hypothyroidism,Hypothyroidism,condition
+4130026,Congenital iodine deficiency syndrome of mixed type,Condition,SNOMED,standard,codelist_hypothyroidism,hypothyroidism,Hypothyroidism,condition
+4130027,Subclinical iodine deficiency hypothyroidism,Condition,SNOMED,standard,codelist_hypothyroidism,hypothyroidism,Hypothyroidism,condition
+4132435,Central hypothyroidism,Condition,SNOMED,standard,codelist_hypothyroidism,hypothyroidism,Hypothyroidism,condition
+4147364,Hypothyroidism due to infiltrative disease,Condition,SNOMED,standard,codelist_hypothyroidism,hypothyroidism,Hypothyroidism,condition
+4167208,Hypothyroidism monitoring verbal invite,Observation,SNOMED,standard,codelist_hypothyroidism,hypothyroidism,Hypothyroidism,condition
+4172443,Hypothyroidism caused by food stuff,Condition,SNOMED,standard,codelist_hypothyroidism,hypothyroidism,Hypothyroidism,condition
+4173188,Transient neonatal hypothyroidism,Condition,SNOMED,standard,codelist_hypothyroidism,hypothyroidism,Hypothyroidism,condition
+4175837,Hypothyroidism due to cystinosis,Condition,SNOMED,standard,codelist_hypothyroidism,hypothyroidism,Hypothyroidism,condition
+4176015,Hypothyroidism in pregnancy,Condition,SNOMED,standard,codelist_hypothyroidism,hypothyroidism,Hypothyroidism,condition
+4177341,Thyroid hormone responsiveness defect,Condition,SNOMED,standard,codelist_hypothyroidism,hypothyroidism,Hypothyroidism,condition
+4182596,Myxedema,Condition,SNOMED,standard,codelist_hypothyroidism,hypothyroidism,Hypothyroidism,condition
+4183422,Subclinical hypothyroidism,Condition,SNOMED,standard,codelist_hypothyroidism,hypothyroidism,Hypothyroidism,condition
+4184957,Adult myxedema,Condition,SNOMED,standard,codelist_hypothyroidism,hypothyroidism,Hypothyroidism,condition
+4185526,Athyrotic hypothyroidism sequence,Condition,SNOMED,standard,codelist_hypothyroidism,hypothyroidism,Hypothyroidism,condition
+4188170,Hypothyroidism monitoring invitation,Observation,SNOMED,standard,codelist_hypothyroidism,hypothyroidism,Hypothyroidism,condition
+4188171,Hypothyroidism monitoring second letter,Observation,SNOMED,standard,codelist_hypothyroidism,hypothyroidism,Hypothyroidism,condition
+4188172,Hypothyroidism monitoring third letter,Observation,SNOMED,standard,codelist_hypothyroidism,hypothyroidism,Hypothyroidism,condition
+4192649,Hypothyroidism due to fibrous invasive thyroiditis,Condition,SNOMED,standard,codelist_hypothyroidism,hypothyroidism,Hypothyroidism,condition
+4202818,Iodide oxidation defect,Condition,SNOMED,standard,codelist_hypothyroidism,hypothyroidism,Hypothyroidism,condition
+4210299,Hypothyroidism due to defect in thyroid hormone synthesis,Condition,SNOMED,standard,codelist_hypothyroidism,hypothyroidism,Hypothyroidism,condition
+4214419,Hypothyroidism monitoring first letter,Observation,SNOMED,standard,codelist_hypothyroidism,hypothyroidism,Hypothyroidism,condition
+4220368,Secondary hypothyroidism,Condition,SNOMED,standard,codelist_hypothyroidism,hypothyroidism,Hypothyroidism,condition
+4223217,Severe hypothyroidism,Condition,SNOMED,standard,codelist_hypothyroidism,hypothyroidism,Hypothyroidism,condition
+4225129,Sporadic cretinism,Condition,SNOMED,standard,codelist_hypothyroidism,hypothyroidism,Hypothyroidism,condition
+4229107,Dyshormonogenetic goiter AND iodide leak,Condition,SNOMED,standard,codelist_hypothyroidism,hypothyroidism,Hypothyroidism,condition
+4230503,Isolated thyrotropin deficiency,Condition,SNOMED,standard,codelist_hypothyroidism,hypothyroidism,Hypothyroidism,condition
+4231548,Hypothyroidism following radioiodine therapy,Condition,SNOMED,standard,codelist_hypothyroidism,hypothyroidism,Hypothyroidism,condition
+4233438,Endemic congenital iodine deficiency syndrome of myxedematous type,Condition,SNOMED,standard,codelist_hypothyroidism,hypothyroidism,Hypothyroidism,condition
+4236858,Infant hypothyroidism,Condition,SNOMED,standard,codelist_hypothyroidism,hypothyroidism,Hypothyroidism,condition
+4236859,Infant hypothyroidism to 24 months of age,Condition,SNOMED,standard,codelist_hypothyroidism,hypothyroidism,Hypothyroidism,condition
+4245619,Hypothyroidism due to amyloidosis,Condition,SNOMED,standard,codelist_hypothyroidism,hypothyroidism,Hypothyroidism,condition
+4263049,Myxedema heart disease,Condition,SNOMED,standard,codelist_hypothyroidism,hypothyroidism,Hypothyroidism,condition
+4268472,Hypothyroidism due to scleroderma,Condition,SNOMED,standard,codelist_hypothyroidism,hypothyroidism,Hypothyroidism,condition
+4269217,Thyroglobulin synthesis defect,Condition,SNOMED,standard,codelist_hypothyroidism,hypothyroidism,Hypothyroidism,condition
+4275410,Myxedematous form of cretinism,Condition,SNOMED,standard,codelist_hypothyroidism,hypothyroidism,Hypothyroidism,condition
+4289921,Hypothyroidism caused by iodide excess,Condition,SNOMED,standard,codelist_hypothyroidism,hypothyroidism,Hypothyroidism,condition
+4291925,Hypothalamic hypothyroidism,Condition,SNOMED,standard,codelist_hypothyroidism,hypothyroidism,Hypothyroidism,condition
+4296343,Hypertrichosis in hypothyroidism,Condition,SNOMED,standard,codelist_hypothyroidism,hypothyroidism,Hypothyroidism,condition
+4303055,Hypothyroidism due to sarcoidosis,Condition,SNOMED,standard,codelist_hypothyroidism,hypothyroidism,Hypothyroidism,condition
+4309027,Idiopathic atrophic hypothyroidism,Condition,SNOMED,standard,codelist_hypothyroidism,hypothyroidism,Hypothyroidism,condition
+4314093,Congenital iodine deficiency syndrome,Condition,SNOMED,standard,codelist_hypothyroidism,hypothyroidism,Hypothyroidism,condition
+4314386,Hypothyroid dwarfism,Condition,SNOMED,standard,codelist_hypothyroidism,hypothyroidism,Hypothyroidism,condition
+4327330,Endemic cretinism,Condition,SNOMED,standard,codelist_hypothyroidism,hypothyroidism,Hypothyroidism,condition
+35622406,Short stature with delayed bone age due to thyroid hormone metabolism deficiency,Condition,SNOMED,standard,codelist_hypothyroidism,hypothyroidism,Hypothyroidism,condition
+36674793,Genetic transient congenital hypothyroidism,Condition,SNOMED,standard,codelist_hypothyroidism,hypothyroidism,Hypothyroidism,condition
+36675175,X-linked central congenital hypothyroidism with late-onset testicular enlargement,Condition,SNOMED,standard,codelist_hypothyroidism,hypothyroidism,Hypothyroidism,condition
+36713742,Congenital hypothyroidism due to absence of thyroid gland,Condition,SNOMED,standard,codelist_hypothyroidism,hypothyroidism,Hypothyroidism,condition
+36714023,Brain lung thyroid syndrome,Condition,SNOMED,standard,codelist_hypothyroidism,hypothyroidism,Hypothyroidism,condition
+36716385,Bamforth Lazarus syndrome,Condition,SNOMED,standard,codelist_hypothyroidism,hypothyroidism,Hypothyroidism,condition
+36716764,Congenital central hypothyroidism,Condition,SNOMED,standard,codelist_hypothyroidism,hypothyroidism,Hypothyroidism,condition
+36716765,Congenital hypothyroidism due to iodine deficiency,Condition,SNOMED,standard,codelist_hypothyroidism,hypothyroidism,Hypothyroidism,condition
+36717199,"Obesity, colitis, hypothyroidism, cardiac hypertrophy, developmental delay syndrome",Condition,SNOMED,standard,codelist_hypothyroidism,hypothyroidism,Hypothyroidism,condition
+36717595,Acquired central hypothyroidism,Condition,SNOMED,standard,codelist_hypothyroidism,hypothyroidism,Hypothyroidism,condition
+37016177,Cerebral degeneration due to hypothyroidism,Condition,SNOMED,standard,codelist_hypothyroidism,hypothyroidism,Hypothyroidism,condition
+37016342,Hypothyroidism caused by drug,Condition,SNOMED,standard,codelist_hypothyroidism,hypothyroidism,Hypothyroidism,condition
+37110062,"Neonatal diabetes, congenital hypothyroidism, congenital glaucoma, hepatic fibrosis, polycystic kidney syndrome",Condition,SNOMED,standard,codelist_hypothyroidism,hypothyroidism,Hypothyroidism,condition
+37110922,Congenital central hypothyroidism due to thyrotropin-releasing hormone receptor deficiency,Condition,SNOMED,standard,codelist_hypothyroidism,hypothyroidism,Hypothyroidism,condition
+37155411,Congenital hypothyroidism due to congenital anomaly of thyroid gland,Condition,SNOMED,standard,codelist_hypothyroidism,hypothyroidism,Hypothyroidism,condition
+37161445,Myxedema coma due to subclinical hypothyroidism,Condition,SNOMED,standard,codelist_hypothyroidism,hypothyroidism,Hypothyroidism,condition
+37161450,Acquired central hypothyroidism due to Sheehan syndrome,Condition,SNOMED,standard,codelist_hypothyroidism,hypothyroidism,Hypothyroidism,condition
+37161451,Acquired central hypothyroidism due to pituitary disorder,Condition,SNOMED,standard,codelist_hypothyroidism,hypothyroidism,Hypothyroidism,condition
+37161453,Acquired central hypothyroidism caused by ionizing radiation,Condition,SNOMED,standard,codelist_hypothyroidism,hypothyroidism,Hypothyroidism,condition
+37161455,Drug induced acquired central hypothyroidism,Condition,SNOMED,standard,codelist_hypothyroidism,hypothyroidism,Hypothyroidism,condition
+37161463,Traumatic acquired central hypothyroidism,Condition,SNOMED,standard,codelist_hypothyroidism,hypothyroidism,Hypothyroidism,condition
+37161465,Congenital hypothyroidism due to thyroid peroxidase mutation,Condition,SNOMED,standard,codelist_hypothyroidism,hypothyroidism,Hypothyroidism,condition
+37161466,Consumptive hypothyroidism caused by type 3 iodothyronine deiodinase,Condition,SNOMED,standard,codelist_hypothyroidism,hypothyroidism,Hypothyroidism,condition
+37161467,Congenital hypothyroidism due to thyroid deiodinase mutation,Condition,SNOMED,standard,codelist_hypothyroidism,hypothyroidism,Hypothyroidism,condition
+37161468,Congenital hypothyroidism due to symporter mutation,Condition,SNOMED,standard,codelist_hypothyroidism,hypothyroidism,Hypothyroidism,condition
+37161471,Congenital hypothyroidism due to thyroglobulin mutation,Condition,SNOMED,standard,codelist_hypothyroidism,hypothyroidism,Hypothyroidism,condition
+37161472,Congenital hypothyroidism due to dual oxidase maturation factor 2,Condition,SNOMED,standard,codelist_hypothyroidism,hypothyroidism,Hypothyroidism,condition
+37161473,Congenital hypothyroidism due to peripheral resistance to thyroid hormone,Condition,SNOMED,standard,codelist_hypothyroidism,hypothyroidism,Hypothyroidism,condition
+37162110,Hyperprolactinemia due to hypothyroidism,Condition,SNOMED,standard,codelist_hypothyroidism,hypothyroidism,Hypothyroidism,condition
+37164395,Congenital hypothyroidism due to thyroid stimulating hormone receptor mutation,Condition,SNOMED,standard,codelist_hypothyroidism,hypothyroidism,Hypothyroidism,condition
+37166338,Dementia due to Hashimoto encephalopathy,Condition,SNOMED,standard,codelist_hypothyroidism,hypothyroidism,Hypothyroidism,condition
+37166448,Dementia due to acquired hypothyroidism,Condition,SNOMED,standard,codelist_hypothyroidism,hypothyroidism,Hypothyroidism,condition
+37166867,Resistance to thyroid hormone due to mutation in thyroid hormone receptor alpha,Condition,SNOMED,standard,codelist_hypothyroidism,hypothyroidism,Hypothyroidism,condition
+37167445,Hypothyroidism due to systemic sclerosis,Condition,SNOMED,standard,codelist_hypothyroidism,hypothyroidism,Hypothyroidism,condition
+37168487,"Choanal atresia, athelia, hypothyroidism, delayed puberty, short stature syndrome",Condition,SNOMED,standard,codelist_hypothyroidism,hypothyroidism,Hypothyroidism,condition
+37204507,Congenital hypothyroidism due to maternal intake of antithyroid drug,Condition,SNOMED,standard,codelist_hypothyroidism,hypothyroidism,Hypothyroidism,condition
+37208050,Hypothyroidism caused by amiodarone,Condition,SNOMED,standard,codelist_hypothyroidism,hypothyroidism,Hypothyroidism,condition
+37396504,Hoffman syndrome,Condition,SNOMED,standard,codelist_hypothyroidism,hypothyroidism,Hypothyroidism,condition
+37397258,Congenital hypothyroidism due to transplacental passage of maternal thyroid stimulating hormone binding inhibitory antibody,Condition,SNOMED,standard,codelist_hypothyroidism,hypothyroidism,Hypothyroidism,condition
+37397527,Familial thyroid dyshormonogenesis,Condition,SNOMED,standard,codelist_hypothyroidism,hypothyroidism,Hypothyroidism,condition
+37397534,Peripheral resistance to thyroid hormone,Condition,SNOMED,standard,codelist_hypothyroidism,hypothyroidism,Hypothyroidism,condition
+37397535,Hypothyroidism due to mutation in transcription factor of pituitary development,Condition,SNOMED,standard,codelist_hypothyroidism,hypothyroidism,Hypothyroidism,condition
+37399723,Idiopathic congenital hypothyroidism,Condition,SNOMED,standard,codelist_hypothyroidism,hypothyroidism,Hypothyroidism,condition
+40609121,Primary hypothyroidism,Condition,SNOMED,standard,codelist_hypothyroidism,hypothyroidism,Hypothyroidism,condition
+43021374,Suspected hypothyroidism,Observation,SNOMED,standard,codelist_hypothyroidism,hypothyroidism,Hypothyroidism,condition
+44782482,Infant hypothyroidism caused by maternal drug,Condition,SNOMED,standard,codelist_hypothyroidism,hypothyroidism,Hypothyroidism,condition
+44789586,Hypothyroidism review,Observation,SNOMED,standard,codelist_hypothyroidism,hypothyroidism,Hypothyroidism,condition
+44790909,Hypothyroidism monitoring telephone invitation,Observation,SNOMED,standard,codelist_hypothyroidism,hypothyroidism,Hypothyroidism,condition
+44792300,Hypothyroidism annual review,Observation,SNOMED,standard,codelist_hypothyroidism,hypothyroidism,Hypothyroidism,condition
+45757058,Hypothyroidism due to thyroiditis,Condition,SNOMED,standard,codelist_hypothyroidism,hypothyroidism,Hypothyroidism,condition
+45757193,Hypothyroidism in childbirth,Condition,SNOMED,standard,codelist_hypothyroidism,hypothyroidism,Hypothyroidism,condition
+46270012,Family history of Hashimoto thyroiditis,Observation,SNOMED,standard,codelist_hypothyroidism,hypothyroidism,Hypothyroidism,condition

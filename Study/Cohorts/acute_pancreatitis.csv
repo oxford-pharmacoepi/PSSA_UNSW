@@ -1,2 +1,46 @@
-"cohort_name","cohort_label","cohort_domain","concept_id","include_descendants","concept_name","vocabulary_id","concept_code","review_status","phenotype_note"
-"acute_pancreatitis","Acute pancreatitis","condition",199074,TRUE,"Acute pancreatitis","SNOMED","197456007","reviewed_seed","Standard SNOMED condition"
+concept_id,concept_name,domain_id,vocabulary_id,standard_concept,condition,cohort_name,cohort_label,cohort_domain
+196628,Mumps pancreatitis,Condition,SNOMED,standard,pancreatitis,acute_pancreatitis,Acute pancreatitis,condition
+199074,Acute pancreatitis,Condition,SNOMED,standard,pancreatitis,acute_pancreatitis,Acute pancreatitis,condition
+763030,Calculus of common bile duct with acute pancreatitis,Condition,SNOMED,non-standard,pancreatitis,acute_pancreatitis,Acute pancreatitis,condition
+4008556,Pseudocyst of pancreas,Condition,SNOMED,standard,pancreatitis,acute_pancreatitis,Acute pancreatitis,condition
+4026157,Acute recurrent pancreatitis,Condition,SNOMED,standard,pancreatitis,acute_pancreatitis,Acute pancreatitis,condition
+4026158,Acute suppurative pancreatitis,Condition,SNOMED,standard,pancreatitis,acute_pancreatitis,Acute pancreatitis,condition
+4049458,Acute necrosis of pancreas,Condition,SNOMED,standard,pancreatitis,acute_pancreatitis,Acute pancreatitis,condition
+4082334,Post-ERCP acute pancreatitis,Condition,SNOMED,standard,pancreatitis,acute_pancreatitis,Acute pancreatitis,condition
+4088042,Suppurative pancreatitis,Condition,SNOMED,standard,pancreatitis,acute_pancreatitis,Acute pancreatitis,condition
+4121819,Relapsing pancreatitis,Condition,SNOMED,standard,pancreatitis,acute_pancreatitis,Acute pancreatitis,condition
+4124691,Recurrent pancreatitis,Condition,SNOMED,standard,pancreatitis,acute_pancreatitis,Acute pancreatitis,condition
+4125494,Pancytopenia with pancreatitis,Condition,SNOMED,standard,pancreatitis,acute_pancreatitis,Acute pancreatitis,condition
+4147231,Apoplectic pancreatitis,Condition,SNOMED,standard,pancreatitis,acute_pancreatitis,Acute pancreatitis,condition
+4164003,Inflammation of ampulla of Vater,Condition,SNOMED,standard,pancreatitis,acute_pancreatitis,Acute pancreatitis,condition
+4171684,Pleural effusion associated with pancreatitis,Condition,SNOMED,non-standard,pancreatitis,acute_pancreatitis,Acute pancreatitis,condition
+4185268,Acute hemorrhagic pancreatitis,Condition,SNOMED,standard,pancreatitis,acute_pancreatitis,Acute pancreatitis,condition
+4192640,Pancreatitis,Condition,SNOMED,standard,pancreatitis,acute_pancreatitis,Acute pancreatitis,condition
+4194916,Hereditary pancreatitis,Condition,SNOMED,standard,pancreatitis,acute_pancreatitis,Acute pancreatitis,condition
+4211348,Aplastic anemia associated with pancreatitis,Condition,SNOMED,standard,pancreatitis,acute_pancreatitis,Acute pancreatitis,condition
+4241838,Metabolic pancreatitis,Condition,SNOMED,standard,pancreatitis,acute_pancreatitis,Acute pancreatitis,condition
+4243504,Subacute pancreatitis,Condition,SNOMED,standard,pancreatitis,acute_pancreatitis,Acute pancreatitis,condition
+4262809,Subcutaneous nodular fat necrosis in pancreatitis,Condition,SNOMED,standard,pancreatitis,acute_pancreatitis,Acute pancreatitis,condition
+4262937,Interstitial pancreatitis,Condition,SNOMED,standard,pancreatitis,acute_pancreatitis,Acute pancreatitis,condition
+4303234,Acute necrotizing pancreatitis,Condition,SNOMED,standard,pancreatitis,acute_pancreatitis,Acute pancreatitis,condition
+4309439,Infectious pancreatitis,Condition,SNOMED,standard,pancreatitis,acute_pancreatitis,Acute pancreatitis,condition
+4319446,Gallstone pancreatitis,Condition,SNOMED,standard,pancreatitis,acute_pancreatitis,Acute pancreatitis,condition
+4337316,Painless pancreatitis,Condition,SNOMED,standard,pancreatitis,acute_pancreatitis,Acute pancreatitis,condition
+4340493,Alcohol-induced acute pancreatitis,Condition,SNOMED,standard,pancreatitis,acute_pancreatitis,Acute pancreatitis,condition
+4340494,Postoperative acute pancreatitis,Condition,SNOMED,standard,pancreatitis,acute_pancreatitis,Acute pancreatitis,condition
+4340495,Traumatic acute pancreatitis,Condition,SNOMED,standard,pancreatitis,acute_pancreatitis,Acute pancreatitis,condition
+4340497,Infected pancreatic necrosis,Condition,SNOMED,standard,pancreatitis,acute_pancreatitis,Acute pancreatitis,condition
+4340960,Idiopathic acute pancreatitis,Condition,SNOMED,standard,pancreatitis,acute_pancreatitis,Acute pancreatitis,condition
+4340961,Drug-induced acute pancreatitis,Condition,SNOMED,standard,pancreatitis,acute_pancreatitis,Acute pancreatitis,condition
+4340962,Cytomegaloviral pancreatitis,Condition,SNOMED,standard,pancreatitis,acute_pancreatitis,Acute pancreatitis,condition
+4341763,Gallstone acute pancreatitis,Condition,SNOMED,standard,pancreatitis,acute_pancreatitis,Acute pancreatitis,condition
+4341764,Acute pancreatitis due to infection,Condition,SNOMED,standard,pancreatitis,acute_pancreatitis,Acute pancreatitis,condition
+4341765,Viral acute pancreatitis,Condition,SNOMED,standard,pancreatitis,acute_pancreatitis,Acute pancreatitis,condition
+4342865,Familial acute pancreatitis,Condition,SNOMED,standard,pancreatitis,acute_pancreatitis,Acute pancreatitis,condition
+36675120,Follicular cholangitis and pancreatitis,Condition,SNOMED,standard,pancreatitis,acute_pancreatitis,Acute pancreatitis,condition
+36716513,Pancreatitis due to pancreatic duct obstruction,Condition,SNOMED,standard,pancreatitis,acute_pancreatitis,Acute pancreatitis,condition
+36716715,Autoimmune pancreatitis type 1,Condition,SNOMED,standard,pancreatitis,acute_pancreatitis,Acute pancreatitis,condition
+40483827,Inflammation of pancreas caused by alcohol,Condition,SNOMED,standard,pancreatitis,acute_pancreatitis,Acute pancreatitis,condition
+40490446,Autoimmune pancreatitis,Condition,SNOMED,standard,pancreatitis,acute_pancreatitis,Acute pancreatitis,condition
+44806251,Biliary acute pancreatitis,Condition,SNOMED,standard,pancreatitis,acute_pancreatitis,Acute pancreatitis,condition
+46274136,Acute pancreatitis due to common bile duct calculus,Condition,SNOMED,standard,pancreatitis,acute_pancreatitis,Acute pancreatitis,condition

@@ -1,2 +1,63 @@
-"cohort_name","cohort_label","cohort_domain","concept_id","include_descendants","concept_name","vocabulary_id","concept_code","review_status","phenotype_note"
-"migraine","Migraine","condition",318736,TRUE,"Migraine","SNOMED","37796009","reviewed_seed","Standard SNOMED condition"
+concept_id,concept_name,domain_id,vocabulary_id,standard_concept,condition,cohort_name,cohort_label,cohort_domain
+318736,Migraine,Condition,SNOMED,standard,codelist_Migraine,migraine,Migraine,condition
+372886,Refractory migraine with aura,Condition,SNOMED,standard,codelist_Migraine,migraine,Migraine,condition
+376394,Menstrual migraine,Condition,SNOMED,standard,codelist_Migraine,migraine,Migraine,condition
+377844,Status migrainosus,Condition,SNOMED,standard,codelist_Migraine,migraine,Migraine,condition
+378735,Migraine without aura,Condition,SNOMED,standard,codelist_Migraine,migraine,Migraine,condition
+379806,Migraine variants,Condition,SNOMED,standard,codelist_Migraine,migraine,Migraine,condition
+381549,Migraine with aura,Condition,SNOMED,standard,codelist_Migraine,migraine,Migraine,condition
+433763,Hemiplegic migraine,Condition,SNOMED,standard,codelist_Migraine,migraine,Migraine,condition
+443615,Refractory migraine,Condition,SNOMED,standard,codelist_Migraine,migraine,Migraine,condition
+443616,Refractory migraine without aura,Condition,SNOMED,standard,codelist_Migraine,migraine,Migraine,condition
+443619,Refractory migraine variants,Condition,SNOMED,standard,codelist_Migraine,migraine,Migraine,condition
+601848,Episodic migraine,Condition,SNOMED,standard,codelist_Migraine,migraine,Migraine,condition
+601849,Acute migraine,Condition,SNOMED,standard,codelist_Migraine,migraine,Migraine,condition
+760856,Intractable allergic migraine,Condition,SNOMED,standard,codelist_Migraine,migraine,Migraine,condition
+760857,Ophthalmic status migrainosus,Condition,SNOMED,standard,codelist_Migraine,migraine,Migraine,condition
+760859,Retinal status migrainosus,Condition,SNOMED,standard,codelist_Migraine,migraine,Migraine,condition
+760860,Refractory abdominal migraine,Condition,SNOMED,standard,codelist_Migraine,migraine,Migraine,condition
+760964,Intractable hemiplegic migraine,Condition,SNOMED,standard,codelist_Migraine,migraine,Migraine,condition
+760965,Hemiplegic status migrainosus,Condition,SNOMED,standard,codelist_Migraine,migraine,Migraine,condition
+760966,Intractable hemiplegic status migrainosus,Condition,SNOMED,standard,codelist_Migraine,migraine,Migraine,condition
+760967,Intractable menstrual migraine,Condition,SNOMED,standard,codelist_Migraine,migraine,Migraine,condition
+760968,Chronic migraine without aura with status migrainosus,Condition,SNOMED,standard,codelist_Migraine,migraine,Migraine,condition
+760969,Status migrainosus with aura,Condition,SNOMED,standard,codelist_Migraine,migraine,Migraine,condition
+762580,Refractory acute confusional migraine,Condition,SNOMED,standard,codelist_Migraine,migraine,Migraine,condition
+762725,"Ophthalmoplegic migraine, refractory",Condition,SNOMED,standard,codelist_Migraine,migraine,Migraine,condition
+762769,Chronic migraine without aura,Condition,SNOMED,standard,codelist_Migraine,migraine,Migraine,condition
+763167,"Basilar artery migraine, refractory",Condition,SNOMED,standard,codelist_Migraine,migraine,Migraine,condition
+765076,Intractable menstrual status migrainosus,Condition,SNOMED,standard,codelist_Migraine,migraine,Migraine,condition
+765261,Intractable retinal migraine,Condition,SNOMED,standard,codelist_Migraine,migraine,Migraine,condition
+765701,"Chronic migraine without aura, non-refractory",Condition,SNOMED,standard,codelist_Migraine,migraine,Migraine,condition
+1340399,Exacerbation of migraine,Condition,OMOP Extension,standard,codelist_Migraine,migraine,Migraine,condition
+4043560,Sporadic hemiplegic migraine,Condition,SNOMED,standard,codelist_Migraine,migraine,Migraine,condition
+4044232,Migraine aura without headache,Condition,SNOMED,standard,codelist_Migraine,migraine,Migraine,condition
+4044234,Migraine with ischemic complication,Condition,SNOMED,standard,codelist_Migraine,migraine,Migraine,condition
+4046225,Migraine with typical aura,Condition,SNOMED,standard,codelist_Migraine,migraine,Migraine,condition
+4094387,Lower half migraine,Condition,SNOMED,standard,codelist_Migraine,migraine,Migraine,condition
+4105620,Complicated migraine,Condition,SNOMED,standard,codelist_Migraine,migraine,Migraine,condition
+4138173,Intractable ophthalmic migraine,Condition,SNOMED,standard,codelist_Migraine,migraine,Migraine,condition
+4141827,Transformed migraine,Condition,SNOMED,standard,codelist_Migraine,migraine,Migraine,condition
+4193495,Retinal migraine,Condition,SNOMED,standard,codelist_Migraine,migraine,Migraine,condition
+4294246,Abdominal migraine,Condition,SNOMED,standard,codelist_Migraine,migraine,Migraine,condition
+4307373,Basilar migraine,Condition,SNOMED,standard,codelist_Migraine,migraine,Migraine,condition
+4313491,"Migraine variants, not intractable",Condition,SNOMED,standard,codelist_Migraine,migraine,Migraine,condition
+4314161,"Migraine without aura, not refractory",Condition,SNOMED,standard,codelist_Migraine,migraine,Migraine,condition
+4317966,Ophthalmic migraine,Condition,SNOMED,standard,codelist_Migraine,migraine,Migraine,condition
+4318866,Acute confusional migraine,Condition,SNOMED,standard,codelist_Migraine,migraine,Migraine,condition
+4318867,Familial hemiplegic migraine,Condition,SNOMED,standard,codelist_Migraine,migraine,Migraine,condition
+4335745,Migrainous vertigo,Condition,SNOMED,standard,codelist_Migraine,migraine,Migraine,condition
+37110241,Stroke co-occurrent with migraine,Condition,SNOMED,standard,codelist_Migraine,migraine,Migraine,condition
+37166882,Familial hemiplegic migraine type 3,Condition,SNOMED,standard,codelist_Migraine,migraine,Migraine,condition
+37166884,Familial hemiplegic migraine type 1,Condition,SNOMED,standard,codelist_Migraine,migraine,Migraine,condition
+37166885,Familial hemiplegic migraine type 2,Condition,SNOMED,standard,codelist_Migraine,migraine,Migraine,condition
+37167017,Seizure due to migraine with aura,Condition,SNOMED,standard,codelist_Migraine,migraine,Migraine,condition
+37167039,Infarction of brain due to migraine,Condition,SNOMED,standard,codelist_Migraine,migraine,Migraine,condition
+40482953,Migraine variant with headache,Condition,SNOMED,standard,codelist_Migraine,migraine,Migraine,condition
+42534990,Common migraine with status migrainosus,Condition,SNOMED,standard,codelist_Migraine,migraine,Migraine,condition
+43530650,Menstrual status migrainosus,Condition,SNOMED,standard,codelist_Migraine,migraine,Migraine,condition
+43530652,Chronic intractable migraine without aura,Condition,SNOMED,standard,codelist_Migraine,migraine,Migraine,condition
+43531613,Allergic migraine,Condition,SNOMED,standard,codelist_Migraine,migraine,Migraine,condition
+44782470,Migraine with persistent visual aura,Condition,SNOMED,standard,codelist_Migraine,migraine,Migraine,condition
+44804712,Migraine induced by oestrogen contraceptive,Condition,SNOMED,standard,codelist_Migraine,migraine,Migraine,condition
+46273066,Migraine caused by estrogen contraceptive,Condition,SNOMED,standard,codelist_Migraine,migraine,Migraine,condition
