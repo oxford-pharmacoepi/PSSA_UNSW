@@ -27,13 +27,20 @@ omopgenerics::exportSummarisedResult(
   minCellCount = minCellCount
 )
 
-source(file.path(studyPath, "Cohorts", "InstantiateCohorts.R"))
+if (identical(dbName, "PBS_OMOP")) {
+  omopgenerics::logMessage(
+    "Using source-code drug cohort instantiation for PBS_OMOP"
+  )
+  source(file.path(studyPath, "Cohorts", "InstantiateSourceDrugCohorts.R"))
+} else {
+  source(file.path(studyPath, "Cohorts", "InstantiateCohorts.R"))
 
-CodelistGenerator::exportConceptSetExpression(
-  codelistInputs$concept_sets,
-  path = codelistResultsFolder,
-  type = "csv"
-)
+  CodelistGenerator::exportConceptSetExpression(
+    codelistInputs$concept_sets,
+    path = codelistResultsFolder,
+    type = "csv"
+  )
+}
 
 if (runPhenotypeDiagnostics) {
   omopgenerics::logMessage("Running phenotype diagnostics")
