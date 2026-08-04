@@ -47,6 +47,11 @@ if (runPhenotypeDiagnostics) {
   source(file.path(studyPath, "Analyses", "RunPhenotypeDiagnostics.R"))
 }
 
+if (isTRUE(runBaselineCharacteristics)) {
+  omopgenerics::logMessage("Running baseline characteristics")
+  source(file.path(studyPath, "Analyses", "RunBaselineCharacteristics.R"))
+}
+
 omopgenerics::logMessage("Running CohortSymmetry analyses")
 source(file.path(studyPath, "Analyses", "RunCohortSymmetry.R"))
 

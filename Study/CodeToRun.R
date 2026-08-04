@@ -42,6 +42,7 @@ achillesSchema <- NULL
 
 minCellCount <- 6
 runPhenotypeDiagnostics <- TRUE
+runBaselineCharacteristics <- TRUE
 runLargeScaleCharacteristics <- FALSE
 phenotypeSample <- 20000
 
