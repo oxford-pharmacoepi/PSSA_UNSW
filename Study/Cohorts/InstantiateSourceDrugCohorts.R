@@ -175,6 +175,7 @@ createSourceDrugCohorts <- function(
     sourceDrugMembers,
     drugCohorts,
     gapEra = 1,
+    minimumAge = 18,
     targetTableName = "pssa_drug_cohorts") {
   drugCohortSet <- drugCohorts |>
     dplyr::distinct(.data$cohort_name) |>
@@ -199,8 +200,16 @@ createSourceDrugCohorts <- function(
     dplyr::select(.data$cohort_definition_id, .data$item_code)
 
   rawTableName <- omopgenerics::uniqueTableName(prefix = omopgenerics::tmpPrefix())
+  ageTableName <- omopgenerics::uniqueTableName(prefix = omopgenerics::tmpPrefix())
 
-  cdm[[rawTableName]] <- cdm$drug_exposure |>
+  cdm[[ageTableName]] <- PatientProfiles::addAge(
+    cdm$drug_exposure,
+    indexDate = "drug_exposure_start_date",
+    ageName = "age",
+    name = ageTableName
+  )
+
+  cdm[[rawTableName]] <- cdm[[ageTableName]] |>
     dplyr::mutate(
       drug_source_value = as.character(.data$drug_source_value),
       cohort_end_date = dplyr::coalesce(
@@ -212,6 +221,10 @@ createSourceDrugCohorts <- function(
       sourceCodeMap,
       by = c("drug_source_value" = "item_code"),
       copy = TRUE
+    ) |>
+    dplyr::filter(
+      !is.na(.data$age),
+      .data$age > .env$minimumAge
     ) |>
     dplyr::transmute(
       cohort_definition_id = .data$cohort_definition_id,
@@ -238,6 +251,7 @@ createSourceDrugCohorts <- function(
     nameStyle = "{cohort_name}"
   )
 
+  cdm[[ageTableName]] <- NULL
   cdm[[rawTableName]] <- NULL
   cdm
 }
@@ -247,6 +261,7 @@ sourceDrugLookupPath <- get0(
   ifnotfound = file.path(studyPath, "inst", "source_drug_lookup.csv")
 )
 sourceDrugGapEra <- get0("sourceDrugGapEra", ifnotfound = 1)
+sourceDrugMinimumAge <- get0("pssaMinimumAge", ifnotfound = 18)
 
 analysisPairPath <- file.path(studyPath, "inst", "analysis_pairs.csv")
 
@@ -288,6 +303,7 @@ cdm <- createSourceDrugCohorts(
   sourceDrugMembers = sourceDrugMembers,
   drugCohorts = drugCohorts,
   gapEra = sourceDrugGapEra,
+  minimumAge = sourceDrugMinimumAge,
   targetTableName = "pssa_drug_cohorts"
 )
 

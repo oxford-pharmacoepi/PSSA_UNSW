@@ -28,11 +28,27 @@ omopgenerics::exportSummarisedResult(
 )
 
 if (identical(dbName, "PBS_OMOP")) {
+  pssaHistoryDateRange <- get0(
+    "pssaHistoryDateRange",
+    ifnotfound = as.Date(c("2012-04-01", NA))
+  )
+  pssaAnalysisDateRange <- get0(
+    "pssaAnalysisDateRange",
+    ifnotfound = as.Date(c("2013-04-01", NA))
+  )
+  pssaMinimumAge <- get0("pssaMinimumAge", ifnotfound = 18)
   omopgenerics::logMessage(
-    "Using source-code drug cohort instantiation for PBS_OMOP"
+    paste0(
+      "Using source-code drug cohort instantiation for PBS_OMOP ",
+      "(history from ", pssaHistoryDateRange[[1]],
+      "; analysis from ", pssaAnalysisDateRange[[1]],
+      "; age > ", pssaMinimumAge, ")"
+    )
   )
   source(file.path(studyPath, "Cohorts", "InstantiateSourceDrugCohorts.R"))
 } else {
+  pssaHistoryDateRange <- as.Date(c(NA, NA))
+  pssaAnalysisDateRange <- as.Date(c(NA, NA))
   source(file.path(studyPath, "Cohorts", "InstantiateCohorts.R"))
 
   CodelistGenerator::exportConceptSetExpression(

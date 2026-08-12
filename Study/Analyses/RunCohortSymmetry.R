@@ -98,9 +98,6 @@ addProtocolSettings <- function(result, setting) {
 sequenceRatioResults <- list()
 temporalSymmetryResults <- list()
 
-# Generating broad cohort sets avoids the cohort-definition-ID mismatch seen
-# when creating a temporary set for each protocol pair. The Shiny report then
-# retains only the prespecified pairs in analysis_pairs.csv.
 cohortSetTypes <- list(
   diagnosis = list(
     index_table = "pssa_drug_cohorts",
@@ -116,44 +113,59 @@ for (settingIndex in seq_len(nrow(analysisSettings))) {
   setting <- analysisSettings[settingIndex, ]
   for (setType in names(cohortSetTypes)) {
     cohortSet <- cohortSetTypes[[setType]]
-    resultId <- paste(setting$analysis_id, setType, sep = "_")
-    sequenceCohortName <- paste0("pssa_sequence_", resultId)
-    omopgenerics::logMessage(
-      paste(
-        "Generating sequence cohort",
-        resultId
+    setPairs <- pssaCohortPairs |>
+      dplyr::filter(
+        .data$index_table == cohortSet$index_table,
+        .data$marker_table == cohortSet$marker_table
       )
-    )
 
-    cdm <- CohortSymmetry::generateSequenceCohortSet(
-      cdm = cdm,
-      indexTable = cohortSet$index_table,
-      indexId = NULL,
-      markerTable = cohortSet$marker_table,
-      markerId = NULL,
-      name = sequenceCohortName,
-      washoutWindow = setting$washout_window,
-      daysPriorObservation = setting$days_prior_observation,
-      indexMarkerGap = setting$index_marker_gap,
-      combinationWindow = c(setting$blackout_days, setting$window_days),
-      movingAverageRestriction = setting$moving_average_restriction
-    )
+    for (pairIndex in seq_len(nrow(setPairs))) {
+      pair <- setPairs[pairIndex, ]
+      resultId <- paste(setting$analysis_id, pair$pair_id, sep = "_")
+      sequenceCohortName <- paste0("pssa_sequence_", resultId)
+      omopgenerics::logMessage(paste("Generating sequence cohort", resultId))
 
-    sequenceRatioResults[[resultId]] <- CohortSymmetry::summariseSequenceRatios(
-      cohort = cdm[[sequenceCohortName]]
-    ) |>
-      addProtocolSettings(setting = setting)
+      cdm <- CohortSymmetry::generateSequenceCohortSet(
+        cdm = cdm,
+        indexTable = pair$index_table,
+        indexId = pair$index_id,
+        markerTable = pair$marker_table,
+        markerId = pair$marker_id,
+        name = sequenceCohortName,
+        # Use the complete-capture PBS period to establish incident status.
+        cohortDateRange = pssaHistoryDateRange,
+        washoutWindow = setting$washout_window,
+        daysPriorObservation = setting$days_prior_observation,
+        indexMarkerGap = setting$index_marker_gap,
+        combinationWindow = c(setting$blackout_days, setting$window_days),
+        movingAverageRestriction = setting$moving_average_restriction
+      )
 
-    temporalSymmetryResults[[resultId]] <- CohortSymmetry::summariseTemporalSymmetry(
-      cohort = cdm[[sequenceCohortName]],
-      timescale = setting$timescale
-    ) |>
-      addProtocolSettings(setting = setting)
+      if (!is.na(pssaAnalysisDateRange[[1]])) {
+        cdm[[sequenceCohortName]] <- cdm[[sequenceCohortName]] |>
+          dplyr::filter(
+            .data$index_date >= pssaAnalysisDateRange[[1]],
+            .data$marker_date >= pssaAnalysisDateRange[[1]]
+          ) |>
+          dplyr::compute(name = sequenceCohortName, temporary = FALSE)
+      }
 
-    cdm <- CDMConnector::dropTable(
-      cdm = cdm,
-      name = sequenceCohortName
-    )
+      sequenceRatioResults[[resultId]] <- CohortSymmetry::summariseSequenceRatios(
+        cohort = cdm[[sequenceCohortName]]
+      ) |>
+        addProtocolSettings(setting = setting)
+
+      temporalSymmetryResults[[resultId]] <- CohortSymmetry::summariseTemporalSymmetry(
+        cohort = cdm[[sequenceCohortName]],
+        timescale = setting$timescale
+      ) |>
+        addProtocolSettings(setting = setting)
+
+      cdm <- CDMConnector::dropTable(
+        cdm = cdm,
+        name = sequenceCohortName
+      )
+    }
   }
 }
 
