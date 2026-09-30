@@ -12,19 +12,6 @@ if (!"pssa_drug_cohorts" %in% names(cdm)) {
   stop("Expected pssa_drug_cohorts to exist before running baseline characteristics.")
 }
 
-indexCohortNames <- unique(pssaCohortPairs$index_cohort_name)
-indexCohortIds <- purrr::map_int(
-  indexCohortNames,
-  \(cohortName) getCohortId(cdm$pssa_drug_cohorts, cohortName)
-)
-
-markerCohortNames <- unique(pssaCohortPairs$marker_cohort_name)
-markerCohortIds <- purrr::map_int(
-  markerCohortNames,
-  \(cohortName) getCohortId(cdm$pssa_drug_cohorts, cohortName)
-)
-names(markerCohortIds) <- markerCohortNames
-
 ageGroups <- list(
   c(0, 49),
   c(50, 59),
@@ -34,27 +21,18 @@ ageGroups <- list(
   c(90, 150)
 )
 
-priorDrugFlags <- lapply(
-  names(markerCohortIds),
-  \(cohortName) {
-    list(
-      targetCohortTable = "pssa_drug_cohorts",
-      targetCohortId = markerCohortIds[[cohortName]],
-      window = list(c(-180, -1)),
-      nameStyle = paste0("prior_", cohortName)
-    )
-  }
-)
-names(priorDrugFlags) <- paste0("Prior ", names(markerCohortIds))
+cdm[["pssa_drug_cohorts_first"]] <- cdm$pssa_drug_cohorts |>
+  CohortConstructor::requirePriorObservation(365) |>
+  CohortConstructor::requireIsFirstEntry() |>
+  dplyr::compute(temporary = FALSE, overwrite = TRUE, name = "pssa_drug_cohorts_first")
 
 omopgenerics::logMessage("Running baseline characteristics for index drug cohorts")
 baselineCharacteristics <- CohortCharacteristics::summariseCharacteristics(
-  cohort = cdm$pssa_drug_cohorts,
-  cohortId = indexCohortIds,
+  cohort = cdm$pssa_drug_cohorts_first,
+  cohortId = NULL,
   counts = TRUE,
   demographics = TRUE,
-  ageGroup = ageGroups,
-  cohortIntersectFlag = priorDrugFlags
+  ageGroup = ageGroups
 )
 
 omopgenerics::exportSummarisedResult(

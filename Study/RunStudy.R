@@ -63,13 +63,13 @@ if (runPhenotypeDiagnostics) {
   source(file.path(studyPath, "Analyses", "RunPhenotypeDiagnostics.R"))
 }
 
+omopgenerics::logMessage("Running CohortSymmetry analyses")
+source(file.path(studyPath, "Analyses", "RunCohortSymmetry.R"))
+
 if (isTRUE(runBaselineCharacteristics)) {
   omopgenerics::logMessage("Running baseline characteristics")
   source(file.path(studyPath, "Analyses", "RunBaselineCharacteristics.R"))
 }
-
-omopgenerics::logMessage("Running CohortSymmetry analyses")
-source(file.path(studyPath, "Analyses", "RunCohortSymmetry.R"))
 
 omopgenerics::logMessage("Importing this run's summarised results")
 allResults <- omopgenerics::importSummarisedResult(
@@ -115,7 +115,7 @@ OmopViewer::exportStaticApp(
   title = "GNN-PSSA safety signal report",
   background = TRUE,
   summary = TRUE,
-  report = TRUE,
+#  report = TRUE,
   panelDetails = panelDetails,
   open = FALSE
 )

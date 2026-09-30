@@ -4,6 +4,10 @@ getCohortId <- function(cohortTable, cohortName) {
   cohortId <- omopgenerics::settings(cohortTable) |>
     dplyr::filter(.data$cohort_name == .env$cohortName) |>
     dplyr::pull("cohort_definition_id")
+  
+  if(length(cohortId) == 0) {
+    return(NA)
+  }
 
   if (length(cohortId) != 1) {
     stop(
