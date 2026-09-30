@@ -169,6 +169,24 @@ for (settingIndex in seq_len(nrow(analysisSettings))) {
   }
 }
 
+expectedResultIds <- as.vector(outer(
+  analysisSettings$analysis_id,
+  pssaCohortPairs$pair_id,
+  paste,
+  sep = "_"
+))
+missingSequenceResults <- setdiff(expectedResultIds, names(sequenceRatioResults))
+missingTemporalResults <- setdiff(expectedResultIds, names(temporalSymmetryResults))
+if (length(missingSequenceResults) > 0 || length(missingTemporalResults) > 0) {
+  stop(
+    "CohortSymmetry did not complete every analysis/pair combination. ",
+    "Missing sequence results: ",
+    paste(missingSequenceResults, collapse = ", "),
+    "; missing temporal results: ",
+    paste(missingTemporalResults, collapse = ", ")
+  )
+}
+
 sequenceRatioResult <- do.call(
   omopgenerics::bind,
   sequenceRatioResults

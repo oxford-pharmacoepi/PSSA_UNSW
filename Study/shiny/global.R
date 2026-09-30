@@ -2,6 +2,7 @@
 # Be careful editing this file
 
 library(bslib)
+library(CohortCharacteristics)
 library(dplyr)
 library(DT)
 library(gt)
@@ -28,7 +29,14 @@ rawDataFiles <- list.files(
   pattern = "\\.(csv|zip)$",
   full.names = TRUE
 )
+preprocessDependencies <- file.path(
+  getwd(), c("data/preprocess.R", "functions.R")
+)
+rawDataFiles <- c(rawDataFiles, preprocessDependencies[file.exists(preprocessDependencies)])
 protocolPairsFile <- file.path(getwd(), "data", "analysis_pairs.csv")
+if (!file.exists(protocolPairsFile)) {
+  protocolPairsFile <- file.path(getwd(), "..", "inst", "analysis_pairs.csv")
+}
 if (file.exists(protocolPairsFile)) rawDataFiles <- c(rawDataFiles, protocolPairsFile)
 cacheIsStale <- !file.exists(fileData) ||
   (length(rawDataFiles) > 0 &&

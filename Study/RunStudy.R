@@ -105,6 +105,25 @@ if ("temporal_symmetry" %in% resultTypes) {
 }
 
 shinyDirectory <- file.path(studyPath, "shiny")
+
+# OmopViewer regenerates the entire application directory. Preserve the
+# protocol-focused interface and helpers maintained in this repository so a
+# new database run refreshes the data without restoring the verbose generated
+# navigation and controls.
+customShinyFiles <- c(
+  "ui.R",
+  "server.R",
+  "functions.R",
+  "global.R",
+  file.path("data", "preprocess.R"),
+  file.path("www", "custom.css")
+)
+customShinyContents <- lapply(customShinyFiles, function(relativePath) {
+  path <- file.path(shinyDirectory, relativePath)
+  if (file.exists(path)) readLines(path, warn = FALSE) else NULL
+})
+names(customShinyContents) <- customShinyFiles
+
 if (dir.exists(shinyDirectory)) {
   unlink(shinyDirectory, recursive = TRUE)
 }
@@ -120,7 +139,18 @@ OmopViewer::exportStaticApp(
   open = FALSE
 )
 
-appendCohortSymmetryShinyFunctions(shinyDirectory)
+for (relativePath in names(customShinyContents)) {
+  contents <- customShinyContents[[relativePath]]
+  if (!is.null(contents)) {
+    destination <- file.path(shinyDirectory, relativePath)
+    dir.create(dirname(destination), recursive = TRUE, showWarnings = FALSE)
+    writeLines(contents, destination)
+  }
+}
+
+if (is.null(customShinyContents[["functions.R"]])) {
+  appendCohortSymmetryShinyFunctions(shinyDirectory)
+}
 file.copy(
   from = file.path(studyPath, "ShinySupport", "background.md"),
   to = file.path(shinyDirectory, "background.md"),

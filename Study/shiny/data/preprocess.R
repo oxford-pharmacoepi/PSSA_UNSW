@@ -1,5 +1,6 @@
 # shiny is prepared to work with this resultList:
 resultList <- list(
+  summarise_characteristics = list(result_type = "summarise_characteristics"),
   summarise_omop_snapshot = list(result_type = "summarise_omop_snapshot"),
   summarise_log_file = list(result_type = "summarise_log_file"),
   sequence_ratios = list(result_type = "sequence_ratios"),
@@ -79,16 +80,14 @@ choices$sequence_ratios_analysis_id <-
 choices$temporal_symmetry_analysis_id <-
   labelAnalysisChoices(choices$temporal_symmetry_analysis_id)
 
-# Start large panels with a useful, fast view. Users can expand any picker to
-# compare additional cohort pairs or sensitivity analyses.
-firstChoice <- function(x) {
-  if (length(x) == 0) character() else x[[1]]
-}
-
+# Start with every protocol pair and available analysis so both drug ->
+# condition diagnoses and drug -> drug proxies are visible. The supplied
+# results have no proxy rows for the primary analysis, although proxy rows are
+# present for each sensitivity analysis.
 selected$sequence_ratios_index_cohort_name <-
-  firstChoice(sequenceProtocolPairs$index_cohort_name)
+  unique(sequenceProtocolPairs$index_cohort_name)
 selected$sequence_ratios_marker_cohort_name <-
-  firstChoice(sequenceProtocolPairs$marker_cohort_name)
+  unique(sequenceProtocolPairs$marker_cohort_name)
 selected$sequence_ratios_variable_name <-
   intersect(c("adjusted", "crude"), choices$sequence_ratios_variable_name)
 selected$sequence_ratios_estimate_name <-
@@ -97,22 +96,14 @@ selected$sequence_ratios_estimate_name <-
     choices$sequence_ratios_estimate_name
   )
 selected$sequence_ratios_analysis_id <-
-  if ("primary" %in% unname(choices$sequence_ratios_analysis_id)) {
-    "primary"
-  } else {
-    firstChoice(choices$sequence_ratios_analysis_id)
-  }
+  unname(choices$sequence_ratios_analysis_id)
 
 selected$temporal_symmetry_index_name <-
-  firstChoice(temporalProtocolPairs$index_name)
+  unique(temporalProtocolPairs$index_name)
 selected$temporal_symmetry_marker_name <-
-  firstChoice(temporalProtocolPairs$marker_name)
+  unique(temporalProtocolPairs$marker_name)
 selected$temporal_symmetry_analysis_id <-
-  if ("primary" %in% unname(choices$temporal_symmetry_analysis_id)) {
-    "primary"
-  } else {
-    firstChoice(choices$temporal_symmetry_analysis_id)
-  }
+  unname(choices$temporal_symmetry_analysis_id)
 
 save(
   data, choices, selected, values, protocolPairs,

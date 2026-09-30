@@ -14,9 +14,12 @@ washout. Eight one-at-a-time sensitivity analyses change the window to 30, 60,
 days while retaining every other primary setting.
 
 Use **Sequence ratios** for crude and adjusted sequence-ratio estimates,
-confidence intervals, the primary forest plot, and one-at-a-time sensitivity
-analyses. Use **Temporal symmetry** to inspect the distribution of marker
-timing before and after the index medicine.
+confidence intervals, the primary forest plot, and the one-at-a-time
+sensitivity plot.
+Use **Temporal symmetry** to inspect the distribution of marker timing before
+and after the index medicine. PhenotypeR panels document cohort counts,
+characteristics, overlap, code use, and other diagnostics generated at the
+participating data source.
 
 All results are for signal detection and prioritisation. Concordance does not
 establish causality or clinical actionability. Small cells are suppressed using

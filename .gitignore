@@ -40,3 +40,28 @@ vignettes/*.pdf
 Study/Results/*
 !Study/Results/README.md
 .Rproj.user
+
+# macOS, Office, and local IDE artefacts
+.DS_Store
+**/.DS_Store
+~$*.docx
+~$*.xlsx
+
+# Local reference documents and ad-hoc plots
+/GNN_PSSA_triangulation.docx
+/Rplots.pdf
+/Study/Prelim_index_marker_list.xlsx
+
+# Large local vocabulary/source extracts (derived inputs, not study code)
+/Study/all_condition_codes.csv
+/Study/all_drug_codes.csv
+/Study/final_codes.csv
+/Study/inst/source_drug_lookup.csv
+
+# Database result exports and generated Shiny cache
+/Study/shiny/data/*.csv
+/Study/shiny/data/*.RData
+/Study/shiny/rsconnect/
+
+# Manuscript working files and generated artefacts
+/Study/manuscript/
