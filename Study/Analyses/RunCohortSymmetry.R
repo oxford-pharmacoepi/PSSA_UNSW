@@ -108,70 +108,69 @@ cohortSetTypes <- list(
     marker_table = "pssa_drug_cohorts"
   )
 )
+cohortSetTypes <- purrr::keep(
+  cohortSetTypes,
+  function(cohortSet) {
+    any(
+      pssaCohortPairs$index_table == cohortSet$index_table &
+        pssaCohortPairs$marker_table == cohortSet$marker_table
+    )
+  }
+)
 
 for (settingIndex in seq_len(nrow(analysisSettings))) {
   setting <- analysisSettings[settingIndex, ]
   for (setType in names(cohortSetTypes)) {
     cohortSet <- cohortSetTypes[[setType]]
-    setPairs <- pssaCohortPairs |>
-      dplyr::filter(
-        .data$index_table == cohortSet$index_table,
-        .data$marker_table == cohortSet$marker_table
-      )
+    resultId <- paste(setting$analysis_id, setType, sep = "_")
+    sequenceCohortName <- paste0("pssa_sequence_", resultId)
+    omopgenerics::logMessage(paste("Generating sequence cohort", resultId))
 
-    for (pairIndex in seq_len(nrow(setPairs))) {
-      pair <- setPairs[pairIndex, ]
-      resultId <- paste(setting$analysis_id, pair$pair_id, sep = "_")
-      sequenceCohortName <- paste0("pssa_sequence_", resultId)
-      omopgenerics::logMessage(paste("Generating sequence cohort", resultId))
+    cdm <- CohortSymmetry::generateSequenceCohortSet(
+      cdm = cdm,
+      indexTable = cohortSet$index_table,
+      indexId = NULL,
+      markerTable = cohortSet$marker_table,
+      markerId = NULL,
+      name = sequenceCohortName,
+      cohortDateRange = pssaHistoryDateRange,
+      washoutWindow = setting$washout_window,
+      daysPriorObservation = setting$days_prior_observation,
+      indexMarkerGap = setting$index_marker_gap,
+      combinationWindow = c(setting$blackout_days, setting$window_days),
+      movingAverageRestriction = setting$moving_average_restriction
+    )
 
-      cdm <- CohortSymmetry::generateSequenceCohortSet(
-        cdm = cdm,
-        indexTable = pair$index_table,
-        indexId = pair$index_id,
-        markerTable = pair$marker_table,
-        markerId = pair$marker_id,
-        name = sequenceCohortName,
-        # Use the complete-capture PBS period to establish incident status.
-        cohortDateRange = pssaHistoryDateRange,
-        washoutWindow = setting$washout_window,
-        daysPriorObservation = setting$days_prior_observation,
-        indexMarkerGap = setting$index_marker_gap,
-        combinationWindow = c(setting$blackout_days, setting$window_days),
-        movingAverageRestriction = setting$moving_average_restriction
-      )
-
-      if (!is.na(pssaAnalysisDateRange[[1]])) {
-        cdm[[sequenceCohortName]] <- cdm[[sequenceCohortName]] |>
-          dplyr::filter(
-            .data$index_date >= pssaAnalysisDateRange[[1]],
-            .data$marker_date >= pssaAnalysisDateRange[[1]]
-          ) |>
-          dplyr::compute(name = sequenceCohortName, temporary = FALSE)
-      }
-
-      sequenceRatioResults[[resultId]] <- CohortSymmetry::summariseSequenceRatios(
-        cohort = cdm[[sequenceCohortName]]
-      ) |>
-        addProtocolSettings(setting = setting)
-
-      temporalSymmetryResults[[resultId]] <- CohortSymmetry::summariseTemporalSymmetry(
-        cohort = cdm[[sequenceCohortName]],
-        timescale = setting$timescale
-      ) |>
-        addProtocolSettings(setting = setting)
-
-      cdm <- CDMConnector::dropTable(
-        cdm = cdm,
-        name = sequenceCohortName
-      )
+    if (!is.na(pssaAnalysisDateRange[[1]])) {
+      cdm[[sequenceCohortName]] <- cdm[[sequenceCohortName]] |>
+        dplyr::filter(
+          .data$index_date >= pssaAnalysisDateRange[[1]],
+          .data$marker_date >= pssaAnalysisDateRange[[1]]
+        ) |>
+        dplyr::compute(name = sequenceCohortName, temporary = FALSE)
     }
+
+    sequenceRatioResults[[resultId]] <- CohortSymmetry::summariseSequenceRatios(
+      cohort = cdm[[sequenceCohortName]]
+    ) |>
+      addProtocolSettings(setting = setting)
+
+    temporalSymmetryResults[[resultId]] <- CohortSymmetry::summariseTemporalSymmetry(
+      cohort = cdm[[sequenceCohortName]],
+      timescale = setting$timescale
+    ) |>
+      addProtocolSettings(setting = setting)
+
+    cdm <- CDMConnector::dropTable(
+      cdm = cdm,
+      name = sequenceCohortName
+    )
   }
 }
 
 expectedResultIds <- as.vector(outer(
   analysisSettings$analysis_id,
-  pssaCohortPairs$pair_id,
+  names(cohortSetTypes),
   paste,
   sep = "_"
 ))
@@ -179,7 +178,7 @@ missingSequenceResults <- setdiff(expectedResultIds, names(sequenceRatioResults)
 missingTemporalResults <- setdiff(expectedResultIds, names(temporalSymmetryResults))
 if (length(missingSequenceResults) > 0 || length(missingTemporalResults) > 0) {
   stop(
-    "CohortSymmetry did not complete every analysis/pair combination. ",
+    "CohortSymmetry did not complete every analysis/cohort-set combination. ",
     "Missing sequence results: ",
     paste(missingSequenceResults, collapse = ", "),
     "; missing temporal results: ",
